@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأفعال المركبة — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "give up = يستسلم / يتخلى",
+   "note": "مثال: Never give up on your dreams. — لا تستسلم أبداً لأحلامك."
+  },
+  {
+   "btype": "example",
+   "text": "look for = يبحث عن",
+   "note": "مثال: I am looking for my keys. — أبحث عن مفاتيحي."
+  },
+  {
+   "btype": "example",
+   "text": "find out = يكتشف",
+   "note": "مثال: We found out the truth. — اكتشفنا الحقيقة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «find out»؟",
+    "options": [
+     "يستسلم / يتخلى",
+     "يبحث عن",
+     "يكتشف"
+    ],
+    "correct": 2,
+    "explanation": "«find out» تعني «يكتشف».",
+    "topic": "en:الأفعال المركبة — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "get up = يستيقظ",
+   "note": "مثال: I get up at six every day. — أستيقظ الساعة السادسة كل يوم."
+  },
+  {
+   "btype": "example",
+   "text": "turn on = يشغّل",
+   "note": "مثال: Turn on the lights, please. — شغّل الأنوار من فضلك."
+  },
+  {
+   "btype": "example",
+   "text": "turn off = يطفئ",
+   "note": "مثال: Turn off the computer before you leave. — أطفئ الحاسوب قبل أن تغادر."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «turn off»؟",
+    "options": [
+     "يستيقظ",
+     "يشغّل",
+     "يطفئ"
+    ],
+    "correct": 2,
+    "explanation": "«turn off» تعني «يطفئ».",
+    "topic": "en:الأفعال المركبة — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "put off = يؤجل",
+   "note": "مثال: They put off the meeting until Monday. — أجّلوا الاجتماع إلى الاثنين."
+  },
+  {
+   "btype": "example",
+   "text": "figure out = يفهم / يحل",
+   "note": "مثال: I can't figure out this problem. — لا أستطيع حل هذه المشكلة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

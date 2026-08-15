@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ frère (مذكّر).",
+    "options": [
+     "un",
+     "une",
+     "des",
+     "le"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد نكرة: un.",
+    "topic": "gram.articles_indef"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ livres (جمع).",
+    "options": [
+     "un",
+     "une",
+     "des",
+     "les"
+    ],
+    "correct": 2,
+    "explanation": "جمع نكرة: des.",
+    "topic": "gram.articles_indef"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: J'ai ___ chien (كلب، مذكّر). اكتب الأداة.",
+    "correct": "un",
+    "accepted": [],
+    "explanation": "مذكّر نكرة: un chien.",
+    "topic": "gram.articles_indef"
+   }
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "translation": "Say, \"I seek refuge in the Lord of daybreak"
+     },
+     {
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "translation": "From the evil of that which He created"
+     },
+     {
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "translation": "And from the evil of darkness when it settles"
+     },
+     {
+      "text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+      "translation": "And from the evil of the blowers in knots"
+     },
+     {
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "translation": "And from the evil of an envier when he envies.\""
+     }
+    ],
+    "lang": "ar"
+   }
+  }
+ ]
+}

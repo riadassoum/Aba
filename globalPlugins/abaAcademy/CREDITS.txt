@@ -1,0 +1,51 @@
+Arab Blind Academy (أكاديمية الكفيف العربي) — Third-party content credits
+=========================================================================
+
+English word bank (resources/typing_en.txt):
+  Derived from the "google-10000-english" frequency list (public domain word frequency data).
+
+French word bank (resources/typing_fr.txt):
+  Derived from a public French lemmatized frequency list (frequency data).
+
+Chemical elements data (science course):
+  Symbols and atomic numbers cross-checked against the open "Periodic-Table-JSON" dataset (public domain / MIT). Arabic names and uses authored for this add-on.
+
+Real example sentences (English/French dictation "Tatoeba" lessons and the sentence typing tiers):
+  Sourced from the Tatoeba Project (https://tatoeba.org), sentences and their Arabic translations are licensed under Creative Commons Attribution CC BY 2.0 FR. Attribution: © Tatoeba contributors, CC BY 2.0 FR.
+
+All geography, history, science, and general-knowledge facts are factual data (not copyrightable); Arabic wording is authored for this add-on.
+
+Qur'an course (courses/quran):
+  Qur'anic text in the Uthmani script is sourced via the alquran.cloud API (originating from the Tanzil project verified Qur'an text) and is reproduced unmodified. Exegesis is Tafsir al-Muyassar; English meaning is Saheeh International. Grammatical parsing (i'rab) for Surah al-Fatihah is authored for this add-on. Used for non-commercial educational purposes with respect for the sanctity and integrity of the text.
+
+Qur'an reader (gui/quran_reader.py + resources/quran/quran_data.json):
+  Full Uthmani text and per-ayah navigation metadata (juz'/hizb/page) via the alquran.cloud API (Tanzil verified text), reproduced unmodified. Recitation audio is streamed on demand from the free cdn.islamic.network service; the reciters listed are their respective reciters' recordings, used for personal non-commercial listening. Requires an internet connection for audio only.
+
+Built-in audio player (globalPlugins/abaAcademy/lib/):
+  Bundles the 'miniaudio' Python library by Irmen de Jong (MIT/ISC) which wraps the public-domain miniaudio C library (David Reid), plus 'cffi' (MIT) and 'pycparser' (BSD). These provide fully in-process MP3 playback so recitation never launches an external program. Recitation audio itself is cached on demand under the user's NVDA data folder for fast, offline listening.
+
+Qur'an editions (scripts, tafsirs, translations):
+  Text of multiple scripts, the tafsir editions, and translations are provided by the alquran.cloud API (Tanzil-derived verified text). A few are bundled; the remaining editions in the in-app catalogue are downloaded on first use and cached under the user's NVDA data folder. Reproduced unmodified.
+
+Contributors:
+  Muhammad Hajjar — fixed the SQLite problem that prevented the add-on from working when the user has no separate Python installation (NVDA's bundled Python lacks the sqlite3 module); improved several of the courses; and fixed the encoding ("Askie"/non-ASCII) problem in the lessons' file names. His work was essential to making this add-on run reliably on every user's machine.
+
+Adaptations from the al-bayan NVDA project (TecWindow, GPL v3):
+  The whole-surah player and its reciter list, the download-progress window, the multi-surah hifz range with repeat modes, the precise surah+ayah go-to dialog, and the athkar/tasbih tools are adapted from al-bayan (https://github.com/tecwindow/albayan). No source was copied verbatim.
+
+NVDA training lessons (computer/nvda level):
+  Additional lessons adapted into Arabic from the freely distributed NVDA Coach add-on by Tony Gebhard (https://tonygebhard.me/nvdacoach/).
+
+Word-by-word morphology (resources/quran/word_analysis.json):
+  Root, lemma and part-of-speech data from the Quranic Arabic Corpus (Kais Dukes, University of Leeds) via the Arabic fork mustafa0x/quran-morphology, published under the GNU GPL.
+
+Islamic tools data:
+  The 99 Names of Allah and prayer times use the free AlAdhan API (aladhan.com, no key). The adhkar dataset is from the al-bayan project. English dictionary lookups use the free Dictionary API (dictionaryapi.dev, Wiktionary CC BY-SA); pronunciation audio via Google Translate TTS.
+
+Offline Arabic dictionary (resources/dictionary/arabic_words.txt.gz):
+  A full open-source Arabic word list of roughly 294,000 words, cleaned and de-diacritized, from the community Dictionaries collection (https://github.com/titoBouzout/Dictionaries, Arabic.dic — derived from open Hunspell/Buckwalter Arabic data). Used by the word games (anagrams) to validate Arabic words fully offline, and to enrich the Arabic typing word bank. The common-word ordering used to expand the typing bank draws on Hermit Dave's FrequencyWords project (https://github.com/hermitdave/FrequencyWords, MIT licence).
+
+
+Millionaire question bank (resources/millionaire/questions.json.gz):
+  Combines two sources. (1) ArabicMMLU (MBZUAI), a large native-Arabic multiple-choice dataset across many subjects, licensed CC BY-NC 4.0 (https://huggingface.co/datasets/MBZUAI/ArabicMMLU) — used unchanged as four-option questions. (2) Arabic general-knowledge competition question banks (مسابقات) provided by the author, whose open-ended questions were parsed, cleaned, and converted into four-option questions with same-type distractors. Used by the 'من سيربح المليون' game. Note: the ArabicMMLU portion is non-commercial (CC BY-NC).
+  Additional questions come from openai/MMMLU (a human-translated Arabic multiple-choice set, MIT licence, https://huggingface.co/datasets/openai/MMMLU), filtered to general-interest subjects. Some ArabicMMLU items with source text-encoding corruption were repaired or removed.

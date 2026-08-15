@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She ___ a doctor.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم is.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: We ___ friends.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 2,
+    "explanation": "مع we نستخدم are.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ happy.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم am دائماً.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: They ___ students. (اكتب الفعل فقط)",
+    "correct": "are",
+    "accepted": [],
+    "explanation": "مع they نستخدم are.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "الجملة صحيحة: He happy.",
+    "correct": false,
+    "explanation": "ناقصة الفعل؛ الصواب He is happy.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي الصحيح لـ She is late:",
+    "options": [
+     "She not is late",
+     "She is not late",
+     "She no is late",
+     "She isn't not late"
+    ],
+    "correct": 1,
+    "explanation": "النفي بإضافة not بعد is.",
+    "topic": "gram.to_be"
+   }
+  }
+ ]
+}

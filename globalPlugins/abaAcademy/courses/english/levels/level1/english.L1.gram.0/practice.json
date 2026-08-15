@@ -1,0 +1,91 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "She {b} a teacher.",
+      "correct": "is",
+      "distractors": [
+       "am",
+       "are",
+       "be"
+      ],
+      "explain": "مع He/She/It نستخدم is.",
+      "topic": "gram.be"
+     },
+     {
+      "prompt": "They {b} happy today.",
+      "correct": "are",
+      "distractors": [
+       "is",
+       "am",
+       "be"
+      ],
+      "explain": "مع We/You/They نستخدم are.",
+      "topic": "gram.be"
+     },
+     {
+      "prompt": "I {b} a student.",
+      "correct": "am",
+      "distractors": [
+       "is",
+       "are",
+       "be"
+      ],
+      "explain": "مع I نستخدم am دائماً.",
+      "topic": "gram.be"
+     },
+     {
+      "prompt": "We {b} from Lebanon.",
+      "correct": "are",
+      "distractors": [
+       "is",
+       "am",
+       "was"
+      ],
+      "explain": "مع We نستخدم are.",
+      "topic": "gram.be"
+     },
+     {
+      "prompt": "It {b} a small dog.",
+      "correct": "is",
+      "distractors": [
+       "am",
+       "are",
+       "were"
+      ],
+      "explain": "مع It نستخدم is.",
+      "topic": "gram.be"
+     },
+     {
+      "prompt": "One book, two {b}.",
+      "correct": "books",
+      "distractors": [
+       "book",
+       "bookes",
+       "bookies"
+      ],
+      "explain": "نضيف -s للجمع المنتظم.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "One box, two {b}.",
+      "correct": "boxes",
+      "distractors": [
+       "boxs",
+       "boxies",
+       "box"
+      ],
+      "explain": "الكلمات المنتهية بـ x تأخذ -es.",
+      "topic": "gram.plural"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

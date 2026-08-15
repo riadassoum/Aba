@@ -1,0 +1,98 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 8,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "translation": "By the fig and the olive"
+     },
+     {
+      "text": "وَطُورِ سِينِينَ",
+      "translation": "And [by] Mount Sinai"
+     },
+     {
+      "text": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "translation": "And [by] this secure city [Makkah],"
+     },
+     {
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+      "translation": "We have certainly created man in the best of stature;"
+     },
+     {
+      "text": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+      "translation": "Then We return him to the lowest of the low,"
+     },
+     {
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+      "translation": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted."
+     },
+     {
+      "text": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "translation": "So what yet causes you to deny the Recompense?"
+     },
+     {
+      "text": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+      "translation": "Is not Allah the most just of judges?"
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ...",
+    "correct": "ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+    "accepted": [
+     "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ﴾",
+    "topic": "quran:95"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ ...",
+    "correct": "فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+    "accepted": [
+     "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ﴾",
+    "topic": "quran:95"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: ثُمَّ رَدَدْنَٰهُ ...",
+    "correct": "أَسْفَلَ سَٰفِلِينَ",
+    "accepted": [
+     "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ"
+    ],
+    "explanation": "الآية كاملة: ﴿ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ﴾",
+    "topic": "quran:95"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ...",
+    "correct": "ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+    "accepted": [
+     "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ﴾",
+    "topic": "quran:95"
+   }
+  }
+ ]
+}

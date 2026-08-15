@@ -1,0 +1,907 @@
+{
+ "course_id": "french",
+ "title": "اللغة الفرنسية",
+ "description": "من التعريف بالنفس إلى الإتقان، بمفردات وقواعد حقيقية.",
+ "order": 2,
+ "version": "1.0.0",
+ "levels": [
+  {
+   "level_id": "level1",
+   "title": "المستوى الأول: التعريف بالنفس والتحية",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "french.L1.التحيات.0",
+     "title": "مفردات: التحيات",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات التحيات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x.0.6d4bac87"
+    },
+    {
+     "lesson_id": "french.L1.الأرقام___الجزء_1.0",
+     "title": "مفردات: الأرقام — الجزء 1",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأرقام — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x___x_1.0.6226cc35"
+    },
+    {
+     "lesson_id": "french.L1.الأرقام___الجزء_2.1",
+     "title": "مفردات: الأرقام — الجزء 2 (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الأرقام — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x___x_2.1.1f646ad5"
+    },
+    {
+     "lesson_id": "french.L1.الألوان.0",
+     "title": "مفردات: الألوان",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الألوان: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x.0.07bdaa46"
+    },
+    {
+     "lesson_id": "french.L1.العائلة.0",
+     "title": "مفردات: العائلة",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات العائلة: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x.0.cd2e18cd"
+    },
+    {
+     "lesson_id": "french.L1.الحيوانات.0",
+     "title": "مفردات: الحيوانات",
+     "order": 5,
+     "objectives": [
+      "إتقان مفردات الحيوانات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "french.L1.x.0.cddae8ec"
+    },
+    {
+     "lesson_id": "french.L1.gram.0",
+     "title": "قواعد المستوى 1",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "french.L1.gram.1",
+     "title": "قواعد المستوى 1 (2)",
+     "order": 7,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "level2",
+   "title": "المستوى الثاني: الحياة اليومية",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "french.L2.المنزل.0",
+     "title": "مفردات: المنزل",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات المنزل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x.0.f667da98"
+    },
+    {
+     "lesson_id": "french.L2.الطعام_والشراب___الج.0",
+     "title": "مفردات: الطعام والشراب — الجزء 1",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الطعام والشراب — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x_x___x.0.547508bd"
+    },
+    {
+     "lesson_id": "french.L2.الطعام_والشراب___الج.1",
+     "title": "مفردات: الطعام والشراب — الجزء 2 (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الطعام والشراب — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x_x___x.1.0a4f5a7d"
+    },
+    {
+     "lesson_id": "french.L2.الوقت.0",
+     "title": "مفردات: الوقت",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الوقت: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x.0.a2ad7d2d"
+    },
+    {
+     "lesson_id": "french.L2.أعضاء_الجسم.0",
+     "title": "مفردات: أعضاء الجسم",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات أعضاء الجسم: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x_x.0.8f157fc8"
+    },
+    {
+     "lesson_id": "french.L2.الصفات.0",
+     "title": "مفردات: الصفات",
+     "order": 5,
+     "objectives": [
+      "إتقان مفردات الصفات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "french.L2.x.0.9ad54547"
+    },
+    {
+     "lesson_id": "french.L2.gram.0",
+     "title": "قواعد المستوى 2",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.L2.gram.1",
+     "title": "قواعد المستوى 2 (2)",
+     "order": 7,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "level3",
+   "title": "المستوى الثالث: المهن والأماكن",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "french.L3.المهن.0",
+     "title": "مفردات: المهن",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات المهن: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "french.L3.x.0.2dab33e9"
+    },
+    {
+     "lesson_id": "french.L3.الأماكن.0",
+     "title": "مفردات: الأماكن",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأماكن: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "french.L3.x.0.7c7c670d"
+    },
+    {
+     "lesson_id": "french.L3.المواصلات.0",
+     "title": "مفردات: المواصلات",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات المواصلات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "french.L3.x.0.d6f78f75"
+    },
+    {
+     "lesson_id": "french.L3.الطقس.0",
+     "title": "مفردات: الطقس",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الطقس: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "french.L3.x.0.d7101db9"
+    },
+    {
+     "lesson_id": "french.L3.الصفات.0",
+     "title": "مفردات: الصفات",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات الصفات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "french.L3.x.0.dabc77a8"
+    },
+    {
+     "lesson_id": "french.L3.gram.0",
+     "title": "قواعد المستوى 3",
+     "order": 5,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.L3.gram.1",
+     "title": "قواعد المستوى 3 (2)",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "level4",
+   "title": "المستوى الرابع: الأفعال في الحاضر",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "french.L4.الأفعال___الجزء_1.0",
+     "title": "مفردات: الأفعال — الجزء 1",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "french.L4.x___x_1.0.73670c13"
+    },
+    {
+     "lesson_id": "french.L4.الأفعال___الجزء_2.1",
+     "title": "مفردات: الأفعال — الجزء 2 (2)",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "french.L4.x___x_2.1.47d451ca"
+    },
+    {
+     "lesson_id": "french.L4.الأفعال___الجزء_3.2",
+     "title": "مفردات: الأفعال — الجزء 3 (3)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 3: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "french.L4.x___x_3.2.23360c67"
+    },
+    {
+     "lesson_id": "french.L4.gram.0",
+     "title": "قواعد المستوى 4",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "french.L4.gram.1",
+     "title": "قواعد المستوى 4 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "level5",
+   "title": "المستوى الخامس: التسوق والوصف",
+   "order": 5,
+   "lessons": [
+    {
+     "lesson_id": "french.L5.الملابس.0",
+     "title": "مفردات: الملابس",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات الملابس: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "french.L5.x.0.44de7d7e"
+    },
+    {
+     "lesson_id": "french.L5.التسوق.0",
+     "title": "مفردات: التسوق",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات التسوق: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "french.L5.x.0.c8b21b31"
+    },
+    {
+     "lesson_id": "french.L5.الاتجاهات.0",
+     "title": "مفردات: الاتجاهات",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الاتجاهات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "french.L5.x.0.00c42268"
+    },
+    {
+     "lesson_id": "french.L5.المقارنة_والتفضيل.0",
+     "title": "مفردات: المقارنة والتفضيل",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات المقارنة والتفضيل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "french.L5.x_x.0.1f1b0841"
+    },
+    {
+     "lesson_id": "french.L5.gram.0",
+     "title": "قواعد المستوى 5",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "french.L5.gram.1",
+     "title": "قواعد المستوى 5 (2)",
+     "order": 5,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "level6",
+   "title": "المستوى السادس: المطعم والسفر",
+   "order": 6,
+   "lessons": [
+    {
+     "lesson_id": "french.L6.في_المطعم.0",
+     "title": "مفردات: في المطعم",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات في المطعم: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "french.L6.x_x.0.f0f48b32"
+    },
+    {
+     "lesson_id": "french.L6.السفر.0",
+     "title": "مفردات: السفر",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات السفر: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "french.L6.x.0.8ed2defe"
+    },
+    {
+     "lesson_id": "french.L6.الصحة.0",
+     "title": "مفردات: الصحة",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الصحة: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "french.L6.x.0.f3595c35"
+    },
+    {
+     "lesson_id": "french.L6.المشاعر.0",
+     "title": "مفردات: المشاعر",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات المشاعر: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "french.L6.x.0.f41aae68"
+    },
+    {
+     "lesson_id": "french.L6.gram.0",
+     "title": "قواعد المستوى 6",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    },
+    {
+     "lesson_id": "french.L6.gram.1",
+     "title": "قواعد المستوى 6 (2)",
+     "order": 5,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    }
+   ]
+  },
+  {
+   "level_id": "level7",
+   "title": "المستوى السابع: العمل والرأي",
+   "order": 7,
+   "lessons": [
+    {
+     "lesson_id": "french.L7.العمل.0",
+     "title": "مفردات: العمل",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات العمل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "french.L7.x.0.bcec81c7"
+    },
+    {
+     "lesson_id": "french.L7.التعبير_عن_الرأي.0",
+     "title": "مفردات: التعبير عن الرأي",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات التعبير عن الرأي: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "french.L7.x_x_x.0.7d95c198"
+    },
+    {
+     "lesson_id": "french.L7.المراسلات.0",
+     "title": "مفردات: المراسلات",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات المراسلات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "french.L7.x.0.28115346"
+    },
+    {
+     "lesson_id": "french.L7.gram.0",
+     "title": "قواعد المستوى 7",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7
+    },
+    {
+     "lesson_id": "french.L7.gram.1",
+     "title": "قواعد المستوى 7 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7
+    }
+   ]
+  },
+  {
+   "level_id": "level8",
+   "title": "المستوى الثامن: الطلاقة والتعابير",
+   "order": 8,
+   "lessons": [
+    {
+     "lesson_id": "french.L8.إتقان_متقدم.0",
+     "title": "مفردات: إتقان متقدم",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات إتقان متقدم: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8,
+     "dir": "french.L8.x_x.0.d38f656f"
+    },
+    {
+     "lesson_id": "french.L8.التعابير_الاصطلاحية.0",
+     "title": "مفردات: التعابير الاصطلاحية",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات التعابير الاصطلاحية: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8,
+     "dir": "french.L8.x_x.0.f65b6536"
+    },
+    {
+     "lesson_id": "french.L8.gram.0",
+     "title": "قواعد المستوى 8",
+     "order": 2,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8
+    },
+    {
+     "lesson_id": "french.L8.gram.1",
+     "title": "قواعد المستوى 8 (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8
+    }
+   ]
+  },
+  {
+   "level_id": "french_grammar",
+   "title": "القواعد (Grammar) — شرح وتطبيق",
+   "order": 20,
+   "lessons": [
+    {
+     "lesson_id": "french.grammar.articles_def",
+     "title": "قواعد: أدوات التعريف (le / la / les)",
+     "order": 0,
+     "objectives": [
+      "إتقان قاعدة: أدوات التعريف (le / la / les)"
+     ],
+     "grammar_refs": [
+      "gram.articles_def"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "french.grammar.articles_indef",
+     "title": "قواعد: أدوات التنكير (un / une / des)",
+     "order": 1,
+     "objectives": [
+      "إتقان قاعدة: أدوات التنكير (un / une / des)"
+     ],
+     "grammar_refs": [
+      "gram.articles_indef"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "french.grammar.avoir",
+     "title": "قواعد: الفعل avoir (يملك) في المضارع",
+     "order": 2,
+     "objectives": [
+      "إتقان قاعدة: الفعل avoir (يملك) في المضارع"
+     ],
+     "grammar_refs": [
+      "gram.avoir"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "french.grammar.etre",
+     "title": "قواعد: الفعل être (يكون) في المضارع",
+     "order": 3,
+     "objectives": [
+      "إتقان قاعدة: الفعل être (يكون) في المضارع"
+     ],
+     "grammar_refs": [
+      "gram.etre"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "french.grammar.adjectives",
+     "title": "قواعد: مطابقة الصفة (Accord de l'adjectif)",
+     "order": 4,
+     "objectives": [
+      "إتقان قاعدة: مطابقة الصفة (Accord de l'adjectif)"
+     ],
+     "grammar_refs": [
+      "gram.adjectives"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.grammar.er_verbs",
+     "title": "قواعد: أفعال المجموعة الأولى (-er) في المضارع",
+     "order": 5,
+     "objectives": [
+      "إتقان قاعدة: أفعال المجموعة الأولى (-er) في المضارع"
+     ],
+     "grammar_refs": [
+      "gram.er_verbs"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.grammar.negation",
+     "title": "قواعد: النفي (ne ... pas)",
+     "order": 6,
+     "objectives": [
+      "إتقان قاعدة: النفي (ne ... pas)"
+     ],
+     "grammar_refs": [
+      "gram.negation"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.grammar.possessifs",
+     "title": "قواعد: صفات الملكية (mon / ma / mes)",
+     "order": 7,
+     "objectives": [
+      "إتقان قاعدة: صفات الملكية (mon / ma / mes)"
+     ],
+     "grammar_refs": [
+      "gram.possessifs"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.grammar.aller_futur",
+     "title": "قواعد: الفعل aller والمستقبل القريب (futur proche)",
+     "order": 8,
+     "objectives": [
+      "إتقان قاعدة: الفعل aller والمستقبل القريب (futur proche)"
+     ],
+     "grammar_refs": [
+      "gram.aller_futur"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.grammar.comparatif_fr",
+     "title": "قواعد: المقارنة (plus / moins / aussi ... que)",
+     "order": 9,
+     "objectives": [
+      "إتقان قاعدة: المقارنة (plus / moins / aussi ... que)"
+     ],
+     "grammar_refs": [
+      "gram.comparatif_fr"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.grammar.prepositions_fr",
+     "title": "قواعد: حروف الجر والأماكن (à / en / au)",
+     "order": 10,
+     "objectives": [
+      "إتقان قاعدة: حروف الجر والأماكن (à / en / au)"
+     ],
+     "grammar_refs": [
+      "gram.prepositions_fr"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.grammar.questions_fr",
+     "title": "قواعد: السؤال (est-ce que وأدوات الاستفهام)",
+     "order": 11,
+     "objectives": [
+      "إتقان قاعدة: السؤال (est-ce que وأدوات الاستفهام)"
+     ],
+     "grammar_refs": [
+      "gram.questions_fr"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.grammar.imparfait",
+     "title": "قواعد: الماضي الناقص (imparfait)",
+     "order": 12,
+     "objectives": [
+      "إتقان قاعدة: الماضي الناقص (imparfait)"
+     ],
+     "grammar_refs": [
+      "gram.imparfait"
+     ],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "french.grammar.passe_compose",
+     "title": "قواعد: الماضي المركّب (passé composé) مع avoir",
+     "order": 13,
+     "objectives": [
+      "إتقان قاعدة: الماضي المركّب (passé composé) مع avoir"
+     ],
+     "grammar_refs": [
+      "gram.passe_compose"
+     ],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "french_conjugation",
+   "title": "الأزمنة وتصريف الأفعال (Conjugation)",
+   "order": 21,
+   "lessons": [
+    {
+     "lesson_id": "french.conj.0",
+     "title": "تصريف الأفعال: المضارع (présent)",
+     "order": 0,
+     "objectives": [
+      "إتقان تصريف الأفعال في المضارع (présent)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.conj.1",
+     "title": "تصريف الأفعال: الماضي المركّب (passé composé)",
+     "order": 1,
+     "objectives": [
+      "إتقان تصريف الأفعال في الماضي المركّب (passé composé)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.conj.2",
+     "title": "تصريف الأفعال: الماضي الناقص (imparfait)",
+     "order": 2,
+     "objectives": [
+      "إتقان تصريف الأفعال في الماضي الناقص (imparfait)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "french.conj.3",
+     "title": "تصريف الأفعال: المستقبل (futur simple)",
+     "order": 3,
+     "objectives": [
+      "إتقان تصريف الأفعال في المستقبل (futur simple)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "french_reading",
+   "title": "القراءة والفهم (Reading)",
+   "order": 22,
+   "lessons": [
+    {
+     "lesson_id": "french.read.journee",
+     "title": "قراءة وفهم: Ma journée",
+     "order": 0,
+     "objectives": [
+      "فهم نص مقروء والإجابة عن أسئلته"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.read.week_end",
+     "title": "قراءة وفهم: Le week-end",
+     "order": 1,
+     "objectives": [
+      "فهم نص مقروء والإجابة عن أسئلته"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "french_dictation",
+   "title": "الإملاء (Dictation)",
+   "order": 23,
+   "lessons": [
+    {
+     "lesson_id": "french.dict.journee",
+     "title": "إملاء: Ma journée",
+     "order": 0,
+     "objectives": [
+      "كتابة ما يُسمع بتهجئة صحيحة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "french.dict.week_end",
+     "title": "إملاء: Le week-end",
+     "order": 1,
+     "objectives": [
+      "كتابة ما يُسمع بتهجئة صحيحة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "french.dict.tatoeba",
+     "title": "إملاء: جُمل واقعية (Tatoeba)",
+     "order": 2,
+     "objectives": [
+      "كتابة جُمل حقيقية متنوّعة بالإملاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  }
+ ]
+}

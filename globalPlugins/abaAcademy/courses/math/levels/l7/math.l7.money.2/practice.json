@@ -1,0 +1,13 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.money",
+   "count": 21,
+   "params": {
+    "difficulty": 3,
+    "currency": "ريال"
+   }
+  }
+ ]
+}

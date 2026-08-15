@@ -1,0 +1,70 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "بم تبدأ كل معادلة في إكسل؟",
+      "correct": "علامة يساوي",
+      "distractors": [
+       "علامة زائد",
+       "قوس",
+       "نقطتان"
+      ],
+      "explain": "المعادلة تبدأ بعلامة يساوي.",
+      "topic": "pc.formulas"
+     },
+     {
+      "prompt": "أيّ دالة تحسب المجموع؟",
+      "correct": "SUM",
+      "distractors": [
+       "AVERAGE",
+       "MAX",
+       "COUNT"
+      ],
+      "explain": "SUM للجمع.",
+      "topic": "pc.formulas"
+     }
+    ],
+    "topic": "pc.formulas"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 6,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: بم تبدأ كل معادلة في إكسل؟ الإجابة هي «علامة يساوي».",
+      "is_true": true,
+      "explain": "المعادلة تبدأ بعلامة يساوي.",
+      "topic": "pc.formulas"
+     },
+     {
+      "text": "صحيح أم خطأ: بم تبدأ كل معادلة في إكسل؟ الإجابة هي «علامة زائد».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «علامة يساوي».",
+      "topic": "pc.formulas"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ دالة تحسب المجموع؟ الإجابة هي «SUM».",
+      "is_true": true,
+      "explain": "SUM للجمع.",
+      "topic": "pc.formulas"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ دالة تحسب المجموع؟ الإجابة هي «AVERAGE».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «SUM».",
+      "topic": "pc.formulas"
+     }
+    ],
+    "topic": "pc.formulas"
+   }
+  }
+ ]
+}

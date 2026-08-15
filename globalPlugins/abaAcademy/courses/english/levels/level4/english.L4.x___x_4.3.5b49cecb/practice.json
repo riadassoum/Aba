@@ -1,0 +1,410 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "close",
+      "meaning": "يغلق",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Close the door quietly.",
+      "translation": "أغلق الباب بهدوء."
+     },
+     {
+      "word": "start",
+      "meaning": "يبدأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The class starts at nine.",
+      "translation": "يبدأ الصف الساعة التاسعة."
+     },
+     {
+      "word": "finish",
+      "meaning": "ينهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I finish work at five.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "understand",
+      "meaning": "يفهم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Now I understand the lesson.",
+      "translation": "الآن أفهم الدرس."
+     },
+     {
+      "word": "forget",
+      "meaning": "ينسى",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Don't forget your keys.",
+      "translation": "لا تنسَ مفاتيحك."
+     },
+     {
+      "word": "remember",
+      "meaning": "يتذكر",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I remember his name now.",
+      "translation": "أتذكر اسمه الآن."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

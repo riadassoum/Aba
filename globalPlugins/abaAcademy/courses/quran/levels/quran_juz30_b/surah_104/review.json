@@ -1,0 +1,50 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+      "translation": "Woe to every scorner and mocker"
+     },
+     {
+      "text": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+      "translation": "Who collects wealth and [continuously] counts it."
+     },
+     {
+      "text": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "translation": "He thinks that his wealth will make him immortal."
+     },
+     {
+      "text": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "translation": "No! He will surely be thrown into the Crusher."
+     },
+     {
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "translation": "And what can make you know what is the Crusher?"
+     },
+     {
+      "text": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "translation": "It is the fire of Allah, [eternally] fueled,"
+     },
+     {
+      "text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "translation": "Which mounts directed at the hearts."
+     },
+     {
+      "text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+      "translation": "Indeed, Hellfire will be closed down upon them"
+     },
+     {
+      "text": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+      "translation": "In extended columns."
+     }
+    ],
+    "lang": "ar"
+   }
+  }
+ ]
+}

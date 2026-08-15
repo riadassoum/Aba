@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "aujourd'hui",
+      "meaning": "اليوم",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Aujourd'hui est une belle journée.",
+      "translation": "اليوم يوم جميل."
+     },
+     {
+      "word": "demain",
+      "meaning": "غداً",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "À demain.",
+      "translation": "أراك غداً."
+     },
+     {
+      "word": "hier",
+      "meaning": "أمس",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Je t'ai appelé hier.",
+      "translation": "اتصلت بك أمس."
+     },
+     {
+      "word": "matin",
+      "meaning": "صباح",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Bonjour à tous ce matin.",
+      "translation": "صباح الخير للجميع."
+     },
+     {
+      "word": "nuit",
+      "meaning": "ليل",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "C'est très calme la nuit.",
+      "translation": "الجو هادئ جداً في الليل."
+     },
+     {
+      "word": "semaine",
+      "meaning": "أسبوع",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Je vais le finir la semaine prochaine.",
+      "translation": "سأنهيه الأسبوع القادم."
+     },
+     {
+      "word": "mois",
+      "meaning": "شهر",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Nous voyageons chaque mois.",
+      "translation": "نسافر كل شهر."
+     },
+     {
+      "word": "année",
+      "meaning": "سنة",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Bonne année !",
+      "translation": "سنة سعيدة!"
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "aujourd'hui",
+      "meaning": "اليوم",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Aujourd'hui est une belle journée.",
+      "translation": "اليوم يوم جميل."
+     },
+     {
+      "word": "demain",
+      "meaning": "غداً",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "À demain.",
+      "translation": "أراك غداً."
+     },
+     {
+      "word": "hier",
+      "meaning": "أمس",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Je t'ai appelé hier.",
+      "translation": "اتصلت بك أمس."
+     },
+     {
+      "word": "matin",
+      "meaning": "صباح",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Bonjour à tous ce matin.",
+      "translation": "صباح الخير للجميع."
+     },
+     {
+      "word": "nuit",
+      "meaning": "ليل",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "C'est très calme la nuit.",
+      "translation": "الجو هادئ جداً في الليل."
+     },
+     {
+      "word": "semaine",
+      "meaning": "أسبوع",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Je vais le finir la semaine prochaine.",
+      "translation": "سأنهيه الأسبوع القادم."
+     },
+     {
+      "word": "mois",
+      "meaning": "شهر",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Nous voyageons chaque mois.",
+      "translation": "نسافر كل شهر."
+     },
+     {
+      "word": "année",
+      "meaning": "سنة",
+      "topic": "الوقت",
+      "difficulty": 2,
+      "example": "Bonne année !",
+      "translation": "سنة سعيدة!"
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

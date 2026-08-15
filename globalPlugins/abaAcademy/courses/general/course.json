@@ -1,0 +1,190 @@
+{
+ "course_id": "general",
+ "title": "الثقافة العامة",
+ "description": "القياسات ووحداتها، والزمن، والاختراعات ومخترعيها، وأعلام العلماء العرب. تمارين مولّدة لا تنفد.",
+ "order": 9,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "measures",
+   "title": "المستوى الأول: القياسات والوقت",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "gen.units",
+     "title": "الكميات ووحدات قياسها",
+     "order": 0,
+     "objectives": [
+      "الكميات ووحدات قياسها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "gen.units.master",
+     "title": "وحدات القياس — إتقان",
+     "order": 1,
+     "objectives": [
+      "وحدات القياس — إتقان"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "gen.time",
+     "title": "وحدات الزمن",
+     "order": 2,
+     "objectives": [
+      "وحدات الزمن"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "gen.time.calc",
+     "title": "حساب الوقت",
+     "order": 3,
+     "objectives": [
+      "حساب الوقت"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "inventions",
+   "title": "المستوى الثاني: الاختراعات",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "gen.inventions.0",
+     "title": "اختراعات غيّرت العالم — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: اختراعات غيّرت العالم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "gen.inventions.1",
+     "title": "اختراعات غيّرت العالم — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: اختراعات غيّرت العالم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "gen.inventions.2",
+     "title": "اختراعات غيّرت العالم — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: اختراعات غيّرت العالم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "scholars",
+   "title": "المستوى الثالث: أعلام العلماء العرب",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "gen.scholars0.0",
+     "title": "علماء عرب (1) — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: علماء عرب (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "gen.scholars0.1",
+     "title": "علماء عرب (1) — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: علماء عرب (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "gen.scholars0.2",
+     "title": "علماء عرب (1) — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: علماء عرب (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "gen.scholars1.0",
+     "title": "علماء عرب (2) — تعرّف",
+     "order": 3,
+     "objectives": [
+      "تعرّف: علماء عرب (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "gen.scholars1.1",
+     "title": "علماء عرب (2) — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: علماء عرب (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "gen.scholars1.2",
+     "title": "علماء عرب (2) — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: علماء عرب (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "gen.scholars.all.0",
+     "title": "أعلام العلماء — مراجعة — تعرّف",
+     "order": 6,
+     "objectives": [
+      "تعرّف: أعلام العلماء — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "gen.scholars.all.1",
+     "title": "أعلام العلماء — مراجعة — تطبيق",
+     "order": 7,
+     "objectives": [
+      "تطبيق: أعلام العلماء — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "gen.scholars.all.2",
+     "title": "أعلام العلماء — مراجعة — إتقان",
+     "order": 8,
+     "objectives": [
+      "إتقان: أعلام العلماء — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I saw ___ elephant.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "elephant تبدأ بصوت متحرك، فنستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ sun rises in the east.",
+    "options": [
+     "A",
+     "An",
+     "The",
+     "بدون أداة"
+    ],
+    "correct": 2,
+    "explanation": "الشمس شيء معروف وحيد، فنستخدم the.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I need ___ umbrella.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "umbrella تبدأ بصوت متحرك، فنستخدم an.",
+    "topic": "gram.articles"
+   }
+  }
+ ]
+}

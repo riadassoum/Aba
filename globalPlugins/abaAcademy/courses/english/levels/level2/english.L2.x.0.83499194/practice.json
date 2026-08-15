@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "big",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is a big city.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "small",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The kitten is very small.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "hot",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The soup is hot.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "cold",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The water is cold.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "new",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "I bought a new phone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "old",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "This is an old building.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "fast",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "He drives very fast.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "slow",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "The train is slow today.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Nous {b} la télévision.",
+    "options": [
+     "regarde",
+     "regardes",
+     "regardent",
+     "regardons"
+    ],
+    "correct": 3,
+    "explanation": "مع Nous نضيف -ons.",
+    "topic": "gram.present_er"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Ils {b} au cinéma.",
+    "options": [
+     "va",
+     "allons",
+     "allez",
+     "vont"
+    ],
+    "correct": 3,
+    "explanation": "aller فعل شاذ: ils vont.",
+    "topic": "gram.present_er"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Je {b} mes études cette année.",
+    "options": [
+     "finit",
+     "finissons",
+     "finissez",
+     "finis"
+    ],
+    "correct": 3,
+    "explanation": "مع Je نضيف -is.",
+    "topic": "gram.present_ir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Nous {b} nos études cette année.",
+    "options": [
+     "finis",
+     "finit",
+     "finissent",
+     "finissons"
+    ],
+    "correct": 3,
+    "explanation": "مع Nous نضيف -issons.",
+    "topic": "gram.present_ir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Je {b} pas faim.",
+    "options": [
+     "ai",
+     "n'a",
+     "as",
+     "n'ai"
+    ],
+    "correct": 3,
+    "explanation": "النفي البسيط: ne (n') + الفعل + pas.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Elle ne mange {b} de viande.",
+    "options": [
+     "pas",
+     "rien",
+     "personne",
+     "jamais"
+    ],
+    "correct": 3,
+    "explanation": "ne...jamais تعني «أبداً».",
+    "topic": "gram.negation"
+   }
+  }
+ ]
+}

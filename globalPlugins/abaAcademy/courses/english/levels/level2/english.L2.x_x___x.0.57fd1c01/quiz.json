@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "water",
+      "meaning": "ماء",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I drink water every morning.",
+      "translation": "أشرب الماء كل صباح."
+     },
+     {
+      "word": "bread",
+      "meaning": "خبز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "We buy bread daily.",
+      "translation": "نشتري الخبز يومياً."
+     },
+     {
+      "word": "rice",
+      "meaning": "أرز",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "She cooked rice and chicken.",
+      "translation": "طبخت أرزاً ودجاجاً."
+     },
+     {
+      "word": "meat",
+      "meaning": "لحم",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "He does not eat meat.",
+      "translation": "هو لا يأكل اللحم."
+     },
+     {
+      "word": "fruit",
+      "meaning": "فاكهة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Fruit is good for health.",
+      "translation": "الفاكهة مفيدة للصحة."
+     },
+     {
+      "word": "vegetable",
+      "meaning": "خضار",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Add some vegetables to the soup.",
+      "translation": "أضف بعض الخضار إلى الحساء."
+     },
+     {
+      "word": "milk",
+      "meaning": "حليب",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "The child drinks milk.",
+      "translation": "الطفل يشرب الحليب."
+     },
+     {
+      "word": "coffee",
+      "meaning": "قهوة",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Would you like coffee or tea?",
+      "translation": "هل تريد قهوة أم شاياً؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

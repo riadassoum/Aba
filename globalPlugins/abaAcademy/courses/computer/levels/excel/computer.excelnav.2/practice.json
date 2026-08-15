@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 14,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تعود إلى الخلية A1 بسرعة؟",
+      "correct": "Control مع Home",
+      "distractors": [
+       "Home فقط",
+       "Control مع End",
+       "F5"
+      ],
+      "explain": "Control+Home يعود إلى A1.",
+      "topic": "pc.excelnav"
+     },
+     {
+      "prompt": "ماذا يفعل Control مع سهم لأسفل؟",
+      "correct": "يقفز لآخر خلية مملوءة",
+      "distractors": [
+       "يحذف الصف",
+       "ينسخ الخلية",
+       "يفتح قائمة"
+      ],
+      "explain": "Control+سهم يقفز لحافة البيانات.",
+      "topic": "pc.excelnav"
+     }
+    ],
+    "topic": "pc.excelnav",
+    "difficulty": 2
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 11,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: كيف تعود إلى الخلية A1 بسرعة؟ الإجابة هي «Control مع Home».",
+      "is_true": true,
+      "explain": "Control+Home يعود إلى A1.",
+      "topic": "pc.excelnav"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تعود إلى الخلية A1 بسرعة؟ الإجابة هي «Home فقط».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Control مع Home».",
+      "topic": "pc.excelnav"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل Control مع سهم لأسفل؟ الإجابة هي «يقفز لآخر خلية مملوءة».",
+      "is_true": true,
+      "explain": "Control+سهم يقفز لحافة البيانات.",
+      "topic": "pc.excelnav"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل Control مع سهم لأسفل؟ الإجابة هي «يحذف الصف».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «يقفز لآخر خلية مملوءة».",
+      "topic": "pc.excelnav"
+     }
+    ],
+    "topic": "pc.excelnav",
+    "difficulty": 2
+   }
+  }
+ ]
+}

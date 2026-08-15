@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 13,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تعرض سطح المكتب بسرعة؟",
+      "correct": "ويندوز مع D",
+      "distractors": [
+       "Alt مع F4",
+       "Control مع W",
+       "Shift مع Delete"
+      ],
+      "explain": "Win+D لسطح المكتب.",
+      "topic": "pc.start"
+     },
+     {
+      "prompt": "كيف تبدّل بين النوافذ المفتوحة؟",
+      "correct": "Alt مع Tab",
+      "distractors": [
+       "Control مع C",
+       "ويندوز مع E",
+       "F2"
+      ],
+      "explain": "Alt+Tab للتبديل بين النوافذ.",
+      "topic": "pc.start"
+     }
+    ],
+    "topic": "pc.start",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 9,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: كيف تعرض سطح المكتب بسرعة؟ الإجابة هي «ويندوز مع D».",
+      "is_true": true,
+      "explain": "Win+D لسطح المكتب.",
+      "topic": "pc.start"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تعرض سطح المكتب بسرعة؟ الإجابة هي «Alt مع F4».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «ويندوز مع D».",
+      "topic": "pc.start"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تبدّل بين النوافذ المفتوحة؟ الإجابة هي «Alt مع Tab».",
+      "is_true": true,
+      "explain": "Alt+Tab للتبديل بين النوافذ.",
+      "topic": "pc.start"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تبدّل بين النوافذ المفتوحة؟ الإجابة هي «Control مع C».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Alt مع Tab».",
+      "topic": "pc.start"
+     }
+    ],
+    "topic": "pc.start",
+    "difficulty": 3
+   }
+  }
+ ]
+}

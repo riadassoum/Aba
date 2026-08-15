@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "réservation",
+      "meaning": "حجز",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "J'ai fait une réservation en ligne.",
+      "translation": "أجريت حجزاً عبر الإنترنت."
+     },
+     {
+      "word": "passeport",
+      "meaning": "جواز سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "N'oublie pas ton passeport.",
+      "translation": "لا تنسَ جواز سفرك."
+     },
+     {
+      "word": "billet",
+      "meaning": "تذكرة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "J'ai acheté deux billets.",
+      "translation": "اشتريت تذكرتين."
+     },
+     {
+      "word": "valise",
+      "meaning": "حقيبة سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Où est ma valise ?",
+      "translation": "أين حقيبتي؟"
+     },
+     {
+      "word": "hôtel",
+      "meaning": "فندق",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Nous avons séjourné dans un bel hôtel.",
+      "translation": "أقمنا في فندق جميل."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "réservation",
+      "meaning": "حجز",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "J'ai fait une réservation en ligne.",
+      "translation": "أجريت حجزاً عبر الإنترنت."
+     },
+     {
+      "word": "passeport",
+      "meaning": "جواز سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "N'oublie pas ton passeport.",
+      "translation": "لا تنسَ جواز سفرك."
+     },
+     {
+      "word": "billet",
+      "meaning": "تذكرة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "J'ai acheté deux billets.",
+      "translation": "اشتريت تذكرتين."
+     },
+     {
+      "word": "valise",
+      "meaning": "حقيبة سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Où est ma valise ?",
+      "translation": "أين حقيبتي؟"
+     },
+     {
+      "word": "hôtel",
+      "meaning": "فندق",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Nous avons séjourné dans un bel hôtel.",
+      "translation": "أقمنا في فندق جميل."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

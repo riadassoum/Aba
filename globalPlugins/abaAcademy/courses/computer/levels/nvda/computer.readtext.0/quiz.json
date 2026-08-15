@@ -1,0 +1,68 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تجعل NVDA يقرأ كل شيء من موضع المؤشر؟",
+      "correct": "NVDA مع السهم للأسفل (سطح المكتب)",
+      "distractors": [
+       "NVDA مع T",
+       "Control مع A",
+       "Alt مع F4"
+      ],
+      "explain": "NVDA مع السهم للأسفل (سطح المكتب)",
+      "topic": "computer.readtext.0"
+     },
+     {
+      "prompt": "كيف تقرأ السطر الحالي؟",
+      "correct": "NVDA مع السهم للأعلى (سطح المكتب)",
+      "distractors": [
+       "NVDA مع L",
+       "Control مع L",
+       "Shift مع Home"
+      ],
+      "explain": "NVDA مع السهم للأعلى (سطح المكتب)",
+      "topic": "computer.readtext.0"
+     },
+     {
+      "prompt": "كيف توقف القراءة المتواصلة فوراً؟",
+      "correct": "مفتاح Control",
+      "distractors": [
+       "مفتاح Enter",
+       "مفتاح Alt",
+       "مفتاح Shift"
+      ],
+      "explain": "مفتاح Control",
+      "topic": "computer.readtext.0"
+     },
+     {
+      "prompt": "كيف تقرأ الكلمة الحالية؟",
+      "correct": "NVDA مع الرقم 5 (سطح المكتب) — أو حسب التخطيط",
+      "distractors": [
+       "NVDA مع W دائماً",
+       "Control مع W",
+       "Alt مع W"
+      ],
+      "explain": "NVDA مع الرقم 5 (سطح المكتب) — أو حسب التخطيط",
+      "topic": "computer.readtext.0"
+     },
+     {
+      "prompt": "كيف تقرأ الحرف الحالي؟",
+      "correct": "تحريك المؤشر بالأسهم يميناً/يساراً فيُنطق الحرف",
+      "distractors": [
+       "NVDA مع C",
+       "Control مع رقم",
+       "Alt مع حرف"
+      ],
+      "explain": "تحريك المؤشر بالأسهم يميناً/يساراً فيُنطق الحرف",
+      "topic": "computer.readtext.0"
+     }
+    ]
+   }
+  }
+ ]
+}

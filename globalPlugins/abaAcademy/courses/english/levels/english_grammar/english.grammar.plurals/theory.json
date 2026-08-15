@@ -1,0 +1,45 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نجمع أغلب الأسماء بإضافة s مثل book → books. إذا انتهى الاسم بـ s, x, z, ch, sh نضيف es مثل box → boxes وwatch → watches. إذا انتهى بحرف ساكن قبله y نحذف y ونضيف ies مثل city → cities. بعض الجموع شاذة لا تتبع قاعدة: man → men، woman → women، child → children، foot → feet، tooth → teeth، mouse →mice."
+  },
+  {
+   "btype": "example",
+   "text": "one book, two books",
+   "note": "كتاب واحد، كتابان"
+  },
+  {
+   "btype": "example",
+   "text": "one box, two boxes",
+   "note": "صندوق، صندوقان"
+  },
+  {
+   "btype": "example",
+   "text": "one child, two children",
+   "note": "طفل، طفلان"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب جمع كلمة box:",
+    "correct": "boxes",
+    "accepted": [],
+    "explanation": "تنتهي بـ x فنضيف es.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب جمع كلمة city:",
+    "correct": "cities",
+    "accepted": [],
+    "explanation": "قبل y حرف ساكن، فنحذف y ونضيف ies.",
+    "topic": "gram.plurals"
+   }
+  }
+ ]
+}

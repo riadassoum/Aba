@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأفعال — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "go = يذهب",
+   "note": "مثال: I go to work by bus. — أذهب إلى العمل بالحافلة."
+  },
+  {
+   "btype": "example",
+   "text": "come = يأتي",
+   "note": "مثال: Please come here. — تعال إلى هنا من فضلك."
+  },
+  {
+   "btype": "example",
+   "text": "eat = يأكل",
+   "note": "مثال: We eat dinner at eight. — نأكل العشاء الساعة الثامنة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «eat»؟",
+    "options": [
+     "يذهب",
+     "يأتي",
+     "يأكل"
+    ],
+    "correct": 2,
+    "explanation": "«eat» تعني «يأكل».",
+    "topic": "en:الأفعال — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "drink = يشرب",
+   "note": "مثال: He drinks water every hour. — يشرب الماء كل ساعة."
+  },
+  {
+   "btype": "example",
+   "text": "sleep = ينام",
+   "note": "مثال: The baby sleeps a lot. — الطفل ينام كثيراً."
+  },
+  {
+   "btype": "example",
+   "text": "work = يعمل",
+   "note": "مثال: She works in an office. — تعمل في مكتب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «work»؟",
+    "options": [
+     "يشرب",
+     "ينام",
+     "يعمل"
+    ],
+    "correct": 2,
+    "explanation": "«work» تعني «يعمل».",
+    "topic": "en:الأفعال — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "study = يدرس",
+   "note": "مثال: I study English every day. — أدرس الإنجليزية كل يوم."
+  },
+  {
+   "btype": "example",
+   "text": "read = يقرأ",
+   "note": "مثال: He reads the newspaper. — يقرأ الجريدة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

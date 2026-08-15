@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المنزل». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "maison = منزل",
+   "note": "مثال: C'est ma maison. — هذا منزلي."
+  },
+  {
+   "btype": "example",
+   "text": "porte = باب",
+   "note": "مثال: Ferme la porte, s'il te plaît. — أغلق الباب من فضلك."
+  },
+  {
+   "btype": "example",
+   "text": "fenêtre = نافذة",
+   "note": "مثال: Ouvre la fenêtre. — افتح النافذة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «fenêtre»؟",
+    "options": [
+     "منزل",
+     "باب",
+     "نافذة"
+    ],
+    "correct": 2,
+    "explanation": "«fenêtre» تعني «نافذة».",
+    "topic": "fr:المنزل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "table = طاولة",
+   "note": "مثال: Mets l'assiette sur la table. — ضع الطبق على الطاولة."
+  },
+  {
+   "btype": "example",
+   "text": "chaise = كرسي",
+   "note": "مثال: Assieds-toi sur la chaise. — اجلس على الكرسي."
+  },
+  {
+   "btype": "example",
+   "text": "lit = سرير",
+   "note": "مثال: Le bébé est dans le lit. — الطفل في السرير."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «lit»؟",
+    "options": [
+     "طاولة",
+     "كرسي",
+     "سرير"
+    ],
+    "correct": 2,
+    "explanation": "«lit» تعني «سرير».",
+    "topic": "fr:المنزل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "cuisine = مطبخ",
+   "note": "مثال: Ma mère est dans la cuisine. — أمي في المطبخ."
+  },
+  {
+   "btype": "example",
+   "text": "salle de bain = حمام",
+   "note": "مثال: La salle de bain est propre. — الحمام نظيف."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

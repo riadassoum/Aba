@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "gauche",
+      "meaning": "يسار",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Tournez à gauche au feu.",
+      "translation": "انعطف يساراً عند الإشارة."
+     },
+     {
+      "word": "droite",
+      "meaning": "يمين",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Le magasin est à droite.",
+      "translation": "المحل على اليمين."
+     },
+     {
+      "word": "tout droit",
+      "meaning": "مباشرة إلى الأمام",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Continuez tout droit.",
+      "translation": "تابع مباشرة إلى الأمام."
+     },
+     {
+      "word": "près de",
+      "meaning": "قريب من",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "L'hôtel est près de la gare.",
+      "translation": "الفندق قريب من المحطة."
+     },
+     {
+      "word": "loin de",
+      "meaning": "بعيد عن",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Ma maison est loin du centre.",
+      "translation": "منزلي بعيد عن وسط المدينة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "gauche",
+      "meaning": "يسار",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Tournez à gauche au feu.",
+      "translation": "انعطف يساراً عند الإشارة."
+     },
+     {
+      "word": "droite",
+      "meaning": "يمين",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Le magasin est à droite.",
+      "translation": "المحل على اليمين."
+     },
+     {
+      "word": "tout droit",
+      "meaning": "مباشرة إلى الأمام",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Continuez tout droit.",
+      "translation": "تابع مباشرة إلى الأمام."
+     },
+     {
+      "word": "près de",
+      "meaning": "قريب من",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "L'hôtel est près de la gare.",
+      "translation": "الفندق قريب من المحطة."
+     },
+     {
+      "word": "loin de",
+      "meaning": "بعيد عن",
+      "topic": "الاتجاهات",
+      "difficulty": 5,
+      "example": "Ma maison est loin du centre.",
+      "translation": "منزلي بعيد عن وسط المدينة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

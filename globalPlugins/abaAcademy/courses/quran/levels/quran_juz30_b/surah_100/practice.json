@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 10,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+      "translation": "By the racers, panting,"
+     },
+     {
+      "text": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+      "translation": "And the producers of sparks [when] striking"
+     },
+     {
+      "text": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+      "translation": "And the chargers at dawn,"
+     },
+     {
+      "text": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+      "translation": "Stirring up thereby [clouds of] dust,"
+     },
+     {
+      "text": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "translation": "Arriving thereby in the center collectively,"
+     },
+     {
+      "text": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+      "translation": "Indeed mankind, to his Lord, is ungrateful."
+     },
+     {
+      "text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+      "translation": "And indeed, he is to that a witness."
+     },
+     {
+      "text": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "translation": "And indeed he is, in love of wealth, intense."
+     },
+     {
+      "text": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "translation": "But does he not know that when the contents of the graves are scattered"
+     },
+     {
+      "text": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "translation": "And that within the breasts is obtained,"
+     },
+     {
+      "text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+      "translation": "Indeed, their Lord with them, that Day, is [fully] Acquainted."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ...",
+    "correct": "ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا﴾",
+    "topic": "quran:100"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: إِنَّ ٱلْإِنسَٰنَ ...",
+    "correct": "لِرَبِّهِۦ لَكَنُودٌۭ",
+    "accepted": [
+     "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ"
+    ],
+    "explanation": "الآية كاملة: ﴿إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ﴾",
+    "topic": "quran:100"
+   }
+  }
+ ]
+}

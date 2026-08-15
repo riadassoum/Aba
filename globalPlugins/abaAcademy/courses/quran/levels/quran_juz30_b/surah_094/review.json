@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "translation": "Did We not expand for you, [O Muhammad], your breast?"
+     },
+     {
+      "text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "translation": "And We removed from you your burden"
+     },
+     {
+      "text": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "translation": "Which had weighed upon your back"
+     },
+     {
+      "text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "translation": "And raised high for you your repute."
+     },
+     {
+      "text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translation": "For indeed, with hardship [will be] ease."
+     },
+     {
+      "text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+      "translation": "Indeed, with hardship [will be] ease."
+     },
+     {
+      "text": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "translation": "So when you have finished [your duties], then stand up [for worship]."
+     },
+     {
+      "text": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "translation": "And to your Lord direct [your] longing."
+     }
+    ],
+    "lang": "ar"
+   }
+  }
+ ]
+}

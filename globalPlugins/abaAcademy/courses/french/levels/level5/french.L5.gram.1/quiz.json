@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Demain, je {b} à Paris.",
+    "options": [
+     "voyage",
+     "voyageais",
+     "ai voyagé",
+     "voyagerai"
+    ],
+    "correct": 3,
+    "explanation": "المستقبل البسيط: المصدر + نهاية -ai مع Je.",
+    "topic": "gram.futur_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Nous {b} le projet la semaine prochaine.",
+    "options": [
+     "finissons",
+     "finissions",
+     "avons fini",
+     "finirons"
+    ],
+    "correct": 3,
+    "explanation": "المستقبل البسيط مع Nous ينتهي بـ -ons.",
+    "topic": "gram.futur_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Je vais {b} Paris.",
+    "options": [
+     "en",
+     "au",
+     "dans",
+     "à"
+    ],
+    "correct": 3,
+    "explanation": "à تُستخدم قبل أسماء المدن.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Il habite {b} France.",
+    "options": [
+     "à",
+     "au",
+     "dans",
+     "en"
+    ],
+    "correct": 3,
+    "explanation": "en تُستخدم قبل أسماء الدول المؤنثة.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Le chat est {b} la table.",
+    "options": [
+     "sur",
+     "dans",
+     "à",
+     "sous"
+    ],
+    "correct": 3,
+    "explanation": "sous تعني تحت.",
+    "topic": "gram.prepositions"
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Je {b} le français.",
+    "options": [
+     "parles",
+     "parlons",
+     "parlez",
+     "parle"
+    ],
+    "correct": 3,
+    "explanation": "مع Je نحذف -er ونضيف -e.",
+    "topic": "gram.present_er"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Tu {b} beaucoup.",
+    "options": [
+     "mange",
+     "mangeons",
+     "mangent",
+     "manges"
+    ],
+    "correct": 3,
+    "explanation": "مع Tu نضيف -es.",
+    "topic": "gram.present_er"
+   }
+  }
+ ]
+}

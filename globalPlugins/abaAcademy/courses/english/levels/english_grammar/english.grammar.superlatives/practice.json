@@ -1,0 +1,106 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة التفضيل من tall (بدون the):",
+    "correct": "tallest",
+    "accepted": [],
+    "explanation": "نضيف est.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: This is the ___ movie I've seen.",
+    "options": [
+     "good",
+     "better",
+     "best",
+     "goodest"
+    ],
+    "correct": 2,
+    "explanation": "تفضيل شاذ: the best.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She is the ___ student.",
+    "options": [
+     "intelligent",
+     "more intelligent",
+     "most intelligent",
+     "intelligentest"
+    ],
+    "correct": 2,
+    "explanation": "صفة طويلة: the most intelligent.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة التفضيل من big (بدون the):",
+    "correct": "biggest",
+    "accepted": [],
+    "explanation": "نضاعف g: biggest.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم the قبل صيغة التفضيل عادة.",
+    "correct": true,
+    "explanation": "صحيح: the tallest.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما تفضيل bad؟",
+    "options": [
+     "baddest",
+     "worst",
+     "most bad",
+     "worse"
+    ],
+    "correct": 1,
+    "explanation": "شاذ: the worst.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "He is the tallest boy.",
+      "translation": "أطول ولد."
+     },
+     {
+      "text": "It is the best day.",
+      "translation": "أفضل يوم."
+     },
+     {
+      "text": "She is the most talented.",
+      "translation": "الأكثر موهبة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar."
+     },
+     {
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "translation": "So pray to your Lord and sacrifice [to Him alone]."
+     },
+     {
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "translation": "Indeed, your enemy is the one cut off."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ...",
+    "correct": "ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ﴾",
+    "topic": "quran:108"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: إِنَّ شَانِئَكَ ...",
+    "correct": "هُوَ ٱلْأَبْتَرُ",
+    "accepted": [
+     "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"
+    ],
+    "explanation": "الآية كاملة: ﴿إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ﴾",
+    "topic": "quran:108"
+   }
+  }
+ ]
+}

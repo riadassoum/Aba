@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: If it rains, I ___ stay home.",
+    "options": [
+     "will",
+     "would",
+     "am",
+     "do"
+    ],
+    "correct": 0,
+    "explanation": "الشرط الأول: الجواب بـ will.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم will داخل جملة if نفسها في الشرط الأول.",
+    "correct": false,
+    "explanation": "will تأتي في الجواب لا في جملة if.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: If I ___ time, I will call you.",
+    "options": [
+     "will have",
+     "have",
+     "had",
+     "having"
+    ],
+    "correct": 1,
+    "explanation": "جملة if بمضارع بسيط: have.",
+    "topic": "gram.conditionals"
+   }
+  }
+ ]
+}

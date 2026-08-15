@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.power",
+   "count": 19,
+   "params": {
+    "difficulty": 5
+   }
+  }
+ ]
+}

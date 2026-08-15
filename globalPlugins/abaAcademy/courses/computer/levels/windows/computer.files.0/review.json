@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار لإعادة تسمية ملف؟",
+      "correct": "F2",
+      "distractors": [
+       "F5",
+       "Control مع R",
+       "Alt مع Enter"
+      ],
+      "explain": "F2 لإعادة التسمية.",
+      "topic": "pc.files"
+     },
+     {
+      "prompt": "ماذا يفعل Control مع X؟",
+      "correct": "قص الملف",
+      "distractors": [
+       "نسخ",
+       "حذف نهائي",
+       "فتح"
+      ],
+      "explain": "Control+X للقص.",
+      "topic": "pc.files"
+     }
+    ],
+    "topic": "pc.files"
+   }
+  }
+ ]
+}

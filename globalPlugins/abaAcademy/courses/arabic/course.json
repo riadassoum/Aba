@@ -1,0 +1,3411 @@
+{
+ "course_id": "arabic",
+ "title": "اللغة العربية (نحو وإملاء)",
+ "description": "من الإملاء الأساسي إلى النحو المتقدم بمستوى الآجرومية.",
+ "order": 0,
+ "version": "1.0.0",
+ "levels": [
+  {
+   "level_id": "beginner",
+   "title": "المستوى الأول: المبتدئ",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "arabic.beginner.sun_moon.0",
+     "title": "اللام الشمسية والقمرية",
+     "order": 0,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.0",
+     "title": "التاء المربوطة والمفتوحة",
+     "order": 1,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.0",
+     "title": "المبتدأ والخبر",
+     "order": 2,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.0",
+     "title": "الفعل والفاعل",
+     "order": 3,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.sun_moon.1",
+     "title": "اللام الشمسية والقمرية — تدريب 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.1",
+     "title": "التاء المربوطة والمفتوحة — تدريب 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.1",
+     "title": "المبتدأ والخبر — تدريب 2",
+     "order": 6,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.1",
+     "title": "الفعل والفاعل — تدريب 2",
+     "order": 7,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.sun_moon.2",
+     "title": "اللام الشمسية والقمرية — تدريب 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.2",
+     "title": "التاء المربوطة والمفتوحة — تدريب 3",
+     "order": 9,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.2",
+     "title": "المبتدأ والخبر — تدريب 3",
+     "order": 10,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.2",
+     "title": "الفعل والفاعل — تدريب 3",
+     "order": 11,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.sun_moon.3",
+     "title": "اللام الشمسية والقمرية — تدريب 4",
+     "order": 12,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.3",
+     "title": "التاء المربوطة والمفتوحة — تدريب 4",
+     "order": 13,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.3",
+     "title": "المبتدأ والخبر — تدريب 4",
+     "order": 14,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.3",
+     "title": "الفعل والفاعل — تدريب 4",
+     "order": 15,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.sun_moon.4",
+     "title": "اللام الشمسية والقمرية — تدريب 5",
+     "order": 16,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.4",
+     "title": "التاء المربوطة والمفتوحة — تدريب 5",
+     "order": 17,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.4",
+     "title": "المبتدأ والخبر — تدريب 5",
+     "order": 18,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.4",
+     "title": "الفعل والفاعل — تدريب 5",
+     "order": 19,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.sun_moon.5",
+     "title": "اللام الشمسية والقمرية — تدريب 6",
+     "order": 20,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.beginner.taa.5",
+     "title": "التاء المربوطة والمفتوحة — تدريب 6",
+     "order": 21,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.beginner.mubtada.5",
+     "title": "المبتدأ والخبر — تدريب 6",
+     "order": 22,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.beginner.fail.5",
+     "title": "الفعل والفاعل — تدريب 6",
+     "order": 23,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "elementary",
+   "title": "المستوى الثاني: الأساسي",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.0",
+     "title": "الهمزة المتوسطة",
+     "order": 0,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.0",
+     "title": "الهمزة المتطرفة",
+     "order": 1,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.0",
+     "title": "المفعول به",
+     "order": 2,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.0",
+     "title": "كان وأخواتها",
+     "order": 3,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.1",
+     "title": "الهمزة المتوسطة — تدريب 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.1",
+     "title": "الهمزة المتطرفة — تدريب 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.1",
+     "title": "المفعول به — تدريب 2",
+     "order": 6,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.1",
+     "title": "كان وأخواتها — تدريب 2",
+     "order": 7,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.2",
+     "title": "الهمزة المتوسطة — تدريب 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.2",
+     "title": "الهمزة المتطرفة — تدريب 3",
+     "order": 9,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.2",
+     "title": "المفعول به — تدريب 3",
+     "order": 10,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.2",
+     "title": "كان وأخواتها — تدريب 3",
+     "order": 11,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.3",
+     "title": "الهمزة المتوسطة — تدريب 4",
+     "order": 12,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.3",
+     "title": "الهمزة المتطرفة — تدريب 4",
+     "order": 13,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.3",
+     "title": "المفعول به — تدريب 4",
+     "order": 14,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.3",
+     "title": "كان وأخواتها — تدريب 4",
+     "order": 15,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.4",
+     "title": "الهمزة المتوسطة — تدريب 5",
+     "order": 16,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.4",
+     "title": "الهمزة المتطرفة — تدريب 5",
+     "order": 17,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.4",
+     "title": "المفعول به — تدريب 5",
+     "order": 18,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.4",
+     "title": "كان وأخواتها — تدريب 5",
+     "order": 19,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_mid.5",
+     "title": "الهمزة المتوسطة — تدريب 6",
+     "order": 20,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.elementary.hamza_end.5",
+     "title": "الهمزة المتطرفة — تدريب 6",
+     "order": 21,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.elementary.maful.5",
+     "title": "المفعول به — تدريب 6",
+     "order": 22,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.elementary.kana.5",
+     "title": "كان وأخواتها — تدريب 6",
+     "order": 23,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "intermediate",
+   "title": "المستوى الثالث: المتوسط",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.0",
+     "title": "اللام الشمسية والقمرية",
+     "order": 0,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.0",
+     "title": "التاء المربوطة والمفتوحة",
+     "order": 1,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.0",
+     "title": "الهمزة المتوسطة",
+     "order": 2,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.0",
+     "title": "الهمزة المتطرفة",
+     "order": 3,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.0",
+     "title": "الألف اللينة",
+     "order": 4,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.0",
+     "title": "المبتدأ والخبر",
+     "order": 5,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.0",
+     "title": "الفعل والفاعل",
+     "order": 6,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.0",
+     "title": "المفعول به",
+     "order": 7,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.1",
+     "title": "اللام الشمسية والقمرية — تدريب 2",
+     "order": 8,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.1",
+     "title": "التاء المربوطة والمفتوحة — تدريب 2",
+     "order": 9,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.1",
+     "title": "الهمزة المتوسطة — تدريب 2",
+     "order": 10,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.1",
+     "title": "الهمزة المتطرفة — تدريب 2",
+     "order": 11,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.1",
+     "title": "الألف اللينة — تدريب 2",
+     "order": 12,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.1",
+     "title": "المبتدأ والخبر — تدريب 2",
+     "order": 13,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.1",
+     "title": "الفعل والفاعل — تدريب 2",
+     "order": 14,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.1",
+     "title": "المفعول به — تدريب 2",
+     "order": 15,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.2",
+     "title": "اللام الشمسية والقمرية — تدريب 3",
+     "order": 16,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.2",
+     "title": "التاء المربوطة والمفتوحة — تدريب 3",
+     "order": 17,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.2",
+     "title": "الهمزة المتوسطة — تدريب 3",
+     "order": 18,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.2",
+     "title": "الهمزة المتطرفة — تدريب 3",
+     "order": 19,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.2",
+     "title": "الألف اللينة — تدريب 3",
+     "order": 20,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.2",
+     "title": "المبتدأ والخبر — تدريب 3",
+     "order": 21,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.2",
+     "title": "الفعل والفاعل — تدريب 3",
+     "order": 22,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.2",
+     "title": "المفعول به — تدريب 3",
+     "order": 23,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.3",
+     "title": "اللام الشمسية والقمرية — تدريب 4",
+     "order": 24,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.3",
+     "title": "التاء المربوطة والمفتوحة — تدريب 4",
+     "order": 25,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.3",
+     "title": "الهمزة المتوسطة — تدريب 4",
+     "order": 26,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.3",
+     "title": "الهمزة المتطرفة — تدريب 4",
+     "order": 27,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.3",
+     "title": "الألف اللينة — تدريب 4",
+     "order": 28,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.3",
+     "title": "المبتدأ والخبر — تدريب 4",
+     "order": 29,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.3",
+     "title": "الفعل والفاعل — تدريب 4",
+     "order": 30,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.3",
+     "title": "المفعول به — تدريب 4",
+     "order": 31,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.4",
+     "title": "اللام الشمسية والقمرية — تدريب 5",
+     "order": 32,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.4",
+     "title": "التاء المربوطة والمفتوحة — تدريب 5",
+     "order": 33,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.4",
+     "title": "الهمزة المتوسطة — تدريب 5",
+     "order": 34,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.4",
+     "title": "الهمزة المتطرفة — تدريب 5",
+     "order": 35,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.4",
+     "title": "الألف اللينة — تدريب 5",
+     "order": 36,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.4",
+     "title": "المبتدأ والخبر — تدريب 5",
+     "order": 37,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.4",
+     "title": "الفعل والفاعل — تدريب 5",
+     "order": 38,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.4",
+     "title": "المفعول به — تدريب 5",
+     "order": 39,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.sun_moon.5",
+     "title": "اللام الشمسية والقمرية — تدريب 6",
+     "order": 40,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.taa.5",
+     "title": "التاء المربوطة والمفتوحة — تدريب 6",
+     "order": 41,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_mid.5",
+     "title": "الهمزة المتوسطة — تدريب 6",
+     "order": 42,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.hamza_end.5",
+     "title": "الهمزة المتطرفة — تدريب 6",
+     "order": 43,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.alif.5",
+     "title": "الألف اللينة — تدريب 6",
+     "order": 44,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.intermediate.mubtada.5",
+     "title": "المبتدأ والخبر — تدريب 6",
+     "order": 45,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.intermediate.fail.5",
+     "title": "الفعل والفاعل — تدريب 6",
+     "order": 46,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.intermediate.maful.5",
+     "title": "المفعول به — تدريب 6",
+     "order": 47,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "upper",
+   "title": "المستوى الرابع: فوق المتوسط",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "arabic.upper.maful.0",
+     "title": "المفعول به",
+     "order": 0,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.kana.0",
+     "title": "كان وأخواتها",
+     "order": 1,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.inna.0",
+     "title": "إنّ وأخواتها",
+     "order": 2,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.naat.0",
+     "title": "النعت",
+     "order": 3,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.maful.1",
+     "title": "المفعول به — تدريب 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.kana.1",
+     "title": "كان وأخواتها — تدريب 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.inna.1",
+     "title": "إنّ وأخواتها — تدريب 2",
+     "order": 6,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.naat.1",
+     "title": "النعت — تدريب 2",
+     "order": 7,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.maful.2",
+     "title": "المفعول به — تدريب 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.kana.2",
+     "title": "كان وأخواتها — تدريب 3",
+     "order": 9,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.inna.2",
+     "title": "إنّ وأخواتها — تدريب 3",
+     "order": 10,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.naat.2",
+     "title": "النعت — تدريب 3",
+     "order": 11,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.maful.3",
+     "title": "المفعول به — تدريب 4",
+     "order": 12,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.kana.3",
+     "title": "كان وأخواتها — تدريب 4",
+     "order": 13,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.inna.3",
+     "title": "إنّ وأخواتها — تدريب 4",
+     "order": 14,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.naat.3",
+     "title": "النعت — تدريب 4",
+     "order": 15,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.maful.4",
+     "title": "المفعول به — تدريب 5",
+     "order": 16,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.kana.4",
+     "title": "كان وأخواتها — تدريب 5",
+     "order": 17,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.inna.4",
+     "title": "إنّ وأخواتها — تدريب 5",
+     "order": 18,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.naat.4",
+     "title": "النعت — تدريب 5",
+     "order": 19,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.maful.5",
+     "title": "المفعول به — تدريب 6",
+     "order": 20,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.upper.kana.5",
+     "title": "كان وأخواتها — تدريب 6",
+     "order": 21,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.upper.inna.5",
+     "title": "إنّ وأخواتها — تدريب 6",
+     "order": 22,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.upper.naat.5",
+     "title": "النعت — تدريب 6",
+     "order": 23,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "advanced",
+   "title": "المستوى الخامس: المتقدم",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "arabic.advanced.inna.0",
+     "title": "إنّ وأخواتها",
+     "order": 0,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.0",
+     "title": "النعت",
+     "order": 1,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.0",
+     "title": "الإضافة",
+     "order": 2,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.0",
+     "title": "الأفعال الخمسة",
+     "order": 3,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.0",
+     "title": "الهمزة المتوسطة",
+     "order": 4,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.0",
+     "title": "الهمزة المتطرفة",
+     "order": 5,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.0",
+     "title": "الألف اللينة",
+     "order": 6,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.1",
+     "title": "إنّ وأخواتها — تدريب 2",
+     "order": 7,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.1",
+     "title": "النعت — تدريب 2",
+     "order": 8,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.1",
+     "title": "الإضافة — تدريب 2",
+     "order": 9,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.1",
+     "title": "الأفعال الخمسة — تدريب 2",
+     "order": 10,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.1",
+     "title": "الهمزة المتوسطة — تدريب 2",
+     "order": 11,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.1",
+     "title": "الهمزة المتطرفة — تدريب 2",
+     "order": 12,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.1",
+     "title": "الألف اللينة — تدريب 2",
+     "order": 13,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.2",
+     "title": "إنّ وأخواتها — تدريب 3",
+     "order": 14,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.2",
+     "title": "النعت — تدريب 3",
+     "order": 15,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.2",
+     "title": "الإضافة — تدريب 3",
+     "order": 16,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.2",
+     "title": "الأفعال الخمسة — تدريب 3",
+     "order": 17,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.2",
+     "title": "الهمزة المتوسطة — تدريب 3",
+     "order": 18,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.2",
+     "title": "الهمزة المتطرفة — تدريب 3",
+     "order": 19,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.2",
+     "title": "الألف اللينة — تدريب 3",
+     "order": 20,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.3",
+     "title": "إنّ وأخواتها — تدريب 4",
+     "order": 21,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.3",
+     "title": "النعت — تدريب 4",
+     "order": 22,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.3",
+     "title": "الإضافة — تدريب 4",
+     "order": 23,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.3",
+     "title": "الأفعال الخمسة — تدريب 4",
+     "order": 24,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.3",
+     "title": "الهمزة المتوسطة — تدريب 4",
+     "order": 25,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.3",
+     "title": "الهمزة المتطرفة — تدريب 4",
+     "order": 26,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.3",
+     "title": "الألف اللينة — تدريب 4",
+     "order": 27,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.4",
+     "title": "إنّ وأخواتها — تدريب 5",
+     "order": 28,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.4",
+     "title": "النعت — تدريب 5",
+     "order": 29,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.4",
+     "title": "الإضافة — تدريب 5",
+     "order": 30,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.4",
+     "title": "الأفعال الخمسة — تدريب 5",
+     "order": 31,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.4",
+     "title": "الهمزة المتوسطة — تدريب 5",
+     "order": 32,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.4",
+     "title": "الهمزة المتطرفة — تدريب 5",
+     "order": 33,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.4",
+     "title": "الألف اللينة — تدريب 5",
+     "order": 34,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.5",
+     "title": "إنّ وأخواتها — تدريب 6",
+     "order": 35,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.5",
+     "title": "النعت — تدريب 6",
+     "order": 36,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.5",
+     "title": "الإضافة — تدريب 6",
+     "order": 37,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.5",
+     "title": "الأفعال الخمسة — تدريب 6",
+     "order": 38,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.5",
+     "title": "الهمزة المتوسطة — تدريب 6",
+     "order": 39,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.5",
+     "title": "الهمزة المتطرفة — تدريب 6",
+     "order": 40,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.5",
+     "title": "الألف اللينة — تدريب 6",
+     "order": 41,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.6",
+     "title": "إنّ وأخواتها — تدريب 7",
+     "order": 42,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.6",
+     "title": "النعت — تدريب 7",
+     "order": 43,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.6",
+     "title": "الإضافة — تدريب 7",
+     "order": 44,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.6",
+     "title": "الأفعال الخمسة — تدريب 7",
+     "order": 45,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.6",
+     "title": "الهمزة المتوسطة — تدريب 7",
+     "order": 46,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.6",
+     "title": "الهمزة المتطرفة — تدريب 7",
+     "order": 47,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.6",
+     "title": "الألف اللينة — تدريب 7",
+     "order": 48,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.inna.7",
+     "title": "إنّ وأخواتها — تدريب 8",
+     "order": 49,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.naat.7",
+     "title": "النعت — تدريب 8",
+     "order": 50,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.idafa.7",
+     "title": "الإضافة — تدريب 8",
+     "order": 51,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.af3al_khamsa.7",
+     "title": "الأفعال الخمسة — تدريب 8",
+     "order": 52,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_mid.7",
+     "title": "الهمزة المتوسطة — تدريب 8",
+     "order": 53,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.advanced.hamza_end.7",
+     "title": "الهمزة المتطرفة — تدريب 8",
+     "order": 54,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.advanced.alif.7",
+     "title": "الألف اللينة — تدريب 8",
+     "order": 55,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "expert",
+   "title": "المستوى السادس: المتقن (الآجرومية)",
+   "order": 5,
+   "lessons": [
+    {
+     "lesson_id": "arabic.expert.mubtada.0",
+     "title": "المبتدأ والخبر",
+     "order": 0,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.fail.0",
+     "title": "الفعل والفاعل",
+     "order": 1,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.maful.0",
+     "title": "المفعول به",
+     "order": 2,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.kana.0",
+     "title": "كان وأخواتها",
+     "order": 3,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.inna.0",
+     "title": "إنّ وأخواتها",
+     "order": 4,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.naat.0",
+     "title": "النعت",
+     "order": 5,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.0",
+     "title": "الإضافة",
+     "order": 6,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.0",
+     "title": "الأفعال الخمسة",
+     "order": 7,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.0",
+     "title": "اللام الشمسية والقمرية",
+     "order": 8,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.taa.0",
+     "title": "التاء المربوطة والمفتوحة",
+     "order": 9,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.0",
+     "title": "الهمزة المتوسطة",
+     "order": 10,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.0",
+     "title": "الهمزة المتطرفة",
+     "order": 11,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.alif.0",
+     "title": "الألف اللينة",
+     "order": 12,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.1",
+     "title": "المبتدأ والخبر — تدريب 2",
+     "order": 13,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.fail.1",
+     "title": "الفعل والفاعل — تدريب 2",
+     "order": 14,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.maful.1",
+     "title": "المفعول به — تدريب 2",
+     "order": 15,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.kana.1",
+     "title": "كان وأخواتها — تدريب 2",
+     "order": 16,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.inna.1",
+     "title": "إنّ وأخواتها — تدريب 2",
+     "order": 17,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.naat.1",
+     "title": "النعت — تدريب 2",
+     "order": 18,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.1",
+     "title": "الإضافة — تدريب 2",
+     "order": 19,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.1",
+     "title": "الأفعال الخمسة — تدريب 2",
+     "order": 20,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.1",
+     "title": "اللام الشمسية والقمرية — تدريب 2",
+     "order": 21,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.taa.1",
+     "title": "التاء المربوطة والمفتوحة — تدريب 2",
+     "order": 22,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.1",
+     "title": "الهمزة المتوسطة — تدريب 2",
+     "order": 23,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.1",
+     "title": "الهمزة المتطرفة — تدريب 2",
+     "order": 24,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.alif.1",
+     "title": "الألف اللينة — تدريب 2",
+     "order": 25,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.2",
+     "title": "المبتدأ والخبر — تدريب 3",
+     "order": 26,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.fail.2",
+     "title": "الفعل والفاعل — تدريب 3",
+     "order": 27,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.maful.2",
+     "title": "المفعول به — تدريب 3",
+     "order": 28,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.kana.2",
+     "title": "كان وأخواتها — تدريب 3",
+     "order": 29,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.inna.2",
+     "title": "إنّ وأخواتها — تدريب 3",
+     "order": 30,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.naat.2",
+     "title": "النعت — تدريب 3",
+     "order": 31,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.2",
+     "title": "الإضافة — تدريب 3",
+     "order": 32,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.2",
+     "title": "الأفعال الخمسة — تدريب 3",
+     "order": 33,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.2",
+     "title": "اللام الشمسية والقمرية — تدريب 3",
+     "order": 34,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.taa.2",
+     "title": "التاء المربوطة والمفتوحة — تدريب 3",
+     "order": 35,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.2",
+     "title": "الهمزة المتوسطة — تدريب 3",
+     "order": 36,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.2",
+     "title": "الهمزة المتطرفة — تدريب 3",
+     "order": 37,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.alif.2",
+     "title": "الألف اللينة — تدريب 3",
+     "order": 38,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.3",
+     "title": "المبتدأ والخبر — تدريب 4",
+     "order": 39,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.fail.3",
+     "title": "الفعل والفاعل — تدريب 4",
+     "order": 40,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.maful.3",
+     "title": "المفعول به — تدريب 4",
+     "order": 41,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.kana.3",
+     "title": "كان وأخواتها — تدريب 4",
+     "order": 42,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.inna.3",
+     "title": "إنّ وأخواتها — تدريب 4",
+     "order": 43,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.naat.3",
+     "title": "النعت — تدريب 4",
+     "order": 44,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.3",
+     "title": "الإضافة — تدريب 4",
+     "order": 45,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.3",
+     "title": "الأفعال الخمسة — تدريب 4",
+     "order": 46,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.3",
+     "title": "اللام الشمسية والقمرية — تدريب 4",
+     "order": 47,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.taa.3",
+     "title": "التاء المربوطة والمفتوحة — تدريب 4",
+     "order": 48,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.3",
+     "title": "الهمزة المتوسطة — تدريب 4",
+     "order": 49,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.3",
+     "title": "الهمزة المتطرفة — تدريب 4",
+     "order": 50,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.alif.3",
+     "title": "الألف اللينة — تدريب 4",
+     "order": 51,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.4",
+     "title": "المبتدأ والخبر — تدريب 5",
+     "order": 52,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.fail.4",
+     "title": "الفعل والفاعل — تدريب 5",
+     "order": 53,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.maful.4",
+     "title": "المفعول به — تدريب 5",
+     "order": 54,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.kana.4",
+     "title": "كان وأخواتها — تدريب 5",
+     "order": 55,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.inna.4",
+     "title": "إنّ وأخواتها — تدريب 5",
+     "order": 56,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.naat.4",
+     "title": "النعت — تدريب 5",
+     "order": 57,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.4",
+     "title": "الإضافة — تدريب 5",
+     "order": 58,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.4",
+     "title": "الأفعال الخمسة — تدريب 5",
+     "order": 59,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.4",
+     "title": "اللام الشمسية والقمرية — تدريب 5",
+     "order": 60,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.taa.4",
+     "title": "التاء المربوطة والمفتوحة — تدريب 5",
+     "order": 61,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.4",
+     "title": "الهمزة المتوسطة — تدريب 5",
+     "order": 62,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.4",
+     "title": "الهمزة المتطرفة — تدريب 5",
+     "order": 63,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.alif.4",
+     "title": "الألف اللينة — تدريب 5",
+     "order": 64,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.5",
+     "title": "المبتدأ والخبر — تدريب 6",
+     "order": 65,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.fail.5",
+     "title": "الفعل والفاعل — تدريب 6",
+     "order": 66,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.maful.5",
+     "title": "المفعول به — تدريب 6",
+     "order": 67,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.kana.5",
+     "title": "كان وأخواتها — تدريب 6",
+     "order": 68,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.inna.5",
+     "title": "إنّ وأخواتها — تدريب 6",
+     "order": 69,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.naat.5",
+     "title": "النعت — تدريب 6",
+     "order": 70,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.5",
+     "title": "الإضافة — تدريب 6",
+     "order": 71,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.5",
+     "title": "الأفعال الخمسة — تدريب 6",
+     "order": 72,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.5",
+     "title": "اللام الشمسية والقمرية — تدريب 6",
+     "order": 73,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.taa.5",
+     "title": "التاء المربوطة والمفتوحة — تدريب 6",
+     "order": 74,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.5",
+     "title": "الهمزة المتوسطة — تدريب 6",
+     "order": 75,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.5",
+     "title": "الهمزة المتطرفة — تدريب 6",
+     "order": 76,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.alif.5",
+     "title": "الألف اللينة — تدريب 6",
+     "order": 77,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.6",
+     "title": "المبتدأ والخبر — تدريب 7",
+     "order": 78,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.fail.6",
+     "title": "الفعل والفاعل — تدريب 7",
+     "order": 79,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.maful.6",
+     "title": "المفعول به — تدريب 7",
+     "order": 80,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.kana.6",
+     "title": "كان وأخواتها — تدريب 7",
+     "order": 81,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.inna.6",
+     "title": "إنّ وأخواتها — تدريب 7",
+     "order": 82,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.naat.6",
+     "title": "النعت — تدريب 7",
+     "order": 83,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.6",
+     "title": "الإضافة — تدريب 7",
+     "order": 84,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.6",
+     "title": "الأفعال الخمسة — تدريب 7",
+     "order": 85,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.6",
+     "title": "اللام الشمسية والقمرية — تدريب 7",
+     "order": 86,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.taa.6",
+     "title": "التاء المربوطة والمفتوحة — تدريب 7",
+     "order": 87,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.6",
+     "title": "الهمزة المتوسطة — تدريب 7",
+     "order": 88,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.6",
+     "title": "الهمزة المتطرفة — تدريب 7",
+     "order": 89,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.alif.6",
+     "title": "الألف اللينة — تدريب 7",
+     "order": 90,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.mubtada.7",
+     "title": "المبتدأ والخبر — تدريب 8",
+     "order": 91,
+     "objectives": [
+      "إتقان: المبتدأ والخبر"
+     ],
+     "grammar_refs": [
+      "ar.mubtada"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.fail.7",
+     "title": "الفعل والفاعل — تدريب 8",
+     "order": 92,
+     "objectives": [
+      "إتقان: الفعل والفاعل"
+     ],
+     "grammar_refs": [
+      "ar.fail"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.maful.7",
+     "title": "المفعول به — تدريب 8",
+     "order": 93,
+     "objectives": [
+      "إتقان: المفعول به"
+     ],
+     "grammar_refs": [
+      "ar.maful"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.kana.7",
+     "title": "كان وأخواتها — تدريب 8",
+     "order": 94,
+     "objectives": [
+      "إتقان: كان وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.kana"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.inna.7",
+     "title": "إنّ وأخواتها — تدريب 8",
+     "order": 95,
+     "objectives": [
+      "إتقان: إنّ وأخواتها"
+     ],
+     "grammar_refs": [
+      "ar.inna"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.naat.7",
+     "title": "النعت — تدريب 8",
+     "order": 96,
+     "objectives": [
+      "إتقان: النعت"
+     ],
+     "grammar_refs": [
+      "ar.naat"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.idafa.7",
+     "title": "الإضافة — تدريب 8",
+     "order": 97,
+     "objectives": [
+      "إتقان: الإضافة"
+     ],
+     "grammar_refs": [
+      "ar.idafa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.af3al_khamsa.7",
+     "title": "الأفعال الخمسة — تدريب 8",
+     "order": 98,
+     "objectives": [
+      "إتقان: الأفعال الخمسة"
+     ],
+     "grammar_refs": [
+      "ar.af3al_khamsa"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.sun_moon.7",
+     "title": "اللام الشمسية والقمرية — تدريب 8",
+     "order": 99,
+     "objectives": [
+      "إتقان: اللام الشمسية والقمرية"
+     ],
+     "grammar_refs": [
+      "ar.sun_moon"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.taa.7",
+     "title": "التاء المربوطة والمفتوحة — تدريب 8",
+     "order": 100,
+     "objectives": [
+      "إتقان: التاء المربوطة والمفتوحة"
+     ],
+     "grammar_refs": [
+      "ar.taa"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_mid.7",
+     "title": "الهمزة المتوسطة — تدريب 8",
+     "order": 101,
+     "objectives": [
+      "إتقان: الهمزة المتوسطة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_mid"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "arabic.expert.hamza_end.7",
+     "title": "الهمزة المتطرفة — تدريب 8",
+     "order": 102,
+     "objectives": [
+      "إتقان: الهمزة المتطرفة"
+     ],
+     "grammar_refs": [
+      "ar.hamza_end"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "arabic.expert.alif.7",
+     "title": "الألف اللينة — تدريب 8",
+     "order": 103,
+     "objectives": [
+      "إتقان: الألف اللينة"
+     ],
+     "grammar_refs": [
+      "ar.alif"
+     ],
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}

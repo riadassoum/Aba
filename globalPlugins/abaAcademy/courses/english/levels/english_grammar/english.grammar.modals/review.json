@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She can ___ the piano.",
+    "options": [
+     "plays",
+     "played",
+     "play",
+     "playing"
+    ],
+    "correct": 2,
+    "explanation": "بعد can فعل مجرّد: play.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "بعد الأفعال الناقصة يأتي الفعل بالتصريف الأول المجرّد.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He ___ swim very well.",
+    "options": [
+     "can",
+     "cans",
+     "could to",
+     "is can"
+    ],
+    "correct": 0,
+    "explanation": "can لا تأخذ s ولا to.",
+    "topic": "gram.modals"
+   }
+  }
+ ]
+}

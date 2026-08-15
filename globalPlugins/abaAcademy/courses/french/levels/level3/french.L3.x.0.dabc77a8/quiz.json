@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "faim",
+      "meaning": "جوع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "J'ai très faim maintenant.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "soif",
+      "meaning": "عطش",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Les enfants ont soif.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "fatigué",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Elle se sent fatiguée après le travail.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "content",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Nous sommes contents de te voir.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "triste",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Il a l'air triste aujourd'hui.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "occupé",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Je suis occupé cette semaine.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "propre",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Garde ta chambre propre.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "sale",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Le sol est sale.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

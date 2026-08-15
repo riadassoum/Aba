@@ -1,0 +1,102 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "He {b} not like coffee.",
+      "correct": "does",
+      "distractors": [
+       "do",
+       "is",
+       "did"
+      ],
+      "explain": "مع He/She/It نستخدم does not في النفي.",
+      "topic": "gram.present_simple"
+     },
+     {
+      "prompt": "{b} you speak French?",
+      "correct": "Do",
+      "distractors": [
+       "Does",
+       "Are",
+       "Did"
+      ],
+      "explain": "مع I/You/We/They نستخدم Do في السؤال.",
+      "topic": "gram.present_simple"
+     },
+     {
+      "prompt": "Look! It {b} raining.",
+      "correct": "is",
+      "distractors": [
+       "am",
+       "are",
+       "was"
+      ],
+      "explain": "المضارع المستمر: فعل be + الفعل+ing.",
+      "topic": "gram.present_continuous"
+     },
+     {
+      "prompt": "We {b} studying now.",
+      "correct": "are",
+      "distractors": [
+       "is",
+       "am",
+       "was"
+      ],
+      "explain": "مع We نستخدم are + الفعل+ing.",
+      "topic": "gram.present_continuous"
+     },
+     {
+      "prompt": "I {b} writing an email right now.",
+      "correct": "am",
+      "distractors": [
+       "is",
+       "are",
+       "was"
+      ],
+      "explain": "مع I نستخدم am + الفعل+ing.",
+      "topic": "gram.present_continuous"
+     },
+     {
+      "prompt": "The keys are {b} the table.",
+      "correct": "on",
+      "distractors": [
+       "in",
+       "at",
+       "to"
+      ],
+      "explain": "on تعني فوق سطح شيء.",
+      "topic": "gram.prepositions"
+     },
+     {
+      "prompt": "We arrived {b} the airport at noon.",
+      "correct": "at",
+      "distractors": [
+       "in",
+       "on",
+       "to"
+      ],
+      "explain": "at تُستخدم مع الأماكن المحددة كالمطار.",
+      "topic": "gram.prepositions"
+     },
+     {
+      "prompt": "She was born {b} 1998.",
+      "correct": "in",
+      "distractors": [
+       "at",
+       "on",
+       "to"
+      ],
+      "explain": "in تُستخدم مع السنوات والأشهر.",
+      "topic": "gram.prepositions"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "red",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The apple is red.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "blue",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sky is blue.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "green",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The grass is green.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "yellow",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "The sun is yellow.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "black",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "I like black coffee.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "white",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Her dress is white.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

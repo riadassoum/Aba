@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.mul_div",
+   "count": 11,
+   "params": {
+    "difficulty": 4
+   }
+  }
+ ]
+}

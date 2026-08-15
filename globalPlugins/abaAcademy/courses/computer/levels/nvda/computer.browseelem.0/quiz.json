@@ -1,0 +1,79 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "في وضع التصفّح، كيف تنتقل إلى العنوان التالي؟",
+      "correct": "الحرف H",
+      "distractors": [
+       "الحرف P",
+       "الحرف Z",
+       "الحرف M"
+      ],
+      "explain": "الحرف H",
+      "topic": "computer.browseelem.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الرابط التالي؟",
+      "correct": "الحرف K",
+      "distractors": [
+       "الحرف L دائماً",
+       "الحرف R",
+       "الحرف V"
+      ],
+      "explain": "الحرف K",
+      "topic": "computer.browseelem.0"
+     },
+     {
+      "prompt": "كيف تنتقل بين حقول النماذج؟",
+      "correct": "الحرف F",
+      "distractors": [
+       "الحرف G",
+       "الحرف D",
+       "الحرف W"
+      ],
+      "explain": "الحرف F",
+      "topic": "computer.browseelem.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الجدول التالي؟",
+      "correct": "الحرف T",
+      "distractors": [
+       "الحرف B",
+       "الحرف N",
+       "الحرف C"
+      ],
+      "explain": "الحرف T",
+      "topic": "computer.browseelem.0"
+     },
+     {
+      "prompt": "كيف تنتقل بين أزرار الصفحة؟",
+      "correct": "الحرف B",
+      "distractors": [
+       "الحرف A",
+       "الحرف S",
+       "الحرف E"
+      ],
+      "explain": "الحرف B",
+      "topic": "computer.browseelem.0"
+     },
+     {
+      "prompt": "كيف تفتح قائمة بكل عناصر الصفحة (العناوين والروابط)؟",
+      "correct": "NVDA مع F7",
+      "distractors": [
+       "NVDA مع F4",
+       "Control مع F",
+       "Alt مع F7"
+      ],
+      "explain": "NVDA مع F7",
+      "topic": "computer.browseelem.0"
+     }
+    ]
+   }
+  }
+ ]
+}

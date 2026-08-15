@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «العائلة». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "mère = أم",
+   "note": "مثال: Ma mère cuisine bien. — أمي تطبخ جيداً."
+  },
+  {
+   "btype": "example",
+   "text": "père = أب",
+   "note": "مثال: Mon père travaille dans une banque. — أبي يعمل في مصرف."
+  },
+  {
+   "btype": "example",
+   "text": "frère = أخ",
+   "note": "مثال: Mon frère est médecin. — أخي طبيب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «frère»؟",
+    "options": [
+     "أم",
+     "أب",
+     "أخ"
+    ],
+    "correct": 2,
+    "explanation": "«frère» تعني «أخ».",
+    "topic": "fr:العائلة"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "sœur = أخت",
+   "note": "مثال: Ma sœur habite à Beyrouth. — أختي تسكن في بيروت."
+  },
+  {
+   "btype": "example",
+   "text": "fils = ابن",
+   "note": "مثال: Leur fils a dix ans. — ابنهم عمره عشر سنوات."
+  },
+  {
+   "btype": "example",
+   "text": "fille = ابنة / فتاة",
+   "note": "مثال: Leur fille étudie la musique. — ابنتهم تدرس الموسيقى."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «fille»؟",
+    "options": [
+     "أخت",
+     "ابن",
+     "ابنة / فتاة"
+    ],
+    "correct": 2,
+    "explanation": "«fille» تعني «ابنة / فتاة».",
+    "topic": "fr:العائلة"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "ami = صديق",
+   "note": "مثال: Il est mon meilleur ami. — هو صديقي المفضل."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

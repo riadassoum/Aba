@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 9,
+   "params": {
+    "frames": [
+     {
+      "prompt": "If it rains, I {b} stay home.",
+      "correct": "will",
+      "distractors": [
+       "would",
+       "did",
+       "am"
+      ],
+      "explain": "الشرط النوع الأول: If + مضارع، will + المصدر.",
+      "topic": "gram.conditionals"
+     },
+     {
+      "prompt": "If I had more time, I {b} learn Spanish too.",
+      "correct": "would",
+      "distractors": [
+       "will",
+       "did",
+       "had"
+      ],
+      "explain": "الشرط النوع الثاني: If + ماضي، would + المصدر.",
+      "topic": "gram.conditionals"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: رأيتُ طالباً ...",
+    "options": [
+     "مجتهدٌ",
+     "مجتهدٍ",
+     "المجتهد",
+     "مجتهداً"
+    ],
+    "correct": 3,
+    "explanation": "النعت يتبع المنعوت في النصب.",
+    "topic": "ar.naat"
+   }
+  }
+ ]
+}

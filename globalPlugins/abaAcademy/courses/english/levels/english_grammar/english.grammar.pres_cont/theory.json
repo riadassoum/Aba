@@ -1,0 +1,54 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم المضارع المستمر لحدث يجري الآن أو في هذه الفترة، مثل «أنا أقرأ الآن». تركيبه: فعل to be (am/is/are) + الفعل + ing. مثل I am reading، She is cooking، They are playing. عند إضافة ing: الأفعال المنتهية بـ e صامتة نحذفها (make → making)، والأفعال القصيرة المنتهية بحرف ساكن-متحرك-ساكن نضاعف الحرف"
+  },
+  {
+   "btype": "text",
+   "text": "الأخير (run → running، sit → sitting). النفي بوضع not بعد فعل to be."
+  },
+  {
+   "btype": "example",
+   "text": "I am reading a book now.",
+   "note": "أقرأ كتاباً الآن."
+  },
+  {
+   "btype": "example",
+   "text": "She is making dinner.",
+   "note": "تُعدّ العشاء."
+  },
+  {
+   "btype": "example",
+   "text": "They are running.",
+   "note": "هم يركضون."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Look! The baby ___.",
+    "options": [
+     "sleep",
+     "sleeps",
+     "is sleeping",
+     "sleeping"
+    ],
+    "correct": 2,
+    "explanation": "حدث يجري الآن: is + sleeping.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أضف ing إلى الفعل run:",
+    "correct": "running",
+    "accepted": [],
+    "explanation": "نضاعف n: running.",
+    "topic": "gram.pres_cont"
+   }
+  }
+ ]
+}

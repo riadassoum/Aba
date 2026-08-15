@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ الكلمات تنتهي بتاء مربوطة؟",
+    "options": [
+     "بيت",
+     "صوت",
+     "وقت",
+     "شجرة"
+    ],
+    "correct": 3,
+    "explanation": "شجرة اسم مؤنث بتاء مربوطة.",
+    "topic": "ar.taa"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ الكلمات تنتهي بتاء مفتوحة؟",
+    "options": [
+     "وردة",
+     "شجرة",
+     "مدرسة",
+     "بنت"
+    ],
+    "correct": 3,
+    "explanation": "بنت تنتهي بتاء مفتوحة.",
+    "topic": "ar.taa"
+   }
+  }
+ ]
+}

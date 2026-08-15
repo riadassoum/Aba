@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة المقارنة من tall:",
+    "correct": "taller",
+    "accepted": [],
+    "explanation": "صفة قصيرة: نضيف er.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما مقارنة good؟",
+    "options": [
+     "gooder",
+     "better",
+     "more good",
+     "best"
+    ],
+    "correct": 1,
+    "explanation": "شاذة: better.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She runs faster ___ me.",
+    "options": [
+     "then",
+     "than",
+     "that",
+     "from"
+    ],
+    "correct": 1,
+    "explanation": "بعد المقارنة نستخدم than.",
+    "topic": "gram.comparatives"
+   }
+  }
+ ]
+}

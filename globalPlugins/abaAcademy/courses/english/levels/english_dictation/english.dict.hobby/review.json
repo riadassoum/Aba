@@ -1,0 +1,23 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 1,
+   "params": {
+    "sentences": [
+     {
+      "text": "Reading opens the mind."
+     },
+     {
+      "text": "He reads for one hour."
+     },
+     {
+      "text": "He loves science and history."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

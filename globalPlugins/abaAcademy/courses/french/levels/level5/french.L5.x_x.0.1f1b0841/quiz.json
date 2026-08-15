@@ -1,0 +1,208 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "plus grand",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Cette maison est plus grande que la mienne.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "meilleur",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Ce restaurant est meilleur.",
+      "translation": "هذا المطعم أفضل."
+     },
+     {
+      "word": "le plus beau",
+      "meaning": "الأجمل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "C'est le plus beau paysage.",
+      "translation": "هذا أجمل منظر."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

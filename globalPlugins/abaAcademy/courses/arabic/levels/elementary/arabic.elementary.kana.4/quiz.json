@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: كان الجوُّ ...",
+    "options": [
+     "جميلٌ",
+     "جميلٍ",
+     "الجميل",
+     "جميلاً"
+    ],
+    "correct": 3,
+    "explanation": "خبر كان منصوب.",
+    "topic": "ar.kana"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ليس الامتحانُ ...",
+    "options": [
+     "صعبٌ",
+     "صعبٍ",
+     "الصعب",
+     "صعباً"
+    ],
+    "correct": 3,
+    "explanation": "ليس من أخوات كان تنصب الخبر.",
+    "topic": "ar.kana"
+   }
+  }
+ ]
+}

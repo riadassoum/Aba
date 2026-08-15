@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "un",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "J'ai un frère.",
+      "translation": "لدي أخ واحد."
+     },
+     {
+      "word": "deux",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Elle a deux enfants.",
+      "translation": "لديها طفلان."
+     },
+     {
+      "word": "trois",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons trois chats.",
+      "translation": "لدينا ثلاث قطط."
+     },
+     {
+      "word": "quatre",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Il y a quatre chaises.",
+      "translation": "هناك أربعة كراسٍ."
+     },
+     {
+      "word": "cinq",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Cinq étudiants sont ici.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Ça coûte six euros.",
+      "translation": "ثمنه ستة يورو."
+     },
+     {
+      "word": "sept",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Le magasin ouvre à sept heures.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "huit",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nous avons dormi huit heures.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

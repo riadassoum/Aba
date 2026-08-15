@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "chemise",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Il porte une chemise bleue.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "pantalon",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Ce pantalon est trop long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "chaussures",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "J'ai besoin de nouvelles chaussures.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "veste",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Mets ta veste, il fait froid.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "robe",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "La robe est belle.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "chemise",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Il porte une chemise bleue.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "pantalon",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Ce pantalon est trop long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "chaussures",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "J'ai besoin de nouvelles chaussures.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "veste",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Mets ta veste, il fait froid.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "robe",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "La robe est belle.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

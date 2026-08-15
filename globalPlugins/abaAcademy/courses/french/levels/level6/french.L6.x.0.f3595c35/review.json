@@ -1,0 +1,88 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "mal de tête",
+      "meaning": "صداع",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "J'ai un fort mal de tête.",
+      "translation": "لدي صداع شديد."
+     },
+     {
+      "word": "fièvre",
+      "meaning": "حمى",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "L'enfant a de la fièvre.",
+      "translation": "الطفل مصاب بالحمى."
+     },
+     {
+      "word": "médicament",
+      "meaning": "دواء",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "Prends ce médicament deux fois par jour.",
+      "translation": "تناول هذا الدواء مرتين يومياً."
+     },
+     {
+      "word": "rendez-vous",
+      "meaning": "موعد",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "J'ai rendez-vous chez le médecin.",
+      "translation": "لدي موعد مع الطبيب."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "mal de tête",
+      "meaning": "صداع",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "J'ai un fort mal de tête.",
+      "translation": "لدي صداع شديد."
+     },
+     {
+      "word": "fièvre",
+      "meaning": "حمى",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "L'enfant a de la fièvre.",
+      "translation": "الطفل مصاب بالحمى."
+     },
+     {
+      "word": "médicament",
+      "meaning": "دواء",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "Prends ce médicament deux fois par jour.",
+      "translation": "تناول هذا الدواء مرتين يومياً."
+     },
+     {
+      "word": "rendez-vous",
+      "meaning": "موعد",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "J'ai rendez-vous chez le médecin.",
+      "translation": "لدي موعد مع الطبيب."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

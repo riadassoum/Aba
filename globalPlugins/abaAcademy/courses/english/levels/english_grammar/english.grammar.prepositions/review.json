@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The keys are ___ the table.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 1,
+    "explanation": "على سطح: on.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The train arrives ___ 6 pm.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 2,
+    "explanation": "مع الساعات: at.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: We travel ___ summer. اكتب حرف الجر (in/on/at).",
+    "correct": "in",
+    "accepted": [],
+    "explanation": "مع الفصول والفترات: in.",
+    "topic": "gram.prepositions"
+   }
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتعلّم رموز: الأبجدية العربية كاملة. استمع إلى كل رمز ونقاطه، ثم انتقل إلى التمارين لتثبيتها."
+  },
+  {
+   "btype": "example",
+   "text": "ا",
+   "note": "النقطة ١"
+  },
+  {
+   "btype": "example",
+   "text": "ب",
+   "note": "النقاط ١، ٢"
+  },
+  {
+   "btype": "example",
+   "text": "ت",
+   "note": "النقاط ٢، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ث",
+   "note": "النقاط ١، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ج",
+   "note": "النقاط ٢، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ح",
+   "note": "النقاط ١، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "خ",
+   "note": "النقاط ١، ٣، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "د",
+   "note": "النقاط ١، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ذ",
+   "note": "النقاط ٢، ٣، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ر",
+   "note": "النقاط ١، ٢، ٣، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ز",
+   "note": "النقاط ١، ٣، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "س",
+   "note": "النقاط ٢، ٣، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "ش",
+   "note": "النقاط ١، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ص",
+   "note": "النقاط ١، ٢، ٣، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ض",
+   "note": "النقاط ١، ٢، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ط",
+   "note": "النقاط ٢، ٣، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ظ",
+   "note": "النقاط ١، ٢، ٣، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ع",
+   "note": "النقاط ١، ٢، ٣، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "غ",
+   "note": "النقاط ١، ٢، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ف",
+   "note": "النقاط ١، ٢، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "ق",
+   "note": "النقاط ١، ٢، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ك",
+   "note": "النقاط ١، ٣"
+  },
+  {
+   "btype": "example",
+   "text": "ل",
+   "note": "النقاط ١، ٢، ٣"
+  },
+  {
+   "btype": "example",
+   "text": "م",
+   "note": "النقاط ١، ٣، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "ن",
+   "note": "النقاط ١، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "ه",
+   "note": "النقاط ١، ٢، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "و",
+   "note": "النقاط ٢، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "ي",
+   "note": "النقاط ٢، ٤"
+  },
+  {
+   "btype": "text",
+   "text": "نصيحة: لا تحفظ النقاط كأرقام مجرّدة، بل تخيّل موضعها في الخلية. الحروف المتشابهة في هذه المجموعة تختلف عادةً بنقطة واحدة فقط."
+  }
+ ]
+}

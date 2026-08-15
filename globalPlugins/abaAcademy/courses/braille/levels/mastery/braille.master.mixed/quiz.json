@@ -1,0 +1,19 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 16,
+   "params": {
+    "tables": [
+     "arabic",
+     "arabic_extra",
+     "arabic_marks",
+     "digits",
+     "punctuation"
+    ],
+    "topic": "braille.mastery"
+   }
+  }
+ ]
+}

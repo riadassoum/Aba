@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ étudiant.",
+    "options": [
+     "suis",
+     "es",
+     "est",
+     "sont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم suis.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ prêts.",
+    "options": [
+     "est",
+     "êtes",
+     "sommes",
+     "sont"
+    ],
+    "correct": 2,
+    "explanation": "مع nous نستخدم sommes.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Vous ___ gentils.",
+    "options": [
+     "est",
+     "êtes",
+     "sommes",
+     "sont"
+    ],
+    "correct": 1,
+    "explanation": "مع vous نستخدم êtes.",
+    "topic": "gram.etre"
+   }
+  }
+ ]
+}

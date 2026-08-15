@@ -1,0 +1,79 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب جمع كلمة box:",
+    "correct": "boxes",
+    "accepted": [],
+    "explanation": "تنتهي بـ x فنضيف es.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب جمع كلمة city:",
+    "correct": "cities",
+    "accepted": [],
+    "explanation": "قبل y حرف ساكن، فنحذف y ونضيف ies.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما جمع child؟",
+    "options": [
+     "childs",
+     "childes",
+     "children",
+     "childies"
+    ],
+    "correct": 2,
+    "explanation": "جمع شاذ: children.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب جمع كلمة watch:",
+    "correct": "watches",
+    "accepted": [],
+    "explanation": "تنتهي بـ ch فنضيف es.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما جمع foot؟",
+    "options": [
+     "foots",
+     "feet",
+     "feets",
+     "footes"
+    ],
+    "correct": 1,
+    "explanation": "جمع شاذ: feet.",
+    "topic": "gram.plurals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "جمع كلمة man هو mans.",
+    "correct": false,
+    "explanation": "جمع شاذ صحيح: men.",
+    "topic": "gram.plurals"
+   }
+  }
+ ]
+}

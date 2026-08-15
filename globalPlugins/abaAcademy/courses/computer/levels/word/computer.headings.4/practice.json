@@ -1,0 +1,49 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 13,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما فائدة تطبيق أنماط العناوين في وورد؟",
+      "correct": "تسهيل التنقل ببنية المستند",
+      "distractors": [
+       "تكبير الخط فقط",
+       "تلوين الصفحة",
+       "إضافة صور"
+      ],
+      "explain": "العناوين تبني بنية يتنقل بها قارئ الشاشة.",
+      "topic": "pc.headings"
+     }
+    ],
+    "topic": "pc.headings",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 10,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: ما فائدة تطبيق أنماط العناوين في وورد؟ الإجابة هي «تسهيل التنقل ببنية المستند».",
+      "is_true": true,
+      "explain": "العناوين تبني بنية يتنقل بها قارئ الشاشة.",
+      "topic": "pc.headings"
+     },
+     {
+      "text": "صحيح أم خطأ: ما فائدة تطبيق أنماط العناوين في وورد؟ الإجابة هي «تكبير الخط فقط».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «تسهيل التنقل ببنية المستند».",
+      "topic": "pc.headings"
+     }
+    ],
+    "topic": "pc.headings",
+    "difficulty": 3
+   }
+  }
+ ]
+}

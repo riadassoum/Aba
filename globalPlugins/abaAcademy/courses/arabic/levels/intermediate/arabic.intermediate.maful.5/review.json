@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 10,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: قرأ الطالبُ ...",
+      "correct": "الكتابَ",
+      "distractors": [
+       "الكتابُ",
+       "الكتابِ",
+       "كتابٌ"
+      ],
+      "explain": "المفعول به منصوب بالفتحة.",
+      "topic": "ar.maful"
+     }
+    ],
+    "topic": "ar.maful",
+    "difficulty": 5
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما إعراب «البيتِ» في «بابُ البيتِ»؟",
+      "correct": "مضاف إليه مجرور",
+      "distractors": [
+       "مبتدأ مرفوع",
+       "نعت مجرور",
+       "فاعل مرفوع"
+      ],
+      "explain": "المضاف إليه مجرور دائماً.",
+      "topic": "ar.idafa"
+     }
+    ],
+    "topic": "ar.idafa",
+    "difficulty": 3
+   }
+  }
+ ]
+}

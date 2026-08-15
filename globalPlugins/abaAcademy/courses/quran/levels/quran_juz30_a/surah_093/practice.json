@@ -1,0 +1,123 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 10,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+      "translation": "By the morning brightness"
+     },
+     {
+      "text": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "translation": "And [by] the night when it covers with darkness,"
+     },
+     {
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]."
+     },
+     {
+      "text": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "translation": "And the Hereafter is better for you than the first [life]."
+     },
+     {
+      "text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "translation": "And your Lord is going to give you, and you will be satisfied."
+     },
+     {
+      "text": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+      "translation": "Did He not find you an orphan and give [you] refuge?"
+     },
+     {
+      "text": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+      "translation": "And He found you lost and guided [you],"
+     },
+     {
+      "text": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+      "translation": "And He found you poor and made [you] self-sufficient."
+     },
+     {
+      "text": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "translation": "So as for the orphan, do not oppress [him]."
+     },
+     {
+      "text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "translation": "And as for the petitioner, do not repel [him]."
+     },
+     {
+      "text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "translation": "But as for the favor of your Lord, report [it]."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ...",
+    "correct": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ﴾",
+    "topic": "quran:93"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: مَا وَدَّعَكَ ...",
+    "correct": "رَبُّكَ وَمَا قَلَىٰ",
+    "accepted": [
+     "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ"
+    ],
+    "explanation": "الآية كاملة: ﴿مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ﴾",
+    "topic": "quran:93"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَلَلْءَاخِرَةُ خَيْرٌۭ ...",
+    "correct": "لَّكَ مِنَ ٱلْأُولَىٰ",
+    "accepted": [
+     "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ﴾",
+    "topic": "quran:93"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَلَسَوْفَ يُعْطِيكَ ...",
+    "correct": "رَبُّكَ فَتَرْضَىٰٓ",
+    "accepted": [
+     "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ﴾",
+    "topic": "quran:93"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: أَلَمْ يَجِدْكَ ...",
+    "correct": "يَتِيمًۭا فَـَٔاوَىٰ",
+    "accepted": [
+     "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ"
+    ],
+    "explanation": "الآية كاملة: ﴿أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ﴾",
+    "topic": "quran:93"
+   }
+  }
+ ]
+}

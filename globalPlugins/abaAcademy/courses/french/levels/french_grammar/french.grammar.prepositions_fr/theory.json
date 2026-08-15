@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "للتعبير عن الوجهة أو المكان مع المدن نستخدم à (à Paris)، ومع الدول المؤنّثة en (en France, en Égypte)، ومع الدول المذكّرة au (au Maroc, au Canada)، ومع الدول الجمع aux (aux États-Unis). حروف جر أخرى: dans (داخل)، sur (على)، sous (تحت)، devant (أمام)، derrière (خلف)، avec (مع)، sans (بدون)."
+  },
+  {
+   "btype": "example",
+   "text": "Je vais à Paris.",
+   "note": "أذهب إلى باريس."
+  },
+  {
+   "btype": "example",
+   "text": "Il habite en France.",
+   "note": "يسكن في فرنسا."
+  },
+  {
+   "btype": "example",
+   "text": "Le livre est sur la table.",
+   "note": "الكتاب على الطاولة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je vais ___ Paris.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 0,
+    "explanation": "مع المدن نستخدم à.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Elle habite ___ France.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 1,
+    "explanation": "دولة مؤنّثة: en.",
+    "topic": "gram.prepositions_fr"
+   }
+  }
+ ]
+}

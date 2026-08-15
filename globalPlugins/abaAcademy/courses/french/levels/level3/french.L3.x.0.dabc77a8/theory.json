@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الصفات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "faim = جوع",
+   "note": "مثال: J'ai très faim maintenant. — أنا جائع جداً الآن."
+  },
+  {
+   "btype": "example",
+   "text": "soif = عطش",
+   "note": "مثال: Les enfants ont soif. — الأطفال عطشى."
+  },
+  {
+   "btype": "example",
+   "text": "fatigué = متعب",
+   "note": "مثال: Elle se sent fatiguée après le travail. — تشعر بالتعب بعد العمل."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «fatigué»؟",
+    "options": [
+     "جوع",
+     "عطش",
+     "متعب"
+    ],
+    "correct": 2,
+    "explanation": "«fatigué» تعني «متعب».",
+    "topic": "fr:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "content = سعيد",
+   "note": "مثال: Nous sommes contents de te voir. — نحن سعداء برؤيتك."
+  },
+  {
+   "btype": "example",
+   "text": "triste = حزين",
+   "note": "مثال: Il a l'air triste aujourd'hui. — يبدو حزيناً اليوم."
+  },
+  {
+   "btype": "example",
+   "text": "occupé = مشغول",
+   "note": "مثال: Je suis occupé cette semaine. — أنا مشغول هذا الأسبوع."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «occupé»؟",
+    "options": [
+     "سعيد",
+     "حزين",
+     "مشغول"
+    ],
+    "correct": 2,
+    "explanation": "«occupé» تعني «مشغول».",
+    "topic": "fr:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "propre = نظيف",
+   "note": "مثال: Garde ta chambre propre. — حافظ على نظافة غرفتك."
+  },
+  {
+   "btype": "example",
+   "text": "sale = متسخ",
+   "note": "مثال: Le sol est sale. — الأرضية متسخة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

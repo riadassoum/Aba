@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الصفات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "grand = كبير",
+   "note": "مثال: C'est une grande ville. — هذه مدينة كبيرة."
+  },
+  {
+   "btype": "example",
+   "text": "petit = صغير",
+   "note": "مثال: Le chaton est très petit. — القط صغير جداً."
+  },
+  {
+   "btype": "example",
+   "text": "chaud = حار",
+   "note": "مثال: La soupe est chaude. — الحساء حار."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «chaud»؟",
+    "options": [
+     "كبير",
+     "صغير",
+     "حار"
+    ],
+    "correct": 2,
+    "explanation": "«chaud» تعني «حار».",
+    "topic": "fr:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "froid = بارد",
+   "note": "مثال: L'eau est froide. — الماء بارد."
+  },
+  {
+   "btype": "example",
+   "text": "nouveau = جديد",
+   "note": "مثال: J'ai acheté un nouveau téléphone. — اشتريت هاتفاً جديداً."
+  },
+  {
+   "btype": "example",
+   "text": "vieux = قديم / عجوز",
+   "note": "مثال: C'est un vieux bâtiment. — هذا مبنى قديم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «vieux»؟",
+    "options": [
+     "بارد",
+     "جديد",
+     "قديم / عجوز"
+    ],
+    "correct": 2,
+    "explanation": "«vieux» تعني «قديم / عجوز».",
+    "topic": "fr:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "rapide = سريع",
+   "note": "مثال: Il conduit très vite. — يقود بسرعة كبيرة."
+  },
+  {
+   "btype": "example",
+   "text": "lent = بطيء",
+   "note": "مثال: Le train est lent aujourd'hui. — القطار بطيء اليوم."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "knowledge.quantity",
+   "count": 19,
+   "params": {
+    "quantities": [
+     {
+      "label": "طول نهر النيل",
+      "value": 6650,
+      "unit": "كم",
+      "display": "6650"
+     },
+     {
+      "label": "طول نهر الأمازون",
+      "value": 6400,
+      "unit": "كم",
+      "display": "6400"
+     },
+     {
+      "label": "طول نهر اليانغتسي",
+      "value": 6300,
+      "unit": "كم",
+      "display": "6300"
+     },
+     {
+      "label": "طول نهر المسيسيبي",
+      "value": 3770,
+      "unit": "كم",
+      "display": "3770"
+     },
+     {
+      "label": "طول نهر الفرات",
+      "value": 2800,
+      "unit": "كم",
+      "display": "2800"
+     },
+     {
+      "label": "طول نهر الدانوب",
+      "value": 2850,
+      "unit": "كم",
+      "display": "2850"
+     },
+     {
+      "label": "طول نهر دجلة",
+      "value": 1900,
+      "unit": "كم",
+      "display": "1900"
+     },
+     {
+      "label": "طول نهر السنغال",
+      "value": 1790,
+      "unit": "كم",
+      "display": "1790"
+     }
+    ],
+    "topic": "geo.rivers"
+   }
+  }
+ ]
+}

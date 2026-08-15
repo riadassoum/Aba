@@ -1,0 +1,298 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "réunion",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Nous avons une réunion à dix heures.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "collègue",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Mon collègue m'a aidé à finir le rapport.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "entretien",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "J'ai un entretien d'embauche demain.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "salaire",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Le salaire est payé chaque mois.",
+      "translation": "يُدفع الراتب كل شهر."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

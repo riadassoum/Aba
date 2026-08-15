@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 4,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+      "translation": "For the accustomed security of the Quraysh -"
+     },
+     {
+      "text": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "translation": "Their accustomed security [in] the caravan of winter and summer -"
+     },
+     {
+      "text": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+      "translation": "Let them worship the Lord of this House,"
+     },
+     {
+      "text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "translation": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ...",
+    "correct": "ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ﴾",
+    "topic": "quran:106"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: إِۦلَٰفِهِمْ رِحْلَةَ ...",
+    "correct": "ٱلشِّتَآءِ وَٱلصَّيْفِ",
+    "accepted": [
+     "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ"
+    ],
+    "explanation": "الآية كاملة: ﴿إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ﴾",
+    "topic": "quran:106"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: فَلْيَعْبُدُوا۟ رَبَّ ...",
+    "correct": "هَٰذَا ٱلْبَيْتِ",
+    "accepted": [
+     "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ"
+    ],
+    "explanation": "الآية كاملة: ﴿فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ﴾",
+    "topic": "quran:106"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: ٱلَّذِىٓ أَطْعَمَهُم مِّن ...",
+    "correct": "جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+    "accepted": [
+     "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ"
+    ],
+    "explanation": "الآية كاملة: ﴿ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ﴾",
+    "topic": "quran:106"
+   }
+  }
+ ]
+}

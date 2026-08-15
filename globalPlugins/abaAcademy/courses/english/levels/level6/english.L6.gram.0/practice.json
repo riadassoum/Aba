@@ -1,0 +1,80 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "I {b} already finished my work.",
+      "correct": "have",
+      "distractors": [
+       "has",
+       "had",
+       "am"
+      ],
+      "explain": "مع I/You/We/They نستخدم have + التصريف الثالث.",
+      "topic": "gram.present_perfect"
+     },
+     {
+      "prompt": "She {b} never been to Japan.",
+      "correct": "has",
+      "distractors": [
+       "have",
+       "had",
+       "is"
+      ],
+      "explain": "مع He/She/It نستخدم has + التصريف الثالث.",
+      "topic": "gram.present_perfect"
+     },
+     {
+      "prompt": "Have you {b} this book before?",
+      "correct": "read",
+      "distractors": [
+       "reads",
+       "reading",
+       "readed"
+      ],
+      "explain": "بعد have/has نستخدم التصريف الثالث للفعل.",
+      "topic": "gram.present_perfect"
+     },
+     {
+      "prompt": "You {b} see a doctor if you feel sick.",
+      "correct": "should",
+      "distractors": [
+       "should to",
+       "must to",
+       "can to"
+      ],
+      "explain": "should تُستخدم للنصيحة، بدون to بعدها.",
+      "topic": "gram.modals"
+     },
+     {
+      "prompt": "Students {b} wear a uniform at this school.",
+      "correct": "must",
+      "distractors": [
+       "should",
+       "can",
+       "may"
+      ],
+      "explain": "must تدل على الإلزام.",
+      "topic": "gram.modals"
+     },
+     {
+      "prompt": "{b} I open the window?",
+      "correct": "Can",
+      "distractors": [
+       "Do",
+       "Am",
+       "Will"
+      ],
+      "explain": "نستخدم Can/May لطلب الإذن.",
+      "topic": "gram.modals"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

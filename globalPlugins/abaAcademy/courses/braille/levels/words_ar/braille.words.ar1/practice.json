@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 12,
+   "params": {
+    "table": "arabic",
+    "words": [
+     "درس",
+     "علم",
+     "نور",
+     "سلام",
+     "قمر"
+    ],
+    "topic": "braille.words.ar"
+   }
+  }
+ ]
+}

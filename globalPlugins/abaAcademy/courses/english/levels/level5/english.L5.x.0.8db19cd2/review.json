@@ -1,0 +1,120 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "price",
+      "meaning": "سعر",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "What is the price of this bag?",
+      "translation": "ما سعر هذه الحقيبة؟"
+     },
+     {
+      "word": "cheap",
+      "meaning": "رخيص",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "This shop is cheap.",
+      "translation": "هذا المحل رخيص."
+     },
+     {
+      "word": "expensive",
+      "meaning": "غالٍ",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "That car is very expensive.",
+      "translation": "تلك السيارة غالية جداً."
+     },
+     {
+      "word": "discount",
+      "meaning": "خصم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "There is a fifty percent discount.",
+      "translation": "هناك خصم خمسين بالمئة."
+     },
+     {
+      "word": "receipt",
+      "meaning": "إيصال",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Keep the receipt, please.",
+      "translation": "احتفظ بالإيصال من فضلك."
+     },
+     {
+      "word": "size",
+      "meaning": "مقاس",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "What size do you wear?",
+      "translation": "ما مقاسك؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "price",
+      "meaning": "سعر",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "What is the price of this bag?",
+      "translation": "ما سعر هذه الحقيبة؟"
+     },
+     {
+      "word": "cheap",
+      "meaning": "رخيص",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "This shop is cheap.",
+      "translation": "هذا المحل رخيص."
+     },
+     {
+      "word": "expensive",
+      "meaning": "غالٍ",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "That car is very expensive.",
+      "translation": "تلك السيارة غالية جداً."
+     },
+     {
+      "word": "discount",
+      "meaning": "خصم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "There is a fifty percent discount.",
+      "translation": "هناك خصم خمسين بالمئة."
+     },
+     {
+      "word": "receipt",
+      "meaning": "إيصال",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Keep the receipt, please.",
+      "translation": "احتفظ بالإيصال من فضلك."
+     },
+     {
+      "word": "size",
+      "meaning": "مقاس",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "What size do you wear?",
+      "translation": "ما مقاسك؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

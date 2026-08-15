@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 24,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: رأيتُ طالباً ...",
+      "correct": "مجتهداً",
+      "distractors": [
+       "مجتهدٌ",
+       "مجتهدٍ",
+       "المجتهد"
+      ],
+      "explain": "النعت يتبع المنعوت في النصب.",
+      "topic": "ar.naat"
+     }
+    ],
+    "topic": "ar.naat",
+    "difficulty": 5
+   }
+  }
+ ]
+}

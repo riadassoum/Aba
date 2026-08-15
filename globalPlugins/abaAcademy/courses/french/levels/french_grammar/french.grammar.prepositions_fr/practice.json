@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je vais ___ Paris.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 0,
+    "explanation": "مع المدن نستخدم à.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Elle habite ___ France.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 1,
+    "explanation": "دولة مؤنّثة: en.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il travaille ___ Maroc.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 2,
+    "explanation": "دولة مذكّرة: au.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا يعني sous؟",
+    "options": [
+     "على",
+     "تحت",
+     "أمام",
+     "خلف"
+    ],
+    "correct": 1,
+    "explanation": "sous = تحت.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: Le chat est ___ la table (على). اكتب حرف الجر.",
+    "correct": "sur",
+    "accepted": [],
+    "explanation": "على: sur.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "مع الدول المؤنّثة نستخدم au.",
+    "correct": false,
+    "explanation": "مع المؤنّثة en، ومع المذكّرة au.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "Je vais à Paris.",
+      "translation": "أذهب إلى باريس."
+     },
+     {
+      "text": "Il habite en France.",
+      "translation": "يسكن في فرنسا."
+     },
+     {
+      "text": "Le livre est sur la table.",
+      "translation": "الكتاب على الطاولة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 5,
+   "params": {
+    "table": "english",
+    "words": [
+     "cat",
+     "dog",
+     "book",
+     "pen"
+    ],
+    "topic": "braille.words.en"
+   }
+  }
+ ]
+}

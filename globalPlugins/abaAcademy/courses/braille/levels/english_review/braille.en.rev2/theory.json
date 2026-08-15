@@ -1,0 +1,142 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتعلّم رموز: الأبجدية الإنجليزية كاملة. استمع إلى كل رمز ونقاطه، ثم انتقل إلى التمارين لتثبيتها."
+  },
+  {
+   "btype": "example",
+   "text": "a",
+   "note": "النقطة ١"
+  },
+  {
+   "btype": "example",
+   "text": "b",
+   "note": "النقاط ١، ٢"
+  },
+  {
+   "btype": "example",
+   "text": "c",
+   "note": "النقاط ١، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "d",
+   "note": "النقاط ١، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "e",
+   "note": "النقاط ١، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "f",
+   "note": "النقاط ١، ٢، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "g",
+   "note": "النقاط ١، ٢، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "h",
+   "note": "النقاط ١، ٢، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "i",
+   "note": "النقاط ٢، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "j",
+   "note": "النقاط ٢، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "k",
+   "note": "النقاط ١، ٣"
+  },
+  {
+   "btype": "example",
+   "text": "l",
+   "note": "النقاط ١، ٢، ٣"
+  },
+  {
+   "btype": "example",
+   "text": "m",
+   "note": "النقاط ١، ٣، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "n",
+   "note": "النقاط ١، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "o",
+   "note": "النقاط ١، ٣، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "p",
+   "note": "النقاط ١، ٢، ٣، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "q",
+   "note": "النقاط ١، ٢، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "r",
+   "note": "النقاط ١، ٢، ٣، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "s",
+   "note": "النقاط ٢، ٣، ٤"
+  },
+  {
+   "btype": "example",
+   "text": "t",
+   "note": "النقاط ٢، ٣، ٤، ٥"
+  },
+  {
+   "btype": "example",
+   "text": "u",
+   "note": "النقاط ١، ٣، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "v",
+   "note": "النقاط ١، ٢، ٣، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "w",
+   "note": "النقاط ٢، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "x",
+   "note": "النقاط ١، ٣، ٤، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "y",
+   "note": "النقاط ١، ٣، ٤، ٥، ٦"
+  },
+  {
+   "btype": "example",
+   "text": "z",
+   "note": "النقاط ١، ٣، ٥، ٦"
+  },
+  {
+   "btype": "text",
+   "text": "نصيحة: لا تحفظ النقاط كأرقام مجرّدة، بل تخيّل موضعها في الخلية. الحروف المتشابهة في هذه المجموعة تختلف عادةً بنقطة واحدة فقط."
+  }
+ ]
+}

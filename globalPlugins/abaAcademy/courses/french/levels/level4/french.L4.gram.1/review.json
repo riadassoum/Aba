@@ -1,0 +1,81 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Nous {b} la télévision.",
+      "correct": "regardons",
+      "distractors": [
+       "regarde",
+       "regardes",
+       "regardent"
+      ],
+      "explain": "مع Nous نضيف -ons.",
+      "topic": "gram.present_er"
+     },
+     {
+      "prompt": "Ils {b} au cinéma.",
+      "correct": "vont",
+      "distractors": [
+       "va",
+       "allons",
+       "allez"
+      ],
+      "explain": "aller فعل شاذ: ils vont.",
+      "topic": "gram.present_er"
+     },
+     {
+      "prompt": "Je {b} mes études cette année.",
+      "correct": "finis",
+      "distractors": [
+       "finit",
+       "finissons",
+       "finissez"
+      ],
+      "explain": "مع Je نضيف -is.",
+      "topic": "gram.present_ir"
+     },
+     {
+      "prompt": "Nous {b} nos études cette année.",
+      "correct": "finissons",
+      "distractors": [
+       "finis",
+       "finit",
+       "finissent"
+      ],
+      "explain": "مع Nous نضيف -issons.",
+      "topic": "gram.present_ir"
+     },
+     {
+      "prompt": "Je {b} pas faim.",
+      "correct": "n'ai",
+      "distractors": [
+       "ai",
+       "n'a",
+       "as"
+      ],
+      "explain": "النفي البسيط: ne (n') + الفعل + pas.",
+      "topic": "gram.negation"
+     },
+     {
+      "prompt": "Elle ne mange {b} de viande.",
+      "correct": "jamais",
+      "distractors": [
+       "pas",
+       "rien",
+       "personne"
+      ],
+      "explain": "ne...jamais تعني «أبداً».",
+      "topic": "gram.negation"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

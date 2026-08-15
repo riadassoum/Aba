@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.fraction",
+   "count": 12,
+   "params": {
+    "difficulty": 2
+   }
+  }
+ ]
+}

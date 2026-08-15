@@ -1,0 +1,41 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ going to study tonight.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "will"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم am going to.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم going to للخطط المُبيّتة مسبقاً.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: We are going ___ eat out. اكتب الكلمة الناقصة.",
+    "correct": "to",
+    "accepted": [],
+    "explanation": "التركيب: going to + فعل.",
+    "topic": "gram.going_to"
+   }
+  }
+ ]
+}

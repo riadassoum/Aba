@@ -1,0 +1,40 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 8,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "to go",
+      "meaning": "يذهب",
+      "tense": "المستقبل (will)",
+      "forms": {
+       "I": "will go",
+       "you": "will go",
+       "he": "will go",
+       "she": "will go",
+       "we": "will go",
+       "they": "will go"
+      }
+     },
+     {
+      "infinitive": "to help",
+      "meaning": "يساعد",
+      "tense": "المستقبل (will)",
+      "forms": {
+       "I": "will help",
+       "you": "will help",
+       "he": "will help",
+       "she": "will help",
+       "we": "will help",
+       "they": "will help"
+      }
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

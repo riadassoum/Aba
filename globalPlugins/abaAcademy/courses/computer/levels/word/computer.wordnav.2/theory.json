@@ -1,0 +1,40 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "هنا نطبّق القاعدة في سياقات متنوعة، بأشكال أسئلة مختلطة: اختيار، وصواب وخطأ، وكتابة."
+  },
+  {
+   "btype": "text",
+   "text": "تعلّم هذه المعلومات أولاً، ثم ستُختبر فيها:"
+  },
+  {
+   "btype": "text",
+   "text": "أيّ اختصار يجعل النص غامقاً؟ Control مع B (Control+B للنص الغامق.)"
+  },
+  {
+   "btype": "text",
+   "text": "كيف تذهب لبداية المستند؟ Control مع Home (Control+Home لبداية المستند.)"
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع B». — Control+B للنص الغامق."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع B»."
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Control مع Home». — Control+Home لبداية المستند."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع Home»."
+  },
+  {
+   "btype": "text",
+   "text": "تذكير بالقاعدة: Control مع Home لبداية المستند، Control مع End لنهايته، Control مع B للنص الغامق، Control مع I للمائل، Control مع S للحفظ."
+  }
+ ]
+}

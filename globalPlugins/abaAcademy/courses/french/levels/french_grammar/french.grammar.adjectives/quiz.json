@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: une ___ maison. (كبيرة)",
+    "options": [
+     "grand",
+     "grande",
+     "grands",
+     "grandes"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: grande.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: des livres ___. (زرقاء)",
+    "options": [
+     "bleu",
+     "bleue",
+     "bleus",
+     "bleues"
+    ],
+    "correct": 2,
+    "explanation": "livres مذكّر جمع: bleus.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أنّث الصفة petit (صغير → صغيرة):",
+    "correct": "petite",
+    "accepted": [],
+    "explanation": "نضيف e: petite.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "الصفة في الفرنسية تطابق الاسم في الجنس والعدد.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: une voiture ___. (حمراء)",
+    "options": [
+     "rouge",
+     "rouges",
+     "roux",
+     "rougee"
+    ],
+    "correct": 0,
+    "explanation": "rouge تنتهي بـ e فلا تتغيّر في المؤنّث.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اجمع الصفة grand للمذكّر (طوال):",
+    "correct": "grands",
+    "accepted": [],
+    "explanation": "نضيف s: grands.",
+    "topic": "gram.adjectives"
+   }
+  }
+ ]
+}

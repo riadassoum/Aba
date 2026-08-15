@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الأفعال الناقصة (modals) تعبّر عن القدرة أو الوجوب أو النصيحة، ويأتي بعدها الفعل بالتصريف الأول المجرّد دائماً (بلا to وبلا s). can للقدرة (I can swim)، must للوجوب القوي (You must stop)، should للنصيحة (You should rest)، may/might للاحتمال، have to للضرورة. النفي بإضافة not: cannot/can't، mustn't،"
+  },
+  {
+   "btype": "text",
+   "text": "shouldn't. لا نقول «He can swims» بل «He can swim»."
+  },
+  {
+   "btype": "example",
+   "text": "I can speak English.",
+   "note": "أستطيع التحدث بالإنجليزية."
+  },
+  {
+   "btype": "example",
+   "text": "You must wear a seatbelt.",
+   "note": "يجب أن تضع حزام الأمان."
+  },
+  {
+   "btype": "example",
+   "text": "You should see a doctor.",
+   "note": "ينبغي أن تراجع طبيباً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She can ___ the piano.",
+    "options": [
+     "plays",
+     "played",
+     "play",
+     "playing"
+    ],
+    "correct": 2,
+    "explanation": "بعد can فعل مجرّد: play.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر المناسب للنصيحة: You ___ study for the exam.",
+    "options": [
+     "must not",
+     "should",
+     "can't",
+     "may not"
+    ],
+    "correct": 1,
+    "explanation": "للنصيحة نستخدم should.",
+    "topic": "gram.modals"
+   }
+  }
+ ]
+}

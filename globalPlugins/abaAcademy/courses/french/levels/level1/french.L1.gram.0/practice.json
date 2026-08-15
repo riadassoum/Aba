@@ -1,0 +1,91 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Elle {b} médecin.",
+      "correct": "est",
+      "distractors": [
+       "es",
+       "sont",
+       "êtes"
+      ],
+      "explain": "مع Il/Elle نستخدم est.",
+      "topic": "gram.etre"
+     },
+     {
+      "prompt": "Nous {b} contents.",
+      "correct": "sommes",
+      "distractors": [
+       "est",
+       "êtes",
+       "sont"
+      ],
+      "explain": "مع Nous نستخدم sommes.",
+      "topic": "gram.etre"
+     },
+     {
+      "prompt": "Vous {b} très gentils.",
+      "correct": "êtes",
+      "distractors": [
+       "sommes",
+       "sont",
+       "est"
+      ],
+      "explain": "مع Vous نستخدم êtes.",
+      "topic": "gram.etre"
+     },
+     {
+      "prompt": "J'{b} vingt ans.",
+      "correct": "ai",
+      "distractors": [
+       "as",
+       "a",
+       "avons"
+      ],
+      "explain": "مع Je نستخدم ai.",
+      "topic": "gram.avoir"
+     },
+     {
+      "prompt": "Ils {b} une grande maison.",
+      "correct": "ont",
+      "distractors": [
+       "a",
+       "as",
+       "avez"
+      ],
+      "explain": "مع Ils/Elles نستخدم ont.",
+      "topic": "gram.avoir"
+     },
+     {
+      "prompt": "{b} table est grande.",
+      "correct": "La",
+      "distractors": [
+       "Le",
+       "Les",
+       "Un"
+      ],
+      "explain": "table مؤنثة، تأخذ La.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "{b} livre est intéressant.",
+      "correct": "Le",
+      "distractors": [
+       "La",
+       "Les",
+       "Une"
+      ],
+      "explain": "livre مذكر، يأخذ Le.",
+      "topic": "gram.articles"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

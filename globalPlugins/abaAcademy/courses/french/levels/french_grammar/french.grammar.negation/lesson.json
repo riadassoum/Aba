@@ -1,0 +1,12 @@
+{
+ "lesson_id": "french.grammar.negation",
+ "title": "قواعد: النفي (ne ... pas)",
+ "order": 6,
+ "objectives": [
+  "إتقان قاعدة: النفي (ne ... pas)"
+ ],
+ "grammar_refs": [
+  "gram.negation"
+ ],
+ "difficulty": 2
+}

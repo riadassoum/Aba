@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الوقت». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "today = اليوم",
+   "note": "مثال: Today is a beautiful day. — اليوم يوم جميل."
+  },
+  {
+   "btype": "example",
+   "text": "tomorrow = غداً",
+   "note": "مثال: See you tomorrow. — أراك غداً."
+  },
+  {
+   "btype": "example",
+   "text": "yesterday = أمس",
+   "note": "مثال: I called you yesterday. — اتصلت بك أمس."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «yesterday»؟",
+    "options": [
+     "اليوم",
+     "غداً",
+     "أمس"
+    ],
+    "correct": 2,
+    "explanation": "«yesterday» تعني «أمس».",
+    "topic": "en:الوقت"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "morning = صباح",
+   "note": "مثال: Good morning, everyone. — صباح الخير للجميع."
+  },
+  {
+   "btype": "example",
+   "text": "night = ليل",
+   "note": "مثال: It is very quiet at night. — الجو هادئ جداً في الليل."
+  },
+  {
+   "btype": "example",
+   "text": "week = أسبوع",
+   "note": "مثال: I will finish it next week. — سأنهيه الأسبوع القادم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «week»؟",
+    "options": [
+     "صباح",
+     "ليل",
+     "أسبوع"
+    ],
+    "correct": 2,
+    "explanation": "«week» تعني «أسبوع».",
+    "topic": "en:الوقت"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "month = شهر",
+   "note": "مثال: We travel every month. — نسافر كل شهر."
+  },
+  {
+   "btype": "example",
+   "text": "year = سنة",
+   "note": "مثال: Happy new year! — سنة سعيدة!"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

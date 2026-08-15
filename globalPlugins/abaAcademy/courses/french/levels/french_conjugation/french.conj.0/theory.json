@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «المضارع (présent)». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: aimer، aller، avoir، finir، parler، être."
+  },
+  {
+   "btype": "example",
+   "text": "je suis",
+   "note": "تصريف «être» مع «je»"
+  },
+  {
+   "btype": "example",
+   "text": "tu es",
+   "note": "تصريف «être» مع «tu»"
+  },
+  {
+   "btype": "example",
+   "text": "il est",
+   "note": "تصريف «être» مع «il»"
+  },
+  {
+   "btype": "example",
+   "text": "nous sommes",
+   "note": "تصريف «être» مع «nous»"
+  },
+  {
+   "btype": "example",
+   "text": "vous êtes",
+   "note": "تصريف «être» مع «vous»"
+  },
+  {
+   "btype": "example",
+   "text": "ils sont",
+   "note": "تصريف «être» مع «ils»"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "translation": "Indeed, We sent the Qur'an down during the Night of Decree."
+     },
+     {
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "translation": "And what can make you know what is the Night of Decree?"
+     },
+     {
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+      "translation": "The Night of Decree is better than a thousand months."
+     },
+     {
+      "text": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+      "translation": "The angels and the Spirit descend therein by permission of their Lord for every matter."
+     },
+     {
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "translation": "Peace it is until the emergence of dawn."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+    "accepted": [
+     "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ﴾",
+    "topic": "quran:97"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَمَآ أَدْرَىٰكَ ...",
+    "correct": "مَا لَيْلَةُ ٱلْقَدْرِ",
+    "accepted": [
+     "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ﴾",
+    "topic": "quran:97"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ ...",
+    "correct": "مِّنْ أَلْفِ شَهْرٍۢ",
+    "accepted": [
+     "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ﴾",
+    "topic": "quran:97"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا ...",
+    "correct": "بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+    "accepted": [
+     "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ﴾",
+    "topic": "quran:97"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: سَلَٰمٌ هِىَ ...",
+    "correct": "حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+    "accepted": [
+     "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ"
+    ],
+    "explanation": "الآية كاملة: ﴿سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ﴾",
+    "topic": "quran:97"
+   }
+  }
+ ]
+}

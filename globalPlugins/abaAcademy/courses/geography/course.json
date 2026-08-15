@@ -1,0 +1,337 @@
+{
+ "course_id": "geography",
+ "title": "الجغرافيا",
+ "description": "الجغرافيا العربية والعالمية: الدول والعواصم والعملات، والقارات والمحيطات، والأنهار والجبال والصحاري. تمارين مولّدة لا تنفد.",
+ "order": 8,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "arab",
+   "title": "المستوى الأول: الوطن العربي",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "geo.arab0.0",
+     "title": "دول عربية (1) — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: دول عربية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "geo.arab0.1",
+     "title": "دول عربية (1) — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: دول عربية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.arab0.2",
+     "title": "دول عربية (1) — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: دول عربية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.arab1.0",
+     "title": "دول عربية (2) — تعرّف",
+     "order": 3,
+     "objectives": [
+      "تعرّف: دول عربية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "geo.arab1.1",
+     "title": "دول عربية (2) — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: دول عربية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.arab1.2",
+     "title": "دول عربية (2) — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: دول عربية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.arab2.0",
+     "title": "دول عربية (3) — تعرّف",
+     "order": 6,
+     "objectives": [
+      "تعرّف: دول عربية (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "geo.arab2.1",
+     "title": "دول عربية (3) — تطبيق",
+     "order": 7,
+     "objectives": [
+      "تطبيق: دول عربية (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.arab2.2",
+     "title": "دول عربية (3) — إتقان",
+     "order": 8,
+     "objectives": [
+      "إتقان: دول عربية (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.arab.all.0",
+     "title": "الوطن العربي كاملاً — تعرّف",
+     "order": 9,
+     "objectives": [
+      "تعرّف: الوطن العربي كاملاً"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.arab.all.1",
+     "title": "الوطن العربي كاملاً — تطبيق",
+     "order": 10,
+     "objectives": [
+      "تطبيق: الوطن العربي كاملاً"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.arab.all.2",
+     "title": "الوطن العربي كاملاً — إتقان",
+     "order": 11,
+     "objectives": [
+      "إتقان: الوطن العربي كاملاً"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "world",
+   "title": "المستوى الثاني: دول العالم",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "geo.world0.0",
+     "title": "دول العالم (1) — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: دول العالم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.world0.1",
+     "title": "دول العالم (1) — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: دول العالم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.world0.2",
+     "title": "دول العالم (1) — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: دول العالم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.world1.0",
+     "title": "دول العالم (2) — تعرّف",
+     "order": 3,
+     "objectives": [
+      "تعرّف: دول العالم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.world1.1",
+     "title": "دول العالم (2) — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: دول العالم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.world1.2",
+     "title": "دول العالم (2) — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: دول العالم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.world2.0",
+     "title": "دول العالم (3) — تعرّف",
+     "order": 6,
+     "objectives": [
+      "تعرّف: دول العالم (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.world2.1",
+     "title": "دول العالم (3) — تطبيق",
+     "order": 7,
+     "objectives": [
+      "تطبيق: دول العالم (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.world2.2",
+     "title": "دول العالم (3) — إتقان",
+     "order": 8,
+     "objectives": [
+      "إتقان: دول العالم (3)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.world.all.0",
+     "title": "دول العالم — مراجعة — تعرّف",
+     "order": 9,
+     "objectives": [
+      "تعرّف: دول العالم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.world.all.1",
+     "title": "دول العالم — مراجعة — تطبيق",
+     "order": 10,
+     "objectives": [
+      "تطبيق: دول العالم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.world.all.2",
+     "title": "دول العالم — مراجعة — إتقان",
+     "order": 11,
+     "objectives": [
+      "إتقان: دول العالم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "continents",
+   "title": "المستوى الثالث: القارات والمحيطات",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "geo.continents.0",
+     "title": "القارات السبع — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: القارات السبع"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "geo.continents.1",
+     "title": "القارات السبع — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: القارات السبع"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.continents.2",
+     "title": "القارات السبع — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: القارات السبع"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "geo.oceans",
+     "title": "المحيطات والبحار والتضاريس",
+     "order": 3,
+     "objectives": [
+      "المحيطات والبحار والتضاريس"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "rivers",
+   "title": "المستوى الرابع: الأنهار والأرقام الجغرافية",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "geo.rivers",
+     "title": "أطوال الأنهار الكبرى",
+     "order": 0,
+     "objectives": [
+      "أطوال الأنهار الكبرى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "geo.rivers.master",
+     "title": "الأنهار — إتقان ومقارنة",
+     "order": 1,
+     "objectives": [
+      "الأنهار — إتقان ومقارنة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  }
+ ]
+}

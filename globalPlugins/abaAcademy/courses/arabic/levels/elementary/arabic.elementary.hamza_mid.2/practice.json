@@ -1,0 +1,35 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 11,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تُكتب الهمزة في كلمة تعني الاستفهام (سؤال)؟",
+      "correct": "سؤال",
+      "distractors": [
+       "سأال",
+       "سئال",
+       "سءال"
+      ],
+      "explain": "الضمة أقوى، فعلى واو.",
+      "topic": "ar.hamza_mid"
+     }
+    ],
+    "topic": "ar.hamza_mid",
+    "difficulty": 2
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "ar.hamza_pos",
+   "data": "hamza_cases",
+   "count": 14,
+   "params": {
+    "difficulty": 2
+   }
+  }
+ ]
+}

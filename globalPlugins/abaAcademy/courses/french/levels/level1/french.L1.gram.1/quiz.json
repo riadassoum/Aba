@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Elle {b} médecin.",
+    "options": [
+     "es",
+     "sont",
+     "êtes",
+     "est"
+    ],
+    "correct": 3,
+    "explanation": "مع Il/Elle نستخدم est.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Nous {b} contents.",
+    "options": [
+     "est",
+     "êtes",
+     "sont",
+     "sommes"
+    ],
+    "correct": 3,
+    "explanation": "مع Nous نستخدم sommes.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Vous {b} très gentils.",
+    "options": [
+     "sommes",
+     "sont",
+     "est",
+     "êtes"
+    ],
+    "correct": 3,
+    "explanation": "مع Vous نستخدم êtes.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "J'{b} vingt ans.",
+    "options": [
+     "as",
+     "a",
+     "avons",
+     "ai"
+    ],
+    "correct": 3,
+    "explanation": "مع Je نستخدم ai.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Ils {b} une grande maison.",
+    "options": [
+     "a",
+     "as",
+     "avez",
+     "ont"
+    ],
+    "correct": 3,
+    "explanation": "مع Ils/Elles نستخدم ont.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "{b} table est grande.",
+    "options": [
+     "Le",
+     "Les",
+     "Un",
+     "La"
+    ],
+    "correct": 3,
+    "explanation": "table مؤنثة، تأخذ La.",
+    "topic": "gram.articles"
+   }
+  }
+ ]
+}

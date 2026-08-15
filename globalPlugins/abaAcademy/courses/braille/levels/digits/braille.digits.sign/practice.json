@@ -1,0 +1,44 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 12,
+   "params": {
+    "table": "digits",
+    "topic": "braille.digits"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما نقاط علامة الرقم في برايل؟",
+      "correct": "النقاط ٣، ٤، ٥، ٦",
+      "distractors": [
+       "النقاط ١، ٢، ٣",
+       "النقاط ٤، ٥، ٦",
+       "النقاط ١، ٤"
+      ],
+      "explain": "علامة الرقم هي النقاط ٣ و٤ و٥ و٦.",
+      "topic": "braille.digits"
+     },
+     {
+      "prompt": "كم علامة رقم يحتاج العدد ٤٥٦٧؟",
+      "correct": "واحدة",
+      "distractors": [
+       "أربع",
+       "اثنتان",
+       "لا شيء"
+      ],
+      "explain": "علامة واحدة في أول العدد تكفي مهما طال.",
+      "topic": "braille.digits"
+     }
+    ]
+   }
+  }
+ ]
+}

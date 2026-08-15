@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.sequence",
+   "count": 7,
+   "params": {
+    "difficulty": 4
+   }
+  }
+ ]
+}

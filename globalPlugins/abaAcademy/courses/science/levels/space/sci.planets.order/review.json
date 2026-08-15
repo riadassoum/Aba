@@ -1,0 +1,27 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.ordering",
+   "count": 6,
+   "params": {
+    "sequences": [
+     {
+      "prompt": "رتّب الكواكب من الأقرب إلى الشمس فالأبعد:",
+      "items": [
+       "عطارد",
+       "الزهرة",
+       "الأرض",
+       "المريخ",
+       "المشتري",
+       "زحل",
+       "أورانوس",
+       "نبتون"
+      ],
+      "topic": "sci.planets"
+     }
+    ]
+   }
+  }
+ ]
+}

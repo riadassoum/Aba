@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأفعال — الجزء 3». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "clean = ينظف",
+   "note": "مثال: She cleans the house every Saturday. — تنظف المنزل كل سبت."
+  },
+  {
+   "btype": "example",
+   "text": "walk = يمشي",
+   "note": "مثال: We walk to school. — نمشي إلى المدرسة."
+  },
+  {
+   "btype": "example",
+   "text": "run = يجري",
+   "note": "مثال: He runs every morning. — يجري كل صباح."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «run»؟",
+    "options": [
+     "ينظف",
+     "يمشي",
+     "يجري"
+    ],
+    "correct": 2,
+    "explanation": "«run» تعني «يجري».",
+    "topic": "en:الأفعال — الجزء 3"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "swim = يسبح",
+   "note": "مثال: They swim in the sea. — يسبحون في البحر."
+  },
+  {
+   "btype": "example",
+   "text": "help = يساعد",
+   "note": "مثال: Can you help me? — هل يمكنك مساعدتي؟"
+  },
+  {
+   "btype": "example",
+   "text": "learn = يتعلم",
+   "note": "مثال: I learn something new every day. — أتعلم شيئاً جديداً كل يوم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «learn»؟",
+    "options": [
+     "يسبح",
+     "يساعد",
+     "يتعلم"
+    ],
+    "correct": 2,
+    "explanation": "«learn» تعني «يتعلم».",
+    "topic": "en:الأفعال — الجزء 3"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "teach = يعلّم",
+   "note": "مثال: She teaches French. — تعلّم اللغة الفرنسية."
+  },
+  {
+   "btype": "example",
+   "text": "open = يفتح",
+   "note": "مثال: Open your books, please. — افتحوا كتبكم من فضلكم."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

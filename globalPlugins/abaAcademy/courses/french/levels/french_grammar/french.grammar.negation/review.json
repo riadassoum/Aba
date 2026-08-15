@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي الصحيح لـ Je parle:",
+    "options": [
+     "Je pas parle",
+     "Je ne parle pas",
+     "Je ne pas parle",
+     "Je parle ne pas"
+    ],
+    "correct": 1,
+    "explanation": "ne قبل الفعل وpas بعده.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "في النفي يُحاط الفعل بـ ne قبله وpas بعده.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا تعني ne...jamais؟",
+    "options": [
+     "دائماً",
+     "أبداً/قط",
+     "أحياناً",
+     "لا شيء"
+    ],
+    "correct": 1,
+    "explanation": "ne...jamais = أبداً.",
+    "topic": "gram.negation"
+   }
+  }
+ ]
+}

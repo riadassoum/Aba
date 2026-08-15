@@ -1,0 +1,54 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "للمقارنة بين شيئين نستخدم صيغة المقارنة + than. الصفات القصيرة (مقطع واحد) نضيف لها er مثل tall → taller، big → bigger (نضاعف الحرف)، وeasy → easier (قبل y ساكن). الصفات الطويلة (مقطعان فأكثر) نضع قبلها more مثل beautiful → more beautiful. بعض الصفات شاذة: good → better، bad → worse، far →"
+  },
+  {
+   "btype": "text",
+   "text": "farther/further. مثال: She is taller than me. This book is more interesting than that one."
+  },
+  {
+   "btype": "example",
+   "text": "He is taller than his brother.",
+   "note": "أطول من أخيه."
+  },
+  {
+   "btype": "example",
+   "text": "This is more expensive than that.",
+   "note": "أغلى من ذلك."
+  },
+  {
+   "btype": "example",
+   "text": "My car is better than yours.",
+   "note": "سيارتي أفضل من سيارتك."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة المقارنة من tall:",
+    "correct": "taller",
+    "accepted": [],
+    "explanation": "صفة قصيرة: نضيف er.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: This test is ___ than the last one.",
+    "options": [
+     "difficult",
+     "difficulter",
+     "more difficult",
+     "most difficult"
+    ],
+    "correct": 2,
+    "explanation": "difficult صفة طويلة: more difficult.",
+    "topic": "gram.comparatives"
+   }
+  }
+ ]
+}

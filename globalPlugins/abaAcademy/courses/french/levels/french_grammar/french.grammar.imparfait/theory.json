@@ -1,0 +1,50 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الـ imparfait يصف حالة أو عادة أو حدثاً مستمراً في الماضي (كان يفعل، اعتاد أن). نكوّنه بأخذ جذر الفعل مع nous في المضارع (nous parlons → parl) وإضافة النهايات: -ais, -ais, -ait, -ions, -iez, -aient. مثل je parlais (كنت أتكلم)، il faisait (كان يفعل)، nous habitions (كنا نسكن). يقابل الماضي المستمر تقريباً."
+  },
+  {
+   "btype": "example",
+   "text": "Je parlais avec lui.",
+   "note": "كنت أتكلم معه."
+  },
+  {
+   "btype": "example",
+   "text": "Il faisait beau.",
+   "note": "كان الجو جميلاً."
+  },
+  {
+   "btype": "example",
+   "text": "Nous habitions à Lyon.",
+   "note": "كنا نسكن في ليون."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ (parler) quand il est arrivé.",
+    "options": [
+     "parle",
+     "parlais",
+     "parlé",
+     "parlerai"
+    ],
+    "correct": 1,
+    "explanation": "imparfait مع je: parlais.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف habiter في imparfait مع nous (كنا نسكن):",
+    "correct": "habitions",
+    "accepted": [],
+    "explanation": "النهاية ions: habitions.",
+    "topic": "gram.imparfait"
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "If it rains, I {b} stay home.",
+    "options": [
+     "would",
+     "did",
+     "am",
+     "will"
+    ],
+    "correct": 3,
+    "explanation": "الشرط النوع الأول: If + مضارع، will + المصدر.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "If I had more time, I {b} learn Spanish too.",
+    "options": [
+     "will",
+     "did",
+     "had",
+     "would"
+    ],
+    "correct": 3,
+    "explanation": "الشرط النوع الثاني: If + ماضي، would + المصدر.",
+    "topic": "gram.conditionals"
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 5,
+   "params": {
+    "table": "arabic",
+    "words": [
+     "باب",
+     "كتاب",
+     "قلم",
+     "شمس",
+     "بيت"
+    ],
+    "topic": "braille.words.ar"
+   }
+  }
+ ]
+}

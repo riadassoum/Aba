@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I {b} already finished my work.",
+    "options": [
+     "has",
+     "had",
+     "am",
+     "have"
+    ],
+    "correct": 3,
+    "explanation": "مع I/You/We/They نستخدم have + التصريف الثالث.",
+    "topic": "gram.present_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "She {b} never been to Japan.",
+    "options": [
+     "have",
+     "had",
+     "is",
+     "has"
+    ],
+    "correct": 3,
+    "explanation": "مع He/She/It نستخدم has + التصريف الثالث.",
+    "topic": "gram.present_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Have you {b} this book before?",
+    "options": [
+     "reads",
+     "reading",
+     "readed",
+     "read"
+    ],
+    "correct": 3,
+    "explanation": "بعد have/has نستخدم التصريف الثالث للفعل.",
+    "topic": "gram.present_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "You {b} see a doctor if you feel sick.",
+    "options": [
+     "should to",
+     "must to",
+     "can to",
+     "should"
+    ],
+    "correct": 3,
+    "explanation": "should تُستخدم للنصيحة، بدون to بعدها.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Students {b} wear a uniform at this school.",
+    "options": [
+     "should",
+     "can",
+     "may",
+     "must"
+    ],
+    "correct": 3,
+    "explanation": "must تدل على الإلزام.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "{b} I open the window?",
+    "options": [
+     "Do",
+     "Am",
+     "Will",
+     "Can"
+    ],
+    "correct": 3,
+    "explanation": "نستخدم Can/May لطلب الإذن.",
+    "topic": "gram.modals"
+   }
+  }
+ ]
+}

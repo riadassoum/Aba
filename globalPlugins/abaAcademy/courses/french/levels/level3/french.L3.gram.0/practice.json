@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Je {b} le français.",
+      "correct": "parle",
+      "distractors": [
+       "parles",
+       "parlons",
+       "parlez"
+      ],
+      "explain": "مع Je نحذف -er ونضيف -e.",
+      "topic": "gram.present_er"
+     },
+     {
+      "prompt": "Tu {b} beaucoup.",
+      "correct": "manges",
+      "distractors": [
+       "mange",
+       "mangeons",
+       "mangent"
+      ],
+      "explain": "مع Tu نضيف -es.",
+      "topic": "gram.present_er"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

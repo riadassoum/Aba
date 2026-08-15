@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 8,
+   "params": {
+    "signs": {
+     "الضمة": "⠥",
+     "الفتحة": "⠂",
+     "الكسرة": "⠑"
+    },
+    "topic": "braille.marks"
+   }
+  }
+ ]
+}

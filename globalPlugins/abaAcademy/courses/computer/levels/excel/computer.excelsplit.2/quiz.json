@@ -1,0 +1,49 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 11,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما فائدة تجميد الأجزاء في إكسل؟",
+      "correct": "إبقاء العناوين ظاهرة أثناء التمرير",
+      "distractors": [
+       "حذف الصفوف",
+       "تلوين الخلايا",
+       "طباعة الورقة"
+      ],
+      "explain": "التجميد يبقي صف العناوين ظاهراً.",
+      "topic": "pc.excelsplit"
+     }
+    ],
+    "topic": "pc.excelsplit",
+    "difficulty": 2
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 7,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: ما فائدة تجميد الأجزاء في إكسل؟ الإجابة هي «إبقاء العناوين ظاهرة أثناء التمرير».",
+      "is_true": true,
+      "explain": "التجميد يبقي صف العناوين ظاهراً.",
+      "topic": "pc.excelsplit"
+     },
+     {
+      "text": "صحيح أم خطأ: ما فائدة تجميد الأجزاء في إكسل؟ الإجابة هي «حذف الصفوف».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «إبقاء العناوين ظاهرة أثناء التمرير».",
+      "topic": "pc.excelsplit"
+     }
+    ],
+    "topic": "pc.excelsplit",
+    "difficulty": 2
+   }
+  }
+ ]
+}

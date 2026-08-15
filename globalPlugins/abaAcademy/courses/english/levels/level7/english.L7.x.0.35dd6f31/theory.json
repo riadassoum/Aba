@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التكنولوجيا». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "computer = حاسوب",
+   "note": "مثال: My computer is very slow. — حاسوبي بطيء جداً."
+  },
+  {
+   "btype": "example",
+   "text": "internet = إنترنت",
+   "note": "مثال: The internet connection is weak here. — الاتصال بالإنترنت ضعيف هنا."
+  },
+  {
+   "btype": "example",
+   "text": "password = كلمة سر",
+   "note": "مثال: I forgot my password. — نسيت كلمة سري."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «password»؟",
+    "options": [
+     "حاسوب",
+     "إنترنت",
+     "كلمة سر"
+    ],
+    "correct": 2,
+    "explanation": "«password» تعني «كلمة سر».",
+    "topic": "en:التكنولوجيا"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "screen reader = قارئ شاشة",
+   "note": "مثال: NVDA is a free screen reader. — برنامج NVDA قارئ شاشة مجاني."
+  },
+  {
+   "btype": "example",
+   "text": "application = تطبيق",
+   "note": "مثال: This application is easy to use. — هذا التطبيق سهل الاستخدام."
+  },
+  {
+   "btype": "example",
+   "text": "keyboard = لوحة مفاتيح",
+   "note": "مثال: Learn the keyboard shortcuts. — تعلّم اختصارات لوحة المفاتيح."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «keyboard»؟",
+    "options": [
+     "قارئ شاشة",
+     "تطبيق",
+     "لوحة مفاتيح"
+    ],
+    "correct": 2,
+    "explanation": "«keyboard» تعني «لوحة مفاتيح».",
+    "topic": "en:التكنولوجيا"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "update = تحديث",
+   "note": "مثال: There is a new update available. — هناك تحديث جديد متاح."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

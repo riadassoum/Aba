@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الاتجاهات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "gauche = يسار",
+   "note": "مثال: Tournez à gauche au feu. — انعطف يساراً عند الإشارة."
+  },
+  {
+   "btype": "example",
+   "text": "droite = يمين",
+   "note": "مثال: Le magasin est à droite. — المحل على اليمين."
+  },
+  {
+   "btype": "example",
+   "text": "tout droit = مباشرة إلى الأمام",
+   "note": "مثال: Continuez tout droit. — تابع مباشرة إلى الأمام."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «tout droit»؟",
+    "options": [
+     "يسار",
+     "يمين",
+     "مباشرة إلى الأمام"
+    ],
+    "correct": 2,
+    "explanation": "«tout droit» تعني «مباشرة إلى الأمام».",
+    "topic": "fr:الاتجاهات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "près de = قريب من",
+   "note": "مثال: L'hôtel est près de la gare. — الفندق قريب من المحطة."
+  },
+  {
+   "btype": "example",
+   "text": "loin de = بعيد عن",
+   "note": "مثال: Ma maison est loin du centre. — منزلي بعيد عن وسط المدينة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

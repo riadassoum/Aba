@@ -1,0 +1,410 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "rouge",
+      "meaning": "أحمر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "La pomme est rouge.",
+      "translation": "التفاحة حمراء."
+     },
+     {
+      "word": "bleu",
+      "meaning": "أزرق",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le ciel est bleu.",
+      "translation": "السماء زرقاء."
+     },
+     {
+      "word": "vert",
+      "meaning": "أخضر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "L'herbe est verte.",
+      "translation": "العشب أخضر."
+     },
+     {
+      "word": "jaune",
+      "meaning": "أصفر",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Le soleil est jaune.",
+      "translation": "الشمس صفراء."
+     },
+     {
+      "word": "noir",
+      "meaning": "أسود",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "J'aime le café noir.",
+      "translation": "أحب القهوة السوداء."
+     },
+     {
+      "word": "blanc",
+      "meaning": "أبيض",
+      "topic": "الألوان",
+      "difficulty": 1,
+      "example": "Sa robe est blanche.",
+      "translation": "فستانها أبيض."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "One child, two {b}.",
+      "correct": "children",
+      "distractors": [
+       "childs",
+       "childrens",
+       "childes"
+      ],
+      "explain": "child جمعها شاذ: children.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "One man, two {b}.",
+      "correct": "men",
+      "distractors": [
+       "mans",
+       "mens",
+       "manes"
+      ],
+      "explain": "man جمعها شاذ: men.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "One woman, two {b}.",
+      "correct": "women",
+      "distractors": [
+       "womans",
+       "womens",
+       "womanes"
+      ],
+      "explain": "woman جمعها شاذ: women.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "One city, two {b}.",
+      "correct": "cities",
+      "distractors": [
+       "citys",
+       "citiess",
+       "cityes"
+      ],
+      "explain": "الكلمة المنتهية بـ y بعد ساكن تصبح ies.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "I saw {b} elephant at the zoo.",
+      "correct": "an",
+      "distractors": [
+       "a",
+       "the",
+       "-"
+      ],
+      "explain": "قبل صوت متحرك (a,e,i,o,u) نستخدم an.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "She has {b} cat.",
+      "correct": "a",
+      "distractors": [
+       "an",
+       "the",
+       "-"
+      ],
+      "explain": "قبل صوت ساكن نستخدم a.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "{b} sun rises in the east.",
+      "correct": "The",
+      "distractors": [
+       "A",
+       "An",
+       "-"
+      ],
+      "explain": "الأشياء الفريدة تأخذ the.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "She {b} to school every day.",
+      "correct": "goes",
+      "distractors": [
+       "go",
+       "going",
+       "went"
+      ],
+      "explain": "مع He/She/It نضيف -s أو -es للفعل.",
+      "topic": "gram.present_simple"
+     },
+     {
+      "prompt": "They {b} football on weekends.",
+      "correct": "play",
+      "distractors": [
+       "plays",
+       "playing",
+       "played"
+      ],
+      "explain": "مع They لا نضيف -s للفعل.",
+      "topic": "gram.present_simple"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

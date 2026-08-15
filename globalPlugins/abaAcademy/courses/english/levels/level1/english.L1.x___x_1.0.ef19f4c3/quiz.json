@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "one",
+      "meaning": "واحد",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I have one book.",
+      "translation": "لدي كتاب واحد."
+     },
+     {
+      "word": "two",
+      "meaning": "اثنان",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "She has two cats.",
+      "translation": "لديها قطتان."
+     },
+     {
+      "word": "three",
+      "meaning": "ثلاثة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We need three chairs.",
+      "translation": "نحتاج ثلاثة كراسٍ."
+     },
+     {
+      "word": "four",
+      "meaning": "أربعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "There are four windows.",
+      "translation": "هناك أربع نوافذ."
+     },
+     {
+      "word": "five",
+      "meaning": "خمسة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Five students are here.",
+      "translation": "خمسة طلاب هنا."
+     },
+     {
+      "word": "six",
+      "meaning": "ستة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "It costs six dollars.",
+      "translation": "ثمنه ستة دولارات."
+     },
+     {
+      "word": "seven",
+      "meaning": "سبعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "The shop opens at seven.",
+      "translation": "يفتح المحل الساعة السابعة."
+     },
+     {
+      "word": "eight",
+      "meaning": "ثمانية",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "We slept eight hours.",
+      "translation": "نمنا ثماني ساعات."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

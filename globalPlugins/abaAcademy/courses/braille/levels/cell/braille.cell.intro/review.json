@@ -1,0 +1,23 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كم نقطة في خلية برايل؟",
+      "correct": "ست",
+      "distractors": [
+       "أربع",
+       "ثمان",
+       "اثنتا عشرة"
+      ],
+      "topic": "braille.cell"
+     }
+    ]
+   }
+  }
+ ]
+}

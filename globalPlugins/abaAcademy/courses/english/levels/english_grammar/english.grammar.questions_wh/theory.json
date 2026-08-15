@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "أدوات الاستفهام تبدأ غالباً بـ wh: what (ماذا)، who (من)، where (أين)، when (متى)، why (لماذا)، which (أيّ)، whose (لمن)، وhow (كيف). ترتيب السؤال عادة: أداة الاستفهام + فعل مساعد + فاعل + فعل. مثل Where do you live? What is your name? How does it work? نجيب why بـ because. مثال: Why are you late?"
+  },
+  {
+   "btype": "text",
+   "text": "Because the bus was late."
+  },
+  {
+   "btype": "example",
+   "text": "Where do you live?",
+   "note": "أين تسكن؟"
+  },
+  {
+   "btype": "example",
+   "text": "What is your name?",
+   "note": "ما اسمك؟"
+  },
+  {
+   "btype": "example",
+   "text": "Why are you sad?",
+   "note": "لماذا أنت حزين؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ is your name?",
+    "options": [
+     "Where",
+     "What",
+     "When",
+     "Who"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن الاسم: What.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ do you live?",
+    "options": [
+     "What",
+     "Who",
+     "Where",
+     "Why"
+    ],
+    "correct": 2,
+    "explanation": "للسؤال عن المكان: Where.",
+    "topic": "gram.questions_wh"
+   }
+  }
+ ]
+}

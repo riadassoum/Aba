@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "clean",
+      "meaning": "ينظف",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She cleans the house every Saturday.",
+      "translation": "تنظف المنزل كل سبت."
+     },
+     {
+      "word": "walk",
+      "meaning": "يمشي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We walk to school.",
+      "translation": "نمشي إلى المدرسة."
+     },
+     {
+      "word": "run",
+      "meaning": "يجري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He runs every morning.",
+      "translation": "يجري كل صباح."
+     },
+     {
+      "word": "swim",
+      "meaning": "يسبح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They swim in the sea.",
+      "translation": "يسبحون في البحر."
+     },
+     {
+      "word": "help",
+      "meaning": "يساعد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Can you help me?",
+      "translation": "هل يمكنك مساعدتي؟"
+     },
+     {
+      "word": "learn",
+      "meaning": "يتعلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I learn something new every day.",
+      "translation": "أتعلم شيئاً جديداً كل يوم."
+     },
+     {
+      "word": "teach",
+      "meaning": "يعلّم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She teaches French.",
+      "translation": "تعلّم اللغة الفرنسية."
+     },
+     {
+      "word": "open",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Open your books, please.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "clean",
+      "meaning": "ينظف",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She cleans the house every Saturday.",
+      "translation": "تنظف المنزل كل سبت."
+     },
+     {
+      "word": "walk",
+      "meaning": "يمشي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We walk to school.",
+      "translation": "نمشي إلى المدرسة."
+     },
+     {
+      "word": "run",
+      "meaning": "يجري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He runs every morning.",
+      "translation": "يجري كل صباح."
+     },
+     {
+      "word": "swim",
+      "meaning": "يسبح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They swim in the sea.",
+      "translation": "يسبحون في البحر."
+     },
+     {
+      "word": "help",
+      "meaning": "يساعد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Can you help me?",
+      "translation": "هل يمكنك مساعدتي؟"
+     },
+     {
+      "word": "learn",
+      "meaning": "يتعلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I learn something new every day.",
+      "translation": "أتعلم شيئاً جديداً كل يوم."
+     },
+     {
+      "word": "teach",
+      "meaning": "يعلّم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She teaches French.",
+      "translation": "تعلّم اللغة الفرنسية."
+     },
+     {
+      "word": "open",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Open your books, please.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

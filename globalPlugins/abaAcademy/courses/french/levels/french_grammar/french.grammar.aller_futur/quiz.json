@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ à Paris.",
+    "options": [
+     "vais",
+     "vas",
+     "va",
+     "vont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم vais.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ partir.",
+    "options": [
+     "va",
+     "allez",
+     "allons",
+     "vont"
+    ],
+    "correct": 2,
+    "explanation": "مع nous نستخدم allons.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للمستقبل القريب: Elle va ___.",
+    "options": [
+     "mange",
+     "manges",
+     "manger",
+     "mangé"
+    ],
+    "correct": 2,
+    "explanation": "المستقبل القريب: aller + مصدر (manger).",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف aller مع ils (هم يذهبون):",
+    "correct": "vont",
+    "accepted": [],
+    "explanation": "مع ils نستخدم vont.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "المستقبل القريب يتكوّن من aller المُصرّف + مصدر الفعل.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Tu ___ voyager demain.",
+    "options": [
+     "vais",
+     "vas",
+     "va",
+     "vont"
+    ],
+    "correct": 1,
+    "explanation": "مع tu نستخدم vas.",
+    "topic": "gram.aller_futur"
+   }
+  }
+ ]
+}

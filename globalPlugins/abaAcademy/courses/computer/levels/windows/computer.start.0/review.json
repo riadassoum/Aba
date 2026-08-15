@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تعرض سطح المكتب بسرعة؟",
+      "correct": "ويندوز مع D",
+      "distractors": [
+       "Alt مع F4",
+       "Control مع W",
+       "Shift مع Delete"
+      ],
+      "explain": "Win+D لسطح المكتب.",
+      "topic": "pc.start"
+     },
+     {
+      "prompt": "كيف تبدّل بين النوافذ المفتوحة؟",
+      "correct": "Alt مع Tab",
+      "distractors": [
+       "Control مع C",
+       "ويندوز مع E",
+       "F2"
+      ],
+      "explain": "Alt+Tab للتبديل بين النوافذ.",
+      "topic": "pc.start"
+     }
+    ],
+    "topic": "pc.start"
+   }
+  }
+ ]
+}

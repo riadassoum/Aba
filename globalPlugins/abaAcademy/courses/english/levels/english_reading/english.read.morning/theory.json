@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "اقرأ النص التالي بتمعّن ثم أجب عن الأسئلة. يمكنك سماعه كاملاً."
+  },
+  {
+   "btype": "reading",
+   "passage": "Every day I wake up at six o'clock. I drink a cup of coffee and read the news. Then I take a shower and have breakfast with my family. I go to work by bus at eight. I like my morning because it is calm and quiet.",
+   "text": "Every day I wake up at six o'clock. I drink a cup of coffee and read the news. Then I take a shower and have breakfast with my family. I go to work by bus at eight. I like my morning because it is calm and quiet."
+  },
+  {
+   "btype": "text",
+   "text": "الترجمة للاستئناس: كل يوم أستيقظ الساعة السادسة. أشرب فنجان قهوة وأقرأ الأخبار. ثم أستحمّ وأتناول الفطور مع عائلتي. أذهب إلى العمل بالحافلة الساعة الثامنة. أحب صباحي لأنه هادئ."
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "go",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I go to work by bus.",
+      "translation": "أذهب إلى العمل بالحافلة."
+     },
+     {
+      "word": "come",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Please come here.",
+      "translation": "تعال إلى هنا من فضلك."
+     },
+     {
+      "word": "eat",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We eat dinner at eight.",
+      "translation": "نأكل العشاء الساعة الثامنة."
+     },
+     {
+      "word": "drink",
+      "meaning": "يشرب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He drinks water every hour.",
+      "translation": "يشرب الماء كل ساعة."
+     },
+     {
+      "word": "sleep",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The baby sleeps a lot.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "work",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She works in an office.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "study",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I study English every day.",
+      "translation": "أدرس الإنجليزية كل يوم."
+     },
+     {
+      "word": "read",
+      "meaning": "يقرأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He reads the newspaper.",
+      "translation": "يقرأ الجريدة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "go",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I go to work by bus.",
+      "translation": "أذهب إلى العمل بالحافلة."
+     },
+     {
+      "word": "come",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Please come here.",
+      "translation": "تعال إلى هنا من فضلك."
+     },
+     {
+      "word": "eat",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We eat dinner at eight.",
+      "translation": "نأكل العشاء الساعة الثامنة."
+     },
+     {
+      "word": "drink",
+      "meaning": "يشرب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He drinks water every hour.",
+      "translation": "يشرب الماء كل ساعة."
+     },
+     {
+      "word": "sleep",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The baby sleeps a lot.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "work",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She works in an office.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "study",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I study English every day.",
+      "translation": "أدرس الإنجليزية كل يوم."
+     },
+     {
+      "word": "read",
+      "meaning": "يقرأ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "He reads the newspaper.",
+      "translation": "يقرأ الجريدة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

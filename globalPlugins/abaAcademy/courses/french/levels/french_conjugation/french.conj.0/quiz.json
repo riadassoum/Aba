@@ -1,0 +1,92 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 8,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "être",
+      "meaning": "يكون",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "suis",
+       "tu": "es",
+       "il": "est",
+       "nous": "sommes",
+       "vous": "êtes",
+       "ils": "sont"
+      }
+     },
+     {
+      "infinitive": "avoir",
+      "meaning": "يملك",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "ai",
+       "tu": "as",
+       "il": "a",
+       "nous": "avons",
+       "vous": "avez",
+       "ils": "ont"
+      }
+     },
+     {
+      "infinitive": "aller",
+      "meaning": "يذهب",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "vais",
+       "tu": "vas",
+       "il": "va",
+       "nous": "allons",
+       "vous": "allez",
+       "ils": "vont"
+      }
+     },
+     {
+      "infinitive": "parler",
+      "meaning": "يتكلم",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "parle",
+       "tu": "parles",
+       "il": "parle",
+       "nous": "parlons",
+       "vous": "parlez",
+       "ils": "parlent"
+      }
+     },
+     {
+      "infinitive": "aimer",
+      "meaning": "يحب",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "aime",
+       "tu": "aimes",
+       "il": "aime",
+       "nous": "aimons",
+       "vous": "aimez",
+       "ils": "aiment"
+      }
+     },
+     {
+      "infinitive": "finir",
+      "meaning": "ينهي",
+      "tense": "المضارع (présent)",
+      "forms": {
+       "je": "finis",
+       "tu": "finis",
+       "il": "finit",
+       "nous": "finissons",
+       "vous": "finissez",
+       "ils": "finissent"
+      }
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «السفر». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "passport = جواز سفر",
+   "note": "مثال: Don't forget your passport. — لا تنسَ جواز سفرك."
+  },
+  {
+   "btype": "example",
+   "text": "ticket = تذكرة",
+   "note": "مثال: I bought two tickets. — اشتريت تذكرتين."
+  },
+  {
+   "btype": "example",
+   "text": "luggage = أمتعة",
+   "note": "مثال: Where is my luggage? — أين أمتعتي؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «luggage»؟",
+    "options": [
+     "جواز سفر",
+     "تذكرة",
+     "أمتعة"
+    ],
+    "correct": 2,
+    "explanation": "«luggage» تعني «أمتعة».",
+    "topic": "en:السفر"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "hotel = فندق",
+   "note": "مثال: We stayed at a nice hotel. — أقمنا في فندق جميل."
+  },
+  {
+   "btype": "example",
+   "text": "reservation = حجز",
+   "note": "مثال: I made a reservation online. — أجريت حجزاً عبر الإنترنت."
+  },
+  {
+   "btype": "example",
+   "text": "map = خريطة",
+   "note": "مثال: Can you show me on the map? — هل يمكنك أن تريني على الخريطة؟"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "The letter {b} sent yesterday.",
+      "correct": "was",
+      "distractors": [
+       "is",
+       "were",
+       "has"
+      ],
+      "explain": "المبني للمجهول في الماضي: was/were + التصريف الثالث.",
+      "topic": "gram.passive"
+     },
+     {
+      "prompt": "English {b} spoken in many countries.",
+      "correct": "is",
+      "distractors": [
+       "are",
+       "was",
+       "be"
+      ],
+      "explain": "المبني للمجهول في المضارع: is/are + التصريف الثالث.",
+      "topic": "gram.passive"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

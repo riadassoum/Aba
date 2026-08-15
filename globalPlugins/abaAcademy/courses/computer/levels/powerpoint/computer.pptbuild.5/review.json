@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار يضيف شريحة جديدة؟",
+      "correct": "Control مع M",
+      "distractors": [
+       "Control مع N",
+       "F5",
+       "Control مع S"
+      ],
+      "explain": "Control+M لشريحة جديدة.",
+      "topic": "pc.pptbuild"
+     }
+    ],
+    "topic": "pc.pptbuild",
+    "difficulty": 3
+   }
+  }
+ ]
+}

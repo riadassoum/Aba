@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ call you later.",
+    "options": [
+     "will",
+     "am",
+     "do",
+     "was"
+    ],
+    "correct": 0,
+    "explanation": "المستقبل بـ will.",
+    "topic": "gram.future_will"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي: They ___ come.",
+    "options": [
+     "willn't",
+     "won't",
+     "don't",
+     "aren't"
+    ],
+    "correct": 1,
+    "explanation": "نفي will هو won't.",
+    "topic": "gram.future_will"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "بعد will يأتي الفعل بالتصريف الأول المجرّد.",
+    "correct": true,
+    "explanation": "صحيح: will + base verb.",
+    "topic": "gram.future_will"
+   }
+  }
+ ]
+}

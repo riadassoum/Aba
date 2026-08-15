@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "J'ai {b} chat noir.",
+    "options": [
+     "une",
+     "des",
+     "le",
+     "un"
+    ],
+    "correct": 3,
+    "explanation": "chat مذكر، يأخذ un.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Elle a {b} voiture rouge.",
+    "options": [
+     "un",
+     "des",
+     "la",
+     "une"
+    ],
+    "correct": 3,
+    "explanation": "voiture مؤنثة، تأخذ une.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Un cheval, deux {b}.",
+    "options": [
+     "chevals",
+     "chevales",
+     "cheveaux",
+     "chevaux"
+    ],
+    "correct": 3,
+    "explanation": "الكلمات المنتهية بـ -al تصبح غالباً -aux في الجمع.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Un enfant, deux {b}.",
+    "options": [
+     "enfantes",
+     "enfantx",
+     "enfant",
+     "enfants"
+    ],
+    "correct": 3,
+    "explanation": "الجمع المنتظم يضيف -s.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Un œil, deux {b}.",
+    "options": [
+     "œils",
+     "yeuxs",
+     "œiles",
+     "yeux"
+    ],
+    "correct": 3,
+    "explanation": "œil جمعها شاذ تماماً: yeux.",
+    "topic": "gram.plural"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التسوق». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "price = سعر",
+   "note": "مثال: What is the price of this bag? — ما سعر هذه الحقيبة؟"
+  },
+  {
+   "btype": "example",
+   "text": "cheap = رخيص",
+   "note": "مثال: This shop is cheap. — هذا المحل رخيص."
+  },
+  {
+   "btype": "example",
+   "text": "expensive = غالٍ",
+   "note": "مثال: That car is very expensive. — تلك السيارة غالية جداً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «expensive»؟",
+    "options": [
+     "سعر",
+     "رخيص",
+     "غالٍ"
+    ],
+    "correct": 2,
+    "explanation": "«expensive» تعني «غالٍ».",
+    "topic": "en:التسوق"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "discount = خصم",
+   "note": "مثال: There is a fifty percent discount. — هناك خصم خمسين بالمئة."
+  },
+  {
+   "btype": "example",
+   "text": "receipt = إيصال",
+   "note": "مثال: Keep the receipt, please. — احتفظ بالإيصال من فضلك."
+  },
+  {
+   "btype": "example",
+   "text": "size = مقاس",
+   "note": "مثال: What size do you wear? — ما مقاسك؟"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "translation": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?"
+     },
+     {
+      "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+      "translation": "Did He not make their plan into misguidance?"
+     },
+     {
+      "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "translation": "And He sent against them birds in flocks,"
+     },
+     {
+      "text": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+      "translation": "Striking them with stones of hard clay,"
+     },
+     {
+      "text": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+      "translation": "And He made them like eaten straw."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ ...",
+    "correct": "تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ﴾",
+    "topic": "quran:105"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: أَلَمْ يَجْعَلْ ...",
+    "correct": "كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+    "accepted": [
+     "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ﴾",
+    "topic": "quran:105"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَأَرْسَلَ عَلَيْهِمْ ...",
+    "correct": "طَيْرًا أَبَابِيلَ",
+    "accepted": [
+     "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ﴾",
+    "topic": "quran:105"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: تَرْمِيهِم بِحِجَارَةٍۢ ...",
+    "correct": "مِّن سِجِّيلٍۢ",
+    "accepted": [
+     "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ﴾",
+    "topic": "quran:105"
+   }
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I saw ___ elephant.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "elephant تبدأ بصوت متحرك، فنستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He is ___ honest man.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "الحرف h في honest صامت، فالصوت متحرك ونستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ sun rises in the east.",
+    "options": [
+     "A",
+     "An",
+     "The",
+     "بدون أداة"
+    ],
+    "correct": 2,
+    "explanation": "الشمس شيء معروف وحيد، فنستخدم the.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم a قبل الكلمات التي تبدأ بصوت متحرك.",
+    "correct": false,
+    "explanation": "بل نستخدم an قبل الصوت المتحرك، وa قبل الصوت الساكن.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I need ___ umbrella.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "umbrella تبدأ بصوت متحرك، فنستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل بالأداة المناسبة: I bought ___ university book. (اكتب الأداة فقط)",
+    "correct": "a",
+    "accepted": [],
+    "explanation": "university تُلفظ «يونيفرسيتي» بصوت ساكن، فنستخدم a.",
+    "topic": "gram.articles"
+   }
+  }
+ ]
+}

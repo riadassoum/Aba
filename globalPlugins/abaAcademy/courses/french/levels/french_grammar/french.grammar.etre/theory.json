@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "être يعني «يكون» وهو من أهم الأفعال. تصريفه في المضارع: je suis (أنا)، tu es (أنت)، il/elle est (هو/هي)، nous sommes (نحن)، vous êtes (أنتم)، ils/elles sont (هم/هنّ). مثال: Je suis étudiant (أنا طالب)، Nous sommes prêts (نحن جاهزون)."
+  },
+  {
+   "btype": "example",
+   "text": "Je suis fatigué.",
+   "note": "أنا متعب."
+  },
+  {
+   "btype": "example",
+   "text": "Elle est médecin.",
+   "note": "هي طبيبة."
+  },
+  {
+   "btype": "example",
+   "text": "Nous sommes amis.",
+   "note": "نحن أصدقاء."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ étudiant.",
+    "options": [
+     "suis",
+     "es",
+     "est",
+     "sont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم suis.",
+    "topic": "gram.etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Elle ___ contente.",
+    "options": [
+     "suis",
+     "es",
+     "est",
+     "sommes"
+    ],
+    "correct": 2,
+    "explanation": "مع elle نستخدم est.",
+    "topic": "gram.etre"
+   }
+  }
+ ]
+}

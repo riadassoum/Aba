@@ -1,0 +1,304 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "soleil",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le soleil brille aujourd'hui.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "pluie",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il pleut dehors.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "vent",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le vent est très fort.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "neige",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Il a neigé hier soir.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "nuage",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "Le ciel est plein de nuages.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

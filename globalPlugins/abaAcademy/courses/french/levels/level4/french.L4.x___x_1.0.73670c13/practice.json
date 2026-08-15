@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "parler",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je parle français un peu.",
+      "translation": "أتكلم الفرنسية قليلاً."
+     },
+     {
+      "word": "manger",
+      "meaning": "يأكل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous mangeons à huit heures.",
+      "translation": "نأكل الساعة الثامنة."
+     },
+     {
+      "word": "regarder",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ils regardent la télévision.",
+      "translation": "يشاهدون التلفاز."
+     },
+     {
+      "word": "écouter",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Écoute cette chanson.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "travailler",
+      "meaning": "يعمل",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle travaille dans un bureau.",
+      "translation": "تعمل في مكتب."
+     },
+     {
+      "word": "étudier",
+      "meaning": "يدرس",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'étudie le français chaque jour.",
+      "translation": "أدرس الفرنسية كل يوم."
+     },
+     {
+      "word": "acheter",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je veux acheter un cadeau.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "aimer",
+      "meaning": "يحب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "J'aime la musique classique.",
+      "translation": "أحب الموسيقى الكلاسيكية."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

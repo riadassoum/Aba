@@ -1,0 +1,86 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+      "translation": "May the hands of Abu Lahab be ruined, and ruined is he."
+     },
+     {
+      "text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "translation": "His wealth will not avail him or that which he gained."
+     },
+     {
+      "text": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+      "translation": "He will [enter to] burn in a Fire of [blazing] flame"
+     },
+     {
+      "text": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "translation": "And his wife [as well] - the carrier of firewood."
+     },
+     {
+      "text": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+      "translation": "Around her neck is a rope of [twisted] fiber."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ﴾",
+    "topic": "quran:111"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: مَآ أَغْنَىٰ عَنْهُ ...",
+    "correct": "مَالُهُۥ وَمَا كَسَبَ",
+    "accepted": [
+     "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ"
+    ],
+    "explanation": "الآية كاملة: ﴿مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ﴾",
+    "topic": "quran:111"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: سَيَصْلَىٰ نَارًۭا ...",
+    "correct": "ذَاتَ لَهَبٍۢ",
+    "accepted": [
+     "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ﴾",
+    "topic": "quran:111"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: فِى جِيدِهَا ...",
+    "correct": "حَبْلٌۭ مِّن مَّسَدٍۭ",
+    "accepted": [
+     "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ"
+    ],
+    "explanation": "الآية كاملة: ﴿فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ﴾",
+    "topic": "quran:111"
+   }
+  }
+ ]
+}

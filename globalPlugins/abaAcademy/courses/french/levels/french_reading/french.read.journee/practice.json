@@ -1,0 +1,81 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "À quelle heure se lève la personne?",
+    "options": [
+     "à six heures",
+     "à sept heures",
+     "à huit heures",
+     "à neuf heures"
+    ],
+    "correct": 1,
+    "explanation": "«je me lève à sept heures».",
+    "topic": "reading.journee"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Comment va-t-elle à l'école?",
+    "options": [
+     "en bus",
+     "en voiture",
+     "à pied",
+     "en train"
+    ],
+    "correct": 2,
+    "explanation": "«je vais à l'école à pied».",
+    "topic": "reading.journee"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "Elle regarde la télé seule.",
+    "correct": false,
+    "explanation": "«avec ma famille».",
+    "topic": "reading.journee"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Quel cours aime-t-elle?",
+    "options": [
+     "les maths",
+     "le français",
+     "l'anglais",
+     "les sciences"
+    ],
+    "correct": 1,
+    "explanation": "«J'aime mes cours de français».",
+    "topic": "reading.journee"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "Je me lève à sept heures."
+     },
+     {
+      "text": "Je vais à l'école à pied."
+     },
+     {
+      "text": "J'aime le français."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

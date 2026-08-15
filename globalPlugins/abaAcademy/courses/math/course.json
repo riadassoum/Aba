@@ -1,0 +1,809 @@
+{
+ "course_id": "math",
+ "title": "الرياضيات",
+ "description": "من الجمع البسيط إلى الجبر، بتمارين تُولَّد بلا حدود.",
+ "order": 4,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "l1",
+   "title": "المستوى الأول: الجمع والطرح البسيط",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "math.l1.add1.0",
+     "title": "الجمع حتى العشرة",
+     "order": 0,
+     "objectives": [
+      "إتقان: الجمع حتى العشرة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.compare1.0",
+     "title": "المقارنة بين الأعداد",
+     "order": 1,
+     "objectives": [
+      "إتقان: المقارنة بين الأعداد"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.add1.1",
+     "title": "الجمع حتى العشرة (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان: الجمع حتى العشرة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.compare1.1",
+     "title": "المقارنة بين الأعداد (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: المقارنة بين الأعداد"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.add1.2",
+     "title": "الجمع حتى العشرة (3)",
+     "order": 4,
+     "objectives": [
+      "إتقان: الجمع حتى العشرة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.compare1.2",
+     "title": "المقارنة بين الأعداد (3)",
+     "order": 5,
+     "objectives": [
+      "إتقان: المقارنة بين الأعداد"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.add1.3",
+     "title": "الجمع حتى العشرة (4)",
+     "order": 6,
+     "objectives": [
+      "إتقان: الجمع حتى العشرة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l1.compare1.3",
+     "title": "المقارنة بين الأعداد (4)",
+     "order": 7,
+     "objectives": [
+      "إتقان: المقارنة بين الأعداد"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l2",
+   "title": "المستوى الثاني: الجمع والطرح حتى المئة",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "math.l2.add2.0",
+     "title": "الجمع والطرح حتى العشرين",
+     "order": 0,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى العشرين"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add3.0",
+     "title": "الجمع والطرح حتى المئة",
+     "order": 1,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى المئة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add2.1",
+     "title": "الجمع والطرح حتى العشرين (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى العشرين"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add3.1",
+     "title": "الجمع والطرح حتى المئة (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى المئة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add2.2",
+     "title": "الجمع والطرح حتى العشرين (3)",
+     "order": 4,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى العشرين"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add3.2",
+     "title": "الجمع والطرح حتى المئة (3)",
+     "order": 5,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى المئة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add2.3",
+     "title": "الجمع والطرح حتى العشرين (4)",
+     "order": 6,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى العشرين"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l2.add3.3",
+     "title": "الجمع والطرح حتى المئة (4)",
+     "order": 7,
+     "objectives": [
+      "إتقان: الجمع والطرح حتى المئة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l3",
+   "title": "المستوى الثالث: الضرب والقسمة",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "math.l3.mul1.0",
+     "title": "الضرب الأساسي",
+     "order": 0,
+     "objectives": [
+      "إتقان: الضرب الأساسي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul2.0",
+     "title": "الضرب والقسمة",
+     "order": 1,
+     "objectives": [
+      "إتقان: الضرب والقسمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul1.1",
+     "title": "الضرب الأساسي (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان: الضرب الأساسي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul2.1",
+     "title": "الضرب والقسمة (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: الضرب والقسمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul1.2",
+     "title": "الضرب الأساسي (3)",
+     "order": 4,
+     "objectives": [
+      "إتقان: الضرب الأساسي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul2.2",
+     "title": "الضرب والقسمة (3)",
+     "order": 5,
+     "objectives": [
+      "إتقان: الضرب والقسمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul1.3",
+     "title": "الضرب الأساسي (4)",
+     "order": 6,
+     "objectives": [
+      "إتقان: الضرب الأساسي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l3.mul2.3",
+     "title": "الضرب والقسمة (4)",
+     "order": 7,
+     "objectives": [
+      "إتقان: الضرب والقسمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l4",
+   "title": "المستوى الرابع: الكسور",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "math.l4.frac1.0",
+     "title": "تبسيط الكسور",
+     "order": 0,
+     "objectives": [
+      "إتقان: تبسيط الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac2.0",
+     "title": "جمع الكسور",
+     "order": 1,
+     "objectives": [
+      "إتقان: جمع الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac1.1",
+     "title": "تبسيط الكسور (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان: تبسيط الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac2.1",
+     "title": "جمع الكسور (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: جمع الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac1.2",
+     "title": "تبسيط الكسور (3)",
+     "order": 4,
+     "objectives": [
+      "إتقان: تبسيط الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac2.2",
+     "title": "جمع الكسور (3)",
+     "order": 5,
+     "objectives": [
+      "إتقان: جمع الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac1.3",
+     "title": "تبسيط الكسور (4)",
+     "order": 6,
+     "objectives": [
+      "إتقان: تبسيط الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l4.frac2.3",
+     "title": "جمع الكسور (4)",
+     "order": 7,
+     "objectives": [
+      "إتقان: جمع الكسور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l5",
+   "title": "المستوى الخامس: المتتاليات والنسب المئوية",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "math.l5.seq1.0",
+     "title": "المتتاليات العددية",
+     "order": 0,
+     "objectives": [
+      "إتقان: المتتاليات العددية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.pct1.0",
+     "title": "النسبة المئوية",
+     "order": 1,
+     "objectives": [
+      "إتقان: النسبة المئوية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.seq1.1",
+     "title": "المتتاليات العددية (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان: المتتاليات العددية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.pct1.1",
+     "title": "النسبة المئوية (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: النسبة المئوية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.seq1.2",
+     "title": "المتتاليات العددية (3)",
+     "order": 4,
+     "objectives": [
+      "إتقان: المتتاليات العددية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.pct1.2",
+     "title": "النسبة المئوية (3)",
+     "order": 5,
+     "objectives": [
+      "إتقان: النسبة المئوية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.seq1.3",
+     "title": "المتتاليات العددية (4)",
+     "order": 6,
+     "objectives": [
+      "إتقان: المتتاليات العددية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l5.pct1.3",
+     "title": "النسبة المئوية (4)",
+     "order": 7,
+     "objectives": [
+      "إتقان: النسبة المئوية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l6",
+   "title": "المستوى السادس: الجبر",
+   "order": 5,
+   "lessons": [
+    {
+     "lesson_id": "math.l6.alg1.0",
+     "title": "حل المعادلات البسيطة",
+     "order": 0,
+     "objectives": [
+      "إتقان: حل المعادلات البسيطة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg2.0",
+     "title": "معادلات أكبر",
+     "order": 1,
+     "objectives": [
+      "إتقان: معادلات أكبر"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.mixed6.0",
+     "title": "مراجعة شاملة",
+     "order": 2,
+     "objectives": [
+      "إتقان: مراجعة شاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg1.1",
+     "title": "حل المعادلات البسيطة (2)",
+     "order": 3,
+     "objectives": [
+      "إتقان: حل المعادلات البسيطة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg2.1",
+     "title": "معادلات أكبر (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان: معادلات أكبر"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.mixed6.1",
+     "title": "مراجعة شاملة (2)",
+     "order": 5,
+     "objectives": [
+      "إتقان: مراجعة شاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg1.2",
+     "title": "حل المعادلات البسيطة (3)",
+     "order": 6,
+     "objectives": [
+      "إتقان: حل المعادلات البسيطة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg2.2",
+     "title": "معادلات أكبر (3)",
+     "order": 7,
+     "objectives": [
+      "إتقان: معادلات أكبر"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.mixed6.2",
+     "title": "مراجعة شاملة (3)",
+     "order": 8,
+     "objectives": [
+      "إتقان: مراجعة شاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg1.3",
+     "title": "حل المعادلات البسيطة (4)",
+     "order": 9,
+     "objectives": [
+      "إتقان: حل المعادلات البسيطة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.alg2.3",
+     "title": "معادلات أكبر (4)",
+     "order": 10,
+     "objectives": [
+      "إتقان: معادلات أكبر"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "math.l6.mixed6.3",
+     "title": "مراجعة شاملة (4)",
+     "order": 11,
+     "objectives": [
+      "إتقان: مراجعة شاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "l7",
+   "title": "المستوى السابع: المال والوقت",
+   "order": 6,
+   "lessons": [
+    {
+     "lesson_id": "math.l7.money.0",
+     "title": "حساب المال — تدريب",
+     "order": 0,
+     "objectives": [
+      "تدريب: حساب المال"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "math.l7.money.1",
+     "title": "حساب المال — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: حساب المال"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l7.money.2",
+     "title": "حساب المال — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: حساب المال"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l7.time.0",
+     "title": "حساب الوقت — تدريب",
+     "order": 3,
+     "objectives": [
+      "تدريب: حساب الوقت"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "math.l7.time.1",
+     "title": "حساب الوقت — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: حساب الوقت"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l7.time.2",
+     "title": "حساب الوقت — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: حساب الوقت"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "l8",
+   "title": "المستوى الثامن: الهندسة",
+   "order": 7,
+   "lessons": [
+    {
+     "lesson_id": "math.l8.geom.0",
+     "title": "المساحة والمحيط — تدريب",
+     "order": 0,
+     "objectives": [
+      "تدريب: المساحة والمحيط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l8.geom.1",
+     "title": "المساحة والمحيط — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: المساحة والمحيط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "math.l8.geom.2",
+     "title": "المساحة والمحيط — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: المساحة والمحيط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "l9",
+   "title": "المستوى التاسع: نظرية الأعداد",
+   "order": 8,
+   "lessons": [
+    {
+     "lesson_id": "math.l9.round.0",
+     "title": "التقريب — تدريب",
+     "order": 0,
+     "objectives": [
+      "تدريب: التقريب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "math.l9.round.1",
+     "title": "التقريب — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: التقريب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l9.round.2",
+     "title": "التقريب — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: التقريب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l9.factors.0",
+     "title": "القواسم والمضاعفات والأعداد الأولية — تدريب",
+     "order": 3,
+     "objectives": [
+      "تدريب: القواسم والمضاعفات والأعداد الأولية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "math.l9.factors.1",
+     "title": "القواسم والمضاعفات والأعداد الأولية — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: القواسم والمضاعفات والأعداد الأولية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "math.l9.factors.2",
+     "title": "القواسم والمضاعفات والأعداد الأولية — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: القواسم والمضاعفات والأعداد الأولية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "l10",
+   "title": "المستوى العاشر: الأعداد الصحيحة والقوى",
+   "order": 9,
+   "lessons": [
+    {
+     "lesson_id": "math.l10.neg.0",
+     "title": "الأعداد السالبة — تدريب",
+     "order": 0,
+     "objectives": [
+      "تدريب: الأعداد السالبة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "math.l10.neg.1",
+     "title": "الأعداد السالبة — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: الأعداد السالبة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "math.l10.neg.2",
+     "title": "الأعداد السالبة — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: الأعداد السالبة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "math.l10.power.0",
+     "title": "القوى والجذور — تدريب",
+     "order": 3,
+     "objectives": [
+      "تدريب: القوى والجذور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "math.l10.power.1",
+     "title": "القوى والجذور — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: القوى والجذور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "math.l10.power.2",
+     "title": "القوى والجذور — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: القوى والجذور"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  }
+ ]
+}

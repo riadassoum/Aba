@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التعابير الاصطلاحية». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "piece of cake = أمر سهل جداً",
+   "note": "مثال: Don't worry, this test is a piece of cake. — لا تقلق، هذا الاختبار سهل جداً."
+  },
+  {
+   "btype": "example",
+   "text": "under the weather = متوعك قليلاً",
+   "note": "مثال: I feel a bit under the weather today. — أشعر بتوعك قليلاً اليوم."
+  },
+  {
+   "btype": "example",
+   "text": "break the ice = يكسر الجليد",
+   "note": "مثال: He told a joke to break the ice. — روى نكتة ليكسر الجليد."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «break the ice»؟",
+    "options": [
+     "أمر سهل جداً",
+     "متوعك قليلاً",
+     "يكسر الجليد"
+    ],
+    "correct": 2,
+    "explanation": "«break the ice» تعني «يكسر الجليد».",
+    "topic": "en:التعابير الاصطلاحية"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "hit the books = يجتهد في الدراسة",
+   "note": "مثال: I need to hit the books before the exam. — يجب أن أجتهد في الدراسة قبل الامتحان."
+  },
+  {
+   "btype": "example",
+   "text": "cost an arm and a leg = مكلف جداً",
+   "note": "مثال: That laptop cost an arm and a leg. — ذلك الحاسوب المحمول كان مكلفاً جداً."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

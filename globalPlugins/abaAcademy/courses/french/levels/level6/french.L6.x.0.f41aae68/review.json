@@ -1,0 +1,88 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "content",
+      "meaning": "مسرور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Je suis content de te voir.",
+      "translation": "أنا مسرور برؤيتك."
+     },
+     {
+      "word": "inquiet",
+      "meaning": "قلق",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Elle est inquiète pour l'examen.",
+      "translation": "هي قلقة بشأن الامتحان."
+     },
+     {
+      "word": "fier",
+      "meaning": "فخور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Nous sommes fiers de toi.",
+      "translation": "نحن فخورون بك."
+     },
+     {
+      "word": "surpris",
+      "meaning": "متفاجئ",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "J'ai été surpris par la nouvelle.",
+      "translation": "تفاجأت بالخبر."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "content",
+      "meaning": "مسرور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Je suis content de te voir.",
+      "translation": "أنا مسرور برؤيتك."
+     },
+     {
+      "word": "inquiet",
+      "meaning": "قلق",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Elle est inquiète pour l'examen.",
+      "translation": "هي قلقة بشأن الامتحان."
+     },
+     {
+      "word": "fier",
+      "meaning": "فخور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "Nous sommes fiers de toi.",
+      "translation": "نحن فخورون بك."
+     },
+     {
+      "word": "surpris",
+      "meaning": "متفاجئ",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "J'ai été surpris par la nouvelle.",
+      "translation": "تفاجأت بالخبر."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

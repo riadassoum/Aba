@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "صفات الملكية تطابق الاسم المملوك (لا المالك). للمتكلّم: mon (مذكّر) ma (مؤنّث) mes (جمع): mon livre, ma table, mes amis. للمخاطب: ton/ta/tes. للغائب: son/sa/ses (وتعني «ـه» أو «ـها» حسب المملوك لا المالك). للجمع: notre/nos (لنا)، votre/vos (لكم)، leur/leurs (لهم)."
+  },
+  {
+   "btype": "example",
+   "text": "mon livre",
+   "note": "كتابي"
+  },
+  {
+   "btype": "example",
+   "text": "ma voiture",
+   "note": "سيارتي"
+  },
+  {
+   "btype": "example",
+   "text": "mes parents",
+   "note": "والداي"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ livre (كتابي، مذكّر).",
+    "options": [
+     "mon",
+     "ma",
+     "mes",
+     "ton"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد: mon.",
+    "topic": "gram.possessifs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ maison (بيتي، مؤنّث).",
+    "options": [
+     "mon",
+     "ma",
+     "mes",
+     "sa"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: ma.",
+    "topic": "gram.possessifs"
+   }
+  }
+ ]
+}

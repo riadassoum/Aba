@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "للتعبير عن الملكية طريقتان. الأولى إضافة 's للاسم المفرد: Ali's book (كتاب علي)، وللجمع المنتهي بـ s نضيف الفاصلة فقط: the students' books. الثانية ضمائر الملكية: my, your, his, her, its, our, their قبل الاسم (my car)، أو الضمائر المستقلة mine, yours, his, hers, ours, theirs بلا اسم بعدها (This car"
+  },
+  {
+   "btype": "text",
+   "text": "is mine). لا تخلط بين its (ملكية) وit's (اختصار it is)."
+  },
+  {
+   "btype": "example",
+   "text": "This is Ali's car.",
+   "note": "هذه سيارة علي."
+  },
+  {
+   "btype": "example",
+   "text": "My book is here.",
+   "note": "كتابي هنا."
+  },
+  {
+   "btype": "example",
+   "text": "That pen is mine.",
+   "note": "ذلك القلم لي."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للتعبير عن كتاب علي:",
+    "options": [
+     "Ali book",
+     "Ali's book",
+     "Alis book",
+     "book of Ali's"
+    ],
+    "correct": 1,
+    "explanation": "نضيف 's: Ali's book.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: This is ___ house. (نحن)",
+    "options": [
+     "our",
+     "ours",
+     "us",
+     "we"
+    ],
+    "correct": 0,
+    "explanation": "قبل الاسم نستخدم our.",
+    "topic": "gram.possessives"
+   }
+  }
+ ]
+}

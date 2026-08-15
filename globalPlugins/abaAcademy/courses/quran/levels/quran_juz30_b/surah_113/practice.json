@@ -1,0 +1,99 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "translation": "Say, \"I seek refuge in the Lord of daybreak"
+     },
+     {
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "translation": "From the evil of that which He created"
+     },
+     {
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "translation": "And from the evil of darkness when it settles"
+     },
+     {
+      "text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+      "translation": "And from the evil of the blowers in knots"
+     },
+     {
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "translation": "And from the evil of an envier when he envies.\""
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ﴾",
+    "topic": "quran:113"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: مِن شَرِّ ...",
+    "correct": "مَا خَلَقَ",
+    "accepted": [
+     "مِن شَرِّ مَا خَلَقَ"
+    ],
+    "explanation": "الآية كاملة: ﴿مِن شَرِّ مَا خَلَقَ﴾",
+    "topic": "quran:113"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَمِن شَرِّ ...",
+    "correct": "غَاسِقٍ إِذَا وَقَبَ",
+    "accepted": [
+     "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ﴾",
+    "topic": "quran:113"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَمِن شَرِّ ...",
+    "correct": "ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+    "accepted": [
+     "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ﴾",
+    "topic": "quran:113"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَمِن شَرِّ ...",
+    "correct": "حَاسِدٍ إِذَا حَسَدَ",
+    "accepted": [
+     "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ﴾",
+    "topic": "quran:113"
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ حرف يقفز إلى العنوان التالي؟",
+      "correct": "H",
+      "distractors": [
+       "K",
+       "B",
+       "L"
+      ],
+      "explain": "H للعناوين.",
+      "topic": "pc.webnav"
+     },
+     {
+      "prompt": "أيّ حرف يقفز إلى الرابط التالي؟",
+      "correct": "K",
+      "distractors": [
+       "H",
+       "T",
+       "E"
+      ],
+      "explain": "K للروابط.",
+      "topic": "pc.webnav"
+     }
+    ],
+    "topic": "pc.webnav",
+    "difficulty": 3
+   }
+  }
+ ]
+}

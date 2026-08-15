@@ -1,0 +1,62 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What time does the writer wake up?",
+    "options": [
+     "At five",
+     "At six",
+     "At seven",
+     "At eight"
+    ],
+    "correct": 1,
+    "explanation": "«I wake up at six o'clock».",
+    "topic": "reading.morning"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "How does the writer go to work?",
+    "options": [
+     "By car",
+     "By train",
+     "By bus",
+     "On foot"
+    ],
+    "correct": 2,
+    "explanation": "«I go to work by bus».",
+    "topic": "reading.morning"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "The writer has breakfast alone.",
+    "correct": false,
+    "explanation": "«breakfast with my family».",
+    "topic": "reading.morning"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Why does the writer like the morning?",
+    "options": [
+     "It is busy",
+     "It is calm and quiet",
+     "It is short",
+     "It is cold"
+    ],
+    "correct": 1,
+    "explanation": "«because it is calm and quiet».",
+    "topic": "reading.morning"
+   }
+  }
+ ]
+}

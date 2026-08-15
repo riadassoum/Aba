@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ finished my homework.",
+    "options": [
+     "have",
+     "has",
+     "am",
+     "did"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم have.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما التصريف الثالث من see؟",
+    "options": [
+     "saw",
+     "seen",
+     "seed",
+     "sawn"
+    ],
+    "correct": 1,
+    "explanation": "التصريف الثالث: seen.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم المضارع التام مع have/has + التصريف الثالث.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.pres_perfect"
+   }
+  }
+ ]
+}

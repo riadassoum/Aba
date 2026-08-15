@@ -1,0 +1,68 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "Control مع Home لبداية المستند، Control مع End لنهايته، Control مع B للنص الغامق، Control مع I للمائل، Control مع S للحفظ."
+  },
+  {
+   "btype": "text",
+   "text": "تعلّم هذه المعلومات أولاً، ثم ستُختبر فيها:"
+  },
+  {
+   "btype": "text",
+   "text": "أيّ اختصار يجعل النص غامقاً؟ Control مع B (Control+B للنص الغامق.)"
+  },
+  {
+   "btype": "text",
+   "text": "كيف تذهب لبداية المستند؟ Control مع Home (Control+Home لبداية المستند.)"
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع B». — Control+B للنص الغامق."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع B»."
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Control مع Home». — Control+Home لبداية المستند."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع Home»."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ اختصار يجعل النص غامقاً؟",
+    "options": [
+     "Control مع G",
+     "Control مع D",
+     "Control مع H",
+     "Control مع B"
+    ],
+    "correct": 3,
+    "explanation": "Control+B للنص الغامق.",
+    "topic": "pc.wordnav"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "كيف تذهب لبداية المستند؟",
+    "options": [
+     "Home فقط",
+     "Page Up",
+     "Control مع Up",
+     "Control مع Home"
+    ],
+    "correct": 3,
+    "explanation": "Control+Home لبداية المستند.",
+    "topic": "pc.wordnav"
+   }
+  }
+ ]
+}

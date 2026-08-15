@@ -1,0 +1,400 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "teacher",
+      "meaning": "معلم",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The teacher explains well.",
+      "translation": "المعلم يشرح جيداً."
+     },
+     {
+      "word": "doctor",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The doctor examined the patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "engineer",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "She is a civil engineer.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "nurse",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The nurse gave him medicine.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "farmer",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The farmer plants wheat.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "driver",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "The driver stopped the bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "student",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "I am a student at the university.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

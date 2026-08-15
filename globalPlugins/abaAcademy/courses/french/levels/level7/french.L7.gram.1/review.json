@@ -1,0 +1,81 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Quand j'étais petit, je {b} au parc chaque jour.",
+      "correct": "jouais",
+      "distractors": [
+       "joue",
+       "jouerai",
+       "ai joué"
+      ],
+      "explain": "الماضي الناقص يصف عادة أو حالة مستمرة في الماضي، نهايته -ais مع Je.",
+      "topic": "gram.imparfait"
+     },
+     {
+      "prompt": "Il {b} très fatigué hier soir.",
+      "correct": "était",
+      "distractors": [
+       "est",
+       "sera",
+       "a été"
+      ],
+      "explain": "être في الماضي الناقص مع Il: était.",
+      "topic": "gram.imparfait"
+     },
+     {
+      "prompt": "Tu vois Marie ? Oui, je {b} vois.",
+      "correct": "la",
+      "distractors": [
+       "le",
+       "les",
+       "lui"
+      ],
+      "explain": "Marie مؤنثة مفردة، ضميرها la.",
+      "topic": "gram.pronoms"
+     },
+     {
+      "prompt": "Vous connaissez mes parents ? Oui, je {b} connais.",
+      "correct": "les",
+      "distractors": [
+       "la",
+       "le",
+       "leur"
+      ],
+      "explain": "الجمع (mes parents) ضميره les.",
+      "topic": "gram.pronoms"
+     },
+     {
+      "prompt": "Tu vas à l'école ? Oui, j'{b} vais.",
+      "correct": "y",
+      "distractors": [
+       "en",
+       "le",
+       "la"
+      ],
+      "explain": "Y يعوّض عن مكان مسبوق بـ à.",
+      "topic": "gram.pronoms"
+     },
+     {
+      "prompt": "Tu manges des pommes ? Oui, j'{b} mange.",
+      "correct": "en",
+      "distractors": [
+       "y",
+       "le",
+       "la"
+      ],
+      "explain": "EN يعوّض عن كمية مسبوقة بـ de/des.",
+      "topic": "gram.pronoms"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

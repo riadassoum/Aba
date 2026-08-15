@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ livre (مذكّر).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد: le.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ enfants (جمع).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 2,
+    "explanation": "الجمع: les.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "أداة التعريف للجمع في الفرنسية هي les لكلا الجنسين.",
+    "correct": true,
+    "explanation": "صحيح: les للمذكّر والمؤنّث في الجمع.",
+    "topic": "gram.articles_def"
+   }
+  }
+ ]
+}

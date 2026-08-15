@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 20,
+   "params": {
+    "frames": [
+     {
+      "prompt": "اكتب الفعل الماضي من الدعاء بشكل صحيح:",
+      "correct": "دعا",
+      "distractors": [
+       "دعى",
+       "دعآ",
+       "دعاء"
+      ],
+      "explain": "أصل ألفه واو (يدعو) فتُكتب ممدودة.",
+      "topic": "ar.alif"
+     }
+    ],
+    "topic": "ar.alif",
+    "difficulty": 5
+   }
+  }
+ ]
+}

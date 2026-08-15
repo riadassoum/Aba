@@ -1,0 +1,1063 @@
+{
+ "course_id": "english",
+ "title": "اللغة الإنجليزية",
+ "description": "من الأساسيات إلى الطلاقة، مبني على مفردات وقواعد حقيقية.",
+ "order": 2,
+ "version": "1.0.0",
+ "levels": [
+  {
+   "level_id": "level1",
+   "title": "المستوى الأول: الأساسيات (تحية، أرقام، ألوان)",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "english.L1.التحيات.0",
+     "title": "مفردات: التحيات",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات التحيات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x.0.6ae26838"
+    },
+    {
+     "lesson_id": "english.L1.الأرقام___الجزء_1.0",
+     "title": "مفردات: الأرقام — الجزء 1",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأرقام — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x___x_1.0.ef19f4c3"
+    },
+    {
+     "lesson_id": "english.L1.الأرقام___الجزء_2.1",
+     "title": "مفردات: الأرقام — الجزء 2 (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الأرقام — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x___x_2.1.75122056"
+    },
+    {
+     "lesson_id": "english.L1.الألوان.0",
+     "title": "مفردات: الألوان",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الألوان: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x.0.09ae0518"
+    },
+    {
+     "lesson_id": "english.L1.العائلة.0",
+     "title": "مفردات: العائلة",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات العائلة: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x.0.d057b70a"
+    },
+    {
+     "lesson_id": "english.L1.الحيوانات.0",
+     "title": "مفردات: الحيوانات",
+     "order": 5,
+     "objectives": [
+      "إتقان مفردات الحيوانات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1,
+     "dir": "english.L1.x.0.0abfb13f"
+    },
+    {
+     "lesson_id": "english.L1.gram.0",
+     "title": "قواعد المستوى 1",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "english.L1.gram.1",
+     "title": "قواعد المستوى 1 (2)",
+     "order": 7,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "level2",
+   "title": "المستوى الثاني: الحياة اليومية",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "english.L2.المنزل.0",
+     "title": "مفردات: المنزل",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات المنزل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x.0.bfe103a9"
+    },
+    {
+     "lesson_id": "english.L2.الطعام_والشراب___الج.0",
+     "title": "مفردات: الطعام والشراب — الجزء 1",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الطعام والشراب — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x_x___x.0.57fd1c01"
+    },
+    {
+     "lesson_id": "english.L2.الطعام_والشراب___الج.1",
+     "title": "مفردات: الطعام والشراب — الجزء 2 (2)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الطعام والشراب — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x_x___x.1.17651a26"
+    },
+    {
+     "lesson_id": "english.L2.الوقت.0",
+     "title": "مفردات: الوقت",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الوقت: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x.0.84f8b6be"
+    },
+    {
+     "lesson_id": "english.L2.أعضاء_الجسم.0",
+     "title": "مفردات: أعضاء الجسم",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات أعضاء الجسم: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x_x.0.6af4fe29"
+    },
+    {
+     "lesson_id": "english.L2.الصفات.0",
+     "title": "مفردات: الصفات",
+     "order": 5,
+     "objectives": [
+      "إتقان مفردات الصفات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2,
+     "dir": "english.L2.x.0.83499194"
+    },
+    {
+     "lesson_id": "english.L2.gram.0",
+     "title": "قواعد المستوى 2",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.L2.gram.1",
+     "title": "قواعد المستوى 2 (2)",
+     "order": 7,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "level3",
+   "title": "المستوى الثالث: توسيع المفردات",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "english.L3.المهن.0",
+     "title": "مفردات: المهن",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات المهن: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "english.L3.x.0.2b89f3fb"
+    },
+    {
+     "lesson_id": "english.L3.الأماكن.0",
+     "title": "مفردات: الأماكن",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأماكن: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "english.L3.x.0.5a79acc5"
+    },
+    {
+     "lesson_id": "english.L3.المواصلات.0",
+     "title": "مفردات: المواصلات",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات المواصلات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "english.L3.x.0.913948a4"
+    },
+    {
+     "lesson_id": "english.L3.الطقس.0",
+     "title": "مفردات: الطقس",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الطقس: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "english.L3.x.0.763b9371"
+    },
+    {
+     "lesson_id": "english.L3.الصفات.0",
+     "title": "مفردات: الصفات",
+     "order": 4,
+     "objectives": [
+      "إتقان مفردات الصفات: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3,
+     "dir": "english.L3.x.0.7a63ebc3"
+    },
+    {
+     "lesson_id": "english.L3.gram.0",
+     "title": "قواعد المستوى 3",
+     "order": 5,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.L3.gram.1",
+     "title": "قواعد المستوى 3 (2)",
+     "order": 6,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "level4",
+   "title": "المستوى الرابع: أفعال وأنشطة",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "english.L4.الأفعال___الجزء_1.0",
+     "title": "مفردات: الأفعال — الجزء 1",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "english.L4.x___x_1.0.5eb4fd20"
+    },
+    {
+     "lesson_id": "english.L4.الأفعال___الجزء_2.1",
+     "title": "مفردات: الأفعال — الجزء 2 (2)",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "english.L4.x___x_2.1.9409edad"
+    },
+    {
+     "lesson_id": "english.L4.الأفعال___الجزء_3.2",
+     "title": "مفردات: الأفعال — الجزء 3 (3)",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 3: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "english.L4.x___x_3.2.642b8d59"
+    },
+    {
+     "lesson_id": "english.L4.الأفعال___الجزء_4.3",
+     "title": "مفردات: الأفعال — الجزء 4 (4)",
+     "order": 3,
+     "objectives": [
+      "إتقان مفردات الأفعال — الجزء 4: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4,
+     "dir": "english.L4.x___x_4.3.5b49cecb"
+    },
+    {
+     "lesson_id": "english.L4.gram.0",
+     "title": "قواعد المستوى 4",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "english.L4.gram.1",
+     "title": "قواعد المستوى 4 (2)",
+     "order": 5,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "level5",
+   "title": "المستوى الخامس: التسوق والوصف",
+   "order": 5,
+   "lessons": [
+    {
+     "lesson_id": "english.L5.الملابس.0",
+     "title": "مفردات: الملابس",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات الملابس: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "english.L5.x.0.626af93f"
+    },
+    {
+     "lesson_id": "english.L5.التسوق.0",
+     "title": "مفردات: التسوق",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات التسوق: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "english.L5.x.0.8db19cd2"
+    },
+    {
+     "lesson_id": "english.L5.المقارنة_والتفضيل.0",
+     "title": "مفردات: المقارنة والتفضيل",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات المقارنة والتفضيل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5,
+     "dir": "english.L5.x_x.0.1c8cefc9"
+    },
+    {
+     "lesson_id": "english.L5.gram.0",
+     "title": "قواعد المستوى 5",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "english.L5.gram.1",
+     "title": "قواعد المستوى 5 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "level6",
+   "title": "المستوى السادس: السفر والصحة",
+   "order": 6,
+   "lessons": [
+    {
+     "lesson_id": "english.L6.السفر.0",
+     "title": "مفردات: السفر",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات السفر: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "english.L6.x.0.e13bbfb8"
+    },
+    {
+     "lesson_id": "english.L6.الصحة.0",
+     "title": "مفردات: الصحة",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الصحة: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "english.L6.x.0.b4fcbea5"
+    },
+    {
+     "lesson_id": "english.L6.المشاعر.0",
+     "title": "مفردات: المشاعر",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات المشاعر: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6,
+     "dir": "english.L6.x.0.c40ab1d8"
+    },
+    {
+     "lesson_id": "english.L6.gram.0",
+     "title": "قواعد المستوى 6",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    },
+    {
+     "lesson_id": "english.L6.gram.1",
+     "title": "قواعد المستوى 6 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    }
+   ]
+  },
+  {
+   "level_id": "level7",
+   "title": "المستوى السابع: العمل والتقنية",
+   "order": 7,
+   "lessons": [
+    {
+     "lesson_id": "english.L7.العمل.0",
+     "title": "مفردات: العمل",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات العمل: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "english.L7.x.0.7c1ec6c4"
+    },
+    {
+     "lesson_id": "english.L7.التكنولوجيا.0",
+     "title": "مفردات: التكنولوجيا",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات التكنولوجيا: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "english.L7.x.0.35dd6f31"
+    },
+    {
+     "lesson_id": "english.L7.التعليم.0",
+     "title": "مفردات: التعليم",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات التعليم: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7,
+     "dir": "english.L7.x.0.a1911c46"
+    },
+    {
+     "lesson_id": "english.L7.gram.0",
+     "title": "قواعد المستوى 7",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7
+    },
+    {
+     "lesson_id": "english.L7.gram.1",
+     "title": "قواعد المستوى 7 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 7
+    }
+   ]
+  },
+  {
+   "level_id": "level8",
+   "title": "المستوى الثامن: تعابير ومركبات",
+   "order": 8,
+   "lessons": [
+    {
+     "lesson_id": "english.L8.الأفعال_المركبة___ال.0",
+     "title": "مفردات: الأفعال المركبة — الجزء 1",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات الأفعال المركبة — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8,
+     "dir": "english.L8.x_x___x.0.8477db2d"
+    },
+    {
+     "lesson_id": "english.L8.الأفعال_المركبة___ال.1",
+     "title": "مفردات: الأفعال المركبة — الجزء 2 (2)",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات الأفعال المركبة — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8,
+     "dir": "english.L8.x_x___x.1.725ab6f1"
+    },
+    {
+     "lesson_id": "english.L8.التعابير_الاصطلاحية.0",
+     "title": "مفردات: التعابير الاصطلاحية",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات التعابير الاصطلاحية: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8,
+     "dir": "english.L8.x_x.0.8b6fc624"
+    },
+    {
+     "lesson_id": "english.L8.gram.0",
+     "title": "قواعد المستوى 8",
+     "order": 3,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8
+    },
+    {
+     "lesson_id": "english.L8.gram.1",
+     "title": "قواعد المستوى 8 (2)",
+     "order": 4,
+     "objectives": [
+      "إتقان قواعد هذا المستوى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 8
+    }
+   ]
+  },
+  {
+   "level_id": "level9",
+   "title": "المستوى التاسع: لغة أكاديمية",
+   "order": 9,
+   "lessons": [
+    {
+     "lesson_id": "english.L9.اللغة_الأكاديمية___ا.0",
+     "title": "مفردات: اللغة الأكاديمية — الجزء 1",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات اللغة الأكاديمية — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 9,
+     "dir": "english.L9.x_x___x.0.9de5d858"
+    },
+    {
+     "lesson_id": "english.L9.اللغة_الأكاديمية___ا.1",
+     "title": "مفردات: اللغة الأكاديمية — الجزء 2 (2)",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات اللغة الأكاديمية — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 9,
+     "dir": "english.L9.x_x___x.1.2974bbb3"
+    },
+    {
+     "lesson_id": "english.L9.لغة_الأعمال.0",
+     "title": "مفردات: لغة الأعمال",
+     "order": 2,
+     "objectives": [
+      "إتقان مفردات لغة الأعمال: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 9,
+     "dir": "english.L9.x_x.0.9b7f9b19"
+    }
+   ]
+  },
+  {
+   "level_id": "level10",
+   "title": "المستوى العاشر: الطلاقة والإتقان",
+   "order": 10,
+   "lessons": [
+    {
+     "lesson_id": "english.L10.إتقان_متقدم___الجزء_.0",
+     "title": "مفردات: إتقان متقدم — الجزء 1",
+     "order": 0,
+     "objectives": [
+      "إتقان مفردات إتقان متقدم — الجزء 1: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 10,
+     "dir": "english.L10.x_x___x_.0.bd3470e0"
+    },
+    {
+     "lesson_id": "english.L10.إتقان_متقدم___الجزء_.1",
+     "title": "مفردات: إتقان متقدم — الجزء 2 (2)",
+     "order": 1,
+     "objectives": [
+      "إتقان مفردات إتقان متقدم — الجزء 2: المعنى واللفظ والاستعمال في جملة",
+      "التمكّن عبر تمارين متعددة الأنماط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 10,
+     "dir": "english.L10.x_x___x_.1.4ee0ba1b"
+    }
+   ]
+  },
+  {
+   "level_id": "english_grammar",
+   "title": "القواعد (Grammar) — شرح وتطبيق",
+   "order": 20,
+   "lessons": [
+    {
+     "lesson_id": "english.grammar.articles",
+     "title": "قواعد: أدوات التنكير a / an والتعريف the",
+     "order": 0,
+     "objectives": [
+      "إتقان قاعدة: أدوات التنكير a / an والتعريف the"
+     ],
+     "grammar_refs": [
+      "gram.articles"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "english.grammar.plurals",
+     "title": "قواعد: جمع الأسماء (Plurals)",
+     "order": 1,
+     "objectives": [
+      "إتقان قاعدة: جمع الأسماء (Plurals)"
+     ],
+     "grammar_refs": [
+      "gram.plurals"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "english.grammar.there_is",
+     "title": "قواعد: There is / There are",
+     "order": 2,
+     "objectives": [
+      "إتقان قاعدة: There is / There are"
+     ],
+     "grammar_refs": [
+      "gram.there_is"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "english.grammar.to_be",
+     "title": "قواعد: الفعل to be في المضارع (am / is / are)",
+     "order": 3,
+     "objectives": [
+      "إتقان قاعدة: الفعل to be في المضارع (am / is / are)"
+     ],
+     "grammar_refs": [
+      "gram.to_be"
+     ],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "english.grammar.comparatives",
+     "title": "قواعد: المقارنة (Comparatives)",
+     "order": 4,
+     "objectives": [
+      "إتقان قاعدة: المقارنة (Comparatives)"
+     ],
+     "grammar_refs": [
+      "gram.comparatives"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.possessives",
+     "title": "قواعد: الملكية ('s وضمائر الملكية)",
+     "order": 5,
+     "objectives": [
+      "إتقان قاعدة: الملكية ('s وضمائر الملكية)"
+     ],
+     "grammar_refs": [
+      "gram.possessives"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.prepositions",
+     "title": "قواعد: حروف الجر للمكان والزمان (in / on / at)",
+     "order": 6,
+     "objectives": [
+      "إتقان قاعدة: حروف الجر للمكان والزمان (in / on / at)"
+     ],
+     "grammar_refs": [
+      "gram.prepositions"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.pres_cont",
+     "title": "قواعد: المضارع المستمر (Present Continuous)",
+     "order": 7,
+     "objectives": [
+      "إتقان قاعدة: المضارع المستمر (Present Continuous)"
+     ],
+     "grammar_refs": [
+      "gram.pres_cont"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.pres_simple",
+     "title": "قواعد: المضارع البسيط (Present Simple)",
+     "order": 8,
+     "objectives": [
+      "إتقان قاعدة: المضارع البسيط (Present Simple)"
+     ],
+     "grammar_refs": [
+      "gram.pres_simple"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.questions_wh",
+     "title": "قواعد: أدوات الاستفهام (WH Questions)",
+     "order": 9,
+     "objectives": [
+      "إتقان قاعدة: أدوات الاستفهام (WH Questions)"
+     ],
+     "grammar_refs": [
+      "gram.questions_wh"
+     ],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.grammar.adverbs",
+     "title": "قواعد: الظروف (Adverbs of manner)",
+     "order": 10,
+     "objectives": [
+      "إتقان قاعدة: الظروف (Adverbs of manner)"
+     ],
+     "grammar_refs": [
+      "gram.adverbs"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.countable",
+     "title": "قواعد: المعدود وغير المعدود (some / any / much / many)",
+     "order": 11,
+     "objectives": [
+      "إتقان قاعدة: المعدود وغير المعدود (some / any / much / many)"
+     ],
+     "grammar_refs": [
+      "gram.countable"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.future_will",
+     "title": "قواعد: المستقبل بـ will",
+     "order": 12,
+     "objectives": [
+      "إتقان قاعدة: المستقبل بـ will"
+     ],
+     "grammar_refs": [
+      "gram.future_will"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.going_to",
+     "title": "قواعد: المستقبل بـ going to",
+     "order": 13,
+     "objectives": [
+      "إتقان قاعدة: المستقبل بـ going to"
+     ],
+     "grammar_refs": [
+      "gram.going_to"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.modals",
+     "title": "قواعد: الأفعال الناقصة can / must / should",
+     "order": 14,
+     "objectives": [
+      "إتقان قاعدة: الأفعال الناقصة can / must / should"
+     ],
+     "grammar_refs": [
+      "gram.modals"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.past_cont",
+     "title": "قواعد: الماضي المستمر (Past Continuous)",
+     "order": 15,
+     "objectives": [
+      "إتقان قاعدة: الماضي المستمر (Past Continuous)"
+     ],
+     "grammar_refs": [
+      "gram.past_cont"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.past_simple",
+     "title": "قواعد: الماضي البسيط (Past Simple)",
+     "order": 16,
+     "objectives": [
+      "إتقان قاعدة: الماضي البسيط (Past Simple)"
+     ],
+     "grammar_refs": [
+      "gram.past_simple"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.superlatives",
+     "title": "قواعد: التفضيل (Superlatives)",
+     "order": 17,
+     "objectives": [
+      "إتقان قاعدة: التفضيل (Superlatives)"
+     ],
+     "grammar_refs": [
+      "gram.superlatives"
+     ],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.grammar.conditionals",
+     "title": "قواعد: الجمل الشرطية (Zero & First Conditional)",
+     "order": 18,
+     "objectives": [
+      "إتقان قاعدة: الجمل الشرطية (Zero & First Conditional)"
+     ],
+     "grammar_refs": [
+      "gram.conditionals"
+     ],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "english.grammar.pres_perfect",
+     "title": "قواعد: المضارع التام (Present Perfect)",
+     "order": 19,
+     "objectives": [
+      "إتقان قاعدة: المضارع التام (Present Perfect)"
+     ],
+     "grammar_refs": [
+      "gram.pres_perfect"
+     ],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "english_conjugation",
+   "title": "الأزمنة وتصريف الأفعال (Conjugation)",
+   "order": 21,
+   "lessons": [
+    {
+     "lesson_id": "english.conj.0",
+     "title": "تصريف الأفعال: المضارع البسيط",
+     "order": 0,
+     "objectives": [
+      "إتقان تصريف الأفعال في المضارع البسيط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.conj.1",
+     "title": "تصريف الأفعال: الماضي البسيط",
+     "order": 1,
+     "objectives": [
+      "إتقان تصريف الأفعال في الماضي البسيط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.conj.2",
+     "title": "تصريف الأفعال: المستقبل (will)",
+     "order": 2,
+     "objectives": [
+      "إتقان تصريف الأفعال في المستقبل (will)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "english_reading",
+   "title": "القراءة والفهم (Reading)",
+   "order": 22,
+   "lessons": [
+    {
+     "lesson_id": "english.read.morning",
+     "title": "قراءة وفهم: My Morning Routine",
+     "order": 0,
+     "objectives": [
+      "فهم نص مقروء والإجابة عن أسئلته"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.read.market",
+     "title": "قراءة وفهم: At the Market",
+     "order": 1,
+     "objectives": [
+      "فهم نص مقروء والإجابة عن أسئلته"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.read.hobby",
+     "title": "قراءة وفهم: A Useful Hobby",
+     "order": 2,
+     "objectives": [
+      "فهم نص مقروء والإجابة عن أسئلته"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "english_dictation",
+   "title": "الإملاء (Dictation)",
+   "order": 23,
+   "lessons": [
+    {
+     "lesson_id": "english.dict.morning",
+     "title": "إملاء: My Morning Routine",
+     "order": 0,
+     "objectives": [
+      "كتابة ما يُسمع بتهجئة صحيحة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "english.dict.market",
+     "title": "إملاء: At the Market",
+     "order": 1,
+     "objectives": [
+      "كتابة ما يُسمع بتهجئة صحيحة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "english.dict.hobby",
+     "title": "إملاء: A Useful Hobby",
+     "order": 2,
+     "objectives": [
+      "كتابة ما يُسمع بتهجئة صحيحة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "english.dict.tatoeba",
+     "title": "إملاء: جُمل واقعية (Tatoeba)",
+     "order": 3,
+     "objectives": [
+      "كتابة جُمل حقيقية متنوّعة بالإملاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  }
+ ]
+}

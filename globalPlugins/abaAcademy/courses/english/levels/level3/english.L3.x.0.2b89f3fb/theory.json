@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المهن». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "teacher = معلم",
+   "note": "مثال: The teacher explains well. — المعلم يشرح جيداً."
+  },
+  {
+   "btype": "example",
+   "text": "doctor = طبيب",
+   "note": "مثال: The doctor examined the patient. — فحص الطبيب المريض."
+  },
+  {
+   "btype": "example",
+   "text": "engineer = مهندس",
+   "note": "مثال: She is a civil engineer. — هي مهندسة مدنية."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «engineer»؟",
+    "options": [
+     "معلم",
+     "طبيب",
+     "مهندس"
+    ],
+    "correct": 2,
+    "explanation": "«engineer» تعني «مهندس».",
+    "topic": "en:المهن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "nurse = ممرضة",
+   "note": "مثال: The nurse gave him medicine. — أعطته الممرضة الدواء."
+  },
+  {
+   "btype": "example",
+   "text": "farmer = مزارع",
+   "note": "مثال: The farmer plants wheat. — المزارع يزرع القمح."
+  },
+  {
+   "btype": "example",
+   "text": "driver = سائق",
+   "note": "مثال: The driver stopped the bus. — أوقف السائق الحافلة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «driver»؟",
+    "options": [
+     "ممرضة",
+     "مزارع",
+     "سائق"
+    ],
+    "correct": 2,
+    "explanation": "«driver» تعني «سائق».",
+    "topic": "en:المهن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "student = طالب",
+   "note": "مثال: I am a student at the university. — أنا طالب في الجامعة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

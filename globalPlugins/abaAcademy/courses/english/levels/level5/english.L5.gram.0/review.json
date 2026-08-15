@@ -1,0 +1,91 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "I {b} sleeping when you called.",
+      "correct": "was",
+      "distractors": [
+       "am",
+       "is",
+       "were"
+      ],
+      "explain": "الماضي المستمر: was/were + الفعل+ing.",
+      "topic": "gram.past_continuous"
+     },
+     {
+      "prompt": "They {b} playing when it started to rain.",
+      "correct": "were",
+      "distractors": [
+       "was",
+       "are",
+       "is"
+      ],
+      "explain": "مع They نستخدم were.",
+      "topic": "gram.past_continuous"
+     },
+     {
+      "prompt": "I think it {b} rain tomorrow.",
+      "correct": "will",
+      "distractors": [
+       "would",
+       "shall",
+       "going"
+      ],
+      "explain": "will تُستخدم للتنبؤ بالمستقبل.",
+      "topic": "gram.future"
+     },
+     {
+      "prompt": "We {b} going to visit Paris next year.",
+      "correct": "are",
+      "distractors": [
+       "is",
+       "am",
+       "will"
+      ],
+      "explain": "be going to: نستخدم فعل be المناسب للضمير.",
+      "topic": "gram.future"
+     },
+     {
+      "prompt": "This book is {b} than that one.",
+      "correct": "more interesting",
+      "distractors": [
+       "interestinger",
+       "the most interesting",
+       "interesting"
+      ],
+      "explain": "الصفات الطويلة تأخذ more + الصفة.",
+      "topic": "gram.comparison"
+     },
+     {
+      "prompt": "He is the {b} student in the class.",
+      "correct": "smartest",
+      "distractors": [
+       "smarter",
+       "more smart",
+       "most smart"
+      ],
+      "explain": "الصفات القصيرة تأخذ the + صفة+est للتفضيل.",
+      "topic": "gram.comparison"
+     },
+     {
+      "prompt": "This is {b} restaurant in the city.",
+      "correct": "the best",
+      "distractors": [
+       "the goodest",
+       "gooder",
+       "more good"
+      ],
+      "explain": "good صفة شاذة: better/the best.",
+      "topic": "gram.comparison"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على قواعد هذا المستوى من خلال أمثلة وتطبيقات مباشرة. اقرأ كل سؤال واختر الصواب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One child, two {b}.",
+    "options": [
+     "childs",
+     "childrens",
+     "childes",
+     "children"
+    ],
+    "correct": 3,
+    "explanation": "child جمعها شاذ: children.",
+    "topic": "gram.plural"
+   }
+  }
+ ]
+}

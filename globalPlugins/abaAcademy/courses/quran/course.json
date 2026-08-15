@@ -1,0 +1,447 @@
+{
+ "course_id": "quran",
+ "title": "القرآن الكريم: تلاوة وتفسير",
+ "description": "تلاوة القرآن الكريم بالرسم العثماني مع التفسير الميسّر والمعاني، وإعراب سورة الفاتحة، وتمارين إملاء الآيات وإكمالها للحفظ. (النص من واجهة alquran.cloud).",
+ "order": 11,
+ "levels": [
+  {
+   "level_id": "quran_fatiha",
+   "title": "سورة الفاتحة (مع الإعراب)",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "quran.surah.1",
+     "dir": "surah_001",
+     "title": "سورة سُورَةُ ٱلْفَاتِحَةِ",
+     "order": 0,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ ٱلْفَاتِحَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "quran_juz30_a",
+   "title": "جزء عمّ — القسم الأول",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "quran.surah.78",
+     "dir": "surah_078",
+     "title": "سورة سُورَةُ النَّبَإِ",
+     "order": 0,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ النَّبَإِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.79",
+     "dir": "surah_079",
+     "title": "سورة سُورَةُ النَّازِعَاتِ",
+     "order": 1,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ النَّازِعَاتِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.80",
+     "dir": "surah_080",
+     "title": "سورة سُورَةُ عَبَسَ",
+     "order": 2,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ عَبَسَ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.81",
+     "dir": "surah_081",
+     "title": "سورة سُورَةُ التَّكۡوِيرِ",
+     "order": 3,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ التَّكۡوِيرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.82",
+     "dir": "surah_082",
+     "title": "سورة سُورَةُ الانفِطَارِ",
+     "order": 4,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الانفِطَارِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.83",
+     "dir": "surah_083",
+     "title": "سورة سُورَةُ المُطَفِّفِينَ",
+     "order": 5,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ المُطَفِّفِينَ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.84",
+     "dir": "surah_084",
+     "title": "سورة سُورَةُ الانشِقَاقِ",
+     "order": 6,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الانشِقَاقِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.85",
+     "dir": "surah_085",
+     "title": "سورة سُورَةُ البُرُوجِ",
+     "order": 7,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ البُرُوجِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.86",
+     "dir": "surah_086",
+     "title": "سورة سُورَةُ الطَّارِقِ",
+     "order": 8,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الطَّارِقِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.87",
+     "dir": "surah_087",
+     "title": "سورة سُورَةُ الأَعۡلَىٰ",
+     "order": 9,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الأَعۡلَىٰ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.88",
+     "dir": "surah_088",
+     "title": "سورة سُورَةُ الغَاشِيَةِ",
+     "order": 10,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الغَاشِيَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.89",
+     "dir": "surah_089",
+     "title": "سورة سُورَةُ الفَجۡرِ",
+     "order": 11,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الفَجۡرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.90",
+     "dir": "surah_090",
+     "title": "سورة سُورَةُ البَلَدِ",
+     "order": 12,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ البَلَدِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.91",
+     "dir": "surah_091",
+     "title": "سورة سُورَةُ الشَّمۡسِ",
+     "order": 13,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الشَّمۡسِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.92",
+     "dir": "surah_092",
+     "title": "سورة سُورَةُ اللَّيۡلِ",
+     "order": 14,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ اللَّيۡلِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.93",
+     "dir": "surah_093",
+     "title": "سورة سُورَةُ الضُّحَىٰ",
+     "order": 15,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الضُّحَىٰ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "quran_juz30_b",
+   "title": "جزء عمّ — القسم الثاني",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "quran.surah.94",
+     "dir": "surah_094",
+     "title": "سورة سُورَةُ الشَّرۡحِ",
+     "order": 0,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الشَّرۡحِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.95",
+     "dir": "surah_095",
+     "title": "سورة سُورَةُ التِّينِ",
+     "order": 1,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ التِّينِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.96",
+     "dir": "surah_096",
+     "title": "سورة سُورَةُ العَلَقِ",
+     "order": 2,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ العَلَقِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.97",
+     "dir": "surah_097",
+     "title": "سورة سُورَةُ القَدۡرِ",
+     "order": 3,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ القَدۡرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.98",
+     "dir": "surah_098",
+     "title": "سورة سُورَةُ البَيِّنَةِ",
+     "order": 4,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ البَيِّنَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.99",
+     "dir": "surah_099",
+     "title": "سورة سُورَةُ الزَّلۡزَلَةِ",
+     "order": 5,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الزَّلۡزَلَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.100",
+     "dir": "surah_100",
+     "title": "سورة سُورَةُ العَادِيَاتِ",
+     "order": 6,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ العَادِيَاتِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.101",
+     "dir": "surah_101",
+     "title": "سورة سُورَةُ القَارِعَةِ",
+     "order": 7,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ القَارِعَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.102",
+     "dir": "surah_102",
+     "title": "سورة سُورَةُ التَّكَاثُرِ",
+     "order": 8,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ التَّكَاثُرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.103",
+     "dir": "surah_103",
+     "title": "سورة سُورَةُ العَصۡرِ",
+     "order": 9,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ العَصۡرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.104",
+     "dir": "surah_104",
+     "title": "سورة سُورَةُ الهُمَزَةِ",
+     "order": 10,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الهُمَزَةِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.105",
+     "dir": "surah_105",
+     "title": "سورة سُورَةُ الفِيلِ",
+     "order": 11,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الفِيلِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.106",
+     "dir": "surah_106",
+     "title": "سورة سُورَةُ قُرَيۡشٍ",
+     "order": 12,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ قُرَيۡشٍ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.107",
+     "dir": "surah_107",
+     "title": "سورة سُورَةُ المَاعُونِ",
+     "order": 13,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ المَاعُونِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.108",
+     "dir": "surah_108",
+     "title": "سورة سُورَةُ الكَوۡثَرِ",
+     "order": 14,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الكَوۡثَرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.109",
+     "dir": "surah_109",
+     "title": "سورة سُورَةُ الكَافِرُونَ",
+     "order": 15,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الكَافِرُونَ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.110",
+     "dir": "surah_110",
+     "title": "سورة سُورَةُ النَّصۡرِ",
+     "order": 16,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ النَّصۡرِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.111",
+     "dir": "surah_111",
+     "title": "سورة سُورَةُ المَسَدِ",
+     "order": 17,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ المَسَدِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.112",
+     "dir": "surah_112",
+     "title": "سورة سُورَةُ الإِخۡلَاصِ",
+     "order": 18,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الإِخۡلَاصِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.113",
+     "dir": "surah_113",
+     "title": "سورة سُورَةُ الفَلَقِ",
+     "order": 19,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ الفَلَقِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "quran.surah.114",
+     "dir": "surah_114",
+     "title": "سورة سُورَةُ النَّاسِ",
+     "order": 20,
+     "objectives": [
+      "تلاوة وفهم سورة سُورَةُ النَّاسِ"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}

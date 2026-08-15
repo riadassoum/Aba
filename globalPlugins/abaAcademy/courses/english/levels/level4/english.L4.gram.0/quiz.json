@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Yesterday, I {b} to the market.",
+    "options": [
+     "go",
+     "goes",
+     "going",
+     "went"
+    ],
+    "correct": 3,
+    "explanation": "go فعل شاذ، ماضيه went.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "She {b} her homework last night.",
+    "options": [
+     "finish",
+     "finishes",
+     "finishing",
+     "finished"
+    ],
+    "correct": 3,
+    "explanation": "الأفعال المنتظمة تأخذ -ed في الماضي.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "They {b} not come to the party.",
+    "options": [
+     "do",
+     "does",
+     "were",
+     "did"
+    ],
+    "correct": 3,
+    "explanation": "في نفي الماضي نستخدم did not للأفعال العادية.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "{b} you see that movie?",
+    "options": [
+     "Do",
+     "Does",
+     "Were",
+     "Did"
+    ],
+    "correct": 3,
+    "explanation": "سؤال الماضي البسيط يبدأ بـ Did.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "The meeting is {b} Monday.",
+    "options": [
+     "in",
+     "at",
+     "to",
+     "on"
+    ],
+    "correct": 3,
+    "explanation": "on تُستخدم مع أيام الأسبوع.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "{b} is your name?",
+    "options": [
+     "Who",
+     "Where",
+     "When",
+     "What"
+    ],
+    "correct": 3,
+    "explanation": "What تُستخدم للسؤال عن شيء أو اسم.",
+    "topic": "gram.questions"
+   }
+  }
+ ]
+}

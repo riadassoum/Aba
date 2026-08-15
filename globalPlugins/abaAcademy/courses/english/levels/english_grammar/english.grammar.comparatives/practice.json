@@ -1,0 +1,106 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة المقارنة من tall:",
+    "correct": "taller",
+    "accepted": [],
+    "explanation": "صفة قصيرة: نضيف er.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: This test is ___ than the last one.",
+    "options": [
+     "difficult",
+     "difficulter",
+     "more difficult",
+     "most difficult"
+    ],
+    "correct": 2,
+    "explanation": "difficult صفة طويلة: more difficult.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما مقارنة good؟",
+    "options": [
+     "gooder",
+     "better",
+     "more good",
+     "best"
+    ],
+    "correct": 1,
+    "explanation": "شاذة: better.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة المقارنة من big:",
+    "correct": "bigger",
+    "accepted": [],
+    "explanation": "نضاعف g: bigger.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She runs faster ___ me.",
+    "options": [
+     "then",
+     "than",
+     "that",
+     "from"
+    ],
+    "correct": 1,
+    "explanation": "بعد المقارنة نستخدم than.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "مقارنة bad هي badder.",
+    "correct": false,
+    "explanation": "شاذة، الصواب worse.",
+    "topic": "gram.comparatives"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "He is taller than his brother.",
+      "translation": "أطول من أخيه."
+     },
+     {
+      "text": "This is more expensive than that.",
+      "translation": "أغلى من ذلك."
+     },
+     {
+      "text": "My car is better than yours.",
+      "translation": "سيارتي أفضل من سيارتك."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "headache",
+      "meaning": "صداع",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I have a bad headache.",
+      "translation": "لدي صداع شديد."
+     },
+     {
+      "word": "fever",
+      "meaning": "حمى",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "The child has a fever.",
+      "translation": "الطفل مصاب بالحمى."
+     },
+     {
+      "word": "medicine",
+      "meaning": "دواء",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "Take this medicine twice a day.",
+      "translation": "تناول هذا الدواء مرتين يومياً."
+     },
+     {
+      "word": "pain",
+      "meaning": "ألم",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I feel pain in my back.",
+      "translation": "أشعر بألم في ظهري."
+     },
+     {
+      "word": "cough",
+      "meaning": "سعال",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "He has a cough and a cold.",
+      "translation": "لديه سعال ونزلة برد."
+     },
+     {
+      "word": "appointment",
+      "meaning": "موعد",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I have an appointment with the doctor.",
+      "translation": "لدي موعد مع الطبيب."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "headache",
+      "meaning": "صداع",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I have a bad headache.",
+      "translation": "لدي صداع شديد."
+     },
+     {
+      "word": "fever",
+      "meaning": "حمى",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "The child has a fever.",
+      "translation": "الطفل مصاب بالحمى."
+     },
+     {
+      "word": "medicine",
+      "meaning": "دواء",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "Take this medicine twice a day.",
+      "translation": "تناول هذا الدواء مرتين يومياً."
+     },
+     {
+      "word": "pain",
+      "meaning": "ألم",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I feel pain in my back.",
+      "translation": "أشعر بألم في ظهري."
+     },
+     {
+      "word": "cough",
+      "meaning": "سعال",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "He has a cough and a cold.",
+      "translation": "لديه سعال ونزلة برد."
+     },
+     {
+      "word": "appointment",
+      "meaning": "موعد",
+      "topic": "الصحة",
+      "difficulty": 6,
+      "example": "I have an appointment with the doctor.",
+      "translation": "لدي موعد مع الطبيب."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

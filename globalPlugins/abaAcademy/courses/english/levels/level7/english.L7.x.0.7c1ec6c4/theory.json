@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «العمل». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "meeting = اجتماع",
+   "note": "مثال: We have a meeting at ten. — لدينا اجتماع الساعة العاشرة."
+  },
+  {
+   "btype": "example",
+   "text": "deadline = موعد نهائي",
+   "note": "مثال: The deadline is next Friday. — الموعد النهائي الجمعة القادمة."
+  },
+  {
+   "btype": "example",
+   "text": "salary = راتب",
+   "note": "مثال: The salary is paid monthly. — يُدفع الراتب شهرياً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «salary»؟",
+    "options": [
+     "اجتماع",
+     "موعد نهائي",
+     "راتب"
+    ],
+    "correct": 2,
+    "explanation": "«salary» تعني «راتب».",
+    "topic": "en:العمل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "colleague = زميل عمل",
+   "note": "مثال: My colleague helped me finish the report. — ساعدني زميلي في إنهاء التقرير."
+  },
+  {
+   "btype": "example",
+   "text": "manager = مدير",
+   "note": "مثال: The manager approved the plan. — وافق المدير على الخطة."
+  },
+  {
+   "btype": "example",
+   "text": "interview = مقابلة",
+   "note": "مثال: I have a job interview tomorrow. — لدي مقابلة عمل غداً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «interview»؟",
+    "options": [
+     "زميل عمل",
+     "مدير",
+     "مقابلة"
+    ],
+    "correct": 2,
+    "explanation": "«interview» تعني «مقابلة».",
+    "topic": "en:العمل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "resume = سيرة ذاتية",
+   "note": "مثال: Send me your resume by email. — أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

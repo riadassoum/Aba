@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تنتقل إلى الخلية التالية في نفس الصف؟",
+      "correct": "Control مع Alt مع السهم لليمين",
+      "distractors": [
+       "Control مع C",
+       "Alt مع Tab",
+       "Shift مع Right"
+      ],
+      "explain": "Control مع Alt مع السهم لليمين",
+      "topic": "computer.tables.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الخلية السابقة في نفس الصف؟",
+      "correct": "Control مع Alt مع السهم لليسار",
+      "distractors": [
+       "Control مع Z",
+       "Alt مع Left",
+       "Shift مع Left"
+      ],
+      "explain": "Control مع Alt مع السهم لليسار",
+      "topic": "computer.tables.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الخلية في الصف التالي؟",
+      "correct": "Control مع Alt مع السهم للأسفل",
+      "distractors": [
+       "Enter",
+       "Alt مع Down",
+       "Page Down"
+      ],
+      "explain": "Control مع Alt مع السهم للأسفل",
+      "topic": "computer.tables.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الخلية في الصف السابق؟",
+      "correct": "Control مع Alt مع السهم للأعلى",
+      "distractors": [
+       "Backspace",
+       "Alt مع Up",
+       "Page Up"
+      ],
+      "explain": "Control مع Alt مع السهم للأعلى",
+      "topic": "computer.tables.0"
+     }
+    ]
+   }
+  }
+ ]
+}

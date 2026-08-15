@@ -1,0 +1,40 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 10,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "parler",
+      "meaning": "يتكلم",
+      "tense": "الماضي الناقص (imparfait)",
+      "forms": {
+       "je": "parlais",
+       "tu": "parlais",
+       "il": "parlait",
+       "nous": "parlions",
+       "vous": "parliez",
+       "ils": "parlaient"
+      }
+     },
+     {
+      "infinitive": "être",
+      "meaning": "يكون",
+      "tense": "الماضي الناقص (imparfait)",
+      "forms": {
+       "je": "étais",
+       "tu": "étais",
+       "il": "était",
+       "nous": "étions",
+       "vous": "étiez",
+       "ils": "étaient"
+      }
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

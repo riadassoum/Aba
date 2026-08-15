@@ -1,0 +1,13 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 14,
+   "params": {
+    "table": "arabic_extra",
+    "topic": "braille.arabic_extra"
+   }
+  }
+ ]
+}

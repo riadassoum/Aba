@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.add_sub",
+   "count": 4,
+   "params": {
+    "difficulty": 4
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "math.mul_div",
+   "count": 4,
+   "params": {
+    "difficulty": 4
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "math.percent",
+   "count": 4,
+   "params": {
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "math.algebra",
+   "count": 4,
+   "params": {
+    "difficulty": 4
+   }
+  }
+ ]
+}

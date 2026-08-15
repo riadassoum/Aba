@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم المضارع البسيط للحقائق والعادات والأمور المتكررة، مثل «أشرب القهوة كل صباح». الفعل يبقى كما هو مع I / you / we / they، لكن نضيف s (أو es) مع الغائب المفرد he / she / it: I work لكن He works. في النفي والسؤال نستخدم do / does مع التصريف الأول للفعل: I don't work، He doesn't work، Do you"
+  },
+  {
+   "btype": "text",
+   "text": "work?، Does she work? لاحظ أن s تنتقل إلى does فيعود الفعل مجرّداً."
+  },
+  {
+   "btype": "example",
+   "text": "I drink coffee every day.",
+   "note": "أشرب القهوة كل يوم."
+  },
+  {
+   "btype": "example",
+   "text": "He works in a bank.",
+   "note": "يعمل في بنك."
+  },
+  {
+   "btype": "example",
+   "text": "Does she like music?",
+   "note": "هل تحب الموسيقى؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He ___ football every weekend.",
+    "options": [
+     "play",
+     "plays",
+     "playing",
+     "is play"
+    ],
+    "correct": 1,
+    "explanation": "مع he نضيف s: plays.",
+    "topic": "gram.pres_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: They ___ in London.",
+    "options": [
+     "live",
+     "lives",
+     "living",
+     "to live"
+    ],
+    "correct": 0,
+    "explanation": "مع they يبقى الفعل مجرّداً: live.",
+    "topic": "gram.pres_simple"
+   }
+  }
+ ]
+}

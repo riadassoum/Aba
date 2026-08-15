@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ livre (مذكّر).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد: le.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ table (مؤنّث).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: la.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ enfants (جمع).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 2,
+    "explanation": "الجمع: les.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ école (تبدأ بحرف متحرك).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 3,
+    "explanation": "قبل حرف متحرك نختصر إلى l'.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "أداة التعريف للجمع في الفرنسية هي les لكلا الجنسين.",
+    "correct": true,
+    "explanation": "صحيح: les للمذكّر والمؤنّث في الجمع.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: ___ soleil (الشمس، مذكّر بالفرنسية). اكتب الأداة.",
+    "correct": "le",
+    "accepted": [],
+    "explanation": "soleil مذكّر: le soleil.",
+    "topic": "gram.articles_def"
+   }
+  }
+ ]
+}

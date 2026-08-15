@@ -1,0 +1,466 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "ville",
+      "meaning": "مدينة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Tripoli est une belle ville.",
+      "translation": "طرابلس مدينة جميلة."
+     },
+     {
+      "word": "village",
+      "meaning": "قرية",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils habitent un petit village.",
+      "translation": "يعيشون في قرية صغيرة."
+     },
+     {
+      "word": "rue",
+      "meaning": "شارع",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Traverse la rue prudemment.",
+      "translation": "اعبر الشارع بحذر."
+     },
+     {
+      "word": "école",
+      "meaning": "مدرسة",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'école est près de chez moi.",
+      "translation": "المدرسة قريبة من منزلي."
+     },
+     {
+      "word": "hôpital",
+      "meaning": "مستشفى",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Ils l'ont emmené à l'hôpital.",
+      "translation": "أخذوه إلى المستشفى."
+     },
+     {
+      "word": "marché",
+      "meaning": "سوق",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "Nous achetons des légumes au marché.",
+      "translation": "نشتري الخضار من السوق."
+     },
+     {
+      "word": "aéroport",
+      "meaning": "مطار",
+      "topic": "الأماكن",
+      "difficulty": 3,
+      "example": "L'aéroport est loin d'ici.",
+      "translation": "المطار بعيد من هنا."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

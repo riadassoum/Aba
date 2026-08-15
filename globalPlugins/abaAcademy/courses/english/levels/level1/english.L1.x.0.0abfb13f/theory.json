@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الحيوانات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "cat = قطة",
+   "note": "مثال: The cat is sleeping. — القطة نائمة."
+  },
+  {
+   "btype": "example",
+   "text": "dog = كلب",
+   "note": "مثال: The dog is running. — الكلب يجري."
+  },
+  {
+   "btype": "example",
+   "text": "bird = طائر",
+   "note": "مثال: A bird is singing. — طائر يغني."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «bird»؟",
+    "options": [
+     "قطة",
+     "كلب",
+     "طائر"
+    ],
+    "correct": 2,
+    "explanation": "«bird» تعني «طائر».",
+    "topic": "en:الحيوانات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "horse = حصان",
+   "note": "مثال: The horse is fast. — الحصان سريع."
+  },
+  {
+   "btype": "example",
+   "text": "fish = سمكة",
+   "note": "مثال: We ate fish for dinner. — أكلنا سمكاً على العشاء."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Quand j'étais petit, je {b} au parc chaque jour.",
+    "options": [
+     "joue",
+     "jouerai",
+     "ai joué",
+     "jouais"
+    ],
+    "correct": 3,
+    "explanation": "الماضي الناقص يصف عادة أو حالة مستمرة في الماضي، نهايته -ais مع Je.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Il {b} très fatigué hier soir.",
+    "options": [
+     "est",
+     "sera",
+     "a été",
+     "était"
+    ],
+    "correct": 3,
+    "explanation": "être في الماضي الناقص مع Il: était.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Tu vois Marie ? Oui, je {b} vois.",
+    "options": [
+     "le",
+     "les",
+     "lui",
+     "la"
+    ],
+    "correct": 3,
+    "explanation": "Marie مؤنثة مفردة، ضميرها la.",
+    "topic": "gram.pronoms"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Vous connaissez mes parents ? Oui, je {b} connais.",
+    "options": [
+     "la",
+     "le",
+     "leur",
+     "les"
+    ],
+    "correct": 3,
+    "explanation": "الجمع (mes parents) ضميره les.",
+    "topic": "gram.pronoms"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Tu vas à l'école ? Oui, j'{b} vais.",
+    "options": [
+     "en",
+     "le",
+     "la",
+     "y"
+    ],
+    "correct": 3,
+    "explanation": "Y يعوّض عن مكان مسبوق بـ à.",
+    "topic": "gram.pronoms"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Tu manges des pommes ? Oui, j'{b} mange.",
+    "options": [
+     "y",
+     "le",
+     "la",
+     "en"
+    ],
+    "correct": 3,
+    "explanation": "EN يعوّض عن كمية مسبوقة بـ de/des.",
+    "topic": "gram.pronoms"
+   }
+  }
+ ]
+}

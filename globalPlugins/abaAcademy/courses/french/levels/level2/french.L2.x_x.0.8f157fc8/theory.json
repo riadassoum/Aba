@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «أعضاء الجسم». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "tête = رأس",
+   "note": "مثال: J'ai mal à la tête. — رأسي يؤلمني."
+  },
+  {
+   "btype": "example",
+   "text": "main = يد",
+   "note": "مثال: Elle a levé la main. — رفعت يدها."
+  },
+  {
+   "btype": "example",
+   "text": "œil = عين",
+   "note": "مثال: Il a les yeux bleus. — لديه عينان زرقاوان."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «œil»؟",
+    "options": [
+     "رأس",
+     "يد",
+     "عين"
+    ],
+    "correct": 2,
+    "explanation": "«œil» تعني «عين».",
+    "topic": "fr:أعضاء الجسم"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "oreille = أذن",
+   "note": "مثال: Écoute avec tes oreilles. — استمع بأذنيك."
+  },
+  {
+   "btype": "example",
+   "text": "jambe = ساق",
+   "note": "مثال: Le chien s'est cassé la jambe. — كسر الكلب ساقه."
+  },
+  {
+   "btype": "example",
+   "text": "cœur = قلب",
+   "note": "مثال: Mon cœur bat vite. — قلبي ينبض بسرعة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

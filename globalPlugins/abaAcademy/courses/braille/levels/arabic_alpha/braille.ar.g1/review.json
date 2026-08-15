@@ -1,0 +1,18 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 6,
+   "params": {
+    "signs": {
+     "ج": "⠚",
+     "ح": "⠱",
+     "خ": "⠭",
+     "د": "⠙"
+    },
+    "topic": "braille.arabic"
+   }
+  }
+ ]
+}

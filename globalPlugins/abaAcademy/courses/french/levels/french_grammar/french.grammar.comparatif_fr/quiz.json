@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il est ___ grand que moi. (أطول)",
+    "options": [
+     "plus",
+     "moins",
+     "aussi",
+     "très"
+    ],
+    "correct": 0,
+    "explanation": "أكثر: plus.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Ce livre est ___ intéressant que l'autre. (أقل)",
+    "options": [
+     "plus",
+     "moins",
+     "aussi",
+     "bien"
+    ],
+    "correct": 1,
+    "explanation": "أقل: moins.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا يأتي بعد plus/moins في المقارنة؟",
+    "options": [
+     "que",
+     "de",
+     "à",
+     "comme"
+    ],
+    "correct": 0,
+    "explanation": "نستخدم que.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: Elle court ___ vite que lui (بنفس السرعة). اكتب الكلمة.",
+    "correct": "aussi",
+    "accepted": [],
+    "explanation": "بنفس القدر: aussi.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "مقارنة bon الشاذة هي plus bon.",
+    "correct": false,
+    "explanation": "الصواب meilleur.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Ce gâteau est ___ que l'autre. (أفضل)",
+    "options": [
+     "plus bon",
+     "meilleur",
+     "mieux",
+     "bien"
+    ],
+    "correct": 1,
+    "explanation": "الشاذة: meilleur.",
+    "topic": "gram.comparatif_fr"
+   }
+  }
+ ]
+}

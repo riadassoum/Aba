@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 12,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ماذا يعني NVDA؟",
+      "correct": "قارئ شاشة مجاني لنظام ويندوز",
+      "distractors": [
+       "برنامج تحرير صور",
+       "متصفح إنترنت",
+       "نظام تشغيل"
+      ],
+      "explain": "NVDA قارئ شاشة مجاني.",
+      "topic": "pc.what_is"
+     },
+     {
+      "prompt": "هل يمكن تشغيل NVDA بلا تثبيت؟",
+      "correct": "نعم من ذاكرة USB",
+      "distractors": [
+       "لا أبداً",
+       "فقط على ماك",
+       "فقط بإذن خاص"
+      ],
+      "explain": "يدعم NVDA الوضع المحمول.",
+      "topic": "pc.what_is"
+     }
+    ],
+    "topic": "pc.what_is",
+    "difficulty": 1
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 9,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: ماذا يعني NVDA؟ الإجابة هي «قارئ شاشة مجاني لنظام ويندوز».",
+      "is_true": true,
+      "explain": "NVDA قارئ شاشة مجاني.",
+      "topic": "pc.what_is"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يعني NVDA؟ الإجابة هي «برنامج تحرير صور».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «قارئ شاشة مجاني لنظام ويندوز».",
+      "topic": "pc.what_is"
+     },
+     {
+      "text": "صحيح أم خطأ: هل يمكن تشغيل NVDA بلا تثبيت؟ الإجابة هي «نعم من ذاكرة USB».",
+      "is_true": true,
+      "explain": "يدعم NVDA الوضع المحمول.",
+      "topic": "pc.what_is"
+     },
+     {
+      "text": "صحيح أم خطأ: هل يمكن تشغيل NVDA بلا تثبيت؟ الإجابة هي «لا أبداً».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «نعم من ذاكرة USB».",
+      "topic": "pc.what_is"
+     }
+    ],
+    "topic": "pc.what_is",
+    "difficulty": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ماذا يعني NVDA؟",
+      "correct": "قارئ شاشة مجاني لنظام ويندوز",
+      "distractors": [
+       "برنامج تحرير صور",
+       "متصفح إنترنت",
+       "نظام تشغيل"
+      ],
+      "explain": "NVDA قارئ شاشة مجاني.",
+      "topic": "pc.what_is"
+     },
+     {
+      "prompt": "هل يمكن تشغيل NVDA بلا تثبيت؟",
+      "correct": "نعم من ذاكرة USB",
+      "distractors": [
+       "لا أبداً",
+       "فقط على ماك",
+       "فقط بإذن خاص"
+      ],
+      "explain": "يدعم NVDA الوضع المحمول.",
+      "topic": "pc.what_is"
+     }
+    ],
+    "topic": "pc.what_is"
+   }
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "head",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "My head hurts.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "hand",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "She raised her hand.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "eye",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "He has blue eyes.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "ear",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Listen with your ears.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "leg",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "The dog broke its leg.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "heart",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "My heart beats fast.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "head",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "My head hurts.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "hand",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "She raised her hand.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "eye",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "He has blue eyes.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "ear",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Listen with your ears.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "leg",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "The dog broke its leg.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "heart",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "My heart beats fast.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

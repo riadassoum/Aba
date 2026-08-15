@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "للمقارنة نستخدم plus (أكثر) أو moins (أقل) أو aussi (بنفس القدر) قبل الصفة، وque بعدها. مثل Il est plus grand que moi (أطول مني)، Elle est moins rapide que lui (أقل سرعة منه)، Je suis aussi fort que toi (بقوّتك). المقارنة الشاذة: bon → meilleur (أفضل)، bien → mieux."
+  },
+  {
+   "btype": "example",
+   "text": "Il est plus grand que moi.",
+   "note": "أطول مني."
+  },
+  {
+   "btype": "example",
+   "text": "C'est moins cher.",
+   "note": "أرخص."
+  },
+  {
+   "btype": "example",
+   "text": "Elle est aussi gentille que toi.",
+   "note": "لطيفة مثلك."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il est ___ grand que moi. (أطول)",
+    "options": [
+     "plus",
+     "moins",
+     "aussi",
+     "très"
+    ],
+    "correct": 0,
+    "explanation": "أكثر: plus.",
+    "topic": "gram.comparatif_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Ce livre est ___ intéressant que l'autre. (أقل)",
+    "options": [
+     "plus",
+     "moins",
+     "aussi",
+     "bien"
+    ],
+    "correct": 1,
+    "explanation": "أقل: moins.",
+    "topic": "gram.comparatif_fr"
+   }
+  }
+ ]
+}

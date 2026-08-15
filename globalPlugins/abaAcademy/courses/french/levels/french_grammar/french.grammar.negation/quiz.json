@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي الصحيح لـ Je parle:",
+    "options": [
+     "Je pas parle",
+     "Je ne parle pas",
+     "Je ne pas parle",
+     "Je parle ne pas"
+    ],
+    "correct": 1,
+    "explanation": "ne قبل الفعل وpas بعده.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il ___ aime pas le thé.",
+    "options": [
+     "ne",
+     "n'",
+     "pas",
+     "ni"
+    ],
+    "correct": 1,
+    "explanation": "قبل حرف متحرك نختصر إلى n'.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "في النفي يُحاط الفعل بـ ne قبله وpas بعده.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "انفِ الجملة: Nous comprenons → Nous ne comprenons ___.",
+    "correct": "pas",
+    "accepted": [],
+    "explanation": "الجزء الثاني من النفي: pas.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا تعني ne...jamais؟",
+    "options": [
+     "دائماً",
+     "أبداً/قط",
+     "أحياناً",
+     "لا شيء"
+    ],
+    "correct": 1,
+    "explanation": "ne...jamais = أبداً.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي الصحيح لـ Elle mange:",
+    "options": [
+     "Elle ne mange pas",
+     "Elle mange pas ne",
+     "Elle pas mange",
+     "Elle ne pas mange"
+    ],
+    "correct": 0,
+    "explanation": "ne mange pas.",
+    "topic": "gram.negation"
+   }
+  }
+ ]
+}

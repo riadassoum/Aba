@@ -1,0 +1,70 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 9,
+   "params": {
+    "frames": [
+     {
+      "prompt": "J'{b} mangé une pomme.",
+      "correct": "ai",
+      "distractors": [
+       "suis",
+       "as",
+       "a"
+      ],
+      "explain": "الماضي المركب: avoir/être بالمضارع + participe passé.",
+      "topic": "gram.passe_compose_avoir"
+     },
+     {
+      "prompt": "Elle {b} fini son travail.",
+      "correct": "a",
+      "distractors": [
+       "est",
+       "as",
+       "ai"
+      ],
+      "explain": "مع Elle نستخدم a + participe passé.",
+      "topic": "gram.passe_compose_avoir"
+     },
+     {
+      "prompt": "Nous {b} regardé un film.",
+      "correct": "avons",
+      "distractors": [
+       "sommes",
+       "avez",
+       "ont"
+      ],
+      "explain": "مع Nous نستخدم avons + participe passé.",
+      "topic": "gram.passe_compose_avoir"
+     },
+     {
+      "prompt": "Je {b} allé au marché.",
+      "correct": "suis",
+      "distractors": [
+       "ai",
+       "es",
+       "est"
+      ],
+      "explain": "بعض الأفعال (aller, venir...) تُصرَّف بـ être لا avoir.",
+      "topic": "gram.passe_compose_etre"
+     },
+     {
+      "prompt": "Elle {b} partie tôt ce matin.",
+      "correct": "est",
+      "distractors": [
+       "a",
+       "es",
+       "sont"
+      ],
+      "explain": "مع Elle نستخدم est، والتصريف يوافق المؤنث (partie).",
+      "topic": "gram.passe_compose_etre"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

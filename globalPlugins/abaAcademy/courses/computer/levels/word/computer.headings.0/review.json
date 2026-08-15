@@ -1,0 +1,25 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما فائدة تطبيق أنماط العناوين في وورد؟",
+      "correct": "تسهيل التنقل ببنية المستند",
+      "distractors": [
+       "تكبير الخط فقط",
+       "تلوين الصفحة",
+       "إضافة صور"
+      ],
+      "explain": "العناوين تبني بنية يتنقل بها قارئ الشاشة.",
+      "topic": "pc.headings"
+     }
+    ],
+    "topic": "pc.headings"
+   }
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "nonetheless",
+      "meaning": "ومع ذلك / رغم ذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "Nonetheless, he decided to try again.",
+      "translation": "رغم ذلك، قرر أن يحاول مجدداً."
+     },
+     {
+      "word": "albeit",
+      "meaning": "وإن كان / رغم أنه",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The plan worked, albeit slowly.",
+      "translation": "نجحت الخطة، وإن كان ذلك ببطء."
+     },
+     {
+      "word": "meticulous",
+      "meaning": "دقيق جداً",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She is meticulous about details.",
+      "translation": "هي دقيقة جداً في التفاصيل."
+     },
+     {
+      "word": "ambiguous",
+      "meaning": "غامض / ملتبس",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "His answer was rather ambiguous.",
+      "translation": "كانت إجابته غامضة إلى حد ما."
+     },
+     {
+      "word": "resilient",
+      "meaning": "قادر على الصمود",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The community proved resilient after the crisis.",
+      "translation": "أثبت المجتمع صموده بعد الأزمة."
+     },
+     {
+      "word": "versatile",
+      "meaning": "متعدد المواهب",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "He is a versatile musician.",
+      "translation": "هو موسيقي متعدد المواهب."
+     },
+     {
+      "word": "procrastinate",
+      "meaning": "يسوّف / يؤجل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "Stop procrastinating and start studying.",
+      "translation": "توقف عن التسويف وابدأ الدراسة."
+     },
+     {
+      "word": "eloquent",
+      "meaning": "بليغ / فصيح",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The speaker was eloquent and confident.",
+      "translation": "كان المتحدث بليغاً وواثقاً."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "nonetheless",
+      "meaning": "ومع ذلك / رغم ذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "Nonetheless, he decided to try again.",
+      "translation": "رغم ذلك، قرر أن يحاول مجدداً."
+     },
+     {
+      "word": "albeit",
+      "meaning": "وإن كان / رغم أنه",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The plan worked, albeit slowly.",
+      "translation": "نجحت الخطة، وإن كان ذلك ببطء."
+     },
+     {
+      "word": "meticulous",
+      "meaning": "دقيق جداً",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She is meticulous about details.",
+      "translation": "هي دقيقة جداً في التفاصيل."
+     },
+     {
+      "word": "ambiguous",
+      "meaning": "غامض / ملتبس",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "His answer was rather ambiguous.",
+      "translation": "كانت إجابته غامضة إلى حد ما."
+     },
+     {
+      "word": "resilient",
+      "meaning": "قادر على الصمود",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The community proved resilient after the crisis.",
+      "translation": "أثبت المجتمع صموده بعد الأزمة."
+     },
+     {
+      "word": "versatile",
+      "meaning": "متعدد المواهب",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "He is a versatile musician.",
+      "translation": "هو موسيقي متعدد المواهب."
+     },
+     {
+      "word": "procrastinate",
+      "meaning": "يسوّف / يؤجل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "Stop procrastinating and start studying.",
+      "translation": "توقف عن التسويف وابدأ الدراسة."
+     },
+     {
+      "word": "eloquent",
+      "meaning": "بليغ / فصيح",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "The speaker was eloquent and confident.",
+      "translation": "كان المتحدث بليغاً وواثقاً."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

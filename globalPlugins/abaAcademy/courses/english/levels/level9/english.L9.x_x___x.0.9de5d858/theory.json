@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «اللغة الأكاديمية — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "achieve = يحقق",
+   "note": "مثال: She achieved her goal despite the difficulties. — حققت هدفها رغم الصعوبات."
+  },
+  {
+   "btype": "example",
+   "text": "analyze = يحلل",
+   "note": "مثال: We need to analyze the data carefully. — يجب أن نحلل البيانات بعناية."
+  },
+  {
+   "btype": "example",
+   "text": "consequence = نتيجة / عاقبة",
+   "note": "مثال: This decision had serious consequences. — كان لهذا القرار عواقب خطيرة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «consequence»؟",
+    "options": [
+     "يحقق",
+     "يحلل",
+     "نتيجة / عاقبة"
+    ],
+    "correct": 2,
+    "explanation": "«consequence» تعني «نتيجة / عاقبة».",
+    "topic": "en:اللغة الأكاديمية — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "emphasize = يشدد على",
+   "note": "مثال: The teacher emphasized the importance of practice. — شدد المعلم على أهمية الممارسة."
+  },
+  {
+   "btype": "example",
+   "text": "evidence = دليل",
+   "note": "مثال: There is strong evidence for this theory. — هناك دليل قوي على هذه النظرية."
+  },
+  {
+   "btype": "example",
+   "text": "significant = مهم / ذو دلالة",
+   "note": "مثال: This is a significant improvement. — هذا تحسّن مهم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «significant»؟",
+    "options": [
+     "يشدد على",
+     "دليل",
+     "مهم / ذو دلالة"
+    ],
+    "correct": 2,
+    "explanation": "«significant» تعني «مهم / ذو دلالة».",
+    "topic": "en:اللغة الأكاديمية — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "sustainable = مستدام",
+   "note": "مثال: We must find sustainable solutions. — يجب أن نجد حلولاً مستدامة."
+  },
+  {
+   "btype": "example",
+   "text": "furthermore = علاوة على ذلك",
+   "note": "مثال: Furthermore, the results were unexpected. — علاوة على ذلك، كانت النتائج غير متوقعة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

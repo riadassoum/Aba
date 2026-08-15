@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ (parler) français.",
+    "options": [
+     "parle",
+     "parles",
+     "parlons",
+     "parlent"
+    ],
+    "correct": 0,
+    "explanation": "مع je النهاية e: parle.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ (aimer) le café.",
+    "options": [
+     "aime",
+     "aimes",
+     "aimons",
+     "aiment"
+    ],
+    "correct": 2,
+    "explanation": "مع nous النهاية ons: aimons.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف الفعل regarder مع ils (هم يشاهدون):",
+    "correct": "regardent",
+    "accepted": [],
+    "explanation": "مع ils النهاية ent: regardent.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Tu ___ (habiter) à Paris.",
+    "options": [
+     "habite",
+     "habites",
+     "habitons",
+     "habitent"
+    ],
+    "correct": 1,
+    "explanation": "مع tu النهاية es: habites.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف الفعل chanter مع vous:",
+    "correct": "chantez",
+    "accepted": [],
+    "explanation": "مع vous النهاية ez: chantez.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "لتصريف أفعال er نحذف er ونضيف النهايات.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.er_verbs"
+   }
+  }
+ ]
+}

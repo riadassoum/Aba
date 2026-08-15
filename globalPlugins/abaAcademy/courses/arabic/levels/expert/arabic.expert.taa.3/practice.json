@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 24,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ الكلمات تنتهي بتاء مربوطة؟",
+      "correct": "شجرة",
+      "distractors": [
+       "بيت",
+       "صوت",
+       "وقت"
+      ],
+      "explain": "شجرة اسم مؤنث بتاء مربوطة.",
+      "topic": "ar.taa"
+     },
+     {
+      "prompt": "أيّ الكلمات تنتهي بتاء مفتوحة؟",
+      "correct": "بنت",
+      "distractors": [
+       "وردة",
+       "شجرة",
+       "مدرسة"
+      ],
+      "explain": "بنت تنتهي بتاء مفتوحة.",
+      "topic": "ar.taa"
+     }
+    ],
+    "topic": "ar.taa",
+    "difficulty": 5
+   }
+  }
+ ]
+}

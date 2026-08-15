@@ -1,0 +1,70 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "J'ai {b} chat noir.",
+      "correct": "un",
+      "distractors": [
+       "une",
+       "des",
+       "le"
+      ],
+      "explain": "chat مذكر، يأخذ un.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "Elle a {b} voiture rouge.",
+      "correct": "une",
+      "distractors": [
+       "un",
+       "des",
+       "la"
+      ],
+      "explain": "voiture مؤنثة، تأخذ une.",
+      "topic": "gram.articles"
+     },
+     {
+      "prompt": "Un cheval, deux {b}.",
+      "correct": "chevaux",
+      "distractors": [
+       "chevals",
+       "chevales",
+       "cheveaux"
+      ],
+      "explain": "الكلمات المنتهية بـ -al تصبح غالباً -aux في الجمع.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "Un enfant, deux {b}.",
+      "correct": "enfants",
+      "distractors": [
+       "enfantes",
+       "enfantx",
+       "enfant"
+      ],
+      "explain": "الجمع المنتظم يضيف -s.",
+      "topic": "gram.plural"
+     },
+     {
+      "prompt": "Un œil, deux {b}.",
+      "correct": "yeux",
+      "distractors": [
+       "œils",
+       "yeuxs",
+       "œiles"
+      ],
+      "explain": "œil جمعها شاذ تماماً: yeux.",
+      "topic": "gram.plural"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

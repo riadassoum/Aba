@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "voiture",
+      "meaning": "سيارة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Il a acheté une nouvelle voiture.",
+      "translation": "اشترى سيارة جديدة."
+     },
+     {
+      "word": "bus",
+      "meaning": "حافلة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Nous avons pris le bus pour l'école.",
+      "translation": "ركبنا الحافلة إلى المدرسة."
+     },
+     {
+      "word": "train",
+      "meaning": "قطار",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Le train arrive à midi.",
+      "translation": "يصل القطار عند الظهر."
+     },
+     {
+      "word": "avion",
+      "meaning": "طائرة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "L'avion a décollé à l'heure.",
+      "translation": "أقلعت الطائرة في الموعد."
+     },
+     {
+      "word": "vélo",
+      "meaning": "دراجة هوائية",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Elle fait du vélo chaque jour.",
+      "translation": "تركب دراجتها يومياً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "voiture",
+      "meaning": "سيارة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Il a acheté une nouvelle voiture.",
+      "translation": "اشترى سيارة جديدة."
+     },
+     {
+      "word": "bus",
+      "meaning": "حافلة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Nous avons pris le bus pour l'école.",
+      "translation": "ركبنا الحافلة إلى المدرسة."
+     },
+     {
+      "word": "train",
+      "meaning": "قطار",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Le train arrive à midi.",
+      "translation": "يصل القطار عند الظهر."
+     },
+     {
+      "word": "avion",
+      "meaning": "طائرة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "L'avion a décollé à l'heure.",
+      "translation": "أقلعت الطائرة في الموعد."
+     },
+     {
+      "word": "vélo",
+      "meaning": "دراجة هوائية",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "Elle fait du vélo chaque jour.",
+      "translation": "تركب دراجتها يومياً."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

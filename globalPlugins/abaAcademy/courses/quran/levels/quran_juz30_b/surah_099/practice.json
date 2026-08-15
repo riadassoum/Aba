@@ -1,0 +1,98 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 8,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "translation": "When the earth is shaken with its [final] earthquake"
+     },
+     {
+      "text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "translation": "And the earth discharges its burdens"
+     },
+     {
+      "text": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+      "translation": "And man says, \"What is [wrong] with it?\" -"
+     },
+     {
+      "text": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+      "translation": "That Day, it will report its news"
+     },
+     {
+      "text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "translation": "Because your Lord has commanded it."
+     },
+     {
+      "text": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+      "translation": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds."
+     },
+     {
+      "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+      "translation": "So whoever does an atom's weight of good will see it,"
+     },
+     {
+      "text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+      "translation": "And whoever does an atom's weight of evil will see it."
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا﴾",
+    "topic": "quran:99"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَقَالَ ٱلْإِنسَٰنُ ...",
+    "correct": "مَا لَهَا",
+    "accepted": [
+     "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا"
+    ],
+    "explanation": "الآية كاملة: ﴿وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا﴾",
+    "topic": "quran:99"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِأَنَّ رَبَّكَ ...",
+    "correct": "أَوْحَىٰ لَهَا",
+    "accepted": [
+     "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا"
+    ],
+    "explanation": "الآية كاملة: ﴿بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا﴾",
+    "topic": "quran:99"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ ...",
+    "correct": "أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+    "accepted": [
+     "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ"
+    ],
+    "explanation": "الآية كاملة: ﴿يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ﴾",
+    "topic": "quran:99"
+   }
+  }
+ ]
+}

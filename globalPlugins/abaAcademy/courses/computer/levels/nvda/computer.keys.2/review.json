@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ مفتاح يوقف القراءة فوراً؟",
+      "correct": "Control",
+      "distractors": [
+       "Enter",
+       "Shift",
+       "Alt"
+      ],
+      "explain": "Control يوقف الكلام.",
+      "topic": "pc.keys"
+     },
+     {
+      "prompt": "ماذا يفعل NVDA مع T؟",
+      "correct": "يقرأ عنوان النافذة",
+      "distractors": [
+       "يغلق البرنامج",
+       "يفتح القائمة",
+       "يزيد السرعة"
+      ],
+      "explain": "NVDA+T لقراءة العنوان.",
+      "topic": "pc.keys"
+     }
+    ],
+    "topic": "pc.keys",
+    "difficulty": 2
+   }
+  }
+ ]
+}

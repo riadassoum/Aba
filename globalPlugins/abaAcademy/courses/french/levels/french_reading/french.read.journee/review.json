@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "À quelle heure se lève la personne?",
+    "options": [
+     "à six heures",
+     "à sept heures",
+     "à huit heures",
+     "à neuf heures"
+    ],
+    "correct": 1,
+    "explanation": "«je me lève à sept heures».",
+    "topic": "reading.journee"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Comment va-t-elle à l'école?",
+    "options": [
+     "en bus",
+     "en voiture",
+     "à pied",
+     "en train"
+    ],
+    "correct": 2,
+    "explanation": "«je vais à l'école à pied».",
+    "topic": "reading.journee"
+   }
+  }
+ ]
+}

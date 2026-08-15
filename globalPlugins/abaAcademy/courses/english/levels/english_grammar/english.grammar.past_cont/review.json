@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ watching TV when you arrived.",
+    "options": [
+     "was",
+     "were",
+     "is",
+     "did"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم was.",
+    "topic": "gram.past_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: She ___ (was/were) cooking. اكتب الكلمة الصحيحة.",
+    "correct": "was",
+    "accepted": [],
+    "explanation": "مع she نستخدم was.",
+    "topic": "gram.past_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: When it started to rain, we ___ in the park.",
+    "options": [
+     "walk",
+     "walked",
+     "were walking",
+     "are walking"
+    ],
+    "correct": 2,
+    "explanation": "حدث طويل مستمر بالماضي: were walking.",
+    "topic": "gram.past_cont"
+   }
+  }
+ ]
+}

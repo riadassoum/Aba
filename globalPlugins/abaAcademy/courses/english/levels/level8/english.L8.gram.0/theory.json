@@ -1,0 +1,24 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على قواعد هذا المستوى من خلال أمثلة وتطبيقات مباشرة. اقرأ كل سؤال واختر الصواب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "If it rains, I {b} stay home.",
+    "options": [
+     "would",
+     "did",
+     "am",
+     "will"
+    ],
+    "correct": 3,
+    "explanation": "الشرط النوع الأول: If + مضارع، will + المصدر.",
+    "topic": "gram.conditionals"
+   }
+  }
+ ]
+}

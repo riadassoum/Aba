@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "write",
+      "meaning": "يكتب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "She writes a letter.",
+      "translation": "تكتب رسالة."
+     },
+     {
+      "word": "speak",
+      "meaning": "يتكلم",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Do you speak Arabic?",
+      "translation": "هل تتكلم العربية؟"
+     },
+     {
+      "word": "listen",
+      "meaning": "يستمع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Listen to this song.",
+      "translation": "استمع إلى هذه الأغنية."
+     },
+     {
+      "word": "watch",
+      "meaning": "يشاهد",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "We watch TV at night.",
+      "translation": "نشاهد التلفاز في الليل."
+     },
+     {
+      "word": "play",
+      "meaning": "يلعب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "The children play in the garden.",
+      "translation": "يلعب الأطفال في الحديقة."
+     },
+     {
+      "word": "buy",
+      "meaning": "يشتري",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "I want to buy a gift.",
+      "translation": "أريد أن أشتري هدية."
+     },
+     {
+      "word": "sell",
+      "meaning": "يبيع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "They sell fresh fruit.",
+      "translation": "يبيعون فاكهة طازجة."
+     },
+     {
+      "word": "cook",
+      "meaning": "يطبخ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "My father cooks on Fridays.",
+      "translation": "أبي يطبخ يوم الجمعة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

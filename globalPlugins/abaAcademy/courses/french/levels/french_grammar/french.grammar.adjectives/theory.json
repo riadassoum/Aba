@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الصفة في الفرنسية تطابق الاسم في الجنس والعدد. للتأنيث نضيف e غالباً (grand → grande)، وللجمع نضيف s (grand → grands، grande → grandes). إذا انتهت الصفة بـ e أصلاً لا تتغيّر في المؤنّث (rouge يبقى rouge). كثير من الصفات تأتي بعد الاسم: une voiture rouge (سيارة حمراء)، لكن بعضها قبله (grand, petit, bon)."
+  },
+  {
+   "btype": "example",
+   "text": "un grand homme",
+   "note": "رجل طويل"
+  },
+  {
+   "btype": "example",
+   "text": "une grande maison",
+   "note": "بيت كبير"
+  },
+  {
+   "btype": "example",
+   "text": "des fleurs rouges",
+   "note": "أزهار حمراء"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: une ___ maison. (كبيرة)",
+    "options": [
+     "grand",
+     "grande",
+     "grands",
+     "grandes"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: grande.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: des livres ___. (زرقاء)",
+    "options": [
+     "bleu",
+     "bleue",
+     "bleus",
+     "bleues"
+    ],
+    "correct": 2,
+    "explanation": "livres مذكّر جمع: bleus.",
+    "topic": "gram.adjectives"
+   }
+  }
+ ]
+}

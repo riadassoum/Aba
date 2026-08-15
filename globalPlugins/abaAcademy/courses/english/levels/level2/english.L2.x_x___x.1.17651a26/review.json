@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "tea",
+      "meaning": "شاي",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I usually drink tea at night.",
+      "translation": "عادة أشرب الشاي في الليل."
+     },
+     {
+      "word": "sugar",
+      "meaning": "سكر",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Do you take sugar in your tea?",
+      "translation": "هل تضع سكراً في شايك؟"
+     },
+     {
+      "word": "salt",
+      "meaning": "ملح",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Pass me the salt, please.",
+      "translation": "ناولني الملح من فضلك."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "tea",
+      "meaning": "شاي",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "I usually drink tea at night.",
+      "translation": "عادة أشرب الشاي في الليل."
+     },
+     {
+      "word": "sugar",
+      "meaning": "سكر",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Do you take sugar in your tea?",
+      "translation": "هل تضع سكراً في شايك؟"
+     },
+     {
+      "word": "salt",
+      "meaning": "ملح",
+      "topic": "الطعام والشراب",
+      "difficulty": 2,
+      "example": "Pass me the salt, please.",
+      "translation": "ناولني الملح من فضلك."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المنزل». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "house = منزل",
+   "note": "مثال: This is my house. — هذا منزلي."
+  },
+  {
+   "btype": "example",
+   "text": "door = باب",
+   "note": "مثال: Close the door, please. — أغلق الباب من فضلك."
+  },
+  {
+   "btype": "example",
+   "text": "window = نافذة",
+   "note": "مثال: Open the window. — افتح النافذة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «window»؟",
+    "options": [
+     "منزل",
+     "باب",
+     "نافذة"
+    ],
+    "correct": 2,
+    "explanation": "«window» تعني «نافذة».",
+    "topic": "en:المنزل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "table = طاولة",
+   "note": "مثال: Put the plate on the table. — ضع الطبق على الطاولة."
+  },
+  {
+   "btype": "example",
+   "text": "chair = كرسي",
+   "note": "مثال: Sit on the chair. — اجلس على الكرسي."
+  },
+  {
+   "btype": "example",
+   "text": "bed = سرير",
+   "note": "مثال: The baby is in the bed. — الطفل في السرير."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «bed»؟",
+    "options": [
+     "طاولة",
+     "كرسي",
+     "سرير"
+    ],
+    "correct": 2,
+    "explanation": "«bed» تعني «سرير».",
+    "topic": "en:المنزل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "kitchen = مطبخ",
+   "note": "مثال: My mother is in the kitchen. — أمي في المطبخ."
+  },
+  {
+   "btype": "example",
+   "text": "bathroom = حمام",
+   "note": "مثال: The bathroom is clean. — الحمام نظيف."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

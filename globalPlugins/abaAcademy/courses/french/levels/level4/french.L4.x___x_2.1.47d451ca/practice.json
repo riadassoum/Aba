@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "habiter",
+      "meaning": "يسكن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Nous habitons à Tripoli.",
+      "translation": "نسكن في طرابلس."
+     },
+     {
+      "word": "chercher",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je cherche mes clés.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "finir",
+      "meaning": "ينهي / ينتهي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je finis mon travail à cinq heures.",
+      "translation": "أنهي عملي الساعة الخامسة."
+     },
+     {
+      "word": "choisir",
+      "meaning": "يختار",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Elle choisit une robe bleue.",
+      "translation": "تختار فستاناً أزرق."
+     },
+     {
+      "word": "réussir",
+      "meaning": "ينجح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Il a réussi son examen.",
+      "translation": "نجح في امتحانه."
+     },
+     {
+      "word": "grandir",
+      "meaning": "يكبر / ينمو",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Les enfants grandissent vite.",
+      "translation": "ينمو الأطفال بسرعة."
+     },
+     {
+      "word": "aller",
+      "meaning": "يذهب",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je vais à l'école à pied.",
+      "translation": "أذهب إلى المدرسة سيراً على الأقدام."
+     },
+     {
+      "word": "venir",
+      "meaning": "يأتي",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Viens ici, s'il te plaît.",
+      "translation": "تعال إلى هنا من فضلك."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

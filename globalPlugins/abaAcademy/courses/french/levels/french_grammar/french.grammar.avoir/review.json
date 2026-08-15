@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: J'___ un chien.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "ont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم ai (j'ai).",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ deux enfants.",
+    "options": [
+     "a",
+     "avez",
+     "avons",
+     "ont"
+    ],
+    "correct": 2,
+    "explanation": "مع nous نستخدم avons.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "للتعبير عن العمر بالفرنسية نستخدم être.",
+    "correct": false,
+    "explanation": "نستخدم avoir: Elle a vingt ans.",
+    "topic": "gram.avoir"
+   }
+  }
+ ]
+}

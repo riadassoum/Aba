@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في الإنجليزية ثلاث أدوات أساسية قبل الأسماء. نستخدم a قبل اسم مفرد نكرة يبدأ بصوت ساكن مثل a book، وan قبل اسم مفرد نكرة يبدأ بصوت متحرك (a e i o u) مثل an apple. أما the فهي أداة التعريف، نستخدمها للحديث عن شيء معروف أو سبق ذكره، مثل the sun (لأنها معروفة) أو the book I bought (كتاب محدّد). العبرة"
+  },
+  {
+   "btype": "text",
+   "text": "بالصوت لا بالحرف: نقول an hour لأن الحرف h صامت، وa university لأنها تُلفظ «يو»."
+  },
+  {
+   "btype": "example",
+   "text": "I have a car.",
+   "note": "لديّ سيارة."
+  },
+  {
+   "btype": "example",
+   "text": "She ate an orange.",
+   "note": "أكلت برتقالة."
+  },
+  {
+   "btype": "example",
+   "text": "The moon is bright.",
+   "note": "القمر ساطع."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I saw ___ elephant.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "elephant تبدأ بصوت متحرك، فنستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He is ___ honest man.",
+    "options": [
+     "a",
+     "an",
+     "the",
+     "بدون أداة"
+    ],
+    "correct": 1,
+    "explanation": "الحرف h في honest صامت، فالصوت متحرك ونستخدم an.",
+    "topic": "gram.articles"
+   }
+  }
+ ]
+}

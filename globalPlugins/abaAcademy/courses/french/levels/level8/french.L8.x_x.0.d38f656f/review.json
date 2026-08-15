@@ -1,0 +1,120 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "néanmoins",
+      "meaning": "ومع ذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Néanmoins, il a continué son travail.",
+      "translation": "ومع ذلك، تابع عمله."
+     },
+     {
+      "word": "par conséquent",
+      "meaning": "بالتالي / نتيجة لذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Il a plu, par conséquent nous sommes restés à la maison.",
+      "translation": "أمطرت، وبالتالي بقينا في المنزل."
+     },
+     {
+      "word": "il vaut mieux",
+      "meaning": "من الأفضل",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Il vaut mieux partir tôt.",
+      "translation": "من الأفضل أن نغادر باكراً."
+     },
+     {
+      "word": "envisager",
+      "meaning": "يفكر في / يخطط لـ",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Nous envisageons de déménager.",
+      "translation": "نفكر في الانتقال."
+     },
+     {
+      "word": "indéniable",
+      "meaning": "لا يمكن إنكاره",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Son talent est indéniable.",
+      "translation": "موهبته لا يمكن إنكارها."
+     },
+     {
+      "word": "s'avérer",
+      "meaning": "يتبين أنه",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Le projet s'est avéré un succès.",
+      "translation": "تبين أن المشروع كان ناجحاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "néanmoins",
+      "meaning": "ومع ذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Néanmoins, il a continué son travail.",
+      "translation": "ومع ذلك، تابع عمله."
+     },
+     {
+      "word": "par conséquent",
+      "meaning": "بالتالي / نتيجة لذلك",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Il a plu, par conséquent nous sommes restés à la maison.",
+      "translation": "أمطرت، وبالتالي بقينا في المنزل."
+     },
+     {
+      "word": "il vaut mieux",
+      "meaning": "من الأفضل",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Il vaut mieux partir tôt.",
+      "translation": "من الأفضل أن نغادر باكراً."
+     },
+     {
+      "word": "envisager",
+      "meaning": "يفكر في / يخطط لـ",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Nous envisageons de déménager.",
+      "translation": "نفكر في الانتقال."
+     },
+     {
+      "word": "indéniable",
+      "meaning": "لا يمكن إنكاره",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Son talent est indéniable.",
+      "translation": "موهبته لا يمكن إنكارها."
+     },
+     {
+      "word": "s'avérer",
+      "meaning": "يتبين أنه",
+      "topic": "إتقان متقدم",
+      "difficulty": 8,
+      "example": "Le projet s'est avéré un succès.",
+      "translation": "تبين أن المشروع كان ناجحاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

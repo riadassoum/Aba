@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الصفات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "big = كبير",
+   "note": "مثال: This is a big city. — هذه مدينة كبيرة."
+  },
+  {
+   "btype": "example",
+   "text": "small = صغير",
+   "note": "مثال: The kitten is very small. — القط صغير جداً."
+  },
+  {
+   "btype": "example",
+   "text": "hot = حار",
+   "note": "مثال: The soup is hot. — الحساء حار."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «hot»؟",
+    "options": [
+     "كبير",
+     "صغير",
+     "حار"
+    ],
+    "correct": 2,
+    "explanation": "«hot» تعني «حار».",
+    "topic": "en:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "cold = بارد",
+   "note": "مثال: The water is cold. — الماء بارد."
+  },
+  {
+   "btype": "example",
+   "text": "new = جديد",
+   "note": "مثال: I bought a new phone. — اشتريت هاتفاً جديداً."
+  },
+  {
+   "btype": "example",
+   "text": "old = قديم / عجوز",
+   "note": "مثال: This is an old building. — هذا مبنى قديم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «old»؟",
+    "options": [
+     "بارد",
+     "جديد",
+     "قديم / عجوز"
+    ],
+    "correct": 2,
+    "explanation": "«old» تعني «قديم / عجوز».",
+    "topic": "en:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "fast = سريع",
+   "note": "مثال: He drives very fast. — يقود بسرعة كبيرة."
+  },
+  {
+   "btype": "example",
+   "text": "slow = بطيء",
+   "note": "مثال: The train is slow today. — القطار بطيء اليوم."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

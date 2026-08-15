@@ -1,0 +1,29 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: كتبَ ... الدرسَ",
+    "options": [
+     "الطالبَ",
+     "الطالبِ",
+     "طالباً",
+     "الطالبُ"
+    ],
+    "correct": 3,
+    "explanation": "الفاعل مرفوع.",
+    "topic": "ar.fail"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "ar.conjugate",
+   "data": "verbs",
+   "count": 14,
+   "params": {
+    "difficulty": 4
+   }
+  }
+ ]
+}

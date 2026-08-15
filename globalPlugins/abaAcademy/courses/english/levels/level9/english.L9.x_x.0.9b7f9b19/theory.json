@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «لغة الأعمال». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "negotiate = يفاوض",
+   "note": "مثال: They negotiated a better price. — تفاوضوا على سعر أفضل."
+  },
+  {
+   "btype": "example",
+   "text": "invest = يستثمر",
+   "note": "مثال: He invests in real estate. — يستثمر في العقارات."
+  },
+  {
+   "btype": "example",
+   "text": "budget = ميزانية",
+   "note": "مثال: We must stay within the budget. — يجب أن نلتزم بالميزانية."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «budget»؟",
+    "options": [
+     "يفاوض",
+     "يستثمر",
+     "ميزانية"
+    ],
+    "correct": 2,
+    "explanation": "«budget» تعني «ميزانية».",
+    "topic": "en:لغة الأعمال"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "strategy = استراتيجية",
+   "note": "مثال: Their marketing strategy worked well. — نجحت استراتيجيتهم التسويقية."
+  },
+  {
+   "btype": "example",
+   "text": "revenue = إيراد / عائد",
+   "note": "مثال: Company revenue increased this year. — ازداد إيراد الشركة هذا العام."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

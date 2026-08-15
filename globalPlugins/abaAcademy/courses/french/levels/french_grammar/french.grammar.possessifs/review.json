@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ livre (كتابي، مذكّر).",
+    "options": [
+     "mon",
+     "ma",
+     "mes",
+     "ton"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد: mon.",
+    "topic": "gram.possessifs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ amis (أصدقائي، جمع).",
+    "options": [
+     "mon",
+     "ma",
+     "mes",
+     "ses"
+    ],
+    "correct": 2,
+    "explanation": "جمع: mes.",
+    "topic": "gram.possessifs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: C'est ___ voiture (سيارته/سيارتها، مؤنّث). اكتب الصفة.",
+    "correct": "sa",
+    "accepted": [],
+    "explanation": "المملوك مؤنّث: sa voiture.",
+    "topic": "gram.possessifs"
+   }
+  }
+ ]
+}

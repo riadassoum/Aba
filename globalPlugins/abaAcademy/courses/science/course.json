@@ -1,0 +1,314 @@
+{
+ "course_id": "science",
+ "title": "العلوم",
+ "description": "جسم الإنسان، والكائنات الحية، والمادة والعناصر، والفلك والمجموعة الشمسية، وأرقام علمية أساسية. تمارين مولّدة لا تنفد.",
+ "order": 6,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "body",
+   "title": "المستوى الأول: جسم الإنسان",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "sci.body0.0",
+     "title": "أعضاء الجسم (1) — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: أعضاء الجسم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "sci.body0.1",
+     "title": "أعضاء الجسم (1) — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: أعضاء الجسم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.body0.2",
+     "title": "أعضاء الجسم (1) — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: أعضاء الجسم (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.body1.0",
+     "title": "أعضاء الجسم (2) — تعرّف",
+     "order": 3,
+     "objectives": [
+      "تعرّف: أعضاء الجسم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "sci.body1.1",
+     "title": "أعضاء الجسم (2) — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: أعضاء الجسم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.body1.2",
+     "title": "أعضاء الجسم (2) — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: أعضاء الجسم (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.body.all.0",
+     "title": "أجهزة الجسم — مراجعة — تعرّف",
+     "order": 6,
+     "objectives": [
+      "تعرّف: أجهزة الجسم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.body.all.1",
+     "title": "أجهزة الجسم — مراجعة — تطبيق",
+     "order": 7,
+     "objectives": [
+      "تطبيق: أجهزة الجسم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "sci.body.all.2",
+     "title": "أجهزة الجسم — مراجعة — إتقان",
+     "order": 8,
+     "objectives": [
+      "إتقان: أجهزة الجسم — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "life",
+   "title": "المستوى الثاني: الكائنات الحية",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "sci.classify",
+     "title": "تصنيف الحيوانات",
+     "order": 0,
+     "objectives": [
+      "تصنيف الحيوانات"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "sci.classify.master",
+     "title": "تصنيف الحيوانات — إتقان",
+     "order": 1,
+     "objectives": [
+      "تصنيف الحيوانات — إتقان"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "matter",
+   "title": "المستوى الثالث: المادة والعناصر",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "sci.states",
+     "title": "حالات المادة",
+     "order": 0,
+     "objectives": [
+      "حالات المادة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "sci.elem0.0",
+     "title": "العناصر الكيميائية (1) — تعرّف",
+     "order": 1,
+     "objectives": [
+      "تعرّف: العناصر الكيميائية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.elem0.1",
+     "title": "العناصر الكيميائية (1) — تطبيق",
+     "order": 2,
+     "objectives": [
+      "تطبيق: العناصر الكيميائية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.elem0.2",
+     "title": "العناصر الكيميائية (1) — إتقان",
+     "order": 3,
+     "objectives": [
+      "إتقان: العناصر الكيميائية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "sci.elem1.0",
+     "title": "العناصر الكيميائية (2) — تعرّف",
+     "order": 4,
+     "objectives": [
+      "تعرّف: العناصر الكيميائية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.elem1.1",
+     "title": "العناصر الكيميائية (2) — تطبيق",
+     "order": 5,
+     "objectives": [
+      "تطبيق: العناصر الكيميائية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.elem1.2",
+     "title": "العناصر الكيميائية (2) — إتقان",
+     "order": 6,
+     "objectives": [
+      "إتقان: العناصر الكيميائية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "sci.elem.all.0",
+     "title": "العناصر — مراجعة — تعرّف",
+     "order": 7,
+     "objectives": [
+      "تعرّف: العناصر — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.elem.all.1",
+     "title": "العناصر — مراجعة — تطبيق",
+     "order": 8,
+     "objectives": [
+      "تطبيق: العناصر — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "sci.elem.all.2",
+     "title": "العناصر — مراجعة — إتقان",
+     "order": 9,
+     "objectives": [
+      "إتقان: العناصر — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "space",
+   "title": "المستوى الرابع: الفلك",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "sci.planets.0",
+     "title": "كواكب المجموعة الشمسية — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: كواكب المجموعة الشمسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.planets.1",
+     "title": "كواكب المجموعة الشمسية — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: كواكب المجموعة الشمسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "sci.planets.2",
+     "title": "كواكب المجموعة الشمسية — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: كواكب المجموعة الشمسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "sci.planets.order",
+     "title": "ترتيب الكواكب",
+     "order": 3,
+     "objectives": [
+      "ترتيب الكواكب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "numbers",
+   "title": "المستوى الخامس: أرقام علمية",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "sci.quantities",
+     "title": "أرقام يجب أن تعرفها",
+     "order": 0,
+     "objectives": [
+      "أرقام يجب أن تعرفها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "sci.quantities.master",
+     "title": "أرقام علمية — إتقان",
+     "order": 1,
+     "objectives": [
+      "أرقام علمية — إتقان"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ finished my homework.",
+    "options": [
+     "have",
+     "has",
+     "am",
+     "did"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم have.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She ___ gone home.",
+    "options": [
+     "have",
+     "has",
+     "is",
+     "did"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم has.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما التصريف الثالث من see؟",
+    "options": [
+     "saw",
+     "seen",
+     "seed",
+     "sawn"
+    ],
+    "correct": 1,
+    "explanation": "التصريف الثالث: seen.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: We have ___ (to do) it. اكتب التصريف الثالث.",
+    "correct": "done",
+    "accepted": [],
+    "explanation": "التصريف الثالث من do هو done.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم المضارع التام مع have/has + التصريف الثالث.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Have you ___ your keys?",
+    "options": [
+     "find",
+     "found",
+     "founded",
+     "finding"
+    ],
+    "correct": 1,
+    "explanation": "التصريف الثالث من find هو found.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "I have finished my work.",
+      "translation": "لقد أنهيت عملي."
+     },
+     {
+      "text": "She has never been to Japan.",
+      "translation": "لم تزر اليابان قط."
+     },
+     {
+      "text": "They have lived here for years.",
+      "translation": "يعيشون هنا منذ سنوات."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

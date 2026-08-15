@@ -1,0 +1,25 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "اكتب الكلمة التي تعني حافة البحر بشكل صحيح:",
+      "correct": "شاطئ",
+      "distractors": [
+       "شاطأ",
+       "شاطؤ",
+       "شاطء"
+      ],
+      "explain": "ما قبل الهمزة مكسور فتُكتب على ياء.",
+      "topic": "ar.hamza_end"
+     }
+    ],
+    "topic": "ar.hamza_end"
+   }
+  }
+ ]
+}

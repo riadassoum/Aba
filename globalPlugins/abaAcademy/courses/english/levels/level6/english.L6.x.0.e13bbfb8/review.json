@@ -1,0 +1,120 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "passport",
+      "meaning": "جواز سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Don't forget your passport.",
+      "translation": "لا تنسَ جواز سفرك."
+     },
+     {
+      "word": "ticket",
+      "meaning": "تذكرة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "I bought two tickets.",
+      "translation": "اشتريت تذكرتين."
+     },
+     {
+      "word": "luggage",
+      "meaning": "أمتعة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Where is my luggage?",
+      "translation": "أين أمتعتي؟"
+     },
+     {
+      "word": "hotel",
+      "meaning": "فندق",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "We stayed at a nice hotel.",
+      "translation": "أقمنا في فندق جميل."
+     },
+     {
+      "word": "reservation",
+      "meaning": "حجز",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "I made a reservation online.",
+      "translation": "أجريت حجزاً عبر الإنترنت."
+     },
+     {
+      "word": "map",
+      "meaning": "خريطة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Can you show me on the map?",
+      "translation": "هل يمكنك أن تريني على الخريطة؟"
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "passport",
+      "meaning": "جواز سفر",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Don't forget your passport.",
+      "translation": "لا تنسَ جواز سفرك."
+     },
+     {
+      "word": "ticket",
+      "meaning": "تذكرة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "I bought two tickets.",
+      "translation": "اشتريت تذكرتين."
+     },
+     {
+      "word": "luggage",
+      "meaning": "أمتعة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Where is my luggage?",
+      "translation": "أين أمتعتي؟"
+     },
+     {
+      "word": "hotel",
+      "meaning": "فندق",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "We stayed at a nice hotel.",
+      "translation": "أقمنا في فندق جميل."
+     },
+     {
+      "word": "reservation",
+      "meaning": "حجز",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "I made a reservation online.",
+      "translation": "أجريت حجزاً عبر الإنترنت."
+     },
+     {
+      "word": "map",
+      "meaning": "خريطة",
+      "topic": "السفر",
+      "difficulty": 6,
+      "example": "Can you show me on the map?",
+      "translation": "هل يمكنك أن تريني على الخريطة؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

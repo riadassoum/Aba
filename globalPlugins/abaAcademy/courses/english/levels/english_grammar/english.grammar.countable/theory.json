@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الأسماء المعدودة يمكن عدّها ولها جمع (a book, three books)، وغير المعدودة لا تُعدّ ولا تُجمع (water, information, money). نستخدم many مع المعدود (many books) وmuch مع غير المعدود (much water). نستخدم some في الإثبات (I have some money) وany في النفي والسؤال (I don't have any money، Do you have"
+  },
+  {
+   "btype": "text",
+   "text": "any?). كمية قليلة: a few مع المعدود، a little مع غير المعدود."
+  },
+  {
+   "btype": "example",
+   "text": "How many books do you have?",
+   "note": "كم كتاباً لديك؟"
+  },
+  {
+   "btype": "example",
+   "text": "There isn't much water.",
+   "note": "لا يوجد ماء كثير."
+  },
+  {
+   "btype": "example",
+   "text": "I have some questions.",
+   "note": "لديّ بعض الأسئلة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: How ___ money do you have?",
+    "options": [
+     "many",
+     "much",
+     "few",
+     "any"
+    ],
+    "correct": 1,
+    "explanation": "money غير معدود: much.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: How ___ students are there?",
+    "options": [
+     "many",
+     "much",
+     "little",
+     "any"
+    ],
+    "correct": 0,
+    "explanation": "students معدود: many.",
+    "topic": "gram.countable"
+   }
+  }
+ ]
+}

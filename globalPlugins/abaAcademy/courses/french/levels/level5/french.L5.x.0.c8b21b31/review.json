@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "prix",
+      "meaning": "سعر",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Quel est le prix de ce sac ?",
+      "translation": "ما سعر هذه الحقيبة؟"
+     },
+     {
+      "word": "cher",
+      "meaning": "غالٍ",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Cette voiture est très chère.",
+      "translation": "تلك السيارة غالية جداً."
+     },
+     {
+      "word": "bon marché",
+      "meaning": "رخيص",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Ce magasin est bon marché.",
+      "translation": "هذا المحل رخيص."
+     },
+     {
+      "word": "solde",
+      "meaning": "تخفيض / خصم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Il y a des soldes en ce moment.",
+      "translation": "هناك تخفيضات في الوقت الحالي."
+     },
+     {
+      "word": "taille",
+      "meaning": "مقاس / حجم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Quelle taille portez-vous ?",
+      "translation": "ما مقاسك؟"
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "prix",
+      "meaning": "سعر",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Quel est le prix de ce sac ?",
+      "translation": "ما سعر هذه الحقيبة؟"
+     },
+     {
+      "word": "cher",
+      "meaning": "غالٍ",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Cette voiture est très chère.",
+      "translation": "تلك السيارة غالية جداً."
+     },
+     {
+      "word": "bon marché",
+      "meaning": "رخيص",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Ce magasin est bon marché.",
+      "translation": "هذا المحل رخيص."
+     },
+     {
+      "word": "solde",
+      "meaning": "تخفيض / خصم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Il y a des soldes en ce moment.",
+      "translation": "هناك تخفيضات في الوقت الحالي."
+     },
+     {
+      "word": "taille",
+      "meaning": "مقاس / حجم",
+      "topic": "التسوق",
+      "difficulty": 5,
+      "example": "Quelle taille portez-vous ?",
+      "translation": "ما مقاسك؟"
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

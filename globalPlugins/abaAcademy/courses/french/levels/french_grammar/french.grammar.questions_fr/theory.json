@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "لطرح سؤال بـ نعم/لا أبسط طريقة وضع est-ce que في أول الجملة: Est-ce que tu parles français? (هل تتكلم الفرنسية؟). أدوات الاستفهام: qui (من)، que/quoi (ماذا)، où (أين)، quand (متى)، pourquoi (لماذا)، comment (كيف)، combien (كم). مثال: Où est-ce que tu habites? (أين تسكن؟)، Pourquoi? Parce que..."
+  },
+  {
+   "btype": "text",
+   "text": "(لماذا؟ لأنّ...)."
+  },
+  {
+   "btype": "example",
+   "text": "Est-ce que tu viens?",
+   "note": "هل ستأتي؟"
+  },
+  {
+   "btype": "example",
+   "text": "Où habites-tu?",
+   "note": "أين تسكن؟"
+  },
+  {
+   "btype": "example",
+   "text": "Pourquoi es-tu triste?",
+   "note": "لماذا أنت حزين؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ est-ce que tu habites?",
+    "options": [
+     "Qui",
+     "Où",
+     "Quand",
+     "Comment"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن المكان: Où.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا تعني pourquoi؟",
+    "options": [
+     "أين",
+     "متى",
+     "لماذا",
+     "كيف"
+    ],
+    "correct": 2,
+    "explanation": "pourquoi = لماذا.",
+    "topic": "gram.questions_fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,503 @@
+{
+ "course_id": "braille",
+ "title": "برايل (القراءة والكتابة بالنقاط)",
+ "description": "دورة كاملة في نظام برايل: الخلية، والحروف العربية والإنجليزية، والهمزات، والتشكيل، والأرقام، وعلامات الترقيم، وقراءة الكلمات وكتابتها. كل التمارين مولّدة حسابياً من جدول النقاط، فلا تنفد ولا تخطئ.",
+ "order": 4,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "cell",
+   "title": "المستوى الأول: خلية برايل",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "braille.cell.intro",
+     "title": "ما هي خلية برايل؟",
+     "order": 0,
+     "objectives": [
+      "فهم بنية الخلية وترقيم نقاطها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "braille.cell.positions",
+     "title": "مواضع النقاط الست",
+     "order": 1,
+     "objectives": [
+      "تحديد موضع أي نقطة في الخلية بسرعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "arabic_alpha",
+   "title": "المستوى الثاني: الحروف العربية",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "braille.ar.g0",
+     "title": "الحروف العربية: ا ب ت ث",
+     "order": 0,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ا ب ت ث"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "braille.ar.g1",
+     "title": "الحروف العربية: ج ح خ د",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ج ح خ د"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "braille.ar.g2",
+     "title": "الحروف العربية: ذ ر ز س",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ذ ر ز س"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "braille.ar.g3",
+     "title": "الحروف العربية: ش ص ض ط",
+     "order": 3,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ش ص ض ط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.ar.g4",
+     "title": "الحروف العربية: ظ ع غ ف",
+     "order": 4,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ظ ع غ ف"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.ar.g5",
+     "title": "الحروف العربية: ق ك ل م",
+     "order": 5,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ق ك ل م"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.ar.g6",
+     "title": "الحروف العربية: ن ه و ي",
+     "order": 6,
+     "objectives": [
+      "إتقان رموز برايل: الحروف العربية: ن ه و ي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "arabic_review",
+   "title": "المستوى الثالث: مراجعة الأبجدية العربية",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "braille.ar.rev0",
+     "title": "النصف الأول من الأبجدية",
+     "order": 0,
+     "objectives": [
+      "إتقان رموز برايل: النصف الأول من الأبجدية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.ar.rev1",
+     "title": "النصف الثاني من الأبجدية",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: النصف الثاني من الأبجدية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.ar.rev2",
+     "title": "الأبجدية العربية كاملة",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الأبجدية العربية كاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "arabic_extra",
+   "title": "المستوى الرابع: الهمزات والتاء المربوطة",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "braille.ar.x0",
+     "title": "الهمزات: أ إ آ ء",
+     "order": 0,
+     "objectives": [
+      "إتقان رموز برايل: الهمزات: أ إ آ ء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.ar.x1",
+     "title": "ؤ ئ والألف المقصورة ى",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: ؤ ئ والألف المقصورة ى"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.ar.x2",
+     "title": "التاء المربوطة ة ولام التعريف ال ولا",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: التاء المربوطة ة ولام التعريف ال ولا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.ar.xall",
+     "title": "مراجعة الهمزات والرموز الخاصة",
+     "order": 3,
+     "objectives": [
+      "إتقان رموز الهمزات والتاء المربوطة ولام التعريف"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "arabic_marks",
+   "title": "المستوى الخامس: الحركات والتشكيل",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "braille.marks.short",
+     "title": "الحركات القصيرة",
+     "order": 0,
+     "objectives": [
+      "كتابة الفتحة والضمة والكسرة بالنقاط"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "braille.marks.tanween",
+     "title": "التنوين والسكون والشدة",
+     "order": 1,
+     "objectives": [
+      "كتابة التنوين والسكون والشدة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "digits",
+   "title": "المستوى السادس: الأرقام",
+   "order": 5,
+   "lessons": [
+    {
+     "lesson_id": "braille.digits.sign",
+     "title": "علامة الرقم",
+     "order": 0,
+     "objectives": [
+      "فهم دور علامة الرقم قبل الأعداد"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.digits.0to4",
+     "title": "الأرقام من ١ إلى ٥",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: الأرقام من ١ إلى ٥"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.digits.5to9",
+     "title": "الأرقام من ٦ إلى ٠",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الأرقام من ٦ إلى ٠"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.digits.all",
+     "title": "مراجعة الأرقام كاملة",
+     "order": 3,
+     "objectives": [
+      "إتقان رموز برايل: مراجعة الأرقام كاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "punct",
+   "title": "المستوى السابع: علامات الترقيم",
+   "order": 6,
+   "lessons": [
+    {
+     "lesson_id": "braille.punct.intro",
+     "title": "قواعد علامات الترقيم",
+     "order": 0,
+     "objectives": [
+      "فهم موضع علامات الترقيم وبنيتها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.punct.common",
+     "title": "الفاصلة والنقطة والنقطتان",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: الفاصلة والنقطة والنقطتان"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.punct.marks",
+     "title": "الاستفهام والتعجب والشرطة",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الاستفهام والتعجب والشرطة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "english_alpha",
+   "title": "المستوى الثامن: الحروف الإنجليزية",
+   "order": 7,
+   "lessons": [
+    {
+     "lesson_id": "braille.en.g0",
+     "title": "الحروف الإنجليزية: a b c d e",
+     "order": 0,
+     "objectives": [
+      "إتقان رموز برايل: الحروف الإنجليزية: a b c d e"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.en.g1",
+     "title": "الحروف الإنجليزية: f g h i j",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: الحروف الإنجليزية: f g h i j"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.en.g2",
+     "title": "الحروف الإنجليزية: k l m n o",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الحروف الإنجليزية: k l m n o"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "braille.en.g3",
+     "title": "الحروف الإنجليزية: p q r s t",
+     "order": 3,
+     "objectives": [
+      "إتقان رموز برايل: الحروف الإنجليزية: p q r s t"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.en.g4",
+     "title": "الحروف الإنجليزية: u v w x y z",
+     "order": 4,
+     "objectives": [
+      "إتقان رموز برايل: الحروف الإنجليزية: u v w x y z"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "level_id": "english_review",
+   "title": "المستوى التاسع: مراجعة الأبجدية الإنجليزية",
+   "order": 8,
+   "lessons": [
+    {
+     "lesson_id": "braille.en.rev0",
+     "title": "الحروف a إلى m",
+     "order": 0,
+     "objectives": [
+      "إتقان رموز برايل: الحروف a إلى m"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "braille.en.rev1",
+     "title": "الحروف n إلى z",
+     "order": 1,
+     "objectives": [
+      "إتقان رموز برايل: الحروف n إلى z"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "braille.en.rev2",
+     "title": "الأبجدية الإنجليزية كاملة",
+     "order": 2,
+     "objectives": [
+      "إتقان رموز برايل: الأبجدية الإنجليزية كاملة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    }
+   ]
+  },
+  {
+   "level_id": "words_ar",
+   "title": "المستوى العاشر: قراءة الكلمات العربية",
+   "order": 9,
+   "lessons": [
+    {
+     "lesson_id": "braille.words.ar0",
+     "title": "كلمات عربية بالنقاط (1)",
+     "order": 0,
+     "objectives": [
+      "قراءة كلمة كاملة خلية بخلية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "braille.words.ar1",
+     "title": "كلمات عربية بالنقاط (2)",
+     "order": 1,
+     "objectives": [
+      "قراءة كلمة كاملة خلية بخلية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "braille.words.ar2",
+     "title": "كلمات عربية بالنقاط (3)",
+     "order": 2,
+     "objectives": [
+      "قراءة كلمة كاملة خلية بخلية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "words_en",
+   "title": "المستوى الحادي عشر: قراءة الكلمات الإنجليزية",
+   "order": 10,
+   "lessons": [
+    {
+     "lesson_id": "braille.words.en0",
+     "title": "كلمات إنجليزية بالنقاط (1)",
+     "order": 0,
+     "objectives": [
+      "قراءة كلمة إنجليزية خلية بخلية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "braille.words.en1",
+     "title": "كلمات إنجليزية بالنقاط (2)",
+     "order": 1,
+     "objectives": [
+      "قراءة كلمة إنجليزية خلية بخلية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "mastery",
+   "title": "المستوى الثاني عشر: الإتقان الشامل",
+   "order": 11,
+   "lessons": [
+    {
+     "lesson_id": "braille.master.mixed",
+     "title": "اختبار شامل: كل الرموز",
+     "order": 0,
+     "objectives": [
+      "إتقان كل رموز برايل العربية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    },
+    {
+     "lesson_id": "braille.master.write",
+     "title": "اختبار الكتابة بالنقاط",
+     "order": 1,
+     "objectives": [
+      "كتابة الكلمات بالنقاط من الذاكرة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    },
+    {
+     "lesson_id": "braille.master.bilingual",
+     "title": "اختبار ثنائي اللغة",
+     "order": 2,
+     "objectives": [
+      "التنقّل بين الأبجديتين العربية والإنجليزية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "course_id": "history",
+ "title": "التاريخ",
+ "description": "التاريخ الإسلامي من الخلافة الراشدة إلى الدول المتعاقبة، والحضارات القديمة، مع تمارين ترتيب زمني. تمارين مولّدة لا تنفد.",
+ "order": 7,
+ "version": "3.0.0",
+ "levels": [
+  {
+   "level_id": "rashidun",
+   "title": "المستوى الأول: الخلافة الراشدة",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "hist.caliphs.0",
+     "title": "الخلفاء الراشدون — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: الخلفاء الراشدون"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "hist.caliphs.1",
+     "title": "الخلفاء الراشدون — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: الخلفاء الراشدون"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "hist.caliphs.2",
+     "title": "الخلفاء الراشدون — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: الخلفاء الراشدون"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "hist.caliphs.order",
+     "title": "ترتيب الخلفاء الراشدين",
+     "order": 3,
+     "objectives": [
+      "ترتيب الخلفاء الراشدين"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "level_id": "states",
+   "title": "المستوى الثاني: الدول الإسلامية",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "hist.states0.0",
+     "title": "الدول الإسلامية (1) — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: الدول الإسلامية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "hist.states0.1",
+     "title": "الدول الإسلامية (1) — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: الدول الإسلامية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "hist.states0.2",
+     "title": "الدول الإسلامية (1) — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: الدول الإسلامية (1)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "hist.states1.0",
+     "title": "الدول الإسلامية (2) — تعرّف",
+     "order": 3,
+     "objectives": [
+      "تعرّف: الدول الإسلامية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "hist.states1.1",
+     "title": "الدول الإسلامية (2) — تطبيق",
+     "order": 4,
+     "objectives": [
+      "تطبيق: الدول الإسلامية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "hist.states1.2",
+     "title": "الدول الإسلامية (2) — إتقان",
+     "order": 5,
+     "objectives": [
+      "إتقان: الدول الإسلامية (2)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "hist.states.all.0",
+     "title": "الدول الإسلامية — مراجعة — تعرّف",
+     "order": 6,
+     "objectives": [
+      "تعرّف: الدول الإسلامية — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "hist.states.all.1",
+     "title": "الدول الإسلامية — مراجعة — تطبيق",
+     "order": 7,
+     "objectives": [
+      "تطبيق: الدول الإسلامية — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    },
+    {
+     "lesson_id": "hist.states.all.2",
+     "title": "الدول الإسلامية — مراجعة — إتقان",
+     "order": 8,
+     "objectives": [
+      "إتقان: الدول الإسلامية — مراجعة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 5
+    },
+    {
+     "lesson_id": "hist.states.order",
+     "title": "التسلسل الزمني للدول",
+     "order": 9,
+     "objectives": [
+      "التسلسل الزمني للدول"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  },
+  {
+   "level_id": "civilizations",
+   "title": "المستوى الثالث: الحضارات القديمة",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "hist.civ.0",
+     "title": "حضارات قديمة — تعرّف",
+     "order": 0,
+     "objectives": [
+      "تعرّف: حضارات قديمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 2
+    },
+    {
+     "lesson_id": "hist.civ.1",
+     "title": "حضارات قديمة — تطبيق",
+     "order": 1,
+     "objectives": [
+      "تطبيق: حضارات قديمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 3
+    },
+    {
+     "lesson_id": "hist.civ.2",
+     "title": "حضارات قديمة — إتقان",
+     "order": 2,
+     "objectives": [
+      "إتقان: حضارات قديمة"
+     ],
+     "grammar_refs": [],
+     "difficulty": 4
+    }
+   ]
+  }
+ ]
+}

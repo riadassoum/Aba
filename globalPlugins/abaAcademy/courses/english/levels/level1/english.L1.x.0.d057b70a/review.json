@@ -1,0 +1,136 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "mother",
+      "meaning": "أم",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My mother cooks well.",
+      "translation": "أمي تطبخ جيداً."
+     },
+     {
+      "word": "father",
+      "meaning": "أب",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My father works in a bank.",
+      "translation": "أبي يعمل في مصرف."
+     },
+     {
+      "word": "brother",
+      "meaning": "أخ",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My brother is a doctor.",
+      "translation": "أخي طبيب."
+     },
+     {
+      "word": "sister",
+      "meaning": "أخت",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My sister lives in Beirut.",
+      "translation": "أختي تسكن في بيروت."
+     },
+     {
+      "word": "son",
+      "meaning": "ابن",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "Their son is ten years old.",
+      "translation": "ابنهم عمره عشر سنوات."
+     },
+     {
+      "word": "daughter",
+      "meaning": "ابنة",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "Their daughter studies music.",
+      "translation": "ابنتهم تدرس الموسيقى."
+     },
+     {
+      "word": "friend",
+      "meaning": "صديق",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "He is my best friend.",
+      "translation": "هو صديقي المفضل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "mother",
+      "meaning": "أم",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My mother cooks well.",
+      "translation": "أمي تطبخ جيداً."
+     },
+     {
+      "word": "father",
+      "meaning": "أب",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My father works in a bank.",
+      "translation": "أبي يعمل في مصرف."
+     },
+     {
+      "word": "brother",
+      "meaning": "أخ",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My brother is a doctor.",
+      "translation": "أخي طبيب."
+     },
+     {
+      "word": "sister",
+      "meaning": "أخت",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "My sister lives in Beirut.",
+      "translation": "أختي تسكن في بيروت."
+     },
+     {
+      "word": "son",
+      "meaning": "ابن",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "Their son is ten years old.",
+      "translation": "ابنهم عمره عشر سنوات."
+     },
+     {
+      "word": "daughter",
+      "meaning": "ابنة",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "Their daughter studies music.",
+      "translation": "ابنتهم تدرس الموسيقى."
+     },
+     {
+      "word": "friend",
+      "meaning": "صديق",
+      "topic": "العائلة",
+      "difficulty": 1,
+      "example": "He is my best friend.",
+      "translation": "هو صديقي المفضل."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

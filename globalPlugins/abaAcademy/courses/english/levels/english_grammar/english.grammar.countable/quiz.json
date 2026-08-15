@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: How ___ money do you have?",
+    "options": [
+     "many",
+     "much",
+     "few",
+     "any"
+    ],
+    "correct": 1,
+    "explanation": "money غير معدود: much.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: How ___ students are there?",
+    "options": [
+     "many",
+     "much",
+     "little",
+     "any"
+    ],
+    "correct": 0,
+    "explanation": "students معدود: many.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I don't have ___ time.",
+    "options": [
+     "some",
+     "any",
+     "many",
+     "a"
+    ],
+    "correct": 1,
+    "explanation": "في النفي نستخدم any.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Would you like ___ coffee?",
+    "options": [
+     "any",
+     "many",
+     "some",
+     "much"
+    ],
+    "correct": 2,
+    "explanation": "عرض مؤدّب نستخدم some.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم many مع الأسماء غير المعدودة.",
+    "correct": false,
+    "explanation": "many للمعدود، وmuch لغير المعدود.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: There is ___ little sugar left. اكتب الكلمة الناقصة (a).",
+    "correct": "a",
+    "accepted": [],
+    "explanation": "غير معدود قليل: a little.",
+    "topic": "gram.countable"
+   }
+  }
+ ]
+}

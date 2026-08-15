@@ -1,0 +1,24 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على قواعد هذا المستوى من خلال أمثلة وتطبيقات مباشرة. اقرأ كل سؤال واختر الصواب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Si j'avais de l'argent, j'{b} une maison.",
+    "options": [
+     "achète",
+     "achèterai",
+     "ai acheté",
+     "achèterais"
+    ],
+    "correct": 3,
+    "explanation": "الشرط الحاضر: المصدر + نهايات الماضي الناقص، مع Je: -ais.",
+    "topic": "gram.conditionnel"
+   }
+  }
+ ]
+}

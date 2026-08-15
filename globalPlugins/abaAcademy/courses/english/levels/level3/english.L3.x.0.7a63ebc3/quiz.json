@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "hungry",
+      "meaning": "جائع",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am very hungry now.",
+      "translation": "أنا جائع جداً الآن."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "عطشان",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The children are thirsty.",
+      "translation": "الأطفال عطشى."
+     },
+     {
+      "word": "tired",
+      "meaning": "متعب",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "She feels tired after work.",
+      "translation": "تشعر بالتعب بعد العمل."
+     },
+     {
+      "word": "happy",
+      "meaning": "سعيد",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "We are happy to see you.",
+      "translation": "نحن سعداء برؤيتك."
+     },
+     {
+      "word": "sad",
+      "meaning": "حزين",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "He looks sad today.",
+      "translation": "يبدو حزيناً اليوم."
+     },
+     {
+      "word": "busy",
+      "meaning": "مشغول",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "I am busy this week.",
+      "translation": "أنا مشغول هذا الأسبوع."
+     },
+     {
+      "word": "clean",
+      "meaning": "نظيف",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "Keep your room clean.",
+      "translation": "حافظ على نظافة غرفتك."
+     },
+     {
+      "word": "dirty",
+      "meaning": "متسخ",
+      "topic": "الصفات",
+      "difficulty": 3,
+      "example": "The floor is dirty.",
+      "translation": "الأرضية متسخة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 8,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "parler",
+      "meaning": "يتكلم",
+      "tense": "المستقبل (futur simple)",
+      "forms": {
+       "je": "parlerai",
+       "tu": "parleras",
+       "il": "parlera",
+       "nous": "parlerons",
+       "vous": "parlerez",
+       "ils": "parleront"
+      }
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ الكلمات فيها لام شمسية؟",
+    "options": [
+     "القمر",
+     "الباب",
+     "الجبل",
+     "الشمس"
+    ],
+    "correct": 3,
+    "explanation": "الشين حرف شمسي.",
+    "topic": "ar.sun_moon"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ الكلمات فيها لام قمرية؟",
+    "options": [
+     "الشمس",
+     "الرجل",
+     "التاج",
+     "القمر"
+    ],
+    "correct": 3,
+    "explanation": "القاف حرف قمري.",
+    "topic": "ar.sun_moon"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "ar.sun_moon",
+   "data": "definite_words",
+   "count": 6,
+   "params": {
+    "difficulty": 2
+   }
+  }
+ ]
+}

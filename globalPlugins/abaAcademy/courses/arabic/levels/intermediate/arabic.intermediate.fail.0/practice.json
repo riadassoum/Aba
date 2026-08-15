@@ -1,0 +1,35 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 12,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: كتبَ ... الدرسَ",
+      "correct": "الطالبُ",
+      "distractors": [
+       "الطالبَ",
+       "الطالبِ",
+       "طالباً"
+      ],
+      "explain": "الفاعل مرفوع.",
+      "topic": "ar.fail"
+     }
+    ],
+    "topic": "ar.fail",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "ar.conjugate",
+   "data": "verbs",
+   "count": 12,
+   "params": {
+    "difficulty": 3
+   }
+  }
+ ]
+}

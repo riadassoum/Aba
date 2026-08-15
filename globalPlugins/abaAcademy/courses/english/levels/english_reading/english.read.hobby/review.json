@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What does Ahmed love?",
+    "options": [
+     "Sports",
+     "Reading books",
+     "Cooking",
+     "Music"
+    ],
+    "correct": 1,
+    "explanation": "«Ahmed loves reading books».",
+    "topic": "reading.hobby"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "When does he read?",
+    "options": [
+     "In the morning",
+     "Every evening after homework",
+     "At school",
+     "On weekends only"
+    ],
+    "correct": 1,
+    "explanation": "«Every evening, after finishing his homework».",
+    "topic": "reading.hobby"
+   }
+  }
+ ]
+}

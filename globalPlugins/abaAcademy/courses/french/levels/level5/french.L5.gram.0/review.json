@@ -1,0 +1,69 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Demain, je {b} à Paris.",
+      "correct": "voyagerai",
+      "distractors": [
+       "voyage",
+       "voyageais",
+       "ai voyagé"
+      ],
+      "explain": "المستقبل البسيط: المصدر + نهاية -ai مع Je.",
+      "topic": "gram.futur_simple"
+     },
+     {
+      "prompt": "Nous {b} le projet la semaine prochaine.",
+      "correct": "finirons",
+      "distractors": [
+       "finissons",
+       "finissions",
+       "avons fini"
+      ],
+      "explain": "المستقبل البسيط مع Nous ينتهي بـ -ons.",
+      "topic": "gram.futur_simple"
+     },
+     {
+      "prompt": "Je vais {b} Paris.",
+      "correct": "à",
+      "distractors": [
+       "en",
+       "au",
+       "dans"
+      ],
+      "explain": "à تُستخدم قبل أسماء المدن.",
+      "topic": "gram.prepositions"
+     },
+     {
+      "prompt": "Il habite {b} France.",
+      "correct": "en",
+      "distractors": [
+       "à",
+       "au",
+       "dans"
+      ],
+      "explain": "en تُستخدم قبل أسماء الدول المؤنثة.",
+      "topic": "gram.prepositions"
+     },
+     {
+      "prompt": "Le chat est {b} la table.",
+      "correct": "sous",
+      "distractors": [
+       "sur",
+       "dans",
+       "à"
+      ],
+      "explain": "sous تعني تحت.",
+      "topic": "gram.prepositions"
+     }
+    ],
+    "topic": "gram"
+   }
+  }
+ ]
+}

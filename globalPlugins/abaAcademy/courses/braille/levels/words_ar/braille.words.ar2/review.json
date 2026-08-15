@@ -1,0 +1,19 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 5,
+   "params": {
+    "table": "arabic",
+    "words": [
+     "مدرسة",
+     "طالب",
+     "معلم",
+     "كرسي"
+    ],
+    "topic": "braille.words.ar"
+   }
+  }
+ ]
+}

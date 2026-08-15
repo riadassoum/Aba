@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ à Paris.",
+    "options": [
+     "vais",
+     "vas",
+     "va",
+     "vont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم vais.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للمستقبل القريب: Elle va ___.",
+    "options": [
+     "mange",
+     "manges",
+     "manger",
+     "mangé"
+    ],
+    "correct": 2,
+    "explanation": "المستقبل القريب: aller + مصدر (manger).",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "المستقبل القريب يتكوّن من aller المُصرّف + مصدر الفعل.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.aller_futur"
+   }
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم المضارع التام لحدث وقع في الماضي وله أثر أو صلة بالحاضر، أو لتجربة حياتية دون تحديد وقتها، مثل «لقد زرت باريس» (في وقت ما من حياتي). تركيبه: have / has + التصريف الثالث (past participle). نستخدم has مع الغائب المفرد he/she/it، وhave مع الباقي. كلمات ترافقه كثيراً: already, yet, ever, never,"
+  },
+  {
+   "btype": "text",
+   "text": "just, since, for. التصريف الثالث للأفعال المنتظمة = ed، وللشاذة يُحفظ: go → gone، see → seen، do → done."
+  },
+  {
+   "btype": "example",
+   "text": "I have finished my work.",
+   "note": "لقد أنهيت عملي."
+  },
+  {
+   "btype": "example",
+   "text": "She has never been to Japan.",
+   "note": "لم تزر اليابان قط."
+  },
+  {
+   "btype": "example",
+   "text": "They have lived here for years.",
+   "note": "يعيشون هنا منذ سنوات."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ finished my homework.",
+    "options": [
+     "have",
+     "has",
+     "am",
+     "did"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم have.",
+    "topic": "gram.pres_perfect"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She ___ gone home.",
+    "options": [
+     "have",
+     "has",
+     "is",
+     "did"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم has.",
+    "topic": "gram.pres_perfect"
+   }
+  }
+ ]
+}

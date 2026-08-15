@@ -1,0 +1,352 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "tête",
+      "meaning": "رأس",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "J'ai mal à la tête.",
+      "translation": "رأسي يؤلمني."
+     },
+     {
+      "word": "main",
+      "meaning": "يد",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Elle a levé la main.",
+      "translation": "رفعت يدها."
+     },
+     {
+      "word": "œil",
+      "meaning": "عين",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Il a les yeux bleus.",
+      "translation": "لديه عينان زرقاوان."
+     },
+     {
+      "word": "oreille",
+      "meaning": "أذن",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Écoute avec tes oreilles.",
+      "translation": "استمع بأذنيك."
+     },
+     {
+      "word": "jambe",
+      "meaning": "ساق",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Le chien s'est cassé la jambe.",
+      "translation": "كسر الكلب ساقه."
+     },
+     {
+      "word": "cœur",
+      "meaning": "قلب",
+      "topic": "أعضاء الجسم",
+      "difficulty": 2,
+      "example": "Mon cœur bat vite.",
+      "translation": "قلبي ينبض بسرعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

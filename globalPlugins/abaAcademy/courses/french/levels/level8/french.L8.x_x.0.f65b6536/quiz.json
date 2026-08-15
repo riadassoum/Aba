@@ -1,0 +1,256 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "avoir le cafard",
+      "meaning": "يشعر بالحزن",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Depuis son départ, j'ai le cafard.",
+      "translation": "منذ رحيله، أشعر بالحزن."
+     },
+     {
+      "word": "poser un lapin",
+      "meaning": "يخلف موعداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il m'a posé un lapin hier.",
+      "translation": "أخلف موعده معي أمس."
+     },
+     {
+      "word": "coûter les yeux de la tête",
+      "meaning": "مكلف جداً",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Cette maison a coûté les yeux de la tête.",
+      "translation": "كلّف هذا المنزل ثروة."
+     },
+     {
+      "word": "mettre les points sur les i",
+      "meaning": "يوضح الأمر بدقة",
+      "topic": "التعابير الاصطلاحية",
+      "difficulty": 8,
+      "example": "Il faut mettre les points sur les i.",
+      "translation": "يجب أن نوضح الأمر بدقة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

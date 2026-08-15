@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التعليم». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "essay = مقالة",
+   "note": "مثال: Write an essay about your city. — اكتب مقالة عن مدينتك."
+  },
+  {
+   "btype": "example",
+   "text": "exam = امتحان",
+   "note": "مثال: The final exam is in June. — الامتحان النهائي في حزيران."
+  },
+  {
+   "btype": "example",
+   "text": "degree = شهادة جامعية",
+   "note": "مثال: She earned a degree in law. — حصلت على شهادة في القانون."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «degree»؟",
+    "options": [
+     "مقالة",
+     "امتحان",
+     "شهادة جامعية"
+    ],
+    "correct": 2,
+    "explanation": "«degree» تعني «شهادة جامعية».",
+    "topic": "en:التعليم"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "scholarship = منحة دراسية",
+   "note": "مثال: He won a full scholarship. — فاز بمنحة دراسية كاملة."
+  },
+  {
+   "btype": "example",
+   "text": "lecture = محاضرة",
+   "note": "مثال: The lecture starts in ten minutes. — تبدأ المحاضرة خلال عشر دقائق."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

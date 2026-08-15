@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He ___ football every weekend.",
+    "options": [
+     "play",
+     "plays",
+     "playing",
+     "is play"
+    ],
+    "correct": 1,
+    "explanation": "مع he نضيف s: plays.",
+    "topic": "gram.pres_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي: She ___ eat meat.",
+    "options": [
+     "don't",
+     "doesn't",
+     "isn't",
+     "not"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم doesn't ويعود الفعل مجرّداً.",
+    "topic": "gram.pres_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر السؤال الصحيح:",
+    "options": [
+     "Do he work here?",
+     "Does he works here?",
+     "Does he work here?",
+     "He does work?"
+    ],
+    "correct": 2,
+    "explanation": "Does + فاعل + فعل مجرّد.",
+    "topic": "gram.pres_simple"
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: une ___ maison. (كبيرة)",
+    "options": [
+     "grand",
+     "grande",
+     "grands",
+     "grandes"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: grande.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أنّث الصفة petit (صغير → صغيرة):",
+    "correct": "petite",
+    "accepted": [],
+    "explanation": "نضيف e: petite.",
+    "topic": "gram.adjectives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: une voiture ___. (حمراء)",
+    "options": [
+     "rouge",
+     "rouges",
+     "roux",
+     "rougee"
+    ],
+    "correct": 0,
+    "explanation": "rouge تنتهي بـ e فلا تتغيّر في المؤنّث.",
+    "topic": "gram.adjectives"
+   }
+  }
+ ]
+}

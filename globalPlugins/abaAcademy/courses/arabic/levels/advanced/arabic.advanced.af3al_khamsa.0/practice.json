@@ -1,0 +1,25 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: الطلابُ ... دروسهم (يكتبون)",
+      "correct": "يكتبونَ",
+      "distractors": [
+       "يكتبوا",
+       "يكتبْ",
+       "كتبوا"
+      ],
+      "explain": "مرفوع بثبوت النون.",
+      "topic": "ar.af3al_khamsa"
+     }
+    ],
+    "topic": "ar.af3al_khamsa"
+   }
+  }
+ ]
+}

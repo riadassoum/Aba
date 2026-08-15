@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 7,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ الكلمات فيها لام شمسية؟",
+      "correct": "الشمس",
+      "distractors": [
+       "القمر",
+       "الباب",
+       "الجبل"
+      ],
+      "explain": "الشين حرف شمسي.",
+      "topic": "ar.sun_moon"
+     },
+     {
+      "prompt": "أيّ الكلمات فيها لام قمرية؟",
+      "correct": "القمر",
+      "distractors": [
+       "الشمس",
+       "الرجل",
+       "التاج"
+      ],
+      "explain": "القاف حرف قمري.",
+      "topic": "ar.sun_moon"
+     }
+    ],
+    "topic": "ar.sun_moon",
+    "difficulty": 6
+   }
+  }
+ ]
+}

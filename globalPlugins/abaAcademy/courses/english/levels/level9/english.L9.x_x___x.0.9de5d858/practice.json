@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "achieve",
+      "meaning": "يحقق",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "She achieved her goal despite the difficulties.",
+      "translation": "حققت هدفها رغم الصعوبات."
+     },
+     {
+      "word": "analyze",
+      "meaning": "يحلل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We need to analyze the data carefully.",
+      "translation": "يجب أن نحلل البيانات بعناية."
+     },
+     {
+      "word": "consequence",
+      "meaning": "نتيجة / عاقبة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This decision had serious consequences.",
+      "translation": "كان لهذا القرار عواقب خطيرة."
+     },
+     {
+      "word": "emphasize",
+      "meaning": "يشدد على",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "The teacher emphasized the importance of practice.",
+      "translation": "شدد المعلم على أهمية الممارسة."
+     },
+     {
+      "word": "evidence",
+      "meaning": "دليل",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "There is strong evidence for this theory.",
+      "translation": "هناك دليل قوي على هذه النظرية."
+     },
+     {
+      "word": "significant",
+      "meaning": "مهم / ذو دلالة",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "This is a significant improvement.",
+      "translation": "هذا تحسّن مهم."
+     },
+     {
+      "word": "sustainable",
+      "meaning": "مستدام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "We must find sustainable solutions.",
+      "translation": "يجب أن نجد حلولاً مستدامة."
+     },
+     {
+      "word": "furthermore",
+      "meaning": "علاوة على ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Furthermore, the results were unexpected.",
+      "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

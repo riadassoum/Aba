@@ -1,0 +1,1892 @@
+{
+ "words": [
+  {
+   "word": "hello",
+   "meaning": "مرحباً",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Hello, my friend!",
+   "translation": "مرحباً يا صديقي!"
+  },
+  {
+   "word": "goodbye",
+   "meaning": "مع السلامة",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Goodbye, see you tomorrow.",
+   "translation": "مع السلامة، أراك غداً."
+  },
+  {
+   "word": "please",
+   "meaning": "من فضلك",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Please, sit down.",
+   "translation": "من فضلك، اجلس."
+  },
+  {
+   "word": "thanks",
+   "meaning": "شكراً",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Thanks for your help.",
+   "translation": "شكراً على مساعدتك."
+  },
+  {
+   "word": "sorry",
+   "meaning": "آسف",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Sorry, I am late.",
+   "translation": "آسف، أنا متأخر."
+  },
+  {
+   "word": "yes",
+   "meaning": "نعم",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "Yes, I understand.",
+   "translation": "نعم، أنا أفهم."
+  },
+  {
+   "word": "no",
+   "meaning": "لا",
+   "topic": "التحيات",
+   "difficulty": 1,
+   "example": "No, thank you.",
+   "translation": "لا، شكراً."
+  },
+  {
+   "word": "one",
+   "meaning": "واحد",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "I have one book.",
+   "translation": "لدي كتاب واحد."
+  },
+  {
+   "word": "two",
+   "meaning": "اثنان",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "She has two cats.",
+   "translation": "لديها قطتان."
+  },
+  {
+   "word": "three",
+   "meaning": "ثلاثة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "We need three chairs.",
+   "translation": "نحتاج ثلاثة كراسٍ."
+  },
+  {
+   "word": "four",
+   "meaning": "أربعة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "There are four windows.",
+   "translation": "هناك أربع نوافذ."
+  },
+  {
+   "word": "five",
+   "meaning": "خمسة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "Five students are here.",
+   "translation": "خمسة طلاب هنا."
+  },
+  {
+   "word": "six",
+   "meaning": "ستة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "It costs six dollars.",
+   "translation": "ثمنه ستة دولارات."
+  },
+  {
+   "word": "seven",
+   "meaning": "سبعة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "The shop opens at seven.",
+   "translation": "يفتح المحل الساعة السابعة."
+  },
+  {
+   "word": "eight",
+   "meaning": "ثمانية",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "We slept eight hours.",
+   "translation": "نمنا ثماني ساعات."
+  },
+  {
+   "word": "nine",
+   "meaning": "تسعة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "Nine players are on the field.",
+   "translation": "تسعة لاعبين في الملعب."
+  },
+  {
+   "word": "ten",
+   "meaning": "عشرة",
+   "topic": "الأرقام",
+   "difficulty": 1,
+   "example": "I counted ten cars.",
+   "translation": "عددت عشر سيارات."
+  },
+  {
+   "word": "red",
+   "meaning": "أحمر",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "The apple is red.",
+   "translation": "التفاحة حمراء."
+  },
+  {
+   "word": "blue",
+   "meaning": "أزرق",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "The sky is blue.",
+   "translation": "السماء زرقاء."
+  },
+  {
+   "word": "green",
+   "meaning": "أخضر",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "The grass is green.",
+   "translation": "العشب أخضر."
+  },
+  {
+   "word": "yellow",
+   "meaning": "أصفر",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "The sun is yellow.",
+   "translation": "الشمس صفراء."
+  },
+  {
+   "word": "black",
+   "meaning": "أسود",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "I like black coffee.",
+   "translation": "أحب القهوة السوداء."
+  },
+  {
+   "word": "white",
+   "meaning": "أبيض",
+   "topic": "الألوان",
+   "difficulty": 1,
+   "example": "Her dress is white.",
+   "translation": "فستانها أبيض."
+  },
+  {
+   "word": "mother",
+   "meaning": "أم",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "My mother cooks well.",
+   "translation": "أمي تطبخ جيداً."
+  },
+  {
+   "word": "father",
+   "meaning": "أب",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "My father works in a bank.",
+   "translation": "أبي يعمل في مصرف."
+  },
+  {
+   "word": "brother",
+   "meaning": "أخ",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "My brother is a doctor.",
+   "translation": "أخي طبيب."
+  },
+  {
+   "word": "sister",
+   "meaning": "أخت",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "My sister lives in Beirut.",
+   "translation": "أختي تسكن في بيروت."
+  },
+  {
+   "word": "son",
+   "meaning": "ابن",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "Their son is ten years old.",
+   "translation": "ابنهم عمره عشر سنوات."
+  },
+  {
+   "word": "daughter",
+   "meaning": "ابنة",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "Their daughter studies music.",
+   "translation": "ابنتهم تدرس الموسيقى."
+  },
+  {
+   "word": "friend",
+   "meaning": "صديق",
+   "topic": "العائلة",
+   "difficulty": 1,
+   "example": "He is my best friend.",
+   "translation": "هو صديقي المفضل."
+  },
+  {
+   "word": "cat",
+   "meaning": "قطة",
+   "topic": "الحيوانات",
+   "difficulty": 1,
+   "example": "The cat is sleeping.",
+   "translation": "القطة نائمة."
+  },
+  {
+   "word": "dog",
+   "meaning": "كلب",
+   "topic": "الحيوانات",
+   "difficulty": 1,
+   "example": "The dog is running.",
+   "translation": "الكلب يجري."
+  },
+  {
+   "word": "bird",
+   "meaning": "طائر",
+   "topic": "الحيوانات",
+   "difficulty": 1,
+   "example": "A bird is singing.",
+   "translation": "طائر يغني."
+  },
+  {
+   "word": "horse",
+   "meaning": "حصان",
+   "topic": "الحيوانات",
+   "difficulty": 1,
+   "example": "The horse is fast.",
+   "translation": "الحصان سريع."
+  },
+  {
+   "word": "fish",
+   "meaning": "سمكة",
+   "topic": "الحيوانات",
+   "difficulty": 1,
+   "example": "We ate fish for dinner.",
+   "translation": "أكلنا سمكاً على العشاء."
+  },
+  {
+   "word": "house",
+   "meaning": "منزل",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "This is my house.",
+   "translation": "هذا منزلي."
+  },
+  {
+   "word": "door",
+   "meaning": "باب",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "Close the door, please.",
+   "translation": "أغلق الباب من فضلك."
+  },
+  {
+   "word": "window",
+   "meaning": "نافذة",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "Open the window.",
+   "translation": "افتح النافذة."
+  },
+  {
+   "word": "table",
+   "meaning": "طاولة",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "Put the plate on the table.",
+   "translation": "ضع الطبق على الطاولة."
+  },
+  {
+   "word": "chair",
+   "meaning": "كرسي",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "Sit on the chair.",
+   "translation": "اجلس على الكرسي."
+  },
+  {
+   "word": "bed",
+   "meaning": "سرير",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "The baby is in the bed.",
+   "translation": "الطفل في السرير."
+  },
+  {
+   "word": "kitchen",
+   "meaning": "مطبخ",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "My mother is in the kitchen.",
+   "translation": "أمي في المطبخ."
+  },
+  {
+   "word": "bathroom",
+   "meaning": "حمام",
+   "topic": "المنزل",
+   "difficulty": 2,
+   "example": "The bathroom is clean.",
+   "translation": "الحمام نظيف."
+  },
+  {
+   "word": "water",
+   "meaning": "ماء",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "I drink water every morning.",
+   "translation": "أشرب الماء كل صباح."
+  },
+  {
+   "word": "bread",
+   "meaning": "خبز",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "We buy bread daily.",
+   "translation": "نشتري الخبز يومياً."
+  },
+  {
+   "word": "rice",
+   "meaning": "أرز",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "She cooked rice and chicken.",
+   "translation": "طبخت أرزاً ودجاجاً."
+  },
+  {
+   "word": "meat",
+   "meaning": "لحم",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "He does not eat meat.",
+   "translation": "هو لا يأكل اللحم."
+  },
+  {
+   "word": "fruit",
+   "meaning": "فاكهة",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "Fruit is good for health.",
+   "translation": "الفاكهة مفيدة للصحة."
+  },
+  {
+   "word": "vegetable",
+   "meaning": "خضار",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "Add some vegetables to the soup.",
+   "translation": "أضف بعض الخضار إلى الحساء."
+  },
+  {
+   "word": "milk",
+   "meaning": "حليب",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "The child drinks milk.",
+   "translation": "الطفل يشرب الحليب."
+  },
+  {
+   "word": "coffee",
+   "meaning": "قهوة",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "Would you like coffee or tea?",
+   "translation": "هل تريد قهوة أم شاياً؟"
+  },
+  {
+   "word": "tea",
+   "meaning": "شاي",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "I usually drink tea at night.",
+   "translation": "عادة أشرب الشاي في الليل."
+  },
+  {
+   "word": "sugar",
+   "meaning": "سكر",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "Do you take sugar in your tea?",
+   "translation": "هل تضع سكراً في شايك؟"
+  },
+  {
+   "word": "salt",
+   "meaning": "ملح",
+   "topic": "الطعام والشراب",
+   "difficulty": 2,
+   "example": "Pass me the salt, please.",
+   "translation": "ناولني الملح من فضلك."
+  },
+  {
+   "word": "today",
+   "meaning": "اليوم",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "Today is a beautiful day.",
+   "translation": "اليوم يوم جميل."
+  },
+  {
+   "word": "tomorrow",
+   "meaning": "غداً",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "See you tomorrow.",
+   "translation": "أراك غداً."
+  },
+  {
+   "word": "yesterday",
+   "meaning": "أمس",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "I called you yesterday.",
+   "translation": "اتصلت بك أمس."
+  },
+  {
+   "word": "morning",
+   "meaning": "صباح",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "Good morning, everyone.",
+   "translation": "صباح الخير للجميع."
+  },
+  {
+   "word": "night",
+   "meaning": "ليل",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "It is very quiet at night.",
+   "translation": "الجو هادئ جداً في الليل."
+  },
+  {
+   "word": "week",
+   "meaning": "أسبوع",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "I will finish it next week.",
+   "translation": "سأنهيه الأسبوع القادم."
+  },
+  {
+   "word": "month",
+   "meaning": "شهر",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "We travel every month.",
+   "translation": "نسافر كل شهر."
+  },
+  {
+   "word": "year",
+   "meaning": "سنة",
+   "topic": "الوقت",
+   "difficulty": 2,
+   "example": "Happy new year!",
+   "translation": "سنة سعيدة!"
+  },
+  {
+   "word": "head",
+   "meaning": "رأس",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "My head hurts.",
+   "translation": "رأسي يؤلمني."
+  },
+  {
+   "word": "hand",
+   "meaning": "يد",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "She raised her hand.",
+   "translation": "رفعت يدها."
+  },
+  {
+   "word": "eye",
+   "meaning": "عين",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "He has blue eyes.",
+   "translation": "لديه عينان زرقاوان."
+  },
+  {
+   "word": "ear",
+   "meaning": "أذن",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "Listen with your ears.",
+   "translation": "استمع بأذنيك."
+  },
+  {
+   "word": "leg",
+   "meaning": "ساق",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "The dog broke its leg.",
+   "translation": "كسر الكلب ساقه."
+  },
+  {
+   "word": "heart",
+   "meaning": "قلب",
+   "topic": "أعضاء الجسم",
+   "difficulty": 2,
+   "example": "My heart beats fast.",
+   "translation": "قلبي ينبض بسرعة."
+  },
+  {
+   "word": "big",
+   "meaning": "كبير",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "This is a big city.",
+   "translation": "هذه مدينة كبيرة."
+  },
+  {
+   "word": "small",
+   "meaning": "صغير",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "The kitten is very small.",
+   "translation": "القط صغير جداً."
+  },
+  {
+   "word": "hot",
+   "meaning": "حار",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "The soup is hot.",
+   "translation": "الحساء حار."
+  },
+  {
+   "word": "cold",
+   "meaning": "بارد",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "The water is cold.",
+   "translation": "الماء بارد."
+  },
+  {
+   "word": "new",
+   "meaning": "جديد",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "I bought a new phone.",
+   "translation": "اشتريت هاتفاً جديداً."
+  },
+  {
+   "word": "old",
+   "meaning": "قديم / عجوز",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "This is an old building.",
+   "translation": "هذا مبنى قديم."
+  },
+  {
+   "word": "fast",
+   "meaning": "سريع",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "He drives very fast.",
+   "translation": "يقود بسرعة كبيرة."
+  },
+  {
+   "word": "slow",
+   "meaning": "بطيء",
+   "topic": "الصفات",
+   "difficulty": 2,
+   "example": "The train is slow today.",
+   "translation": "القطار بطيء اليوم."
+  },
+  {
+   "word": "teacher",
+   "meaning": "معلم",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "The teacher explains well.",
+   "translation": "المعلم يشرح جيداً."
+  },
+  {
+   "word": "doctor",
+   "meaning": "طبيب",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "The doctor examined the patient.",
+   "translation": "فحص الطبيب المريض."
+  },
+  {
+   "word": "engineer",
+   "meaning": "مهندس",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "She is a civil engineer.",
+   "translation": "هي مهندسة مدنية."
+  },
+  {
+   "word": "nurse",
+   "meaning": "ممرضة",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "The nurse gave him medicine.",
+   "translation": "أعطته الممرضة الدواء."
+  },
+  {
+   "word": "farmer",
+   "meaning": "مزارع",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "The farmer plants wheat.",
+   "translation": "المزارع يزرع القمح."
+  },
+  {
+   "word": "driver",
+   "meaning": "سائق",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "The driver stopped the bus.",
+   "translation": "أوقف السائق الحافلة."
+  },
+  {
+   "word": "student",
+   "meaning": "طالب",
+   "topic": "المهن",
+   "difficulty": 3,
+   "example": "I am a student at the university.",
+   "translation": "أنا طالب في الجامعة."
+  },
+  {
+   "word": "city",
+   "meaning": "مدينة",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "Tripoli is a beautiful city.",
+   "translation": "طرابلس مدينة جميلة."
+  },
+  {
+   "word": "village",
+   "meaning": "قرية",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "They live in a small village.",
+   "translation": "يعيشون في قرية صغيرة."
+  },
+  {
+   "word": "street",
+   "meaning": "شارع",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "Cross the street carefully.",
+   "translation": "اعبر الشارع بحذر."
+  },
+  {
+   "word": "school",
+   "meaning": "مدرسة",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "The school is near my house.",
+   "translation": "المدرسة قريبة من منزلي."
+  },
+  {
+   "word": "hospital",
+   "meaning": "مستشفى",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "They took him to the hospital.",
+   "translation": "أخذوه إلى المستشفى."
+  },
+  {
+   "word": "market",
+   "meaning": "سوق",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "We buy vegetables from the market.",
+   "translation": "نشتري الخضار من السوق."
+  },
+  {
+   "word": "airport",
+   "meaning": "مطار",
+   "topic": "الأماكن",
+   "difficulty": 3,
+   "example": "The airport is far from here.",
+   "translation": "المطار بعيد من هنا."
+  },
+  {
+   "word": "car",
+   "meaning": "سيارة",
+   "topic": "المواصلات",
+   "difficulty": 3,
+   "example": "He bought a new car.",
+   "translation": "اشترى سيارة جديدة."
+  },
+  {
+   "word": "bus",
+   "meaning": "حافلة",
+   "topic": "المواصلات",
+   "difficulty": 3,
+   "example": "We took the bus to school.",
+   "translation": "ركبنا الحافلة إلى المدرسة."
+  },
+  {
+   "word": "train",
+   "meaning": "قطار",
+   "topic": "المواصلات",
+   "difficulty": 3,
+   "example": "The train arrives at noon.",
+   "translation": "يصل القطار عند الظهر."
+  },
+  {
+   "word": "plane",
+   "meaning": "طائرة",
+   "topic": "المواصلات",
+   "difficulty": 3,
+   "example": "The plane took off on time.",
+   "translation": "أقلعت الطائرة في الموعد."
+  },
+  {
+   "word": "bicycle",
+   "meaning": "دراجة هوائية",
+   "topic": "المواصلات",
+   "difficulty": 3,
+   "example": "She rides her bicycle daily.",
+   "translation": "تركب دراجتها يومياً."
+  },
+  {
+   "word": "sun",
+   "meaning": "شمس",
+   "topic": "الطقس",
+   "difficulty": 3,
+   "example": "The sun is shining today.",
+   "translation": "الشمس مشرقة اليوم."
+  },
+  {
+   "word": "rain",
+   "meaning": "مطر",
+   "topic": "الطقس",
+   "difficulty": 3,
+   "example": "It is raining outside.",
+   "translation": "المطر ينهمر بالخارج."
+  },
+  {
+   "word": "wind",
+   "meaning": "ريح",
+   "topic": "الطقس",
+   "difficulty": 3,
+   "example": "The wind is very strong.",
+   "translation": "الريح قوية جداً."
+  },
+  {
+   "word": "snow",
+   "meaning": "ثلج",
+   "topic": "الطقس",
+   "difficulty": 3,
+   "example": "It snowed last night.",
+   "translation": "تساقط الثلج الليلة الماضية."
+  },
+  {
+   "word": "cloud",
+   "meaning": "غيمة",
+   "topic": "الطقس",
+   "difficulty": 3,
+   "example": "The sky is full of clouds.",
+   "translation": "السماء مليئة بالغيوم."
+  },
+  {
+   "word": "hungry",
+   "meaning": "جائع",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "I am very hungry now.",
+   "translation": "أنا جائع جداً الآن."
+  },
+  {
+   "word": "thirsty",
+   "meaning": "عطشان",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "The children are thirsty.",
+   "translation": "الأطفال عطشى."
+  },
+  {
+   "word": "tired",
+   "meaning": "متعب",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "She feels tired after work.",
+   "translation": "تشعر بالتعب بعد العمل."
+  },
+  {
+   "word": "happy",
+   "meaning": "سعيد",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "We are happy to see you.",
+   "translation": "نحن سعداء برؤيتك."
+  },
+  {
+   "word": "sad",
+   "meaning": "حزين",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "He looks sad today.",
+   "translation": "يبدو حزيناً اليوم."
+  },
+  {
+   "word": "busy",
+   "meaning": "مشغول",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "I am busy this week.",
+   "translation": "أنا مشغول هذا الأسبوع."
+  },
+  {
+   "word": "clean",
+   "meaning": "نظيف",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "Keep your room clean.",
+   "translation": "حافظ على نظافة غرفتك."
+  },
+  {
+   "word": "dirty",
+   "meaning": "متسخ",
+   "topic": "الصفات",
+   "difficulty": 3,
+   "example": "The floor is dirty.",
+   "translation": "الأرضية متسخة."
+  },
+  {
+   "word": "go",
+   "meaning": "يذهب",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I go to work by bus.",
+   "translation": "أذهب إلى العمل بالحافلة."
+  },
+  {
+   "word": "come",
+   "meaning": "يأتي",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Please come here.",
+   "translation": "تعال إلى هنا من فضلك."
+  },
+  {
+   "word": "eat",
+   "meaning": "يأكل",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "We eat dinner at eight.",
+   "translation": "نأكل العشاء الساعة الثامنة."
+  },
+  {
+   "word": "drink",
+   "meaning": "يشرب",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "He drinks water every hour.",
+   "translation": "يشرب الماء كل ساعة."
+  },
+  {
+   "word": "sleep",
+   "meaning": "ينام",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "The baby sleeps a lot.",
+   "translation": "الطفل ينام كثيراً."
+  },
+  {
+   "word": "work",
+   "meaning": "يعمل",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "She works in an office.",
+   "translation": "تعمل في مكتب."
+  },
+  {
+   "word": "study",
+   "meaning": "يدرس",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I study English every day.",
+   "translation": "أدرس الإنجليزية كل يوم."
+  },
+  {
+   "word": "read",
+   "meaning": "يقرأ",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "He reads the newspaper.",
+   "translation": "يقرأ الجريدة."
+  },
+  {
+   "word": "write",
+   "meaning": "يكتب",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "She writes a letter.",
+   "translation": "تكتب رسالة."
+  },
+  {
+   "word": "speak",
+   "meaning": "يتكلم",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Do you speak Arabic?",
+   "translation": "هل تتكلم العربية؟"
+  },
+  {
+   "word": "listen",
+   "meaning": "يستمع",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Listen to this song.",
+   "translation": "استمع إلى هذه الأغنية."
+  },
+  {
+   "word": "watch",
+   "meaning": "يشاهد",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "We watch TV at night.",
+   "translation": "نشاهد التلفاز في الليل."
+  },
+  {
+   "word": "play",
+   "meaning": "يلعب",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "The children play in the garden.",
+   "translation": "يلعب الأطفال في الحديقة."
+  },
+  {
+   "word": "buy",
+   "meaning": "يشتري",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I want to buy a gift.",
+   "translation": "أريد أن أشتري هدية."
+  },
+  {
+   "word": "sell",
+   "meaning": "يبيع",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "They sell fresh fruit.",
+   "translation": "يبيعون فاكهة طازجة."
+  },
+  {
+   "word": "cook",
+   "meaning": "يطبخ",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "My father cooks on Fridays.",
+   "translation": "أبي يطبخ يوم الجمعة."
+  },
+  {
+   "word": "clean",
+   "meaning": "ينظف",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "She cleans the house every Saturday.",
+   "translation": "تنظف المنزل كل سبت."
+  },
+  {
+   "word": "walk",
+   "meaning": "يمشي",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "We walk to school.",
+   "translation": "نمشي إلى المدرسة."
+  },
+  {
+   "word": "run",
+   "meaning": "يجري",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "He runs every morning.",
+   "translation": "يجري كل صباح."
+  },
+  {
+   "word": "swim",
+   "meaning": "يسبح",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "They swim in the sea.",
+   "translation": "يسبحون في البحر."
+  },
+  {
+   "word": "help",
+   "meaning": "يساعد",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Can you help me?",
+   "translation": "هل يمكنك مساعدتي؟"
+  },
+  {
+   "word": "learn",
+   "meaning": "يتعلم",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I learn something new every day.",
+   "translation": "أتعلم شيئاً جديداً كل يوم."
+  },
+  {
+   "word": "teach",
+   "meaning": "يعلّم",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "She teaches French.",
+   "translation": "تعلّم اللغة الفرنسية."
+  },
+  {
+   "word": "open",
+   "meaning": "يفتح",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Open your books, please.",
+   "translation": "افتحوا كتبكم من فضلكم."
+  },
+  {
+   "word": "close",
+   "meaning": "يغلق",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Close the door quietly.",
+   "translation": "أغلق الباب بهدوء."
+  },
+  {
+   "word": "start",
+   "meaning": "يبدأ",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "The class starts at nine.",
+   "translation": "يبدأ الصف الساعة التاسعة."
+  },
+  {
+   "word": "finish",
+   "meaning": "ينهي",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I finish work at five.",
+   "translation": "أنهي عملي الساعة الخامسة."
+  },
+  {
+   "word": "understand",
+   "meaning": "يفهم",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Now I understand the lesson.",
+   "translation": "الآن أفهم الدرس."
+  },
+  {
+   "word": "forget",
+   "meaning": "ينسى",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "Don't forget your keys.",
+   "translation": "لا تنسَ مفاتيحك."
+  },
+  {
+   "word": "remember",
+   "meaning": "يتذكر",
+   "topic": "الأفعال",
+   "difficulty": 4,
+   "example": "I remember his name now.",
+   "translation": "أتذكر اسمه الآن."
+  },
+  {
+   "word": "shirt",
+   "meaning": "قميص",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "He is wearing a blue shirt.",
+   "translation": "يرتدي قميصاً أزرق."
+  },
+  {
+   "word": "trousers",
+   "meaning": "بنطال",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "These trousers are too long.",
+   "translation": "هذا البنطال طويل جداً."
+  },
+  {
+   "word": "shoes",
+   "meaning": "حذاء",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "I need new shoes.",
+   "translation": "أحتاج حذاءً جديداً."
+  },
+  {
+   "word": "jacket",
+   "meaning": "سترة",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "Wear your jacket, it's cold.",
+   "translation": "ارتدِ سترتك، الجو بارد."
+  },
+  {
+   "word": "hat",
+   "meaning": "قبعة",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "She bought a red hat.",
+   "translation": "اشترت قبعة حمراء."
+  },
+  {
+   "word": "dress",
+   "meaning": "فستان",
+   "topic": "الملابس",
+   "difficulty": 5,
+   "example": "The dress is beautiful.",
+   "translation": "الفستان جميل."
+  },
+  {
+   "word": "price",
+   "meaning": "سعر",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "What is the price of this bag?",
+   "translation": "ما سعر هذه الحقيبة؟"
+  },
+  {
+   "word": "cheap",
+   "meaning": "رخيص",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "This shop is cheap.",
+   "translation": "هذا المحل رخيص."
+  },
+  {
+   "word": "expensive",
+   "meaning": "غالٍ",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "That car is very expensive.",
+   "translation": "تلك السيارة غالية جداً."
+  },
+  {
+   "word": "discount",
+   "meaning": "خصم",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "There is a fifty percent discount.",
+   "translation": "هناك خصم خمسين بالمئة."
+  },
+  {
+   "word": "receipt",
+   "meaning": "إيصال",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "Keep the receipt, please.",
+   "translation": "احتفظ بالإيصال من فضلك."
+  },
+  {
+   "word": "size",
+   "meaning": "مقاس",
+   "topic": "التسوق",
+   "difficulty": 5,
+   "example": "What size do you wear?",
+   "translation": "ما مقاسك؟"
+  },
+  {
+   "word": "bigger",
+   "meaning": "أكبر",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "This house is bigger than mine.",
+   "translation": "هذا المنزل أكبر من منزلي."
+  },
+  {
+   "word": "smaller",
+   "meaning": "أصغر",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "My phone is smaller than yours.",
+   "translation": "هاتفي أصغر من هاتفك."
+  },
+  {
+   "word": "better",
+   "meaning": "أفضل",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "This plan is better than the last.",
+   "translation": "هذه الخطة أفضل من السابقة."
+  },
+  {
+   "word": "worse",
+   "meaning": "أسوأ",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "The weather is worse today.",
+   "translation": "الطقس أسوأ اليوم."
+  },
+  {
+   "word": "the best",
+   "meaning": "الأفضل",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "This is the best restaurant in town.",
+   "translation": "هذا أفضل مطعم في المدينة."
+  },
+  {
+   "word": "the worst",
+   "meaning": "الأسوأ",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "That was the worst movie ever.",
+   "translation": "كان أسوأ فيلم على الإطلاق."
+  },
+  {
+   "word": "more",
+   "meaning": "أكثر",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "I need more time.",
+   "translation": "أحتاج وقتاً أكثر."
+  },
+  {
+   "word": "less",
+   "meaning": "أقل",
+   "topic": "المقارنة والتفضيل",
+   "difficulty": 5,
+   "example": "Please make less noise.",
+   "translation": "الرجاء إحداث ضجيج أقل."
+  },
+  {
+   "word": "passport",
+   "meaning": "جواز سفر",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "Don't forget your passport.",
+   "translation": "لا تنسَ جواز سفرك."
+  },
+  {
+   "word": "ticket",
+   "meaning": "تذكرة",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "I bought two tickets.",
+   "translation": "اشتريت تذكرتين."
+  },
+  {
+   "word": "luggage",
+   "meaning": "أمتعة",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "Where is my luggage?",
+   "translation": "أين أمتعتي؟"
+  },
+  {
+   "word": "hotel",
+   "meaning": "فندق",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "We stayed at a nice hotel.",
+   "translation": "أقمنا في فندق جميل."
+  },
+  {
+   "word": "reservation",
+   "meaning": "حجز",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "I made a reservation online.",
+   "translation": "أجريت حجزاً عبر الإنترنت."
+  },
+  {
+   "word": "map",
+   "meaning": "خريطة",
+   "topic": "السفر",
+   "difficulty": 6,
+   "example": "Can you show me on the map?",
+   "translation": "هل يمكنك أن تريني على الخريطة؟"
+  },
+  {
+   "word": "headache",
+   "meaning": "صداع",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "I have a bad headache.",
+   "translation": "لدي صداع شديد."
+  },
+  {
+   "word": "fever",
+   "meaning": "حمى",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "The child has a fever.",
+   "translation": "الطفل مصاب بالحمى."
+  },
+  {
+   "word": "medicine",
+   "meaning": "دواء",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "Take this medicine twice a day.",
+   "translation": "تناول هذا الدواء مرتين يومياً."
+  },
+  {
+   "word": "pain",
+   "meaning": "ألم",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "I feel pain in my back.",
+   "translation": "أشعر بألم في ظهري."
+  },
+  {
+   "word": "cough",
+   "meaning": "سعال",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "He has a cough and a cold.",
+   "translation": "لديه سعال ونزلة برد."
+  },
+  {
+   "word": "appointment",
+   "meaning": "موعد",
+   "topic": "الصحة",
+   "difficulty": 6,
+   "example": "I have an appointment with the doctor.",
+   "translation": "لدي موعد مع الطبيب."
+  },
+  {
+   "word": "excited",
+   "meaning": "متحمس",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "I am excited about the trip.",
+   "translation": "أنا متحمس للرحلة."
+  },
+  {
+   "word": "worried",
+   "meaning": "قلق",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "She is worried about the exam.",
+   "translation": "هي قلقة بشأن الامتحان."
+  },
+  {
+   "word": "proud",
+   "meaning": "فخور",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "We are proud of you.",
+   "translation": "نحن فخورون بك."
+  },
+  {
+   "word": "bored",
+   "meaning": "ضجر",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "The students look bored.",
+   "translation": "يبدو الطلاب ضجرين."
+  },
+  {
+   "word": "nervous",
+   "meaning": "متوتر",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "He was nervous before the interview.",
+   "translation": "كان متوتراً قبل المقابلة."
+  },
+  {
+   "word": "surprised",
+   "meaning": "متفاجئ",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "I was surprised by the news.",
+   "translation": "تفاجأت بالخبر."
+  },
+  {
+   "word": "grateful",
+   "meaning": "ممتن",
+   "topic": "المشاعر",
+   "difficulty": 6,
+   "example": "I am grateful for your support.",
+   "translation": "أنا ممتن لدعمك."
+  },
+  {
+   "word": "meeting",
+   "meaning": "اجتماع",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "We have a meeting at ten.",
+   "translation": "لدينا اجتماع الساعة العاشرة."
+  },
+  {
+   "word": "deadline",
+   "meaning": "موعد نهائي",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "The deadline is next Friday.",
+   "translation": "الموعد النهائي الجمعة القادمة."
+  },
+  {
+   "word": "salary",
+   "meaning": "راتب",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "The salary is paid monthly.",
+   "translation": "يُدفع الراتب شهرياً."
+  },
+  {
+   "word": "colleague",
+   "meaning": "زميل عمل",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "My colleague helped me finish the report.",
+   "translation": "ساعدني زميلي في إنهاء التقرير."
+  },
+  {
+   "word": "manager",
+   "meaning": "مدير",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "The manager approved the plan.",
+   "translation": "وافق المدير على الخطة."
+  },
+  {
+   "word": "interview",
+   "meaning": "مقابلة",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "I have a job interview tomorrow.",
+   "translation": "لدي مقابلة عمل غداً."
+  },
+  {
+   "word": "resume",
+   "meaning": "سيرة ذاتية",
+   "topic": "العمل",
+   "difficulty": 7,
+   "example": "Send me your resume by email.",
+   "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+  },
+  {
+   "word": "computer",
+   "meaning": "حاسوب",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "My computer is very slow.",
+   "translation": "حاسوبي بطيء جداً."
+  },
+  {
+   "word": "internet",
+   "meaning": "إنترنت",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "The internet connection is weak here.",
+   "translation": "الاتصال بالإنترنت ضعيف هنا."
+  },
+  {
+   "word": "password",
+   "meaning": "كلمة سر",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "I forgot my password.",
+   "translation": "نسيت كلمة سري."
+  },
+  {
+   "word": "screen reader",
+   "meaning": "قارئ شاشة",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "NVDA is a free screen reader.",
+   "translation": "برنامج NVDA قارئ شاشة مجاني."
+  },
+  {
+   "word": "application",
+   "meaning": "تطبيق",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "This application is easy to use.",
+   "translation": "هذا التطبيق سهل الاستخدام."
+  },
+  {
+   "word": "keyboard",
+   "meaning": "لوحة مفاتيح",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "Learn the keyboard shortcuts.",
+   "translation": "تعلّم اختصارات لوحة المفاتيح."
+  },
+  {
+   "word": "update",
+   "meaning": "تحديث",
+   "topic": "التكنولوجيا",
+   "difficulty": 7,
+   "example": "There is a new update available.",
+   "translation": "هناك تحديث جديد متاح."
+  },
+  {
+   "word": "essay",
+   "meaning": "مقالة",
+   "topic": "التعليم",
+   "difficulty": 7,
+   "example": "Write an essay about your city.",
+   "translation": "اكتب مقالة عن مدينتك."
+  },
+  {
+   "word": "exam",
+   "meaning": "امتحان",
+   "topic": "التعليم",
+   "difficulty": 7,
+   "example": "The final exam is in June.",
+   "translation": "الامتحان النهائي في حزيران."
+  },
+  {
+   "word": "degree",
+   "meaning": "شهادة جامعية",
+   "topic": "التعليم",
+   "difficulty": 7,
+   "example": "She earned a degree in law.",
+   "translation": "حصلت على شهادة في القانون."
+  },
+  {
+   "word": "scholarship",
+   "meaning": "منحة دراسية",
+   "topic": "التعليم",
+   "difficulty": 7,
+   "example": "He won a full scholarship.",
+   "translation": "فاز بمنحة دراسية كاملة."
+  },
+  {
+   "word": "lecture",
+   "meaning": "محاضرة",
+   "topic": "التعليم",
+   "difficulty": 7,
+   "example": "The lecture starts in ten minutes.",
+   "translation": "تبدأ المحاضرة خلال عشر دقائق."
+  },
+  {
+   "word": "give up",
+   "meaning": "يستسلم / يتخلى",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "Never give up on your dreams.",
+   "translation": "لا تستسلم أبداً لأحلامك."
+  },
+  {
+   "word": "look for",
+   "meaning": "يبحث عن",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "I am looking for my keys.",
+   "translation": "أبحث عن مفاتيحي."
+  },
+  {
+   "word": "find out",
+   "meaning": "يكتشف",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "We found out the truth.",
+   "translation": "اكتشفنا الحقيقة."
+  },
+  {
+   "word": "get up",
+   "meaning": "يستيقظ",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "I get up at six every day.",
+   "translation": "أستيقظ الساعة السادسة كل يوم."
+  },
+  {
+   "word": "turn on",
+   "meaning": "يشغّل",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "Turn on the lights, please.",
+   "translation": "شغّل الأنوار من فضلك."
+  },
+  {
+   "word": "turn off",
+   "meaning": "يطفئ",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "Turn off the computer before you leave.",
+   "translation": "أطفئ الحاسوب قبل أن تغادر."
+  },
+  {
+   "word": "put off",
+   "meaning": "يؤجل",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "They put off the meeting until Monday.",
+   "translation": "أجّلوا الاجتماع إلى الاثنين."
+  },
+  {
+   "word": "figure out",
+   "meaning": "يفهم / يحل",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "I can't figure out this problem.",
+   "translation": "لا أستطيع حل هذه المشكلة."
+  },
+  {
+   "word": "break down",
+   "meaning": "يتعطل / ينهار",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "The car broke down on the highway.",
+   "translation": "تعطلت السيارة على الطريق السريع."
+  },
+  {
+   "word": "come up with",
+   "meaning": "يبتكر فكرة",
+   "topic": "الأفعال المركبة",
+   "difficulty": 8,
+   "example": "She came up with a great idea.",
+   "translation": "ابتكرت فكرة رائعة."
+  },
+  {
+   "word": "piece of cake",
+   "meaning": "أمر سهل جداً",
+   "topic": "التعابير الاصطلاحية",
+   "difficulty": 8,
+   "example": "Don't worry, this test is a piece of cake.",
+   "translation": "لا تقلق، هذا الاختبار سهل جداً."
+  },
+  {
+   "word": "under the weather",
+   "meaning": "متوعك قليلاً",
+   "topic": "التعابير الاصطلاحية",
+   "difficulty": 8,
+   "example": "I feel a bit under the weather today.",
+   "translation": "أشعر بتوعك قليلاً اليوم."
+  },
+  {
+   "word": "break the ice",
+   "meaning": "يكسر الجليد",
+   "topic": "التعابير الاصطلاحية",
+   "difficulty": 8,
+   "example": "He told a joke to break the ice.",
+   "translation": "روى نكتة ليكسر الجليد."
+  },
+  {
+   "word": "hit the books",
+   "meaning": "يجتهد في الدراسة",
+   "topic": "التعابير الاصطلاحية",
+   "difficulty": 8,
+   "example": "I need to hit the books before the exam.",
+   "translation": "يجب أن أجتهد في الدراسة قبل الامتحان."
+  },
+  {
+   "word": "cost an arm and a leg",
+   "meaning": "مكلف جداً",
+   "topic": "التعابير الاصطلاحية",
+   "difficulty": 8,
+   "example": "That laptop cost an arm and a leg.",
+   "translation": "ذلك الحاسوب المحمول كان مكلفاً جداً."
+  },
+  {
+   "word": "achieve",
+   "meaning": "يحقق",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "She achieved her goal despite the difficulties.",
+   "translation": "حققت هدفها رغم الصعوبات."
+  },
+  {
+   "word": "analyze",
+   "meaning": "يحلل",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "We need to analyze the data carefully.",
+   "translation": "يجب أن نحلل البيانات بعناية."
+  },
+  {
+   "word": "consequence",
+   "meaning": "نتيجة / عاقبة",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "This decision had serious consequences.",
+   "translation": "كان لهذا القرار عواقب خطيرة."
+  },
+  {
+   "word": "emphasize",
+   "meaning": "يشدد على",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "The teacher emphasized the importance of practice.",
+   "translation": "شدد المعلم على أهمية الممارسة."
+  },
+  {
+   "word": "evidence",
+   "meaning": "دليل",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "There is strong evidence for this theory.",
+   "translation": "هناك دليل قوي على هذه النظرية."
+  },
+  {
+   "word": "significant",
+   "meaning": "مهم / ذو دلالة",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "This is a significant improvement.",
+   "translation": "هذا تحسّن مهم."
+  },
+  {
+   "word": "sustainable",
+   "meaning": "مستدام",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "We must find sustainable solutions.",
+   "translation": "يجب أن نجد حلولاً مستدامة."
+  },
+  {
+   "word": "furthermore",
+   "meaning": "علاوة على ذلك",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "Furthermore, the results were unexpected.",
+   "translation": "علاوة على ذلك، كانت النتائج غير متوقعة."
+  },
+  {
+   "word": "nevertheless",
+   "meaning": "ومع ذلك",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "Nevertheless, we continued the project.",
+   "translation": "ومع ذلك، تابعنا المشروع."
+  },
+  {
+   "word": "in conclusion",
+   "meaning": "في الختام",
+   "topic": "اللغة الأكاديمية",
+   "difficulty": 9,
+   "example": "In conclusion, the plan was a success.",
+   "translation": "في الختام، كانت الخطة ناجحة."
+  },
+  {
+   "word": "negotiate",
+   "meaning": "يفاوض",
+   "topic": "لغة الأعمال",
+   "difficulty": 9,
+   "example": "They negotiated a better price.",
+   "translation": "تفاوضوا على سعر أفضل."
+  },
+  {
+   "word": "invest",
+   "meaning": "يستثمر",
+   "topic": "لغة الأعمال",
+   "difficulty": 9,
+   "example": "He invests in real estate.",
+   "translation": "يستثمر في العقارات."
+  },
+  {
+   "word": "budget",
+   "meaning": "ميزانية",
+   "topic": "لغة الأعمال",
+   "difficulty": 9,
+   "example": "We must stay within the budget.",
+   "translation": "يجب أن نلتزم بالميزانية."
+  },
+  {
+   "word": "strategy",
+   "meaning": "استراتيجية",
+   "topic": "لغة الأعمال",
+   "difficulty": 9,
+   "example": "Their marketing strategy worked well.",
+   "translation": "نجحت استراتيجيتهم التسويقية."
+  },
+  {
+   "word": "revenue",
+   "meaning": "إيراد / عائد",
+   "topic": "لغة الأعمال",
+   "difficulty": 9,
+   "example": "Company revenue increased this year.",
+   "translation": "ازداد إيراد الشركة هذا العام."
+  },
+  {
+   "word": "nonetheless",
+   "meaning": "ومع ذلك / رغم ذلك",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "Nonetheless, he decided to try again.",
+   "translation": "رغم ذلك، قرر أن يحاول مجدداً."
+  },
+  {
+   "word": "albeit",
+   "meaning": "وإن كان / رغم أنه",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "The plan worked, albeit slowly.",
+   "translation": "نجحت الخطة، وإن كان ذلك ببطء."
+  },
+  {
+   "word": "meticulous",
+   "meaning": "دقيق جداً",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "She is meticulous about details.",
+   "translation": "هي دقيقة جداً في التفاصيل."
+  },
+  {
+   "word": "ambiguous",
+   "meaning": "غامض / ملتبس",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "His answer was rather ambiguous.",
+   "translation": "كانت إجابته غامضة إلى حد ما."
+  },
+  {
+   "word": "resilient",
+   "meaning": "قادر على الصمود",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "The community proved resilient after the crisis.",
+   "translation": "أثبت المجتمع صموده بعد الأزمة."
+  },
+  {
+   "word": "versatile",
+   "meaning": "متعدد المواهب",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "He is a versatile musician.",
+   "translation": "هو موسيقي متعدد المواهب."
+  },
+  {
+   "word": "procrastinate",
+   "meaning": "يسوّف / يؤجل",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "Stop procrastinating and start studying.",
+   "translation": "توقف عن التسويف وابدأ الدراسة."
+  },
+  {
+   "word": "eloquent",
+   "meaning": "بليغ / فصيح",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "The speaker was eloquent and confident.",
+   "translation": "كان المتحدث بليغاً وواثقاً."
+  },
+  {
+   "word": "dilemma",
+   "meaning": "معضلة",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "She faced a difficult dilemma.",
+   "translation": "واجهت معضلة صعبة."
+  },
+  {
+   "word": "comprehensive",
+   "meaning": "شامل",
+   "topic": "إتقان متقدم",
+   "difficulty": 10,
+   "example": "This is a comprehensive guide to grammar.",
+   "translation": "هذا دليل شامل للقواعد."
+  }
+ ]
+}

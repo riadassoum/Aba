@@ -1,0 +1,92 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 10,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "to be",
+      "meaning": "يكون",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "am",
+       "you": "are",
+       "he": "is",
+       "she": "is",
+       "we": "are",
+       "they": "are"
+      }
+     },
+     {
+      "infinitive": "to have",
+      "meaning": "يملك",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "have",
+       "you": "have",
+       "he": "has",
+       "she": "has",
+       "we": "have",
+       "they": "have"
+      }
+     },
+     {
+      "infinitive": "to go",
+      "meaning": "يذهب",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "go",
+       "you": "go",
+       "he": "goes",
+       "she": "goes",
+       "we": "go",
+       "they": "go"
+      }
+     },
+     {
+      "infinitive": "to do",
+      "meaning": "يفعل",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "do",
+       "you": "do",
+       "he": "does",
+       "she": "does",
+       "we": "do",
+       "they": "do"
+      }
+     },
+     {
+      "infinitive": "to study",
+      "meaning": "يدرس",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "study",
+       "you": "study",
+       "he": "studies",
+       "she": "studies",
+       "we": "study",
+       "they": "study"
+      }
+     },
+     {
+      "infinitive": "to watch",
+      "meaning": "يشاهد",
+      "tense": "المضارع البسيط",
+      "forms": {
+       "I": "watch",
+       "you": "watch",
+       "he": "watches",
+       "she": "watches",
+       "we": "watch",
+       "they": "watch"
+      }
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I {b} sleeping when you called.",
+    "options": [
+     "am",
+     "is",
+     "were",
+     "was"
+    ],
+    "correct": 3,
+    "explanation": "الماضي المستمر: was/were + الفعل+ing.",
+    "topic": "gram.past_continuous"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "They {b} playing when it started to rain.",
+    "options": [
+     "was",
+     "are",
+     "is",
+     "were"
+    ],
+    "correct": 3,
+    "explanation": "مع They نستخدم were.",
+    "topic": "gram.past_continuous"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I think it {b} rain tomorrow.",
+    "options": [
+     "would",
+     "shall",
+     "going",
+     "will"
+    ],
+    "correct": 3,
+    "explanation": "will تُستخدم للتنبؤ بالمستقبل.",
+    "topic": "gram.future"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "We {b} going to visit Paris next year.",
+    "options": [
+     "is",
+     "am",
+     "will",
+     "are"
+    ],
+    "correct": 3,
+    "explanation": "be going to: نستخدم فعل be المناسب للضمير.",
+    "topic": "gram.future"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "This book is {b} than that one.",
+    "options": [
+     "interestinger",
+     "the most interesting",
+     "interesting",
+     "more interesting"
+    ],
+    "correct": 3,
+    "explanation": "الصفات الطويلة تأخذ more + الصفة.",
+    "topic": "gram.comparison"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "He is the {b} student in the class.",
+    "options": [
+     "smarter",
+     "more smart",
+     "most smart",
+     "smartest"
+    ],
+    "correct": 3,
+    "explanation": "الصفات القصيرة تأخذ the + صفة+est للتفضيل.",
+    "topic": "gram.comparison"
+   }
+  }
+ ]
+}

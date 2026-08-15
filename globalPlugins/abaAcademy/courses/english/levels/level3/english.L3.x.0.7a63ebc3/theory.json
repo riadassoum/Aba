@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الصفات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "hungry = جائع",
+   "note": "مثال: I am very hungry now. — أنا جائع جداً الآن."
+  },
+  {
+   "btype": "example",
+   "text": "thirsty = عطشان",
+   "note": "مثال: The children are thirsty. — الأطفال عطشى."
+  },
+  {
+   "btype": "example",
+   "text": "tired = متعب",
+   "note": "مثال: She feels tired after work. — تشعر بالتعب بعد العمل."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «tired»؟",
+    "options": [
+     "جائع",
+     "عطشان",
+     "متعب"
+    ],
+    "correct": 2,
+    "explanation": "«tired» تعني «متعب».",
+    "topic": "en:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "happy = سعيد",
+   "note": "مثال: We are happy to see you. — نحن سعداء برؤيتك."
+  },
+  {
+   "btype": "example",
+   "text": "sad = حزين",
+   "note": "مثال: He looks sad today. — يبدو حزيناً اليوم."
+  },
+  {
+   "btype": "example",
+   "text": "busy = مشغول",
+   "note": "مثال: I am busy this week. — أنا مشغول هذا الأسبوع."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «busy»؟",
+    "options": [
+     "سعيد",
+     "حزين",
+     "مشغول"
+    ],
+    "correct": 2,
+    "explanation": "«busy» تعني «مشغول».",
+    "topic": "en:الصفات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "clean = نظيف",
+   "note": "مثال: Keep your room clean. — حافظ على نظافة غرفتك."
+  },
+  {
+   "btype": "example",
+   "text": "dirty = متسخ",
+   "note": "مثال: The floor is dirty. — الأرضية متسخة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

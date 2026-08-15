@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "aller يعني «يذهب» وتصريفه: je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. ونستخدمه أيضاً لتكوين المستقبل القريب: aller (مُصرّف) + مصدر الفعل. مثل Je vais manger (سآكل)، Nous allons partir (سنغادر). يقابل be going to الإنجليزية."
+  },
+  {
+   "btype": "example",
+   "text": "Je vais à l'école.",
+   "note": "أذهب إلى المدرسة."
+  },
+  {
+   "btype": "example",
+   "text": "Je vais manger.",
+   "note": "سآكل."
+  },
+  {
+   "btype": "example",
+   "text": "Ils vont partir.",
+   "note": "سيغادرون."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ à Paris.",
+    "options": [
+     "vais",
+     "vas",
+     "va",
+     "vont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم vais.",
+    "topic": "gram.aller_futur"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ partir.",
+    "options": [
+     "va",
+     "allez",
+     "allons",
+     "vont"
+    ],
+    "correct": 2,
+    "explanation": "مع nous نستخدم allons.",
+    "topic": "gram.aller_futur"
+   }
+  }
+ ]
+}

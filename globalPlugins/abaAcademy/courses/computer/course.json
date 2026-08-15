@@ -1,0 +1,944 @@
+{
+ "course_id": "computer",
+ "title": "الحاسوب ومهارات المكفوفين",
+ "description": "NVDA، ويندوز، وورد، إكسل، باوربوينت، ولوحة المفاتيح.",
+ "order": 1,
+ "version": "1.0.0",
+ "levels": [
+  {
+   "level_id": "nvda",
+   "title": "المستوى الأول: أساسيات NVDA",
+   "order": 0,
+   "lessons": [
+    {
+     "lesson_id": "computer.what_is.0",
+     "title": "ما هو قارئ الشاشة NVDA",
+     "order": 0,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.0",
+     "title": "مفتاح NVDA والاختصارات الأساسية",
+     "order": 1,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.0",
+     "title": "وضع التصفح ووضع التركيز",
+     "order": 2,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.0",
+     "title": "التنقل بعناصر صفحة الويب",
+     "order": 3,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.what_is.1",
+     "title": "ما هو قارئ الشاشة NVDA — مراجعة 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.1",
+     "title": "مفتاح NVDA والاختصارات الأساسية — مراجعة 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.1",
+     "title": "وضع التصفح ووضع التركيز — مراجعة 2",
+     "order": 6,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.1",
+     "title": "التنقل بعناصر صفحة الويب — مراجعة 2",
+     "order": 7,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.what_is.2",
+     "title": "ما هو قارئ الشاشة NVDA — مراجعة 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.2",
+     "title": "مفتاح NVDA والاختصارات الأساسية — مراجعة 3",
+     "order": 9,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.2",
+     "title": "وضع التصفح ووضع التركيز — مراجعة 3",
+     "order": 10,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.2",
+     "title": "التنقل بعناصر صفحة الويب — مراجعة 3",
+     "order": 11,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.what_is.3",
+     "title": "ما هو قارئ الشاشة NVDA — مراجعة 4",
+     "order": 12,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.3",
+     "title": "مفتاح NVDA والاختصارات الأساسية — مراجعة 4",
+     "order": 13,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.3",
+     "title": "وضع التصفح ووضع التركيز — مراجعة 4",
+     "order": 14,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.3",
+     "title": "التنقل بعناصر صفحة الويب — مراجعة 4",
+     "order": 15,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.what_is.4",
+     "title": "ما هو قارئ الشاشة NVDA — مراجعة 5",
+     "order": 16,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.4",
+     "title": "مفتاح NVDA والاختصارات الأساسية — مراجعة 5",
+     "order": 17,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.4",
+     "title": "وضع التصفح ووضع التركيز — مراجعة 5",
+     "order": 18,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.4",
+     "title": "التنقل بعناصر صفحة الويب — مراجعة 5",
+     "order": 19,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.what_is.5",
+     "title": "ما هو قارئ الشاشة NVDA — مراجعة 6",
+     "order": 20,
+     "objectives": [
+      "إتقان: ما هو قارئ الشاشة NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.keys.5",
+     "title": "مفتاح NVDA والاختصارات الأساسية — مراجعة 6",
+     "order": 21,
+     "objectives": [
+      "إتقان: مفتاح NVDA والاختصارات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.modes.5",
+     "title": "وضع التصفح ووضع التركيز — مراجعة 6",
+     "order": 22,
+     "objectives": [
+      "إتقان: وضع التصفح ووضع التركيز"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.webnav.5",
+     "title": "التنقل بعناصر صفحة الويب — مراجعة 6",
+     "order": 23,
+     "objectives": [
+      "إتقان: التنقل بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.objnav.0",
+     "title": "التنقّل بالكائنات (Object Navigation)",
+     "order": 24,
+     "objectives": [
+      "إتقان: التنقّل بالكائنات (Object Navigation)"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.readtext.0",
+     "title": "قراءة النص والتنقّل فيه",
+     "order": 25,
+     "objectives": [
+      "إتقان: قراءة النص والتنقّل فيه"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.synthring.0",
+     "title": "حلقة إعدادات الصوت",
+     "order": 26,
+     "objectives": [
+      "إتقان: حلقة إعدادات الصوت"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.browseelem.0",
+     "title": "التنقّل السريع بعناصر صفحة الويب",
+     "order": 27,
+     "objectives": [
+      "إتقان: التنقّل السريع بعناصر صفحة الويب"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.0",
+     "title": "التنقّل في الجداول",
+     "order": 28,
+     "objectives": [
+      "إتقان: التنقّل في الجداول"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.find.0",
+     "title": "البحث والقوائم في NVDA",
+     "order": 29,
+     "objectives": [
+      "إتقان: البحث والقوائم في NVDA"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "windows",
+   "title": "المستوى الثاني: ويندوز",
+   "order": 1,
+   "lessons": [
+    {
+     "lesson_id": "computer.start.0",
+     "title": "قائمة ابدأ والتنقل في النظام",
+     "order": 0,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.0",
+     "title": "إدارة الملفات بلوحة المفاتيح",
+     "order": 1,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.start.1",
+     "title": "قائمة ابدأ والتنقل في النظام — مراجعة 2",
+     "order": 2,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.1",
+     "title": "إدارة الملفات بلوحة المفاتيح — مراجعة 2",
+     "order": 3,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.start.2",
+     "title": "قائمة ابدأ والتنقل في النظام — مراجعة 3",
+     "order": 4,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.2",
+     "title": "إدارة الملفات بلوحة المفاتيح — مراجعة 3",
+     "order": 5,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.start.3",
+     "title": "قائمة ابدأ والتنقل في النظام — مراجعة 4",
+     "order": 6,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.3",
+     "title": "إدارة الملفات بلوحة المفاتيح — مراجعة 4",
+     "order": 7,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.start.4",
+     "title": "قائمة ابدأ والتنقل في النظام — مراجعة 5",
+     "order": 8,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.4",
+     "title": "إدارة الملفات بلوحة المفاتيح — مراجعة 5",
+     "order": 9,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.start.5",
+     "title": "قائمة ابدأ والتنقل في النظام — مراجعة 6",
+     "order": 10,
+     "objectives": [
+      "إتقان: قائمة ابدأ والتنقل في النظام"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.files.5",
+     "title": "إدارة الملفات بلوحة المفاتيح — مراجعة 6",
+     "order": 11,
+     "objectives": [
+      "إتقان: إدارة الملفات بلوحة المفاتيح"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "word",
+   "title": "المستوى الثالث: مايكروسوفت وورد",
+   "order": 2,
+   "lessons": [
+    {
+     "lesson_id": "computer.wordnav.0",
+     "title": "وورد: التنقل والتنسيق",
+     "order": 0,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.0",
+     "title": "وورد: العناوين والتنقل ببنية المستند",
+     "order": 1,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.0",
+     "title": "وورد: إنشاء الجداول والتنقل فيها",
+     "order": 2,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.wordnav.1",
+     "title": "وورد: التنقل والتنسيق — مراجعة 2",
+     "order": 3,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.1",
+     "title": "وورد: العناوين والتنقل ببنية المستند — مراجعة 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.1",
+     "title": "وورد: إنشاء الجداول والتنقل فيها — مراجعة 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.wordnav.2",
+     "title": "وورد: التنقل والتنسيق — مراجعة 3",
+     "order": 6,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.2",
+     "title": "وورد: العناوين والتنقل ببنية المستند — مراجعة 3",
+     "order": 7,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.2",
+     "title": "وورد: إنشاء الجداول والتنقل فيها — مراجعة 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.wordnav.3",
+     "title": "وورد: التنقل والتنسيق — مراجعة 4",
+     "order": 9,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.3",
+     "title": "وورد: العناوين والتنقل ببنية المستند — مراجعة 4",
+     "order": 10,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.3",
+     "title": "وورد: إنشاء الجداول والتنقل فيها — مراجعة 4",
+     "order": 11,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.wordnav.4",
+     "title": "وورد: التنقل والتنسيق — مراجعة 5",
+     "order": 12,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.4",
+     "title": "وورد: العناوين والتنقل ببنية المستند — مراجعة 5",
+     "order": 13,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.4",
+     "title": "وورد: إنشاء الجداول والتنقل فيها — مراجعة 5",
+     "order": 14,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.wordnav.5",
+     "title": "وورد: التنقل والتنسيق — مراجعة 6",
+     "order": 15,
+     "objectives": [
+      "إتقان: وورد: التنقل والتنسيق"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.headings.5",
+     "title": "وورد: العناوين والتنقل ببنية المستند — مراجعة 6",
+     "order": 16,
+     "objectives": [
+      "إتقان: وورد: العناوين والتنقل ببنية المستند"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.tables.5",
+     "title": "وورد: إنشاء الجداول والتنقل فيها — مراجعة 6",
+     "order": 17,
+     "objectives": [
+      "إتقان: وورد: إنشاء الجداول والتنقل فيها"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "excel",
+   "title": "المستوى الرابع: مايكروسوفت إكسل",
+   "order": 3,
+   "lessons": [
+    {
+     "lesson_id": "computer.excelnav.0",
+     "title": "إكسل: التنقل بين الخلايا",
+     "order": 0,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.0",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء",
+     "order": 1,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.0",
+     "title": "إكسل: المعادلات الأساسية",
+     "order": 2,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelnav.1",
+     "title": "إكسل: التنقل بين الخلايا — مراجعة 2",
+     "order": 3,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.1",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء — مراجعة 2",
+     "order": 4,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.1",
+     "title": "إكسل: المعادلات الأساسية — مراجعة 2",
+     "order": 5,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelnav.2",
+     "title": "إكسل: التنقل بين الخلايا — مراجعة 3",
+     "order": 6,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.2",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء — مراجعة 3",
+     "order": 7,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.2",
+     "title": "إكسل: المعادلات الأساسية — مراجعة 3",
+     "order": 8,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelnav.3",
+     "title": "إكسل: التنقل بين الخلايا — مراجعة 4",
+     "order": 9,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.3",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء — مراجعة 4",
+     "order": 10,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.3",
+     "title": "إكسل: المعادلات الأساسية — مراجعة 4",
+     "order": 11,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelnav.4",
+     "title": "إكسل: التنقل بين الخلايا — مراجعة 5",
+     "order": 12,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.4",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء — مراجعة 5",
+     "order": 13,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.4",
+     "title": "إكسل: المعادلات الأساسية — مراجعة 5",
+     "order": 14,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelnav.5",
+     "title": "إكسل: التنقل بين الخلايا — مراجعة 6",
+     "order": 15,
+     "objectives": [
+      "إتقان: إكسل: التنقل بين الخلايا"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.excelsplit.5",
+     "title": "إكسل: إدخال البيانات وتجميد الأجزاء — مراجعة 6",
+     "order": 16,
+     "objectives": [
+      "إتقان: إكسل: إدخال البيانات وتجميد الأجزاء"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.formulas.5",
+     "title": "إكسل: المعادلات الأساسية — مراجعة 6",
+     "order": 17,
+     "objectives": [
+      "إتقان: إكسل: المعادلات الأساسية"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "level_id": "powerpoint",
+   "title": "المستوى الخامس: باوربوينت",
+   "order": 4,
+   "lessons": [
+    {
+     "lesson_id": "computer.pptbuild.0",
+     "title": "باوربوينت: بناء العرض التقديمي",
+     "order": 0,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.0",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم",
+     "order": 1,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptbuild.1",
+     "title": "باوربوينت: بناء العرض التقديمي — مراجعة 2",
+     "order": 2,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.1",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم — مراجعة 2",
+     "order": 3,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptbuild.2",
+     "title": "باوربوينت: بناء العرض التقديمي — مراجعة 3",
+     "order": 4,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.2",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم — مراجعة 3",
+     "order": 5,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptbuild.3",
+     "title": "باوربوينت: بناء العرض التقديمي — مراجعة 4",
+     "order": 6,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.3",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم — مراجعة 4",
+     "order": 7,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptbuild.4",
+     "title": "باوربوينت: بناء العرض التقديمي — مراجعة 5",
+     "order": 8,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.4",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم — مراجعة 5",
+     "order": 9,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptbuild.5",
+     "title": "باوربوينت: بناء العرض التقديمي — مراجعة 6",
+     "order": 10,
+     "objectives": [
+      "إتقان: باوربوينت: بناء العرض التقديمي"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    },
+    {
+     "lesson_id": "computer.pptpresent.5",
+     "title": "باوربوينت: العرض والتنقل أثناء التقديم — مراجعة 6",
+     "order": 11,
+     "objectives": [
+      "إتقان: باوربوينت: العرض والتنقل أثناء التقديم"
+     ],
+     "grammar_refs": [],
+     "difficulty": 1
+    }
+   ]
+  }
+ ]
+}

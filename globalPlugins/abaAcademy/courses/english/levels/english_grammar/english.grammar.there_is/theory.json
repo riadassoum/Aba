@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم There is / There are للتعبير عن وجود شيء ما، بمعنى «هناك/يوجد». نستخدم There is مع المفرد وغير المعدود (There is a book، There is water)، وThere are مع الجمع (There are three books). النفي: There isn't / There aren't. السؤال: Is there...? / Are there...? مثال: There is a problem. Are there"
+  },
+  {
+   "btype": "text",
+   "text": "any questions?"
+  },
+  {
+   "btype": "example",
+   "text": "There is a cat in the garden.",
+   "note": "يوجد قطة في الحديقة."
+  },
+  {
+   "btype": "example",
+   "text": "There are five students.",
+   "note": "يوجد خمسة طلاب."
+  },
+  {
+   "btype": "example",
+   "text": "Is there any milk?",
+   "note": "هل يوجد حليب؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ a book on the desk.",
+    "options": [
+     "There is",
+     "There are",
+     "It is",
+     "Have"
+    ],
+    "correct": 0,
+    "explanation": "مفرد: There is.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ many people here.",
+    "options": [
+     "There is",
+     "There are",
+     "It are",
+     "Has"
+    ],
+    "correct": 1,
+    "explanation": "جمع: There are.",
+    "topic": "gram.there_is"
+   }
+  }
+ ]
+}

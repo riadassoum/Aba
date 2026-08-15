@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.compare",
+   "count": 8,
+   "params": {
+    "difficulty": 1
+   }
+  }
+ ]
+}

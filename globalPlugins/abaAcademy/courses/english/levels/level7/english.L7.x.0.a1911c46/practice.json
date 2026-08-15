@@ -1,0 +1,354 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "essay",
+      "meaning": "مقالة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "Write an essay about your city.",
+      "translation": "اكتب مقالة عن مدينتك."
+     },
+     {
+      "word": "exam",
+      "meaning": "امتحان",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The final exam is in June.",
+      "translation": "الامتحان النهائي في حزيران."
+     },
+     {
+      "word": "degree",
+      "meaning": "شهادة جامعية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "She earned a degree in law.",
+      "translation": "حصلت على شهادة في القانون."
+     },
+     {
+      "word": "scholarship",
+      "meaning": "منحة دراسية",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "He won a full scholarship.",
+      "translation": "فاز بمنحة دراسية كاملة."
+     },
+     {
+      "word": "lecture",
+      "meaning": "محاضرة",
+      "topic": "التعليم",
+      "difficulty": 7,
+      "example": "The lecture starts in ten minutes.",
+      "translation": "تبدأ المحاضرة خلال عشر دقائق."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "The letter {b} sent yesterday.",
+    "options": [
+     "is",
+     "were",
+     "has",
+     "was"
+    ],
+    "correct": 3,
+    "explanation": "المبني للمجهول في الماضي: was/were + التصريف الثالث.",
+    "topic": "gram.passive"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "English {b} spoken in many countries.",
+    "options": [
+     "are",
+     "was",
+     "be",
+     "is"
+    ],
+    "correct": 3,
+    "explanation": "المبني للمجهول في المضارع: is/are + التصريف الثالث.",
+    "topic": "gram.passive"
+   }
+  }
+ ]
+}

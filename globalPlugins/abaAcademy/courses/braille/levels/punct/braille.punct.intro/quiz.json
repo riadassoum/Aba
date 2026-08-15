@@ -1,0 +1,13 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 8,
+   "params": {
+    "table": "punctuation",
+    "topic": "braille.punct"
+   }
+  }
+ ]
+}

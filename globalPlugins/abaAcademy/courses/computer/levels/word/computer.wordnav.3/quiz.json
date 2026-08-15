@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 10,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار يجعل النص غامقاً؟",
+      "correct": "Control مع B",
+      "distractors": [
+       "Control مع G",
+       "Control مع D",
+       "Control مع H"
+      ],
+      "explain": "Control+B للنص الغامق.",
+      "topic": "pc.wordnav"
+     },
+     {
+      "prompt": "كيف تذهب لبداية المستند؟",
+      "correct": "Control مع Home",
+      "distractors": [
+       "Home فقط",
+       "Page Up",
+       "Control مع Up"
+      ],
+      "explain": "Control+Home لبداية المستند.",
+      "topic": "pc.wordnav"
+     }
+    ],
+    "topic": "pc.wordnav",
+    "difficulty": 2
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 6,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع B».",
+      "is_true": true,
+      "explain": "Control+B للنص الغامق.",
+      "topic": "pc.wordnav"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع G».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Control مع B».",
+      "topic": "pc.wordnav"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Control مع Home».",
+      "is_true": true,
+      "explain": "Control+Home لبداية المستند.",
+      "topic": "pc.wordnav"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Home فقط».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Control مع Home».",
+      "topic": "pc.wordnav"
+     }
+    ],
+    "topic": "pc.wordnav",
+    "difficulty": 2
+   }
+  }
+ ]
+}

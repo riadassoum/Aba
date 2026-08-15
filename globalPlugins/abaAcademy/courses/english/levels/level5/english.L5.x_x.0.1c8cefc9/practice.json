@@ -1,0 +1,522 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "bigger",
+      "meaning": "أكبر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This house is bigger than mine.",
+      "translation": "هذا المنزل أكبر من منزلي."
+     },
+     {
+      "word": "smaller",
+      "meaning": "أصغر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "My phone is smaller than yours.",
+      "translation": "هاتفي أصغر من هاتفك."
+     },
+     {
+      "word": "better",
+      "meaning": "أفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This plan is better than the last.",
+      "translation": "هذه الخطة أفضل من السابقة."
+     },
+     {
+      "word": "worse",
+      "meaning": "أسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "The weather is worse today.",
+      "translation": "الطقس أسوأ اليوم."
+     },
+     {
+      "word": "the best",
+      "meaning": "الأفضل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "This is the best restaurant in town.",
+      "translation": "هذا أفضل مطعم في المدينة."
+     },
+     {
+      "word": "the worst",
+      "meaning": "الأسوأ",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "That was the worst movie ever.",
+      "translation": "كان أسوأ فيلم على الإطلاق."
+     },
+     {
+      "word": "more",
+      "meaning": "أكثر",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "I need more time.",
+      "translation": "أحتاج وقتاً أكثر."
+     },
+     {
+      "word": "less",
+      "meaning": "أقل",
+      "topic": "المقارنة والتفضيل",
+      "difficulty": 5,
+      "example": "Please make less noise.",
+      "translation": "الرجاء إحداث ضجيج أقل."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

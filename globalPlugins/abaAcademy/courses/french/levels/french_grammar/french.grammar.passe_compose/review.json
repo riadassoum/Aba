@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: J'___ mangé.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "ont"
+    ],
+    "correct": 0,
+    "explanation": "المساعد avoir مع je: ai.",
+    "topic": "gram.passe_compose"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما اسم المفعول من faire؟",
+    "options": [
+     "fais",
+     "fait",
+     "faire",
+     "faisé"
+    ],
+    "correct": 1,
+    "explanation": "شاذ: fait.",
+    "topic": "gram.passe_compose"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "الماضي المركّب = فعل مساعد (avoir) + اسم المفعول.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.passe_compose"
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأماكن». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "ville = مدينة",
+   "note": "مثال: Tripoli est une belle ville. — طرابلس مدينة جميلة."
+  },
+  {
+   "btype": "example",
+   "text": "village = قرية",
+   "note": "مثال: Ils habitent un petit village. — يعيشون في قرية صغيرة."
+  },
+  {
+   "btype": "example",
+   "text": "rue = شارع",
+   "note": "مثال: Traverse la rue prudemment. — اعبر الشارع بحذر."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «rue»؟",
+    "options": [
+     "مدينة",
+     "قرية",
+     "شارع"
+    ],
+    "correct": 2,
+    "explanation": "«rue» تعني «شارع».",
+    "topic": "fr:الأماكن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "école = مدرسة",
+   "note": "مثال: L'école est près de chez moi. — المدرسة قريبة من منزلي."
+  },
+  {
+   "btype": "example",
+   "text": "hôpital = مستشفى",
+   "note": "مثال: Ils l'ont emmené à l'hôpital. — أخذوه إلى المستشفى."
+  },
+  {
+   "btype": "example",
+   "text": "marché = سوق",
+   "note": "مثال: Nous achetons des légumes au marché. — نشتري الخضار من السوق."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «marché»؟",
+    "options": [
+     "مدرسة",
+     "مستشفى",
+     "سوق"
+    ],
+    "correct": 2,
+    "explanation": "«marché» تعني «سوق».",
+    "topic": "fr:الأماكن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "aéroport = مطار",
+   "note": "مثال: L'aéroport est loin d'ici. — المطار بعيد من هنا."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الماضي المركّب يعبّر عن حدث تمّ في الماضي. يتكوّن من فعل مساعد (avoir غالباً) مُصرّف في المضارع + اسم المفعول (participe passé). لأفعال er اسم المفعول ينتهي بـ é: manger → mangé. مثل J'ai mangé (أكلتُ)، Il a parlé (تكلّم)، Nous avons fini (أنهينا). بعض أسماء المفعول شاذة: faire → fait، voir → vu، être → été."
+  },
+  {
+   "btype": "example",
+   "text": "J'ai mangé une pomme.",
+   "note": "أكلتُ تفاحة."
+  },
+  {
+   "btype": "example",
+   "text": "Il a fini son travail.",
+   "note": "أنهى عمله."
+  },
+  {
+   "btype": "example",
+   "text": "Nous avons vu un film.",
+   "note": "شاهدنا فيلماً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: J'___ mangé.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "ont"
+    ],
+    "correct": 0,
+    "explanation": "المساعد avoir مع je: ai.",
+    "topic": "gram.passe_compose"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب اسم المفعول من parler:",
+    "correct": "parlé",
+    "accepted": [],
+    "explanation": "أفعال er: النهاية é.",
+    "topic": "gram.passe_compose"
+   }
+  }
+ ]
+}

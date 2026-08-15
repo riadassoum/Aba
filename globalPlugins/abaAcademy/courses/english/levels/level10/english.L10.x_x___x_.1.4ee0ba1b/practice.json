@@ -1,0 +1,186 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "dilemma",
+      "meaning": "معضلة",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "She faced a difficult dilemma.",
+      "translation": "واجهت معضلة صعبة."
+     },
+     {
+      "word": "comprehensive",
+      "meaning": "شامل",
+      "topic": "إتقان متقدم",
+      "difficulty": 10,
+      "example": "This is a comprehensive guide to grammar.",
+      "translation": "هذا دليل شامل للقواعد."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She can ___ the piano.",
+    "options": [
+     "plays",
+     "played",
+     "play",
+     "playing"
+    ],
+    "correct": 2,
+    "explanation": "بعد can فعل مجرّد: play.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر المناسب للنصيحة: You ___ study for the exam.",
+    "options": [
+     "must not",
+     "should",
+     "can't",
+     "may not"
+    ],
+    "correct": 1,
+    "explanation": "للنصيحة نستخدم should.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "بعد الأفعال الناقصة يأتي الفعل بالتصريف الأول المجرّد.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر المناسب للوجوب القوي: Drivers ___ stop at red lights.",
+    "options": [
+     "should",
+     "can",
+     "must",
+     "might"
+    ],
+    "correct": 2,
+    "explanation": "للوجوب القوي نستخدم must.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He ___ swim very well.",
+    "options": [
+     "can",
+     "cans",
+     "could to",
+     "is can"
+    ],
+    "correct": 0,
+    "explanation": "can لا تأخذ s ولا to.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل بفعل ناقص للقدرة: I ___ ride a bike. اكتب الفعل الناقص.",
+    "correct": "can",
+    "accepted": [],
+    "explanation": "للقدرة نستخدم can.",
+    "topic": "gram.modals"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "I can speak English.",
+      "translation": "أستطيع التحدث بالإنجليزية."
+     },
+     {
+      "text": "You must wear a seatbelt.",
+      "translation": "يجب أن تضع حزام الأمان."
+     },
+     {
+      "text": "You should see a doctor.",
+      "translation": "ينبغي أن تراجع طبيباً."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

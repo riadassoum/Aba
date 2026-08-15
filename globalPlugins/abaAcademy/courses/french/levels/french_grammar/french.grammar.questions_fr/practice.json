@@ -1,0 +1,107 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ est-ce que tu habites?",
+    "options": [
+     "Qui",
+     "Où",
+     "Quand",
+     "Comment"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن المكان: Où.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا تعني pourquoi؟",
+    "options": [
+     "أين",
+     "متى",
+     "لماذا",
+     "كيف"
+    ],
+    "correct": 2,
+    "explanation": "pourquoi = لماذا.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "بم نجيب عن pourquoi؟",
+    "options": [
+     "parce que",
+     "pour",
+     "parce",
+     "car que"
+    ],
+    "correct": 0,
+    "explanation": "نجيب pourquoi بـ parce que.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: ___ est-ce que tu t'appelles? (ما اسمك) اكتب الأداة.",
+    "correct": "Comment",
+    "accepted": [],
+    "explanation": "بالفرنسية «ما اسمك» = Comment t'appelles-tu.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "est-ce que تُستخدم لطرح سؤال بـ نعم/لا.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ ça coûte? (كم يكلّف)",
+    "options": [
+     "Combien",
+     "Comment",
+     "Quand",
+     "Qui"
+    ],
+    "correct": 0,
+    "explanation": "للسؤال عن الكمية/الثمن: Combien.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 2,
+   "params": {
+    "sentences": [
+     {
+      "text": "Est-ce que tu viens?",
+      "translation": "هل ستأتي؟"
+     },
+     {
+      "text": "Pourquoi es-tu triste?",
+      "translation": "لماذا أنت حزين؟"
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

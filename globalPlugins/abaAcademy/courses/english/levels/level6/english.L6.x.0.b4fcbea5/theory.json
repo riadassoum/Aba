@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الصحة». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "headache = صداع",
+   "note": "مثال: I have a bad headache. — لدي صداع شديد."
+  },
+  {
+   "btype": "example",
+   "text": "fever = حمى",
+   "note": "مثال: The child has a fever. — الطفل مصاب بالحمى."
+  },
+  {
+   "btype": "example",
+   "text": "medicine = دواء",
+   "note": "مثال: Take this medicine twice a day. — تناول هذا الدواء مرتين يومياً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «medicine»؟",
+    "options": [
+     "صداع",
+     "حمى",
+     "دواء"
+    ],
+    "correct": 2,
+    "explanation": "«medicine» تعني «دواء».",
+    "topic": "en:الصحة"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "pain = ألم",
+   "note": "مثال: I feel pain in my back. — أشعر بألم في ظهري."
+  },
+  {
+   "btype": "example",
+   "text": "cough = سعال",
+   "note": "مثال: He has a cough and a cold. — لديه سعال ونزلة برد."
+  },
+  {
+   "btype": "example",
+   "text": "appointment = موعد",
+   "note": "مثال: I have an appointment with the doctor. — لدي موعد مع الطبيب."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

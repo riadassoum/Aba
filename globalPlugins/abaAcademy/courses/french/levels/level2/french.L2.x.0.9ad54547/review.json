@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "grand",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "C'est une grande ville.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "petit",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Le chaton est très petit.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "chaud",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "La soupe est chaude.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "froid",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "L'eau est froide.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "nouveau",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "J'ai acheté un nouveau téléphone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "vieux",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "C'est un vieux bâtiment.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "rapide",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Il conduit très vite.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "lent",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Le train est lent aujourd'hui.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "grand",
+      "meaning": "كبير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "C'est une grande ville.",
+      "translation": "هذه مدينة كبيرة."
+     },
+     {
+      "word": "petit",
+      "meaning": "صغير",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Le chaton est très petit.",
+      "translation": "القط صغير جداً."
+     },
+     {
+      "word": "chaud",
+      "meaning": "حار",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "La soupe est chaude.",
+      "translation": "الحساء حار."
+     },
+     {
+      "word": "froid",
+      "meaning": "بارد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "L'eau est froide.",
+      "translation": "الماء بارد."
+     },
+     {
+      "word": "nouveau",
+      "meaning": "جديد",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "J'ai acheté un nouveau téléphone.",
+      "translation": "اشتريت هاتفاً جديداً."
+     },
+     {
+      "word": "vieux",
+      "meaning": "قديم / عجوز",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "C'est un vieux bâtiment.",
+      "translation": "هذا مبنى قديم."
+     },
+     {
+      "word": "rapide",
+      "meaning": "سريع",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Il conduit très vite.",
+      "translation": "يقود بسرعة كبيرة."
+     },
+     {
+      "word": "lent",
+      "meaning": "بطيء",
+      "topic": "الصفات",
+      "difficulty": 2,
+      "example": "Le train est lent aujourd'hui.",
+      "translation": "القطار بطيء اليوم."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

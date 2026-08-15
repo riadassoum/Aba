@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «المضارع البسيط». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: to be، to do، to go، to have، to study، to watch."
+  },
+  {
+   "btype": "example",
+   "text": "I am",
+   "note": "تصريف «to be» مع «I»"
+  },
+  {
+   "btype": "example",
+   "text": "you are",
+   "note": "تصريف «to be» مع «you»"
+  },
+  {
+   "btype": "example",
+   "text": "he is",
+   "note": "تصريف «to be» مع «he»"
+  },
+  {
+   "btype": "example",
+   "text": "she is",
+   "note": "تصريف «to be» مع «she»"
+  },
+  {
+   "btype": "example",
+   "text": "we are",
+   "note": "تصريف «to be» مع «we»"
+  },
+  {
+   "btype": "example",
+   "text": "they are",
+   "note": "تصريف «to be» مع «they»"
+  }
+ ]
+}

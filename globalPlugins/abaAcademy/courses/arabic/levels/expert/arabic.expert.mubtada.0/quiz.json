@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: الطالبُ ...",
+    "options": [
+     "مجتهداً",
+     "مجتهدٍ",
+     "المجتهد",
+     "مجتهدٌ"
+    ],
+    "correct": 3,
+    "explanation": "الخبر مرفوع بالضمة.",
+    "topic": "ar.mubtada"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما إعراب «الجوُّ» في «الجوُّ جميلٌ»؟",
+    "options": [
+     "خبر مرفوع",
+     "فاعل مرفوع",
+     "مفعول به",
+     "مبتدأ مرفوع"
+    ],
+    "correct": 3,
+    "explanation": "هو الاسم الذي بُدئت به الجملة.",
+    "topic": "ar.mubtada"
+   }
+  }
+ ]
+}

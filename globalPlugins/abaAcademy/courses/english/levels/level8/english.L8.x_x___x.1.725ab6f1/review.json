@@ -1,0 +1,56 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "break down",
+      "meaning": "يتعطل / ينهار",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "The car broke down on the highway.",
+      "translation": "تعطلت السيارة على الطريق السريع."
+     },
+     {
+      "word": "come up with",
+      "meaning": "يبتكر فكرة",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "She came up with a great idea.",
+      "translation": "ابتكرت فكرة رائعة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "break down",
+      "meaning": "يتعطل / ينهار",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "The car broke down on the highway.",
+      "translation": "تعطلت السيارة على الطريق السريع."
+     },
+     {
+      "word": "come up with",
+      "meaning": "يبتكر فكرة",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "She came up with a great idea.",
+      "translation": "ابتكرت فكرة رائعة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

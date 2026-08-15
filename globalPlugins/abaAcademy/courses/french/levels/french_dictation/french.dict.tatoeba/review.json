@@ -1,0 +1,534 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 6,
+   "params": {
+    "sentences": [
+     {
+      "text": "Je vous ai réveillés.",
+      "translation": "لقد أيقظتُك."
+     },
+     {
+      "text": "Tu dois aider ta mère !",
+      "translation": "عليك أن تساعد والدتك."
+     },
+     {
+      "text": "Il a une grande famille.",
+      "translation": "لديه عائلة كبيرة."
+     },
+     {
+      "text": "L'économie de cette île dépend de la pêche.",
+      "translation": "يعتمد اقتصاد الجزيرة على صناعة الصيد."
+     },
+     {
+      "text": "Je suis doté d'yeux.",
+      "translation": "لدي عينين."
+     },
+     {
+      "text": "Le train part dans cinq minutes.",
+      "translation": "سينطلق القطار في غضون خمس دقائق."
+     },
+     {
+      "text": "Nous mangeons pour vivre, nous ne vivons pas pour manger.",
+      "translation": "نحن نأكل لنعيش، لا نعيش لنأكل."
+     },
+     {
+      "text": "Je suis ingénieur.",
+      "translation": "انا مهندس."
+     },
+     {
+      "text": "Les gens ne sont pas des marchandises.",
+      "translation": "الناس ليسوا سلعة."
+     },
+     {
+      "text": "Que penses-tu de la langue japonaise ?",
+      "translation": "ما رأيك في اللغة اليابانية؟"
+     },
+     {
+      "text": "Elles ont bu.",
+      "translation": "شربن."
+     },
+     {
+      "text": "Avez-vous beaucoup de stylos ?",
+      "translation": "ألديك أقلام كثيرة؟"
+     },
+     {
+      "text": "Tom aime beaucoup la bureaucratie.",
+      "translation": "توم يحب البيروقراطية كثيرا."
+     },
+     {
+      "text": "Je n'y vais pas.",
+      "translation": "أنا لستُ ذاهباً."
+     },
+     {
+      "text": "Qu'est-ce qui vous amène ici ?",
+      "translation": "ما الذي أتى بك إلى هنا؟"
+     },
+     {
+      "text": "Il rentra à la maison en passant par Hong Kong.",
+      "translation": "عاد إلى البيت مارا بهونغ كونغ."
+     },
+     {
+      "text": "Nous avons marché environ six kilomètres à pied.",
+      "translation": "مشينا ست كيلومترات."
+     },
+     {
+      "text": "J'ai allumé la télévision.",
+      "translation": "شغلت التفاز."
+     },
+     {
+      "text": "Il a fumé.",
+      "translation": "كان يدخّن."
+     },
+     {
+      "text": "Il n'a pas protesté.",
+      "translation": "لم يشتكي."
+     },
+     {
+      "text": "Ce que j'écris n'est pas de l'anglais.",
+      "translation": "ما أكتبه ليس إنجليزية."
+     },
+     {
+      "text": "Je n'ai pas l'adresse, là.",
+      "translation": "ليس معي العنوان الآن."
+     },
+     {
+      "text": "Le plastique ne casse pas facilement.",
+      "translation": "لا ينكسر البلاستيك بسهولة."
+     },
+     {
+      "text": "Reste ici et attends-la.",
+      "translation": "إجلس هنا وانتظرهم."
+     },
+     {
+      "text": "Je vois ton miroir.",
+      "translation": "إِنِّي أَرَى مِرْآتك"
+     },
+     {
+      "text": "Les écureuils se déplacent rapidement.",
+      "translation": "السناجب سريعة الحركة."
+     },
+     {
+      "text": "C'est très gentil à vous.",
+      "translation": "هذا لطف منك."
+     },
+     {
+      "text": "Cette maison est massive.",
+      "translation": "ذاك البيت كبير."
+     },
+     {
+      "text": "Vous faites erreur à ce propos.",
+      "translation": "إنك مخطئ بشأن ذلك."
+     },
+     {
+      "text": "Il habite deux maisons.",
+      "translation": "يعيش في منزلين."
+     },
+     {
+      "text": "Je me déshabille.",
+      "translation": "أنا أخلع ملابسي."
+     },
+     {
+      "text": "J'avais l'intention de passer vous voir, mais j'étais assez occupé cette semaine.",
+      "translation": "نويت أن أزورك لكني كنت شغولاً طوال الأسبوع."
+     },
+     {
+      "text": "Je pense qu'il est encore trop jeune.",
+      "translation": "انا اعتقد انه ما يزال صغيراً"
+     },
+     {
+      "text": "Nous avons besoin d'une ambulance.",
+      "translation": "نحتاج إلى سيارة إسعاف."
+     },
+     {
+      "text": "Où sont tes enfants ?",
+      "translation": "أين ذهب اطفالك؟"
+     },
+     {
+      "text": "C'est merveilleux !",
+      "translation": "مذهل."
+     },
+     {
+      "text": "Il est enfin arrivé.",
+      "translation": "وصل أخيرا."
+     },
+     {
+      "text": "Le riz pousse sous les climats chauds.",
+      "translation": "ينمو الرز في المناخات الدافئة."
+     },
+     {
+      "text": "Il s'était déguisé en médecin.",
+      "translation": "تظاهر بأنه طبيب."
+     },
+     {
+      "text": "Je me dévêts.",
+      "translation": "أنا أخلع ملابسي."
+     },
+     {
+      "text": "Je veux vous demander une dernière faveur.",
+      "translation": "أريد أن أطلب منك خدمة أخيرة."
+     },
+     {
+      "text": "Le garçon alla à l'école.",
+      "translation": "ذَهبَ الولَدُ إلى المدرَسةِ."
+     },
+     {
+      "text": "Ottawa est la capitale du Canada.",
+      "translation": "أتوا هي عاصمة كندا."
+     },
+     {
+      "text": "Elle était cachée.",
+      "translation": "كان مختبئة."
+     },
+     {
+      "text": "N'importe quel étudiant peut répondre à cette question.",
+      "translation": "أي طالب يمكنه الرد على هذا السؤال."
+     },
+     {
+      "text": "Marie étudie toujours deux heures par jour.",
+      "translation": "تدرس ماري كل يوم ساعتين."
+     },
+     {
+      "text": "J'arrive à lire sans lunettes.",
+      "translation": "استطيع القراءة بدون النظارات."
+     },
+     {
+      "text": "Nous sommes partis en train.",
+      "translation": "غادرنا بالقطار."
+     },
+     {
+      "text": "J'ai perdu mon billet.",
+      "translation": "فقدت تذكرتي."
+     },
+     {
+      "text": "Le bébé a pleuré toute la nuit.",
+      "translation": "بكى الطفل طوال اليل."
+     },
+     {
+      "text": "J'ai refusé pour des raisons personnelles.",
+      "translation": "رفضت عن أسباب شخصية."
+     },
+     {
+      "text": "Irez-vous en Amérique le mois prochain ?",
+      "translation": "هل ستذهب إلى أمريكا الشهر القادم؟"
+     },
+     {
+      "text": "Appelle le docteur !",
+      "translation": "اتصل بالطبيب!"
+     },
+     {
+      "text": "Il n'ira pas.",
+      "translation": "لن يذهب."
+     },
+     {
+      "text": "Je ne peux expliquer la différence entre les deux.",
+      "translation": "ليس بإمكاني تفسير الفرق بينهما."
+     },
+     {
+      "text": "Elle s'assit à côté de moi.",
+      "translation": "جلست بجانبي."
+     },
+     {
+      "text": "N'ouvre pas ton livre !",
+      "translation": "لا تفتح كتابك."
+     },
+     {
+      "text": "Je ne travaille pour personne.",
+      "translation": "أنا لا أعمل لأي أحد."
+     },
+     {
+      "text": "Puis-je rester ?",
+      "translation": "هل أستطيع أن أبقى؟"
+     },
+     {
+      "text": "J'ai eu un rêve étrange la nuit dernière.",
+      "translation": "حلمت بحلم غريب ليلة الأمس."
+     },
+     {
+      "text": "Les garçons restent des garçons.",
+      "translation": "سيبقى الأولاد أولاداً."
+     },
+     {
+      "text": "Elle veut un avocat.",
+      "translation": "هي تريد محاميا."
+     },
+     {
+      "text": "Il résolut le problème avec facilité.",
+      "translation": "حل المشكلة بسهولة."
+     },
+     {
+      "text": "Prends-en autant que tu veux.",
+      "translation": "خذ قدر ما تريد."
+     },
+     {
+      "text": "Je veux me marier avec elle.",
+      "translation": "أريد أن أتزوج منها."
+     },
+     {
+      "text": "Je te prie de m'excuser de ne pas t'avoir écrit plus tôt.",
+      "translation": "إعذرني لأني لم أكتب أبكر."
+     },
+     {
+      "text": "Chaque matin je vais à l'école.",
+      "translation": "أذهب إلى المدرسة كل صباح."
+     },
+     {
+      "text": "Ne regardez pas derrière.",
+      "translation": "لا تنظر إلى الوراء."
+     },
+     {
+      "text": "Nous nous mariions.",
+      "translation": "لقد تزوجنا ."
+     },
+     {
+      "text": "Il est le plus grand de sa classe.",
+      "translation": "هو الأطول في الصف."
+     },
+     {
+      "text": "Nous sommes quittes.",
+      "translation": "نحن بخير."
+     },
+     {
+      "text": "Il s'est déguisé en femme.",
+      "translation": "هو لبس كامرأة."
+     },
+     {
+      "text": "Je ne suis pas un spécialiste.",
+      "translation": "أنا لست خبيرا."
+     },
+     {
+      "text": "Je suis originaire du Brésil.",
+      "translation": "أنا من البرازيل."
+     },
+     {
+      "text": "Ne me laissez pas seule.",
+      "translation": "لا تتركني وحيدا."
+     },
+     {
+      "text": "Il a eu le béguin pour elle.",
+      "translation": "كان مغرما بها."
+     },
+     {
+      "text": "Il aime voyager seul.",
+      "translation": "يعجبه السفر لوحده."
+     },
+     {
+      "text": "Pourquoi es-tu toujours en retard ?",
+      "translation": "لماذا تتأخر دائما؟"
+     },
+     {
+      "text": "Bob et Tom sont frères.",
+      "translation": "بوب و توم أخوَيْن."
+     },
+     {
+      "text": "Tom n'est pas un ange.",
+      "translation": "توم ليس ملاكاً"
+     },
+     {
+      "text": "Marie s'est allongée.",
+      "translation": "تمددت ماري."
+     },
+     {
+      "text": "Je te ramènerai chez toi.",
+      "translation": "سأوصلك إلى المنزل بالسيارة."
+     },
+     {
+      "text": "Distribuez les cartes, s'il vous plaît.",
+      "translation": "من فضلك وزّع الورق."
+     },
+     {
+      "text": "Quel merveilleux cadeau !",
+      "translation": "يا لها من هدية رائعة."
+     },
+     {
+      "text": "Tom était caché.",
+      "translation": "كان توم مختبئا."
+     },
+     {
+      "text": "Un camion a percuté le chien.",
+      "translation": "الشاحنة صدمت الكلب."
+     },
+     {
+      "text": "J'ai une famille.",
+      "translation": "عندي عائلة."
+     },
+     {
+      "text": "Son visage s'empourpra.",
+      "translation": "إحمرّ وجهها."
+     },
+     {
+      "text": "Nous voulons tous que les prix baissent.",
+      "translation": "جميعنا يريد أن تنخفض الأسعار."
+     },
+     {
+      "text": "Elle supposa que j'étais médecin.",
+      "translation": "ظنت أني طبيب."
+     },
+     {
+      "text": "Je me suis bagarré.",
+      "translation": "تعاركت."
+     },
+     {
+      "text": "Elle pleurait amèrement.",
+      "translation": "بكت بحرارة."
+     },
+     {
+      "text": "Montre-nous le droit chemin.",
+      "translation": "اهدنا الصراط المستقيم."
+     },
+     {
+      "text": "En rentrant chez moi, je suis tombé sur un chien.",
+      "translation": "مررت بكلب في طريقي إلى البيت."
+     },
+     {
+      "text": "Dimanche vient après samedi.",
+      "translation": "يأتي الأحد بعد السبت."
+     },
+     {
+      "text": "Je n'étais pas prêt.",
+      "translation": "أنا لست جاهزا."
+     },
+     {
+      "text": "Est-ce tellement mal ?",
+      "translation": "هل الأمر سيّء إلى هذا الحد؟"
+     },
+     {
+      "text": "Que vais-je mettre: un pantalon ou une jupe ?",
+      "translation": "ماذا يجب أن ألبس: سروال أو تنورة؟"
+     },
+     {
+      "text": "Il a essayé de m'arnaquer.",
+      "translation": "لقد حاول أن يخدعني."
+     },
+     {
+      "text": "Personne ne sait ce qui est arrivé.",
+      "translation": "لا أحد يعلم ما حدث."
+     },
+     {
+      "text": "Il n'y a aucune solution.",
+      "translation": "ليس هناك حل."
+     },
+     {
+      "text": "Elle n'aura pas froid.",
+      "translation": "لن تشعر بالبرد."
+     },
+     {
+      "text": "Personne n'a menti.",
+      "translation": "لم يكذب أحد."
+     },
+     {
+      "text": "Maintenant la balle est dans votre camp !",
+      "translation": "الكرة الآن في ملعبك!"
+     },
+     {
+      "text": "Venez avec moi, je vous prie.",
+      "translation": "تعال معي."
+     },
+     {
+      "text": "Dan a entamé une nouvelle amitié avec Linda.",
+      "translation": "أقام دان علاقة صداقة جديدة مع ليندا."
+     },
+     {
+      "text": "J'ai besoin de ton aide.",
+      "translation": "أحتاج إلى مساعدتك."
+     },
+     {
+      "text": "La neige a fondu.",
+      "translation": "ذاب ذلك الثلج."
+     },
+     {
+      "text": "Les chevaux sont des animaux.",
+      "translation": "الحصان حيوان."
+     },
+     {
+      "text": "L'homme assis là-bas est un chanteur célèbre.",
+      "translation": "الرجل الذي يجلس هناك مغن شهير."
+     },
+     {
+      "text": "Leur fille prétend voir des monstres.",
+      "translation": "تقول ابنتهم أنها ترى وحوشا."
+     },
+     {
+      "text": "Il devenait célèbre.",
+      "translation": "أصبح مشهور"
+     },
+     {
+      "text": "Je pensais que vous n'arriveriez jamais ici.",
+      "translation": "ظننت أنك لن تأتِ لهنا."
+     },
+     {
+      "text": "J'ai tourné à droite.",
+      "translation": "انعطفتُ يمينًا."
+     },
+     {
+      "text": "J'aime ce chien.",
+      "translation": "أحب ذلك الكلب."
+     },
+     {
+      "text": "Tom n'a pas trouvé ses lunettes.",
+      "translation": "لم يجد توم نظاراته."
+     },
+     {
+      "text": "Quelque chose est survenu.",
+      "translation": "حدث شيء ما."
+     },
+     {
+      "text": "Réponds à la question.",
+      "translation": "أجب على السؤال."
+     },
+     {
+      "text": "N'oublie pas que nous avons des devoirs à faire.",
+      "translation": "لا تنس أن لدينا واجباً."
+     },
+     {
+      "text": "Sois toi-même !",
+      "translation": "كن نفسك."
+     },
+     {
+      "text": "Nous avons besoin d'actes, pas de mots.",
+      "translation": "نحتاج إلى العمل وليس الكلام."
+     },
+     {
+      "text": "Dites-lui de patienter.",
+      "translation": "أخبره بأن ينتظر"
+     },
+     {
+      "text": "Nous devons appeler la police.",
+      "translation": "يجب ان نتصل بالشرطة"
+     },
+     {
+      "text": "L'entreprise a l'intention de s'étendre en Chine.",
+      "translation": "تهدف الشركة إلى فتح فروع في الصين."
+     },
+     {
+      "text": "Je vais courir.",
+      "translation": "أنا ذاهب للجري"
+     },
+     {
+      "text": "Elles m'ont laissée m'en aller.",
+      "translation": "هُم تركوني أذهب."
+     },
+     {
+      "text": "Je veux que vous sortiez de la ville.",
+      "translation": "أريد أن تخرج من المدينة."
+     },
+     {
+      "text": "Je suis un garçon.",
+      "translation": "أنا ولد."
+     },
+     {
+      "text": "Il faut que tu arrêtes.",
+      "translation": "يجب أن تتوقف"
+     },
+     {
+      "text": "Cette histoire est vraie.",
+      "translation": "هذه قصة حقيقية."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

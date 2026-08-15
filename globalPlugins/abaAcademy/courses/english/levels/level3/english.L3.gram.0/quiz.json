@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "He {b} not like coffee.",
+    "options": [
+     "do",
+     "is",
+     "did",
+     "does"
+    ],
+    "correct": 3,
+    "explanation": "مع He/She/It نستخدم does not في النفي.",
+    "topic": "gram.present_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "{b} you speak French?",
+    "options": [
+     "Does",
+     "Are",
+     "Did",
+     "Do"
+    ],
+    "correct": 3,
+    "explanation": "مع I/You/We/They نستخدم Do في السؤال.",
+    "topic": "gram.present_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Look! It {b} raining.",
+    "options": [
+     "am",
+     "are",
+     "was",
+     "is"
+    ],
+    "correct": 3,
+    "explanation": "المضارع المستمر: فعل be + الفعل+ing.",
+    "topic": "gram.present_continuous"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "We {b} studying now.",
+    "options": [
+     "is",
+     "am",
+     "was",
+     "are"
+    ],
+    "correct": 3,
+    "explanation": "مع We نستخدم are + الفعل+ing.",
+    "topic": "gram.present_continuous"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I {b} writing an email right now.",
+    "options": [
+     "is",
+     "are",
+     "was",
+     "am"
+    ],
+    "correct": 3,
+    "explanation": "مع I نستخدم am + الفعل+ing.",
+    "topic": "gram.present_continuous"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "The keys are {b} the table.",
+    "options": [
+     "in",
+     "at",
+     "to",
+     "on"
+    ],
+    "correct": 3,
+    "explanation": "on تعني فوق سطح شيء.",
+    "topic": "gram.prepositions"
+   }
+  }
+ ]
+}

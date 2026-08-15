@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم الماضي المستمر لحدث كان مستمراً في لحظة معيّنة في الماضي، مثل «كنت أقرأ عندما رنّ الهاتف». تركيبه: was / were + الفعل + ing. نستخدم was مع المفرد (I / he / she / it) وwere مع الجمع (you / we / they). كثيراً ما يأتي مع الماضي البسيط: الحدث الطويل بالماضي المستمر، والحدث القصير المفاجئ بالماضي"
+  },
+  {
+   "btype": "text",
+   "text": "البسيط: I was sleeping when he called."
+  },
+  {
+   "btype": "example",
+   "text": "I was reading when he called.",
+   "note": "كنت أقرأ عندما اتصل."
+  },
+  {
+   "btype": "example",
+   "text": "They were playing outside.",
+   "note": "كانوا يلعبون في الخارج."
+  },
+  {
+   "btype": "example",
+   "text": "She was cooking at 8.",
+   "note": "كانت تطبخ الساعة الثامنة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ watching TV when you arrived.",
+    "options": [
+     "was",
+     "were",
+     "is",
+     "did"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم was.",
+    "topic": "gram.past_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: They ___ studying all night.",
+    "options": [
+     "was",
+     "were",
+     "are",
+     "did"
+    ],
+    "correct": 1,
+    "explanation": "مع they نستخدم were.",
+    "topic": "gram.past_cont"
+   }
+  }
+ ]
+}

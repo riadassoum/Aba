@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأفعال — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "parler = يتكلم",
+   "note": "مثال: Je parle français un peu. — أتكلم الفرنسية قليلاً."
+  },
+  {
+   "btype": "example",
+   "text": "manger = يأكل",
+   "note": "مثال: Nous mangeons à huit heures. — نأكل الساعة الثامنة."
+  },
+  {
+   "btype": "example",
+   "text": "regarder = يشاهد",
+   "note": "مثال: Ils regardent la télévision. — يشاهدون التلفاز."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «regarder»؟",
+    "options": [
+     "يتكلم",
+     "يأكل",
+     "يشاهد"
+    ],
+    "correct": 2,
+    "explanation": "«regarder» تعني «يشاهد».",
+    "topic": "fr:الأفعال — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "écouter = يستمع",
+   "note": "مثال: Écoute cette chanson. — استمع إلى هذه الأغنية."
+  },
+  {
+   "btype": "example",
+   "text": "travailler = يعمل",
+   "note": "مثال: Elle travaille dans un bureau. — تعمل في مكتب."
+  },
+  {
+   "btype": "example",
+   "text": "étudier = يدرس",
+   "note": "مثال: J'étudie le français chaque jour. — أدرس الفرنسية كل يوم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «étudier»؟",
+    "options": [
+     "يستمع",
+     "يعمل",
+     "يدرس"
+    ],
+    "correct": 2,
+    "explanation": "«étudier» تعني «يدرس».",
+    "topic": "fr:الأفعال — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "acheter = يشتري",
+   "note": "مثال: Je veux acheter un cadeau. — أريد أن أشتري هدية."
+  },
+  {
+   "btype": "example",
+   "text": "aimer = يحب",
+   "note": "مثال: J'aime la musique classique. — أحب الموسيقى الكلاسيكية."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

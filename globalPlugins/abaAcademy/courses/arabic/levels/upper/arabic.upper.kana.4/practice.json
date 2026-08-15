@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 20,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: كان الجوُّ ...",
+      "correct": "جميلاً",
+      "distractors": [
+       "جميلٌ",
+       "جميلٍ",
+       "الجميل"
+      ],
+      "explain": "خبر كان منصوب.",
+      "topic": "ar.kana"
+     },
+     {
+      "prompt": "ليس الامتحانُ ...",
+      "correct": "صعباً",
+      "distractors": [
+       "صعبٌ",
+       "صعبٍ",
+       "الصعب"
+      ],
+      "explain": "ليس من أخوات كان تنصب الخبر.",
+      "topic": "ar.kana"
+     }
+    ],
+    "topic": "ar.kana",
+    "difficulty": 5
+   }
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الفعل to be يعني «يكون» ويتغيّر حسب الفاعل. نستخدم am مع I فقط (I am)، وis مع المفرد الغائب he / she / it (he is)، وare مع you وجمع we / they (they are). في الجملة الاسمية الإنجليزية لا بدّ من هذا الفعل، فلا نقول «He happy» بل «He is happy». صيغة النفي بإضافة not: I am not، he is not (isn't)، they"
+  },
+  {
+   "btype": "text",
+   "text": "are not (aren't)."
+  },
+  {
+   "btype": "example",
+   "text": "I am a teacher.",
+   "note": "أنا معلّم."
+  },
+  {
+   "btype": "example",
+   "text": "She is tired.",
+   "note": "هي متعبة."
+  },
+  {
+   "btype": "example",
+   "text": "They are here.",
+   "note": "هم هنا."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She ___ a doctor.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم is.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: We ___ friends.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 2,
+    "explanation": "مع we نستخدم are.",
+    "topic": "gram.to_be"
+   }
+  }
+ ]
+}

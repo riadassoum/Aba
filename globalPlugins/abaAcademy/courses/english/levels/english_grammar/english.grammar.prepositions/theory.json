@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "للمكان: نستخدم in للأماكن المغلقة أو الكبيرة (in the room, in London)، on للأسطح (on the table, on the wall)، at لنقطة محددة (at the door, at the bus stop). للزمان: in للشهور والسنوات والفترات (in May, in 2020, in the morning)، on للأيام والتواريخ (on Monday, on May 5)، at للساعات واللحظات (at 7"
+  },
+  {
+   "btype": "text",
+   "text": "o'clock, at night). مثال: I was born in 1990 on a cold day at midnight."
+  },
+  {
+   "btype": "example",
+   "text": "The book is on the table.",
+   "note": "الكتاب على الطاولة."
+  },
+  {
+   "btype": "example",
+   "text": "We meet at 5 o'clock.",
+   "note": "نلتقي الساعة الخامسة."
+  },
+  {
+   "btype": "example",
+   "text": "She was born in May.",
+   "note": "وُلدت في مايو."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The keys are ___ the table.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 1,
+    "explanation": "على سطح: on.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I'll see you ___ Monday.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 1,
+    "explanation": "مع الأيام: on.",
+    "topic": "gram.prepositions"
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: إنّ الجوَّ ...",
+    "options": [
+     "جميلاً",
+     "جميلٍ",
+     "الجميل",
+     "جميلٌ"
+    ],
+    "correct": 3,
+    "explanation": "خبر إنّ مرفوع.",
+    "topic": "ar.inna"
+   }
+  }
+ ]
+}

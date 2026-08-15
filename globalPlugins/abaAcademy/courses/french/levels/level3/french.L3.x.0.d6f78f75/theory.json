@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المواصلات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "voiture = سيارة",
+   "note": "مثال: Il a acheté une nouvelle voiture. — اشترى سيارة جديدة."
+  },
+  {
+   "btype": "example",
+   "text": "bus = حافلة",
+   "note": "مثال: Nous avons pris le bus pour l'école. — ركبنا الحافلة إلى المدرسة."
+  },
+  {
+   "btype": "example",
+   "text": "train = قطار",
+   "note": "مثال: Le train arrive à midi. — يصل القطار عند الظهر."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «train»؟",
+    "options": [
+     "سيارة",
+     "حافلة",
+     "قطار"
+    ],
+    "correct": 2,
+    "explanation": "«train» تعني «قطار».",
+    "topic": "fr:المواصلات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "avion = طائرة",
+   "note": "مثال: L'avion a décollé à l'heure. — أقلعت الطائرة في الموعد."
+  },
+  {
+   "btype": "example",
+   "text": "vélo = دراجة هوائية",
+   "note": "مثال: Elle fait du vélo chaque jour. — تركب دراجتها يومياً."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

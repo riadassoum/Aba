@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 13,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار لإعادة تسمية ملف؟",
+      "correct": "F2",
+      "distractors": [
+       "F5",
+       "Control مع R",
+       "Alt مع Enter"
+      ],
+      "explain": "F2 لإعادة التسمية.",
+      "topic": "pc.files"
+     },
+     {
+      "prompt": "ماذا يفعل Control مع X؟",
+      "correct": "قص الملف",
+      "distractors": [
+       "نسخ",
+       "حذف نهائي",
+       "فتح"
+      ],
+      "explain": "Control+X للقص.",
+      "topic": "pc.files"
+     }
+    ],
+    "topic": "pc.files",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 10,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار لإعادة تسمية ملف؟ الإجابة هي «F2».",
+      "is_true": true,
+      "explain": "F2 لإعادة التسمية.",
+      "topic": "pc.files"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار لإعادة تسمية ملف؟ الإجابة هي «F5».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «F2».",
+      "topic": "pc.files"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل Control مع X؟ الإجابة هي «قص الملف».",
+      "is_true": true,
+      "explain": "Control+X للقص.",
+      "topic": "pc.files"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل Control مع X؟ الإجابة هي «نسخ».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «قص الملف».",
+      "topic": "pc.files"
+     }
+    ],
+    "topic": "pc.files",
+    "difficulty": 3
+   }
+  }
+ ]
+}

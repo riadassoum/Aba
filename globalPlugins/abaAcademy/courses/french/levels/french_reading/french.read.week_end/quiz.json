@@ -1,0 +1,62 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Où est allée Marie?",
+    "options": [
+     "au cinéma",
+     "au parc",
+     "à l'école",
+     "au marché"
+    ],
+    "correct": 1,
+    "explanation": "«Marie est allée au parc».",
+    "topic": "reading.week_end"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Quel temps faisait-il?",
+    "options": [
+     "il pleuvait",
+     "il faisait beau",
+     "il neigeait",
+     "il faisait froid"
+    ],
+    "correct": 1,
+    "explanation": "«Il faisait beau et chaud».",
+    "topic": "reading.week_end"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "Ils sont rentrés contents.",
+    "correct": true,
+    "explanation": "«fatigués mais contents».",
+    "topic": "reading.week_end"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "À quel sport ont-ils joué?",
+    "options": [
+     "au tennis",
+     "au football",
+     "au basket",
+     "au volley"
+    ],
+    "correct": 1,
+    "explanation": "«ils ont joué au football».",
+    "topic": "reading.week_end"
+   }
+  }
+ ]
+}

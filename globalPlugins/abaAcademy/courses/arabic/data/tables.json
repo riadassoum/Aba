@@ -1,0 +1,45 @@
+{
+  "plurals": {
+    "pairs": [
+      {"singular": "كِتاب", "plural": "كُتُب", "kind": "تكسير"},
+      {"singular": "قَلَم", "plural": "أقلام", "kind": "تكسير"},
+      {"singular": "بَيت", "plural": "بيوت", "kind": "تكسير"},
+      {"singular": "مُعَلِّم", "plural": "معلمون", "kind": "سالم مذكر"},
+      {"singular": "مُسلِم", "plural": "مسلمون", "kind": "سالم مذكر"},
+      {"singular": "مُهَندِس", "plural": "مهندسون", "kind": "سالم مذكر"},
+      {"singular": "مُعَلِّمة", "plural": "معلمات", "kind": "سالم مؤنث"},
+      {"singular": "طالِبة", "plural": "طالبات", "kind": "سالم مؤنث"},
+      {"singular": "شَجَرة", "plural": "أشجار", "kind": "تكسير"},
+      {"singular": "نَجم", "plural": "نجوم", "kind": "تكسير"},
+      {"singular": "رَجُل", "plural": "رجال", "kind": "تكسير"},
+      {"singular": "مؤمِن", "plural": "مؤمنون", "kind": "سالم مذكر"}
+    ]
+  },
+  "verbs": {
+    "verbs": [
+      {"stem": "كتب", "meaning": "يكتب"},
+      {"stem": "قرأ", "meaning": "يقرأ"},
+      {"stem": "لعب", "meaning": "يلعب"},
+      {"stem": "درس", "meaning": "يدرس"},
+      {"stem": "شرب", "meaning": "يشرب"},
+      {"stem": "سمع", "meaning": "يسمع"},
+      {"stem": "فتح", "meaning": "يفتح"},
+      {"stem": "جلس", "meaning": "يجلس"}
+    ]
+  },
+  "hamza_cases": {
+    "cases": [
+      {"word_hint": "سُؤال", "prev": "damma", "hamza": "sukun"},
+      {"word_hint": "بِئر", "prev": "kasra", "hamza": "sukun"},
+      {"word_hint": "رَأس", "prev": "fatha", "hamza": "sukun"},
+      {"word_hint": "مِئة", "prev": "kasra", "hamza": "fatha"},
+      {"word_hint": "فُؤاد", "prev": "damma", "hamza": "fatha"},
+      {"word_hint": "سائِل", "prev": "fatha", "hamza": "kasra"},
+      {"word_hint": "مُؤَذِّن", "prev": "damma", "hamza": "fatha"},
+      {"word_hint": "رِئة", "prev": "kasra", "hamza": "fatha"}
+    ]
+  },
+  "definite_words": {
+    "words": ["الشمس", "القمر", "التاج", "الباب", "الرجل", "الكتاب", "النجم", "الجبل", "الدار", "الحقل", "الطريق", "الوردة", "الصديق", "المدرسة", "السماء", "العين", "الشجرة", "الغصن", "الليل", "الهواء"]
+  }
+}

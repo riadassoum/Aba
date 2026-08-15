@@ -1,0 +1,44 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 12,
+   "params": {
+    "signs": {
+     "1": "⠁",
+     "2": "⠃",
+     "3": "⠉",
+     "4": "⠙",
+     "5": "⠑",
+     "6": "⠋",
+     "7": "⠛",
+     "8": "⠓",
+     "9": "⠊",
+     "0": "⠚"
+    },
+    "topic": "braille.digits"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "braille.count",
+   "count": 4,
+   "params": {
+    "signs": {
+     "1": "⠁",
+     "2": "⠃",
+     "3": "⠉",
+     "4": "⠙",
+     "5": "⠑",
+     "6": "⠋",
+     "7": "⠛",
+     "8": "⠓",
+     "9": "⠊",
+     "0": "⠚"
+    },
+    "topic": "braille.digits"
+   }
+  }
+ ]
+}

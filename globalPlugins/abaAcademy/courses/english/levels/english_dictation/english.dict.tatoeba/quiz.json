@@ -1,0 +1,630 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 10,
+   "params": {
+    "sentences": [
+     {
+      "text": "Please tell me where to go next.",
+      "translation": "أخبرني من فضلك إلى أي مكان أذهب بعد ذلك."
+     },
+     {
+      "text": "My phone is beautiful.",
+      "translation": "هاتفي جميل."
+     },
+     {
+      "text": "The horse stopped and wouldn't move.",
+      "translation": "توقف الحصان و رفض أن يتحرك."
+     },
+     {
+      "text": "That student lives in that room.",
+      "translation": "هذا الطالب يسكن في هذه الغرفة."
+     },
+     {
+      "text": "Cows are grazing in the meadow.",
+      "translation": "الأبقار يأكلون الأعشاب في البريّة."
+     },
+     {
+      "text": "Tom was crazy about Mary.",
+      "translation": "توم متيم بماري."
+     },
+     {
+      "text": "I counted to two hundred.",
+      "translation": "لقد عددت الي مئتان."
+     },
+     {
+      "text": "Sami believed everything.",
+      "translation": "صدّق سامي كلّ شيء."
+     },
+     {
+      "text": "The prosperity of a country depends upon its citizens.",
+      "translation": "إن الازدهار في بلد ما يعتمد على مواطنيها."
+     },
+     {
+      "text": "Tom started talking to himself.",
+      "translation": "توم بدأ يكلم نفسه."
+     },
+     {
+      "text": "Tom seemed bored.",
+      "translation": "بدى توم ضجرا."
+     },
+     {
+      "text": "I was strip-searched at the airport.",
+      "translation": "تمّ تفتيشي جسديّا في المطار."
+     },
+     {
+      "text": "This is the only camera I've got.",
+      "translation": "هذه هي الكاميرا الوحيدة لدي."
+     },
+     {
+      "text": "I'm sure I turned off the gas.",
+      "translation": "أنا متأكّد من أنّني أطفيت الغاز."
+     },
+     {
+      "text": "Layla's hair is a big part of her appeal.",
+      "translation": "يمثّل شعر ليلى جزءا هامّا من جاذبيّتها."
+     },
+     {
+      "text": "They left early.",
+      "translation": "ذهبوا مبكرا."
+     },
+     {
+      "text": "Tom never could hide a secret from Mary.",
+      "translation": "توم لا يمكنهُ إخفاء سر عن ماريا."
+     },
+     {
+      "text": "I got this bicycle for free.",
+      "translation": "حصلت على هذه الدراجة مجاناً."
+     },
+     {
+      "text": "Tom is from Boston.",
+      "translation": "توم هو من بوستون."
+     },
+     {
+      "text": "They blocked her.",
+      "translation": "حجبوها."
+     },
+     {
+      "text": "Tom wasn't invited to the banquet.",
+      "translation": "توم لم يكن مدعوّاً إلى المأدبة."
+     },
+     {
+      "text": "Sami started shooting.",
+      "translation": "بدأ سامي يطلق النّار."
+     },
+     {
+      "text": "I came across one.",
+      "translation": "وجدت واحدا."
+     },
+     {
+      "text": "They're collecting tissue from critically endangered animals.",
+      "translation": "هم يجمعون الأنسجة من الحيوانات التي هي على وشك الزوال."
+     },
+     {
+      "text": "Let's get started.",
+      "translation": "هيا لنبدأ."
+     },
+     {
+      "text": "Sami died here.",
+      "translation": "مات سامي هنا."
+     },
+     {
+      "text": "Take me back to the office.",
+      "translation": "أرجعني إلى المكتب."
+     },
+     {
+      "text": "Fadil told police what happened.",
+      "translation": "روى فاضل للشرطة ما حدث."
+     },
+     {
+      "text": "Mary bores me.",
+      "translation": "ماري تزعجني."
+     },
+     {
+      "text": "Where's the doctor?",
+      "translation": "أين هو الطبيب؟"
+     },
+     {
+      "text": "Generally speaking, savings are increasing.",
+      "translation": "عموماً ، مدّخرات الأفراد في اِزدياد."
+     },
+     {
+      "text": "All of us want prices to decline.",
+      "translation": "جميعنا يريد أن تنخفض الأسعار."
+     },
+     {
+      "text": "What's Germany's largest lake?",
+      "translation": "ما هي أكبر بحيرة في ألمانيا؟"
+     },
+     {
+      "text": "There were hundreds of ticks in its fur.",
+      "translation": "لقد كان هناك مئات من القِرْدان في فروِهِ ."
+     },
+     {
+      "text": "Do you hear that?",
+      "translation": "هل سمعت هذا؟"
+     },
+     {
+      "text": "He attends medical conferences.",
+      "translation": "هو يحضر المحاضرات الطّبّيّة."
+     },
+     {
+      "text": "Do you think money will bring you happiness?",
+      "translation": "أتعتقد أن المال سيجلب لك السعادة?"
+     },
+     {
+      "text": "Tom wanted to go wherever Mary was going.",
+      "translation": "توم أراد أن يذهب أينما كانت ماري تذهب ."
+     },
+     {
+      "text": "I don't speak fast.",
+      "translation": "أنا لا أتكلم بسرعة."
+     },
+     {
+      "text": "After that, what happened?",
+      "translation": "وبعد ذلك، ماذا حصل؟"
+     },
+     {
+      "text": "I love French films.",
+      "translation": "أحب الأفلام الفرنسية."
+     },
+     {
+      "text": "She lifted the box up.",
+      "translation": "رفعت العلبة."
+     },
+     {
+      "text": "Sinus infection is a nuisance to most people.",
+      "translation": "التهاب الجيوب الأنفية مصدر إزعاج لمعظم الناس."
+     },
+     {
+      "text": "He will play tennis with his friends.",
+      "translation": "سوف يلعب كرة المضرب مع أصدقائه."
+     },
+     {
+      "text": "It's a Muslim name.",
+      "translation": "هذا اسم مسلم."
+     },
+     {
+      "text": "We want it.",
+      "translation": "نريده."
+     },
+     {
+      "text": "Layla hit Sami.",
+      "translation": "أصابت ليلى سامي."
+     },
+     {
+      "text": "I like the dog.",
+      "translation": "أحب ذلك الكلب."
+     },
+     {
+      "text": "We lost Mary.",
+      "translation": "فقدنا ماري."
+     },
+     {
+      "text": "Pleasure doing business with you.",
+      "translation": "شرّفنا التعامل معكم."
+     },
+     {
+      "text": "There's nobody home.",
+      "translation": "لا يوجد أحد في البيت."
+     },
+     {
+      "text": "I think it is best not to be impolite.",
+      "translation": "أظن أن من الأفضل ألا تكون وقِحًا."
+     },
+     {
+      "text": "Does Tom have it?",
+      "translation": "هل هي متوفرة عند توم؟"
+     },
+     {
+      "text": "The art exhibition is now being held in Kyoto.",
+      "translation": "يعقد الآن المعرض الفني في كيوتو."
+     },
+     {
+      "text": "Who invented the telephone?",
+      "translation": "من اخترع الهاتف؟"
+     },
+     {
+      "text": "Choose your favorite racket.",
+      "translation": "اختر مضربك المفضل."
+     },
+     {
+      "text": "Are you freaking kidding me?!",
+      "translation": "هل تمزحُ معي؟"
+     },
+     {
+      "text": "Don't drink beer before going to bed!",
+      "translation": "لا تشرب الجعة قبل الذهاب إلى السرير."
+     },
+     {
+      "text": "I love my yellow sweater.",
+      "translation": "أحب كنزتي الصفراء."
+     },
+     {
+      "text": "Tom is an exemplary father.",
+      "translation": "طوم أب مثالي."
+     },
+     {
+      "text": "I'm over eighteen.",
+      "translation": "أنا فوق ثمانية عشر عاماً."
+     },
+     {
+      "text": "How old is your son?",
+      "translation": "كم عمر ابنك؟"
+     },
+     {
+      "text": "I love your house.",
+      "translation": "أحب منزلك."
+     },
+     {
+      "text": "My friend helped me.",
+      "translation": "صديقي ساعدني."
+     },
+     {
+      "text": "This is my favourite project.",
+      "translation": "هذا مشروعي المفضل."
+     },
+     {
+      "text": "I'm getting ready to leave tomorrow.",
+      "translation": "أجهز نفسي للذهاب غدا."
+     },
+     {
+      "text": "Sami had a secret life.",
+      "translation": "كانت لدى سامي حياة سرّيّة."
+     },
+     {
+      "text": "I'll fix you some coffee.",
+      "translation": "سأعد لك بعض القهوة."
+     },
+     {
+      "text": "Fadil ended the relationship.",
+      "translation": "أنهى فاضل العلاقة."
+     },
+     {
+      "text": "I studied English when I was there.",
+      "translation": "درست الإنجليزية عندما كنت هناك."
+     },
+     {
+      "text": "Set your mind at ease.",
+      "translation": "اطمئنّ."
+     },
+     {
+      "text": "I want a computer.",
+      "translation": "أريد حاسوبا."
+     },
+     {
+      "text": "I forgot about it.",
+      "translation": "لقد نسيت."
+     },
+     {
+      "text": "I've never been sick a day in my life.",
+      "translation": "لم أمرض يوما في حياتي."
+     },
+     {
+      "text": "Fadil craved notoriety.",
+      "translation": "كان فاضل متعطّشا للشّهرة."
+     },
+     {
+      "text": "I can't believe Tom's dead.",
+      "translation": "لا أصدق أن توم مات."
+     },
+     {
+      "text": "The dog is the human's best friend.",
+      "translation": "الكلب أفضل صديق للإنسان."
+     },
+     {
+      "text": "All I do is work.",
+      "translation": "أنا أعمل فحسب."
+     },
+     {
+      "text": "A stitch in time saves nine.",
+      "translation": "لا تؤجل عمل اليوم إلى الغد."
+     },
+     {
+      "text": "\"How are you?\" \"I'm fine, thanks.\"",
+      "translation": "\"كيف حالك؟\" \"انا بخير، شكرا.\""
+     },
+     {
+      "text": "Our teacher will go to the USA next month.",
+      "translation": "سيذهب أستاذنا إلى الولايات المتحدة الشهر القادم."
+     },
+     {
+      "text": "They have two daughters.",
+      "translation": "لديهم بنتان."
+     },
+     {
+      "text": "Our governments have become space aliens living among a human population.",
+      "translation": "باتت حكوماتنا كائناً فضائياً يعيش وسط شعب أرضي."
+     },
+     {
+      "text": "We hate spiders.",
+      "translation": "نكره العناكب."
+     },
+     {
+      "text": "We learn Arabic.",
+      "translation": "نحن نتعلم العربي"
+     },
+     {
+      "text": "It's a shame.",
+      "translation": "من المؤسف."
+     },
+     {
+      "text": "Attention! The walls have ears.",
+      "translation": "إنتبه للحطيان آذان."
+     },
+     {
+      "text": "Why don't you have a seat?",
+      "translation": "لما لا تجلس؟"
+     },
+     {
+      "text": "I have to memorize a lot of passwords.",
+      "translation": "يجب عليَ حفظ الكثير من كلمات السر."
+     },
+     {
+      "text": "My opinion has changed.",
+      "translation": "لقد غيّرت رأيي."
+     },
+     {
+      "text": "The document was all in Arabic.",
+      "translation": "كانت تلك الوثيقة بأكملها بالعربيّة."
+     },
+     {
+      "text": "This is ugly.",
+      "translation": "هذا سيء."
+     },
+     {
+      "text": "She watered a tree.",
+      "translation": "هي سقت شجرة."
+     },
+     {
+      "text": "I don't love him.",
+      "translation": "لا أحبه"
+     },
+     {
+      "text": "I doubt his story.",
+      "translation": "أنا أشكّ بروايته ."
+     },
+     {
+      "text": "Tom let Mary go.",
+      "translation": "سمح توم لماري بالرحيل."
+     },
+     {
+      "text": "The boy who came yesterday was my younger brother.",
+      "translation": "الطفل, الذي وصل البارحة, كان اخي الصغير"
+     },
+     {
+      "text": "Wait a minute, Tom!",
+      "translation": "إنتظر دقيقة, توم!"
+     },
+     {
+      "text": "I'm not in a position to accept it.",
+      "translation": "أنا لستُ في وضع يسمح بأن أقبلها."
+     },
+     {
+      "text": "He feels very happy.",
+      "translation": "فرح كثيرا."
+     },
+     {
+      "text": "I haven't had a chance to see the movie yet.",
+      "translation": "لم تسنح لي الفرصة لمشاهدة الفيلم."
+     },
+     {
+      "text": "I cannot take a picture of this building. It's forbidden.",
+      "translation": "لا أستطيع تصوير هذا المبنى. هذا ممنوع."
+     },
+     {
+      "text": "Love to party!",
+      "translation": "أحب الحفلات!"
+     },
+     {
+      "text": "Stop bothering your father.",
+      "translation": "كف عن إزعاج والدك"
+     },
+     {
+      "text": "He found us.",
+      "translation": "لقد وجدنا."
+     },
+     {
+      "text": "That has happened to me several times.",
+      "translation": "حدث ذلك لي مرّات عدّة."
+     },
+     {
+      "text": "This is sabotage.",
+      "translation": "هذا تخريب."
+     },
+     {
+      "text": "We like beans.",
+      "translation": "نحب الفاصولياء."
+     },
+     {
+      "text": "Does Tom have a daughter named Mary?",
+      "translation": "هل لتوم ابنة اسمها ماري؟"
+     },
+     {
+      "text": "You went too far.",
+      "translation": "ذهبت بعيدا."
+     },
+     {
+      "text": "Do you refer to me?",
+      "translation": "هل تقصدني؟"
+     },
+     {
+      "text": "You need to study harder.",
+      "translation": "يجب عليك أن تدرس بجد أكثر."
+     },
+     {
+      "text": "We did great.",
+      "translation": "عملنا شيئا رائعا."
+     },
+     {
+      "text": "They might hear us.",
+      "translation": "قد يسمعانا."
+     },
+     {
+      "text": "I'll be back at half past six.",
+      "translation": "سأعود في السادسة و النصف."
+     },
+     {
+      "text": "That's not my car.",
+      "translation": "تلك السيارة ليست ملكي"
+     },
+     {
+      "text": "I have to learn Japanese.",
+      "translation": "عليّ أن أدرس اليابانية."
+     },
+     {
+      "text": "Tom is my half-brother.",
+      "translation": "توم أخي من أبي."
+     },
+     {
+      "text": "She's a liar.",
+      "translation": "إنه كاذب."
+     },
+     {
+      "text": "Did you watch TV last night?",
+      "translation": "هل شاهدت التلفاز الليلة الماضية؟"
+     },
+     {
+      "text": "Nothing comes of nothing.",
+      "translation": "لا يوجد دخان من غير نار."
+     },
+     {
+      "text": "Yes, I know.",
+      "translation": "نعم أنا أعلم"
+     },
+     {
+      "text": "Try it. You'll like it.",
+      "translation": "جرّبه وستحبّه."
+     },
+     {
+      "text": "Do you love each other very much?",
+      "translation": "هل تحبان بعضكما البعض بشدة؟"
+     },
+     {
+      "text": "They're about to go.",
+      "translation": "إنهم على وشك الرحيل"
+     },
+     {
+      "text": "I don't want to talk about this now.",
+      "translation": "لا أريد أن أتحدث بشأن هذا الآن."
+     },
+     {
+      "text": "Tom witnessed the accident.",
+      "translation": "كان توم حاضرا في ذلك الحادث."
+     },
+     {
+      "text": "He doesn't mean to be mean. It's just his nature.",
+      "translation": "إنه لا يقصد أن يعامل الآخرين بقسوة. إنها طبيعته فحسب."
+     },
+     {
+      "text": "He was poor and couldn't buy a coat.",
+      "translation": "كان فقيراً ولم يستطع شراء المعطف."
+     },
+     {
+      "text": "The child is dirty.",
+      "translation": "الولد قذر."
+     },
+     {
+      "text": "Dan threw his phone into the swimming pool.",
+      "translation": "رمى دان هاتفه في المسبح."
+     },
+     {
+      "text": "It was a dark night, with no moon.",
+      "translation": "كانت ليلة ظلماء، لا قمر فيها."
+     },
+     {
+      "text": "I contacted her.",
+      "translation": "اتصلت بها."
+     },
+     {
+      "text": "We agreed to share the housework.",
+      "translation": "اتفقنا على توزيع مهام تنظيف البيت فيما بيننا."
+     },
+     {
+      "text": "This river is one mile across.",
+      "translation": "عرض هذا النهر ميل."
+     },
+     {
+      "text": "\"Do you understand?\" \"I don't understand at all.\"",
+      "translation": "\"هل فهمت؟\" \"لم أفهم بتاتا.\""
+     },
+     {
+      "text": "Tom is still at school.",
+      "translation": "لا يزال توم في المدرسة."
+     },
+     {
+      "text": "What happened to Fadil?",
+      "translation": "ماذا جرى لفاضل."
+     },
+     {
+      "text": "Tom is a mechanic.",
+      "translation": "توم ميكانيكي."
+     },
+     {
+      "text": "Here's to your health!",
+      "translation": "ها هي بصحتك."
+     },
+     {
+      "text": "You've had too much to drink.",
+      "translation": "لقد شربت كثيرا."
+     },
+     {
+      "text": "How did you enjoy the movie?",
+      "translation": "ما رأيُكَ في ذلك الفيلم؟"
+     },
+     {
+      "text": "Mary cannot have done such a thing.",
+      "translation": "مستحيل أن تفعل ليلى مثل هذا الشيء."
+     },
+     {
+      "text": "What's your favorite sport to watch?",
+      "translation": "ما الرياضة التي تفضل مشاهدتها؟"
+     },
+     {
+      "text": "The old man fell down on the ground.",
+      "translation": "وقع الرجل العجوز على الأرض."
+     },
+     {
+      "text": "It will only take a minute of your time.",
+      "translation": "سيأخذ دقيقة من وقتك فقط."
+     },
+     {
+      "text": "It was well worth the trouble.",
+      "translation": "لقد كان يستحق العناء."
+     },
+     {
+      "text": "The Quran has been translated into many languages.",
+      "translation": "القرآن تُرجم إلى لغات عديدة."
+     },
+     {
+      "text": "The tunnel collapsed.",
+      "translation": "انهار النفق."
+     },
+     {
+      "text": "We reached London at midnight.",
+      "translation": "وصلنا إلى لندن عند منتصف الليل."
+     },
+     {
+      "text": "She is very beautiful.",
+      "translation": "إنها جميلة جداً."
+     },
+     {
+      "text": "I've been reading this book.",
+      "translation": "أنا أقرأ هذا الكتاب."
+     },
+     {
+      "text": "Tom is my dad.",
+      "translation": "توم هو أبي"
+     },
+     {
+      "text": "I need to ask you a silly question.",
+      "translation": "يجب أن أطرح لك سؤالًا غبيًّا."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.geometry",
+   "count": 16,
+   "params": {
+    "difficulty": 3
+   }
+  }
+ ]
+}

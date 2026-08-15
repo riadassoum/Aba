@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الطعام والشراب — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "water = ماء",
+   "note": "مثال: I drink water every morning. — أشرب الماء كل صباح."
+  },
+  {
+   "btype": "example",
+   "text": "bread = خبز",
+   "note": "مثال: We buy bread daily. — نشتري الخبز يومياً."
+  },
+  {
+   "btype": "example",
+   "text": "rice = أرز",
+   "note": "مثال: She cooked rice and chicken. — طبخت أرزاً ودجاجاً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «rice»؟",
+    "options": [
+     "ماء",
+     "خبز",
+     "أرز"
+    ],
+    "correct": 2,
+    "explanation": "«rice» تعني «أرز».",
+    "topic": "en:الطعام والشراب — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "meat = لحم",
+   "note": "مثال: He does not eat meat. — هو لا يأكل اللحم."
+  },
+  {
+   "btype": "example",
+   "text": "fruit = فاكهة",
+   "note": "مثال: Fruit is good for health. — الفاكهة مفيدة للصحة."
+  },
+  {
+   "btype": "example",
+   "text": "vegetable = خضار",
+   "note": "مثال: Add some vegetables to the soup. — أضف بعض الخضار إلى الحساء."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «vegetable»؟",
+    "options": [
+     "لحم",
+     "فاكهة",
+     "خضار"
+    ],
+    "correct": 2,
+    "explanation": "«vegetable» تعني «خضار».",
+    "topic": "en:الطعام والشراب — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "milk = حليب",
+   "note": "مثال: The child drinks milk. — الطفل يشرب الحليب."
+  },
+  {
+   "btype": "example",
+   "text": "coffee = قهوة",
+   "note": "مثال: Would you like coffee or tea? — هل تريد قهوة أم شاياً؟"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

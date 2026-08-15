@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 10,
+   "params": {
+    "signs": {
+     "u": "⠥",
+     "v": "⠧",
+     "w": "⠺",
+     "x": "⠭",
+     "y": "⠽",
+     "z": "⠵"
+    },
+    "topic": "braille.english"
+   }
+  }
+ ]
+}

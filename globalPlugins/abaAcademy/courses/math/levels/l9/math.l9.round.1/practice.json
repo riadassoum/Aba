@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.rounding",
+   "count": 19,
+   "params": {
+    "difficulty": 3
+   }
+  }
+ ]
+}

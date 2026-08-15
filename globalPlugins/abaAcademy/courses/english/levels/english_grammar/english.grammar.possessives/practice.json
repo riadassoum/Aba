@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للتعبير عن كتاب علي:",
+    "options": [
+     "Ali book",
+     "Ali's book",
+     "Alis book",
+     "book of Ali's"
+    ],
+    "correct": 1,
+    "explanation": "نضيف 's: Ali's book.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: This is ___ house. (نحن)",
+    "options": [
+     "our",
+     "ours",
+     "us",
+     "we"
+    ],
+    "correct": 0,
+    "explanation": "قبل الاسم نستخدم our.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The book is ___. (هي)",
+    "options": [
+     "her",
+     "hers",
+     "she",
+     "her's"
+    ],
+    "correct": 1,
+    "explanation": "بلا اسم بعدها نستخدم hers.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "its تعني «ملكه/ملكها»، وit's تعني it is.",
+    "correct": true,
+    "explanation": "صحيح، لا تخلط بينهما.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "عبّر عن قلمي بضمير ملكية مستقل: This pen is ___.",
+    "correct": "mine",
+    "accepted": [],
+    "explanation": "الضمير المستقل للمتكلم: mine.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ dog is friendly. (هم)",
+    "options": [
+     "Their",
+     "Theirs",
+     "They",
+     "Them"
+    ],
+    "correct": 0,
+    "explanation": "قبل الاسم: their.",
+    "topic": "gram.possessives"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "This is Ali's car.",
+      "translation": "هذه سيارة علي."
+     },
+     {
+      "text": "My book is here.",
+      "translation": "كتابي هنا."
+     },
+     {
+      "text": "That pen is mine.",
+      "translation": "ذلك القلم لي."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

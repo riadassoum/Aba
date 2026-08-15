@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التحيات». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "hello = مرحباً",
+   "note": "مثال: Hello, my friend! — مرحباً يا صديقي!"
+  },
+  {
+   "btype": "example",
+   "text": "goodbye = مع السلامة",
+   "note": "مثال: Goodbye, see you tomorrow. — مع السلامة، أراك غداً."
+  },
+  {
+   "btype": "example",
+   "text": "please = من فضلك",
+   "note": "مثال: Please, sit down. — من فضلك، اجلس."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «please»؟",
+    "options": [
+     "مرحباً",
+     "مع السلامة",
+     "من فضلك"
+    ],
+    "correct": 2,
+    "explanation": "«please» تعني «من فضلك».",
+    "topic": "en:التحيات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "thanks = شكراً",
+   "note": "مثال: Thanks for your help. — شكراً على مساعدتك."
+  },
+  {
+   "btype": "example",
+   "text": "sorry = آسف",
+   "note": "مثال: Sorry, I am late. — آسف، أنا متأخر."
+  },
+  {
+   "btype": "example",
+   "text": "yes = نعم",
+   "note": "مثال: Yes, I understand. — نعم، أنا أفهم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «yes»؟",
+    "options": [
+     "شكراً",
+     "آسف",
+     "نعم"
+    ],
+    "correct": 2,
+    "explanation": "«yes» تعني «نعم».",
+    "topic": "en:التحيات"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "no = لا",
+   "note": "مثال: No, thank you. — لا، شكراً."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

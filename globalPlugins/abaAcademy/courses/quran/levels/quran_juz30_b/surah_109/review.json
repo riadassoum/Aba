@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 5,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+      "translation": "Say, \"O disbelievers,"
+     },
+     {
+      "text": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "translation": "I do not worship what you worship."
+     },
+     {
+      "text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+      "translation": "Nor are you worshippers of what I worship."
+     },
+     {
+      "text": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+      "translation": "Nor will I be a worshipper of what you worship."
+     },
+     {
+      "text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+      "translation": "Nor will you be worshippers of what I worship."
+     },
+     {
+      "text": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "translation": "For you is your religion, and for me is my religion.\""
+     }
+    ],
+    "lang": "ar"
+   }
+  }
+ ]
+}

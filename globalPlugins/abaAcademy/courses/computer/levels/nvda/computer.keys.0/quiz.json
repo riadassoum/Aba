@@ -1,0 +1,70 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ مفتاح يوقف القراءة فوراً؟",
+      "correct": "Control",
+      "distractors": [
+       "Enter",
+       "Shift",
+       "Alt"
+      ],
+      "explain": "Control يوقف الكلام.",
+      "topic": "pc.keys"
+     },
+     {
+      "prompt": "ماذا يفعل NVDA مع T؟",
+      "correct": "يقرأ عنوان النافذة",
+      "distractors": [
+       "يغلق البرنامج",
+       "يفتح القائمة",
+       "يزيد السرعة"
+      ],
+      "explain": "NVDA+T لقراءة العنوان.",
+      "topic": "pc.keys"
+     }
+    ],
+    "topic": "pc.keys"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 4,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ مفتاح يوقف القراءة فوراً؟ الإجابة هي «Control».",
+      "is_true": true,
+      "explain": "Control يوقف الكلام.",
+      "topic": "pc.keys"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ مفتاح يوقف القراءة فوراً؟ الإجابة هي «Enter».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Control».",
+      "topic": "pc.keys"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل NVDA مع T؟ الإجابة هي «يقرأ عنوان النافذة».",
+      "is_true": true,
+      "explain": "NVDA+T لقراءة العنوان.",
+      "topic": "pc.keys"
+     },
+     {
+      "text": "صحيح أم خطأ: ماذا يفعل NVDA مع T؟ الإجابة هي «يغلق البرنامج».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «يقرأ عنوان النافذة».",
+      "topic": "pc.keys"
+     }
+    ],
+    "topic": "pc.keys"
+   }
+  }
+ ]
+}

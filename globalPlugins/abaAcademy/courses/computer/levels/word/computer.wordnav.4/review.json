@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار يجعل النص غامقاً؟",
+      "correct": "Control مع B",
+      "distractors": [
+       "Control مع G",
+       "Control مع D",
+       "Control مع H"
+      ],
+      "explain": "Control+B للنص الغامق.",
+      "topic": "pc.wordnav"
+     },
+     {
+      "prompt": "كيف تذهب لبداية المستند؟",
+      "correct": "Control مع Home",
+      "distractors": [
+       "Home فقط",
+       "Page Up",
+       "Control مع Up"
+      ],
+      "explain": "Control+Home لبداية المستند.",
+      "topic": "pc.wordnav"
+     }
+    ],
+    "topic": "pc.wordnav",
+    "difficulty": 3
+   }
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: How ___ money do you have?",
+    "options": [
+     "many",
+     "much",
+     "few",
+     "any"
+    ],
+    "correct": 1,
+    "explanation": "money غير معدود: much.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I don't have ___ time.",
+    "options": [
+     "some",
+     "any",
+     "many",
+     "a"
+    ],
+    "correct": 1,
+    "explanation": "في النفي نستخدم any.",
+    "topic": "gram.countable"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم many مع الأسماء غير المعدودة.",
+    "correct": false,
+    "explanation": "many للمعدود، وmuch لغير المعدود.",
+    "topic": "gram.countable"
+   }
+  }
+ ]
+}

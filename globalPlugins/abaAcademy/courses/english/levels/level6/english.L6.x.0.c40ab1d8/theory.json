@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المشاعر». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "excited = متحمس",
+   "note": "مثال: I am excited about the trip. — أنا متحمس للرحلة."
+  },
+  {
+   "btype": "example",
+   "text": "worried = قلق",
+   "note": "مثال: She is worried about the exam. — هي قلقة بشأن الامتحان."
+  },
+  {
+   "btype": "example",
+   "text": "proud = فخور",
+   "note": "مثال: We are proud of you. — نحن فخورون بك."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «proud»؟",
+    "options": [
+     "متحمس",
+     "قلق",
+     "فخور"
+    ],
+    "correct": 2,
+    "explanation": "«proud» تعني «فخور».",
+    "topic": "en:المشاعر"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "bored = ضجر",
+   "note": "مثال: The students look bored. — يبدو الطلاب ضجرين."
+  },
+  {
+   "btype": "example",
+   "text": "nervous = متوتر",
+   "note": "مثال: He was nervous before the interview. — كان متوتراً قبل المقابلة."
+  },
+  {
+   "btype": "example",
+   "text": "surprised = متفاجئ",
+   "note": "مثال: I was surprised by the news. — تفاجأت بالخبر."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «surprised»؟",
+    "options": [
+     "ضجر",
+     "متوتر",
+     "متفاجئ"
+    ],
+    "correct": 2,
+    "explanation": "«surprised» تعني «متفاجئ».",
+    "topic": "en:المشاعر"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "grateful = ممتن",
+   "note": "مثال: I am grateful for your support. — أنا ممتن لدعمك."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

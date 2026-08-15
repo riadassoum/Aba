@@ -1,0 +1,160 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nine",
+      "meaning": "تسعة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "Nine players are on the field.",
+      "translation": "تسعة لاعبين في الملعب."
+     },
+     {
+      "word": "ten",
+      "meaning": "عشرة",
+      "topic": "الأرقام",
+      "difficulty": 1,
+      "example": "I counted ten cars.",
+      "translation": "عددت عشر سيارات."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

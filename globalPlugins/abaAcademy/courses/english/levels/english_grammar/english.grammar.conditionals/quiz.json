@@ -1,0 +1,89 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: If it rains, I ___ stay home.",
+    "options": [
+     "will",
+     "would",
+     "am",
+     "do"
+    ],
+    "correct": 0,
+    "explanation": "الشرط الأول: الجواب بـ will.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للحقيقة العامة: If you heat water, it ___.",
+    "options": [
+     "will boil",
+     "boils",
+     "boil",
+     "boiled"
+    ],
+    "correct": 1,
+    "explanation": "الشرط الصفري: مضارع بسيط في الجواب.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم will داخل جملة if نفسها في الشرط الأول.",
+    "correct": false,
+    "explanation": "will تأتي في الجواب لا في جملة if.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: If you study hard, you ___ pass. اكتب الكلمة الناقصة.",
+    "correct": "will",
+    "accepted": [],
+    "explanation": "الشرط الأول: will في الجواب.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: If I ___ time, I will call you.",
+    "options": [
+     "will have",
+     "have",
+     "had",
+     "having"
+    ],
+    "correct": 1,
+    "explanation": "جملة if بمضارع بسيط: have.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ جملة شرط صفري (حقيقة عامة)؟",
+    "options": [
+     "If I win, I'll be happy.",
+     "Ice melts if you heat it.",
+     "If it rains, we'll cancel.",
+     "I would go if I could."
+    ],
+    "correct": 1,
+    "explanation": "حقيقة علمية عامة = الشرط الصفري.",
+    "topic": "gram.conditionals"
+   }
+  }
+ ]
+}

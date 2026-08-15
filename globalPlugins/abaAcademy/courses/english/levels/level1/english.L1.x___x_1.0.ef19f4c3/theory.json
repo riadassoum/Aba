@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الأرقام — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "one = واحد",
+   "note": "مثال: I have one book. — لدي كتاب واحد."
+  },
+  {
+   "btype": "example",
+   "text": "two = اثنان",
+   "note": "مثال: She has two cats. — لديها قطتان."
+  },
+  {
+   "btype": "example",
+   "text": "three = ثلاثة",
+   "note": "مثال: We need three chairs. — نحتاج ثلاثة كراسٍ."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «three»؟",
+    "options": [
+     "واحد",
+     "اثنان",
+     "ثلاثة"
+    ],
+    "correct": 2,
+    "explanation": "«three» تعني «ثلاثة».",
+    "topic": "en:الأرقام — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "four = أربعة",
+   "note": "مثال: There are four windows. — هناك أربع نوافذ."
+  },
+  {
+   "btype": "example",
+   "text": "five = خمسة",
+   "note": "مثال: Five students are here. — خمسة طلاب هنا."
+  },
+  {
+   "btype": "example",
+   "text": "six = ستة",
+   "note": "مثال: It costs six dollars. — ثمنه ستة دولارات."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «six»؟",
+    "options": [
+     "أربعة",
+     "خمسة",
+     "ستة"
+    ],
+    "correct": 2,
+    "explanation": "«six» تعني «ستة».",
+    "topic": "en:الأرقام — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "seven = سبعة",
+   "note": "مثال: The shop opens at seven. — يفتح المحل الساعة السابعة."
+  },
+  {
+   "btype": "example",
+   "text": "eight = ثمانية",
+   "note": "مثال: We slept eight hours. — نمنا ثماني ساعات."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الطقس». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "sun = شمس",
+   "note": "مثال: The sun is shining today. — الشمس مشرقة اليوم."
+  },
+  {
+   "btype": "example",
+   "text": "rain = مطر",
+   "note": "مثال: It is raining outside. — المطر ينهمر بالخارج."
+  },
+  {
+   "btype": "example",
+   "text": "wind = ريح",
+   "note": "مثال: The wind is very strong. — الريح قوية جداً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «wind»؟",
+    "options": [
+     "شمس",
+     "مطر",
+     "ريح"
+    ],
+    "correct": 2,
+    "explanation": "«wind» تعني «ريح».",
+    "topic": "en:الطقس"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "snow = ثلج",
+   "note": "مثال: It snowed last night. — تساقط الثلج الليلة الماضية."
+  },
+  {
+   "btype": "example",
+   "text": "cloud = غيمة",
+   "note": "مثال: The sky is full of clouds. — السماء مليئة بالغيوم."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

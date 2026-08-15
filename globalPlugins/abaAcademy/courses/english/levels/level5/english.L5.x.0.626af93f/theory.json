@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الملابس». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "shirt = قميص",
+   "note": "مثال: He is wearing a blue shirt. — يرتدي قميصاً أزرق."
+  },
+  {
+   "btype": "example",
+   "text": "trousers = بنطال",
+   "note": "مثال: These trousers are too long. — هذا البنطال طويل جداً."
+  },
+  {
+   "btype": "example",
+   "text": "shoes = حذاء",
+   "note": "مثال: I need new shoes. — أحتاج حذاءً جديداً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «shoes»؟",
+    "options": [
+     "قميص",
+     "بنطال",
+     "حذاء"
+    ],
+    "correct": 2,
+    "explanation": "«shoes» تعني «حذاء».",
+    "topic": "en:الملابس"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "jacket = سترة",
+   "note": "مثال: Wear your jacket, it's cold. — ارتدِ سترتك، الجو بارد."
+  },
+  {
+   "btype": "example",
+   "text": "hat = قبعة",
+   "note": "مثال: She bought a red hat. — اشترت قبعة حمراء."
+  },
+  {
+   "btype": "example",
+   "text": "dress = فستان",
+   "note": "مثال: The dress is beautiful. — الفستان جميل."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

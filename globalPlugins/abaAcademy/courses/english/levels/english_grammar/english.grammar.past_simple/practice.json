@@ -1,0 +1,112 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب الماضي من work:",
+    "correct": "worked",
+    "accepted": [],
+    "explanation": "فعل منتظم: نضيف ed.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما ماضي go؟",
+    "options": [
+     "goed",
+     "went",
+     "gone",
+     "goes"
+    ],
+    "correct": 1,
+    "explanation": "شاذ: went.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما ماضي buy؟",
+    "options": [
+     "buyed",
+     "buy",
+     "bought",
+     "boughted"
+    ],
+    "correct": 2,
+    "explanation": "شاذ: bought.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي: I ___ see him.",
+    "options": [
+     "didn't",
+     "don't",
+     "wasn't",
+     "not"
+    ],
+    "correct": 0,
+    "explanation": "في الماضي النفي بـ didn't + فعل مجرّد.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: They ___ (to play) football yesterday.",
+    "correct": "played",
+    "accepted": [],
+    "explanation": "فعل منتظم: played.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر السؤال الصحيح:",
+    "options": [
+     "Did you went?",
+     "Did you go?",
+     "Do you went?",
+     "You did go?"
+    ],
+    "correct": 1,
+    "explanation": "Did + فاعل + فعل مجرّد.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "I visited my uncle yesterday.",
+      "translation": "زرت عمّي أمس."
+     },
+     {
+      "text": "She went to school.",
+      "translation": "ذهبت إلى المدرسة."
+     },
+     {
+      "text": "Did you eat?",
+      "translation": "هل أكلت؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

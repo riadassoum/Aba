@@ -1,0 +1,298 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "prendre",
+      "meaning": "يأخذ",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Je prends le bus tous les jours.",
+      "translation": "آخذ الحافلة كل يوم."
+     },
+     {
+      "word": "faire",
+      "meaning": "يفعل / يصنع",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Que fais-tu ce soir ?",
+      "translation": "ماذا ستفعل هذا المساء؟"
+     },
+     {
+      "word": "dormir",
+      "meaning": "ينام",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Le bébé dort beaucoup.",
+      "translation": "الطفل ينام كثيراً."
+     },
+     {
+      "word": "ouvrir",
+      "meaning": "يفتح",
+      "topic": "الأفعال",
+      "difficulty": 4,
+      "example": "Ouvrez vos livres, s'il vous plaît.",
+      "translation": "افتحوا كتبكم من فضلكم."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

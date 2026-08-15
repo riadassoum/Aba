@@ -1,0 +1,152 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "give up",
+      "meaning": "يستسلم / يتخلى",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Never give up on your dreams.",
+      "translation": "لا تستسلم أبداً لأحلامك."
+     },
+     {
+      "word": "look for",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I am looking for my keys.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "find out",
+      "meaning": "يكتشف",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "We found out the truth.",
+      "translation": "اكتشفنا الحقيقة."
+     },
+     {
+      "word": "get up",
+      "meaning": "يستيقظ",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I get up at six every day.",
+      "translation": "أستيقظ الساعة السادسة كل يوم."
+     },
+     {
+      "word": "turn on",
+      "meaning": "يشغّل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Turn on the lights, please.",
+      "translation": "شغّل الأنوار من فضلك."
+     },
+     {
+      "word": "turn off",
+      "meaning": "يطفئ",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Turn off the computer before you leave.",
+      "translation": "أطفئ الحاسوب قبل أن تغادر."
+     },
+     {
+      "word": "put off",
+      "meaning": "يؤجل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "They put off the meeting until Monday.",
+      "translation": "أجّلوا الاجتماع إلى الاثنين."
+     },
+     {
+      "word": "figure out",
+      "meaning": "يفهم / يحل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I can't figure out this problem.",
+      "translation": "لا أستطيع حل هذه المشكلة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "give up",
+      "meaning": "يستسلم / يتخلى",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Never give up on your dreams.",
+      "translation": "لا تستسلم أبداً لأحلامك."
+     },
+     {
+      "word": "look for",
+      "meaning": "يبحث عن",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I am looking for my keys.",
+      "translation": "أبحث عن مفاتيحي."
+     },
+     {
+      "word": "find out",
+      "meaning": "يكتشف",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "We found out the truth.",
+      "translation": "اكتشفنا الحقيقة."
+     },
+     {
+      "word": "get up",
+      "meaning": "يستيقظ",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I get up at six every day.",
+      "translation": "أستيقظ الساعة السادسة كل يوم."
+     },
+     {
+      "word": "turn on",
+      "meaning": "يشغّل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Turn on the lights, please.",
+      "translation": "شغّل الأنوار من فضلك."
+     },
+     {
+      "word": "turn off",
+      "meaning": "يطفئ",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "Turn off the computer before you leave.",
+      "translation": "أطفئ الحاسوب قبل أن تغادر."
+     },
+     {
+      "word": "put off",
+      "meaning": "يؤجل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "They put off the meeting until Monday.",
+      "translation": "أجّلوا الاجتماع إلى الاثنين."
+     },
+     {
+      "word": "figure out",
+      "meaning": "يفهم / يحل",
+      "topic": "الأفعال المركبة",
+      "difficulty": 8,
+      "example": "I can't figure out this problem.",
+      "translation": "لا أستطيع حل هذه المشكلة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

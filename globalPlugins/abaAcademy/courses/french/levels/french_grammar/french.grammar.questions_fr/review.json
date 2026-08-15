@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ est-ce que tu habites?",
+    "options": [
+     "Qui",
+     "Où",
+     "Quand",
+     "Comment"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن المكان: Où.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "بم نجيب عن pourquoi؟",
+    "options": [
+     "parce que",
+     "pour",
+     "parce",
+     "car que"
+    ],
+    "correct": 0,
+    "explanation": "نجيب pourquoi بـ parce que.",
+    "topic": "gram.questions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "est-ce que تُستخدم لطرح سؤال بـ نعم/لا.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.questions_fr"
+   }
+  }
+ ]
+}

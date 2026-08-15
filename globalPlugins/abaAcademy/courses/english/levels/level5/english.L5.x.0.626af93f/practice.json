@@ -1,0 +1,410 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "shirt",
+      "meaning": "قميص",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "He is wearing a blue shirt.",
+      "translation": "يرتدي قميصاً أزرق."
+     },
+     {
+      "word": "trousers",
+      "meaning": "بنطال",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "These trousers are too long.",
+      "translation": "هذا البنطال طويل جداً."
+     },
+     {
+      "word": "shoes",
+      "meaning": "حذاء",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "I need new shoes.",
+      "translation": "أحتاج حذاءً جديداً."
+     },
+     {
+      "word": "jacket",
+      "meaning": "سترة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "Wear your jacket, it's cold.",
+      "translation": "ارتدِ سترتك، الجو بارد."
+     },
+     {
+      "word": "hat",
+      "meaning": "قبعة",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "She bought a red hat.",
+      "translation": "اشترت قبعة حمراء."
+     },
+     {
+      "word": "dress",
+      "meaning": "فستان",
+      "topic": "الملابس",
+      "difficulty": 5,
+      "example": "The dress is beautiful.",
+      "translation": "الفستان جميل."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

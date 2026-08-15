@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Si j'avais de l'argent, j'{b} une maison.",
+    "options": [
+     "achète",
+     "achèterai",
+     "ai acheté",
+     "achèterais"
+    ],
+    "correct": 3,
+    "explanation": "الشرط الحاضر: المصدر + نهايات الماضي الناقص، مع Je: -ais.",
+    "topic": "gram.conditionnel"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Il {b} venir s'il le pouvait.",
+    "options": [
+     "veut",
+     "voudra",
+     "a voulu",
+     "voudrait"
+    ],
+    "correct": 3,
+    "explanation": "vouloir في الشرط الحاضر مع Il: voudrait.",
+    "topic": "gram.conditionnel"
+   }
+  }
+ ]
+}

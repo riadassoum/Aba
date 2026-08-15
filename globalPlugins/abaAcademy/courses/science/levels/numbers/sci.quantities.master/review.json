@@ -1,0 +1,51 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "knowledge.quantity",
+   "count": 10,
+   "params": {
+    "quantities": [
+     {
+      "label": "درجة غليان الماء",
+      "value": 100,
+      "unit": "مئوية",
+      "display": "100"
+     },
+     {
+      "label": "درجة تجمّد الماء",
+      "value": 0,
+      "unit": "مئوية",
+      "display": "0"
+     },
+     {
+      "label": "درجة حرارة جسم الإنسان الطبيعية",
+      "value": 37,
+      "unit": "مئوية",
+      "display": "37"
+     },
+     {
+      "label": "عدد عظام جسم الإنسان البالغ",
+      "value": 206,
+      "unit": "عظمة",
+      "display": "206"
+     },
+     {
+      "label": "عدد أسنان الإنسان البالغ",
+      "value": 32,
+      "unit": "سناً",
+      "display": "32"
+     },
+     {
+      "label": "عدد الكروموسومات في خلية الإنسان",
+      "value": 46,
+      "unit": "كروموسوماً",
+      "display": "46"
+     }
+    ],
+    "topic": "sci.numbers",
+    "difficulty": 3
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "negotiate",
+      "meaning": "يفاوض",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "They negotiated a better price.",
+      "translation": "تفاوضوا على سعر أفضل."
+     },
+     {
+      "word": "invest",
+      "meaning": "يستثمر",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "He invests in real estate.",
+      "translation": "يستثمر في العقارات."
+     },
+     {
+      "word": "budget",
+      "meaning": "ميزانية",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "We must stay within the budget.",
+      "translation": "يجب أن نلتزم بالميزانية."
+     },
+     {
+      "word": "strategy",
+      "meaning": "استراتيجية",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "Their marketing strategy worked well.",
+      "translation": "نجحت استراتيجيتهم التسويقية."
+     },
+     {
+      "word": "revenue",
+      "meaning": "إيراد / عائد",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "Company revenue increased this year.",
+      "translation": "ازداد إيراد الشركة هذا العام."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "negotiate",
+      "meaning": "يفاوض",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "They negotiated a better price.",
+      "translation": "تفاوضوا على سعر أفضل."
+     },
+     {
+      "word": "invest",
+      "meaning": "يستثمر",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "He invests in real estate.",
+      "translation": "يستثمر في العقارات."
+     },
+     {
+      "word": "budget",
+      "meaning": "ميزانية",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "We must stay within the budget.",
+      "translation": "يجب أن نلتزم بالميزانية."
+     },
+     {
+      "word": "strategy",
+      "meaning": "استراتيجية",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "Their marketing strategy worked well.",
+      "translation": "نجحت استراتيجيتهم التسويقية."
+     },
+     {
+      "word": "revenue",
+      "meaning": "إيراد / عائد",
+      "topic": "لغة الأعمال",
+      "difficulty": 9,
+      "example": "Company revenue increased this year.",
+      "translation": "ازداد إيراد الشركة هذا العام."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

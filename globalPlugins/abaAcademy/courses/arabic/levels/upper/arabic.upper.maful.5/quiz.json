@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أكمل: قرأ الطالبُ ...",
+    "options": [
+     "الكتابُ",
+     "الكتابِ",
+     "كتابٌ",
+     "الكتابَ"
+    ],
+    "correct": 3,
+    "explanation": "المفعول به منصوب بالفتحة.",
+    "topic": "ar.maful"
+   }
+  }
+ ]
+}

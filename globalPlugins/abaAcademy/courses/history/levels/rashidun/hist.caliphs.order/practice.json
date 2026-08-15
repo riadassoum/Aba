@@ -1,0 +1,23 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.ordering",
+   "count": 14,
+   "params": {
+    "sequences": [
+     {
+      "prompt": "رتّب الخلفاء الراشدين حسب توليهم الخلافة:",
+      "items": [
+       "أبو بكر الصديق",
+       "عمر بن الخطاب",
+       "عثمان بن عفان",
+       "علي بن أبي طالب"
+      ],
+      "topic": "history.caliphs"
+     }
+    ]
+   }
+  }
+ ]
+}

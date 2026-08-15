@@ -1,0 +1,46 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She ___ a doctor.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 1,
+    "explanation": "مع she نستخدم is.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ happy.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم am دائماً.",
+    "topic": "gram.to_be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "الجملة صحيحة: He happy.",
+    "correct": false,
+    "explanation": "ناقصة الفعل؛ الصواب He is happy.",
+    "topic": "gram.to_be"
+   }
+  }
+ ]
+}

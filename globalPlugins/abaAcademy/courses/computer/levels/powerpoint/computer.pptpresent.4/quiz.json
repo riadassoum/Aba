@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 10,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ مفتاح يبدأ العرض من البداية؟",
+      "correct": "F5",
+      "distractors": [
+       "F2",
+       "Control مع P",
+       "Enter"
+      ],
+      "explain": "F5 يبدأ العرض.",
+      "topic": "pc.pptpresent"
+     },
+     {
+      "prompt": "كيف تنهي العرض التقديمي؟",
+      "correct": "Escape",
+      "distractors": [
+       "Enter",
+       "Tab",
+       "Control مع W"
+      ],
+      "explain": "Escape ينهي العرض.",
+      "topic": "pc.pptpresent"
+     }
+    ],
+    "topic": "pc.pptpresent",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 6,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ مفتاح يبدأ العرض من البداية؟ الإجابة هي «F5».",
+      "is_true": true,
+      "explain": "F5 يبدأ العرض.",
+      "topic": "pc.pptpresent"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ مفتاح يبدأ العرض من البداية؟ الإجابة هي «F2».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «F5».",
+      "topic": "pc.pptpresent"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تنهي العرض التقديمي؟ الإجابة هي «Escape».",
+      "is_true": true,
+      "explain": "Escape ينهي العرض.",
+      "topic": "pc.pptpresent"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تنهي العرض التقديمي؟ الإجابة هي «Enter».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Escape».",
+      "topic": "pc.pptpresent"
+     }
+    ],
+    "topic": "pc.pptpresent",
+    "difficulty": 3
+   }
+  }
+ ]
+}

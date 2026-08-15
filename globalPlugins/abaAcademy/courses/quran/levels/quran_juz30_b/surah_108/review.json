@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar."
+     },
+     {
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "translation": "So pray to your Lord and sacrifice [to Him alone]."
+     },
+     {
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "translation": "Indeed, your enemy is the one cut off."
+     }
+    ],
+    "lang": "ar"
+   }
+  }
+ ]
+}

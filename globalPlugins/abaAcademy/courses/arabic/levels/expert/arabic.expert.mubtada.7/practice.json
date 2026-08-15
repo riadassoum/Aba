@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 11,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: الطالبُ ...",
+      "correct": "مجتهدٌ",
+      "distractors": [
+       "مجتهداً",
+       "مجتهدٍ",
+       "المجتهد"
+      ],
+      "explain": "الخبر مرفوع بالضمة.",
+      "topic": "ar.mubtada"
+     },
+     {
+      "prompt": "ما إعراب «الجوُّ» في «الجوُّ جميلٌ»؟",
+      "correct": "مبتدأ مرفوع",
+      "distractors": [
+       "خبر مرفوع",
+       "فاعل مرفوع",
+       "مفعول به"
+      ],
+      "explain": "هو الاسم الذي بُدئت به الجملة.",
+      "topic": "ar.mubtada"
+     }
+    ],
+    "topic": "ar.mubtada",
+    "difficulty": 2
+   }
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كم نقطة في خلية برايل؟",
+      "correct": "ست",
+      "distractors": [
+       "أربع",
+       "ثمان",
+       "اثنتا عشرة"
+      ],
+      "topic": "braille.cell"
+     },
+     {
+      "prompt": "أين تقع النقطة ٦؟",
+      "correct": "أسفل العمود الأيمن",
+      "distractors": [
+       "أسفل العمود الأيسر",
+       "أعلى العمود الأيمن",
+       "وسط العمود الأيسر"
+      ],
+      "topic": "braille.cell"
+     }
+    ]
+   }
+  }
+ ]
+}

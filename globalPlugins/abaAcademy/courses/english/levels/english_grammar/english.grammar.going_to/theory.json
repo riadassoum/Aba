@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم be going to للخطط والنوايا المُبيّتة والتوقعات المبنية على دليل حاضر، مثل «سأزور جدّتي غداً» (خطة مسبقة) أو «انظر إلى الغيوم، ستمطر». تركيبه: am/is/are + going to + التصريف الأول. مثل I am going to study، She is going to travel. الفرق عن will: going to لخطة سابقة أو دليل ظاهر، وwill لقرار"
+  },
+  {
+   "btype": "text",
+   "text": "لحظي أو توقع عام."
+  },
+  {
+   "btype": "example",
+   "text": "I am going to visit my grandma.",
+   "note": "سأزور جدّتي."
+  },
+  {
+   "btype": "example",
+   "text": "Look at the clouds! It is going to rain.",
+   "note": "انظر للغيوم! ستمطر."
+  },
+  {
+   "btype": "example",
+   "text": "They are going to move.",
+   "note": "سينتقلون."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ going to study tonight.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "will"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم am going to.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She is going to ___ a car.",
+    "options": [
+     "buys",
+     "bought",
+     "buy",
+     "buying"
+    ],
+    "correct": 2,
+    "explanation": "going to + تصريف أول: buy.",
+    "topic": "gram.going_to"
+   }
+  }
+ ]
+}

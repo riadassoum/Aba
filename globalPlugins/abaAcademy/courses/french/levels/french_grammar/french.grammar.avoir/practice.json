@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: J'___ un chien.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "ont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم ai (j'ai).",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il ___ faim.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "avons"
+    ],
+    "correct": 2,
+    "explanation": "مع il نستخدم a.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ deux enfants.",
+    "options": [
+     "a",
+     "avez",
+     "avons",
+     "ont"
+    ],
+    "correct": 2,
+    "explanation": "مع nous نستخدم avons.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: Ils ___ une maison. اكتب تصريف avoir.",
+    "correct": "ont",
+    "accepted": [],
+    "explanation": "مع ils نستخدم ont.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "للتعبير عن العمر بالفرنسية نستخدم être.",
+    "correct": false,
+    "explanation": "نستخدم avoir: Elle a vingt ans.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Vous ___ raison.",
+    "options": [
+     "a",
+     "avez",
+     "avons",
+     "ont"
+    ],
+    "correct": 1,
+    "explanation": "مع vous نستخدم avez.",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "J'ai une voiture.",
+      "translation": "لديّ سيارة."
+     },
+     {
+      "text": "Il a faim.",
+      "translation": "هو جائع (لديه جوع)."
+     },
+     {
+      "text": "Elle a vingt ans.",
+      "translation": "عمرها عشرون سنة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

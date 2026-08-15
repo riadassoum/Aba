@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «المستقبل (futur simple)». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: parler."
+  },
+  {
+   "btype": "example",
+   "text": "je parlerai",
+   "note": "تصريف «parler» مع «je»"
+  },
+  {
+   "btype": "example",
+   "text": "tu parleras",
+   "note": "تصريف «parler» مع «tu»"
+  },
+  {
+   "btype": "example",
+   "text": "il parlera",
+   "note": "تصريف «parler» مع «il»"
+  },
+  {
+   "btype": "example",
+   "text": "nous parlerons",
+   "note": "تصريف «parler» مع «nous»"
+  },
+  {
+   "btype": "example",
+   "text": "vous parlerez",
+   "note": "تصريف «parler» مع «vous»"
+  },
+  {
+   "btype": "example",
+   "text": "ils parleront",
+   "note": "تصريف «parler» مع «ils»"
+  }
+ ]
+}

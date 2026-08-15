@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The keys are ___ the table.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 1,
+    "explanation": "على سطح: on.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I'll see you ___ Monday.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 1,
+    "explanation": "مع الأيام: on.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: The train arrives ___ 6 pm.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 2,
+    "explanation": "مع الساعات: at.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She lives ___ Paris.",
+    "options": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "correct": 0,
+    "explanation": "مع المدن الكبيرة: in.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: We travel ___ summer. اكتب حرف الجر (in/on/at).",
+    "correct": "in",
+    "accepted": [],
+    "explanation": "مع الفصول والفترات: in.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم at مع أيام الأسبوع مثل at Monday.",
+    "correct": false,
+    "explanation": "مع الأيام نستخدم on: on Monday.",
+    "topic": "gram.prepositions"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "The book is on the table.",
+      "translation": "الكتاب على الطاولة."
+     },
+     {
+      "text": "We meet at 5 o'clock.",
+      "translation": "نلتقي الساعة الخامسة."
+     },
+     {
+      "text": "She was born in May.",
+      "translation": "وُلدت في مايو."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

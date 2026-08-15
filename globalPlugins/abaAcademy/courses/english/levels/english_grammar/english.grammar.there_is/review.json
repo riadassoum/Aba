@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ a book on the desk.",
+    "options": [
+     "There is",
+     "There are",
+     "It is",
+     "Have"
+    ],
+    "correct": 0,
+    "explanation": "مفرد: There is.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: There ___ three cars. (is/are)",
+    "correct": "are",
+    "accepted": [],
+    "explanation": "جمع: are.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر السؤال الصحيح:",
+    "options": [
+     "Is there a bank near here?",
+     "There is a bank?",
+     "Are there a bank?",
+     "Have there a bank?"
+    ],
+    "correct": 0,
+    "explanation": "سؤال المفرد: Is there...?",
+    "topic": "gram.there_is"
+   }
+  }
+ ]
+}

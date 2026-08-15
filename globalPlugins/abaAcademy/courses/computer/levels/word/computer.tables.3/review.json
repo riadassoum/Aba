@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تنتقل للخلية التالية في جدول وورد؟",
+      "correct": "Tab",
+      "distractors": [
+       "Enter",
+       "مسافة",
+       "Control مع N"
+      ],
+      "explain": "Tab للخلية التالية.",
+      "topic": "pc.tables"
+     },
+     {
+      "prompt": "كيف تضيف صفاً جديداً بسرعة؟",
+      "correct": "Tab في آخر خلية",
+      "distractors": [
+       "Enter مرتين",
+       "Control مع Plus",
+       "F4"
+      ],
+      "explain": "Tab في آخر خلية ينشئ صفاً جديداً.",
+      "topic": "pc.tables"
+     }
+    ],
+    "topic": "pc.tables",
+    "difficulty": 2
+   }
+  }
+ ]
+}

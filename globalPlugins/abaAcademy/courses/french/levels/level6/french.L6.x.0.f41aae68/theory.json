@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المشاعر». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "content = مسرور",
+   "note": "مثال: Je suis content de te voir. — أنا مسرور برؤيتك."
+  },
+  {
+   "btype": "example",
+   "text": "inquiet = قلق",
+   "note": "مثال: Elle est inquiète pour l'examen. — هي قلقة بشأن الامتحان."
+  },
+  {
+   "btype": "example",
+   "text": "fier = فخور",
+   "note": "مثال: Nous sommes fiers de toi. — نحن فخورون بك."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «fier»؟",
+    "options": [
+     "مسرور",
+     "قلق",
+     "فخور"
+    ],
+    "correct": 2,
+    "explanation": "«fier» تعني «فخور».",
+    "topic": "fr:المشاعر"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "surpris = متفاجئ",
+   "note": "مثال: J'ai été surpris par la nouvelle. — تفاجأت بالخبر."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

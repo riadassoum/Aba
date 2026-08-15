@@ -1,0 +1,24 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 4,
+   "params": {
+    "sentences": [
+     {
+      "text": "Je me lève à sept heures."
+     },
+     {
+      "text": "Je vais à l'école à pied."
+     },
+     {
+      "text": "J'aime le français."
+     }
+    ],
+    "lang": "fr",
+    "difficulty": 1
+   }
+  }
+ ]
+}

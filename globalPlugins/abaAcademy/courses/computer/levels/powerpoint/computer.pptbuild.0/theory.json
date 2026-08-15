@@ -1,0 +1,40 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "Control مع M يضيف شريحة جديدة، وتنقّل بين الشرائح بأسهم أعلى وأسفل في جزء الشرائح. اكتب عنوان كل شريحة في مربع العنوان لسهولة التنقل."
+  },
+  {
+   "btype": "text",
+   "text": "تعلّم هذه المعلومات أولاً، ثم ستُختبر فيها:"
+  },
+  {
+   "btype": "text",
+   "text": "أيّ اختصار يضيف شريحة جديدة؟ Control مع M (Control+M لشريحة جديدة.)"
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: أيّ اختصار يضيف شريحة جديدة؟ الإجابة هي «Control مع M». — Control+M لشريحة جديدة."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع M»."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ اختصار يضيف شريحة جديدة؟",
+    "options": [
+     "Control مع N",
+     "F5",
+     "Control مع S",
+     "Control مع M"
+    ],
+    "correct": 3,
+    "explanation": "Control+M لشريحة جديدة.",
+    "topic": "pc.pptbuild"
+   }
+  }
+ ]
+}

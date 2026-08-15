@@ -1,0 +1,40 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 6,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "parler",
+      "meaning": "يتكلم",
+      "tense": "الماضي المركّب (passé composé)",
+      "forms": {
+       "je": "ai parlé",
+       "tu": "as parlé",
+       "il": "a parlé",
+       "nous": "avons parlé",
+       "vous": "avez parlé",
+       "ils": "ont parlé"
+      }
+     },
+     {
+      "infinitive": "manger",
+      "meaning": "يأكل",
+      "tense": "الماضي المركّب (passé composé)",
+      "forms": {
+       "je": "ai mangé",
+       "tu": "as mangé",
+       "il": "a mangé",
+       "nous": "avons mangé",
+       "vous": "avez mangé",
+       "ils": "ont mangé"
+      }
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

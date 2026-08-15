@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "avoir يعني «يملك/لديه» وهو أساسي أيضاً. تصريفه: j'ai (لديّ)، tu as، il/elle a، nous avons، vous avez، ils/elles ont. نستخدمه للملكية والعمر: J'ai deux frères (لديّ أخوان)، Elle a vingt ans (عمرها عشرون سنة — لاحظ أن العمر بالفرنسية يُقال بـ avoir لا être)."
+  },
+  {
+   "btype": "example",
+   "text": "J'ai une voiture.",
+   "note": "لديّ سيارة."
+  },
+  {
+   "btype": "example",
+   "text": "Il a faim.",
+   "note": "هو جائع (لديه جوع)."
+  },
+  {
+   "btype": "example",
+   "text": "Elle a vingt ans.",
+   "note": "عمرها عشرون سنة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: J'___ un chien.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "ont"
+    ],
+    "correct": 0,
+    "explanation": "مع je نستخدم ai (j'ai).",
+    "topic": "gram.avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il ___ faim.",
+    "options": [
+     "ai",
+     "as",
+     "a",
+     "avons"
+    ],
+    "correct": 2,
+    "explanation": "مع il نستخدم a.",
+    "topic": "gram.avoir"
+   }
+  }
+ ]
+}

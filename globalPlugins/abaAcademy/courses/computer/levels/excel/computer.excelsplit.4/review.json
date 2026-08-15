@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 6,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما فائدة تجميد الأجزاء في إكسل؟",
+      "correct": "إبقاء العناوين ظاهرة أثناء التمرير",
+      "distractors": [
+       "حذف الصفوف",
+       "تلوين الخلايا",
+       "طباعة الورقة"
+      ],
+      "explain": "التجميد يبقي صف العناوين ظاهراً.",
+      "topic": "pc.excelsplit"
+     }
+    ],
+    "topic": "pc.excelsplit",
+    "difficulty": 3
+   }
+  }
+ ]
+}

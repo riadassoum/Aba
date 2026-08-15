@@ -1,0 +1,72 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 10,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ حرف يقفز إلى العنوان التالي؟",
+      "correct": "H",
+      "distractors": [
+       "K",
+       "B",
+       "L"
+      ],
+      "explain": "H للعناوين.",
+      "topic": "pc.webnav"
+     },
+     {
+      "prompt": "أيّ حرف يقفز إلى الرابط التالي؟",
+      "correct": "K",
+      "distractors": [
+       "H",
+       "T",
+       "E"
+      ],
+      "explain": "K للروابط.",
+      "topic": "pc.webnav"
+     }
+    ],
+    "topic": "pc.webnav",
+    "difficulty": 3
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 6,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ حرف يقفز إلى العنوان التالي؟ الإجابة هي «H».",
+      "is_true": true,
+      "explain": "H للعناوين.",
+      "topic": "pc.webnav"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ حرف يقفز إلى العنوان التالي؟ الإجابة هي «K».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «H».",
+      "topic": "pc.webnav"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ حرف يقفز إلى الرابط التالي؟ الإجابة هي «K».",
+      "is_true": true,
+      "explain": "K للروابط.",
+      "topic": "pc.webnav"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ حرف يقفز إلى الرابط التالي؟ الإجابة هي «H».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «K».",
+      "topic": "pc.webnav"
+     }
+    ],
+    "topic": "pc.webnav",
+    "difficulty": 3
+   }
+  }
+ ]
+}

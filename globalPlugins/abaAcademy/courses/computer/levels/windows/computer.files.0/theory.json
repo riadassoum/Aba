@@ -1,0 +1,68 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "Control مع C نسخ، Control مع X قص، Control مع V لصق، F2 إعادة تسمية، Delete حذف إلى السلة، وBackspace للرجوع للمجلد الأعلى."
+  },
+  {
+   "btype": "text",
+   "text": "تعلّم هذه المعلومات أولاً، ثم ستُختبر فيها:"
+  },
+  {
+   "btype": "text",
+   "text": "أيّ اختصار لإعادة تسمية ملف؟ F2 (F2 لإعادة التسمية.)"
+  },
+  {
+   "btype": "text",
+   "text": "ماذا يفعل Control مع X؟ قص الملف (Control+X للقص.)"
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: أيّ اختصار لإعادة تسمية ملف؟ الإجابة هي «F2». — F2 لإعادة التسمية."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «F2»."
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: ماذا يفعل Control مع X؟ الإجابة هي «قص الملف». — Control+X للقص."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «قص الملف»."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ اختصار لإعادة تسمية ملف؟",
+    "options": [
+     "F5",
+     "Control مع R",
+     "Alt مع Enter",
+     "F2"
+    ],
+    "correct": 3,
+    "explanation": "F2 لإعادة التسمية.",
+    "topic": "pc.files"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا يفعل Control مع X؟",
+    "options": [
+     "نسخ",
+     "حذف نهائي",
+     "فتح",
+     "قص الملف"
+    ],
+    "correct": 3,
+    "explanation": "Control+X للقص.",
+    "topic": "pc.files"
+   }
+  }
+ ]
+}

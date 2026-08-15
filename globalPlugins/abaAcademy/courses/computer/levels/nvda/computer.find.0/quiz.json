@@ -1,0 +1,68 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تبحث عن نص في صفحة أو مستند؟",
+      "correct": "Control مع F",
+      "distractors": [
+       "Control مع S",
+       "Alt مع F",
+       "NVDA مع F4"
+      ],
+      "explain": "Control مع F",
+      "topic": "computer.find.0"
+     },
+     {
+      "prompt": "كيف تفتح قائمة NVDA؟",
+      "correct": "NVDA مع N",
+      "distractors": [
+       "NVDA مع M",
+       "Alt مع N",
+       "Control مع N"
+      ],
+      "explain": "NVDA مع N",
+      "topic": "computer.find.0"
+     },
+     {
+      "prompt": "كيف تعرف اسم النافذة التي أنت فيها؟",
+      "correct": "NVDA مع T",
+      "distractors": [
+       "NVDA مع W",
+       "Control مع T",
+       "Alt مع T"
+      ],
+      "explain": "NVDA مع T",
+      "topic": "computer.find.0"
+     },
+     {
+      "prompt": "كيف تعرف موضعك الحالي (اسم العنصر ونوعه)؟",
+      "correct": "NVDA مع Tab",
+      "distractors": [
+       "NVDA مع P",
+       "Control مع Tab",
+       "Alt مع Tab"
+      ],
+      "explain": "NVDA مع Tab",
+      "topic": "computer.find.0"
+     },
+     {
+      "prompt": "كيف تغلق البرنامج الحالي تماماً؟",
+      "correct": "Alt مع F4",
+      "distractors": [
+       "Control مع W",
+       "NVDA مع Q",
+       "Escape"
+      ],
+      "explain": "Alt مع F4",
+      "topic": "computer.find.0"
+     }
+    ]
+   }
+  }
+ ]
+}

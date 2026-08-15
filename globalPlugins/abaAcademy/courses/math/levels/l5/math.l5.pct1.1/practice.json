@@ -1,0 +1,12 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "math.percent",
+   "count": 12,
+   "params": {
+    "difficulty": 3
+   }
+  }
+ ]
+}

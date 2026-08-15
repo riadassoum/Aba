@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تعود إلى الخلية A1 بسرعة؟",
+      "correct": "Control مع Home",
+      "distractors": [
+       "Home فقط",
+       "Control مع End",
+       "F5"
+      ],
+      "explain": "Control+Home يعود إلى A1.",
+      "topic": "pc.excelnav"
+     },
+     {
+      "prompt": "ماذا يفعل Control مع سهم لأسفل؟",
+      "correct": "يقفز لآخر خلية مملوءة",
+      "distractors": [
+       "يحذف الصف",
+       "ينسخ الخلية",
+       "يفتح قائمة"
+      ],
+      "explain": "Control+سهم يقفز لحافة البيانات.",
+      "topic": "pc.excelnav"
+     }
+    ],
+    "topic": "pc.excelnav"
+   }
+  }
+ ]
+}

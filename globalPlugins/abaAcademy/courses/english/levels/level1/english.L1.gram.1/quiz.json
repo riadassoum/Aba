@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "She {b} a teacher.",
+    "options": [
+     "am",
+     "are",
+     "be",
+     "is"
+    ],
+    "correct": 3,
+    "explanation": "مع He/She/It نستخدم is.",
+    "topic": "gram.be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "They {b} happy today.",
+    "options": [
+     "is",
+     "am",
+     "be",
+     "are"
+    ],
+    "correct": 3,
+    "explanation": "مع We/You/They نستخدم are.",
+    "topic": "gram.be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I {b} a student.",
+    "options": [
+     "is",
+     "are",
+     "be",
+     "am"
+    ],
+    "correct": 3,
+    "explanation": "مع I نستخدم am دائماً.",
+    "topic": "gram.be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "We {b} from Lebanon.",
+    "options": [
+     "is",
+     "am",
+     "was",
+     "are"
+    ],
+    "correct": 3,
+    "explanation": "مع We نستخدم are.",
+    "topic": "gram.be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "It {b} a small dog.",
+    "options": [
+     "am",
+     "are",
+     "were",
+     "is"
+    ],
+    "correct": 3,
+    "explanation": "مع It نستخدم is.",
+    "topic": "gram.be"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One book, two {b}.",
+    "options": [
+     "book",
+     "bookes",
+     "bookies",
+     "books"
+    ],
+    "correct": 3,
+    "explanation": "نضيف -s للجمع المنتظم.",
+    "topic": "gram.plural"
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «الماضي المركّب (passé composé)». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: manger، parler."
+  },
+  {
+   "btype": "example",
+   "text": "je ai parlé",
+   "note": "تصريف «parler» مع «je»"
+  },
+  {
+   "btype": "example",
+   "text": "tu as parlé",
+   "note": "تصريف «parler» مع «tu»"
+  },
+  {
+   "btype": "example",
+   "text": "il a parlé",
+   "note": "تصريف «parler» مع «il»"
+  },
+  {
+   "btype": "example",
+   "text": "nous avons parlé",
+   "note": "تصريف «parler» مع «nous»"
+  },
+  {
+   "btype": "example",
+   "text": "vous avez parlé",
+   "note": "تصريف «parler» مع «vous»"
+  },
+  {
+   "btype": "example",
+   "text": "ils ont parlé",
+   "note": "تصريف «parler» مع «ils»"
+  }
+ ]
+}

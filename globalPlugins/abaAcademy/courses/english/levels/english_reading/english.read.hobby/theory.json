@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "اقرأ النص التالي بتمعّن ثم أجب عن الأسئلة. يمكنك سماعه كاملاً."
+  },
+  {
+   "btype": "reading",
+   "passage": "Ahmed loves reading books. He believes that reading opens the mind and teaches new ideas. Every evening, after finishing his homework, he reads for one hour. His favourite books are about science and history. He says that a person who reads a lot never stops learning.",
+   "text": "Ahmed loves reading books. He believes that reading opens the mind and teaches new ideas. Every evening, after finishing his homework, he reads for one hour. His favourite books are about science and history. He says that a person who reads a lot never stops learning."
+  },
+  {
+   "btype": "text",
+   "text": "الترجمة للاستئناس: يحب أحمد قراءة الكتب. يؤمن أن القراءة تفتح العقل وتعلّم أفكاراً جديدة. كل مساء، بعد إنهاء واجباته، يقرأ لمدة ساعة. كتبه المفضّلة عن العلوم والتاريخ. يقول إن من يقرأ كثيراً لا يتوقّف عن التعلّم أبداً."
+  }
+ ]
+}

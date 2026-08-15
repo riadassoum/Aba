@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: I ___ going to study tonight.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "will"
+    ],
+    "correct": 0,
+    "explanation": "مع I نستخدم am going to.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She is going to ___ a car.",
+    "options": [
+     "buys",
+     "bought",
+     "buy",
+     "buying"
+    ],
+    "correct": 2,
+    "explanation": "going to + تصريف أول: buy.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم going to للخطط المُبيّتة مسبقاً.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: They ___ going to travel.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "will"
+    ],
+    "correct": 2,
+    "explanation": "مع they نستخدم are.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: We are going ___ eat out. اكتب الكلمة الناقصة.",
+    "correct": "to",
+    "accepted": [],
+    "explanation": "التركيب: going to + فعل.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "أيّ جملة تعبّر عن خطة مسبقة؟",
+    "options": [
+     "I'll get it!",
+     "I am going to start a new job next month.",
+     "Maybe it will rain.",
+     "I think he will win."
+    ],
+    "correct": 1,
+    "explanation": "going to للخطط المرتّبة مسبقاً.",
+    "topic": "gram.going_to"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "I am going to visit my grandma.",
+      "translation": "سأزور جدّتي."
+     },
+     {
+      "text": "Look at the clouds! It is going to rain.",
+      "translation": "انظر للغيوم! ستمطر."
+     },
+     {
+      "text": "They are going to move.",
+      "translation": "سينتقلون."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "selon moi",
+      "meaning": "برأيي",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Selon moi, c'est une bonne idée.",
+      "translation": "برأيي، هذه فكرة جيدة."
+     },
+     {
+      "word": "je pense que",
+      "meaning": "أعتقد أن",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je pense que tu as raison.",
+      "translation": "أعتقد أنك محق."
+     },
+     {
+      "word": "d'accord",
+      "meaning": "موافق",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Je suis tout à fait d'accord.",
+      "translation": "أنا موافق تماماً."
+     },
+     {
+      "word": "au contraire",
+      "meaning": "على العكس",
+      "topic": "التعبير عن الرأي",
+      "difficulty": 7,
+      "example": "Au contraire, je ne suis pas d'accord.",
+      "translation": "على العكس، أنا لست موافقاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 4,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "translation": "Say, \"He is Allah, [who is] One,"
+     },
+     {
+      "text": "ٱللَّهُ ٱلصَّمَدُ",
+      "translation": "Allah, the Eternal Refuge."
+     },
+     {
+      "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "translation": "He neither begets nor is born,"
+     },
+     {
+      "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translation": "Nor is there to Him any equivalent.\""
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ﴾",
+    "topic": "quran:112"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: لَمْ يَلِدْ ...",
+    "correct": "وَلَمْ يُولَدْ",
+    "accepted": [
+     "لَمْ يَلِدْ وَلَمْ يُولَدْ"
+    ],
+    "explanation": "الآية كاملة: ﴿لَمْ يَلِدْ وَلَمْ يُولَدْ﴾",
+    "topic": "quran:112"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: وَلَمْ يَكُن ...",
+    "correct": "لَّهُۥ كُفُوًا أَحَدٌۢ",
+    "accepted": [
+     "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ"
+    ],
+    "explanation": "الآية كاملة: ﴿وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ﴾",
+    "topic": "quran:112"
+   }
+  }
+ ]
+}

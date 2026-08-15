@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "When did Sara go to the market?",
+    "options": [
+     "On Friday",
+     "On Saturday",
+     "On Sunday",
+     "On Monday"
+    ],
+    "correct": 1,
+    "explanation": "«On Saturday».",
+    "topic": "reading.market"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What did Sara buy?",
+    "options": [
+     "Only bread",
+     "Apples, tomatoes, and bread",
+     "Meat and fish",
+     "Nothing"
+    ],
+    "correct": 1,
+    "explanation": "«apples, tomatoes, and bread».",
+    "topic": "reading.market"
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "car",
+      "meaning": "سيارة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "He bought a new car.",
+      "translation": "اشترى سيارة جديدة."
+     },
+     {
+      "word": "bus",
+      "meaning": "حافلة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "We took the bus to school.",
+      "translation": "ركبنا الحافلة إلى المدرسة."
+     },
+     {
+      "word": "train",
+      "meaning": "قطار",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "The train arrives at noon.",
+      "translation": "يصل القطار عند الظهر."
+     },
+     {
+      "word": "plane",
+      "meaning": "طائرة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "The plane took off on time.",
+      "translation": "أقلعت الطائرة في الموعد."
+     },
+     {
+      "word": "bicycle",
+      "meaning": "دراجة هوائية",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "She rides her bicycle daily.",
+      "translation": "تركب دراجتها يومياً."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "car",
+      "meaning": "سيارة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "He bought a new car.",
+      "translation": "اشترى سيارة جديدة."
+     },
+     {
+      "word": "bus",
+      "meaning": "حافلة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "We took the bus to school.",
+      "translation": "ركبنا الحافلة إلى المدرسة."
+     },
+     {
+      "word": "train",
+      "meaning": "قطار",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "The train arrives at noon.",
+      "translation": "يصل القطار عند الظهر."
+     },
+     {
+      "word": "plane",
+      "meaning": "طائرة",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "The plane took off on time.",
+      "translation": "أقلعت الطائرة في الموعد."
+     },
+     {
+      "word": "bicycle",
+      "meaning": "دراجة هوائية",
+      "topic": "المواصلات",
+      "difficulty": 3,
+      "example": "She rides her bicycle daily.",
+      "translation": "تركب دراجتها يومياً."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

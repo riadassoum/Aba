@@ -1,0 +1,466 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "professeur",
+      "meaning": "معلم / أستاذ",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le professeur explique bien.",
+      "translation": "الأستاذ يشرح جيداً."
+     },
+     {
+      "word": "médecin",
+      "meaning": "طبيب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le médecin a examiné le patient.",
+      "translation": "فحص الطبيب المريض."
+     },
+     {
+      "word": "ingénieur",
+      "meaning": "مهندس",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Elle est ingénieure civile.",
+      "translation": "هي مهندسة مدنية."
+     },
+     {
+      "word": "infirmière",
+      "meaning": "ممرضة",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'infirmière lui a donné le médicament.",
+      "translation": "أعطته الممرضة الدواء."
+     },
+     {
+      "word": "agriculteur",
+      "meaning": "مزارع",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "L'agriculteur cultive le blé.",
+      "translation": "المزارع يزرع القمح."
+     },
+     {
+      "word": "chauffeur",
+      "meaning": "سائق",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Le chauffeur a arrêté le bus.",
+      "translation": "أوقف السائق الحافلة."
+     },
+     {
+      "word": "étudiant",
+      "meaning": "طالب",
+      "topic": "المهن",
+      "difficulty": 3,
+      "example": "Je suis étudiant à l'université.",
+      "translation": "أنا طالب في الجامعة."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

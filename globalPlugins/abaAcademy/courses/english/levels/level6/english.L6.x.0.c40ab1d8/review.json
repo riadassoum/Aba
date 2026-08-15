@@ -1,0 +1,136 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "excited",
+      "meaning": "متحمس",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I am excited about the trip.",
+      "translation": "أنا متحمس للرحلة."
+     },
+     {
+      "word": "worried",
+      "meaning": "قلق",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "She is worried about the exam.",
+      "translation": "هي قلقة بشأن الامتحان."
+     },
+     {
+      "word": "proud",
+      "meaning": "فخور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "We are proud of you.",
+      "translation": "نحن فخورون بك."
+     },
+     {
+      "word": "bored",
+      "meaning": "ضجر",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "The students look bored.",
+      "translation": "يبدو الطلاب ضجرين."
+     },
+     {
+      "word": "nervous",
+      "meaning": "متوتر",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "He was nervous before the interview.",
+      "translation": "كان متوتراً قبل المقابلة."
+     },
+     {
+      "word": "surprised",
+      "meaning": "متفاجئ",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I was surprised by the news.",
+      "translation": "تفاجأت بالخبر."
+     },
+     {
+      "word": "grateful",
+      "meaning": "ممتن",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I am grateful for your support.",
+      "translation": "أنا ممتن لدعمك."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "excited",
+      "meaning": "متحمس",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I am excited about the trip.",
+      "translation": "أنا متحمس للرحلة."
+     },
+     {
+      "word": "worried",
+      "meaning": "قلق",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "She is worried about the exam.",
+      "translation": "هي قلقة بشأن الامتحان."
+     },
+     {
+      "word": "proud",
+      "meaning": "فخور",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "We are proud of you.",
+      "translation": "نحن فخورون بك."
+     },
+     {
+      "word": "bored",
+      "meaning": "ضجر",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "The students look bored.",
+      "translation": "يبدو الطلاب ضجرين."
+     },
+     {
+      "word": "nervous",
+      "meaning": "متوتر",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "He was nervous before the interview.",
+      "translation": "كان متوتراً قبل المقابلة."
+     },
+     {
+      "word": "surprised",
+      "meaning": "متفاجئ",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I was surprised by the news.",
+      "translation": "تفاجأت بالخبر."
+     },
+     {
+      "word": "grateful",
+      "meaning": "ممتن",
+      "topic": "المشاعر",
+      "difficulty": 6,
+      "example": "I am grateful for your support.",
+      "translation": "أنا ممتن لدعمك."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

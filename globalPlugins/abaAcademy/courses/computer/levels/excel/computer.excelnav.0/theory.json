@@ -1,0 +1,68 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الأسهم تنقلك بين الخلايا، Control مع سهم يقفز لآخر خلية مملوءة في الاتجاه، Control مع Home يعود للخلية A1. NVDA يقرأ عنوان العمود والصف."
+  },
+  {
+   "btype": "text",
+   "text": "تعلّم هذه المعلومات أولاً، ثم ستُختبر فيها:"
+  },
+  {
+   "btype": "text",
+   "text": "كيف تعود إلى الخلية A1 بسرعة؟ Control مع Home (Control+Home يعود إلى A1.)"
+  },
+  {
+   "btype": "text",
+   "text": "ماذا يفعل Control مع سهم لأسفل؟ يقفز لآخر خلية مملوءة (Control+سهم يقفز لحافة البيانات.)"
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: كيف تعود إلى الخلية A1 بسرعة؟ الإجابة هي «Control مع Home». — Control+Home يعود إلى A1."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «Control مع Home»."
+  },
+  {
+   "btype": "text",
+   "text": "صحيح أم خطأ: ماذا يفعل Control مع سهم لأسفل؟ الإجابة هي «يقفز لآخر خلية مملوءة». — Control+سهم يقفز لحافة البيانات."
+  },
+  {
+   "btype": "text",
+   "text": "خطأ، الإجابة الصحيحة «يقفز لآخر خلية مملوءة»."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "كيف تعود إلى الخلية A1 بسرعة؟",
+    "options": [
+     "Home فقط",
+     "Control مع End",
+     "F5",
+     "Control مع Home"
+    ],
+    "correct": 3,
+    "explanation": "Control+Home يعود إلى A1.",
+    "topic": "pc.excelnav"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ماذا يفعل Control مع سهم لأسفل؟",
+    "options": [
+     "يحذف الصف",
+     "ينسخ الخلية",
+     "يفتح قائمة",
+     "يقفز لآخر خلية مملوءة"
+    ],
+    "correct": 3,
+    "explanation": "Control+سهم يقفز لحافة البيانات.",
+    "topic": "pc.excelnav"
+   }
+  }
+ ]
+}

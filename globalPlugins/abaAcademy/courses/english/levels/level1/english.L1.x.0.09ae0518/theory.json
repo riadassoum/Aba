@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الألوان». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "red = أحمر",
+   "note": "مثال: The apple is red. — التفاحة حمراء."
+  },
+  {
+   "btype": "example",
+   "text": "blue = أزرق",
+   "note": "مثال: The sky is blue. — السماء زرقاء."
+  },
+  {
+   "btype": "example",
+   "text": "green = أخضر",
+   "note": "مثال: The grass is green. — العشب أخضر."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «green»؟",
+    "options": [
+     "أحمر",
+     "أزرق",
+     "أخضر"
+    ],
+    "correct": 2,
+    "explanation": "«green» تعني «أخضر».",
+    "topic": "en:الألوان"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "yellow = أصفر",
+   "note": "مثال: The sun is yellow. — الشمس صفراء."
+  },
+  {
+   "btype": "example",
+   "text": "black = أسود",
+   "note": "مثال: I like black coffee. — أحب القهوة السوداء."
+  },
+  {
+   "btype": "example",
+   "text": "white = أبيض",
+   "note": "مثال: Her dress is white. — فستانها أبيض."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

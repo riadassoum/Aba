@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «العائلة». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "mother = أم",
+   "note": "مثال: My mother cooks well. — أمي تطبخ جيداً."
+  },
+  {
+   "btype": "example",
+   "text": "father = أب",
+   "note": "مثال: My father works in a bank. — أبي يعمل في مصرف."
+  },
+  {
+   "btype": "example",
+   "text": "brother = أخ",
+   "note": "مثال: My brother is a doctor. — أخي طبيب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «brother»؟",
+    "options": [
+     "أم",
+     "أب",
+     "أخ"
+    ],
+    "correct": 2,
+    "explanation": "«brother» تعني «أخ».",
+    "topic": "en:العائلة"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "sister = أخت",
+   "note": "مثال: My sister lives in Beirut. — أختي تسكن في بيروت."
+  },
+  {
+   "btype": "example",
+   "text": "son = ابن",
+   "note": "مثال: Their son is ten years old. — ابنهم عمره عشر سنوات."
+  },
+  {
+   "btype": "example",
+   "text": "daughter = ابنة",
+   "note": "مثال: Their daughter studies music. — ابنتهم تدرس الموسيقى."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «daughter»؟",
+    "options": [
+     "أخت",
+     "ابن",
+     "ابنة"
+    ],
+    "correct": 2,
+    "explanation": "«daughter» تعني «ابنة».",
+    "topic": "en:العائلة"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "friend = صديق",
+   "note": "مثال: He is my best friend. — هو صديقي المفضل."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

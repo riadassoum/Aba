@@ -1,0 +1,42 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب الماضي من work:",
+    "correct": "worked",
+    "accepted": [],
+    "explanation": "فعل منتظم: نضيف ed.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما ماضي buy؟",
+    "options": [
+     "buyed",
+     "buy",
+     "bought",
+     "boughted"
+    ],
+    "correct": 2,
+    "explanation": "شاذ: bought.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: They ___ (to play) football yesterday.",
+    "correct": "played",
+    "accepted": [],
+    "explanation": "فعل منتظم: played.",
+    "topic": "gram.past_simple"
+   }
+  }
+ ]
+}

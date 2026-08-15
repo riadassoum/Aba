@@ -1,0 +1,106 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "كوّن الظرف من الصفة quick:",
+    "correct": "quickly",
+    "accepted": [],
+    "explanation": "نضيف ly.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما ظرف good؟",
+    "options": [
+     "goodly",
+     "well",
+     "gooder",
+     "better"
+    ],
+    "correct": 1,
+    "explanation": "شاذ: well.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "كوّن الظرف من الصفة happy:",
+    "correct": "happily",
+    "accepted": [],
+    "explanation": "y تصبح ily.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He drives ___.",
+    "options": [
+     "careful",
+     "carefully",
+     "carefuly",
+     "care"
+    ],
+    "correct": 1,
+    "explanation": "الظرف: carefully.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "ظرف fast هو fastly.",
+    "correct": false,
+    "explanation": "fast لا يتغيّر: يبقى fast.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She sings ___.",
+    "options": [
+     "beautiful",
+     "beautifuly",
+     "beautifully",
+     "beauty"
+    ],
+    "correct": 2,
+    "explanation": "الظرف: beautifully.",
+    "topic": "gram.adverbs"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "She speaks slowly.",
+      "translation": "تتحدث ببطء."
+     },
+     {
+      "text": "He works hard.",
+      "translation": "يعمل بجدّ."
+     },
+     {
+      "text": "They play well.",
+      "translation": "يلعبون جيداً."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

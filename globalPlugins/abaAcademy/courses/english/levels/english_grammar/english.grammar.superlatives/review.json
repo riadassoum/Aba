@@ -1,0 +1,41 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب صيغة التفضيل من tall (بدون the):",
+    "correct": "tallest",
+    "accepted": [],
+    "explanation": "نضيف est.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: She is the ___ student.",
+    "options": [
+     "intelligent",
+     "more intelligent",
+     "most intelligent",
+     "intelligentest"
+    ],
+    "correct": 2,
+    "explanation": "صفة طويلة: the most intelligent.",
+    "topic": "gram.superlatives"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم the قبل صيغة التفضيل عادة.",
+    "correct": true,
+    "explanation": "صحيح: the tallest.",
+    "topic": "gram.superlatives"
+   }
+  }
+ ]
+}

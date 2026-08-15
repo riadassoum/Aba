@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "J'{b} mangé une pomme.",
+    "options": [
+     "suis",
+     "as",
+     "a",
+     "ai"
+    ],
+    "correct": 3,
+    "explanation": "الماضي المركب: avoir/être بالمضارع + participe passé.",
+    "topic": "gram.passe_compose_avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Elle {b} fini son travail.",
+    "options": [
+     "est",
+     "as",
+     "ai",
+     "a"
+    ],
+    "correct": 3,
+    "explanation": "مع Elle نستخدم a + participe passé.",
+    "topic": "gram.passe_compose_avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Nous {b} regardé un film.",
+    "options": [
+     "sommes",
+     "avez",
+     "ont",
+     "avons"
+    ],
+    "correct": 3,
+    "explanation": "مع Nous نستخدم avons + participe passé.",
+    "topic": "gram.passe_compose_avoir"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Je {b} allé au marché.",
+    "options": [
+     "ai",
+     "es",
+     "est",
+     "suis"
+    ],
+    "correct": 3,
+    "explanation": "بعض الأفعال (aller, venir...) تُصرَّف بـ être لا avoir.",
+    "topic": "gram.passe_compose_etre"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Elle {b} partie tôt ce matin.",
+    "options": [
+     "a",
+     "es",
+     "sont",
+     "est"
+    ],
+    "correct": 3,
+    "explanation": "مع Elle نستخدم est، والتصريف يوافق المؤنث (partie).",
+    "topic": "gram.passe_compose_etre"
+   }
+  }
+ ]
+}

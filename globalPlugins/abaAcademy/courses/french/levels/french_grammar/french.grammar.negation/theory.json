@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "لنفي جملة في الفرنسية نضع ne قبل الفعل وpas بعده، فيصبح الفعل محاطاً بهما. مثل Je parle → Je ne parle pas (لا أتكلم). إذا بدأ الفعل بحرف متحرك نختصر ne إلى n': Je n'aime pas. أدوات نفي أخرى: ne...jamais (أبداً)، ne...rien (لا شيء)، ne...personne (لا أحد)."
+  },
+  {
+   "btype": "example",
+   "text": "Je ne parle pas anglais.",
+   "note": "لا أتكلم الإنجليزية."
+  },
+  {
+   "btype": "example",
+   "text": "Il n'aime pas le café.",
+   "note": "لا يحب القهوة."
+  },
+  {
+   "btype": "example",
+   "text": "Nous ne comprenons pas.",
+   "note": "لا نفهم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي الصحيح لـ Je parle:",
+    "options": [
+     "Je pas parle",
+     "Je ne parle pas",
+     "Je ne pas parle",
+     "Je parle ne pas"
+    ],
+    "correct": 1,
+    "explanation": "ne قبل الفعل وpas بعده.",
+    "topic": "gram.negation"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il ___ aime pas le thé.",
+    "options": [
+     "ne",
+     "n'",
+     "pas",
+     "ni"
+    ],
+    "correct": 1,
+    "explanation": "قبل حرف متحرك نختصر إلى n'.",
+    "topic": "gram.negation"
+   }
+  }
+ ]
+}

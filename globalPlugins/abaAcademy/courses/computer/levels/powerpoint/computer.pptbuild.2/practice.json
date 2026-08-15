@@ -1,0 +1,49 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 14,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أيّ اختصار يضيف شريحة جديدة؟",
+      "correct": "Control مع M",
+      "distractors": [
+       "Control مع N",
+       "F5",
+       "Control مع S"
+      ],
+      "explain": "Control+M لشريحة جديدة.",
+      "topic": "pc.pptbuild"
+     }
+    ],
+    "topic": "pc.pptbuild",
+    "difficulty": 2
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 11,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار يضيف شريحة جديدة؟ الإجابة هي «Control مع M».",
+      "is_true": true,
+      "explain": "Control+M لشريحة جديدة.",
+      "topic": "pc.pptbuild"
+     },
+     {
+      "text": "صحيح أم خطأ: أيّ اختصار يضيف شريحة جديدة؟ الإجابة هي «Control مع N».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Control مع M».",
+      "topic": "pc.pptbuild"
+     }
+    ],
+    "topic": "pc.pptbuild",
+    "difficulty": 2
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اكتب الفعل الماضي من الدعاء بشكل صحيح:",
+    "options": [
+     "دعى",
+     "دعآ",
+     "دعاء",
+     "دعا"
+    ],
+    "correct": 3,
+    "explanation": "أصل ألفه واو (يدعو) فتُكتب ممدودة.",
+    "topic": "ar.alif"
+   }
+  }
+ ]
+}

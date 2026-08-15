@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "أكمل: إنّ الجوَّ ...",
+      "correct": "جميلٌ",
+      "distractors": [
+       "جميلاً",
+       "جميلٍ",
+       "الجميل"
+      ],
+      "explain": "خبر إنّ مرفوع.",
+      "topic": "ar.inna"
+     }
+    ],
+    "topic": "ar.inna",
+    "difficulty": 4
+   }
+  }
+ ]
+}

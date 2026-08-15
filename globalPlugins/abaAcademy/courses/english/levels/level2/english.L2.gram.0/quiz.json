@@ -1,0 +1,100 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One child, two {b}.",
+    "options": [
+     "childs",
+     "childrens",
+     "childes",
+     "children"
+    ],
+    "correct": 3,
+    "explanation": "child جمعها شاذ: children.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One man, two {b}.",
+    "options": [
+     "mans",
+     "mens",
+     "manes",
+     "men"
+    ],
+    "correct": 3,
+    "explanation": "man جمعها شاذ: men.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One woman, two {b}.",
+    "options": [
+     "womans",
+     "womens",
+     "womanes",
+     "women"
+    ],
+    "correct": 3,
+    "explanation": "woman جمعها شاذ: women.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "One city, two {b}.",
+    "options": [
+     "citys",
+     "citiess",
+     "cityes",
+     "cities"
+    ],
+    "correct": 3,
+    "explanation": "الكلمة المنتهية بـ y بعد ساكن تصبح ies.",
+    "topic": "gram.plural"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "I saw {b} elephant at the zoo.",
+    "options": [
+     "a",
+     "the",
+     "-",
+     "an"
+    ],
+    "correct": 3,
+    "explanation": "قبل صوت متحرك (a,e,i,o,u) نستخدم an.",
+    "topic": "gram.articles"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "She has {b} cat.",
+    "options": [
+     "an",
+     "the",
+     "-",
+     "a"
+    ],
+    "correct": 3,
+    "explanation": "قبل صوت ساكن نستخدم a.",
+    "topic": "gram.articles"
+   }
+  }
+ ]
+}

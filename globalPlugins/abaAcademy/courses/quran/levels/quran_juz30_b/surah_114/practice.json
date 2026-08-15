@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 6,
+   "params": {
+    "sentences": [
+     {
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "translation": "Say, \"I seek refuge in the Lord of mankind,"
+     },
+     {
+      "text": "مَلِكِ ٱلنَّاسِ",
+      "translation": "The Sovereign of mankind."
+     },
+     {
+      "text": "إِلَٰهِ ٱلنَّاسِ",
+      "translation": "The God of mankind,"
+     },
+     {
+      "text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "translation": "From the evil of the retreating whisperer -"
+     },
+     {
+      "text": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "translation": "Who whispers [evil] into the breasts of mankind -"
+     },
+     {
+      "text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "translation": "From among the jinn and mankind.\""
+     }
+    ],
+    "lang": "ar"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ...",
+    "correct": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+    "accepted": [
+     "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+    ],
+    "explanation": "الآية كاملة: ﴿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ﴾",
+    "topic": "quran:114"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: مِن شَرِّ ...",
+    "correct": "ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+    "accepted": [
+     "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ"
+    ],
+    "explanation": "الآية كاملة: ﴿مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ﴾",
+    "topic": "quran:114"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل الآية: ٱلَّذِى يُوَسْوِسُ ...",
+    "correct": "فِى صُدُورِ ٱلنَّاسِ",
+    "accepted": [
+     "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"
+    ],
+    "explanation": "الآية كاملة: ﴿ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ﴾",
+    "topic": "quran:114"
+   }
+  }
+ ]
+}

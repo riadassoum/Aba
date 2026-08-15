@@ -1,0 +1,10 @@
+{
+ "lesson_id": "gen.time.calc",
+ "title": "حساب الوقت",
+ "order": 3,
+ "objectives": [
+  "حساب الوقت"
+ ],
+ "grammar_refs": [],
+ "difficulty": 2
+}

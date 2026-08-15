@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الوقت». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "aujourd'hui = اليوم",
+   "note": "مثال: Aujourd'hui est une belle journée. — اليوم يوم جميل."
+  },
+  {
+   "btype": "example",
+   "text": "demain = غداً",
+   "note": "مثال: À demain. — أراك غداً."
+  },
+  {
+   "btype": "example",
+   "text": "hier = أمس",
+   "note": "مثال: Je t'ai appelé hier. — اتصلت بك أمس."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «hier»؟",
+    "options": [
+     "اليوم",
+     "غداً",
+     "أمس"
+    ],
+    "correct": 2,
+    "explanation": "«hier» تعني «أمس».",
+    "topic": "fr:الوقت"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "matin = صباح",
+   "note": "مثال: Bonjour à tous ce matin. — صباح الخير للجميع."
+  },
+  {
+   "btype": "example",
+   "text": "nuit = ليل",
+   "note": "مثال: C'est très calme la nuit. — الجو هادئ جداً في الليل."
+  },
+  {
+   "btype": "example",
+   "text": "semaine = أسبوع",
+   "note": "مثال: Je vais le finir la semaine prochaine. — سأنهيه الأسبوع القادم."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «semaine»؟",
+    "options": [
+     "صباح",
+     "ليل",
+     "أسبوع"
+    ],
+    "correct": 2,
+    "explanation": "«semaine» تعني «أسبوع».",
+    "topic": "fr:الوقت"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "mois = شهر",
+   "note": "مثال: Nous voyageons chaque mois. — نسافر كل شهر."
+  },
+  {
+   "btype": "example",
+   "text": "année = سنة",
+   "note": "مثال: Bonne année ! — سنة سعيدة!"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

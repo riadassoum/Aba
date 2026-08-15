@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "أغلب الأفعال الفرنسية تنتهي بـ er (parler يتكلم، aimer يحب). لتصريفها في المضارع نحذف er ونضيف النهايات: je -e، tu -es، il/elle -e، nous -ons، vous -ez، ils/elles -ent. مثال parler: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. لاحظ أن نهايات -e, -es, -ent تُلفظ متشابهة (صامتة)."
+  },
+  {
+   "btype": "example",
+   "text": "Je parle français.",
+   "note": "أتكلم الفرنسية."
+  },
+  {
+   "btype": "example",
+   "text": "Nous aimons la musique.",
+   "note": "نحب الموسيقى."
+  },
+  {
+   "btype": "example",
+   "text": "Ils regardent la télé.",
+   "note": "يشاهدون التلفاز."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ (parler) français.",
+    "options": [
+     "parle",
+     "parles",
+     "parlons",
+     "parlent"
+    ],
+    "correct": 0,
+    "explanation": "مع je النهاية e: parle.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Nous ___ (aimer) le café.",
+    "options": [
+     "aime",
+     "aimes",
+     "aimons",
+     "aiment"
+    ],
+    "correct": 2,
+    "explanation": "مع nous النهاية ons: aimons.",
+    "topic": "gram.er_verbs"
+   }
+  }
+ ]
+}

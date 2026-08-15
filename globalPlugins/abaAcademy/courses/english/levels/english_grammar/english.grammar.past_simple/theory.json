@@ -1,0 +1,54 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "نستخدم الماضي البسيط لحدث وقع وانتهى في الماضي، مثل «زرت جدّي أمس». الأفعال المنتظمة نضيف لها ed: work → worked، play → played (وإن انتهى بـ e نضيف d فقط: like → liked). لكن كثيراً من الأفعال شاذة لها صيغة ماضٍ خاصة يجب حفظها: go → went، see → saw، have → had، eat → ate، buy → bought، make → made."
+  },
+  {
+   "btype": "text",
+   "text": "في النفي والسؤال نستخدم did مع التصريف الأول: I didn't go، Did you see?"
+  },
+  {
+   "btype": "example",
+   "text": "I visited my uncle yesterday.",
+   "note": "زرت عمّي أمس."
+  },
+  {
+   "btype": "example",
+   "text": "She went to school.",
+   "note": "ذهبت إلى المدرسة."
+  },
+  {
+   "btype": "example",
+   "text": "Did you eat?",
+   "note": "هل أكلت؟"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "اكتب الماضي من work:",
+    "correct": "worked",
+    "accepted": [],
+    "explanation": "فعل منتظم: نضيف ed.",
+    "topic": "gram.past_simple"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "ما ماضي go؟",
+    "options": [
+     "goed",
+     "went",
+     "gone",
+     "goes"
+    ],
+    "correct": 1,
+    "explanation": "شاذ: went.",
+    "topic": "gram.past_simple"
+   }
+  }
+ ]
+}

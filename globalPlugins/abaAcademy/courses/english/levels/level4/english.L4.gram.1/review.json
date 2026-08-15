@@ -1,0 +1,103 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Yesterday, I {b} to the market.",
+      "correct": "went",
+      "distractors": [
+       "go",
+       "goes",
+       "going"
+      ],
+      "explain": "go فعل شاذ، ماضيه went.",
+      "topic": "gram.past_simple"
+     },
+     {
+      "prompt": "She {b} her homework last night.",
+      "correct": "finished",
+      "distractors": [
+       "finish",
+       "finishes",
+       "finishing"
+      ],
+      "explain": "الأفعال المنتظمة تأخذ -ed في الماضي.",
+      "topic": "gram.past_simple"
+     },
+     {
+      "prompt": "They {b} not come to the party.",
+      "correct": "did",
+      "distractors": [
+       "do",
+       "does",
+       "were"
+      ],
+      "explain": "في نفي الماضي نستخدم did not للأفعال العادية.",
+      "topic": "gram.past_simple"
+     },
+     {
+      "prompt": "{b} you see that movie?",
+      "correct": "Did",
+      "distractors": [
+       "Do",
+       "Does",
+       "Were"
+      ],
+      "explain": "سؤال الماضي البسيط يبدأ بـ Did.",
+      "topic": "gram.past_simple"
+     },
+     {
+      "prompt": "The meeting is {b} Monday.",
+      "correct": "on",
+      "distractors": [
+       "in",
+       "at",
+       "to"
+      ],
+      "explain": "on تُستخدم مع أيام الأسبوع.",
+      "topic": "gram.prepositions"
+     },
+     {
+      "prompt": "{b} is your name?",
+      "correct": "What",
+      "distractors": [
+       "Who",
+       "Where",
+       "When"
+      ],
+      "explain": "What تُستخدم للسؤال عن شيء أو اسم.",
+      "topic": "gram.questions"
+     },
+     {
+      "prompt": "{b} do you live?",
+      "correct": "Where",
+      "distractors": [
+       "What",
+       "Who",
+       "Why"
+      ],
+      "explain": "Where تُستخدم للسؤال عن المكان.",
+      "topic": "gram.questions"
+     },
+     {
+      "prompt": "{b} are you late?",
+      "correct": "Why",
+      "distractors": [
+       "What",
+       "Where",
+       "How"
+      ],
+      "explain": "Why تُستخدم للسؤال عن السبب.",
+      "topic": "gram.questions"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

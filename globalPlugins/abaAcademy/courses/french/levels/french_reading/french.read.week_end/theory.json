@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "اقرأ النص التالي بتمعّن ثم أجب عن الأسئلة. يمكنك سماعه كاملاً."
+  },
+  {
+   "btype": "reading",
+   "passage": "Samedi dernier, Marie est allée au parc avec ses amis. Ils ont joué au football et ils ont mangé un pique-nique. Il faisait beau et chaud. L'après-midi, ils sont rentrés à la maison fatigués mais contents.",
+   "text": "Samedi dernier, Marie est allée au parc avec ses amis. Ils ont joué au football et ils ont mangé un pique-nique. Il faisait beau et chaud. L'après-midi, ils sont rentrés à la maison fatigués mais contents."
+  },
+  {
+   "btype": "text",
+   "text": "الترجمة للاستئناس: السبت الماضي ذهبت ماري إلى الحديقة مع أصدقائها. لعبوا كرة القدم وتناولوا نزهة (طعاماً في الخارج). كان الجو جميلاً وحاراً. بعد الظهر عادوا إلى البيت متعبين لكن سعداء."
+  }
+ ]
+}

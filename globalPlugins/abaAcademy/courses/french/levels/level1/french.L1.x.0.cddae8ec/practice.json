@@ -1,0 +1,354 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "chat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chat dort.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "chien",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le chien court.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "oiseau",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Un oiseau chante.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "cheval",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Le cheval est rapide.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "poisson",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "Nous avons mangé du poisson.",
+      "translation": "أكلنا سمكاً."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

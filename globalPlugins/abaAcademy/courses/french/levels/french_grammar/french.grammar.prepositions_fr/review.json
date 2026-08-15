@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je vais ___ Paris.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 0,
+    "explanation": "مع المدن نستخدم à.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il travaille ___ Maroc.",
+    "options": [
+     "à",
+     "en",
+     "au",
+     "aux"
+    ],
+    "correct": 2,
+    "explanation": "دولة مذكّرة: au.",
+    "topic": "gram.prepositions_fr"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: Le chat est ___ la table (على). اكتب حرف الجر.",
+    "correct": "sur",
+    "accepted": [],
+    "explanation": "على: sur.",
+    "topic": "gram.prepositions_fr"
+   }
+  }
+ ]
+}

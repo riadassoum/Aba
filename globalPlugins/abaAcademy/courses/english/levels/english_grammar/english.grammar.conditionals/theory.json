@@ -1,0 +1,59 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "الشرط الصفري (Zero Conditional) للحقائق العامة: If + مضارع بسيط، مضارع بسيط. مثل If you heat ice, it melts (إذا سخّنت الثلج يذوب). الشرط الأول (First Conditional) لموقف محتمل في المستقبل: If + مضارع بسيط، will + فعل. مثل If it rains, I will stay home (إن أمطرت سأبقى في البيت). لاحظ أننا لا نستخدم"
+  },
+  {
+   "btype": "text",
+   "text": "will في جملة if نفسها، بل في الجواب."
+  },
+  {
+   "btype": "example",
+   "text": "If you heat ice, it melts.",
+   "note": "إذا سخّنت الثلج يذوب."
+  },
+  {
+   "btype": "example",
+   "text": "If it rains, I will stay home.",
+   "note": "إن أمطرت سأبقى في البيت."
+  },
+  {
+   "btype": "example",
+   "text": "If you study, you will pass.",
+   "note": "إن ذاكرت ستنجح."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: If it rains, I ___ stay home.",
+    "options": [
+     "will",
+     "would",
+     "am",
+     "do"
+    ],
+    "correct": 0,
+    "explanation": "الشرط الأول: الجواب بـ will.",
+    "topic": "gram.conditionals"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح للحقيقة العامة: If you heat water, it ___.",
+    "options": [
+     "will boil",
+     "boils",
+     "boil",
+     "boiled"
+    ],
+    "correct": 1,
+    "explanation": "الشرط الصفري: مضارع بسيط في الجواب.",
+    "topic": "gram.conditionals"
+   }
+  }
+ ]
+}

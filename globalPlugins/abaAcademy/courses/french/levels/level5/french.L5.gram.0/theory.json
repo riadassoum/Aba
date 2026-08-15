@@ -1,0 +1,24 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتدرّب على قواعد هذا المستوى من خلال أمثلة وتطبيقات مباشرة. اقرأ كل سؤال واختر الصواب."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "Demain, je {b} à Paris.",
+    "options": [
+     "voyage",
+     "voyageais",
+     "ai voyagé",
+     "voyagerai"
+    ],
+    "correct": 3,
+    "explanation": "المستقبل البسيط: المصدر + نهاية -ai مع Je.",
+    "topic": "gram.futur_simple"
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "اقرأ النص التالي بتمعّن ثم أجب عن الأسئلة. يمكنك سماعه كاملاً."
+  },
+  {
+   "btype": "reading",
+   "passage": "On Saturday, Sara went to the market. She wanted to buy fresh fruit and vegetables. She bought apples, tomatoes, and bread. The market was very crowded, but the food was cheap and fresh. Sara came home happy with two full bags.",
+   "text": "On Saturday, Sara went to the market. She wanted to buy fresh fruit and vegetables. She bought apples, tomatoes, and bread. The market was very crowded, but the food was cheap and fresh. Sara came home happy with two full bags."
+  },
+  {
+   "btype": "text",
+   "text": "الترجمة للاستئناس: يوم السبت ذهبت سارة إلى السوق. أرادت شراء فواكه وخضار طازجة. اشترت تفاحاً وطماطم وخبزاً. كان السوق مزدحماً جداً، لكن الطعام كان رخيصاً وطازجاً. عادت سارة إلى البيت سعيدة بحقيبتين ممتلئتين."
+  }
+ ]
+}

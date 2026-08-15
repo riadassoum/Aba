@@ -1,0 +1,29 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 6,
+   "params": {
+    "table": "arabic",
+    "words": [
+     "باب",
+     "كتاب",
+     "قلم",
+     "شمس",
+     "بيت",
+     "درس",
+     "علم",
+     "نور",
+     "سلام",
+     "قمر",
+     "مدرسة",
+     "طالب",
+     "معلم",
+     "كرسي"
+    ],
+    "topic": "braille.mastery"
+   }
+  }
+ ]
+}

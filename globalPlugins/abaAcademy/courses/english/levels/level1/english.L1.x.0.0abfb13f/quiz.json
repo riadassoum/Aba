@@ -1,0 +1,304 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "cat",
+      "meaning": "قطة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The cat is sleeping.",
+      "translation": "القطة نائمة."
+     },
+     {
+      "word": "dog",
+      "meaning": "كلب",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The dog is running.",
+      "translation": "الكلب يجري."
+     },
+     {
+      "word": "bird",
+      "meaning": "طائر",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "A bird is singing.",
+      "translation": "طائر يغني."
+     },
+     {
+      "word": "horse",
+      "meaning": "حصان",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "The horse is fast.",
+      "translation": "الحصان سريع."
+     },
+     {
+      "word": "fish",
+      "meaning": "سمكة",
+      "topic": "الحيوانات",
+      "difficulty": 1,
+      "example": "We ate fish for dinner.",
+      "translation": "أكلنا سمكاً على العشاء."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

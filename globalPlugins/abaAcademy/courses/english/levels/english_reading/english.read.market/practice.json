@@ -1,0 +1,81 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "When did Sara go to the market?",
+    "options": [
+     "On Friday",
+     "On Saturday",
+     "On Sunday",
+     "On Monday"
+    ],
+    "correct": 1,
+    "explanation": "«On Saturday».",
+    "topic": "reading.market"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What did Sara buy?",
+    "options": [
+     "Only bread",
+     "Apples, tomatoes, and bread",
+     "Meat and fish",
+     "Nothing"
+    ],
+    "correct": 1,
+    "explanation": "«apples, tomatoes, and bread».",
+    "topic": "reading.market"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "The market was empty.",
+    "correct": false,
+    "explanation": "«The market was very crowded».",
+    "topic": "reading.market"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "How did Sara feel when she came home?",
+    "options": [
+     "Tired",
+     "Angry",
+     "Happy",
+     "Sad"
+    ],
+    "correct": 2,
+    "explanation": "«came home happy».",
+    "topic": "reading.market"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "Sara went to the market."
+     },
+     {
+      "text": "The food was cheap and fresh."
+     },
+     {
+      "text": "She bought apples and bread."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

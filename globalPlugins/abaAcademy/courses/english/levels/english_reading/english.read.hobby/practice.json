@@ -1,0 +1,81 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What does Ahmed love?",
+    "options": [
+     "Sports",
+     "Reading books",
+     "Cooking",
+     "Music"
+    ],
+    "correct": 1,
+    "explanation": "«Ahmed loves reading books».",
+    "topic": "reading.hobby"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "When does he read?",
+    "options": [
+     "In the morning",
+     "Every evening after homework",
+     "At school",
+     "On weekends only"
+    ],
+    "correct": 1,
+    "explanation": "«Every evening, after finishing his homework».",
+    "topic": "reading.hobby"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "Ahmed's favourite books are about science and history.",
+    "correct": true,
+    "explanation": "«favourite books are about science and history».",
+    "topic": "reading.hobby"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "What does Ahmed say about people who read a lot?",
+    "options": [
+     "They get tired",
+     "They never stop learning",
+     "They forget",
+     "They read slowly"
+    ],
+    "correct": 1,
+    "explanation": "«never stops learning».",
+    "topic": "reading.hobby"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "Reading opens the mind."
+     },
+     {
+      "text": "He reads for one hour."
+     },
+     {
+      "text": "He loves science and history."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

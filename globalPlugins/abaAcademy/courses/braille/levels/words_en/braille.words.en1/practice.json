@@ -1,0 +1,19 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.word",
+   "count": 12,
+   "params": {
+    "table": "english",
+    "words": [
+     "sun",
+     "home",
+     "read",
+     "star"
+    ],
+    "topic": "braille.words.en"
+   }
+  }
+ ]
+}

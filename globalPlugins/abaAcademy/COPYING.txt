@@ -1,0 +1,51 @@
+Arab Blind Academy (أكاديمية الكفيف العربي) is licensed under the GNU General Public License, version 3 (GPL v3). See: https://www.gnu.org/licenses/gpl-3.0.html
+
+Some Qur'an-reader features (full-text search, bookmarks, ayah copying, position resume, continuous/repeat recitation) were implemented in this add-on inspired by the open-source projects Rattil and Al-Bayan by TecWindow (https://github.com/tecwindow), which are also released under the GPL. No source code from those projects is copied here; the features were re-implemented, and this attribution is given with thanks.
+
+Additional data adapted from Al-Bayan (TecWindow, GPL):
+  - Per-ayah reciters list (verse.mp3quran.net / everyayah.com sources).
+  - I'rab (grammatical parsing) of the whole Qur'an (كتاب إعراب القرآن).
+  - Asbab an-Nuzul (occasions of revelation, al-Wahidi).
+  These databases were extracted and reformatted; recitation audio streams from its original public servers. Reproduced for non-commercial educational use.
+
+Spaced repetition:
+  The review scheduler implements the FSRS algorithm (Free Spaced Repetition Scheduler, open-source, github.com/open-spaced-repetition), re-implemented here in pure Python. It replaces the earlier SM-2 variant for smarter review timing of lessons/vocabulary.
+
+Hadith collections (courses/hadith reader):
+  Arabic text of Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah and Muwatta Malik is from the public-domain fawazahmed0/hadith-api dataset. One collection is bundled; the rest download on demand and are cached. Reproduced unmodified.
+
+Dictionary lookup (gui/dictionary.py):
+  English definitions, phonetics, examples and synonyms are fetched on demand from the free Dictionary API (dictionaryapi.dev); definition text is under CC BY-SA. No data is bundled; lookups require an internet connection. Pronunciation audio is generated on demand from Google Translate's free TTS endpoint.
+
+Hadith reader:
+  Cascading collection -> كتاب navigation pattern adapted from the open-source Bible NVDA add-on (GPL). Arabic hadith texts from the public-domain fawazahmed0/hadith-api dataset; large collections download on demand.
+
+Download UX:
+  The audible busy-beep during long downloads and use of NVDA's ui.message for progress speech are adapted from the open-source Bible NVDA add-on's update manager (GPL). Font-size keys in the readers are likewise inspired by it. Downloads themselves are chunked and resumable (.part files).
+
+Flashcards:
+  An Anki-style personal flashcard system (the learner's own cards), scheduled by the same FSRS algorithm used for lesson review. Cards persist in the NVDA config folder. Concept inspired by Anki/Quizlet; no code from them is used.
+
+Starter flashcard decks:
+  ~2,900 ready-made cards across 82 decks are generated from this add-on's own vetted course content (English/French vocabulary in both directions, and the knowledge subjects). They complement the lessons and are added at the learner's choice from the in-app library.
+
+Reader commands & hifz:
+  Full keyboard shortcuts plus an Alt/Applications-key command menu in the Qur'an and Hadith windows follow the menu approach of the Bible NVDA add-on (GPL). The multi-surah hifz range-repeat (repeat a chosen range of ayat N times for memorisation, with per-ayah, whole-range, and hybrid modes) is adapted from al-bayan and from common open-source Qur'an study apps, re-implemented here.
+
+NVDA training lessons:
+  Additional lessons in the computer course's NVDA level (object navigation, reading text, the synth settings ring, browse-mode element navigation, table navigation, find/menus) were adapted into Arabic from the freely distributed NVDA Coach add-on by Tony Gebhard (https://tonygebhard.me/nvdacoach/). The command knowledge was re-authored in this add-on's own lesson format; no source code was copied.
+
+Islamic tools:
+  The 99 Names of Allah (Asma ul-Husna) are bundled from the AlAdhan API (aladhan.com, free, no key) with Arabic meanings added. Prayer times and the Hijri date are fetched live from the same free AlAdhan API. No key required.
+
+Full-surah player, download manager & go-to:
+  The whole-surah audio player, its reciter list and per-surah URL scheme, the on-demand download-progress window (Space/1/2/3 status keys), and the precise surah+ayah go-to dialog (dynamic ayah range + validation) are adapted from the al-bayan NVDA project by TecWindow (https://github.com/tecwindow/albayan), GPL v3. Whole-surah audio is served by mp3quran.net. Data and design were adapted; see LICENSE.
+
+Athkar & Tasbih:
+  The adhkar (remembrances) dataset and the tasbih-counter and periodic-athkar-reminder features are adapted from the al-bayan NVDA project by TecWindow (GPL v3). The adhkar are well-known devotional texts from the Qur'an and Sunnah; the counter and reminder were re-implemented in this add-on.
+
+Word-by-word analysis:
+  The per-word grammar (root, lemma, part of speech) shown for each ayah comes from the Quranic Arabic Corpus morphology (Kais Dukes, University of Leeds), via the Arabic fork mustafa0x/quran-morphology, published under the GNU General Public License. Arabic term labels are from that dataset.
+
+Bundled audio player (lib/):
+  Playback uses the miniaudio library (David Reid, public domain / MIT-0) with its Python bindings (Irmen de Jong, MIT), together with cffi and pycparser (MIT). These are bundled so the add-on plays audio in-process without requiring any separate installation.

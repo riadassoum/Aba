@@ -1,0 +1,136 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "bonjour",
+      "meaning": "مرحباً / صباح الخير",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Bonjour, comment ça va ?",
+      "translation": "مرحباً، كيف حالك؟"
+     },
+     {
+      "word": "au revoir",
+      "meaning": "إلى اللقاء",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Au revoir, à demain.",
+      "translation": "إلى اللقاء، أراك غداً."
+     },
+     {
+      "word": "s'il vous plaît",
+      "meaning": "من فضلك",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Un café, s'il vous plaît.",
+      "translation": "قهوة من فضلك."
+     },
+     {
+      "word": "merci",
+      "meaning": "شكراً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Merci beaucoup pour votre aide.",
+      "translation": "شكراً جزيلاً على مساعدتك."
+     },
+     {
+      "word": "pardon",
+      "meaning": "عفواً / آسف",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Pardon, je suis en retard.",
+      "translation": "عفواً، أنا متأخر."
+     },
+     {
+      "word": "oui",
+      "meaning": "نعم",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Oui, je comprends.",
+      "translation": "نعم، أنا أفهم."
+     },
+     {
+      "word": "non",
+      "meaning": "لا",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Non, merci.",
+      "translation": "لا، شكراً."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "bonjour",
+      "meaning": "مرحباً / صباح الخير",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Bonjour, comment ça va ?",
+      "translation": "مرحباً، كيف حالك؟"
+     },
+     {
+      "word": "au revoir",
+      "meaning": "إلى اللقاء",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Au revoir, à demain.",
+      "translation": "إلى اللقاء، أراك غداً."
+     },
+     {
+      "word": "s'il vous plaît",
+      "meaning": "من فضلك",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Un café, s'il vous plaît.",
+      "translation": "قهوة من فضلك."
+     },
+     {
+      "word": "merci",
+      "meaning": "شكراً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Merci beaucoup pour votre aide.",
+      "translation": "شكراً جزيلاً على مساعدتك."
+     },
+     {
+      "word": "pardon",
+      "meaning": "عفواً / آسف",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Pardon, je suis en retard.",
+      "translation": "عفواً، أنا متأخر."
+     },
+     {
+      "word": "oui",
+      "meaning": "نعم",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Oui, je comprends.",
+      "translation": "نعم، أنا أفهم."
+     },
+     {
+      "word": "non",
+      "meaning": "لا",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Non, merci.",
+      "translation": "لا، شكراً."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

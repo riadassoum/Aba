@@ -1,0 +1,160 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "nevertheless",
+      "meaning": "ومع ذلك",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "Nevertheless, we continued the project.",
+      "translation": "ومع ذلك، تابعنا المشروع."
+     },
+     {
+      "word": "in conclusion",
+      "meaning": "في الختام",
+      "topic": "اللغة الأكاديمية",
+      "difficulty": 9,
+      "example": "In conclusion, the plan was a success.",
+      "translation": "في الختام، كانت الخطة ناجحة."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تنتقل للخلية التالية في جدول وورد؟",
+      "correct": "Tab",
+      "distractors": [
+       "Enter",
+       "مسافة",
+       "Control مع N"
+      ],
+      "explain": "Tab للخلية التالية.",
+      "topic": "pc.tables"
+     },
+     {
+      "prompt": "كيف تضيف صفاً جديداً بسرعة؟",
+      "correct": "Tab في آخر خلية",
+      "distractors": [
+       "Enter مرتين",
+       "Control مع Plus",
+       "F4"
+      ],
+      "explain": "Tab في آخر خلية ينشئ صفاً جديداً.",
+      "topic": "pc.tables"
+     }
+    ],
+    "topic": "pc.tables"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "generic.truefalse",
+   "count": 6,
+   "params": {
+    "statements": [
+     {
+      "text": "صحيح أم خطأ: كيف تنتقل للخلية التالية في جدول وورد؟ الإجابة هي «Tab».",
+      "is_true": true,
+      "explain": "Tab للخلية التالية.",
+      "topic": "pc.tables"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تنتقل للخلية التالية في جدول وورد؟ الإجابة هي «Enter».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Tab».",
+      "topic": "pc.tables"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تضيف صفاً جديداً بسرعة؟ الإجابة هي «Tab في آخر خلية».",
+      "is_true": true,
+      "explain": "Tab في آخر خلية ينشئ صفاً جديداً.",
+      "topic": "pc.tables"
+     },
+     {
+      "text": "صحيح أم خطأ: كيف تضيف صفاً جديداً بسرعة؟ الإجابة هي «Enter مرتين».",
+      "is_true": false,
+      "explain": "خطأ، الإجابة الصحيحة «Tab في آخر خلية».",
+      "topic": "pc.tables"
+     }
+    ],
+    "topic": "pc.tables"
+   }
+  }
+ ]
+}

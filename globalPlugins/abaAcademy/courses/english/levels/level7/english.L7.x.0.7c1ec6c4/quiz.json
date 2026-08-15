@@ -1,0 +1,400 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "meeting",
+      "meaning": "اجتماع",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "We have a meeting at ten.",
+      "translation": "لدينا اجتماع الساعة العاشرة."
+     },
+     {
+      "word": "deadline",
+      "meaning": "موعد نهائي",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The deadline is next Friday.",
+      "translation": "الموعد النهائي الجمعة القادمة."
+     },
+     {
+      "word": "salary",
+      "meaning": "راتب",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The salary is paid monthly.",
+      "translation": "يُدفع الراتب شهرياً."
+     },
+     {
+      "word": "colleague",
+      "meaning": "زميل عمل",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "My colleague helped me finish the report.",
+      "translation": "ساعدني زميلي في إنهاء التقرير."
+     },
+     {
+      "word": "manager",
+      "meaning": "مدير",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "The manager approved the plan.",
+      "translation": "وافق المدير على الخطة."
+     },
+     {
+      "word": "interview",
+      "meaning": "مقابلة",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "I have a job interview tomorrow.",
+      "translation": "لدي مقابلة عمل غداً."
+     },
+     {
+      "word": "resume",
+      "meaning": "سيرة ذاتية",
+      "topic": "العمل",
+      "difficulty": 7,
+      "example": "Send me your resume by email.",
+      "translation": "أرسل لي سيرتك الذاتية بالبريد الإلكتروني."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

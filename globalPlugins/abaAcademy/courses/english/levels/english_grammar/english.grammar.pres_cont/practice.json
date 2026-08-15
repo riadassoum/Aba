@@ -1,0 +1,106 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Look! The baby ___.",
+    "options": [
+     "sleep",
+     "sleeps",
+     "is sleeping",
+     "sleeping"
+    ],
+    "correct": 2,
+    "explanation": "حدث يجري الآن: is + sleeping.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أضف ing إلى الفعل run:",
+    "correct": "running",
+    "accepted": [],
+    "explanation": "نضاعف n: running.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أضف ing إلى الفعل write:",
+    "correct": "writing",
+    "accepted": [],
+    "explanation": "نحذف e الصامتة: writing.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: We ___ TV at the moment.",
+    "options": [
+     "watch",
+     "watches",
+     "are watching",
+     "watching"
+    ],
+    "correct": 2,
+    "explanation": "at the moment تدل على الآن: are watching.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "تركيب المضارع المستمر هو: to be + فعل + ing.",
+    "correct": true,
+    "explanation": "صحيح: am/is/are + verb-ing.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: He ___ his homework right now.",
+    "options": [
+     "do",
+     "does",
+     "is doing",
+     "doing"
+    ],
+    "correct": 2,
+    "explanation": "right now تدل على الآن.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "I am reading a book now.",
+      "translation": "أقرأ كتاباً الآن."
+     },
+     {
+      "text": "She is making dinner.",
+      "translation": "تُعدّ العشاء."
+     },
+     {
+      "text": "They are running.",
+      "translation": "هم يركضون."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

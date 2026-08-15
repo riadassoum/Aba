@@ -1,0 +1,136 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "computer",
+      "meaning": "حاسوب",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "My computer is very slow.",
+      "translation": "حاسوبي بطيء جداً."
+     },
+     {
+      "word": "internet",
+      "meaning": "إنترنت",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "The internet connection is weak here.",
+      "translation": "الاتصال بالإنترنت ضعيف هنا."
+     },
+     {
+      "word": "password",
+      "meaning": "كلمة سر",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "I forgot my password.",
+      "translation": "نسيت كلمة سري."
+     },
+     {
+      "word": "screen reader",
+      "meaning": "قارئ شاشة",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "NVDA is a free screen reader.",
+      "translation": "برنامج NVDA قارئ شاشة مجاني."
+     },
+     {
+      "word": "application",
+      "meaning": "تطبيق",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "This application is easy to use.",
+      "translation": "هذا التطبيق سهل الاستخدام."
+     },
+     {
+      "word": "keyboard",
+      "meaning": "لوحة مفاتيح",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "Learn the keyboard shortcuts.",
+      "translation": "تعلّم اختصارات لوحة المفاتيح."
+     },
+     {
+      "word": "update",
+      "meaning": "تحديث",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "There is a new update available.",
+      "translation": "هناك تحديث جديد متاح."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "computer",
+      "meaning": "حاسوب",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "My computer is very slow.",
+      "translation": "حاسوبي بطيء جداً."
+     },
+     {
+      "word": "internet",
+      "meaning": "إنترنت",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "The internet connection is weak here.",
+      "translation": "الاتصال بالإنترنت ضعيف هنا."
+     },
+     {
+      "word": "password",
+      "meaning": "كلمة سر",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "I forgot my password.",
+      "translation": "نسيت كلمة سري."
+     },
+     {
+      "word": "screen reader",
+      "meaning": "قارئ شاشة",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "NVDA is a free screen reader.",
+      "translation": "برنامج NVDA قارئ شاشة مجاني."
+     },
+     {
+      "word": "application",
+      "meaning": "تطبيق",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "This application is easy to use.",
+      "translation": "هذا التطبيق سهل الاستخدام."
+     },
+     {
+      "word": "keyboard",
+      "meaning": "لوحة مفاتيح",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "Learn the keyboard shortcuts.",
+      "translation": "تعلّم اختصارات لوحة المفاتيح."
+     },
+     {
+      "word": "update",
+      "meaning": "تحديث",
+      "topic": "التكنولوجيا",
+      "difficulty": 7,
+      "example": "There is a new update available.",
+      "translation": "هناك تحديث جديد متاح."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

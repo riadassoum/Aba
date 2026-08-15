@@ -1,0 +1,84 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ (parler) quand il est arrivé.",
+    "options": [
+     "parle",
+     "parlais",
+     "parlé",
+     "parlerai"
+    ],
+    "correct": 1,
+    "explanation": "imparfait مع je: parlais.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف habiter في imparfait مع nous (كنا نسكن):",
+    "correct": "habitions",
+    "accepted": [],
+    "explanation": "النهاية ions: habitions.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Il ___ beau hier.",
+    "options": [
+     "fait",
+     "faisait",
+     "fera",
+     "a fait"
+    ],
+    "correct": 1,
+    "explanation": "وصف حالة في الماضي: faisait.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "الـ imparfait يصف عادة أو حالة مستمرة في الماضي.",
+    "correct": true,
+    "explanation": "صحيح.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النهاية الصحيحة لـ imparfait مع il:",
+    "options": [
+     "-ais",
+     "-ait",
+     "-ions",
+     "-aient"
+    ],
+    "correct": 1,
+    "explanation": "مع il النهاية ait.",
+    "topic": "gram.imparfait"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف aimer في imparfait مع tu (كنت تحب):",
+    "correct": "aimais",
+    "accepted": [],
+    "explanation": "مع tu النهاية ais: aimais.",
+    "topic": "gram.imparfait"
+   }
+  }
+ ]
+}

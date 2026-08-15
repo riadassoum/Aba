@@ -1,0 +1,47 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «التعابير الاصطلاحية». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "avoir le cafard = يشعر بالحزن",
+   "note": "مثال: Depuis son départ, j'ai le cafard. — منذ رحيله، أشعر بالحزن."
+  },
+  {
+   "btype": "example",
+   "text": "poser un lapin = يخلف موعداً",
+   "note": "مثال: Il m'a posé un lapin hier. — أخلف موعده معي أمس."
+  },
+  {
+   "btype": "example",
+   "text": "coûter les yeux de la tête = مكلف جداً",
+   "note": "مثال: Cette maison a coûté les yeux de la tête. — كلّف هذا المنزل ثروة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «coûter les yeux de la tête»؟",
+    "options": [
+     "يشعر بالحزن",
+     "يخلف موعداً",
+     "مكلف جداً"
+    ],
+    "correct": 2,
+    "explanation": "«coûter les yeux de la tête» تعني «مكلف جداً».",
+    "topic": "fr:التعابير الاصطلاحية"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "mettre les points sur les i = يوضح الأمر بدقة",
+   "note": "مثال: Il faut mettre les points sur les i. — يجب أن نوضح الأمر بدقة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

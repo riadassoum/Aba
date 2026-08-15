@@ -1,0 +1,117 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ is your name?",
+    "options": [
+     "Where",
+     "What",
+     "When",
+     "Who"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن الاسم: What.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ do you live?",
+    "options": [
+     "What",
+     "Who",
+     "Where",
+     "Why"
+    ],
+    "correct": 2,
+    "explanation": "للسؤال عن المكان: Where.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ are you late?",
+    "options": [
+     "Where",
+     "What",
+     "Why",
+     "Who"
+    ],
+    "correct": 2,
+    "explanation": "للسؤال عن السبب: Why.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ is that man?",
+    "options": [
+     "What",
+     "Who",
+     "Where",
+     "When"
+    ],
+    "correct": 1,
+    "explanation": "للسؤال عن الأشخاص: Who.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: ___ old are you? اكتب الأداة المناسبة.",
+    "correct": "How",
+    "accepted": [],
+    "explanation": "للسؤال عن العمر: How old.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "بم نجيب عن سؤال why؟",
+    "options": [
+     "with when",
+     "with because",
+     "with where",
+     "with who"
+    ],
+    "correct": 1,
+    "explanation": "نجيب why بـ because.",
+    "topic": "gram.questions_wh"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "Where do you live?",
+      "translation": "أين تسكن؟"
+     },
+     {
+      "text": "What is your name?",
+      "translation": "ما اسمك؟"
+     },
+     {
+      "text": "Why are you sad?",
+      "translation": "لماذا أنت حزين؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

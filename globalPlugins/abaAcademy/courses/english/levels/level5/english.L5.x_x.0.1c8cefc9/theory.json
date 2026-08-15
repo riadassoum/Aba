@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المقارنة والتفضيل». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "bigger = أكبر",
+   "note": "مثال: This house is bigger than mine. — هذا المنزل أكبر من منزلي."
+  },
+  {
+   "btype": "example",
+   "text": "smaller = أصغر",
+   "note": "مثال: My phone is smaller than yours. — هاتفي أصغر من هاتفك."
+  },
+  {
+   "btype": "example",
+   "text": "better = أفضل",
+   "note": "مثال: This plan is better than the last. — هذه الخطة أفضل من السابقة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «better»؟",
+    "options": [
+     "أكبر",
+     "أصغر",
+     "أفضل"
+    ],
+    "correct": 2,
+    "explanation": "«better» تعني «أفضل».",
+    "topic": "en:المقارنة والتفضيل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "worse = أسوأ",
+   "note": "مثال: The weather is worse today. — الطقس أسوأ اليوم."
+  },
+  {
+   "btype": "example",
+   "text": "the best = الأفضل",
+   "note": "مثال: This is the best restaurant in town. — هذا أفضل مطعم في المدينة."
+  },
+  {
+   "btype": "example",
+   "text": "the worst = الأسوأ",
+   "note": "مثال: That was the worst movie ever. — كان أسوأ فيلم على الإطلاق."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «the worst»؟",
+    "options": [
+     "أسوأ",
+     "الأفضل",
+     "الأسوأ"
+    ],
+    "correct": 2,
+    "explanation": "«the worst» تعني «الأسوأ».",
+    "topic": "en:المقارنة والتفضيل"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "more = أكثر",
+   "note": "مثال: I need more time. — أحتاج وقتاً أكثر."
+  },
+  {
+   "btype": "example",
+   "text": "less = أقل",
+   "note": "مثال: Please make less noise. — الرجاء إحداث ضجيج أقل."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

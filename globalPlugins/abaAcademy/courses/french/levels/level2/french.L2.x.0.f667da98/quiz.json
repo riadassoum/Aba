@@ -1,0 +1,448 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.sentence",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "maison",
+      "meaning": "منزل",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "C'est ma maison.",
+      "translation": "هذا منزلي."
+     },
+     {
+      "word": "porte",
+      "meaning": "باب",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ferme la porte, s'il te plaît.",
+      "translation": "أغلق الباب من فضلك."
+     },
+     {
+      "word": "fenêtre",
+      "meaning": "نافذة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ouvre la fenêtre.",
+      "translation": "افتح النافذة."
+     },
+     {
+      "word": "table",
+      "meaning": "طاولة",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Mets l'assiette sur la table.",
+      "translation": "ضع الطبق على الطاولة."
+     },
+     {
+      "word": "chaise",
+      "meaning": "كرسي",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Assieds-toi sur la chaise.",
+      "translation": "اجلس على الكرسي."
+     },
+     {
+      "word": "lit",
+      "meaning": "سرير",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Le bébé est dans le lit.",
+      "translation": "الطفل في السرير."
+     },
+     {
+      "word": "cuisine",
+      "meaning": "مطبخ",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "Ma mère est dans la cuisine.",
+      "translation": "أمي في المطبخ."
+     },
+     {
+      "word": "salle de bain",
+      "meaning": "حمام",
+      "topic": "المنزل",
+      "difficulty": 2,
+      "example": "La salle de bain est propre.",
+      "translation": "الحمام نظيف."
+     }
+    ],
+    "lang": "fr"
+   }
+  }
+ ]
+}

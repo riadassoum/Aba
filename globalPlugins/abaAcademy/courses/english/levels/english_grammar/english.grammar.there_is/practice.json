@@ -1,0 +1,111 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ a book on the desk.",
+    "options": [
+     "There is",
+     "There are",
+     "It is",
+     "Have"
+    ],
+    "correct": 0,
+    "explanation": "مفرد: There is.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: ___ many people here.",
+    "options": [
+     "There is",
+     "There are",
+     "It are",
+     "Has"
+    ],
+    "correct": 1,
+    "explanation": "جمع: There are.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أكمل: There ___ three cars. (is/are)",
+    "correct": "are",
+    "accepted": [],
+    "explanation": "جمع: are.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "نستخدم There are مع الاسم المفرد.",
+    "correct": false,
+    "explanation": "مع المفرد نستخدم There is.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر السؤال الصحيح:",
+    "options": [
+     "Is there a bank near here?",
+     "There is a bank?",
+     "Are there a bank?",
+     "Have there a bank?"
+    ],
+    "correct": 0,
+    "explanation": "سؤال المفرد: Is there...?",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر النفي: ___ any sugar.",
+    "options": [
+     "There isn't",
+     "There aren't",
+     "There not",
+     "It isn't"
+    ],
+    "correct": 0,
+    "explanation": "غير معدود (sugar): There isn't.",
+    "topic": "gram.there_is"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.dictation",
+   "count": 3,
+   "params": {
+    "sentences": [
+     {
+      "text": "There is a cat in the garden.",
+      "translation": "يوجد قطة في الحديقة."
+     },
+     {
+      "text": "There are five students.",
+      "translation": "يوجد خمسة طلاب."
+     },
+     {
+      "text": "Is there any milk?",
+      "translation": "هل يوجد حليب؟"
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

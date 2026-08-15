@@ -1,0 +1,19 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 6,
+   "params": {
+    "signs": {
+     "1": "⠁",
+     "2": "⠃",
+     "3": "⠉",
+     "4": "⠙",
+     "5": "⠑"
+    },
+    "topic": "braille.digits"
+   }
+  }
+ ]
+}

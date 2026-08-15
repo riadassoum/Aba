@@ -1,0 +1,42 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Je ___ (parler) français.",
+    "options": [
+     "parle",
+     "parles",
+     "parlons",
+     "parlent"
+    ],
+    "correct": 0,
+    "explanation": "مع je النهاية e: parle.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف الفعل regarder مع ils (هم يشاهدون):",
+    "correct": "regardent",
+    "accepted": [],
+    "explanation": "مع ils النهاية ent: regardent.",
+    "topic": "gram.er_verbs"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "صرّف الفعل chanter مع vous:",
+    "correct": "chantez",
+    "accepted": [],
+    "explanation": "مع vous النهاية ez: chantez.",
+    "topic": "gram.er_verbs"
+   }
+  }
+ ]
+}

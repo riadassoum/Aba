@@ -1,0 +1,494 @@
+[
+{
+"id": "en_001",
+"name": "الإنجليزية: التحيات",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_002",
+"name": "الإنجليزية: الأرقام",
+"course": "english",
+"count": 20
+},
+{
+"id": "en_003",
+"name": "الإنجليزية: الألوان",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_004",
+"name": "الإنجليزية: العائلة",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_005",
+"name": "الإنجليزية: الحيوانات",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_006",
+"name": "الإنجليزية: المنزل",
+"course": "english",
+"count": 16
+},
+{
+"id": "en_007",
+"name": "الإنجليزية: الطعام والشراب",
+"course": "english",
+"count": 22
+},
+{
+"id": "en_008",
+"name": "الإنجليزية: الوقت",
+"course": "english",
+"count": 16
+},
+{
+"id": "en_009",
+"name": "الإنجليزية: أعضاء الجسم",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_010",
+"name": "الإنجليزية: الصفات",
+"course": "english",
+"count": 32
+},
+{
+"id": "en_011",
+"name": "الإنجليزية: المهن",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_012",
+"name": "الإنجليزية: الأماكن",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_013",
+"name": "الإنجليزية: المواصلات",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_014",
+"name": "الإنجليزية: الطقس",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_015",
+"name": "الإنجليزية: الأفعال",
+"course": "english",
+"count": 60
+},
+{
+"id": "en_016",
+"name": "الإنجليزية: الملابس",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_017",
+"name": "الإنجليزية: التسوق",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_018",
+"name": "الإنجليزية: المقارنة والتفضيل",
+"course": "english",
+"count": 16
+},
+{
+"id": "en_019",
+"name": "الإنجليزية: السفر",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_020",
+"name": "الإنجليزية: الصحة",
+"course": "english",
+"count": 12
+},
+{
+"id": "en_021",
+"name": "الإنجليزية: المشاعر",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_022",
+"name": "الإنجليزية: العمل",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_023",
+"name": "الإنجليزية: التكنولوجيا",
+"course": "english",
+"count": 14
+},
+{
+"id": "en_024",
+"name": "الإنجليزية: التعليم",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_025",
+"name": "الإنجليزية: الأفعال المركبة",
+"course": "english",
+"count": 20
+},
+{
+"id": "en_026",
+"name": "الإنجليزية: التعابير الاصطلاحية",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_027",
+"name": "الإنجليزية: اللغة الأكاديمية",
+"course": "english",
+"count": 20
+},
+{
+"id": "en_028",
+"name": "الإنجليزية: لغة الأعمال",
+"course": "english",
+"count": 10
+},
+{
+"id": "en_029",
+"name": "الإنجليزية: إتقان متقدم",
+"course": "english",
+"count": 20
+},
+{
+"id": "fr_001",
+"name": "الفرنسية: التحيات",
+"course": "french",
+"count": 14
+},
+{
+"id": "fr_002",
+"name": "الفرنسية: الأرقام",
+"course": "french",
+"count": 20
+},
+{
+"id": "fr_003",
+"name": "الفرنسية: الألوان",
+"course": "french",
+"count": 12
+},
+{
+"id": "fr_004",
+"name": "الفرنسية: العائلة",
+"course": "french",
+"count": 14
+},
+{
+"id": "fr_005",
+"name": "الفرنسية: الحيوانات",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_006",
+"name": "الفرنسية: المنزل",
+"course": "french",
+"count": 16
+},
+{
+"id": "fr_007",
+"name": "الفرنسية: الطعام والشراب",
+"course": "french",
+"count": 22
+},
+{
+"id": "fr_008",
+"name": "الفرنسية: الوقت",
+"course": "french",
+"count": 16
+},
+{
+"id": "fr_009",
+"name": "الفرنسية: أعضاء الجسم",
+"course": "french",
+"count": 12
+},
+{
+"id": "fr_010",
+"name": "الفرنسية: الصفات",
+"course": "french",
+"count": 32
+},
+{
+"id": "fr_011",
+"name": "الفرنسية: المهن",
+"course": "french",
+"count": 14
+},
+{
+"id": "fr_012",
+"name": "الفرنسية: الأماكن",
+"course": "french",
+"count": 14
+},
+{
+"id": "fr_013",
+"name": "الفرنسية: المواصلات",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_014",
+"name": "الفرنسية: الطقس",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_015",
+"name": "الفرنسية: الأفعال",
+"course": "french",
+"count": 40
+},
+{
+"id": "fr_016",
+"name": "الفرنسية: الملابس",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_017",
+"name": "الفرنسية: التسوق",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_018",
+"name": "الفرنسية: الاتجاهات",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_019",
+"name": "الفرنسية: المقارنة والتفضيل",
+"course": "french",
+"count": 6
+},
+{
+"id": "fr_020",
+"name": "الفرنسية: في المطعم",
+"course": "french",
+"count": 4
+},
+{
+"id": "fr_021",
+"name": "الفرنسية: السفر",
+"course": "french",
+"count": 10
+},
+{
+"id": "fr_022",
+"name": "الفرنسية: الصحة",
+"course": "french",
+"count": 8
+},
+{
+"id": "fr_023",
+"name": "الفرنسية: المشاعر",
+"course": "french",
+"count": 8
+},
+{
+"id": "fr_024",
+"name": "الفرنسية: العمل",
+"course": "french",
+"count": 8
+},
+{
+"id": "fr_025",
+"name": "الفرنسية: التعبير عن الرأي",
+"course": "french",
+"count": 8
+},
+{
+"id": "fr_026",
+"name": "الفرنسية: المراسلات",
+"course": "french",
+"count": 4
+},
+{
+"id": "fr_027",
+"name": "الفرنسية: إتقان متقدم",
+"course": "french",
+"count": 12
+},
+{
+"id": "fr_028",
+"name": "الفرنسية: التعابير الاصطلاحية",
+"course": "french",
+"count": 8
+},
+{
+"id": "general_001",
+"name": "الثقافة العامة (1)",
+"course": "general",
+"count": 45
+},
+{
+"id": "general_002",
+"name": "الثقافة العامة (2)",
+"course": "general",
+"count": 11
+},
+{
+"id": "science_001",
+"name": "العلوم (1)",
+"course": "science",
+"count": 30
+},
+{
+"id": "science_002",
+"name": "العلوم (2)",
+"course": "science",
+"count": 135
+},
+{
+"id": "science_003",
+"name": "العلوم (3)",
+"course": "science",
+"count": 150
+},
+{
+"id": "science_004",
+"name": "العلوم (4)",
+"course": "science",
+"count": 147
+},
+{
+"id": "science_005",
+"name": "العلوم (5)",
+"course": "science",
+"count": 135
+},
+{
+"id": "science_006",
+"name": "العلوم (6)",
+"course": "science",
+"count": 150
+},
+{
+"id": "science_007",
+"name": "العلوم (7)",
+"course": "science",
+"count": 150
+},
+{
+"id": "science_008",
+"name": "العلوم (8)",
+"course": "science",
+"count": 150
+},
+{
+"id": "science_009",
+"name": "العلوم (9)",
+"course": "science",
+"count": 62
+},
+{
+"id": "geography_001",
+"name": "الجغرافيا (1)",
+"course": "geography",
+"count": 90
+},
+{
+"id": "geography_002",
+"name": "الجغرافيا (2)",
+"course": "geography",
+"count": 127
+},
+{
+"id": "geography_003",
+"name": "الجغرافيا (3)",
+"course": "geography",
+"count": 96
+},
+{
+"id": "geography_004",
+"name": "الجغرافيا (4)",
+"course": "geography",
+"count": 138
+},
+{
+"id": "geography_005",
+"name": "الجغرافيا (5)",
+"course": "geography",
+"count": 142
+},
+{
+"id": "geography_006",
+"name": "الجغرافيا (6)",
+"course": "geography",
+"count": 88
+},
+{
+"id": "geography_007",
+"name": "الجغرافيا (7)",
+"course": "geography",
+"count": 60
+},
+{
+"id": "geography_008",
+"name": "الجغرافيا (8)",
+"course": "geography",
+"count": 88
+},
+{
+"id": "history_001",
+"name": "التاريخ (1)",
+"course": "history",
+"count": 36
+},
+{
+"id": "history_002",
+"name": "التاريخ (2)",
+"course": "history",
+"count": 6
+},
+{
+"id": "computer_001",
+"name": "الحاسوب",
+"course": "computer",
+"count": 24
+},
+{
+"id": "arabic_001",
+"name": "العربية (1)",
+"course": "arabic",
+"count": 15
+},
+{
+"id": "arabic_002",
+"name": "العربية (2)",
+"course": "arabic",
+"count": 17
+},
+{
+"id": "arabic_003",
+"name": "العربية (3)",
+"course": "arabic",
+"count": 8
+}
+]

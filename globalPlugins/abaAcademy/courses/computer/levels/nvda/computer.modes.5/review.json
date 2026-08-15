@@ -1,0 +1,26 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 8,
+   "params": {
+    "frames": [
+     {
+      "prompt": "كيف تبدّل بين وضعي التصفح والتركيز؟",
+      "correct": "NVDA مع مسافة",
+      "distractors": [
+       "Alt مع F4",
+       "Control مع S",
+       "Shift مع Tab"
+      ],
+      "explain": "NVDA+Space يبدّل الوضع.",
+      "topic": "pc.modes"
+     }
+    ],
+    "topic": "pc.modes",
+    "difficulty": 3
+   }
+  }
+ ]
+}

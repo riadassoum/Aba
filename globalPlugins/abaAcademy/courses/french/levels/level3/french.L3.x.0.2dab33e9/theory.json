@@ -1,0 +1,77 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «المهن». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "professeur = معلم / أستاذ",
+   "note": "مثال: Le professeur explique bien. — الأستاذ يشرح جيداً."
+  },
+  {
+   "btype": "example",
+   "text": "médecin = طبيب",
+   "note": "مثال: Le médecin a examiné le patient. — فحص الطبيب المريض."
+  },
+  {
+   "btype": "example",
+   "text": "ingénieur = مهندس",
+   "note": "مثال: Elle est ingénieure civile. — هي مهندسة مدنية."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «ingénieur»؟",
+    "options": [
+     "معلم / أستاذ",
+     "طبيب",
+     "مهندس"
+    ],
+    "correct": 2,
+    "explanation": "«ingénieur» تعني «مهندس».",
+    "topic": "fr:المهن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "infirmière = ممرضة",
+   "note": "مثال: L'infirmière lui a donné le médicament. — أعطته الممرضة الدواء."
+  },
+  {
+   "btype": "example",
+   "text": "agriculteur = مزارع",
+   "note": "مثال: L'agriculteur cultive le blé. — المزارع يزرع القمح."
+  },
+  {
+   "btype": "example",
+   "text": "chauffeur = سائق",
+   "note": "مثال: Le chauffeur a arrêté le bus. — أوقف السائق الحافلة."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «chauffeur»؟",
+    "options": [
+     "ممرضة",
+     "مزارع",
+     "سائق"
+    ],
+    "correct": 2,
+    "explanation": "«chauffeur» تعني «سائق».",
+    "topic": "fr:المهن"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "étudiant = طالب",
+   "note": "مثال: Je suis étudiant à l'université. — أنا طالب في الجامعة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

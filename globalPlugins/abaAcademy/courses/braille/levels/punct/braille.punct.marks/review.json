@@ -1,0 +1,18 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 6,
+   "params": {
+    "signs": {
+     "علامة الاستفهام": "⠦",
+     "علامة التعجب": "⠖",
+     "الشرطة": "⠤",
+     "القوس": "⠷"
+    },
+    "topic": "braille.punctuation"
+   }
+  }
+ ]
+}

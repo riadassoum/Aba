@@ -1,0 +1,82 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «الطعام والشراب — الجزء 1». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "eau = ماء",
+   "note": "مثال: Je bois de l'eau chaque matin. — أشرب الماء كل صباح."
+  },
+  {
+   "btype": "example",
+   "text": "pain = خبز",
+   "note": "مثال: Nous achetons du pain chaque jour. — نشتري الخبز يومياً."
+  },
+  {
+   "btype": "example",
+   "text": "riz = أرز",
+   "note": "مثال: Elle a cuisiné du riz et du poulet. — طبخت أرزاً ودجاجاً."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «riz»؟",
+    "options": [
+     "ماء",
+     "خبز",
+     "أرز"
+    ],
+    "correct": 2,
+    "explanation": "«riz» تعني «أرز».",
+    "topic": "fr:الطعام والشراب — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "viande = لحم",
+   "note": "مثال: Il ne mange pas de viande. — هو لا يأكل اللحم."
+  },
+  {
+   "btype": "example",
+   "text": "fruit = فاكهة",
+   "note": "مثال: Le fruit est bon pour la santé. — الفاكهة مفيدة للصحة."
+  },
+  {
+   "btype": "example",
+   "text": "légume = خضار",
+   "note": "مثال: Ajoute des légumes à la soupe. — أضف بعض الخضار إلى الحساء."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «légume»؟",
+    "options": [
+     "لحم",
+     "فاكهة",
+     "خضار"
+    ],
+    "correct": 2,
+    "explanation": "«légume» تعني «خضار».",
+    "topic": "fr:الطعام والشراب — الجزء 1"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "lait = حليب",
+   "note": "مثال: L'enfant boit du lait. — الطفل يشرب الحليب."
+  },
+  {
+   "btype": "example",
+   "text": "café = قهوة",
+   "note": "مثال: Voulez-vous du café ou du thé ? — هل تريد قهوة أم شاياً؟"
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

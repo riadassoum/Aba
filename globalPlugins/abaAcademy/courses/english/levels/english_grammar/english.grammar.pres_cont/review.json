@@ -1,0 +1,41 @@
+{
+ "blocks": [
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الصحيح: Look! The baby ___.",
+    "options": [
+     "sleep",
+     "sleeps",
+     "is sleeping",
+     "sleeping"
+    ],
+    "correct": 2,
+    "explanation": "حدث يجري الآن: is + sleeping.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "typing",
+    "prompt": "أضف ing إلى الفعل write:",
+    "correct": "writing",
+    "accepted": [],
+    "explanation": "نحذف e الصامتة: writing.",
+    "topic": "gram.pres_cont"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "true_false",
+    "prompt": "تركيب المضارع المستمر هو: to be + فعل + ing.",
+    "correct": true,
+    "explanation": "صحيح: am/is/are + verb-ing.",
+    "topic": "gram.pres_cont"
+   }
+  }
+ ]
+}

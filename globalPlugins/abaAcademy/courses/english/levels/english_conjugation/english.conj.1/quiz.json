@@ -1,0 +1,79 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.conjugate",
+   "count": 8,
+   "params": {
+    "verbs": [
+     {
+      "infinitive": "to be",
+      "meaning": "يكون",
+      "tense": "الماضي البسيط",
+      "forms": {
+       "I": "was",
+       "you": "were",
+       "he": "was",
+       "she": "was",
+       "we": "were",
+       "they": "were"
+      }
+     },
+     {
+      "infinitive": "to go",
+      "meaning": "يذهب",
+      "tense": "الماضي البسيط",
+      "forms": {
+       "I": "went",
+       "you": "went",
+       "he": "went",
+       "she": "went",
+       "we": "went",
+       "they": "went"
+      }
+     },
+     {
+      "infinitive": "to have",
+      "meaning": "يملك",
+      "tense": "الماضي البسيط",
+      "forms": {
+       "I": "had",
+       "you": "had",
+       "he": "had",
+       "she": "had",
+       "we": "had",
+       "they": "had"
+      }
+     },
+     {
+      "infinitive": "to work",
+      "meaning": "يعمل",
+      "tense": "الماضي البسيط",
+      "forms": {
+       "I": "worked",
+       "you": "worked",
+       "he": "worked",
+       "she": "worked",
+       "we": "worked",
+       "they": "worked"
+      }
+     },
+     {
+      "infinitive": "to eat",
+      "meaning": "يأكل",
+      "tense": "الماضي البسيط",
+      "forms": {
+       "I": "ate",
+       "you": "ate",
+       "he": "ate",
+       "she": "ate",
+       "we": "ate",
+       "they": "ate"
+      }
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

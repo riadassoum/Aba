@@ -1,0 +1,30 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "braille.cell",
+   "count": 12,
+   "params": {
+    "signs": {
+     "ة": "⠡",
+     "ال": "⠉",
+     "لا": "⠧"
+    },
+    "topic": "braille.arabic_extra"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "braille.count",
+   "count": 4,
+   "params": {
+    "signs": {
+     "ة": "⠡",
+     "ال": "⠉",
+     "لا": "⠧"
+    },
+    "topic": "braille.arabic_extra"
+   }
+  }
+ ]
+}

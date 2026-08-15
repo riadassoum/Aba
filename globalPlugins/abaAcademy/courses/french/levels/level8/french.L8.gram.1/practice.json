@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 9,
+   "params": {
+    "frames": [
+     {
+      "prompt": "Si j'avais de l'argent, j'{b} une maison.",
+      "correct": "achèterais",
+      "distractors": [
+       "achète",
+       "achèterai",
+       "ai acheté"
+      ],
+      "explain": "الشرط الحاضر: المصدر + نهايات الماضي الناقص، مع Je: -ais.",
+      "topic": "gram.conditionnel"
+     },
+     {
+      "prompt": "Il {b} venir s'il le pouvait.",
+      "correct": "voudrait",
+      "distractors": [
+       "veut",
+       "voudra",
+       "a voulu"
+      ],
+      "explain": "vouloir في الشرط الحاضر مع Il: voudrait.",
+      "topic": "gram.conditionnel"
+     }
+    ],
+    "topic": "gram",
+    "difficulty": 1
+   }
+  }
+ ]
+}

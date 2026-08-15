@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 4,
+   "params": {
+    "frames": [
+     {
+      "prompt": "ما هي حلقة إعدادات الصوت؟",
+      "correct": "قائمة دوّارة لضبط خصائص الصوت كالسرعة والنبرة",
+      "distractors": [
+       "قائمة البرامج",
+       "متصفّح الويب",
+       "مدير الملفات"
+      ],
+      "explain": "قائمة دوّارة لضبط خصائص الصوت كالسرعة والنبرة",
+      "topic": "computer.synthring.0"
+     },
+     {
+      "prompt": "كيف تنتقل إلى الإعداد التالي في الحلقة؟",
+      "correct": "NVDA مع Control مع السهم لليمين",
+      "distractors": [
+       "NVDA مع T",
+       "Alt مع Tab",
+       "Control مع S"
+      ],
+      "explain": "NVDA مع Control مع السهم لليمين",
+      "topic": "computer.synthring.0"
+     },
+     {
+      "prompt": "كيف تزيد قيمة الإعداد الحالي (مثل السرعة)؟",
+      "correct": "NVDA مع Control مع السهم للأعلى",
+      "distractors": [
+       "NVDA مع N",
+       "Shift مع Up",
+       "Control مع C"
+      ],
+      "explain": "NVDA مع Control مع السهم للأعلى",
+      "topic": "computer.synthring.0"
+     },
+     {
+      "prompt": "كيف تقلّل قيمة الإعداد الحالي؟",
+      "correct": "NVDA مع Control مع السهم للأسفل",
+      "distractors": [
+       "NVDA مع Q",
+       "Alt مع Down",
+       "Control مع Z"
+      ],
+      "explain": "NVDA مع Control مع السهم للأسفل",
+      "topic": "computer.synthring.0"
+     }
+    ]
+   }
+  }
+ ]
+}

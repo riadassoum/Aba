@@ -1,0 +1,37 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "generic.frame",
+   "count": 5,
+   "params": {
+    "frames": [
+     {
+      "prompt": "بم تبدأ كل معادلة في إكسل؟",
+      "correct": "علامة يساوي",
+      "distractors": [
+       "علامة زائد",
+       "قوس",
+       "نقطتان"
+      ],
+      "explain": "المعادلة تبدأ بعلامة يساوي.",
+      "topic": "pc.formulas"
+     },
+     {
+      "prompt": "أيّ دالة تحسب المجموع؟",
+      "correct": "SUM",
+      "distractors": [
+       "AVERAGE",
+       "MAX",
+       "COUNT"
+      ],
+      "explain": "SUM للجمع.",
+      "topic": "pc.formulas"
+     }
+    ],
+    "topic": "pc.formulas",
+    "difficulty": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.listen",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 6,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.word",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.fillblank",
+   "count": 5,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.build",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.confusable",
+   "count": 3,
+   "params": {
+    "words": [
+     {
+      "word": "sun",
+      "meaning": "شمس",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sun is shining today.",
+      "translation": "الشمس مشرقة اليوم."
+     },
+     {
+      "word": "rain",
+      "meaning": "مطر",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It is raining outside.",
+      "translation": "المطر ينهمر بالخارج."
+     },
+     {
+      "word": "wind",
+      "meaning": "ريح",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The wind is very strong.",
+      "translation": "الريح قوية جداً."
+     },
+     {
+      "word": "snow",
+      "meaning": "ثلج",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "It snowed last night.",
+      "translation": "تساقط الثلج الليلة الماضية."
+     },
+     {
+      "word": "cloud",
+      "meaning": "غيمة",
+      "topic": "الطقس",
+      "difficulty": 3,
+      "example": "The sky is full of clouds.",
+      "translation": "السماء مليئة بالغيوم."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

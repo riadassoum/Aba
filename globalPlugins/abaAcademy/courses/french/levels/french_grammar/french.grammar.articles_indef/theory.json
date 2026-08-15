@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "أداة التنكير للمذكّر المفرد un (un livre كتاب)، وللمؤنّث المفرد une (une table طاولة)، وللجمع des (des livres كتب). تقابل a/an الإنجليزية لكنها تتبع جنس الاسم. مثال: J'ai un frère et une sœur (لديّ أخ وأخت)."
+  },
+  {
+   "btype": "example",
+   "text": "un frère",
+   "note": "أخ"
+  },
+  {
+   "btype": "example",
+   "text": "une sœur",
+   "note": "أخت"
+  },
+  {
+   "btype": "example",
+   "text": "des amis",
+   "note": "أصدقاء"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ frère (مذكّر).",
+    "options": [
+     "un",
+     "une",
+     "des",
+     "le"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد نكرة: un.",
+    "topic": "gram.articles_indef"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ voiture (مؤنّث).",
+    "options": [
+     "un",
+     "une",
+     "des",
+     "la"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد نكرة: une.",
+    "topic": "gram.articles_indef"
+   }
+  }
+ ]
+}

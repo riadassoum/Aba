@@ -1,0 +1,17 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "اقرأ النص التالي بتمعّن ثم أجب عن الأسئلة. يمكنك سماعه كاملاً."
+  },
+  {
+   "btype": "reading",
+   "passage": "Le matin, je me lève à sept heures. Je prends un café et je mange du pain. Ensuite, je vais à l'école à pied. J'aime mes cours de français. Le soir, je fais mes devoirs et je regarde la télé avec ma famille.",
+   "text": "Le matin, je me lève à sept heures. Je prends un café et je mange du pain. Ensuite, je vais à l'école à pied. J'aime mes cours de français. Le soir, je fais mes devoirs et je regarde la télé avec ma famille."
+  },
+  {
+   "btype": "text",
+   "text": "الترجمة للاستئناس: في الصباح أستيقظ الساعة السابعة. أشرب قهوة وآكل خبزاً. ثم أذهب إلى المدرسة سيراً. أحب دروس الفرنسية. في المساء أعمل واجباتي وأشاهد التلفاز مع عائلتي."
+  }
+ ]
+}

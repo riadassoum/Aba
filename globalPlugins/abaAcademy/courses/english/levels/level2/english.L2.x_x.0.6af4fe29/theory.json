@@ -1,0 +1,57 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في هذا الدرس نتقن مفردات موضوع «أعضاء الجسم». لكل كلمة سنسمع لفظها ومعناها ومثالاً يوضّح استعمالها في جملة. ثم نتدرّب عليها بتمارين متنوعة: اختيار، صح وخطأ، إكمال فراغ، ترتيب جمل، وكتابة."
+  },
+  {
+   "btype": "example",
+   "text": "head = رأس",
+   "note": "مثال: My head hurts. — رأسي يؤلمني."
+  },
+  {
+   "btype": "example",
+   "text": "hand = يد",
+   "note": "مثال: She raised her hand. — رفعت يدها."
+  },
+  {
+   "btype": "example",
+   "text": "eye = عين",
+   "note": "مثال: He has blue eyes. — لديه عينان زرقاوان."
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "تذكّر: ما معنى «eye»؟",
+    "options": [
+     "رأس",
+     "يد",
+     "عين"
+    ],
+    "correct": 2,
+    "explanation": "«eye» تعني «عين».",
+    "topic": "en:أعضاء الجسم"
+   }
+  },
+  {
+   "btype": "example",
+   "text": "ear = أذن",
+   "note": "مثال: Listen with your ears. — استمع بأذنيك."
+  },
+  {
+   "btype": "example",
+   "text": "leg = ساق",
+   "note": "مثال: The dog broke its leg. — كسر الكلب ساقه."
+  },
+  {
+   "btype": "example",
+   "text": "heart = قلب",
+   "note": "مثال: My heart beats fast. — قلبي ينبض بسرعة."
+  },
+  {
+   "btype": "text",
+   "text": "أحسنت! سمعت كل كلمات هذا الدرس ومعانيها وأمثلتها. انتقل الآن إلى التمارين لترسيخها، وستتغيّر الأسئلة في كل مرة."
+  }
+ ]
+}

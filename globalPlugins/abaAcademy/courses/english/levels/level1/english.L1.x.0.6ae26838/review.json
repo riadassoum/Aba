@@ -1,0 +1,136 @@
+{
+ "blocks": [
+  {
+   "btype": "generated",
+   "generator": "lang.truefalse",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "hello",
+      "meaning": "مرحباً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Hello, my friend!",
+      "translation": "مرحباً يا صديقي!"
+     },
+     {
+      "word": "goodbye",
+      "meaning": "مع السلامة",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Goodbye, see you tomorrow.",
+      "translation": "مع السلامة، أراك غداً."
+     },
+     {
+      "word": "please",
+      "meaning": "من فضلك",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Please, sit down.",
+      "translation": "من فضلك، اجلس."
+     },
+     {
+      "word": "thanks",
+      "meaning": "شكراً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Thanks for your help.",
+      "translation": "شكراً على مساعدتك."
+     },
+     {
+      "word": "sorry",
+      "meaning": "آسف",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Sorry, I am late.",
+      "translation": "آسف، أنا متأخر."
+     },
+     {
+      "word": "yes",
+      "meaning": "نعم",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Yes, I understand.",
+      "translation": "نعم، أنا أفهم."
+     },
+     {
+      "word": "no",
+      "meaning": "لا",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "No, thank you.",
+      "translation": "لا، شكراً."
+     }
+    ],
+    "lang": "en"
+   }
+  },
+  {
+   "btype": "generated",
+   "generator": "lang.translate",
+   "count": 4,
+   "params": {
+    "words": [
+     {
+      "word": "hello",
+      "meaning": "مرحباً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Hello, my friend!",
+      "translation": "مرحباً يا صديقي!"
+     },
+     {
+      "word": "goodbye",
+      "meaning": "مع السلامة",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Goodbye, see you tomorrow.",
+      "translation": "مع السلامة، أراك غداً."
+     },
+     {
+      "word": "please",
+      "meaning": "من فضلك",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Please, sit down.",
+      "translation": "من فضلك، اجلس."
+     },
+     {
+      "word": "thanks",
+      "meaning": "شكراً",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Thanks for your help.",
+      "translation": "شكراً على مساعدتك."
+     },
+     {
+      "word": "sorry",
+      "meaning": "آسف",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Sorry, I am late.",
+      "translation": "آسف، أنا متأخر."
+     },
+     {
+      "word": "yes",
+      "meaning": "نعم",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "Yes, I understand.",
+      "translation": "نعم، أنا أفهم."
+     },
+     {
+      "word": "no",
+      "meaning": "لا",
+      "topic": "التحيات",
+      "difficulty": 1,
+      "example": "No, thank you.",
+      "translation": "لا، شكراً."
+     }
+    ],
+    "lang": "en"
+   }
+  }
+ ]
+}

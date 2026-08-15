@@ -1,0 +1,12 @@
+{
+ "lesson_id": "french.grammar.imparfait",
+ "title": "قواعد: الماضي الناقص (imparfait)",
+ "order": 12,
+ "objectives": [
+  "إتقان قاعدة: الماضي الناقص (imparfait)"
+ ],
+ "grammar_refs": [
+  "gram.imparfait"
+ ],
+ "difficulty": 4
+}

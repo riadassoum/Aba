@@ -1,0 +1,55 @@
+{
+ "blocks": [
+  {
+   "btype": "text",
+   "text": "في الفرنسية للاسم جنس: مذكّر أو مؤنّث. أداة التعريف للمذكّر المفرد le (le livre الكتاب)، وللمؤنّث المفرد la (la table الطاولة)، وللجمع بنوعيه les (les livres). إذا بدأ الاسم بحرف متحرك أو h صامتة نختصر le/la إلى l' مثل l'ami، l'école. يجب حفظ جنس كل اسم لأنه ليس دائماً منطقياً."
+  },
+  {
+   "btype": "example",
+   "text": "le livre",
+   "note": "الكتاب (مذكّر)"
+  },
+  {
+   "btype": "example",
+   "text": "la maison",
+   "note": "البيت (مؤنّث)"
+  },
+  {
+   "btype": "example",
+   "text": "les enfants",
+   "note": "الأطفال (جمع)"
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ livre (مذكّر).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 0,
+    "explanation": "مذكّر مفرد: le.",
+    "topic": "gram.articles_def"
+   }
+  },
+  {
+   "btype": "question",
+   "question": {
+    "qtype": "mcq",
+    "prompt": "اختر الأداة: ___ table (مؤنّث).",
+    "options": [
+     "le",
+     "la",
+     "les",
+     "l'"
+    ],
+    "correct": 1,
+    "explanation": "مؤنّث مفرد: la.",
+    "topic": "gram.articles_def"
+   }
+  }
+ ]
+}
