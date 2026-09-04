@@ -1,0 +1,22 @@
+# Runtime dependencies for the Arab Blind Academy application.
+#
+# Only wxPython is required. Everything else is optional and the application
+# degrades cleanly without it — no feature hard-fails, it simply reports itself
+# unavailable. Nothing is vendored: each library is installed for the exact
+# Python version in use, which is why the app runs on 3.11 through 3.14 rather
+# than being locked to whichever interpreter a binary was built against.
+
+wxPython>=4.2          # the interface
+
+# --- optional ---------------------------------------------------------------
+# Audio playback for Qur'an recitation and lesson audio. Without it the audio
+# screens fall back to wx.media, then report themselves unavailable.
+miniaudio>=1.59 ; platform_system != "Linux" or platform_machine == "x86_64"
+
+# Speech when no screen reader is running. On Windows the app uses SAPI5
+# through comtypes; elsewhere pyttsx3 or a system espeak-ng binary.
+comtypes>=1.2 ; platform_system == "Windows"
+pyttsx3>=2.90
+
+# Microphone capture for recitation self-review.
+sounddevice>=0.4

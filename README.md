@@ -1,92 +1,143 @@
-# Arab Blind Academy — أكاديمية الكفيف العربي
+# أكاديمية الكفيف العربي
 
-An NVDA add-on: a complete learning academy inside the screen reader, for
-Arabic-speaking blind students. The interface is always in Arabic (RTL),
-keyboard-only, and screen-reader-first.
+برنامج تعليمي شامل للطلاب المكفوفين الناطقين بالعربية: الدورات، والقرآن، وبرايل، والبرمجة، والألعاب، والأدوات، والمعلّم الذكي — بواجهة عربية كاملة من اليمين إلى اليسار، تعمل بلوحة المفاتيح وحدها.
 
-> The user interface and all lessons are in Arabic, because the add-on is built
-> for Arabic-speaking blind learners. This English README is a courtesy summary.
+---
 
-## What it includes
+## التشغيل
 
-- **Courses** — Arabic (grammar and spelling up to the Ājurrūmiyya level),
-  English, French, Braille, computer skills (NVDA, Windows, Office), maths,
-  science, history, geography, and general knowledge. 700+ lessons on a real
-  progressive path, with a modular JSON lesson engine, an unlimited procedural
-  question generator, spaced repetition, statistics, and typing challenges.
-- **The Qur'an Mushaf** — one ayah per line, per-ayah recitation, multiple
-  scripts, dozens of tafsirs and 124 translations, i'rab, reasons for
-  revelation, **word-by-word morphology** (root, lemma, part of speech),
-  bookmarks, search, a **multi-surah memorisation (hifz)** mode with three
-  repeat styles, and a precise surah+ayah go-to.
-- **Full-surah player** — whole-surah recitations (separate from the ayah
-  player), 22 well-known reciters, with offline download.
-- **Hadith** — eight collections, browsed book-by-book, downloaded on demand.
-- **Flashcards** — an Anki-style spaced-repetition system (FSRS), with 82
-  ready-made starter decks built from the lessons.
-- **Islamic tools** — the 99 Names of Allah with Arabic meanings, prayer times
-  and the Hijri date, an adhkar list, and a persistent tasbih counter.
-- **English dictionary** — definitions, pronunciation, and one-tap flashcards.
-- **Accessible downloads** — a download window with on-demand status keys
-  (Space / 1 / 2 / 3) and automatic skipping of already-downloaded content.
-
-No external Python libraries need to be installed: the database is bundled
-(SQLite when available, otherwise a pure-Python fallback), and audio plays
-fully in-process.
-
-## Requirements
-
-- NVDA 2019.3 or newer, on Windows.
-
-## Building the add-on
-
-The add-on is a standard NVDA add-on package (a zip renamed to
-`.nvda-addon`). To build it from this repository:
-
-```
-python build.py
+```bash
+python run_app.py                    # يفتح الأكاديمية مباشرة
+python run_app.py --stats            # ملخّص التقدّم (بلا واجهة)
+python run_app.py --report out.html  # تقرير تقدّم كامل
+python run_app.py --backup
+python run_app.py --import-nvda      # نقل بياناتك من إضافة NVDA
 ```
 
-This produces `abaAcademy.nvda-addon`, which the user installs from NVDA
-(Tools → Manage add-ons → Install). The script verifies that every packaged
-file name is ASCII (see the "Askie" note in `doc/DEVELOPER.md`), that all
-bundled JSON is valid, and that the test suite passes before packaging.
+## البناء
 
-## Layout
-
-```
-manifest.ini                  add-on manifest (name, version, NVDA compat)
-globalPlugins/abaAcademy/      the add-on itself
-  academy.py bootstrap.py …    orchestrator and engine
-  engine/ generators/ database/  lesson engine, question generators, storage
-  gui/                         all screens (academy, Mushaf, hadith, tools…)
-  courses/                     the course packs (JSON) — 11 courses
-  resources/                   bundled data (Qur'an, reciters, flashcards…)
-  lib/                         bundled audio player (miniaudio + cffi)
-  COPYING.txt CREDITS.txt      third-party licences, attributions, contributors
-doc/                           readmes (ar/en) and the developer guide
-LICENSE                        GPL-3.0
+```bash
+pip install pyinstaller wxpython
+python build.py            # مجلّد توزيع في dist/
+python build.py --onefile  # ملفّ تنفيذي واحد
+python build.py --check    # تحقّق فقط
 ```
 
-## Contributing courses
+**مهمّ:** شغّل البرنامج من مجلّد `dist` وليس `build`. مجلّد `build` مساحة عمل
+مؤقّتة لأداة البناء ولا يحوي برنامجًا صالحًا للتشغيل، ومحاولة تشغيله تعطي رسالة
+`Failed to load Python DLL`.
 
-New course packs are just folders of JSON under `courses/`. See
-[`doc/DEVELOPER.md`](doc/DEVELOPER.md) for the lesson format — **and note the
-requirement that all file and folder names be ASCII** (Arabic names go inside
-the JSON, never as file names).
+---
 
-## Licence
+## النطق
 
-GPL-3.0. See [`LICENSE`](LICENSE). Third-party data and adapted components,
-including work from the al-bayan project, NVDA Coach, the Quranic Arabic Corpus,
-and the AlAdhan and dictionary APIs, are credited in
-[`globalPlugins/abaAcademy/COPYING.txt`](globalPlugins/abaAcademy/COPYING.txt)
-and [`CREDITS.txt`](globalPlugins/abaAcademy/CREDITS.txt).
+يستعمل البرنامج **قارئ الشاشة NVDA نفسه** إن كان يعمل، فتبقى لك أصواتك وسرعتك
+وإعداداتك العربية كما ضبطتها. وإن لم يكن يعمل فينتقل تلقائيًا إلى أصوات النظام
+(SAPI5 على ويندوز). يمكنك اختيار المحرّك يدويًا من **الإعدادات ← محرّك النطق**،
+ويُطبَّق فورًا.
 
-## Credits
+---
 
-Created by Riad. With thanks to **Muhammad Hajjar**, who fixed the SQLite
-problem that prevented the add-on from running when the user has no separate
-Python installation, improved several courses, and fixed the non-ASCII
-("Askie") lesson-file-name problem — work that was essential to making the
-add-on run reliably.
+## نقل تقدّمك من إضافة NVDA
+
+عند أوّل تشغيل يبحث البرنامج عن بيانات الإضافة على جهازك ويعرض عليك ملخّصًا
+حقيقيًا لما سيُنقل: عدد الدروس المكتملة، والأسئلة المُجابة ودقّتك فيها،
+والموضوعات التي تدرّبت عليها، وبطاقات المراجعة المتباعدة، وأيّام دراستك،
+وإعداداتك وأرقامك القياسية في الألعاب. ثم يُنقل **كل شيء** — بما في ذلك ملفّات
+لم يعرفها البرنامج من قبل — دون حذف أيّ شيء من الإضافة.
+
+يمكن تكرار النقل لاحقًا: `python run_app.py --import-nvda`
+
+---
+
+## مزايا إضافية
+
+- تذكيرات خلفية بالهدف اليومي.
+- تسجيل صوتي لمراجعة التلاوة والنطق (يتطلّب `sounddevice`).
+- تقرير تقدّم HTML من اليمين لليسار، صالح للطباعة أو لمشاركته مع المعلّم.
+- نسخ احتياطي واستعادة بضغطة واحدة.
+- واجهة سطر أوامر للمعلّمين.
+- الوضع المحمول: ضع مجلّدًا باسم `userdata` بجانب البرنامج فينتقل تقدّمك معه على
+  ذاكرة USB.
+
+---
+
+## المتطلّبات والتثبيت
+
+**مضمّن مع البرنامج — لا تحتاج لتنزيله:** مكتبتا `comtypes` و`pyttsx3` (في مجلّد
+`vendor/`)، وبهما يتكلّم البرنامج على ويندوز دون أن تثبّت شيئًا.
+
+**يُثبَّت بأمر واحد:** `wxPython` للواجهة و`miniaudio` للصوت. هاتان مكتبتان
+مُصرَّفتان (C extensions)، والنسخة الواحدة منهما ترتبط بإصدار بايثون ونظام تشغيل
+بعينهما، فلو شُحنت جاهزة لتوقّفت عن العمل بمجرّد تغيير إصدار بايثون — وهذا بالضبط
+ما كان يحدث سابقًا مع مكتبة صوت مبنيّة لبايثون 3.13 على ويندوز فقط. لذلك تُثبَّت
+لنسخة بايثون التي تشغّلها فعلًا:
+
+```bash
+python build.py --deps
+```
+
+هذا كل شيء. بعده:
+
+```bash
+python run_app.py     # تشغيل
+python build.py       # بناء نسخة توزيع في dist/
+```
+
+النسخة المبنيّة في `dist/` تحتوي **كل شيء** — المكتبات والموارد والدروس — فلا
+يحتاج المستخدم النهائي إلى تثبيت أيّ شيء إطلاقًا.
+
+اختياري: `sounddevice` لتسجيل الصوت (يُثبَّت مع `--deps` على ويندوز).
+
+## الاختبارات
+
+```bash
+cd abaAcademy/tests && for t in test_*.py; do python "$t"; done
+cd tests && python test_desktop.py
+```
+
+## الترخيص
+
+GPL v3 — انظر `COPYING.txt` داخل `abaAcademy`.
+
+---
+
+## سجلّ الأخطاء
+
+يكتب البرنامج سجلًّا في مجلّد بياناتك باسم `academy.log`، ويسجّل فيه أيّ خطأ غير
+متوقّع (في الواجهة أو في الخيوط الخلفية) مع تفاصيله. عند حدوث خطأ تظهر رسالة
+تُخبرك بمكان الملفّ. أرسِل هذا الملفّ عند الإبلاغ عن مشكلة.
+
+## إغلاق المصدر في نسخة التوزيع
+
+المشروع مفتوح المصدر على GitHub، لكن النسخة المبنيّة لا تحتوي ملفّات `.py`
+مقروءة: يترجم `build.py` كل شيفرة الأكاديمية إلى `.pyc` ويحذف المصادر قبل
+التحزيم. تبقى ملفّات المحتوى (الدروس، القرآن، القاموس) كما هي لأن البرنامج
+يحتاجها للعمل.
+
+للتشخيص يمكن تعطيل ذلك مؤقّتًا:
+
+```bash
+set ABA_KEEP_SOURCE=1 && python build.py
+```
+
+## النطق عبر NVDA
+
+مرفق مع البرنامج `nvdaControllerClient64.dll` في `vendor/lib`، فيتحدّث البرنامج
+عبر NVDA مباشرةً إن كان يعمل — بصوتك وسرعتك وإعداداتك — ودون تثبيت أيّ شيء. وإن
+لم يكن NVDA يعمل فيُستعمل صوت النظام. يمكن اختيار المحرّك من الإعدادات.
+
+## أين تُحفظ بياناتك
+
+كل ما يجمعه الطالب — التقدّم المستورد، والتلاوات المُنزَّلة، وحزم الدروس، والنسخ
+الاحتياطية — يُكتب في مجلّد `userdata` **بجانب البرنامج نفسه**. البرنامج وبياناته
+ينتقلان معًا: انسخ المجلّد إلى ذاكرة USB أو جهاز آخر ولن يتخلّف شيء، مهما كبر حجم
+البيانات. وإن كان البرنامج مثبّتًا في مكان لا يُسمح بالكتابة فيه (مثل Program
+Files) فيتحوّل تلقائيًا إلى مجلّد المستخدم في النظام.
+
+## تثبيت التحديثات
+
+عندما يُنزَّل التحديث كملفّ zip يعرض البرنامج تثبيته فورًا: تُستبدل ملفّات البرنامج
+في مكانها، ويبقى مجلّد `userdata` كما هو دون أن يُمسّ. أمّا الملفّات المستخدَمة وقت
+التحديث (مثل الملفّ التنفيذي نفسه) فتُحفظ باسم مؤقّت وتُستبدل تلقائيًا عند إعادة
+تشغيل البرنامج.
