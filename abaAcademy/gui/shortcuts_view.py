@@ -88,14 +88,14 @@ class ShortcutsDialog(AccessibleDialog):
         self._quiz_answer = keys
         self._asked += 1
         self._say(f"ما اختصار: {desc}؟ (في {cat}). "
-                  f"فكّر ثم اضغط «أظهر الجواب».")
+                  f"فكّر ثم اضغط أظهر الجواب.")
 
     def _reveal(self):
         if not self._quiz_answer:
-            self._say("اضغط «اختبر معرفتي» أولاً.")
+            self._say("اضغط اختبر معرفتي أولاً.")
             return
         self._say(f"الجواب: {self._quiz_answer}. "
-                  f"إن عرفته فأحسنت! لسؤال آخر اضغط «اختبر معرفتي».")
+                  f"إن عرفته فأحسنت! لسؤال آخر اضغط اختبر معرفتي.")
         self._quiz_answer = None
 
     def _say(self, text):
@@ -104,5 +104,5 @@ class ShortcutsDialog(AccessibleDialog):
 
     def instructions(self):
         return ("مستكشف الاختصارات: اختر البرنامج (ويندوز، وورد، إكسل، المتصفّح، NVDA) "
-                "لتصفّح اختصاراته، أو ابحث بكلمة عبر جميع البرامج. «اختبر معرفتي» يسألك عن "
-                "اختصار فعلٍ معيّن، و«أظهر الجواب» يكشفه. Escape للإغلاق.")
+                "لتصفّح اختصاراته، أو ابحث بكلمة عبر جميع البرامج. اختبر معرفتي يسألك عن "
+                "اختصار فعلٍ معيّن، وأظهر الجواب يكشفه. Escape للإغلاق.")

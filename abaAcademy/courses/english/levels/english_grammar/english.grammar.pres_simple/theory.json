@@ -2,7 +2,7 @@
  "blocks": [
   {
    "btype": "text",
-   "text": "نستخدم المضارع البسيط للحقائق والعادات والأمور المتكررة، مثل «أشرب القهوة كل صباح». الفعل يبقى كما هو مع I / you / we / they، لكن نضيف s (أو es) مع الغائب المفرد he / she / it: I work لكن He works. في النفي والسؤال نستخدم do / does مع التصريف الأول للفعل: I don't work، He doesn't work، Do you"
+   "text": "نستخدم المضارع البسيط للحقائق والعادات والأمور المتكررة، مثل أشرب القهوة كل صباح. الفعل يبقى كما هو مع I / you / we / they، لكن نضيف s (أو es) مع الغائب المفرد he / she / it: I work لكن He works. في النفي والسؤال نستخدم do / does مع التصريف الأول للفعل: I don't work، He doesn't work، Do you"
   },
   {
    "btype": "text",
@@ -20,8 +20,8 @@
   },
   {
    "btype": "example",
-   "text": "Does she like music?",
-   "note": "هل تحب الموسيقى؟"
+   "text": "Does she like reading?",
+   "note": "هل تحب القراءة؟"
   },
   {
    "btype": "question",

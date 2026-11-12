@@ -63,10 +63,10 @@
    "btype": "question",
    "question": {
     "qtype": "typing",
-    "prompt": "صرّف الفعل chanter مع vous:",
-    "correct": "chantez",
+    "prompt": "صرّف الفعل parler مع vous:",
+    "correct": "parlez",
     "accepted": [],
-    "explanation": "مع vous النهاية ez: chantez.",
+    "explanation": "مع vous النهاية ez: parlez.",
     "topic": "gram.er_verbs"
    }
   },

@@ -35,7 +35,7 @@ from .models import Question, QuestionType
 
 _ARABIC_DIACRITICS = re.compile(r"[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]")
 _WS = re.compile(r"\s+")
-_PUNCT = re.compile(r"[.,;:!?'\"`~^*_\-\u2013\u2014\u2026()\[\]{}<>\u00ab\u00bb\u2039\u203a\u201c\u201d\u2018\u2019\u060c\u061b\u061f\u066a/\\|@#&+=]")
+_PUNCT = re.compile(r"[.,;:!?'\"`~^*_\-\u2013\u2014\u2026()\[\]{}<>\u00ab\u00bb\u2039\u203a\u201c\u201d\u2018\u2019\u060c\u061b\u061f\u066a\u00bf\u00a1\u201e\u201a\u202f\u00a0/\\|@#&+=]")
 
 _EN_ARTICLES = {"the", "a", "an"}
 
@@ -47,8 +47,8 @@ def strip_arabic_diacritics(text: str) -> str:
 # Orthographic variants that Arabic writers use interchangeably and that a
 # learner must not be marked wrong for: the alef/hamza family (أ إ آ ٱ -> ا),
 # ta-marbuta vs ha (ة -> ه), alef-maqsura vs ya (ى -> ي), and the hamza seats
-# (ؤ ئ -> و ي). Applying these means «أبو ظبي», «ابو ظبي», «أبوظبي» and
-# «ابوظبي» all compare equal, as do «مكة»/«مكه».
+# (ؤ ئ -> و ي). Applying these means أبو ظبي, ابو ظبي, أبوظبي and
+# ابوظبي all compare equal, as do مكة/مكه.
 _LETTER_FOLDS = {
     "\u0623": "\u0627", "\u0625": "\u0627", "\u0622": "\u0627", "\u0671": "\u0627",
     "\u0629": "\u0647",
@@ -76,7 +76,7 @@ def normalize_text(text: str, *, keep_diacritics: bool = False,
     if not keep_diacritics:
         text = strip_arabic_diacritics(text)
     # Letter folding (hamza/alef, ta-marbuta/ha, alef-maqsura/ya) is independent
-    # of diacritics: even a strict-tashkeel lesson should accept «أبو»/«ابو».
+    # of diacritics: even a strict-tashkeel lesson should accept أبو/ابو.
     # It's controlled by its own flag so a learner who truly wants exact spelling
     # can turn it off.
     if fold_letters:
@@ -85,7 +85,7 @@ def normalize_text(text: str, *, keep_diacritics: bool = False,
 
 
 def _despace(text: str) -> str:
-    """A space-insensitive form for comparison, so «أبو ظبي» == «أبوظبي». Only
+    """A space-insensitive form for comparison, so أبو ظبي == أبوظبي. Only
     used as a fallback equality check, never for display."""
     return text.replace(" ", "")
 
@@ -152,7 +152,7 @@ def _typing_matches(correct: str, given: str, keep_diacritics: bool,
     sg, sc = _strip_article(ng), _strip_article(nc)
     if sg and sg == sc:
         return True
-    # space-insensitive: «أبوظبي» == «أبو ظبي», «عبد الله» == «عبدالله»
+    # space-insensitive: أبوظبي == أبو ظبي, عبد الله == عبدالله
     if _despace(ng) and _despace(ng) == _despace(nc):
         return True
     if sg and _despace(sg) == _despace(sc):

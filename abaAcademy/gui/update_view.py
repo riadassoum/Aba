@@ -25,21 +25,12 @@ from .. import updater
 
 
 def _local_version(academy):
-    # read the version from the bundled manifest
+    """The application's version: the single value kept in the hub."""
     try:
-        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        manifest = os.path.join(os.path.dirname(base), "manifest.ini")
-        # manifest.ini lives at the addon root (two levels up from gui/)
-        for candidate in (
-                os.path.join(base, "..", "..", "manifest.ini"),
-                os.path.join(base, "..", "manifest.ini")):
-            if os.path.exists(candidate):
-                for line in open(candidate, encoding="utf-8"):
-                    if line.strip().startswith("version"):
-                        return line.split("=", 1)[1].strip().strip('"')
+        from .hub import __version__
+        return __version__
     except Exception:
-        pass
-    return "2.0"
+        return "3.0"
 
 
 class UpdateDialog(AccessibleDialog):
@@ -75,12 +66,12 @@ class UpdateDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(self.report)
-        wx.CallAfter(self._check)
+        self.call_after(self._check)
 
     def _check(self):
         self._say("جارٍ التحقّق من التحديثات…")
         updater.check_async(self._local,
-                            lambda res: wx.CallAfter(self._on_result, res))
+                            lambda res: self.call_after(self._on_result, res))
 
     def _on_result(self, result):
         self._result = result

@@ -154,7 +154,7 @@ class MillionaireGame(AccessibleDialog):
         s.Add(act, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
         self.set_first_control(self.options)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     def say(self, text):
         self.status.SetLabel(text)
@@ -246,11 +246,11 @@ class MillionaireGame(AccessibleDialog):
         if i == correct:
             prize = LADDER[self._rung]
             if self._rung == len(LADDER) - 1:
-                self.say(f"إجابة صحيحة! «{chosen_text}». لقد ربحت المليون! "
-                         f"{ar(prize)} نقطة! أنت بطل! اضغط «إغلاق» أو ابدأ من جديد بـ«السلّم».")
+                self.say(f"إجابة صحيحة! {chosen_text}. لقد ربحت المليون! "
+                         f"{ar(prize)} نقطة! أنت بطل! اضغط إغلاق أو ابدأ من جديد بـالسلّم.")
                 self._record(prize)
                 return
-            self.say(f"إجابة صحيحة! «{chosen_text}». ربحت {ar(prize)} نقطة. "
+            self.say(f"إجابة صحيحة! {chosen_text}. ربحت {ar(prize)} نقطة. "
                      f"إلى السؤال التالي.")
             self._record(prize)
             self._rung += 1
@@ -258,8 +258,8 @@ class MillionaireGame(AccessibleDialog):
         else:
             correct_text = self._q["options"][correct]
             banked = self._banked_prize()
-            self.say(f"للأسف، إجابة خاطئة. الصحيحة كانت «{correct_text}». "
-                     f"تحتفظ بـ {ar(banked)} نقطة. انتهت اللعبة — اضغط «السلّم» للعب من جديد.")
+            self.say(f"للأسف، إجابة خاطئة. الصحيحة كانت {correct_text}. "
+                     f"تحتفظ بـ {ar(banked)} نقطة. انتهت اللعبة — اضغط السلّم للعب من جديد.")
             self._record(banked)
             self._game_over = True
 
@@ -277,7 +277,7 @@ class MillionaireGame(AccessibleDialog):
             return
         prize = LADDER[self._rung - 1] if self._rung > 0 else 0
         self.say(f"انسحبت وأنت رابح. تحتفظ بـ {ar(prize)} نقطة. قرار حكيم! "
-                 f"اضغط «السلّم» للعب من جديد.")
+                 f"اضغط السلّم للعب من جديد.")
         self._record(prize)
         self._game_over = True
 
@@ -325,7 +325,7 @@ class MillionaireGame(AccessibleDialog):
             guess = random.choice([i for i in avail if i != correct] or [correct])
             tone = "لست متأكداً تماماً، لكن أظنّ"
         self._last_lifeline = (f"صديقك يقول: {tone} الإجابة هي "
-                               f"«{OPTION_LETTERS[guess]}: {self._q['options'][guess]}».")
+                               f"{OPTION_LETTERS[guess]}: {self._q['options'][guess]}.")
         self.say(self._last_lifeline)
         self.options.SetFocus()
 
@@ -462,7 +462,7 @@ class TrainingGround(AccessibleDialog):
         self._correct = 0
         self._attempted = 0
         self._used = set()
-        wx.CallAfter(self._start)
+        self.call_after(self._start)
 
     def say(self, text):
         self.status.SetLabel(text)
@@ -516,11 +516,11 @@ class TrainingGround(AccessibleDialog):
         correct = self._q["answer"]
         if i == correct:
             self._correct += 1
-            self.say(f"إجابة صحيحة! «{self._q['options'][correct]}». "
+            self.say(f"إجابة صحيحة! {self._q['options'][correct]}. "
                      f"نتيجتك {ar(self._correct)} من {ar(self._attempted)}. "
-                     f"اضغط Enter أو «سؤال جديد» للتالي.")
+                     f"اضغط Enter أو سؤال جديد للتالي.")
         else:
-            self.say(f"إجابة خاطئة. الصحيحة: «{self._q['options'][correct]}». "
+            self.say(f"إجابة خاطئة. الصحيحة: {self._q['options'][correct]}. "
                      f"لا بأس، هذا تدريب! نتيجتك {ar(self._correct)} من {ar(self._attempted)}. "
                      f"اضغط Enter للسؤال التالي.")
 

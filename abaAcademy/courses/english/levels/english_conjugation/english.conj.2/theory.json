@@ -2,37 +2,37 @@
  "blocks": [
   {
    "btype": "text",
-   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «المستقبل (will)». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: to go، to help."
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن المستقبل (will). استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: to go، to help."
   },
   {
    "btype": "example",
    "text": "I will go",
-   "note": "تصريف «to go» مع «I»"
+   "note": "تصريف to go مع I"
   },
   {
    "btype": "example",
    "text": "you will go",
-   "note": "تصريف «to go» مع «you»"
+   "note": "تصريف to go مع you"
   },
   {
    "btype": "example",
    "text": "he will go",
-   "note": "تصريف «to go» مع «he»"
+   "note": "تصريف to go مع he"
   },
   {
    "btype": "example",
    "text": "she will go",
-   "note": "تصريف «to go» مع «she»"
+   "note": "تصريف to go مع she"
   },
   {
    "btype": "example",
    "text": "we will go",
-   "note": "تصريف «to go» مع «we»"
+   "note": "تصريف to go مع we"
   },
   {
    "btype": "example",
    "text": "they will go",
-   "note": "تصريف «to go» مع «they»"
+   "note": "تصريف to go مع they"
   }
  ]
 }

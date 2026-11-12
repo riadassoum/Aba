@@ -21,11 +21,11 @@ Qur'an course (courses/quran):
 Qur'an reader (gui/quran_reader.py + resources/quran/quran_data.json):
   Full Uthmani text and per-ayah navigation metadata (juz'/hizb/page) via the alquran.cloud API (Tanzil verified text), reproduced unmodified. Recitation audio is streamed on demand from the free cdn.islamic.network service; the reciters listed are their respective reciters' recordings, used for personal non-commercial listening. Requires an internet connection for audio only.
 
-Built-in audio player (globalPlugins/abaAcademy/lib/):
-  Bundles the 'miniaudio' Python library by Irmen de Jong (MIT/ISC) which wraps the public-domain miniaudio C library (David Reid), plus 'cffi' (MIT) and 'pycparser' (BSD). These provide fully in-process MP3 playback so recitation never launches an external program. Recitation audio itself is cached on demand under the user's NVDA data folder for fast, offline listening.
+Audio playback:
+  Uses the 'miniaudio' Python library by Irmen de Jong (MIT), installed with the application, which wraps the public-domain miniaudio C library (David Reid), for fully in-process MP3 playback. Recitation audio is cached on demand in the application's data folder for offline listening.
 
 Qur'an editions (scripts, tafsirs, translations):
-  Text of multiple scripts, the tafsir editions, and translations are provided by the alquran.cloud API (Tanzil-derived verified text). A few are bundled; the remaining editions in the in-app catalogue are downloaded on first use and cached under the user's NVDA data folder. Reproduced unmodified.
+  Text of multiple scripts, the tafsir editions, and translations are provided by the alquran.cloud API (Tanzil-derived verified text). A few are bundled; the remaining editions in the in-app catalogue are downloaded on first use and cached in the application's data folder. Reproduced unmodified.
 
 Contributors:
   Muhammad Hajjar — fixed the SQLite problem that prevented the add-on from working when the user has no separate Python installation (NVDA's bundled Python lacks the sqlite3 module); improved several of the courses; and fixed the encoding ("Askie"/non-ASCII) problem in the lessons' file names. His work was essential to making this add-on run reliably on every user's machine.
@@ -54,7 +54,7 @@ Arabic braille cell mappings (braille_engine/arabic_braille.py):
   The letter, diacritic, digit and punctuation dot patterns follow the official Unified Arabic Braille standard as encoded in the liblouis tables (ar-ar-g1-core.uti), the same tables NVDA uses, based on the Unified Arabic Braille Project (mip.qa/braille). liblouis is LGPL-2.1+ (https://github.com/liblouis/liblouis). The individual letter-to-dots facts (the braille standard itself) were transcribed to drive the interactive Perkins tutor; the tutor's Grade-2 section teaches only a small, unambiguous subset of contractions and states that it is an introduction.
 
 Qur'an root/morphology search (quran_engine/morpho_search.py):
-  Uses the bundled word-by-word morphology (resources/quran/word_analysis.json) already credited above (Quranic Arabic Corpus via mustafa0x/quran-morphology, GPL) to index every root and its derived forms. The rule-based Tajweed cue detector (quran_engine/tajweed.py) flags only rules deterministically detectable from the written Uthmani text (qalqalah, madd, ghunnah, sun-letter assimilation) and is presented as a study aid, not a certified Tajweed text; its earcons are synthesised in code.
+  Uses the bundled word-by-word morphology (resources/quran/word_analysis.json) already credited above (Quranic Arabic Corpus via mustafa0x/quran-morphology, GPL) to index every root and its derived forms. The rule-based Tajweed cue detector (quran_engine/tajweed.py) flags only rules deterministically detectable from the written Uthmani text (qalqalah, madd, ghunnah, sun-letter assimilation) and is presented as a study aid, not a certified Tajweed text; its audio cues are synthesised in code.
 
 Multi-tafsir comparison (gui/tafsir_compare.py):
   Reads the bundled commentary/translation editions (التفسير الميسّر، الإعراب، أسباب النزول، Saheeh International, Hamidullah) already credited above, presenting them side by side for one ayah. No new data; nothing generated or graded.
@@ -69,7 +69,7 @@ Batch 2 modules (codelab/, tools/, study_hub/):
   Arabic Python error translator + teaching sandbox (codelab/) — pure ast/compile, no eval of the translation; the sandbox runs the learner's own code with a curated builtins set, an allow-list of safe modules, and a timeout. It is a teaching aid, not a security boundary, and the UI says so. Clipboard formatter (tools/clipboard_formatter.py) and shortcuts directory (tools/shortcuts_data.py) are pure-stdlib and offline. Pomodoro timer and notebook (study_hub/) persist through the user data dir. Data fixes: added Comoros (جزر القمر) and Djibouti (جيبوتي) to the Arab geography lessons so all 22 Arab League countries are taught before being tested; added 5 missing review.json files in the computer/NVDA course; salvaged 2 French confusable blocks that yielded no questions; fixed the mistakes-notebook topic labels to show Arabic names for dotted topic ids; added an Arabic braille contractions mode to the Perkins tutor.
 
 docstudio (docx_exporter.py, html_exporter.py):
-  Pure-Python OOXML and HTML generation — no python-docx, no docx-js, no pandoc at runtime. The .docx is assembled as raw XML parts in a zip so it works inside NVDA with only the standard library. RTL layout verified by rendering to PDF.
+  Pure-Python OOXML and HTML generation — no python-docx, no docx-js, no pandoc at runtime. The .docx is assembled as raw XML parts in a zip using only the standard library. RTL layout verified by rendering to PDF.
 
 Invented tools (tafqit.py, hijri.py):
   Arabic number-to-words and an arithmetic Hijri<->Gregorian converter (Kuwaiti/JDN algorithm), both pure standard library and offline. Hijri conversion validated against known epoch (1 Muharram 1445 = 19 July 2023) with full round-trip tests. The arithmetic Hijri calendar can differ by a day from moon-sighting; noted in the UI.
@@ -79,3 +79,45 @@ World countries data (geo.nations level):
 
 Arabic Grade-2 braille contractions (braille_engine/arabic_braille.py):
   The 237 contractions and their dot patterns are derived from the liblouis Arabic Grade 2 table (tables/ar-ar-g2.ctb), which is based on the official Unified Arabic Braille Project (https://mip.qa/braille) and is licensed LGPL-2.1+ (Copyright (C) 2018-2020 Ikrami Ahmad; Mada, Qatar Assistive Technology Center). An earlier hand-entered subset of 15 contractions contained errors (e.g. من, في had wrong dots); those were replaced with the authoritative liblouis values, and each contraction now carries its rule type so the challenge engine knows whether it may appear inside a word.
+
+
+--- Added in 3.0 ---
+
+Arabic root extraction (arabic_lab/isri.py):
+  The ISRI Arabic stemmer (Taghva, Elkhoury and Coombs, 2005), from NLTK 3.10.3 (nltk/stem/isri.py), Apache License 2.0. Vendored with one change: the dependency on NLTK's StemmerI base class was removed. Where a word occurs in the Qur'an, the root lab uses the Quranic Arabic Corpus data credited above instead of the stemmer.
+
+Umm al-Qura calendar (tools/ummalqura_data.py):
+  The table of Hijri month starts for 1343–1500 AH from the hijridate project by Mohammed Alshehri (https://github.com/dralshehri/hijridate), MIT licence. The conversion code around it was written for this application.
+
+Time zones (vendor/tzdata):
+  IANA time-zone data from the tzdata package (Python Software Foundation, Apache License 2.0), trimmed to the zones of the prayer-times city list.
+
+Periodic table (science/elements_data.py):
+  Atomic weights from the 'periodictable' package (Paul Kienzle et al., public domain; NIST data). Arabic element names follow the Arabic-encyclopaedia lists of chemical elements (3rabica.org for elements 1–92, areq.net for 93–118). Positions, families and electron configurations are computed in code from the standard table and the measured exceptions.
+
+Arabic Morse code (tools/morse.py):
+  The Arabic Morse alphabet as published in the Wikipedia article "Morse code for non-Latin alphabets"; Latin letters, digits and punctuation per ITU-R M.1677.
+
+Prayer-time calculation (tools/praytimes.py):
+  Implemented from the standard published astronomical formulas (equation of time and solar declination) with the twilight angles of the named authorities. Results were cross-checked against the independent adhan library during development.
+
+Prosody (arabic_lab/arud.py):
+  The sixteen metres, their feet and permitted variations follow classical ʿarūḍ; the mnemonic lines are those attributed to Safi al-Din al-Hilli. The scansion and matching code was written for this application.
+
+Language courses — sentences (courses/english_graded, french_graded, spanish, turkish, german, italian):
+  Sentence pairs from the Tatoeba Project (https://tatoeba.org), licensed CC BY 2.0 FR. Each foreign sentence is linked to a human Arabic translation, either directly or through the English sentence it translates. Sentences mentioning music, alcohol, drugs, sexual content, self-harm, pork or Christmas/Easter greetings were removed. The graded ordering (each lesson teaches the next most frequent words; a sentence enters the course in the first lesson where all its words are known), the lesson design and the exercises were written for this application.
+
+Language courses — word meanings, inflection notes and verb tables:
+  Derived from Wiktionary (https://www.wiktionary.org), licensed CC BY-SA 4.0 and GFDL, via the machine-readable extraction published at kaikki.org (wiktextract, Tatu Ylonen). The Arabic meaning of a foreign word comes from the Arabic entry in the same English translation table as that word; dialect entries were excluded. The meanings and verb tables are therefore shared under CC BY-SA 4.0. The most frequent function words of each language were checked by hand, and the meanings of ambiguous forms were chosen by matching against the Arabic translations of the sentences that contain them.
+
+Turkish conjugation (courses/turkish, conjugation level):
+  Generated by rule (vowel harmony and consonant softening) by code written for this application, and cross-checked against the Tatoeba Turkish corpus.
+
+Grammar notes and pronunciation lessons for English, French, Spanish, Turkish, German and Italian:
+  Written for this application.
+
+Programming challenges (resources/codelab):
+  Four tracks (80 challenges, 897 test cases) adapted from the Exercism problem specifications (https://github.com/exercism/problem-specifications), MIT License, Copyright (c) 2014, 2019, 2021 Exercism — see resources/codelab/EXERCISM-LICENSE.txt. The test cases are Exercism's; the Arabic task statements and the reference solutions used to verify every case were written for this application. Exercises built around songs or verses were left out. The other five tracks (50 challenges) were written for this application.
+
+Escape-room story, word-search themes, regex exercises, mental-arithmetic techniques, quiz samples:
+  Written for this application.

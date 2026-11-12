@@ -40,7 +40,7 @@ def certificate_text(course_title, learner_name=""):
         f"{line}\n\n"
         f"تشهد الأكاديمية بأن {who}\n"
         f"قد أتمّ بنجاح جميع دروس دورة:\n"
-        f"«{course_title}»\n\n"
+        f"{course_title}\n\n"
         f"بتاريخ {today}\n\n"
         f"نبارك لك هذا الإنجاز، وواصل التعلّم!\n"
         f"{line}\n"
@@ -83,7 +83,7 @@ class CertificatesView(AccessibleDialog):
             return
         p = self._progress[i]
         if not p["complete"]:
-            self.announce(f"دورة «{p['title']}» لم تكتمل بعد: {_ar(p['done'])} من "
+            self.announce(f"دورة {p['title']} لم تكتمل بعد: {_ar(p['done'])} من "
                           f"{_ar(p['total'])} درساً. أكملها لتحصل على الشهادة.")
             return
         name = self.academy.settings._get("learner_name") if hasattr(self.academy.settings, "_get") else ""
@@ -91,7 +91,7 @@ class CertificatesView(AccessibleDialog):
         self.show_child(_CertificateDialog(self, self.speech, p["title"], text))
 
     def instructions(self):
-        return ("تقدّمك في كل دورة، والدورات المكتملة تمنحك شهادة. اختر دورة و«عرض الشهادة». "
+        return ("تقدّمك في كل دورة، والدورات المكتملة تمنحك شهادة. اختر دورة وعرض الشهادة. "
                 "Escape للإغلاق.")
 
 
@@ -107,7 +107,7 @@ class _CertificateDialog(AccessibleDialog):
               0, wx.ALIGN_RIGHT | wx.ALL, 6)
         panel.SetSizer(s)
         self.set_first_control(t)
-        wx.CallAfter(lambda: self.announce("مبارك! هذه شهادة إتمامك للدورة."))
+        self.call_after(self.announce, "مبارك! هذه شهادة إتمامك للدورة.")
 
     def instructions(self):
         return "شهادة إتمامك. تنقّل بالأسهم لقراءتها، وانسخها إن شئت. Escape للإغلاق."

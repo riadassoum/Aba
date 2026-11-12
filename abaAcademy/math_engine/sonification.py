@@ -24,7 +24,7 @@ bundled miniaudio device; if miniaudio is unavailable the engine still computes
 the feature analysis and coordinates (so the spoken exploration works even with
 no audio device).
 
-Pitch mapping: y-values are mapped onto a musical range (default 220–880 Hz, two
+Pitch mapping: y-values are mapped onto an audible pitch range (default 220–880 Hz, two
 octaves). y=0 always maps to the same reference pitch, so "crossing the middle
 pitch" reliably means "crossing the x-axis" — an anchor the ear can trust.
 """
@@ -226,7 +226,7 @@ class FunctionSonifier:
         lo, hi = self.y_min, self.y_max
         if hi - lo < 1e-9:
             return math.sqrt(self.f_low * self.f_high)
-        # normalise y to 0..1, then map onto a log (musical) frequency scale
+        # normalise y to 0..1, then map onto a logarithmic frequency scale
         t = (y - lo) / (hi - lo)
         return self.f_low * (self.f_high / self.f_low) ** t
 
@@ -346,8 +346,8 @@ class TonePlayer:
         self._buf = b""
         self._pos = 0
         try:
-            if _LIB not in sys.path:
-                sys.path.insert(0, _LIB)
+            if os.path.isdir(_LIB) and _LIB not in sys.path:
+                sys.path.append(_LIB)
             import miniaudio  # type: ignore
             self._ma = miniaudio
         except Exception:

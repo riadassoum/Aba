@@ -124,35 +124,85 @@ def main(argv=None):
     except Exception:
         log.exception("import offer failed")
 
-    academy = build_academy(data_dir)
-
-    # engine preference is a normal setting; "auto" prefers NVDA when running
+    # several learners can share one copy; each profile is its own folder
+    from . import profiles
     try:
-        preferred = academy.store.get_setting("speech_engine", "auto") or "auto"
+        profile_dir = _choose_profile(data_dir)
     except Exception:
-        preferred = "auto"
-    speaker = Speaker(preferred=preferred)
-    speech = AppSpeech(speaker)
-    logging_setup.note_environment(speech_engine=speaker.backend.name)
-    log.info("academy ready; data dir: %s", data_dir)
+        log.exception("profile selection failed; using the first profile")
+        profile_dir = data_dir
 
-    # the hub is the application window — no landing screen in between
-    from abaAcademy.gui.hub import HubDialog
-    hub = HubDialog(None, academy, speech)
+    speaker = None
     try:
-        hub.SetTitle("أكاديمية الكفيف العربي")
-    except Exception:
-        pass
+        while True:
+            academy = build_academy(profile_dir)
+            academy.profiles_root = data_dir
+            academy.switch_profile_requested = None
 
-    try:
-        hub.ShowModal()
+            # engine preference is a normal setting; "auto" prefers NVDA when running
+            try:
+                preferred = academy.store.get_setting("speech_engine", "auto") or "auto"
+            except Exception:
+                preferred = "auto"
+            if speaker is None:
+                speaker = Speaker(preferred=preferred)
+                logging_setup.note_environment(speech_engine=speaker.backend.name)
+            else:
+                try:
+                    speaker.set_engine(preferred)
+                except Exception:
+                    pass
+            speech = AppSpeech(speaker)
+            log.info("academy ready; data dir: %s", profile_dir)
+
+            # the hub is the application window — no landing screen in between
+            from abaAcademy.gui.hub import HubDialog
+            from abaAcademy.gui.accessible import clear_shutdown
+            hub = HubDialog(None, academy, speech)
+            try:
+                hub.SetTitle("أكاديمية الكفيف العربي")
+            except Exception:
+                pass
+            try:
+                hub.ShowModal()
+            finally:
+                try:
+                    hub.Destroy()
+                except Exception:
+                    pass
+            switch_to = getattr(academy, "switch_profile_requested", None)
+            try:
+                academy.close()
+            except Exception:
+                pass
+            if not switch_to:
+                break
+            clear_shutdown()
+            profile_dir = profiles.active_dir(data_dir)
+            log.info("switched to profile %s", switch_to)
     finally:
-        try:
-            hub.Destroy()
-        except Exception:
-            pass
-        speaker.shutdown()
+        if speaker is not None:
+            speaker.shutdown()
     return 0
+
+
+def _choose_profile(data_dir):
+    """The data folder of the learner to open. Asks only when the learner
+    turned that on and there is more than one profile."""
+    from . import profiles
+    reg = profiles.load(data_dir)
+    if reg.ask_on_start and len(reg.profiles) > 1:
+        names = [p.name for p in reg.profiles]
+        current = next((i for i, p in enumerate(reg.profiles) if p.id == reg.active), 0)
+        dlg = wx.SingleChoiceDialog(None, "اختر المتعلّم:", "أكاديمية الكفيف العربي", names)
+        try:
+            dlg.SetSelection(current)
+            if dlg.ShowModal() == wx.ID_OK:
+                chosen = reg.profiles[dlg.GetSelection()]
+                profiles.set_active(data_dir, chosen.id)
+        finally:
+            dlg.Destroy()
+    return profiles.active_dir(data_dir)
 
 
 if __name__ == "__main__":

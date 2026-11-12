@@ -229,8 +229,8 @@
    "meaning": "ابنة / فتاة",
    "topic": "العائلة",
    "difficulty": 1,
-   "example": "Leur fille étudie la musique.",
-   "translation": "ابنتهم تدرس الموسيقى."
+   "example": "Leur fille étudie la médecine.",
+   "translation": "ابنتهم تدرس الطب."
   },
   {
    "word": "ami",
@@ -261,8 +261,8 @@
    "meaning": "طائر",
    "topic": "الحيوانات",
    "difficulty": 1,
-   "example": "Un oiseau chante.",
-   "translation": "طائر يغني."
+   "example": "Un oiseau vole.",
+   "translation": "طائر يطير."
   },
   {
    "word": "cheval",
@@ -893,8 +893,8 @@
    "meaning": "يستمع",
    "topic": "الأفعال",
    "difficulty": 4,
-   "example": "Écoute cette chanson.",
-   "translation": "استمع إلى هذه الأغنية."
+   "example": "Lis cette histoire.",
+   "translation": "اقرأ هذه القصة."
   },
   {
    "word": "travailler",
@@ -925,8 +925,8 @@
    "meaning": "يحب",
    "topic": "الأفعال",
    "difficulty": 4,
-   "example": "J'aime la musique classique.",
-   "translation": "أحب الموسيقى الكلاسيكية."
+   "example": "J'aime la littérature classique.",
+   "translation": "أحب الأدب الكلاسيكي."
   },
   {
    "word": "habiter",

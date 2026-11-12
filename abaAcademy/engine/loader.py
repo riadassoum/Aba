@@ -205,8 +205,37 @@ class CourseRepository:
 
     # -- lazy lesson body loading (isolated per call) ----------------------
 
+    def _bundle(self, lesson_path: str):
+        """A lesson may ship as one ``bundle.json`` holding ``theory``,
+        ``practice``, ``review`` and ``quiz`` plus shared ``data`` that its
+        generated blocks reference with ``"data": "@bundle"`` (the graded
+        language courses use this: one file per lesson instead of four copies
+        of the same sentence list)."""
+        cached = getattr(self, "_last_bundle", None)
+        if cached and cached[0] == lesson_path:
+            return cached[1]
+        path = os.path.join(lesson_path, "bundle.json")
+        obj = _read_json(path) if os.path.isfile(path) else None
+        self._last_bundle = (lesson_path, obj)
+        return obj
+
     def _load_blocks(self, lesson_path: str, filename: str) -> List[Block]:
-        obj = _read_json(self._resolve(lesson_path, filename))
+        obj = None
+        target = self._resolve(lesson_path, filename)
+        if os.path.isfile(target):
+            obj = _read_json(target)
+        else:
+            bundle = self._bundle(lesson_path)
+            if isinstance(bundle, dict):
+                obj = bundle.get(filename[:-5])
+                shared = bundle.get("data") or {}
+                if isinstance(obj, dict) and shared:
+                    for raw in obj.get("blocks", []):
+                        if isinstance(raw, dict) and raw.get("data") == "@bundle":
+                            raw.pop("data")
+                            params = dict(shared)
+                            params.update(raw.get("params", {}))
+                            raw["params"] = params
         if not obj:
             return []
         blocks: List[Block] = []

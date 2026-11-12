@@ -92,7 +92,7 @@ class SpatialMazeDialog(AccessibleDialog):
         s.Add(wx.StaticText(panel, label=(
             "استمع إلى نغمة الهدف: موضعها بين الأذنين يدلّ على الاتجاه وعلوّها على القرب. "
             "تحرّك بالأسهم: السهم الأعلى للأمام، والأسفل للخلف، والأيمن لليمين، والأيسر "
-            "لليسار. زر «أين الهدف؟» ينطق الاتجاه والمسافة.")),
+            "لليسار. زر أين الهدف؟ ينطق الاتجاه والمسافة.")),
             0, wx.ALL, 6)
 
         srow = wx.BoxSizer(wx.HORIZONTAL)
@@ -139,7 +139,7 @@ class SpatialMazeDialog(AccessibleDialog):
         else:
             self._time_left = 0
         self._new_game()
-        wx.CallAfter(self.pad.SetFocus)
+        self.call_after(self.pad.SetFocus)
 
     def _on_tick(self, evt):
         if not self._active:
@@ -157,7 +157,7 @@ class SpatialMazeDialog(AccessibleDialog):
         best = self._save_record(self._cleared)
         extra = " رقم قياسي جديد!" if best else ""
         self._say(f"انتهى الوقت! اجتزت {self._cleared} متاهة.{extra} "
-                  f"اضغط «ابدأ» لمحاولة أخرى.")
+                  f"اضغط ابدأ لمحاولة أخرى.")
 
     def _record_key(self):
         diff = self.SIZES[self.choice_index(self.sizeChoice)][1]
@@ -198,7 +198,7 @@ class SpatialMazeDialog(AccessibleDialog):
         self._say(f"متاهة {n} في {n}. أنت في الزاوية، والهدف أمامك في الزاوية "
                   f"المقابلة. تحرّك بالأسهم واتبع نغمة الهدف. بالتوفيق!")
         self._beacon()
-        wx.CallAfter(self.pad.SetFocus)
+        self.call_after(self.pad.SetFocus)
 
     def _on_key(self, evt):
         code = evt.GetKeyCode()
@@ -217,7 +217,7 @@ class SpatialMazeDialog(AccessibleDialog):
 
     def _try_move(self, direction, dx, dy, word=""):
         if not self._active:
-            self._say("انتهت الجولة. اضغط «ابدأ» لجولة جديدة.")
+            self._say("انتهت الجولة. اضغط ابدأ لجولة جديدة.")
             return
         cell = self._maze[self._py][self._px]
         if direction in cell:
@@ -257,10 +257,10 @@ class SpatialMazeDialog(AccessibleDialog):
             self._say(f"أحسنت! اجتزت {self._cleared}. متاهة جديدة…")
             self.call_later(400, self._new_maze_if_active)
         else:
-            # single maze finished: the round is over until «ابدأ» is pressed
+            # single maze finished: the round is over until ابدأ is pressed
             self._active = False
             self._say(f"وصلت إلى الهدف! أنهيت المتاهة في {self._steps} خطوة. "
-                      f"أحسنت! «ابدأ» للعب مرة أخرى.")
+                      f"أحسنت! ابدأ للعب مرة أخرى.")
 
     def _new_maze_if_active(self):
         """Serve the next maze only if the timed round is still running — the
@@ -288,6 +288,6 @@ class SpatialMazeDialog(AccessibleDialog):
     def instructions(self):
         return ("المتاهة الصوتية: تحرّك بالأسهم الأربعة لتصل إلى الهدف. نغمة الهدف تُسمع "
                 "من جهته: يمين أو يسار حسب موضعها بين الأذنين، وأعلى صوتاً كلما اقتربت. "
-                "عند الاصطدام بجدار تسمع صوتاً منخفضاً وكلمة «جدار». زر «أين الهدف؟» أو "
+                "عند الاصطدام بجدار تسمع صوتاً منخفضاً وكلمة جدار. زر أين الهدف؟ أو "
                 "حرف B ينطق الاتجاه والمسافة، فالمتاهة قابلة للّعب بالسمع أو بالكلام. "
                 "كل متاهة لها حلّ مضمون. Escape للإغلاق.")

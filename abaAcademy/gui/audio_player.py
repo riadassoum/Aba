@@ -3,18 +3,12 @@
 abaAcademy.gui.audio_player
 ===========================
 
-The add-on's own in-process audio player. No external program is ever launched,
-and — importantly — it does **not** depend on ``wx.media`` (absent on some the screen reader
-Python builds) or on the screen reader's ``nvwave`` (which faulted with an access violation
-on some builds).
+The academy's in-process audio player. No external program is launched.
 
-Primary engine: the **bundled miniaudio** library (in ``abaAcademy/lib``), which
-both decodes the MP3 and plays it through its own low-level output device
-(WASAPI on Windows). This is completely self-contained, so it works even when
-wx.media is missing.
-
-Fallbacks, only if miniaudio can't be used: wx.media, then nvwave (nvwave stays
-off by default because of the crash risk). Everything is lazy and guarded.
+Primary engine: miniaudio (installed with the application), which decodes MP3
+and plays it through its own output device (WASAPI on Windows). If miniaudio is
+unavailable it falls back to wx.media. Everything is lazy and guarded so a
+missing backend never stops the screen that wanted to play sound.
 """
 
 from __future__ import annotations

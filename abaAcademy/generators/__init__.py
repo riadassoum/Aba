@@ -178,8 +178,8 @@ def _edit_distance(a: str, b: str) -> int:
 def word_similarity(a: str, b: str) -> float:
     """A 0..1 look/sound similarity for single words, used to pick language
     distractors that resemble the answer — words that look or sound alike and
-    are therefore easy to confuse (e.g. English «desert»/«dessert», «through»/
-    «thorough», or French «poisson»/«poison»). Based on edit distance plus
+    are therefore easy to confuse (e.g. English desert/dessert, through/
+    thorough, or French poisson/poison). Based on edit distance plus
     shared prefix/suffix and equal length, so close spellings rank highest."""
     a, b = (a or "").strip().lower(), (b or "").strip().lower()
     if not a or not b or a == b:
@@ -207,17 +207,17 @@ def _similarity(a: str, b: str) -> float:
     distractors so the ones most easily confused with the answer are preferred.
 
     It rewards options that share the answer's *shape*: the same leading word
-    (e.g. a currency/title word like «الدينار» / «الريال»), overlapping words,
+    (e.g. a currency/title word like الدينار / الريال), overlapping words,
     a shared prefix, and a similar length. This is what turns a bland option set
-    into a genuine trap — for «الجنيه السوداني» the close lures are «الدينار
-    السوداني», «الريال السوداني», «الليرة السودانية» rather than an obviously
+    into a genuine trap — for الجنيه السوداني the close lures are الدينار
+    السوداني, الريال السوداني, الليرة السودانية rather than an obviously
     unrelated word.
     """
     if not a or not b or a == b:
         return 0.0
     wa, wb = a.split(), b.split()
     score = 0.0
-    # shared whole words (e.g. the country/qualifier word «السوداني»)
+    # shared whole words (e.g. the country/qualifier word السوداني)
     common = set(wa) & set(wb)
     if common:
         score += 0.5 * len(common) / max(len(wa), len(wb))
@@ -230,7 +230,7 @@ def _similarity(a: str, b: str) -> float:
     # same last word (shared qualifier / nationality)
     if wa and wb and wa[-1] == wb[-1]:
         score += 0.2
-    # last words that share a long stem (e.g. «السوداني» vs «السودانية») — the
+    # last words that share a long stem (e.g. السوداني vs السودانية) — the
     # same nationality in a different grammatical form is still a strong lure
     elif wa and wb and len(wa[-1]) >= 4 and len(wb[-1]) >= 4:
         la, lb = wa[-1], wb[-1]
@@ -312,3 +312,4 @@ def load_builtin_generators() -> None:
     from . import math  # noqa: F401
     from . import braille  # noqa: F401
     from . import knowledge  # noqa: F401
+    from . import phrases  # noqa: F401

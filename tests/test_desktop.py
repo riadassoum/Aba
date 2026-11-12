@@ -133,6 +133,28 @@ class TestExtras(unittest.TestCase):
         self.assertIsInstance(extras.AudioRecorder().available, bool)
 
 
+class TestProfilesCLI(unittest.TestCase):
+    def test_profiles_listing_and_selection(self):
+        import io
+        import contextlib
+        from abaDesktop import profiles, extras as ex
+        from unittest import mock
+        d = tempfile.mkdtemp()
+        p = profiles.create(d, "سارة")
+        with mock.patch("abaDesktop.paths.user_data_dir", return_value=d):
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                self.assertEqual(ex.run_cli(["--profiles"]), 0)
+            self.assertIn("سارة", out.getvalue())
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(ex.run_cli(["--profile", "مجهول", "--stats"]), 2)
+            target = os.path.join(d, "weekly.html")
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(ex.run_cli(["--profile", "سارة", "--weekly", target]), 0)
+            self.assertTrue(os.path.exists(target))
+            self.assertTrue(os.path.isdir(profiles.profile_dir(d, p.id)))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
 

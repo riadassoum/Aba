@@ -16,8 +16,11 @@ a single learner running their own code on their own machine:
 * a curated set of safe builtins is exposed, and obviously dangerous names
   (``open``, ``eval``, ``exec``, ``__import__``, ``input`` blocking, etc.) are
   removed from the default namespace;
-* a small allow-list of safe modules (``math``, ``random``, ``statistics``,
-  ``datetime``, ``string``) can be imported; anything else is refused with an
+* a small allow-list of pure-computation modules (``math``, ``random``,
+  ``statistics``, ``datetime``, ``string``, ``re``, ``itertools``,
+  ``collections``, ``functools``, ``heapq``, ``bisect``, ``fractions``,
+  ``decimal``, ``operator``, ``copy``, ``textwrap``, ``unicodedata``) can be
+  imported; anything else is refused with an
   Arabic message;
 * execution runs on a worker thread with a wall-clock timeout so an infinite
   loop can't hang the screen reader;
@@ -39,7 +42,9 @@ from .ast_diagnostics import explain_syntax, explain_traceback
 
 
 # modules a learner may import for exercises
-_ALLOWED_MODULES = {"math", "random", "statistics", "datetime", "string", "re"}
+_ALLOWED_MODULES = {"math", "random", "statistics", "datetime", "string", "re", "itertools", "collections",
+                    "functools", "heapq", "bisect", "fractions", "decimal", "operator", "copy", "textwrap",
+                    "unicodedata"}
 
 # builtins we deliberately keep (safe, useful for teaching)
 _SAFE_BUILTIN_NAMES = [
@@ -49,7 +54,9 @@ _SAFE_BUILTIN_NAMES = [
     "reversed", "round", "set", "slice", "sorted", "str", "sum", "tuple", "type",
     "zip", "bin", "hex", "oct", "hash", "id", "True", "False", "None",
     "ValueError", "TypeError", "IndexError", "KeyError", "ZeroDivisionError",
-    "StopIteration", "Exception",
+    "StopIteration", "Exception", "next", "iter", "callable", "super", "object", "property",
+    "staticmethod", "classmethod", "hasattr", "NotImplementedError", "AttributeError",
+    "RuntimeError", "AssertionError", "ArithmeticError", "OverflowError", "LookupError",
 ]
 
 
@@ -57,7 +64,7 @@ def _safe_import(name, globals=None, locals=None, fromlist=(), level=0):
     root = name.split(".")[0]
     if root not in _ALLOWED_MODULES:
         raise ImportError(
-            f"استيراد الوحدة «{name}» غير مسموح في المختبر. "
+            f"استيراد الوحدة {name} غير مسموح في المختبر. "
             f"المسموح: {'، '.join(sorted(_ALLOWED_MODULES))}.")
     return builtins.__import__(name, globals, locals, fromlist, level)
 

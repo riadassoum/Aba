@@ -30,7 +30,7 @@ _ENTITIES = [
 class TestCapitalDistractors(unittest.TestCase):
     def test_no_frankenstein_place_names(self):
         # The bug produced hybrids by swapping the first word of a place name:
-        # «أبو ظبي» -> «إسلام ظبي», «أديس ظبي». Such a hybrid shares its TAIL with
+        # أبو ظبي -> إسلام ظبي, أديس ظبي. Such a hybrid shares its TAIL with
         # the real capital but has a different, real HEAD from another capital.
         # Assert no option is exactly that kind of manufactured hybrid.
         heads, tails = set(), set()
@@ -69,7 +69,7 @@ class TestCapitalDistractors(unittest.TestCase):
                 if q.qtype != QuestionType.MCQ or "العملة" not in q.prompt:
                     continue
                 if "السعودية" in q.prompt:
-                    # distractors should keep «السعودي» and swap the type word
+                    # distractors should keep السعودي and swap the type word
                     others = [o for i, o in enumerate(q.options) if i != q.correct]
                     if any(o.endswith("السعودي") for o in others):
                         saw_trick = True

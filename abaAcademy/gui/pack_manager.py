@@ -63,7 +63,7 @@ class PackManagerDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(panel.GetChildren()[-1])
-        wx.CallAfter(self._say, "اختر «استيراد حزمة» لفتح ملف، أو «تصدير دورة» لمشاركة دورة.")
+        self.call_after(self._say, "اختر استيراد حزمة لفتح ملف، أو تصدير دورة لمشاركة دورة.")
 
     # -- import -----------------------------------------------------------
     def _choose_import(self):
@@ -81,8 +81,8 @@ class PackManagerDialog(AccessibleDialog):
         self._pending = (reader, path)
         self.confirmBtn.Enable()
         self.overwriteBtn.Enable()
-        self._say(reader.summary() + " اضغط «تأكيد التثبيت» للمتابعة، "
-                  "أو «تثبيت مع الاستبدال» إذا كانت موجودة وتريد تحديثها.")
+        self._say(reader.summary() + " اضغط تأكيد التثبيت للمتابعة، "
+                  "أو تثبيت مع الاستبدال إذا كانت موجودة وتريد تحديثها.")
         self.confirmBtn.SetFocus()
 
     def _do_install(self, overwrite):
@@ -125,7 +125,7 @@ class PackManagerDialog(AccessibleDialog):
         except Exception as exc:
             self._say(f"تعذّر التصدير: {exc}")
             return
-        self._say(f"تم تصدير «{course['title']}» إلى الملف. يمكنك الآن مشاركته.")
+        self._say(f"تم تصدير {course['title']} إلى الملف. يمكنك الآن مشاركته.")
 
     def _installed_courses(self):
         """Courses that live in the user data dir (teacher-authored / imported),
@@ -171,7 +171,7 @@ class PackManagerDialog(AccessibleDialog):
         self.announce(text)
 
     def instructions(self):
-        return ("حزم الدورات: لاستيراد دورة شاركها معلّم، اختر «استيراد حزمة» وحدّد ملف "
-                "abapack، فتُسمع وصفاً لمحتواه ثم تضغط «تأكيد التثبيت». لن يُستبدل أي محتوى "
-                "موجود إلا إذا اخترت «تثبيت مع الاستبدال». لتصدير دورة ومشاركتها، اختر "
-                "«تصدير دورة» ثم اختر الدورة ومكان الحفظ. Escape للإغلاق.")
+        return ("حزم الدورات: لاستيراد دورة شاركها معلّم، اختر استيراد حزمة وحدّد ملف "
+                "abapack، فتُسمع وصفاً لمحتواه ثم تضغط تأكيد التثبيت. لن يُستبدل أي محتوى "
+                "موجود إلا إذا اخترت تثبيت مع الاستبدال. لتصدير دورة ومشاركتها، اختر "
+                "تصدير دورة ثم اختر الدورة ومكان الحفظ. Escape للإغلاق.")

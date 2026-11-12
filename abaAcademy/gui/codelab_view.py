@@ -12,7 +12,10 @@ English traceback.
 Two modes:
 * **تدريب حر** — free coding: write anything, run it, hear output or the Arabic
   error.
-* **التحدّيات** — pick a challenge, read the task, submit, and get checked.
+* **التحدّيات** — pick a track and a challenge, read the task, submit, and get
+  checked. 150 challenges in ten tracks: the original beginner set, original
+  tracks on loops, functions, Arabic text and classes, and four tracks adapted
+  into Arabic from Exercism's problem specifications (MIT).
 """
 
 from __future__ import annotations
@@ -24,7 +27,7 @@ except Exception:
 
 from .accessible import AccessibleDialog
 from ..codelab.sandbox import run_code
-from ..codelab.challenges import CHALLENGES, check_solution
+from ..codelab.challenges import check_solution, tracks as challenge_tracks
 
 
 class CodeLabDialog(AccessibleDialog):
@@ -48,14 +51,22 @@ class CodeLabDialog(AccessibleDialog):
         self.modeChoice.SetSelection(0)
         self.bind_choice(self.modeChoice, lambda e: self._on_mode())
         mrow.Add(self.modeChoice, 0, wx.RIGHT, 12)
-        self.challengeChoice = wx.Choice(
-            panel, choices=[f"{i+1}. {c.title}" for i, c in enumerate(CHALLENGES)])
-        self.challengeChoice.SetSelection(0)
+        self._tracks = challenge_tracks()
+        self.trackChoice = wx.Choice(panel, choices=[self._track_label(i) for i in range(len(self._tracks))])
+        self.trackChoice.SetName("المسار")
+        self.trackChoice.SetSelection(0)
+        self.trackChoice.Disable()
+        self.bind_choice(self.trackChoice, lambda e: self._on_track())
+        mrow.Add(wx.StaticText(panel, label="المسار:"), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 4)
+        mrow.Add(self.trackChoice, 0, wx.RIGHT, 12)
+        self.challengeChoice = wx.Choice(panel, choices=[])
+        self.challengeChoice.SetName("التحدّي")
         self.challengeChoice.Disable()
         self.bind_choice(self.challengeChoice, lambda e: self._load_challenge())
         mrow.Add(wx.StaticText(panel, label="التحدّي:"), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 4)
-        mrow.Add(self.challengeChoice, 0)
-        s.Add(mrow, 0, wx.ALL, 6)
+        mrow.Add(self.challengeChoice, 1)
+        s.Add(mrow, 0, wx.EXPAND | wx.ALL, 6)
+        self._fill_challenges()
 
         s.Add(wx.StaticText(panel, label="الكود:"), 0, wx.LEFT | wx.TOP, 6)
         self.editor = wx.TextCtrl(
@@ -82,6 +93,9 @@ class CodeLabDialog(AccessibleDialog):
         row.Add(self.submitBtn, 0, wx.ALL, 3)
         row.Add(self.button(panel, "لمّح", lambda e: self._hint()), 0, wx.ALL, 3)
         row.Add(self.button(panel, "اقرأ المهمة", lambda e: self._read_task()), 0, wx.ALL, 3)
+        self.nextBtn = self.button(panel, "التحدّي التالي", lambda e: self._next_challenge())
+        self.nextBtn.Disable()
+        row.Add(self.nextBtn, 0, wx.ALL, 3)
         row.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()), 0, wx.ALL, 3)
         s.Add(row, 0, wx.ALIGN_RIGHT)
 
@@ -89,10 +103,54 @@ class CodeLabDialog(AccessibleDialog):
         self.set_first_control(self.editor)
 
     # -- modes ------------------------------------------------------------
+    def _done(self, cid):
+        try:
+            return self.academy.store.get_setting(f"codelab_{cid}", "") == "done"
+        except Exception:
+            return False
+
+    def _track_label(self, i):
+        tid, title, items = self._tracks[i]
+        done = sum(1 for c in items if self._done(c.cid))
+        return f"{title} ({done} من {len(items)})"
+
+    def _items(self):
+        i = self.trackChoice.GetSelection()
+        return self._tracks[i][2] if 0 <= i < len(self._tracks) else []
+
+    def _fill_challenges(self, keep=0):
+        items = self._items()
+        self.challengeChoice.Set([f"{k + 1}. {c.title}" + (" (منجز)" if self._done(c.cid) else "")
+                                  for k, c in enumerate(items)])
+        if items:
+            self.challengeChoice.SetSelection(min(keep, len(items) - 1))
+
+    def _on_track(self):
+        items = self._items()
+        first_open = next((k for k, c in enumerate(items) if not self._done(c.cid)), 0)
+        self._fill_challenges(first_open)
+        self._load_challenge()
+
+    def _next_challenge(self):
+        i = self.challengeChoice.GetSelection()
+        items = self._items()
+        if i + 1 < len(items):
+            self.challengeChoice.SetSelection(i + 1)
+            self._load_challenge()
+        else:
+            t = self.trackChoice.GetSelection()
+            if t + 1 < len(self._tracks):
+                self.trackChoice.SetSelection(t + 1)
+                self._on_track()
+            else:
+                self._say("أنهيت آخر تحدٍّ في آخر مسار. أحسنت!")
+
     def _on_mode(self):
         challenges = self.modeChoice.GetSelection() == 1
+        self.trackChoice.Enable(challenges)
         self.challengeChoice.Enable(challenges)
         self.submitBtn.Enable(challenges)
+        self.nextBtn.Enable(challenges)
         if challenges:
             self._load_challenge()
         else:
@@ -103,7 +161,10 @@ class CodeLabDialog(AccessibleDialog):
         i = self.challengeChoice.GetSelection()
         if i < 0:
             return
-        self._challenge = CHALLENGES[i]
+        items = self._items()
+        if i >= len(items):
+            return
+        self._challenge = items[i]
         if self._challenge.starter:
             self.editor.SetValue(self._challenge.starter)
         self._read_task()
@@ -142,14 +203,20 @@ class CodeLabDialog(AccessibleDialog):
             return
         source = self.editor.GetValue()
         passed, msg = check_solution(self._challenge, source)
-        self._say(msg)
-        if passed:
+        if not passed:
+            self._say(msg)
+        else:
             # record progress in user data
             try:
                 self.academy.store.set_setting(
                     f"codelab_{self._challenge.cid}", "done")
             except Exception:
                 pass
+            i = self.challengeChoice.GetSelection()
+            t = self.trackChoice.GetSelection()
+            self.trackChoice.SetString(t, self._track_label(t))
+            self._fill_challenges(i)
+            self._say(msg + " اضغط التحدّي التالي للمتابعة.")
 
     def _hint(self):
         if self._challenge and self._challenge.hint:
@@ -163,6 +230,6 @@ class CodeLabDialog(AccessibleDialog):
 
     def instructions(self):
         return ("مختبر البرمجة: اكتب كود بايثون في المحرّر وشغّله بـ Ctrl+Enter لتسمع الناتج. "
-                "في نمط التحدّيات، اختر تحدّياً، اقرأ المهمة، اكتب الحل، ثم «تحقّق من الحل» "
-                "لتُختبر إجابتك آلياً. الأخطاء تُشرح بالعربية مع رقم السطر. «لمّح» يعطيك "
+                "في نمط التحدّيات، اختر مسارًا ثم تحدّيًا (١٥٠ تحدّيًا في عشرة مسارات)، اقرأ المهمة، اكتب الحل، ثم تحقّق من الحل "
+                "لتُختبر إجابتك آلياً. الأخطاء تُشرح بالعربية مع رقم السطر. لمّح يعطيك "
                 "تلميحاً. التشغيل للتعلّم على جهازك وليس حاجزاً أمنياً. Escape للإغلاق.")

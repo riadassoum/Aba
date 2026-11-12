@@ -98,10 +98,11 @@ def _install_hooks():
                 "".join(traceback.format_exception(exc_type, exc, tb)))
         except Exception:
             pass
-        try:
-            _show_error_dialog(exc_type, exc)
-        except Exception:
-            pass
+        if not _is_benign(exc_type, exc):
+            try:
+                _show_error_dialog(exc_type, exc)
+            except Exception:
+                pass
         if prev_hook:
             prev_hook(exc_type, exc, tb)
 
@@ -121,12 +122,33 @@ def _install_hooks():
         threading.excepthook = thread_hook
 
 
+def _is_benign(exc_type, exc):
+    """A late callback reaching a window the learner already closed.
+
+    wx raises ``RuntimeError: wrapped C/C++ object ... has been deleted`` in
+    that case. Nothing is lost, so it is logged but never put in front of the
+    learner as an error box."""
+    try:
+        return (issubclass(exc_type, RuntimeError)
+                and "has been deleted" in str(exc))
+    except Exception:
+        return False
+
+
+# Repeated identical errors (e.g. from a timer) open one box, not a cascade.
+_shown_errors = set()
+
+
 def _show_error_dialog(exc_type, exc):
     """Tell the learner where the log is, in Arabic, rather than failing mutely."""
     try:
         import wx
         if not wx.GetApp():
             return
+        sig = (exc_type.__name__, str(exc)[:200])
+        if sig in _shown_errors:
+            return
+        _shown_errors.add(sig)
         msg = (f"حدث خطأ غير متوقّع:\n{exc_type.__name__}: {exc}\n\n"
                f"سُجّلت التفاصيل في:\n{log_path()}\n\n"
                f"يمكنك إرسال هذا الملفّ للمطوّر لتشخيص المشكلة.")

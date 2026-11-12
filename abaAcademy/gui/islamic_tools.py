@@ -112,17 +112,17 @@ class AsmaAlHusnaView(AccessibleDialog):
         try:
             added = 0
             for n in self._names:
-                front = f"ما معنى اسم الله «{n['name']}»؟"
+                front = f"ما معنى اسم الله {n['name']}؟"
                 back = n.get("meaning_ar", "") or n.get("translit", "")
                 if back:
                     self.academy.flashcards.add(front, back, deck="أسماء الله الحسنى")
                     added += 1
-            self.announce(f"أُضيفت {added} بطاقة في مجموعة «أسماء الله الحسنى».")
+            self.announce(f"أُضيفت {added} بطاقة في مجموعة أسماء الله الحسنى.")
         except Exception:
             self.announce("تعذّرت الإضافة.")
 
     def instructions(self) -> str:
-        return ("أسماء الله الحسنى ومعانيها، تتنقّل بينها بالأسهم. زر «أضِفها كبطاقات» "
+        return ("أسماء الله الحسنى ومعانيها، تتنقّل بينها بالأسهم. زر أضِفها كبطاقات "
                 "ينشئ مجموعة بطاقات لحفظها بالمراجعة الذكية. Escape للإغلاق.")
 
 
@@ -190,9 +190,9 @@ class PrayerTimesView(AccessibleDialog):
                 v = t.get(key, "").split(" ")[0]
                 lines.append(f"{ar}: {v}")
             body = "\n".join(lines)
-            wx.CallAfter(self._show, body)
+            self.call_after(self._show, body)
         except Exception:
-            wx.CallAfter(self.announce, "تعذّر جلب المواقيت. تأكّد من الاتصال ومن اسم المدينة.")
+            self.call_after(self.announce, "تعذّر جلب المواقيت. تأكّد من الاتصال ومن اسم المدينة.")
 
     def _show(self, body):
         self.result.SetValue(body)
@@ -201,7 +201,7 @@ class PrayerTimesView(AccessibleDialog):
         self.announce(body.replace("\n", "؛ "))
 
     def instructions(self) -> str:
-        return ("أدخل المدينة والدولة ثم «عرض المواقيت» لجلب أوقات الصلاة الخمس والتاريخ "
+        return ("أدخل المدينة والدولة ثم عرض المواقيت لجلب أوقات الصلاة الخمس والتاريخ "
                 "الهجري. يتطلّب اتصالاً بالإنترنت. Escape للإغلاق.")
 
 
@@ -270,7 +270,7 @@ class AthkarView(AccessibleDialog):
             if a["name"] not in [n["name"] for n in names]:
                 names.append({"name": a["name"], "count": 0})
                 store.set_setting("tasbih_entries", json.dumps(names, ensure_ascii=False))
-                self.announce(f"أُضيف «{a['name']}» إلى المسبحة.")
+                self.announce(f"أُضيف {a['name']} إلى المسبحة.")
             else:
                 self.announce("موجود في المسبحة بالفعل.")
         except Exception:
@@ -278,7 +278,7 @@ class AthkarView(AccessibleDialog):
 
     def instructions(self) -> str:
         return ("قائمة الأذكار: تنقّل بالأسهم لسماع كل ذكر، ونصّه يظهر في الأسفل. "
-                "زر «أضِفه إلى المسبحة» لعدّه. Escape للإغلاق.")
+                "زر أضِفه إلى المسبحة لعدّه. Escape للإغلاق.")
 
 
 class TasbihView(AccessibleDialog):
@@ -378,7 +378,7 @@ class TasbihView(AccessibleDialog):
                 self._entries.append({"name": name, "count": 0})
                 self._save()
                 self._refresh(keep=len(self._entries) - 1)
-                self.announce(f"أُضيف «{name}».")
+                self.announce(f"أُضيف {name}.")
         dlg.Destroy()
 
     def _on_key(self, evt):
@@ -411,5 +411,5 @@ class TasbihView(AccessibleDialog):
 
     def instructions(self) -> str:
         return ("المسبحة: اختر ذكراً واضغط مسافة أو إنتر لزيادة العدّ، ويُنطق العدد. "
-                "«تصفير» لإعادة العدّاد، و«إضافة ذكر» لذكر جديد. تُحفظ الأعداد تلقائياً. "
+                "تصفير لإعادة العدّاد، وإضافة ذكر لذكر جديد. تُحفظ الأعداد تلقائياً. "
                 "Escape للإغلاق.")

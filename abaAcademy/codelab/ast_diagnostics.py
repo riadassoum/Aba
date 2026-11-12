@@ -7,8 +7,8 @@ Translate Python errors into plain Arabic for a beginning blind programmer. When
 a learner's code fails, a raw English ``SyntaxError: invalid syntax`` on line 12
 is doubly opaque with a screen reader. This module turns the common beginner
 errors into clear Arabic guidance that says *what* went wrong, *where*, and *what
-to try* — e.g. a missing colon becomes «نسيت وضع النقطتين الرأسيتين (:) في نهاية
-السطر ١٢».
+to try* — e.g. a missing colon becomes نسيت وضع النقطتين الرأسيتين (:) في نهاية
+السطر ١٢.
 
 It works in two layers:
 
@@ -141,7 +141,7 @@ def explain_exception(exc_type, exc_value, line=None):
         if name == "NameError" and detail:
             m = re.search(r"name '([^']+)'", detail)
             if m:
-                text += f" الاسم غير المعرّف: «{m.group(1)}»."
+                text += f" الاسم غير المعرّف: {m.group(1)}."
         return text
     # unknown exception: give the type and message plainly
     return f"حدث خطأ من النوع {name}{where}: {detail}"

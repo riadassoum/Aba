@@ -80,7 +80,14 @@ class CommandBar:
         a modifier, the pending open is cancelled. This lets a lone Alt tap open
         the menu while Alt+Left/Right still navigate."""
         self._alt_pending = True
-        self.call_later(220, self._fire_alt_menu)
+        later = getattr(self.dialog, "call_later", None)
+        if later is not None:
+            later(220, self._fire_alt_menu)
+        else:
+            try:
+                wx.CallLater(220, self._fire_alt_menu)
+            except Exception:
+                self._alt_pending = False
 
     def _fire_alt_menu(self):
         if getattr(self, "_alt_pending", False) and not self._alt_used:

@@ -9,7 +9,9 @@ What is bundled, and why only these
 -----------------------------------
 ``vendor/`` holds **pure-Python** packages only — currently ``comtypes`` and
 ``pyttsx3``, which together give the application a voice on Windows (SAPI5)
-without the learner installing anything. Pure-Python packages are safe to ship
+without the learner installing anything, and the time-zone data (``tzdata``,
+trimmed to the cities of the prayer-times list) that Windows lacks, so
+prayer times follow daylight-saving changes. Pure-Python packages are safe to ship
 because they run on any interpreter and any platform.
 
 Compiled extensions are deliberately *not* vendored. A ``.pyd``/``.so`` is built

@@ -143,4 +143,4 @@ class SettingsView(AccessibleDialog):
 
     def instructions(self):
         return ("اضبط عدد أسئلة الجلسة، هدفك اليومي، وصرامة التشكيل والمتابعة ونطق التقدّم. "
-                "اضغط «حفظ». Escape للإغلاق.")
+                "اضغط حفظ. Escape للإغلاق.")

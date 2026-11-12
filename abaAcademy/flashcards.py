@@ -73,6 +73,24 @@ class FlashcardStore:
         self._save(cards)
         return card
 
+    def add_many(self, items) -> int:
+        """Add many (front, back, deck, hint) cards with a single save, so a
+        large imported deck doesn't rewrite the store once per card."""
+        cards = self._load()
+        now = time.time()
+        n = 0
+        for front, back, deck, hint in items:
+            front, back = str(front).strip(), str(back).strip()
+            if not front or not back:
+                continue
+            cards.append({"id": uuid.uuid4().hex[:12], "front": front, "back": back,
+                          "deck": (deck or "عام").strip(), "hint": (hint or "").strip(),
+                          "created": now})
+            n += 1
+        if n:
+            self._save(cards)
+        return n
+
     def update(self, card_id: str, **fields) -> bool:
         cards = self._load()
         for c in cards:

@@ -38,12 +38,8 @@ class HadithReader(AccessibleDialog):
         self._res = _res_dir()
         base = getattr(academy, "user_data_dir", None)
         if not base:
-            try:
-                import os as _os  # user paths come from the academy, not a screen reader
-                base = os.path.join(globalVars.appArgs.configPath, "abaAcademy")
-            except Exception:
-                import tempfile
-                base = tempfile.gettempdir()
+            import tempfile
+            base = tempfile.gettempdir()
         self._cache = os.path.join(base, "hadith")
         with open(os.path.join(self._res, "index.json"), encoding="utf-8") as f:
             self.index = json.load(f)
@@ -155,7 +151,7 @@ class HadithReader(AccessibleDialog):
         else:
             # Not downloaded: do NOT auto-download while browsing. Point the user
             # to the downloads window instead.
-            self.announce(f"«{entry['name']}» غير منزّلة. افتح «تنزيل مجموعات» لتنزيلها.")
+            self.announce(f"{entry['name']} غير منزّلة. افتح تنزيل مجموعات لتنزيلها.")
 
     def _refresh_collections(self, select_id=None):
         self._avail = self._available_collections()
@@ -204,10 +200,10 @@ class HadithReader(AccessibleDialog):
                 json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
             os.replace(tmp, os.path.join(self._cache, f"{entry['id']}.json"))
             beep.stop()
-            wx.CallAfter(self._apply_collection, os.path.join(self._cache, f"{entry['id']}.json"))
+            self.call_after(self._apply_collection, os.path.join(self._cache, f"{entry['id']}.json"))
         except Exception:
             beep.stop()
-            wx.CallAfter(self.announce, "تعذّر تنزيل المجموعة. تحقّق من الاتصال بالإنترنت.")
+            self.call_after(self.announce, "تعذّر تنزيل المجموعة. تحقّق من الاتصال بالإنترنت.")
 
     def _apply_collection(self, path):
         try:
@@ -332,7 +328,7 @@ class HadithReader(AccessibleDialog):
     def instructions(self) -> str:
         return ("اختر المجموعة (البخاري، مسلم، ...) ثم الكتاب (كتاب الإيمان، كتاب الصلاة، ...). "
                 "يُعرض كل كتاب وحده، كل حديث في فقرة مرقّمة، فتنقّل بأوامر الأسطر في the screen reader. "
-                "«الكتاب السابق/التالي» للتنقّل، ويمكنك البحث داخل الكتاب الحالي ونسخ الحديث. "
+                "الكتاب السابق/التالي للتنقّل، ويمكنك البحث داخل الكتاب الحالي ونسخ الحديث. "
                 "المجموعات الكبيرة تُنزَّل عند أول استخدام. Escape للإغلاق.")
 
 
@@ -392,7 +388,7 @@ class _HadithDownloads(AccessibleDialog):
     def _dl_worker(self, entry):
         # reuse the reader's downloader, then refresh this list
         self.reader._download_collection(entry)
-        wx.CallAfter(self._after)
+        self.call_after(self._after)
 
     def _after(self):
         self._reload()
@@ -409,7 +405,7 @@ class _HadithDownloads(AccessibleDialog):
         if _os.path.exists(cache):
             try:
                 _os.remove(cache)
-                self.announce(f"تم حذف «{e['name']}».")
+                self.announce(f"تم حذف {e['name']}.")
             except OSError:
                 self.announce("تعذّر الحذف.")
         else:
@@ -417,5 +413,5 @@ class _HadithDownloads(AccessibleDialog):
         self._reload()
 
     def instructions(self) -> str:
-        return ("اختر مجموعة ثم «تنزيل» لإضافتها، أو «حذف المنزّل» لإزالتها. المجموعات "
+        return ("اختر مجموعة ثم تنزيل لإضافتها، أو حذف المنزّل لإزالتها. المجموعات "
                 "المضمّنة متوفّرة دائماً. Escape للإغلاق.")

@@ -54,7 +54,7 @@ class DownloadProgressDialog(AccessibleDialog):
         self.status = wx.StaticText(panel, label="جارٍ التنزيل...")
         s.Add(self.status, 0, wx.ALL, 10)
         help_txt = ("مسافة: عدد المُنزَّل، 1: النسبة المئوية، 2: المتبقّي، "
-                    "3: السرعة. Escape أو «إلغاء» لإيقاف التنزيل.")
+                    "3: السرعة. Escape أو إلغاء لإيقاف التنزيل.")
         s.Add(wx.StaticText(panel, label=help_txt), 0, wx.ALL, 8)
         self.cancelBtn = self.button(panel, "إلغاء التنزيل", lambda e: self._do_cancel())
         s.Add(self.cancelBtn, 0, wx.ALIGN_RIGHT | wx.ALL, 6)
@@ -73,12 +73,12 @@ class DownloadProgressDialog(AccessibleDialog):
             self._worker(self._progress_cb, lambda: self._cancel)
         except Exception:
             pass
-        wx.CallAfter(self._on_finished)
+        self.call_after(self._on_finished)
 
     def _progress_cb(self, done, total, nbytes=0):
         self._done = done
         self._bytes = nbytes or self._bytes
-        wx.CallAfter(self._update_label)
+        self.call_after(self._update_label)
 
     def _update_label(self):
         pct = int(self._done * 100 / self._total)

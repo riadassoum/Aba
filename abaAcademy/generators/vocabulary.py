@@ -59,10 +59,10 @@ def gen_meaning(count: int, rng: random.Random, **params) -> List[Question]:
             continue
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"ما معنى «{w['word']}»؟",
+            prompt=f"ما معنى {w['word']}؟",
             correct=idx,
             options=options,
-            explanation=f"«{w['word']}» تعني «{correct}».",
+            explanation=f"{w['word']} تعني {correct}.",
             topic=f"vocab:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)),
         )
@@ -87,10 +87,10 @@ def gen_reverse(count: int, rng: random.Random, **params) -> List[Question]:
         dd.add(w["word"])
         q = Question(
             qtype=QuestionType.TYPING,
-            prompt=f"اكتب الكلمة التي تعني «{w['meaning']}»:",
+            prompt=f"اكتب الكلمة التي تعني {w['meaning']}:",
             correct=w["word"],
             accepted=list(w.get("accepted_spellings", [])),
-            explanation=f"الإجابة: «{w['word']}».",
+            explanation=f"الإجابة: {w['word']}.",
             topic=f"vocab:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)),
         )
@@ -144,11 +144,11 @@ def _relation_generator(rel_key: str, gen_id: str, prompt_tpl: str, explain_tpl:
 
 gen_synonym = _relation_generator(
     "synonyms", "vocab.synonym",
-    "اختر مرادفاً لكلمة «{word}»:", "من مرادفات «{word}»: «{answer}».")
+    "اختر مرادفاً لكلمة {word}:", "من مرادفات {word}: {answer}.")
 
 gen_antonym = _relation_generator(
     "antonyms", "vocab.antonym",
-    "اختر ضد كلمة «{word}»:", "ضد «{word}» هو «{answer}».")
+    "اختر ضد كلمة {word}:", "ضد {word} هو {answer}.")
 
 
 @register("vocab.spelling")
@@ -175,10 +175,10 @@ def gen_spelling(count: int, rng: random.Random, **params) -> List[Question]:
         rng.shuffle(options)
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"اختر الكتابة الإملائية الصحيحة للكلمة التي تعني «{w.get('meaning','')}»:",
+            prompt=f"اختر الكتابة الإملائية الصحيحة للكلمة التي تعني {w.get('meaning','')}:",
             correct=options.index(correct),
             options=options,
-            explanation=f"الكتابة الصحيحة هي «{correct}».",
+            explanation=f"الكتابة الصحيحة هي {correct}.",
             topic=f"vocab:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)) + 1,
         )

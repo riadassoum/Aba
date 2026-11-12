@@ -115,13 +115,13 @@ class MultiplayerQuizDialog(AccessibleDialog):
         self._role = "host"
         self._scores = {self._me(): 0}
         self._host = Host(port=DEFAULT_PORT,
-                          on_join=lambda n: wx.CallAfter(self._on_join, n),
-                          on_answer=lambda n, i, ms: wx.CallAfter(self._on_answer, n, i, ms),
-                          on_error=lambda m: wx.CallAfter(self._say, m))
+                          on_join=lambda n: self.call_after(self._on_join, n),
+                          on_answer=lambda n, i, ms: self.call_after(self._on_answer, n, i, ms),
+                          on_error=lambda m: self.call_after(self._say, m))
         self._host.start()
         ip = local_ip()
         self._say(f"أنشأت غرفة. اطلب من زملائك الانضمام إلى العنوان {ip} "
-                  f"منفذ {DEFAULT_PORT}. عندما يجتمع اللاعبون اضغط «ابدأ المسابقة».")
+                  f"منفذ {DEFAULT_PORT}. عندما يجتمع اللاعبون اضغط ابدأ المسابقة.")
 
     def _on_join(self, name):
         self._scores.setdefault(name, 0)
@@ -138,11 +138,11 @@ class MultiplayerQuizDialog(AccessibleDialog):
             return
         self._role = "client"
         self._client = Client(ip, DEFAULT_PORT, name=self._me(),
-                              on_question=lambda m: wx.CallAfter(self._show_question, m),
-                              on_reveal=lambda m: wx.CallAfter(self._on_reveal, m),
-                              on_scores=lambda sc: wx.CallAfter(self._update_scores, sc),
-                              on_gameover=lambda r: wx.CallAfter(self._on_gameover, r),
-                              on_error=lambda m: wx.CallAfter(self._say, m))
+                              on_question=lambda m: self.call_after(self._show_question, m),
+                              on_reveal=lambda m: self.call_after(self._on_reveal, m),
+                              on_scores=lambda sc: self.call_after(self._update_scores, sc),
+                              on_gameover=lambda r: self.call_after(self._on_gameover, r),
+                              on_error=lambda m: self.call_after(self._say, m))
         self._client.connect()
         self._say(f"محاولة الانضمام إلى {ip}…")
 
@@ -275,8 +275,8 @@ class MultiplayerQuizDialog(AccessibleDialog):
         self.announce(text)
 
     def instructions(self):
-        return ("مسابقة عبر الشبكة المحلية: اكتب اسمك، ثم إمّا «أنشئ غرفة» لتستضيف "
-                "(ويظهر لك عنوان تعطيه لزملائك)، أو اكتب عنوان غرفة و«انضمّ». المضيف يضغط "
-                "«ابدأ المسابقة»، فتصل الأسئلة للجميع معاً؛ اختر بالأسهم واضغط Enter بسرعة، "
+        return ("مسابقة عبر الشبكة المحلية: اكتب اسمك، ثم إمّا أنشئ غرفة لتستضيف "
+                "(ويظهر لك عنوان تعطيه لزملائك)، أو اكتب عنوان غرفة وانضمّ. المضيف يضغط "
+                "ابدأ المسابقة، فتصل الأسئلة للجميع معاً؛ اختر بالأسهم واضغط Enter بسرعة، "
                 "فالأسرع ينال نقاطاً أكثر. ملاحظة: لم يُختبر الاتصال بين جهازين حقيقيين بعد. "
                 "Escape للإغلاق.")

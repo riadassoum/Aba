@@ -1,0 +1,1496 @@
+{
+ "source": "Original challenges written for ABA.",
+ "tracks": [
+  {
+   "id": "first_steps",
+   "title": "الخطوات الأولى: المتغيّرات والطباعة",
+   "challenges": [
+    {
+     "cid": "o_o01",
+     "title": "اسمك",
+     "prompt": "اطبع جملة: أنا أتعلّم بايثون",
+     "hint": "print(\"أنا أتعلّم بايثون\")",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "أنا أتعلّم بايثون"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o02",
+     "title": "سطران",
+     "prompt": "اطبع السلام عليكم في سطر ومرحبًا في السطر الذي يليه.",
+     "hint": "استعمل print مرّتين.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "السلام عليكم\nمرحبًا"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o03",
+     "title": "الضرب",
+     "prompt": "اطبع ناتج ضرب ١٢ في ١٢.",
+     "hint": "print(12 * 12)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "144"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o04",
+     "title": "القسمة الصحيحة والباقي",
+     "prompt": "اطبع ناتج القسمة الصحيحة لـ ١٧ على ٥، ثم في سطر آخر باقي القسمة.",
+     "hint": "استعمل // و %.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "3\n2"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o05",
+     "title": "متغيّران",
+     "prompt": "ضع ٧ في المتغيّر a و٣ في b، ثم اطبع مجموعهما وفرقهما وحاصل ضربهما، كل واحد في سطر.",
+     "hint": "print(a + b) ثم print(a - b) ثم print(a * b)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "10\n4\n21"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o06",
+     "title": "دمج النصوص",
+     "prompt": "ضع رياض في متغيّر name، ثم اطبع: مرحبًا يا رياض",
+     "hint": "print(\"مرحبًا يا \" + name)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "مرحبًا يا رياض"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o07",
+     "title": "f-string",
+     "prompt": "ضع ٢٠ في age واطبع: عمري 20 سنة (باستعمال f-string).",
+     "hint": "print(f\"عمري {age} سنة\")",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "عمري 20 سنة"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o08",
+     "title": "القوّة",
+     "prompt": "اطبع ٢ مرفوعًا للقوّة ١٠.",
+     "hint": "print(2 ** 10)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "1024"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o09",
+     "title": "طول النص",
+     "prompt": "اطبع عدد حروف الكلمة أكاديمية.",
+     "hint": "print(len(\"أكاديمية\"))",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "8"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o10",
+     "title": "التقريب",
+     "prompt": "اطبع ٢٢ مقسومًا على ٧ مقرّبًا إلى منزلتين عشريتين.",
+     "hint": "round(22 / 7, 2)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "3.14"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o11",
+     "title": "الشرط البسيط",
+     "prompt": "ضع ١٥ في x، واطبع كبير إذا كان أكبر من ١٠ وإلا صغير.",
+     "hint": "if x > 10: ... else: ...",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "كبير"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o12",
+     "title": "الشروط المتعدّدة",
+     "prompt": "ضع ٧٥ في mark. اطبع ممتاز إذا كانت ٩٠ فأكثر، وجيد جدًّا إذا كانت ٨٠ فأكثر، وجيد إذا كانت ٧٠ فأكثر، وإلا يحتاج إلى تحسين.",
+     "hint": "if / elif / else",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "جيد"
+     },
+     "topic": "first_steps",
+     "source": "aba"
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "title": "الحلقات والتكرار",
+   "challenges": [
+    {
+     "cid": "o_o13",
+     "title": "العدّ من ١ إلى ١٠",
+     "prompt": "اطبع الأعداد من ١ إلى ١٠، كل عدد في سطر.",
+     "hint": "for i in range(1, 11): print(i)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o14",
+     "title": "العدّ التنازلي",
+     "prompt": "اطبع الأعداد من ١٠ إلى ١ تنازليًّا، ثم انطلق!.",
+     "hint": "range(10, 0, -1)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "10\n9\n8\n7\n6\n5\n4\n3\n2\n1\nانطلق!"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o15",
+     "title": "الأعداد الزوجية",
+     "prompt": "اطبع الأعداد الزوجية من ٢ إلى ٢٠ في سطر واحد تفصلها مسافة.",
+     "hint": "print(*range(2, 21, 2))",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "2 4 6 8 10 12 14 16 18 20"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o16",
+     "title": "مجموع حتى ١٠٠",
+     "prompt": "اطبع مجموع الأعداد من ١ إلى ١٠٠ باستعمال حلقة.",
+     "hint": "total = 0 ثم أضف كل عدد.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "5050"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o17",
+     "title": "جدول الضرب",
+     "prompt": "اطبع جدول ضرب العدد ٧ من ١ إلى ١٠ بالشكل: 7 × 1 = 7",
+     "hint": "print(f\"7 × {i} = {7 * i}\")",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "7 × 1 = 7\n7 × 2 = 14\n7 × 3 = 21\n7 × 4 = 28\n7 × 5 = 35\n7 × 6 = 42\n7 × 7 = 49\n7 × 8 = 56\n7 × 9 = 63\n7 × 10 = 70"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o18",
+     "title": "المضروب",
+     "prompt": "اطبع مضروب العدد ١٠ (10!) باستعمال حلقة.",
+     "hint": "ابدأ بـ result = 1 واضرب.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "3628800"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o19",
+     "title": "مثلث النجوم",
+     "prompt": "اطبع مثلثًا من النجوم من ٥ أسطر: سطر فيه * ثم ** وهكذا حتى *****.",
+     "hint": "print(\"*\" * i)",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "*\n**\n***\n****\n*****"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o20",
+     "title": "while",
+     "prompt": "ابدأ بـ n = 1 وضاعفه ما دام أصغر من ١٠٠٠، واطبع كل قيمة قبل مضاعفتها.",
+     "hint": "while n < 1000:",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "1\n2\n4\n8\n16\n32\n64\n128\n256\n512"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o21",
+     "title": "فيبوناتشي",
+     "prompt": "اطبع أوّل ١٥ عددًا من متتالية فيبوناتشي (0، 1، 1، 2، 3…) في سطر واحد تفصلها مسافة.",
+     "hint": "a, b = b, a + b",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o22",
+     "title": "FizzBuzz",
+     "prompt": "اطبع الأعداد من ١ إلى ٣٠: بدل مضاعفات ٣ اطبع Fizz، وبدل مضاعفات ٥ اطبع Buzz، وبدل مضاعفاتهما معًا FizzBuzz.",
+     "hint": "ابدأ بشرط القسمة على ١٥.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n29\nFizzBuzz"
+     },
+     "topic": "loops",
+     "source": "aba"
+    },
+    {
+     "cid": "o_o23",
+     "title": "حلقة متداخلة",
+     "prompt": "اطبع جدول ضرب ٣×٣: ثلاثة أسطر، في كل سطر حواصل ضرب رقم السطر في ١ و٢ و٣ تفصلها مسافة.",
+     "hint": "حلقة داخل حلقة.",
+     "starter": "",
+     "check": {
+      "kind": "output",
+      "expect": "1 2 3\n2 4 6\n3 6 9"
+     },
+     "topic": "loops",
+     "source": "aba"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "title": "الدوالّ والقوائم",
+   "challenges": [
+    {
+     "cid": "o_f01",
+     "title": "دالة المربع",
+     "prompt": "اكتب دالة square(n) تُعيد مربع العدد.",
+     "hint": "return n * n",
+     "starter": "def square(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "square",
+      "cases": [
+       [
+        [
+         3
+        ],
+        9
+       ],
+       [
+        [
+         0
+        ],
+        0
+       ],
+       [
+        [
+         -4
+        ],
+        16
+       ],
+       [
+        [
+         12
+        ],
+        144
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f02",
+     "title": "الأكبر من ثلاثة",
+     "prompt": "اكتب دالة biggest(a, b, c) تُعيد أكبر الأعداد الثلاثة دون استعمال max.",
+     "hint": "قارن بـ if.",
+     "starter": "def biggest(a, b, c):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "biggest",
+      "cases": [
+       [
+        [
+         1,
+         2,
+         3
+        ],
+        3
+       ],
+       [
+        [
+         9,
+         4,
+         7
+        ],
+        9
+       ],
+       [
+        [
+         5,
+         5,
+         2
+        ],
+        5
+       ],
+       [
+        [
+         -1,
+         -8,
+         -3
+        ],
+        -1
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f03",
+     "title": "المتوسط",
+     "prompt": "اكتب دالة average(nums) تُعيد متوسط قائمة أعداد (مقرّبًا لمنزلتين).",
+     "hint": "round(sum(nums) / len(nums), 2)",
+     "starter": "def average(nums):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "average",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        2.0
+       ],
+       [
+        [
+         [
+          10,
+          20
+         ]
+        ],
+        15.0
+       ],
+       [
+        [
+         [
+          7
+         ]
+        ],
+        7.0
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          2,
+          4
+         ]
+        ],
+        2.25
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f04",
+     "title": "عدّ الموجب",
+     "prompt": "اكتب دالة count_positive(nums) تُعيد عدد الأعداد الموجبة في القائمة.",
+     "hint": "حلقة وعدّاد.",
+     "starter": "def count_positive(nums):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "count_positive",
+      "cases": [
+       [
+        [
+         [
+          1,
+          -2,
+          3
+         ]
+        ],
+        2
+       ],
+       [
+        [
+         []
+        ],
+        0
+       ],
+       [
+        [
+         [
+          -1,
+          -5
+         ]
+        ],
+        0
+       ],
+       [
+        [
+         [
+          0,
+          4,
+          9,
+          -1
+         ]
+        ],
+        2
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f05",
+     "title": "عكس القائمة",
+     "prompt": "اكتب دالة reverse_list(items) تُعيد قائمة جديدة بالعناصر معكوسة دون استعمال reversed أو [::-1].",
+     "hint": "ابنِ قائمة جديدة وأدرج في أوّلها، أو امشِ من الآخر.",
+     "starter": "def reverse_list(items):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "reverse_list",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        [
+         3,
+         2,
+         1
+        ]
+       ],
+       [
+        [
+         [
+          "a"
+         ]
+        ],
+        [
+         "a"
+        ]
+       ],
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          5,
+          4,
+          3,
+          2,
+          1
+         ]
+        ],
+        [
+         1,
+         2,
+         3,
+         4,
+         5
+        ]
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f06",
+     "title": "إزالة التكرار",
+     "prompt": "اكتب دالة unique(items) تُعيد العناصر دون تكرار مع الحفاظ على ترتيب أوّل ظهور.",
+     "hint": "قائمة جديدة ومجموعة seen.",
+     "starter": "def unique(items):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "unique",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2,
+          1,
+          3,
+          2
+         ]
+        ],
+        [
+         1,
+         2,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          "a",
+          "a"
+         ]
+        ],
+        [
+         "a"
+        ]
+       ],
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          3,
+          1
+         ]
+        ],
+        [
+         3,
+         1
+        ]
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f07",
+     "title": "الثاني الأكبر",
+     "prompt": "اكتب دالة second_largest(nums) تُعيد ثاني أكبر قيمة مختلفة في القائمة.",
+     "hint": "sorted(set(nums))[-2]",
+     "starter": "def second_largest(nums):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "second_largest",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        2
+       ],
+       [
+        [
+         [
+          5,
+          5,
+          4
+         ]
+        ],
+        4
+       ],
+       [
+        [
+         [
+          10,
+          20,
+          20,
+          30
+         ]
+        ],
+        20
+       ],
+       [
+        [
+         [
+          -1,
+          -2
+         ]
+        ],
+        -2
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f08",
+     "title": "دمج قائمتين مرتّبتين",
+     "prompt": "اكتب دالة merge(a, b) تدمج قائمتين مرتّبتين في قائمة مرتّبة واحدة دون استعمال sort أو sorted.",
+     "hint": "مؤشّران i وj.",
+     "starter": "def merge(a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "merge",
+      "cases": [
+       [
+        [
+         [
+          1,
+          3,
+          5
+         ],
+         [
+          2,
+          4
+         ]
+        ],
+        [
+         1,
+         2,
+         3,
+         4,
+         5
+        ]
+       ],
+       [
+        [
+         [],
+         [
+          1
+         ]
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          1
+         ],
+         [
+          1
+         ]
+        ],
+        [
+         1,
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         [
+          0,
+          10
+         ],
+         [
+          5,
+          6,
+          7
+         ]
+        ],
+        [
+         0,
+         5,
+         6,
+         7,
+         10
+        ]
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f09",
+     "title": "تجميع حسب الطول",
+     "prompt": "اكتب دالة group_by_length(words) تُعيد قاموسًا مفتاحه طول الكلمة وقيمته قائمة الكلمات بهذا الطول بترتيب ظهورها.",
+     "hint": "dict.setdefault(len(w), []).append(w)",
+     "starter": "def group_by_length(words):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "group_by_length",
+      "cases": [
+       [
+        [
+         [
+          "قلم",
+          "كتاب",
+          "باب",
+          "مدرسة"
+         ]
+        ],
+        {
+         "3": [
+          "قلم",
+          "باب"
+         ],
+         "4": [
+          "كتاب"
+         ],
+         "5": [
+          "مدرسة"
+         ]
+        }
+       ],
+       [
+        [
+         []
+        ],
+        {}
+       ],
+       [
+        [
+         [
+          "a",
+          "bb",
+          "c"
+         ]
+        ],
+        {
+         "1": [
+          "a",
+          "c"
+         ],
+         "2": [
+          "bb"
+         ]
+        }
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f10",
+     "title": "تكرار العناصر",
+     "prompt": "اكتب دالة frequencies(items) تُعيد قاموسًا بعدد مرّات كل عنصر.",
+     "hint": "out[x] = out.get(x, 0) + 1",
+     "starter": "def frequencies(items):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "frequencies",
+      "cases": [
+       [
+        [
+         [
+          1,
+          1,
+          2
+         ]
+        ],
+        {
+         "1": 2,
+         "2": 1
+        }
+       ],
+       [
+        [
+         [
+          "أ",
+          "ب",
+          "أ"
+         ]
+        ],
+        {
+         "أ": 2,
+         "ب": 1
+        }
+       ],
+       [
+        [
+         []
+        ],
+        {}
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f11",
+     "title": "العودية: المجموع",
+     "prompt": "اكتب دالة rec_sum(nums) تُعيد مجموع القائمة باستعمال العودية فقط (لا حلقات ولا sum).",
+     "hint": "rec_sum(nums) = nums[0] + rec_sum(nums[1:])",
+     "starter": "def rec_sum(nums):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rec_sum",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        6
+       ],
+       [
+        [
+         []
+        ],
+        0
+       ],
+       [
+        [
+         [
+          10
+         ]
+        ],
+        10
+       ],
+       [
+        [
+         [
+          -1,
+          1,
+          5
+         ]
+        ],
+        5
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f12",
+     "title": "العودية: القوّة",
+     "prompt": "اكتب دالة power(base, exp) تحسب base مرفوعًا لـ exp (عدد صحيح غير سالب) بالعودية دون **.",
+     "hint": "power(b, e) = b * power(b, e - 1)",
+     "starter": "def power(base, exp):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "power",
+      "cases": [
+       [
+        [
+         2,
+         10
+        ],
+        1024
+       ],
+       [
+        [
+         5,
+         0
+        ],
+        1
+       ],
+       [
+        [
+         3,
+         3
+        ],
+        27
+       ],
+       [
+        [
+         7,
+         1
+        ],
+        7
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f13",
+     "title": "الكلمة المتناظرة",
+     "prompt": "اكتب دالة is_palindrome(text) تُعيد True إذا قُرئ النص من الجهتين بالطريقة نفسها، مع تجاهل المسافات وحالة الحروف.",
+     "hint": "s = text.replace(' ', '').lower(); s == s[::-1]",
+     "starter": "def is_palindrome(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_palindrome",
+      "cases": [
+       [
+        [
+         "level"
+        ],
+        true
+       ],
+       [
+        [
+         "Never odd or even"
+        ],
+        true
+       ],
+       [
+        [
+         "hello"
+        ],
+        false
+       ],
+       [
+        [
+         ""
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    },
+    {
+     "cid": "o_f14",
+     "title": "مصفوفة الضرب",
+     "prompt": "اكتب دالة mat_mul(a, b) تضرب مصفوفتين (قوائم صفوف) وتُعيد الناتج.",
+     "hint": "c[i][j] = مجموع a[i][k] * b[k][j]",
+     "starter": "def mat_mul(a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "mat_mul",
+      "cases": [
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           3,
+           4
+          ]
+         ],
+         [
+          [
+           5,
+           6
+          ],
+          [
+           7,
+           8
+          ]
+         ]
+        ],
+        [
+         [
+          19,
+          22
+         ],
+         [
+          43,
+          50
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           1,
+           0
+          ],
+          [
+           0,
+           1
+          ]
+         ],
+         [
+          [
+           4,
+           5
+          ],
+          [
+           6,
+           7
+          ]
+         ]
+        ],
+        [
+         [
+          4,
+          5
+         ],
+         [
+          6,
+          7
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           2
+          ]
+         ],
+         [
+          [
+           3
+          ]
+         ]
+        ],
+        [
+         [
+          6
+         ]
+        ]
+       ]
+      ]
+     },
+     "topic": "functions",
+     "source": "aba"
+    }
+   ]
+  },
+  {
+   "id": "text",
+   "title": "النصوص العربية",
+   "challenges": [
+    {
+     "cid": "o_t01",
+     "title": "عدّ الكلمات العربية",
+     "prompt": "اكتب دالة word_count(text) تُعيد عدد الكلمات في نص (تفصلها مسافات).",
+     "hint": "len(text.split())",
+     "starter": "def word_count(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "word_count",
+      "cases": [
+       [
+        [
+         "بسم الله الرحمن الرحيم"
+        ],
+        4
+       ],
+       [
+        [
+         ""
+        ],
+        0
+       ],
+       [
+        [
+         "  كلمة  "
+        ],
+        1
+       ],
+       [
+        [
+         "العلم نور والجهل ظلام"
+        ],
+        4
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t02",
+     "title": "حذف التشكيل",
+     "prompt": "اكتب دالة strip_tashkeel(text) تحذف الحركات العربية (الفتحة والضمّة والكسرة والسكون والشدّة والتنوين، من U+064B إلى U+0652).",
+     "hint": "''.join(c for c in text if not '\\u064b' <= c <= '\\u0652')",
+     "starter": "def strip_tashkeel(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "strip_tashkeel",
+      "cases": [
+       [
+        [
+         "مَدْرَسَةٌ"
+        ],
+        "مدرسة"
+       ],
+       [
+        [
+         "كَتَبَ الطَّالِبُ"
+        ],
+        "كتب الطالب"
+       ],
+       [
+        [
+         "بلا تشكيل"
+        ],
+        "بلا تشكيل"
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t03",
+     "title": "توحيد الهمزات",
+     "prompt": "اكتب دالة normalize_alef(text) تحوّل أ وإ وآ إلى ا.",
+     "hint": "text.replace('أ', 'ا')…",
+     "starter": "def normalize_alef(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "normalize_alef",
+      "cases": [
+       [
+        [
+         "أحمد"
+        ],
+        "احمد"
+       ],
+       [
+        [
+         "إسلام"
+        ],
+        "اسلام"
+       ],
+       [
+        [
+         "آمن"
+        ],
+        "امن"
+       ],
+       [
+        [
+         "قرأ"
+        ],
+        "قرا"
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t04",
+     "title": "الأرقام الهندية",
+     "prompt": "اكتب دالة to_arabic_indic(text) تحوّل الأرقام 0-9 إلى ٠-٩.",
+     "hint": "str.maketrans('0123456789', '٠١٢٣٤٥٦٧٨٩')",
+     "starter": "def to_arabic_indic(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "to_arabic_indic",
+      "cases": [
+       [
+        [
+         "2026"
+        ],
+        "٢٠٢٦"
+       ],
+       [
+        [
+         "الصف 3"
+        ],
+        "الصف ٣"
+       ],
+       [
+        [
+         "بلا أرقام"
+        ],
+        "بلا أرقام"
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t05",
+     "title": "أطول كلمة",
+     "prompt": "اكتب دالة longest_word(text) تُعيد أطول كلمة في النص (أوّلها عند التساوي).",
+     "hint": "max(text.split(), key=len)",
+     "starter": "def longest_word(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "longest_word",
+      "cases": [
+       [
+        [
+         "العلم نور"
+        ],
+        "العلم"
+       ],
+       [
+        [
+         "القلم والكتاب صديقان"
+        ],
+        "والكتاب"
+       ],
+       [
+        [
+         "كلمة"
+        ],
+        "كلمة"
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t06",
+     "title": "الحروف الشمسية",
+     "prompt": "الحروف الشمسية: ت ث د ذ ر ز س ش ص ض ط ظ ل ن. اكتب دالة sun_letter(word) تأخذ كلمة تبدأ بـ ال وتُعيد True إذا كان الحرف بعد ال شمسيًّا.",
+     "hint": "word[2] in 'تثدذرزسشصضطظلن'",
+     "starter": "def sun_letter(word):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "sun_letter",
+      "cases": [
+       [
+        [
+         "الشمس"
+        ],
+        true
+       ],
+       [
+        [
+         "القمر"
+        ],
+        false
+       ],
+       [
+        [
+         "النور"
+        ],
+        true
+       ],
+       [
+        [
+         "الكتاب"
+        ],
+        false
+       ],
+       [
+        [
+         "الطالب"
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t07",
+     "title": "عكس ترتيب الكلمات",
+     "prompt": "اكتب دالة reverse_words(text) تُعيد الكلمات بترتيب معكوس تفصلها مسافة واحدة.",
+     "hint": "' '.join(text.split()[::-1])",
+     "starter": "def reverse_words(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "reverse_words",
+      "cases": [
+       [
+        [
+         "أنا أحب البرمجة"
+        ],
+        "البرمجة أحب أنا"
+       ],
+       [
+        [
+         "كلمة"
+        ],
+        "كلمة"
+       ],
+       [
+        [
+         ""
+        ],
+        ""
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    },
+    {
+     "cid": "o_t08",
+     "title": "تكرار الحروف",
+     "prompt": "اكتب دالة letter_counts(text) تُعيد قاموسًا بعدد كل حرف (دون المسافات).",
+     "hint": "حلقة على الحروف وتجاهل ' '.",
+     "starter": "def letter_counts(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "letter_counts",
+      "cases": [
+       [
+        [
+         "باب"
+        ],
+        {
+         "ب": 2,
+         "ا": 1
+        }
+       ],
+       [
+        [
+         "سلام عليكم"
+        ],
+        {
+         "س": 1,
+         "ل": 2,
+         "ا": 1,
+         "م": 2,
+         "ع": 1,
+         "ي": 1,
+         "ك": 1
+        }
+       ],
+       [
+        [
+         ""
+        ],
+        {}
+       ]
+      ]
+     },
+     "topic": "text",
+     "source": "aba"
+    }
+   ]
+  },
+  {
+   "id": "oop",
+   "title": "الأصناف والكائنات",
+   "challenges": [
+    {
+     "cid": "o_k01",
+     "title": "صنف الحساب البنكي",
+     "prompt": "اكتب صنفًا BankAccount له رصيد يبدأ بصفر، ودالة deposit(amount) تضيف، وwithdraw(amount) تخصم وتُعيد False دون تغيير إذا لم يكفِ الرصيد وإلا True، وخاصية balance.",
+     "hint": "self.balance = 0 في __init__.",
+     "starter": "",
+     "check": {
+      "kind": "script",
+      "test": "a = BankAccount()\na.deposit(100)\nprint(a.balance)\nprint(a.withdraw(30))\nprint(a.balance)\nprint(a.withdraw(500))\nprint(a.balance)\n",
+      "expect": "100\nTrue\n70\nFalse\n70"
+     },
+     "topic": "oop",
+     "source": "aba"
+    },
+    {
+     "cid": "o_k02",
+     "title": "صنف المستطيل",
+     "prompt": "اكتب صنفًا Rectangle يأخذ width وheight، وله دالة area() ودالة perimeter() ودالة is_square().",
+     "hint": "area = width * height",
+     "starter": "",
+     "check": {
+      "kind": "script",
+      "test": "r = Rectangle(3, 4)\nprint(r.area(), r.perimeter(), r.is_square())\ns = Rectangle(5, 5)\nprint(s.area(), s.perimeter(), s.is_square())\n",
+      "expect": "12 14 False\n25 20 True"
+     },
+     "topic": "oop",
+     "source": "aba"
+    },
+    {
+     "cid": "o_k03",
+     "title": "المكدّس",
+     "prompt": "اكتب صنفًا Stack فيه push(x) وpop() (تُعيد العنصر الأخير وتحذفه، أو None إذا كان فارغًا) وpeek() وsize() وis_empty().",
+     "hint": "خزّن العناصر في قائمة self.items.",
+     "starter": "",
+     "check": {
+      "kind": "script",
+      "test": "s = Stack()\nprint(s.is_empty(), s.pop())\ns.push(1)\ns.push(2)\nprint(s.peek(), s.size())\nprint(s.pop(), s.pop(), s.is_empty())\n",
+      "expect": "True None\n2 2\n2 1 True"
+     },
+     "topic": "oop",
+     "source": "aba"
+    },
+    {
+     "cid": "o_k04",
+     "title": "الوراثة: الحيوانات",
+     "prompt": "اكتب صنفًا Animal له name ودالة speak() تُعيد ...، ثم صنفين يرثانه: Cat تُعيد speak() فيه مياو وDog هاو. ودالة describe() في Animal تُعيد NAME يقول: SOUND.",
+     "hint": "describe يستدعي self.speak() فتأخذ كل حيوان صوته.",
+     "starter": "",
+     "check": {
+      "kind": "script",
+      "test": "print(Cat('بسبوس').describe())\nprint(Dog('ريكس').describe())\nprint(Animal('شيء').describe())\n",
+      "expect": "بسبوس يقول: مياو\nريكس يقول: هاو\nشيء يقول: ..."
+     },
+     "topic": "oop",
+     "source": "aba"
+    },
+    {
+     "cid": "o_k05",
+     "title": "الطابور بأولوية بسيطة",
+     "prompt": "اكتب صنفًا Queue فيه enqueue(x) وdequeue() (تُعيد الأقدم أو None) وlen() عبر __len__.",
+     "hint": "collections.deque أو قائمة مع pop(0).",
+     "starter": "",
+     "check": {
+      "kind": "script",
+      "test": "q = Queue()\nq.enqueue('أ')\nq.enqueue('ب')\nprint(len(q))\nprint(q.dequeue(), q.dequeue(), q.dequeue())\nprint(len(q))\n",
+      "expect": "2\nأ ب None\n0"
+     },
+     "topic": "oop",
+     "source": "aba"
+    }
+   ]
+  }
+ ]
+}

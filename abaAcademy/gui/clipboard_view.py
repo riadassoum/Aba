@@ -29,7 +29,7 @@ class ClipboardDialog(AccessibleDialog):
         panel = wx.Panel(self)
         s = wx.BoxSizer(wx.VERTICAL)
         s.Add(wx.StaticText(panel, label=(
-            "ألصق نصاً في الحقل، اختر التنظيفات المطلوبة، ثم «نظّف». "
+            "ألصق نصاً في الحقل، اختر التنظيفات المطلوبة، ثم نظّف. "
             "انسخ الناتج من الحقل السفلي.")), 0, wx.ALL, 6)
 
         s.Add(wx.StaticText(panel, label="النص الأصلي:"), 0, wx.LEFT | wx.TOP, 6)
@@ -107,4 +107,4 @@ class ClipboardDialog(AccessibleDialog):
     def instructions(self):
         return ("منسّق النصوص العربية: ألصق نصاً في الحقل العلوي، اختر تحويل الأرقام "
                 "والتنظيفات (إزالة التطويل، ضبط الترقيم، إزالة المحارف الخفية، دمج الأسطر "
-                "الفارغة)، ثم «نظّف». انسخ الناتج بـ«انسخ الناتج». Escape للإغلاق.")
+                "الفارغة)، ثم نظّف. انسخ الناتج بـانسخ الناتج. Escape للإغلاق.")

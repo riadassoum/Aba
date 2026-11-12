@@ -76,7 +76,7 @@ class LessonPlayer(AccessibleDialog):
             self._steps.append((
                 "text",
                 "لم يُعثر على الشرح النصي لهذا الدرس، لكنّ التمارين جاهزة. "
-                "اضغط زر «الانتقال إلى التمارين» للبدء مباشرة."))
+                "اضغط زر الانتقال إلى التمارين للبدء مباشرة."))
         self._index = 0
         self._answered = False
 
@@ -126,7 +126,7 @@ class LessonPlayer(AccessibleDialog):
             self.textCtrl.SetValue("انتهى شرح الدرس. انتقل إلى التمارين لتثبيت ما تعلمته.")
             self.nextBtn.Disable()
             self.set_first_control(self.practiceBtn)
-            wx.CallAfter(self.practiceBtn.SetFocus)
+            self.call_after(self.practiceBtn.SetFocus)
             self.announce("انتهى الشرح. انتقل إلى التمارين.")
             return
         kind, payload = self._steps[self._index]
@@ -136,7 +136,7 @@ class LessonPlayer(AccessibleDialog):
             self.nextBtn.Enable()
             self.nextBtn.SetDefault()
             self.set_first_control(self.textCtrl)
-            wx.CallAfter(self.textCtrl.SetFocus)
+            self.call_after(self.textCtrl.SetFocus)
             self.announce(payload)
         else:  # inline question
             q = payload
@@ -152,7 +152,7 @@ class LessonPlayer(AccessibleDialog):
             self.set_first_control(self.mcq)
             self.answerPanel.Layout()
             self.panel.Layout()
-            wx.CallAfter(self.mcq.SetFocus)
+            self.call_after(self.mcq.SetFocus)
             self.announce(q.prompt)
 
     def _check_inline(self, q):
@@ -163,7 +163,7 @@ class LessonPlayer(AccessibleDialog):
         self.announce(fb)
         self.nextBtn.Enable()
         self.nextBtn.SetDefault()
-        wx.CallAfter(self.nextBtn.SetFocus)
+        self.call_after(self.nextBtn.SetFocus)
 
     def _on_next(self, evt):
         self._index += 1

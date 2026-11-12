@@ -157,7 +157,7 @@ class PackReader:
     # -- inspection -------------------------------------------------------
     def summary(self):
         m = self.manifest
-        parts = [f"«{m.get('title', m['id'])}»"]
+        parts = [f"{m.get('title', m['id'])}"]
         if m.get("author"):
             parts.append(f"إعداد {m['author']}")
         contains = m.get("contains", [])
@@ -208,7 +208,7 @@ class PackReader:
             os.makedirs(os.path.dirname(target), exist_ok=True)
             with open(target, "wb") as f:
                 f.write(self._zip.read(member))
-        return f"دورة «{course.get('title', course_id)}»"
+        return f"دورة {course.get('title', course_id)}"
 
     def _install_flashcards(self, user_data_dir, overwrite):
         dest_dir = os.path.join(user_data_dir, "flashcards")

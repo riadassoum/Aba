@@ -4,8 +4,8 @@ abaAcademy.quran_engine.mutashabihat
 ====================================
 
 Find *mutashabihat* — the near-identical verses of the Qur'an that memorisers
-most often confuse (e.g. البقرة ٢٦٤ «لا يهدي القوم الكافرين» beside آل عمران ٨٦
-«لا يهدي القوم الظالمين»). The trainer built on this drills the exact
+most often confuse (e.g. البقرة ٢٦٤ لا يهدي القوم الكافرين beside آل عمران ٨٦
+لا يهدي القوم الظالمين). The trainer built on this drills the exact
 difference between two real verses.
 
 Why this is computed, not hand-typed
@@ -245,9 +245,9 @@ class MutashabihatFinder:
         parts = []
         for kind, wa, wb in pair["diffs"]:
             if kind == "sub":
-                parts.append(f"«{wa}» تصبح «{wb}»")
+                parts.append(f"{wa} تصبح {wb}")
             elif kind == "del":
-                parts.append(f"«{wa}» موجودة في الأولى فقط")
+                parts.append(f"{wa} موجودة في الأولى فقط")
             elif kind == "ins":
-                parts.append(f"«{wb}» موجودة في الثانية فقط")
+                parts.append(f"{wb} موجودة في الثانية فقط")
         return "الفرق: " + "، ".join(parts) + "."

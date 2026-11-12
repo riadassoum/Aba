@@ -154,7 +154,7 @@ class QuranManager(AccessibleDialog):
             return
         try:
             self.academy.store.set_setting(self._default_key(), sel[0])
-            self.announce(f"تم تعيين «{sel[1]}» كافتراضي.")
+            self.announce(f"تم تعيين {sel[1]} كافتراضي.")
             self._reload()
         except Exception:
             self.announce("تعذّر التعيين.")
@@ -173,17 +173,17 @@ class QuranManager(AccessibleDialog):
             if self._ed.is_offline(ident):
                 self.announce("منزّل بالفعل.")
                 return
-            self.announce(f"جارٍ تنزيل «{label}»...")
+            self.announce(f"جارٍ تنزيل {label}...")
             threading.Thread(target=self._dl_edition, args=(ident, label), daemon=True).start()
         else:
             self._download_reciter(ident, label)
 
     def _dl_edition(self, ident, label):
         ok = self._ed.fetch_edition(ident) is not None
-        wx.CallAfter(self._after_dl, label, ok)
+        self.call_after(self._after_dl, label, ok)
 
     def _after_dl(self, label, ok):
-        self.announce(f"اكتمل تنزيل «{label}»." if ok else f"تعذّر تنزيل «{label}».")
+        self.announce(f"اكتمل تنزيل {label}." if ok else f"تعذّر تنزيل {label}.")
         self._reload()
 
     def _download_reciter(self, name, label):
@@ -206,12 +206,12 @@ class QuranManager(AccessibleDialog):
                 return verse_url(base, su, a)
 
         total = len(nums)
-        self.announce(f"جارٍ تنزيل تلاوة «{r['name']}» لكامل القرآن ({total} آية). قد يستغرق وقتاً...")
+        self.announce(f"جارٍ تنزيل تلاوة {r['name']} لكامل القرآن ({total} آية). قد يستغرق وقتاً...")
 
         # only fetch missing ayat; if fully offline already, say so
         missing = self._audio.missing_numbers(tag, nums)
         if not missing:
-            self.announce(f"تلاوة «{r['name']}» منزّلة بالكامل.")
+            self.announce(f"تلاوة {r['name']} منزّلة بالكامل.")
             return
 
         from .download_progress import DownloadProgressDialog
@@ -254,7 +254,7 @@ class QuranManager(AccessibleDialog):
                         removed += 1
                     except OSError:
                         pass
-        self.announce(f"تم حذف «{label}» من التنزيلات." if removed else "لا يوجد ما يُحذف.")
+        self.announce(f"تم حذف {label} من التنزيلات." if removed else "لا يوجد ما يُحذف.")
         self._reload()
 
     def on_closing(self):

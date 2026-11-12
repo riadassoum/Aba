@@ -236,15 +236,15 @@ class TestNewFeatures(unittest.TestCase):
     def test_dedup_by_prompt_keeps_different_exercise_types(self):
         from abaAcademy.academy import Academy
         qs = [
-            Question(QuestionType.MCQ, "ما معنى «hello»؟", correct=0, options=["a", "b"]),
-            Question(QuestionType.TRUE_FALSE, "هل معنى «hello» هو «مرحبا»؟", correct=True),
-            Question(QuestionType.MCQ, "ما معنى «hello»؟", correct=0, options=["a", "b"]),  # dup
+            Question(QuestionType.MCQ, "ما معنى hello؟", correct=0, options=["a", "b"]),
+            Question(QuestionType.TRUE_FALSE, "هل معنى hello هو مرحبا؟", correct=True),
+            Question(QuestionType.MCQ, "ما معنى hello؟", correct=0, options=["a", "b"]), # dup
         ]
         out = Academy.dedup_questions(qs)
         self.assertEqual(len(out), 2)
         prompts = [q.prompt for q in out]
-        self.assertIn("ما معنى «hello»؟", prompts)
-        self.assertIn("هل معنى «hello» هو «مرحبا»؟", prompts)
+        self.assertIn("ما معنى hello؟", prompts)
+        self.assertIn("هل معنى hello هو مرحبا؟", prompts)
 
     def test_dictation_sets_speak(self):
         qs = gen.generate("lang.dictation", count=3, seed=1,

@@ -60,7 +60,7 @@ class ProgressDialog(AccessibleDialog):
         panel.SetSizer(s)
         self.set_first_control(self.report)
         self._summary = ""
-        wx.CallAfter(self._refresh)
+        self.call_after(self._refresh)
 
     def _refresh(self):
         store = self.academy.store
@@ -201,5 +201,5 @@ class ProgressDialog(AccessibleDialog):
 
     def instructions(self):
         return ("لوحة تقدّمي: تعرض سلسلة أيّامك المتتالية، وقت دراستك، وعدد الموضوعات في كل "
-                "مستوى إتقان، وإنجازاتك، وتوصية المعلّم الذكي. «اقرأ الملخّص» ينطق ملخّصًا "
+                "مستوى إتقان، وإنجازاتك، وتوصية المعلّم الذكي. اقرأ الملخّص ينطق ملخّصًا "
                 "مختصرًا. Escape للإغلاق.")

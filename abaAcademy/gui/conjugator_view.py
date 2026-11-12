@@ -35,7 +35,7 @@ class ConjugatorDialog(AccessibleDialog):
         s = wx.BoxSizer(wx.VERTICAL)
         s.Add(wx.StaticText(panel, label=(
             "اكتب فعلاً ثلاثياً في صيغة الماضي للغائب (مثل: كتب، نصر، جلس)، اختر الزمن، "
-            "ثم «صرّف». ملاحظة صادقة: التصريف الكامل مدعوم للأفعال الصحيحة السالمة؛ أمّا "
+            "ثم صرّف. ملاحظة صادقة: التصريف الكامل مدعوم للأفعال الصحيحة السالمة؛ أمّا "
             "المعتلّة والمهموزة والمضعّفة فتحتاج معالجة خاصة لم تُضَف بعد، ولن نعرض لها "
             "صيغاً قد تكون خاطئة.")), 0, wx.ALL, 6)
 
@@ -91,7 +91,7 @@ class ConjugatorDialog(AccessibleDialog):
         tense_name = self.TENSES[self.choice_index(self.tenseChoice)][0]
         # speak the first few then let the user arrow through
         preview = "، ".join(f"{pr} {form}" for pr, form in table[:3])
-        self._say(f"تصريف «{verb}» في {tense_name}: {preview}… "
+        self._say(f"تصريف {verb} في {tense_name}: {preview}… "
                   f"تنقّل في القائمة بالأسهم لسماع البقية.")
         self.table.SetFocus()
 
@@ -101,7 +101,7 @@ class ConjugatorDialog(AccessibleDialog):
             self._say("اكتب فعلاً ثلاثياً أولاً.")
             return
         _, name = cj.classify(verb)
-        self._say(f"نوع الفعل «{verb}»: {name}.")
+        self._say(f"نوع الفعل {verb}: {name}.")
 
     def _say(self, text):
         self.status.SetLabel(text[:200])
@@ -109,6 +109,6 @@ class ConjugatorDialog(AccessibleDialog):
 
     def instructions(self):
         return ("مصرّف الأفعال: اكتب فعلاً ثلاثياً في صيغة ماضي الغائب (كتب، نصر…)، اختر "
-                "الزمن (الماضي، المضارع، الأمر)، ثم «صرّف» لتسمع الجدول عبر الضمائر، وتنقّل "
-                "فيه بالأسهم. «نوع الفعل» يخبرك بنوعه. التصريف مدعوم للأفعال الصحيحة السالمة؛ "
+                "الزمن (الماضي، المضارع، الأمر)، ثم صرّف لتسمع الجدول عبر الضمائر، وتنقّل "
+                "فيه بالأسهم. نوع الفعل يخبرك بنوعه. التصريف مدعوم للأفعال الصحيحة السالمة؛ "
                 "المعتلّة والمهموزة والمضعّفة غير مدعومة بعد تفاديًا لعرض صيغ خاطئة. Escape للإغلاق.")

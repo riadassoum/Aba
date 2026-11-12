@@ -2,37 +2,37 @@
  "blocks": [
   {
    "btype": "text",
-   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «الماضي البسيط». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: to be، to eat، to go، to have، to work."
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن الماضي البسيط. استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: to be، to eat، to go، to have، to work."
   },
   {
    "btype": "example",
    "text": "I was",
-   "note": "تصريف «to be» مع «I»"
+   "note": "تصريف to be مع I"
   },
   {
    "btype": "example",
    "text": "you were",
-   "note": "تصريف «to be» مع «you»"
+   "note": "تصريف to be مع you"
   },
   {
    "btype": "example",
    "text": "he was",
-   "note": "تصريف «to be» مع «he»"
+   "note": "تصريف to be مع he"
   },
   {
    "btype": "example",
    "text": "she was",
-   "note": "تصريف «to be» مع «she»"
+   "note": "تصريف to be مع she"
   },
   {
    "btype": "example",
    "text": "we were",
-   "note": "تصريف «to be» مع «we»"
+   "note": "تصريف to be مع we"
   },
   {
    "btype": "example",
    "text": "they were",
-   "note": "تصريف «to be» مع «they»"
+   "note": "تصريف to be مع they"
   }
  ]
 }

@@ -12,7 +12,7 @@
      "At eight"
     ],
     "correct": 1,
-    "explanation": "«I wake up at six o'clock».",
+    "explanation": "I wake up at six o'clock.",
     "topic": "reading.morning"
    }
   },
@@ -28,7 +28,7 @@
      "On foot"
     ],
     "correct": 2,
-    "explanation": "«I go to work by bus».",
+    "explanation": "I go to work by bus.",
     "topic": "reading.morning"
    }
   }

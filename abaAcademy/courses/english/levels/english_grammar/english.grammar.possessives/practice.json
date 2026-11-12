@@ -52,7 +52,7 @@
    "btype": "question",
    "question": {
     "qtype": "true_false",
-    "prompt": "its تعني «ملكه/ملكها»، وit's تعني it is.",
+    "prompt": "its تعني ملكه/ملكها، وit's تعني it is.",
     "correct": true,
     "explanation": "صحيح، لا تخلط بينهما.",
     "topic": "gram.possessives"

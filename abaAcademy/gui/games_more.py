@@ -67,7 +67,7 @@ class PairsMemory(_GameBase):
         if self._cards[a] == self._cards[b]:
             self._found[a] = self._found[b] = True
             if all(self._found):
-                self.say(f"أحسنت! وجدت كل الأزواج في {ar(self._flips)} قلبة. «لعبة جديدة».")
+                self.say(f"أحسنت! وجدت كل الأزواج في {ar(self._flips)} قلبة. لعبة جديدة.")
                 self.record(self._flips)
             else:
                 self.say(f"تطابق! {self._cards[a]}. تبقّى {ar(self._found.count(False) // 2)} أزواج.")
@@ -123,7 +123,7 @@ class SequenceGame(_GameBase):
             self.record(self._score)
             self._ask()
         else:
-            self.say(f"خطأ، الصواب {ar(self._answer)}. نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"خطأ، الصواب {ar(self._answer)}. نتيجتك {ar(self._score)}. لعبة جديدة.")
             self._score = 0
 
     def instructions(self):
@@ -160,7 +160,7 @@ class MakeTarget(_GameBase):
                 ok = False
                 break
         if ok and picks and sum(picks) == self._target:
-            self.say(f"أحسنت! {' + '.join(ar(p) for p in picks)} = {ar(self._target)}. «لعبة جديدة».")
+            self.say(f"أحسنت! {' + '.join(ar(p) for p in picks)} = {ar(self._target)}. لعبة جديدة.")
             self.record(1)
         else:
             self.say(f"المجموع {ar(sum(picks))} لا يساوي {ar(self._target)} أو أعداد غير متاحة. حاول ثانية.")
@@ -185,7 +185,7 @@ class OddEven(_GameBase):
 
     def _ask(self):
         self._n = random.randint(2, 999)
-        self.say(f"هل {ar(self._n)} زوجيّ أم فرديّ؟ اكتب «زوجي» أو «فردي». "
+        self.say(f"هل {ar(self._n)} زوجيّ أم فرديّ؟ اكتب زوجي أو فردي. "
                  f"(النتيجة {ar(self._score)})")
 
     def handle(self, text):
@@ -194,7 +194,7 @@ class OddEven(_GameBase):
         said_even = "زوج" in t
         said_odd = "فرد" in t
         if not (said_even or said_odd):
-            self.say("اكتب «زوجي» أو «فردي».")
+            self.say("اكتب زوجي أو فردي.")
             return
         if (said_even and is_even) or (said_odd and not is_even):
             self._score += 1
@@ -287,9 +287,9 @@ class NimGame(_GameBase):
         if self._n == 0:
             # player took the last stick
             if self._misere:
-                self.say("أخذتَ العود الأخير، وبالقاعدة الحالية خسرت. «لعبة جديدة».")
+                self.say("أخذتَ العود الأخير، وبالقاعدة الحالية خسرت. لعبة جديدة.")
             else:
-                self.say("أخذت العود الأخير ففزت! أحسنت. «لعبة جديدة».")
+                self.say("أخذت العود الأخير ففزت! أحسنت. لعبة جديدة.")
                 self.record(1)
             return
         # AI move by difficulty
@@ -306,10 +306,10 @@ class NimGame(_GameBase):
         if self._n == 0:
             if self._misere:
                 self.say(f"أخذ الحاسوب {ar(ai_take)}، فأخذ العود الأخير وبالقاعدة الحالية "
-                         f"خسر، ففزت! «لعبة جديدة».")
+                         f"خسر، ففزت! لعبة جديدة.")
                 self.record(1)
             else:
-                self.say(f"أخذ الحاسوب {ar(ai_take)} فأخذ العود الأخير وفاز. «لعبة جديدة».")
+                self.say(f"أخذ الحاسوب {ar(ai_take)} فأخذ العود الأخير وفاز. لعبة جديدة.")
             return
         self.say(f"أخذ الحاسوب {ar(ai_take)}. تبقّى {ar(self._n)} عوداً. كم تأخذ؟")
 
@@ -344,7 +344,7 @@ class MiniBattleship(GridGameDialog):
         s.Add(row, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
         self.set_first_control(self.grid)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     def start(self):
         horiz = random.choice([True, False])
@@ -362,7 +362,7 @@ class MiniBattleship(GridGameDialog):
         self.refresh_grid()
         self.say("سفينة من ٣ خانات مخبّأة في شبكة ٥×٥. تنقّل بالأسهم واضغط Enter "
                  "للإطلاق على الخانة. جدها بأقل عدد من الطلقات.")
-        wx.CallAfter(self.grid.SetFocus)
+        self.call_after(self.grid.SetFocus)
 
     def cell_word(self, r, c):
         cell = (r, c)
@@ -374,7 +374,7 @@ class MiniBattleship(GridGameDialog):
 
     def activate(self, r, c):
         if self._over:
-            self.say("انتهت اللعبة. «لعبة جديدة».")
+            self.say("انتهت اللعبة. لعبة جديدة.")
             return
         cell = (r, c)
         if cell in self._hits or cell in self._missed:
@@ -386,7 +386,7 @@ class MiniBattleship(GridGameDialog):
             self.refresh_grid()
             if self._hits == self._ship:
                 self._over = True
-                self.say(f"أغرقت السفينة في {ar(self._shots)} طلقة! «لعبة جديدة».")
+                self.say(f"أغرقت السفينة في {ar(self._shots)} طلقة! لعبة جديدة.")
                 if save_score(self.academy, self.GAME_KEY, self._shots, False):
                     self.announce("رقم قياسي جديد بأقل الطلقات!")
             else:
@@ -429,7 +429,7 @@ class Mastermind(_GameBase):
         total = sum(min(cc[k], gc[k]) for k in cc)
         misplaced = total - exact
         if exact == 4:
-            self.say(f"أصبت الرمز في {ar(self._tries)} محاولة! «لعبة جديدة».")
+            self.say(f"أصبت الرمز في {ar(self._tries)} محاولة! لعبة جديدة.")
             self.record(self._tries)
         else:
             self.say(f"{ar(exact)} في مكانه الصحيح، و{ar(misplaced)} صحيح بمكان خاطئ. "
@@ -463,14 +463,14 @@ class TrueFalseBlitz(_GameBase):
         else:
             shown = real + random.choice([-3, -2, -1, 1, 2, 3])
             self._truth = (shown == real)
-        self.say(f"هل {ar(a)} {op} {ar(b)} = {ar(shown)}؟ اكتب «صح» أو «خطأ». "
+        self.say(f"هل {ar(a)} {op} {ar(b)} = {ar(shown)}؟ اكتب صح أو خطأ. "
                  f"(النتيجة {ar(self._score)})")
 
     def handle(self, text):
         t = text.strip()
         said = True if ("صح" in t or "نعم" in t) else False if ("خطأ" in t or "لا" in t) else None
         if said is None:
-            self.say("اكتب «صح» أو «خطأ».")
+            self.say("اكتب صح أو خطأ.")
             return
         if said == self._truth:
             self._score += 1
@@ -516,7 +516,7 @@ class WordScramble(_GameBase):
             self.say("أحسنت!")
             self.call_later(700, self._ask)
         else:
-            self.say(f"ليست صحيحة. الكلمة كانت «{self._word}». نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"ليست صحيحة. الكلمة كانت {self._word}. نتيجتك {ar(self._score)}. لعبة جديدة.")
             self._score = 0
 
     def on_repeat(self):
@@ -542,7 +542,7 @@ class ReverseWord(_GameBase):
     def _ask(self):
         self._word = random.choice(self.WORDS)
         self._rev = self._word[::-1]
-        self.say(f"اكتب حروف كلمة «{self._word}» بالعكس. (النتيجة {ar(self._score)})")
+        self.say(f"اكتب حروف كلمة {self._word} بالعكس. (النتيجة {ar(self._score)})")
 
     def handle(self, text):
         if text.strip() == self._rev:
@@ -551,7 +551,7 @@ class ReverseWord(_GameBase):
             self.say("صحيح!")
             self.call_later(700, self._ask)
         else:
-            self.say(f"خطأ. عكس «{self._word}» هو «{self._rev}». نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"خطأ. عكس {self._word} هو {self._rev}. نتيجتك {ar(self._score)}. لعبة جديدة.")
             self._score = 0
 
     def instructions(self):
@@ -579,8 +579,8 @@ class WordChain(_GameBase):
         first = random.choice(self.SEEDS)
         self._used.add(self._normalize(first))
         self._last_letter = first[-1]
-        self.say(f"بدأتُ بكلمة «{first}». اكتب كلمة عربية حقيقية تبدأ بحرف "
-                 f"«{self._last_letter}». لا تكرّر كلمة. (النتيجة {ar(self._score)})")
+        self.say(f"بدأتُ بكلمة {first}. اكتب كلمة عربية حقيقية تبدأ بحرف "
+                 f"{self._last_letter}. لا تكرّر كلمة. (النتيجة {ar(self._score)})")
 
     def _norm_first(self, w):
         # first letter after normalizing leading hamza forms to bare alef would
@@ -595,7 +595,7 @@ class WordChain(_GameBase):
             self.say("الكلمة قصيرة جداً. اكتب كلمة حقيقية.")
             return
         if self._norm_first(w) != self._last_letter:
-            self.say(f"يجب أن تبدأ بحرف «{self._last_letter}». حاول ثانية.")
+            self.say(f"يجب أن تبدأ بحرف {self._last_letter}. حاول ثانية.")
             return
         if self._normalize(w) in self._used:
             self.say("استُخدمت من قبل. جرّب كلمة أخرى.")
@@ -603,8 +603,8 @@ class WordChain(_GameBase):
         # must be a real word — otherwise it's wrong and the turn stays with the
         # player until they produce a genuine dictionary word
         if not self._dict.is_word(w):
-            self.say(f"«{w}» ليست في القاموس. اكتب كلمة عربية صحيحة تبدأ بحرف "
-                     f"«{self._last_letter}».")
+            self.say(f"{w} ليست في القاموس. اكتب كلمة عربية صحيحة تبدأ بحرف "
+                     f"{self._last_letter}.")
             return
         self._used.add(self._normalize(w))
         self._score += 1
@@ -612,12 +612,12 @@ class WordChain(_GameBase):
         need = w[-1]
         reply = self._computer_word(need)
         if reply is None:
-            self.say(f"أحسنت! لم أجد كلمة تبدأ بحرف «{need}»، ففزت! "
-                     f"نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"أحسنت! لم أجد كلمة تبدأ بحرف {need}، ففزت! "
+                     f"نتيجتك {ar(self._score)}. لعبة جديدة.")
             return
         self._used.add(self._normalize(reply))
         self._last_letter = reply[-1]
-        self.say(f"كلمتي «{reply}». الآن اكتب كلمة تبدأ بحرف «{self._last_letter}».")
+        self.say(f"كلمتي {reply}. الآن اكتب كلمة تبدأ بحرف {self._last_letter}.")
 
     def _computer_word(self, letter):
         """Find an unused dictionary word starting with ``letter``. Prefers short,
@@ -668,7 +668,7 @@ class BullsAndCows(_GameBase):
         bulls = sum(1 for i in range(4) if guess[i] == self._code[i])
         cows = sum(1 for d in guess if d in self._code) - bulls
         if bulls == 4:
-            self.say(f"أصبت العدد في {ar(self._tries)} محاولة! «لعبة جديدة».")
+            self.say(f"أصبت العدد في {ar(self._tries)} محاولة! لعبة جديدة.")
             self.record(self._tries)
         else:
             self.say(f"{ar(bulls)} ثيران، {ar(cows)} أبقار. المحاولات {ar(self._tries)}.")
@@ -693,8 +693,8 @@ class TwentyOne(_GameBase):
         self._dealer = [self._draw()]
         self._done = False
         self.say(f"لديك {self._hand_str(self._you)}، المجموع {ar(self._total(self._you))}. "
-                 f"ورقة البائع الظاهرة {ar(self._dealer[0])}. اكتب «سحب» لورقة أخرى "
-                 f"أو «قف» للتوقّف.")
+                 f"ورقة البائع الظاهرة {ar(self._dealer[0])}. اكتب سحب لورقة أخرى "
+                 f"أو قف للتوقّف.")
 
     def _total(self, hand):
         total = sum(hand)
@@ -711,20 +711,20 @@ class TwentyOne(_GameBase):
     def handle(self, text):
         t = text.strip()
         if self._done:
-            self.say("انتهت الجولة. «لعبة جديدة».")
+            self.say("انتهت الجولة. لعبة جديدة.")
             return
         if "سحب" in t or "ورقة" in t:
             self._you.append(self._draw())
             tot = self._total(self._you)
             if tot > 21:
                 self._done = True
-                self.say(f"سحبت {ar(self._you[-1])}، المجموع {ar(tot)} — تجاوزت ٢١، خسرت. «لعبة جديدة».")
+                self.say(f"سحبت {ar(self._you[-1])}، المجموع {ar(tot)} — تجاوزت ٢١، خسرت. لعبة جديدة.")
             else:
-                self.say(f"سحبت {ar(self._you[-1])}، المجموع {ar(tot)}. «سحب» أو «قف»؟")
+                self.say(f"سحبت {ar(self._you[-1])}، المجموع {ar(tot)}. سحب أو قف؟")
         elif "قف" in t or "توقف" in t or "وقف" in t:
             self._settle()
         else:
-            self.say("اكتب «سحب» أو «قف».")
+            self.say("اكتب سحب أو قف.")
 
     def _settle(self):
         self._done = True
@@ -733,16 +733,16 @@ class TwentyOne(_GameBase):
         you, deal = self._total(self._you), self._total(self._dealer)
         msg = f"مجموعك {ar(you)}، مجموع البائع {ar(deal)}. "
         if deal > 21 or you > deal:
-            msg += "فزت! أحسنت. «لعبة جديدة»."
+            msg += "فزت! أحسنت. لعبة جديدة."
             self.record(1)
         elif you == deal:
-            msg += "تعادل. «لعبة جديدة»."
+            msg += "تعادل. لعبة جديدة."
         else:
-            msg += "فاز البائع. «لعبة جديدة»."
+            msg += "فاز البائع. لعبة جديدة."
         self.say(msg)
 
     def instructions(self):
-        return ("اقترب من ٢١ دون تجاوزها. اكتب «سحب» لورقة جديدة أو «قف» للتوقّف، ثم يسحب "
+        return ("اقترب من ٢١ دون تجاوزها. اكتب سحب لورقة جديدة أو قف للتوقّف، ثم يسحب "
                 "البائع حتى ١٧. من يقترب أكثر دون تجاوز يفوز. Escape للإغلاق.")
 
 
@@ -761,7 +761,7 @@ class CountingGame(_GameBase):
         self._items = [random.choice(["تفاحة", "برتقالة", "موزة"]) for _ in range(n)]
         self._target = random.choice(["تفاحة", "برتقالة", "موزة"])
         self._answer = self._items.count(self._target)
-        self.say("سأذكر لك قائمة، عُدّ كم مرة تكرّرت كلمة «" + self._target + "»: " +
+        self.say("سأذكر لك قائمة، عُدّ كم مرة تكرّرت كلمة " + self._target + ": " +
                  "، ".join(self._items) + f". كم مرة؟ (النتيجة {ar(self._score)})")
 
     def handle(self, text):
@@ -775,11 +775,11 @@ class CountingGame(_GameBase):
             self.record(self._score)
             self._ask()
         else:
-            self.say(f"العدد الصحيح {ar(self._answer)}. نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"العدد الصحيح {ar(self._answer)}. نتيجتك {ar(self._score)}. لعبة جديدة.")
             self._score = 0
 
     def on_repeat(self):
-        self.say("القائمة: " + "، ".join(self._items) + f" — عُدّ «{self._target}».")
+        self.say("القائمة: " + "، ".join(self._items) + f" — عُدّ {self._target}.")
 
     def instructions(self):
         return ("تُذكر لك قائمة أشياء؛ عُدّ كم مرة تكرّر شيء معيّن واكتب العدد. تمرين للتركيز "
@@ -816,7 +816,7 @@ class MissingNumber(_GameBase):
             self.record(self._score)
             self._ask()
         else:
-            self.say(f"الناقص كان {ar(self._missing)}. نتيجتك {ar(self._score)}. «لعبة جديدة».")
+            self.say(f"الناقص كان {ar(self._missing)}. نتيجتك {ar(self._score)}. لعبة جديدة.")
             self._score = 0
 
     def instructions(self):
@@ -842,25 +842,25 @@ class RhymeOrStart(_GameBase):
         self._score = 0
         self._begin_timer()
         self.say(f"لديك ٦٠ ثانية. اذكر أكبر عددٍ من الكلمات العربية الحقيقية التي تبدأ "
-                 f"بحرف «{self._letter}»، واحدة في كل مرة.")
+                 f"بحرف {self._letter}، واحدة في كل مرة.")
 
     def handle(self, text):
         w = text.strip()
         if not w:
             return
         if w[0] != self._letter:
-            self.say(f"يجب أن تبدأ بحرف «{self._letter}».")
+            self.say(f"يجب أن تبدأ بحرف {self._letter}.")
             return
         nw = self._normalize(w)
         if nw in self._found:
             self.say("ذكرتها من قبل. جرّب غيرها.")
             return
         if len(w) < 2 or not self._dict.is_word(w):
-            self.say(f"«{w}» ليست في القاموس. جرّب كلمة أخرى.")
+            self.say(f"{w} ليست في القاموس. جرّب كلمة أخرى.")
             return
         self._found.add(nw)
         self._score += 1
-        self.say(f"أحسنت! «{w}» صحيحة. عندك {ar(self._score)} كلمة.")
+        self.say(f"أحسنت! {w} صحيحة. عندك {ar(self._score)} كلمة.")
 
     def instructions(self):
         return ("اذكر أكبر عددٍ من الكلمات الحقيقية التي تبدأ بالحرف المطلوب في ٦٠ ثانية؛ "
@@ -891,7 +891,7 @@ class Anagrams(_GameBase):
         self._begin_timer()
         self.say("لديك ٩٠ ثانية. كوّن كلمات عربية حقيقية من الحروف المعطاة. "
                  "كلّما وجدت كل كلمات الحروف الحالية انتقلنا إلى حروفٍ جديدة. "
-                 "اكتب «حروف» لسماع الحروف من جديد.")
+                 "اكتب حروف لسماع الحروف من جديد.")
         self._new_word(first=True)
 
     def _new_word(self, first=False):
@@ -934,7 +934,7 @@ class Anagrams(_GameBase):
             self.say("لا يمكن تكوين هذه الكلمة من الحروف المتاحة.")
             return
         if not self._dict.is_word(w):
-            self.say(f"«{w}» ليست في القاموس. جرّب كلمة أخرى.")
+            self.say(f"{w} ليست في القاموس. جرّب كلمة أخرى.")
             return
         # valid! score by length, with a bonus for using all the letters
         self._found.add(nw)
@@ -947,17 +947,17 @@ class Anagrams(_GameBase):
         self._score += pts
         # advance to a fresh word once every findable word here is found
         if self._found >= self._findable:
-            self.say(f"صحيحة! «{w}» +{ar(pts)}{bonus}. مجموعك {ar(self._score)}.")
+            self.say(f"صحيحة! {w} +{ar(pts)}{bonus}. مجموعك {ar(self._score)}.")
             self._new_word()
             return
         left = len(self._findable) - len(self._found)
-        self.say(f"صحيحة! «{w}» +{ar(pts)}{bonus}. مجموعك {ar(self._score)}، "
+        self.say(f"صحيحة! {w} +{ar(pts)}{bonus}. مجموعك {ar(self._score)}، "
                  f"تبقّى {ar(left)} كلمة من حروف هذه الجولة.")
 
     def _time_up(self):
         self.record(self._score)
         self.say(f"انتهى الوقت! مجموعك النهائي {ar(self._score)}. "
-                 f"الكلمة الحالية كانت «{self._source}». «لعبة جديدة» لجولة أخرى.")
+                 f"الكلمة الحالية كانت {self._source}. لعبة جديدة لجولة أخرى.")
 
     def on_repeat(self):
         self.say("الحروف: " + " ، ".join(self._letters))
@@ -966,8 +966,8 @@ class Anagrams(_GameBase):
         return ("لعبة الأناغرام: من الحروف المبعثرة، كوّن أكبر عددٍ من الكلمات العربية "
                 "الحقيقية في ٩٠ ثانية. تُدقَّق كل كلمة في قاموس عربيٍّ داخل البرنامج بلا إنترنت. "
                 "متى وجدت كل كلمات الحروف الحالية انتقلت تلقائياً إلى حروفٍ جديدة. الكلمة "
-                "الأطول نقاطها أكثر، والكلمة الكاملة تمنح مكافأة. اكتب «حروف» أو Ctrl+R "
-                "لسماع الحروف، Ctrl+R كذلك، «الوقت المتبقّي» لمعرفة الوقت. Escape للإغلاق.")
+                "الأطول نقاطها أكثر، والكلمة الكاملة تمنح مكافأة. اكتب حروف أو Ctrl+R "
+                "لسماع الحروف، Ctrl+R كذلك، الوقت المتبقّي لمعرفة الوقت. Escape للإغلاق.")
 
 
 # --------------------------------------------------------------------------
@@ -1013,7 +1013,7 @@ class ConnectFour(GridGameDialog):
         s.Add(row, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
         self.set_first_control(self.grid)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     def start(self):
         self._b = [[" "] * self.COLS for _ in range(self.ROWS)]
@@ -1024,7 +1024,7 @@ class ConnectFour(GridGameDialog):
         lvl = self.LEVELS[self.choice_index(self.levelChoice)]
         self.say(f"لوح جديد ٦×٧. المستوى {lvl}. حرّك بالأسهم يميناً ويساراً لاختيار العمود، "
                  f"واضغط Enter لإسقاط قطعتك. اجمع أربعاً على التوالي لتفوز.")
-        wx.CallAfter(self.grid.SetFocus)
+        self.call_after(self.grid.SetFocus)
 
     def cell_word(self, r, c):
         v = self._b[r][c]
@@ -1043,7 +1043,7 @@ class ConnectFour(GridGameDialog):
 
     def activate(self, r, c):
         if self._over:
-            self.say("انتهت اللعبة. «لعبة جديدة».")
+            self.say("انتهت اللعبة. لعبة جديدة.")
             return
         rr = self._drop_row(self._b, c)
         if rr is None:
@@ -1053,13 +1053,13 @@ class ConnectFour(GridGameDialog):
         self.refresh_grid()
         if self._wins(self._b, "X"):
             self._over = True
-            self.say(f"أسقطت في {self.addr(rr, c)}. أربعة على التوالي — فزت! «لعبة جديدة».")
+            self.say(f"أسقطت في {self.addr(rr, c)}. أربعة على التوالي — فزت! لعبة جديدة.")
             if save_score(self.academy, self.GAME_KEY, 1, True):
                 self.announce("فوز جديد مسجّل!")
             return
         if self._full(self._b):
             self._over = True
-            self.say("امتلأ اللوح. تعادل! «لعبة جديدة».")
+            self.say("امتلأ اللوح. تعادل! لعبة جديدة.")
             return
         ai_c = self._ai_move()
         ai_r = self._drop_row(self._b, ai_c)
@@ -1068,11 +1068,11 @@ class ConnectFour(GridGameDialog):
         self.refresh_grid()
         if self._wins(self._b, "O"):
             self._over = True
-            self.say(f"لعب الحاسوب في العمود {self._labels[ai_c]} وجمع أربعاً ففاز. «لعبة جديدة».")
+            self.say(f"لعب الحاسوب في العمود {self._labels[ai_c]} وجمع أربعاً ففاز. لعبة جديدة.")
             return
         if self._full(self._b):
             self._over = True
-            self.say("امتلأ اللوح. تعادل! «لعبة جديدة».")
+            self.say("امتلأ اللوح. تعادل! لعبة جديدة.")
             return
         self.say(f"لعبتَ في {self.addr(rr, c)}. لعب الحاسوب في العمود {self._labels[ai_c]}. "
                  f"دورك؛ اختر عموداً بالأسهم.")
@@ -1181,7 +1181,7 @@ class ConnectFour(GridGameDialog):
     def instructions(self):
         return ("أربعة على التوالي على لوح ٦×٧ ضد الحاسوب. تنقّل بالأسهم يميناً ويساراً "
                 "لاختيار العمود (وأعلى/أسفل لتفحّص الصفوف، بلا التفاف)، واضغط Enter لإسقاط "
-                "قطعتك. «قراءة العمود» يقرأ العمود الحالي. اختر المستوى: سهل، متوسّط، صعب. "
+                "قطعتك. قراءة العمود يقرأ العمود الحالي. اختر المستوى: سهل، متوسّط، صعب. "
                 "اجمع أربع قطع متتالية أفقياً أو رأسياً أو قطرياً. Escape للإغلاق.")
 
 
@@ -1240,7 +1240,7 @@ class Reversi(GridGameDialog):
         s.Add(row, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
         self.set_first_control(self.grid)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     def start(self):
         self._b = [[" "] * 8 for _ in range(8)]
@@ -1252,9 +1252,9 @@ class Reversi(GridGameDialog):
         self.refresh_grid()
         lvl = self.LEVELS[self.choice_index(self.levelChoice)]
         self.say(f"لوح جديد ٨×٨. أنت القطع الداكنة. المستوى {lvl}. ضع قطعة لتحصر قطع الحاسوب "
-                 f"بين قطعتين لك فتنقلب لك. تنقّل بالأسهم وEnter للوضع. «حركاتي الممكنة» "
+                 f"بين قطعتين لك فتنقلب لك. تنقّل بالأسهم وEnter للوضع. حركاتي الممكنة "
                  f"لسماع الخانات المتاحة.")
-        wx.CallAfter(self.grid.SetFocus)
+        self.call_after(self.grid.SetFocus)
 
     def cell_word(self, r, c):
         v = self._b[r][c]
@@ -1283,11 +1283,11 @@ class Reversi(GridGameDialog):
 
     def activate(self, r, c):
         if self._over:
-            self.say("انتهت اللعبة. «لعبة جديدة».")
+            self.say("انتهت اللعبة. لعبة جديدة.")
             return
         flips = self._flips(self._b, r, c, self._me)
         if not flips:
-            self.say(f"{self.addr(r, c)} ليست حركة صالحة. اضغط «حركاتي الممكنة».")
+            self.say(f"{self.addr(r, c)} ليست حركة صالحة. اضغط حركاتي الممكنة.")
             return
         self._place(self._b, r, c, self._me, flips)
         self.refresh_grid()
@@ -1361,19 +1361,19 @@ class Reversi(GridGameDialog):
         self._over = True
         d, l = self._count()
         if d > l:
-            self.say(f"انتهت اللعبة! لك {ar(d)} وللحاسوب {ar(l)}. فزت! أحسنت. «لعبة جديدة».")
+            self.say(f"انتهت اللعبة! لك {ar(d)} وللحاسوب {ar(l)}. فزت! أحسنت. لعبة جديدة.")
             if save_score(self.academy, self.GAME_KEY, d, True):
                 self.announce("رقم قياسي جديد!")
         elif l > d:
-            self.say(f"انتهت اللعبة! لك {ar(d)} وللحاسوب {ar(l)}. فاز الحاسوب. «لعبة جديدة».")
+            self.say(f"انتهت اللعبة! لك {ar(d)} وللحاسوب {ar(l)}. فاز الحاسوب. لعبة جديدة.")
         else:
-            self.say(f"انتهت اللعبة بالتعادل {ar(d)} لكلٍّ. «لعبة جديدة».")
+            self.say(f"انتهت اللعبة بالتعادل {ar(d)} لكلٍّ. لعبة جديدة.")
 
     def instructions(self):
         return ("عكس (أوثيلو) على لوح ٨×٨ ضد الحاسوب. أنت القطع الداكنة. ضع قطعةً بحيث "
                 "تحصر قطع الحاسوب بين قطعتين لك في خطٍّ مستقيم فتنقلب إليك. تنقّل بأسهم "
-                "الاتجاهات الأربعة (بلا التفاف) وEnter للوضع. «حركاتي الممكنة» لسماع الخانات "
-                "المتاحة، و«النتيجة الحالية» للعدّ. اختر المستوى: سهل، متوسّط، صعب. من يملك "
+                "الاتجاهات الأربعة (بلا التفاف) وEnter للوضع. حركاتي الممكنة لسماع الخانات "
+                "المتاحة، والنتيجة الحالية للعدّ. اختر المستوى: سهل، متوسّط، صعب. من يملك "
                 "أكثر القطع في النهاية يفوز. Escape للإغلاق.")
 
 
@@ -1408,9 +1408,9 @@ class DotsAndBoxes(_GameBase):
         self._my_score = 0
         self._ai_score = 0
         self._over = False
-        self.say(f"شبكة {ar(n)}×{ar(n)} صناديق. ارسم خطاً بين نقطتين: اكتب «أفقي صف عمود» "
-                 f"أو «عمودي صف عمود». مثال: «أفقي ١ ١». من يكمل الضلع الرابع لصندوق يملكه "
-                 f"ويلعب مرة أخرى. اكتب «خطوط» لسماع الخطوط المتاحة.")
+        self.say(f"شبكة {ar(n)}×{ar(n)} صناديق. ارسم خطاً بين نقطتين: اكتب أفقي صف عمود "
+                 f"أو عمودي صف عمود. مثال: أفقي ١ ١. من يكمل الضلع الرابع لصندوق يملكه "
+                 f"ويلعب مرة أخرى. اكتب خطوط لسماع الخطوط المتاحة.")
 
     def _avail(self):
         """List available lines as tuples ('h'|'v', r, c)."""
@@ -1459,7 +1459,7 @@ class DotsAndBoxes(_GameBase):
 
     def handle(self, text):
         if self._over:
-            self.say("انتهت اللعبة. «لعبة جديدة».")
+            self.say("انتهت اللعبة. لعبة جديدة.")
             return
         t = text.strip()
         if "خطوط" in t:
@@ -1467,12 +1467,12 @@ class DotsAndBoxes(_GameBase):
             return
         parsed = self._parse(t)
         if not parsed:
-            self.say("اكتب مثل «أفقي ١ ١» أو «عمودي ٢ ٣». «خطوط» لسماع المتاح.")
+            self.say("اكتب مثل أفقي ١ ١ أو عمودي ٢ ٣. خطوط لسماع المتاح.")
             return
         kind, r, c = parsed
         # validate bounds + not taken
         if not self._valid_line(kind, r, c):
-            self.say("خط غير صالح أو مرسوم. اكتب «خطوط» لسماع المتاح.")
+            self.say("خط غير صالح أو مرسوم. اكتب خطوط لسماع المتاح.")
             return
         got = self._draw(kind, r, c, "أنت")
         self._my_score += got
@@ -1563,20 +1563,20 @@ class DotsAndBoxes(_GameBase):
         self._over = True
         if self._my_score > self._ai_score:
             self.say(f"انتهت! لك {ar(self._my_score)} صندوقاً وللحاسوب {ar(self._ai_score)}. "
-                     f"فزت! «لعبة جديدة».")
+                     f"فزت! لعبة جديدة.")
             if save_score(self.academy, self.GAME_KEY, self._my_score, True):
                 self.announce("رقم قياسي جديد!")
         elif self._ai_score > self._my_score:
             self.say(f"انتهت! لك {ar(self._my_score)} وللحاسوب {ar(self._ai_score)}. "
-                     f"فاز الحاسوب. «لعبة جديدة».")
+                     f"فاز الحاسوب. لعبة جديدة.")
         else:
-            self.say(f"تعادل {ar(self._my_score)} لكلٍّ! «لعبة جديدة».")
+            self.say(f"تعادل {ar(self._my_score)} لكلٍّ! لعبة جديدة.")
 
     def on_repeat(self):
         self._say_avail()
 
     def instructions(self):
         return ("النقاط والصناديق: ارسم خطوطاً بين النقاط؛ من يكمل الضلع الرابع لصندوق "
-                "يملكه ويلعب مرة أخرى. اكتب «أفقي صف عمود» أو «عمودي صف عمود» (مثل «أفقي ١ ١»)، "
-                "و«خطوط» لسماع المتاح. الحاسوب يتجنّب إهداءك الصناديق. من يملك أكثر صناديق "
+                "يملكه ويلعب مرة أخرى. اكتب أفقي صف عمود أو عمودي صف عمود (مثل أفقي ١ ١)، "
+                "وخطوط لسماع المتاح. الحاسوب يتجنّب إهداءك الصناديق. من يملك أكثر صناديق "
                 "يفوز. Escape للإغلاق.")

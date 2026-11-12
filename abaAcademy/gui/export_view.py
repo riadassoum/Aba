@@ -27,7 +27,7 @@ class ExportView(AccessibleDialog):
         panel = wx.Panel(self)
         s = wx.BoxSizer(wx.VERTICAL)
         s.Add(wx.StaticText(panel, label=(
-            "هذا تقرير تقدّمك الكامل. يمكنك قراءته أو نسخه، و«حفظ كملف» يكتبه في "
+            "هذا تقرير تقدّمك الكامل. يمكنك قراءته أو نسخه، وحفظ كملف يكتبه في "
             "مجلّد بياناتك لتحتفظ به أو ترسله لمعلّمك.")), 0, wx.ALL, 8)
         self._text = academy.export_progress_text()
         self.body = wx.TextCtrl(panel, style=wx.TE_MULTILINE | wx.TE_READONLY,
@@ -59,5 +59,5 @@ class ExportView(AccessibleDialog):
             self.announce("تعذّر النسخ.")
 
     def instructions(self):
-        return ("تقرير تقدّمك الكامل. «حفظ كملف» يكتبه في مجلّد بياناتك، و«نسخ» ينسخه. "
+        return ("تقرير تقدّمك الكامل. حفظ كملف يكتبه في مجلّد بياناتك، ونسخ ينسخه. "
                 "Escape للإغلاق.")

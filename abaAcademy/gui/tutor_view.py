@@ -55,7 +55,7 @@ class TutorDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(self.report)
-        wx.CallAfter(self._refresh)
+        self.call_after(self._refresh)
 
     def _refresh(self):
         lines = []
@@ -115,7 +115,7 @@ class TutorDialog(AccessibleDialog):
             return topic
 
     def instructions(self):
-        return ("المعلّم الذكي: «حدّث تقريري» يعرض دقّتك وأقوى موضوعاتك وما يحتاج تدعيمًا. "
-                "«بمَ توصيني الآن؟» يقترح مزيج جلسة متوازنة (جديد، مراجعة مجدولة، تدعيم "
+        return ("المعلّم الذكي: حدّث تقريري يعرض دقّتك وأقوى موضوعاتك وما يحتاج تدعيمًا. "
+                "بمَ توصيني الآن؟ يقترح مزيج جلسة متوازنة (جديد، مراجعة مجدولة، تدعيم "
                 "الضعف، وأسئلة متنوّعة من دروس سابقة) مع سبب كل اختيار، ويتكيّف مع مستواك. "
                 "Escape للإغلاق.")

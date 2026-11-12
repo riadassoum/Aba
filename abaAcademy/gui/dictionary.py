@@ -116,7 +116,7 @@ class DictionaryDialog(AccessibleDialog):
 
     def _run(self, w):
         res = lookup_english(w)
-        wx.CallAfter(self._done, w, res)
+        self.call_after(self._done, w, res)
 
     def _done(self, w, res):
         if not res:
@@ -165,9 +165,9 @@ class DictionaryDialog(AccessibleDialog):
             tag = "d" + hashlib.md5(self._audio_url.encode()).hexdigest()[:10]
             path = self._dl.fetch(tag, 128, 1, url=self._audio_url)
         if path:
-            wx.CallAfter(self._player.play_file, path)
+            self.call_after(self._player.play_file, path)
         else:
-            wx.CallAfter(self.announce, "تعذّر تحميل النطق.")
+            self.call_after(self.announce, "تعذّر تحميل النطق.")
 
     def _to_card(self):
         if not self._word or not self._first_def:
@@ -175,7 +175,7 @@ class DictionaryDialog(AccessibleDialog):
             return
         try:
             self.academy.flashcards.add(self._word, self._first_def, deck="قاموس إنجليزي")
-            self.announce("أُضيفت الكلمة إلى بطاقاتك في مجموعة «قاموس إنجليزي».")
+            self.announce("أُضيفت الكلمة إلى بطاقاتك في مجموعة قاموس إنجليزي.")
         except Exception:
             self.announce("تعذّرت الإضافة.")
 

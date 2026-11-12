@@ -91,16 +91,16 @@ def gen_entity(count: int, rng: random.Random, **params) -> List[Question]:
 
     # For each attribute, collect the set of "type" words — the first word of
     # multi-word values (e.g. currency types الريال/الدينار/الدرهم, or title
-    # words). These let us manufacture same-owner distractors: for «الريال
-    # السعودي» we can offer «الدرهم السعودي»، «الدينار السعودي» — plausible wrong
+    # words). These let us manufacture same-owner distractors: for الريال
+    # السعودي we can offer الدرهم السعودي، الدينار السعودي — plausible wrong
     # answers that keep the country's OWN qualifier, so a learner can't win by
     # spotting a foreign currency. This is far better than offering another
     # country's real currency, which gives the answer away.
     # The same-owner type-swap trick (keep the qualifier, swap the type word) is
     # only valid for attributes whose values are "<type> <qualifier>" with a
     # REUSABLE type — currencies (الريال/الدرهم/الدينار …). It must NOT touch
-    # place names like «أبو ظبي», whose first word is part of an indivisible
-    # name; swapping it manufactured nonsense such as «إسلام ظبي» / «أبو آباد».
+    # place names like أبو ظبي, whose first word is part of an indivisible
+    # name; swapping it manufactured nonsense such as إسلام ظبي / أبو آباد.
     # We therefore whitelist the attributes that carry a reusable type, and draw
     # the type words from the trick bank (which lists real currency types).
     _TYPE_SWAP_ATTRS = {"العملة"}
@@ -118,9 +118,9 @@ def gen_entity(count: int, rng: random.Random, **params) -> List[Question]:
 
     def same_owner_variants(attr, value):
         """Distractors that keep ``value``'s qualifier but swap its type word,
-        e.g. «الريال السعودي» -> «الدرهم السعودي». Only fires when the value's own
-        first word is a *shared* recurring type, so «أبو ظبي» is left alone
-        instead of becoming «إسلام ظبي»."""
+        e.g. الريال السعودي -> الدرهم السعودي. Only fires when the value's own
+        first word is a *shared* recurring type, so أبو ظبي is left alone
+        instead of becoming إسلام ظبي."""
         parts = value.split()
         if len(parts) < 2 or attr not in type_words:
             return []
@@ -156,14 +156,14 @@ def gen_entity(count: int, rng: random.Random, **params) -> List[Question]:
             # attribute name a pack might invent, without the generator having
             # to know Arabic grammar. The entity kind ("بلد", "عنصر") is used
             # only in the reverse direction, where it is genuinely needed.
-            subject = f"«{name}»"
+            subject = f"{name}"
 
             def forward(name=name, attr=attr, value=value, peers=peers,
                         topic=topic, difficulty=difficulty, qid=qid,
                         subject=subject):
                 # Prefer distractors that keep this entity's OWN qualifier and
-                # only change the type word — «الدرهم السعودي»، «الدينار السعودي»
-                # for «الريال السعودي» — so no option belongs to another country
+                # only change the type word — الدرهم السعودي، الدينار السعودي
+                # for الريال السعودي — so no option belongs to another country
                 # and gives the answer away. Fall back to peer values only when
                 # the answer isn't a "<type> <qualifier>" shape (e.g. a bare
                 # capital city), where peers are the right kind of distractor.
@@ -198,9 +198,9 @@ def gen_entity(count: int, rng: random.Random, **params) -> List[Question]:
                     return None
                 label = kind or "العنصر"
                 q = Question(qtype=QuestionType.MCQ,
-                             prompt=f"أي {label} {attr} فيه «{value}»؟",
+                             prompt=f"أي {label} {attr} فيه {value}؟",
                              correct=index, options=options,
-                             explanation=f"{attr} في «{name}»: {value}.",
+                             explanation=f"{attr} في {name}: {value}.",
                              topic=topic, difficulty=difficulty + 1)
                 q.qid = qid
                 return q
@@ -211,7 +211,7 @@ def gen_entity(count: int, rng: random.Random, **params) -> List[Question]:
                 claim_true = not peers or rng.random() < 0.5
                 shown = value if claim_true else rng.choice(peers)
                 q = Question(qtype=QuestionType.TRUE_FALSE,
-                             prompt=f"في {subject}: هل {attr} «{shown}»؟",
+                             prompt=f"في {subject}: هل {attr} {shown}؟",
                              correct=claim_true,
                              explanation=(f"نعم، {attr} في {subject}: {value}."
                                           if claim_true else
@@ -270,9 +270,9 @@ def gen_category(count: int, rng: random.Random, **params) -> List[Question]:
                 if len(options) < 2:
                     return None
                 q = Question(qtype=QuestionType.MCQ,
-                             prompt=f"إلى أي مجموعة ينتمي «{member}»؟",
+                             prompt=f"إلى أي مجموعة ينتمي {member}؟",
                              correct=index, options=options,
-                             explanation=f"«{member}» من {group}.",
+                             explanation=f"{member} من {group}.",
                              topic=topic, difficulty=1)
                 q.qid = qid
                 return q
@@ -284,7 +284,7 @@ def gen_category(count: int, rng: random.Random, **params) -> List[Question]:
                 q = Question(qtype=QuestionType.MCQ,
                              prompt=f"أي {noun} التالي من {group}؟",
                              correct=index, options=options,
-                             explanation=f"«{member}» من {group}.",
+                             explanation=f"{member} من {group}.",
                              topic=topic, difficulty=2)
                 q.qid = qid
                 return q
@@ -301,7 +301,7 @@ def gen_category(count: int, rng: random.Random, **params) -> List[Question]:
         q = Question(qtype=QuestionType.MCQ,
                      prompt="أي عنصر لا ينتمي إلى المجموعة؟",
                      correct=options.index(odd), options=options,
-                     explanation=f"«{odd}» من {other}، وبقية العناصر من {group}.",
+                     explanation=f"{odd} من {other}، وبقية العناصر من {group}.",
                      topic=topic, difficulty=3)
         q.qid = signature_qid("knowledge.category", "odd|" + "|".join(sorted(options)))
         return q

@@ -82,7 +82,7 @@ class SpellingDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(self.catChoice)
-        wx.CallAfter(self._new_question)
+        self.call_after(self._new_question)
 
     def _new_question(self):
         cat = self._cats[self.catChoice.GetSelection()][0]
@@ -113,11 +113,11 @@ class SpellingDialog(AccessibleDialog):
         self._asked += 1
         if chosen == self._item.correct:
             self._score += 1
-            self._say(f"صحيح! «{self._item.correct}». {self._item.rule} "
+            self._say(f"صحيح! {self._item.correct}. {self._item.rule} "
                       f"نتيجتك {self._score} من {self._asked}.")
             self.call_later(1200, self._new_question)
         else:
-            self._say(f"غير صحيح. الصواب «{self._item.correct}». "
+            self._say(f"غير صحيح. الصواب {self._item.correct}. "
                       f"القاعدة: {self._item.rule}")
 
     def _read_rule(self):
@@ -132,4 +132,4 @@ class SpellingDialog(AccessibleDialog):
         return ("مختبر الإملاء: اختر الباب (همزة الوصل والقطع، الهمزة المتوسطة والمتطرفة، "
                 "الألف المقصورة والياء، التاء المربوطة والهاء، أو الكل). تُعرض كتابتان، "
                 "تُقرأ كل منهما حرفًا حرفًا، اختر الصحيحة بالأسهم واضغط Enter. عند الخطأ "
-                "تُشرح القاعدة. «اقرأ القاعدة» يعيد شرح القاعدة. Escape للإغلاق.")
+                "تُشرح القاعدة. اقرأ القاعدة يعيد شرح القاعدة. Escape للإغلاق.")
