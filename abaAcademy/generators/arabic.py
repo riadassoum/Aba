@@ -65,10 +65,10 @@ def gen_sun_moon(count: int, rng: random.Random, **params) -> List[Question]:
         rng.shuffle(options)
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"ما نوع اللام في كلمة «{word}»؟",
+            prompt=f"ما نوع اللام في كلمة {word}؟",
             correct=options.index(correct_label),
             options=options,
-            explanation=(f"الحرف «{first}» من الحروف "
+            explanation=(f"الحرف {first} من الحروف "
                          + ("الشمسية، فتُدغم اللام فيه ويُشدَّد." if is_sun
                             else "القمرية، فتُنطق اللام واضحة.")),
             topic="ar.sun_moon",
@@ -105,10 +105,10 @@ def gen_plural(count: int, rng: random.Random, **params) -> List[Question]:
         if rng.random() < 0.5 or len(kinds) < 2:
             q = Question(
                 qtype=QuestionType.TYPING,
-                prompt=f"اكتب جمع كلمة «{singular}»:",
+                prompt=f"اكتب جمع كلمة {singular}:",
                 correct=plural,
                 accepted=list(p.get("accepted", [])),
-                explanation=f"جمع «{singular}» هو «{plural}»"
+                explanation=f"جمع {singular} هو {plural}"
                             + (f" (جمع {p['kind']})." if p.get("kind") else "."),
                 topic="ar.plural",
             )
@@ -118,10 +118,10 @@ def gen_plural(count: int, rng: random.Random, **params) -> List[Question]:
             rng.shuffle(options)
             q = Question(
                 qtype=QuestionType.MCQ,
-                prompt=f"ما نوع جمع «{plural}» (جمع «{singular}»)؟",
+                prompt=f"ما نوع جمع {plural} (جمع {singular})؟",
                 correct=options.index(kind),
                 options=options,
-                explanation=f"«{plural}» جمع {kind}.",
+                explanation=f"{plural} جمع {kind}.",
                 topic="ar.plural",
             )
         q.qid = signature_qid("ar.plural", singular + plural)
@@ -188,10 +188,10 @@ def gen_conjugate(count: int, rng: random.Random, **params) -> List[Question]:
         rng.shuffle(options)
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"صرّف الفعل (الجذر المضارع «{stem}»، بمعنى {verb.get('meaning','')}) مع الضمير «{pronoun}»:",
+            prompt=f"صرّف الفعل (الجذر المضارع {stem}، بمعنى {verb.get('meaning','')}) مع الضمير {pronoun}:",
             correct=options.index(correct),
             options=options,
-            explanation=f"مع «{pronoun}» يكون التصريف «{correct}».",
+            explanation=f"مع {pronoun} يكون التصريف {correct}.",
             topic="ar.conjugate",
             difficulty=2,
         )
@@ -247,7 +247,7 @@ def gen_hamza_pos(count: int, rng: random.Random, **params) -> List[Question]:
             correct=options.index(correct),
             options=options,
             explanation=(f"القاعدة: تُكتب الهمزة على حرف يناسب أقوى الحركتين "
-                         f"(الكسرة ثم الضمة ثم الفتحة ثم السكون)، فتكون على «{correct}»."),
+                         f"(الكسرة ثم الضمة ثم الفتحة ثم السكون)، فتكون على {correct}."),
             topic="ar.hamza_pos",
             difficulty=3,
         )

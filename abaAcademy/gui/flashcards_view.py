@@ -13,7 +13,7 @@ The flashcard screens (Arabic, right-to-left, self-voicing):
 * a simple manager to add, edit and delete cards.
 
 Designed for Arab students: every label and message is Arabic, decks default to
-«عام», and cards suit Arabic vocabulary, Qur'an, or foreign-word study.
+عام, and cards suit Arabic vocabulary, Qur'an, or foreign-word study.
 """
 
 from __future__ import annotations
@@ -256,15 +256,21 @@ class LibraryScreen(AccessibleDialog):
         self.academy = academy
         panel = wx.Panel(self)
         s = wx.BoxSizer(wx.VERTICAL)
-        s.Add(wx.StaticText(panel, label="بطاقات جاهزة مبنية من دروسك (الإنجليزية، الفرنسية، "
-                                        "والمواد). اختر مجموعة وأضِفها إلى بطاقاتك."), 0, wx.ALL, 8)
+        s.Add(wx.StaticText(panel, label="بطاقات جاهزة مبنية من دروسك (اللغات والمواد). "
+                                        "اختر مجموعة وأضِفها إلى بطاقاتك."), 0, wx.ALL, 8)
         self.listBox = wx.ListBox(panel, style=wx.LB_SINGLE)
         self.listBox.SetName("قائمة المجموعات الجاهزة")
         s.Add(self.listBox, 1, wx.EXPAND | wx.ALL, 6)
         b = wx.BoxSizer(wx.HORIZONTAL)
         b.Add(self.button(panel, "أضِف هذه المجموعة", lambda e: self._add_one()), 0, wx.ALL, 4)
-        b.Add(self.button(panel, "أضِف كل الإنجليزية", lambda e: self._add_course("english")), 0, wx.ALL, 4)
-        b.Add(self.button(panel, "أضِف كل الفرنسية", lambda e: self._add_course("french")), 0, wx.ALL, 4)
+        self._courses = [(cid, label) for cid, label in self.COURSE_LABELS
+                         if any(d.get("course") == cid for d in self.academy.flashcards.starter_index())]
+        self.courseChoice = wx.Choice(panel, choices=[label for _, label in self._courses])
+        self.courseChoice.SetName("المادّة أو اللغة لإضافة كل مجموعاتها")
+        if self._courses:
+            self.courseChoice.SetSelection(0)
+        b.Add(self.courseChoice, 0, wx.ALL, 4)
+        b.Add(self.button(panel, "أضِف كل مجموعات المختار", lambda e: self._add_selected_course()), 0, wx.ALL, 4)
         b.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()), 0, wx.ALL, 4)
         s.Add(b, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
@@ -286,22 +292,35 @@ class LibraryScreen(AccessibleDialog):
             return
         d = self._decks[i]
         n = self.academy.flashcards.load_starter_deck(d["id"], d["name"])
-        self.announce(f"أُضيفت {n} بطاقة من «{d['name']}»." if n else "هذه المجموعة مُضافة مسبقاً.")
+        self.announce(f"أُضيفت {n} بطاقة من {d['name']}." if n else "هذه المجموعة مُضافة مسبقاً.")
         self._reload()
+
+    COURSE_LABELS = [
+        ("english", "الإنجليزية"), ("english_graded", "الإنجليزية بالجمل"), ("french", "الفرنسية"),
+        ("french_graded", "الفرنسية بالجمل"), ("spanish", "الإسبانية"), ("turkish", "التركية"),
+        ("german", "الألمانية"), ("italian", "الإيطالية"), ("science", "العلوم"), ("geography", "الجغرافيا"),
+        ("arabic", "العربية"), ("history", "التاريخ"), ("general", "معلومات عامة"), ("computer", "الحاسوب"),
+    ]
+
+    def _add_selected_course(self):
+        i = self.courseChoice.GetSelection()
+        if i == wx.NOT_FOUND or not self._courses:
+            return
+        self._add_course(self._courses[i][0])
 
     def _add_course(self, course):
         total = 0
         for d in self._decks:
             if d.get("course") == course:
                 total += self.academy.flashcards.load_starter_deck(d["id"], d["name"])
-        label = "الإنجليزية" if course == "english" else "الفرنسية"
+        label = dict(self.COURSE_LABELS).get(course, course)
         self.announce(f"أُضيفت {total} بطاقة من مجموعات {label}." if total
                       else f"كل مجموعات {label} مُضافة مسبقاً.")
         self._reload()
 
     def instructions(self):
-        return ("تصفّح المجموعات الجاهزة بالأسهم وأضِف ما تريد إلى بطاقاتك، أو أضِف كل مجموعات "
-                "الإنجليزية أو الفرنسية دفعةً واحدة. Escape للإغلاق.")
+        return ("تصفّح المجموعات الجاهزة بالأسهم وأضِف ما تريد إلى بطاقاتك، أو اختر لغة أو مادّة "
+                "وأضِف كل مجموعاتها دفعةً واحدة. Escape للإغلاق.")
 
 
 class FlashcardsHome(AccessibleDialog):
@@ -324,7 +343,7 @@ class FlashcardsHome(AccessibleDialog):
         self.startBtn.SetDefault()
         s.Add(self.startBtn, 0, wx.EXPAND | wx.ALL, 6)
         s.Add(self.button(panel, "إضافة بطاقة", lambda e: self._quick_add()), 0, wx.EXPAND | wx.ALL, 6)
-        s.Add(self.button(panel, "مكتبة البطاقات الجاهزة (إنجليزي/فرنسي/مواد)", lambda e: self._library()), 0, wx.EXPAND | wx.ALL, 6)
+        s.Add(self.button(panel, "مكتبة البطاقات الجاهزة (اللغات والمواد)", lambda e: self._library()), 0, wx.EXPAND | wx.ALL, 6)
         s.Add(self.button(panel, "إدارة البطاقات", lambda e: self._manage()), 0, wx.EXPAND | wx.ALL, 6)
         s.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()), 0, wx.ALIGN_RIGHT | wx.ALL, 6)
         panel.SetSizer(s)
@@ -333,7 +352,7 @@ class FlashcardsHome(AccessibleDialog):
     def _summary(self):
         st = self.academy.flashcards.stats()
         if st["total"] == 0:
-            return ("لا توجد بطاقات بعد. افتح «مكتبة البطاقات الجاهزة» لإضافة آلاف البطاقات "
+            return ("لا توجد بطاقات بعد. افتح مكتبة البطاقات الجاهزة لإضافة آلاف البطاقات "
                     "المبنية من دروسك (إنجليزي، فرنسي، ومواد)، أو أنشئ بطاقاتك بنفسك.")
         return (f"لديك {st['total']} بطاقة في {st['decks']} مجموعة، "
                 f"منها {st['due']} مستحقّة للمراجعة الآن.")

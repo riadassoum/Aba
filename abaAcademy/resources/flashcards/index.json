@@ -1,494 +1,1388 @@
 [
-{
-"id": "en_001",
-"name": "الإنجليزية: التحيات",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_002",
-"name": "الإنجليزية: الأرقام",
-"course": "english",
-"count": 20
-},
-{
-"id": "en_003",
-"name": "الإنجليزية: الألوان",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_004",
-"name": "الإنجليزية: العائلة",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_005",
-"name": "الإنجليزية: الحيوانات",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_006",
-"name": "الإنجليزية: المنزل",
-"course": "english",
-"count": 16
-},
-{
-"id": "en_007",
-"name": "الإنجليزية: الطعام والشراب",
-"course": "english",
-"count": 22
-},
-{
-"id": "en_008",
-"name": "الإنجليزية: الوقت",
-"course": "english",
-"count": 16
-},
-{
-"id": "en_009",
-"name": "الإنجليزية: أعضاء الجسم",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_010",
-"name": "الإنجليزية: الصفات",
-"course": "english",
-"count": 32
-},
-{
-"id": "en_011",
-"name": "الإنجليزية: المهن",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_012",
-"name": "الإنجليزية: الأماكن",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_013",
-"name": "الإنجليزية: المواصلات",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_014",
-"name": "الإنجليزية: الطقس",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_015",
-"name": "الإنجليزية: الأفعال",
-"course": "english",
-"count": 60
-},
-{
-"id": "en_016",
-"name": "الإنجليزية: الملابس",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_017",
-"name": "الإنجليزية: التسوق",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_018",
-"name": "الإنجليزية: المقارنة والتفضيل",
-"course": "english",
-"count": 16
-},
-{
-"id": "en_019",
-"name": "الإنجليزية: السفر",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_020",
-"name": "الإنجليزية: الصحة",
-"course": "english",
-"count": 12
-},
-{
-"id": "en_021",
-"name": "الإنجليزية: المشاعر",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_022",
-"name": "الإنجليزية: العمل",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_023",
-"name": "الإنجليزية: التكنولوجيا",
-"course": "english",
-"count": 14
-},
-{
-"id": "en_024",
-"name": "الإنجليزية: التعليم",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_025",
-"name": "الإنجليزية: الأفعال المركبة",
-"course": "english",
-"count": 20
-},
-{
-"id": "en_026",
-"name": "الإنجليزية: التعابير الاصطلاحية",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_027",
-"name": "الإنجليزية: اللغة الأكاديمية",
-"course": "english",
-"count": 20
-},
-{
-"id": "en_028",
-"name": "الإنجليزية: لغة الأعمال",
-"course": "english",
-"count": 10
-},
-{
-"id": "en_029",
-"name": "الإنجليزية: إتقان متقدم",
-"course": "english",
-"count": 20
-},
-{
-"id": "fr_001",
-"name": "الفرنسية: التحيات",
-"course": "french",
-"count": 14
-},
-{
-"id": "fr_002",
-"name": "الفرنسية: الأرقام",
-"course": "french",
-"count": 20
-},
-{
-"id": "fr_003",
-"name": "الفرنسية: الألوان",
-"course": "french",
-"count": 12
-},
-{
-"id": "fr_004",
-"name": "الفرنسية: العائلة",
-"course": "french",
-"count": 14
-},
-{
-"id": "fr_005",
-"name": "الفرنسية: الحيوانات",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_006",
-"name": "الفرنسية: المنزل",
-"course": "french",
-"count": 16
-},
-{
-"id": "fr_007",
-"name": "الفرنسية: الطعام والشراب",
-"course": "french",
-"count": 22
-},
-{
-"id": "fr_008",
-"name": "الفرنسية: الوقت",
-"course": "french",
-"count": 16
-},
-{
-"id": "fr_009",
-"name": "الفرنسية: أعضاء الجسم",
-"course": "french",
-"count": 12
-},
-{
-"id": "fr_010",
-"name": "الفرنسية: الصفات",
-"course": "french",
-"count": 32
-},
-{
-"id": "fr_011",
-"name": "الفرنسية: المهن",
-"course": "french",
-"count": 14
-},
-{
-"id": "fr_012",
-"name": "الفرنسية: الأماكن",
-"course": "french",
-"count": 14
-},
-{
-"id": "fr_013",
-"name": "الفرنسية: المواصلات",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_014",
-"name": "الفرنسية: الطقس",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_015",
-"name": "الفرنسية: الأفعال",
-"course": "french",
-"count": 40
-},
-{
-"id": "fr_016",
-"name": "الفرنسية: الملابس",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_017",
-"name": "الفرنسية: التسوق",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_018",
-"name": "الفرنسية: الاتجاهات",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_019",
-"name": "الفرنسية: المقارنة والتفضيل",
-"course": "french",
-"count": 6
-},
-{
-"id": "fr_020",
-"name": "الفرنسية: في المطعم",
-"course": "french",
-"count": 4
-},
-{
-"id": "fr_021",
-"name": "الفرنسية: السفر",
-"course": "french",
-"count": 10
-},
-{
-"id": "fr_022",
-"name": "الفرنسية: الصحة",
-"course": "french",
-"count": 8
-},
-{
-"id": "fr_023",
-"name": "الفرنسية: المشاعر",
-"course": "french",
-"count": 8
-},
-{
-"id": "fr_024",
-"name": "الفرنسية: العمل",
-"course": "french",
-"count": 8
-},
-{
-"id": "fr_025",
-"name": "الفرنسية: التعبير عن الرأي",
-"course": "french",
-"count": 8
-},
-{
-"id": "fr_026",
-"name": "الفرنسية: المراسلات",
-"course": "french",
-"count": 4
-},
-{
-"id": "fr_027",
-"name": "الفرنسية: إتقان متقدم",
-"course": "french",
-"count": 12
-},
-{
-"id": "fr_028",
-"name": "الفرنسية: التعابير الاصطلاحية",
-"course": "french",
-"count": 8
-},
-{
-"id": "general_001",
-"name": "الثقافة العامة (1)",
-"course": "general",
-"count": 45
-},
-{
-"id": "general_002",
-"name": "الثقافة العامة (2)",
-"course": "general",
-"count": 11
-},
-{
-"id": "science_001",
-"name": "العلوم (1)",
-"course": "science",
-"count": 30
-},
-{
-"id": "science_002",
-"name": "العلوم (2)",
-"course": "science",
-"count": 135
-},
-{
-"id": "science_003",
-"name": "العلوم (3)",
-"course": "science",
-"count": 150
-},
-{
-"id": "science_004",
-"name": "العلوم (4)",
-"course": "science",
-"count": 147
-},
-{
-"id": "science_005",
-"name": "العلوم (5)",
-"course": "science",
-"count": 135
-},
-{
-"id": "science_006",
-"name": "العلوم (6)",
-"course": "science",
-"count": 150
-},
-{
-"id": "science_007",
-"name": "العلوم (7)",
-"course": "science",
-"count": 150
-},
-{
-"id": "science_008",
-"name": "العلوم (8)",
-"course": "science",
-"count": 150
-},
-{
-"id": "science_009",
-"name": "العلوم (9)",
-"course": "science",
-"count": 62
-},
-{
-"id": "geography_001",
-"name": "الجغرافيا (1)",
-"course": "geography",
-"count": 90
-},
-{
-"id": "geography_002",
-"name": "الجغرافيا (2)",
-"course": "geography",
-"count": 127
-},
-{
-"id": "geography_003",
-"name": "الجغرافيا (3)",
-"course": "geography",
-"count": 96
-},
-{
-"id": "geography_004",
-"name": "الجغرافيا (4)",
-"course": "geography",
-"count": 138
-},
-{
-"id": "geography_005",
-"name": "الجغرافيا (5)",
-"course": "geography",
-"count": 142
-},
-{
-"id": "geography_006",
-"name": "الجغرافيا (6)",
-"course": "geography",
-"count": 88
-},
-{
-"id": "geography_007",
-"name": "الجغرافيا (7)",
-"course": "geography",
-"count": 60
-},
-{
-"id": "geography_008",
-"name": "الجغرافيا (8)",
-"course": "geography",
-"count": 88
-},
-{
-"id": "history_001",
-"name": "التاريخ (1)",
-"course": "history",
-"count": 36
-},
-{
-"id": "history_002",
-"name": "التاريخ (2)",
-"course": "history",
-"count": 6
-},
-{
-"id": "computer_001",
-"name": "الحاسوب",
-"course": "computer",
-"count": 24
-},
-{
-"id": "arabic_001",
-"name": "العربية (1)",
-"course": "arabic",
-"count": 15
-},
-{
-"id": "arabic_002",
-"name": "العربية (2)",
-"course": "arabic",
-"count": 17
-},
-{
-"id": "arabic_003",
-"name": "العربية (3)",
-"course": "arabic",
-"count": 8
-}
+ {
+  "id": "en_001",
+  "name": "الإنجليزية: التحيات",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_002",
+  "name": "الإنجليزية: الأرقام",
+  "course": "english",
+  "count": 20
+ },
+ {
+  "id": "en_003",
+  "name": "الإنجليزية: الألوان",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_004",
+  "name": "الإنجليزية: العائلة",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_005",
+  "name": "الإنجليزية: الحيوانات",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_006",
+  "name": "الإنجليزية: المنزل",
+  "course": "english",
+  "count": 16
+ },
+ {
+  "id": "en_007",
+  "name": "الإنجليزية: الطعام والشراب",
+  "course": "english",
+  "count": 22
+ },
+ {
+  "id": "en_008",
+  "name": "الإنجليزية: الوقت",
+  "course": "english",
+  "count": 16
+ },
+ {
+  "id": "en_009",
+  "name": "الإنجليزية: أعضاء الجسم",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_010",
+  "name": "الإنجليزية: الصفات",
+  "course": "english",
+  "count": 32
+ },
+ {
+  "id": "en_011",
+  "name": "الإنجليزية: المهن",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_012",
+  "name": "الإنجليزية: الأماكن",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_013",
+  "name": "الإنجليزية: المواصلات",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_014",
+  "name": "الإنجليزية: الطقس",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_015",
+  "name": "الإنجليزية: الأفعال",
+  "course": "english",
+  "count": 60
+ },
+ {
+  "id": "en_016",
+  "name": "الإنجليزية: الملابس",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_017",
+  "name": "الإنجليزية: التسوق",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_018",
+  "name": "الإنجليزية: المقارنة والتفضيل",
+  "course": "english",
+  "count": 16
+ },
+ {
+  "id": "en_019",
+  "name": "الإنجليزية: السفر",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_020",
+  "name": "الإنجليزية: الصحة",
+  "course": "english",
+  "count": 12
+ },
+ {
+  "id": "en_021",
+  "name": "الإنجليزية: المشاعر",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_022",
+  "name": "الإنجليزية: العمل",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_023",
+  "name": "الإنجليزية: التكنولوجيا",
+  "course": "english",
+  "count": 14
+ },
+ {
+  "id": "en_024",
+  "name": "الإنجليزية: التعليم",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_025",
+  "name": "الإنجليزية: الأفعال المركبة",
+  "course": "english",
+  "count": 20
+ },
+ {
+  "id": "en_026",
+  "name": "الإنجليزية: التعابير الاصطلاحية",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_027",
+  "name": "الإنجليزية: اللغة الأكاديمية",
+  "course": "english",
+  "count": 20
+ },
+ {
+  "id": "en_028",
+  "name": "الإنجليزية: لغة الأعمال",
+  "course": "english",
+  "count": 10
+ },
+ {
+  "id": "en_029",
+  "name": "الإنجليزية: إتقان متقدم",
+  "course": "english",
+  "count": 20
+ },
+ {
+  "id": "fr_001",
+  "name": "الفرنسية: التحيات",
+  "course": "french",
+  "count": 14
+ },
+ {
+  "id": "fr_002",
+  "name": "الفرنسية: الأرقام",
+  "course": "french",
+  "count": 20
+ },
+ {
+  "id": "fr_003",
+  "name": "الفرنسية: الألوان",
+  "course": "french",
+  "count": 12
+ },
+ {
+  "id": "fr_004",
+  "name": "الفرنسية: العائلة",
+  "course": "french",
+  "count": 14
+ },
+ {
+  "id": "fr_005",
+  "name": "الفرنسية: الحيوانات",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_006",
+  "name": "الفرنسية: المنزل",
+  "course": "french",
+  "count": 16
+ },
+ {
+  "id": "fr_007",
+  "name": "الفرنسية: الطعام والشراب",
+  "course": "french",
+  "count": 22
+ },
+ {
+  "id": "fr_008",
+  "name": "الفرنسية: الوقت",
+  "course": "french",
+  "count": 16
+ },
+ {
+  "id": "fr_009",
+  "name": "الفرنسية: أعضاء الجسم",
+  "course": "french",
+  "count": 12
+ },
+ {
+  "id": "fr_010",
+  "name": "الفرنسية: الصفات",
+  "course": "french",
+  "count": 32
+ },
+ {
+  "id": "fr_011",
+  "name": "الفرنسية: المهن",
+  "course": "french",
+  "count": 14
+ },
+ {
+  "id": "fr_012",
+  "name": "الفرنسية: الأماكن",
+  "course": "french",
+  "count": 14
+ },
+ {
+  "id": "fr_013",
+  "name": "الفرنسية: المواصلات",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_014",
+  "name": "الفرنسية: الطقس",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_015",
+  "name": "الفرنسية: الأفعال",
+  "course": "french",
+  "count": 40
+ },
+ {
+  "id": "fr_016",
+  "name": "الفرنسية: الملابس",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_017",
+  "name": "الفرنسية: التسوق",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_018",
+  "name": "الفرنسية: الاتجاهات",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_019",
+  "name": "الفرنسية: المقارنة والتفضيل",
+  "course": "french",
+  "count": 6
+ },
+ {
+  "id": "fr_020",
+  "name": "الفرنسية: في المطعم",
+  "course": "french",
+  "count": 4
+ },
+ {
+  "id": "fr_021",
+  "name": "الفرنسية: السفر",
+  "course": "french",
+  "count": 10
+ },
+ {
+  "id": "fr_022",
+  "name": "الفرنسية: الصحة",
+  "course": "french",
+  "count": 8
+ },
+ {
+  "id": "fr_023",
+  "name": "الفرنسية: المشاعر",
+  "course": "french",
+  "count": 8
+ },
+ {
+  "id": "fr_024",
+  "name": "الفرنسية: العمل",
+  "course": "french",
+  "count": 8
+ },
+ {
+  "id": "fr_025",
+  "name": "الفرنسية: التعبير عن الرأي",
+  "course": "french",
+  "count": 8
+ },
+ {
+  "id": "fr_026",
+  "name": "الفرنسية: المراسلات",
+  "course": "french",
+  "count": 4
+ },
+ {
+  "id": "fr_027",
+  "name": "الفرنسية: إتقان متقدم",
+  "course": "french",
+  "count": 12
+ },
+ {
+  "id": "fr_028",
+  "name": "الفرنسية: التعابير الاصطلاحية",
+  "course": "french",
+  "count": 8
+ },
+ {
+  "id": "general_001",
+  "name": "الثقافة العامة (1)",
+  "course": "general",
+  "count": 45
+ },
+ {
+  "id": "general_002",
+  "name": "الثقافة العامة (2)",
+  "course": "general",
+  "count": 11
+ },
+ {
+  "id": "science_001",
+  "name": "العلوم (1)",
+  "course": "science",
+  "count": 30
+ },
+ {
+  "id": "science_002",
+  "name": "العلوم (2)",
+  "course": "science",
+  "count": 135
+ },
+ {
+  "id": "science_003",
+  "name": "العلوم (3)",
+  "course": "science",
+  "count": 150
+ },
+ {
+  "id": "science_004",
+  "name": "العلوم (4)",
+  "course": "science",
+  "count": 147
+ },
+ {
+  "id": "science_005",
+  "name": "العلوم (5)",
+  "course": "science",
+  "count": 135
+ },
+ {
+  "id": "science_006",
+  "name": "العلوم (6)",
+  "course": "science",
+  "count": 150
+ },
+ {
+  "id": "science_007",
+  "name": "العلوم (7)",
+  "course": "science",
+  "count": 150
+ },
+ {
+  "id": "science_008",
+  "name": "العلوم (8)",
+  "course": "science",
+  "count": 150
+ },
+ {
+  "id": "science_009",
+  "name": "العلوم (9)",
+  "course": "science",
+  "count": 62
+ },
+ {
+  "id": "geography_001",
+  "name": "الجغرافيا (1)",
+  "course": "geography",
+  "count": 90
+ },
+ {
+  "id": "geography_002",
+  "name": "الجغرافيا (2)",
+  "course": "geography",
+  "count": 127
+ },
+ {
+  "id": "geography_003",
+  "name": "الجغرافيا (3)",
+  "course": "geography",
+  "count": 96
+ },
+ {
+  "id": "geography_004",
+  "name": "الجغرافيا (4)",
+  "course": "geography",
+  "count": 138
+ },
+ {
+  "id": "geography_005",
+  "name": "الجغرافيا (5)",
+  "course": "geography",
+  "count": 142
+ },
+ {
+  "id": "geography_006",
+  "name": "الجغرافيا (6)",
+  "course": "geography",
+  "count": 88
+ },
+ {
+  "id": "geography_007",
+  "name": "الجغرافيا (7)",
+  "course": "geography",
+  "count": 60
+ },
+ {
+  "id": "geography_008",
+  "name": "الجغرافيا (8)",
+  "course": "geography",
+  "count": 88
+ },
+ {
+  "id": "history_001",
+  "name": "التاريخ (1)",
+  "course": "history",
+  "count": 36
+ },
+ {
+  "id": "history_002",
+  "name": "التاريخ (2)",
+  "course": "history",
+  "count": 6
+ },
+ {
+  "id": "computer_001",
+  "name": "الحاسوب",
+  "course": "computer",
+  "count": 24
+ },
+ {
+  "id": "arabic_001",
+  "name": "العربية (1)",
+  "course": "arabic",
+  "count": 15
+ },
+ {
+  "id": "arabic_002",
+  "name": "العربية (2)",
+  "course": "arabic",
+  "count": 17
+ },
+ {
+  "id": "arabic_003",
+  "name": "العربية (3)",
+  "course": "arabic",
+  "count": 8
+ },
+ {
+  "id": "g_english_graded_stage01",
+  "name": "الإنجليزية بالجمل: المرحلة 1 (A1 — مبتدئ)",
+  "course": "english_graded",
+  "count": 184
+ },
+ {
+  "id": "g_english_graded_stage02",
+  "name": "الإنجليزية بالجمل: المرحلة 2 (A1 — مبتدئ)",
+  "course": "english_graded",
+  "count": 153
+ },
+ {
+  "id": "g_english_graded_stage03",
+  "name": "الإنجليزية بالجمل: المرحلة 3 (A2 — أساسي)",
+  "course": "english_graded",
+  "count": 138
+ },
+ {
+  "id": "g_english_graded_stage04",
+  "name": "الإنجليزية بالجمل: المرحلة 4 (A2 — أساسي)",
+  "course": "english_graded",
+  "count": 152
+ },
+ {
+  "id": "g_english_graded_stage05",
+  "name": "الإنجليزية بالجمل: المرحلة 5 (A2 — أساسي)",
+  "course": "english_graded",
+  "count": 135
+ },
+ {
+  "id": "g_english_graded_stage06",
+  "name": "الإنجليزية بالجمل: المرحلة 6 (A2 — أساسي)",
+  "course": "english_graded",
+  "count": 138
+ },
+ {
+  "id": "g_english_graded_stage07",
+  "name": "الإنجليزية بالجمل: المرحلة 7 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 141
+ },
+ {
+  "id": "g_english_graded_stage08",
+  "name": "الإنجليزية بالجمل: المرحلة 8 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 139
+ },
+ {
+  "id": "g_english_graded_stage09",
+  "name": "الإنجليزية بالجمل: المرحلة 9 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 140
+ },
+ {
+  "id": "g_english_graded_stage10",
+  "name": "الإنجليزية بالجمل: المرحلة 10 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 128
+ },
+ {
+  "id": "g_english_graded_stage11",
+  "name": "الإنجليزية بالجمل: المرحلة 11 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 125
+ },
+ {
+  "id": "g_english_graded_stage12",
+  "name": "الإنجليزية بالجمل: المرحلة 12 (B1 — متوسط)",
+  "course": "english_graded",
+  "count": 127
+ },
+ {
+  "id": "g_english_graded_stage13",
+  "name": "الإنجليزية بالجمل: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 118
+ },
+ {
+  "id": "g_english_graded_stage14",
+  "name": "الإنجليزية بالجمل: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 122
+ },
+ {
+  "id": "g_english_graded_stage15",
+  "name": "الإنجليزية بالجمل: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 107
+ },
+ {
+  "id": "g_english_graded_stage16",
+  "name": "الإنجليزية بالجمل: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 115
+ },
+ {
+  "id": "g_english_graded_stage17",
+  "name": "الإنجليزية بالجمل: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 99
+ },
+ {
+  "id": "g_english_graded_stage18",
+  "name": "الإنجليزية بالجمل: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 95
+ },
+ {
+  "id": "g_english_graded_stage19",
+  "name": "الإنجليزية بالجمل: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 106
+ },
+ {
+  "id": "g_english_graded_stage20",
+  "name": "الإنجليزية بالجمل: المرحلة 20 (B2 — فوق المتوسط)",
+  "course": "english_graded",
+  "count": 98
+ },
+ {
+  "id": "g_english_graded_stage21",
+  "name": "الإنجليزية بالجمل: المرحلة 21 (C1 — متقدّم)",
+  "course": "english_graded",
+  "count": 112
+ },
+ {
+  "id": "g_english_graded_stage22",
+  "name": "الإنجليزية بالجمل: المرحلة 22 (C1 — متقدّم)",
+  "course": "english_graded",
+  "count": 101
+ },
+ {
+  "id": "g_english_graded_stage23",
+  "name": "الإنجليزية بالجمل: المرحلة 23 (C1 — متقدّم)",
+  "course": "english_graded",
+  "count": 112
+ },
+ {
+  "id": "g_english_graded_stage24",
+  "name": "الإنجليزية بالجمل: المرحلة 24 (C1 — متقدّم)",
+  "course": "english_graded",
+  "count": 111
+ },
+ {
+  "id": "g_english_graded_stage25",
+  "name": "الإنجليزية بالجمل: المرحلة 25 (C1 — متقدّم)",
+  "course": "english_graded",
+  "count": 97
+ },
+ {
+  "id": "g_spanish_stage01",
+  "name": "الإسبانية: المرحلة 1 (A1 — مبتدئ)",
+  "course": "spanish",
+  "count": 189
+ },
+ {
+  "id": "g_spanish_stage02",
+  "name": "الإسبانية: المرحلة 2 (A1 — مبتدئ)",
+  "course": "spanish",
+  "count": 135
+ },
+ {
+  "id": "g_spanish_stage03",
+  "name": "الإسبانية: المرحلة 3 (A2 — أساسي)",
+  "course": "spanish",
+  "count": 135
+ },
+ {
+  "id": "g_spanish_stage04",
+  "name": "الإسبانية: المرحلة 4 (A2 — أساسي)",
+  "course": "spanish",
+  "count": 123
+ },
+ {
+  "id": "g_spanish_stage05",
+  "name": "الإسبانية: المرحلة 5 (A2 — أساسي)",
+  "course": "spanish",
+  "count": 115
+ },
+ {
+  "id": "g_spanish_stage06",
+  "name": "الإسبانية: المرحلة 6 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 117
+ },
+ {
+  "id": "g_spanish_stage07",
+  "name": "الإسبانية: المرحلة 7 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 115
+ },
+ {
+  "id": "g_spanish_stage08",
+  "name": "الإسبانية: المرحلة 8 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 110
+ },
+ {
+  "id": "g_spanish_stage09",
+  "name": "الإسبانية: المرحلة 9 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 118
+ },
+ {
+  "id": "g_spanish_stage10",
+  "name": "الإسبانية: المرحلة 10 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 95
+ },
+ {
+  "id": "g_spanish_stage11",
+  "name": "الإسبانية: المرحلة 11 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 122
+ },
+ {
+  "id": "g_spanish_stage12",
+  "name": "الإسبانية: المرحلة 12 (B1 — متوسط)",
+  "course": "spanish",
+  "count": 124
+ },
+ {
+  "id": "g_spanish_stage13",
+  "name": "الإسبانية: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 98
+ },
+ {
+  "id": "g_spanish_stage14",
+  "name": "الإسبانية: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 100
+ },
+ {
+  "id": "g_spanish_stage15",
+  "name": "الإسبانية: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 85
+ },
+ {
+  "id": "g_spanish_stage16",
+  "name": "الإسبانية: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 103
+ },
+ {
+  "id": "g_spanish_stage17",
+  "name": "الإسبانية: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 113
+ },
+ {
+  "id": "g_spanish_stage18",
+  "name": "الإسبانية: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 86
+ },
+ {
+  "id": "g_spanish_stage19",
+  "name": "الإسبانية: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "spanish",
+  "count": 83
+ },
+ {
+  "id": "g_spanish_stage20",
+  "name": "الإسبانية: المرحلة 20 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 73
+ },
+ {
+  "id": "g_spanish_stage21",
+  "name": "الإسبانية: المرحلة 21 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 79
+ },
+ {
+  "id": "g_spanish_stage22",
+  "name": "الإسبانية: المرحلة 22 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 72
+ },
+ {
+  "id": "g_spanish_stage23",
+  "name": "الإسبانية: المرحلة 23 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 91
+ },
+ {
+  "id": "g_spanish_stage24",
+  "name": "الإسبانية: المرحلة 24 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 77
+ },
+ {
+  "id": "g_spanish_stage25",
+  "name": "الإسبانية: المرحلة 25 (C1 — متقدّم)",
+  "course": "spanish",
+  "count": 3
+ },
+ {
+  "id": "g_turkish_stage01",
+  "name": "التركية: المرحلة 1 (A1 — مبتدئ)",
+  "course": "turkish",
+  "count": 175
+ },
+ {
+  "id": "g_turkish_stage02",
+  "name": "التركية: المرحلة 2 (A1 — مبتدئ)",
+  "course": "turkish",
+  "count": 105
+ },
+ {
+  "id": "g_turkish_stage03",
+  "name": "التركية: المرحلة 3 (A2 — أساسي)",
+  "course": "turkish",
+  "count": 84
+ },
+ {
+  "id": "g_turkish_stage04",
+  "name": "التركية: المرحلة 4 (A2 — أساسي)",
+  "course": "turkish",
+  "count": 83
+ },
+ {
+  "id": "g_turkish_stage05",
+  "name": "التركية: المرحلة 5 (A2 — أساسي)",
+  "course": "turkish",
+  "count": 81
+ },
+ {
+  "id": "g_turkish_stage06",
+  "name": "التركية: المرحلة 6 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 67
+ },
+ {
+  "id": "g_turkish_stage07",
+  "name": "التركية: المرحلة 7 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 67
+ },
+ {
+  "id": "g_turkish_stage08",
+  "name": "التركية: المرحلة 8 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 78
+ },
+ {
+  "id": "g_turkish_stage09",
+  "name": "التركية: المرحلة 9 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 67
+ },
+ {
+  "id": "g_turkish_stage10",
+  "name": "التركية: المرحلة 10 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 64
+ },
+ {
+  "id": "g_turkish_stage11",
+  "name": "التركية: المرحلة 11 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 61
+ },
+ {
+  "id": "g_turkish_stage12",
+  "name": "التركية: المرحلة 12 (B1 — متوسط)",
+  "course": "turkish",
+  "count": 67
+ },
+ {
+  "id": "g_turkish_stage13",
+  "name": "التركية: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 52
+ },
+ {
+  "id": "g_turkish_stage14",
+  "name": "التركية: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 61
+ },
+ {
+  "id": "g_turkish_stage15",
+  "name": "التركية: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 54
+ },
+ {
+  "id": "g_turkish_stage16",
+  "name": "التركية: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 42
+ },
+ {
+  "id": "g_turkish_stage17",
+  "name": "التركية: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 48
+ },
+ {
+  "id": "g_turkish_stage18",
+  "name": "التركية: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 47
+ },
+ {
+  "id": "g_turkish_stage19",
+  "name": "التركية: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "turkish",
+  "count": 40
+ },
+ {
+  "id": "g_turkish_stage20",
+  "name": "التركية: المرحلة 20 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 52
+ },
+ {
+  "id": "g_turkish_stage21",
+  "name": "التركية: المرحلة 21 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 61
+ },
+ {
+  "id": "g_turkish_stage22",
+  "name": "التركية: المرحلة 22 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 59
+ },
+ {
+  "id": "g_turkish_stage23",
+  "name": "التركية: المرحلة 23 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 45
+ },
+ {
+  "id": "g_turkish_stage24",
+  "name": "التركية: المرحلة 24 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 42
+ },
+ {
+  "id": "g_turkish_stage25",
+  "name": "التركية: المرحلة 25 (C1 — متقدّم)",
+  "course": "turkish",
+  "count": 11
+ },
+ {
+  "id": "g_german_stage01",
+  "name": "الألمانية: المرحلة 1 (A1 — مبتدئ)",
+  "course": "german",
+  "count": 179
+ },
+ {
+  "id": "g_german_stage02",
+  "name": "الألمانية: المرحلة 2 (A1 — مبتدئ)",
+  "course": "german",
+  "count": 122
+ },
+ {
+  "id": "g_german_stage03",
+  "name": "الألمانية: المرحلة 3 (A2 — أساسي)",
+  "course": "german",
+  "count": 112
+ },
+ {
+  "id": "g_german_stage04",
+  "name": "الألمانية: المرحلة 4 (A2 — أساسي)",
+  "course": "german",
+  "count": 122
+ },
+ {
+  "id": "g_german_stage05",
+  "name": "الألمانية: المرحلة 5 (A2 — أساسي)",
+  "course": "german",
+  "count": 116
+ },
+ {
+  "id": "g_german_stage06",
+  "name": "الألمانية: المرحلة 6 (B1 — متوسط)",
+  "course": "german",
+  "count": 135
+ },
+ {
+  "id": "g_german_stage07",
+  "name": "الألمانية: المرحلة 7 (B1 — متوسط)",
+  "course": "german",
+  "count": 117
+ },
+ {
+  "id": "g_german_stage08",
+  "name": "الألمانية: المرحلة 8 (B1 — متوسط)",
+  "course": "german",
+  "count": 130
+ },
+ {
+  "id": "g_german_stage09",
+  "name": "الألمانية: المرحلة 9 (B1 — متوسط)",
+  "course": "german",
+  "count": 122
+ },
+ {
+  "id": "g_german_stage10",
+  "name": "الألمانية: المرحلة 10 (B1 — متوسط)",
+  "course": "german",
+  "count": 121
+ },
+ {
+  "id": "g_german_stage11",
+  "name": "الألمانية: المرحلة 11 (B1 — متوسط)",
+  "course": "german",
+  "count": 104
+ },
+ {
+  "id": "g_german_stage12",
+  "name": "الألمانية: المرحلة 12 (B1 — متوسط)",
+  "course": "german",
+  "count": 119
+ },
+ {
+  "id": "g_german_stage13",
+  "name": "الألمانية: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 126
+ },
+ {
+  "id": "g_german_stage14",
+  "name": "الألمانية: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 113
+ },
+ {
+  "id": "g_german_stage15",
+  "name": "الألمانية: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 113
+ },
+ {
+  "id": "g_german_stage16",
+  "name": "الألمانية: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 110
+ },
+ {
+  "id": "g_german_stage17",
+  "name": "الألمانية: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 133
+ },
+ {
+  "id": "g_german_stage18",
+  "name": "الألمانية: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 112
+ },
+ {
+  "id": "g_german_stage19",
+  "name": "الألمانية: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "german",
+  "count": 116
+ },
+ {
+  "id": "g_german_stage20",
+  "name": "الألمانية: المرحلة 20 (C1 — متقدّم)",
+  "course": "german",
+  "count": 97
+ },
+ {
+  "id": "g_german_stage21",
+  "name": "الألمانية: المرحلة 21 (C1 — متقدّم)",
+  "course": "german",
+  "count": 87
+ },
+ {
+  "id": "g_german_stage22",
+  "name": "الألمانية: المرحلة 22 (C1 — متقدّم)",
+  "course": "german",
+  "count": 105
+ },
+ {
+  "id": "g_german_stage23",
+  "name": "الألمانية: المرحلة 23 (C1 — متقدّم)",
+  "course": "german",
+  "count": 116
+ },
+ {
+  "id": "g_german_stage24",
+  "name": "الألمانية: المرحلة 24 (C1 — متقدّم)",
+  "course": "german",
+  "count": 90
+ },
+ {
+  "id": "g_italian_stage01",
+  "name": "الإيطالية: المرحلة 1 (A1 — مبتدئ)",
+  "course": "italian",
+  "count": 178
+ },
+ {
+  "id": "g_italian_stage02",
+  "name": "الإيطالية: المرحلة 2 (A1 — مبتدئ)",
+  "course": "italian",
+  "count": 106
+ },
+ {
+  "id": "g_italian_stage03",
+  "name": "الإيطالية: المرحلة 3 (A2 — أساسي)",
+  "course": "italian",
+  "count": 128
+ },
+ {
+  "id": "g_italian_stage04",
+  "name": "الإيطالية: المرحلة 4 (A2 — أساسي)",
+  "course": "italian",
+  "count": 116
+ },
+ {
+  "id": "g_italian_stage05",
+  "name": "الإيطالية: المرحلة 5 (A2 — أساسي)",
+  "course": "italian",
+  "count": 107
+ },
+ {
+  "id": "g_italian_stage06",
+  "name": "الإيطالية: المرحلة 6 (B1 — متوسط)",
+  "course": "italian",
+  "count": 104
+ },
+ {
+  "id": "g_italian_stage07",
+  "name": "الإيطالية: المرحلة 7 (B1 — متوسط)",
+  "course": "italian",
+  "count": 117
+ },
+ {
+  "id": "g_italian_stage08",
+  "name": "الإيطالية: المرحلة 8 (B1 — متوسط)",
+  "course": "italian",
+  "count": 98
+ },
+ {
+  "id": "g_italian_stage09",
+  "name": "الإيطالية: المرحلة 9 (B1 — متوسط)",
+  "course": "italian",
+  "count": 94
+ },
+ {
+  "id": "g_italian_stage10",
+  "name": "الإيطالية: المرحلة 10 (B1 — متوسط)",
+  "course": "italian",
+  "count": 107
+ },
+ {
+  "id": "g_italian_stage11",
+  "name": "الإيطالية: المرحلة 11 (B1 — متوسط)",
+  "course": "italian",
+  "count": 90
+ },
+ {
+  "id": "g_italian_stage12",
+  "name": "الإيطالية: المرحلة 12 (B1 — متوسط)",
+  "course": "italian",
+  "count": 106
+ },
+ {
+  "id": "g_italian_stage13",
+  "name": "الإيطالية: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 91
+ },
+ {
+  "id": "g_italian_stage14",
+  "name": "الإيطالية: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 95
+ },
+ {
+  "id": "g_italian_stage15",
+  "name": "الإيطالية: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 92
+ },
+ {
+  "id": "g_italian_stage16",
+  "name": "الإيطالية: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 94
+ },
+ {
+  "id": "g_italian_stage17",
+  "name": "الإيطالية: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 69
+ },
+ {
+  "id": "g_italian_stage18",
+  "name": "الإيطالية: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 81
+ },
+ {
+  "id": "g_italian_stage19",
+  "name": "الإيطالية: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "italian",
+  "count": 99
+ },
+ {
+  "id": "g_italian_stage20",
+  "name": "الإيطالية: المرحلة 20 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 75
+ },
+ {
+  "id": "g_italian_stage21",
+  "name": "الإيطالية: المرحلة 21 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 76
+ },
+ {
+  "id": "g_italian_stage22",
+  "name": "الإيطالية: المرحلة 22 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 76
+ },
+ {
+  "id": "g_italian_stage23",
+  "name": "الإيطالية: المرحلة 23 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 76
+ },
+ {
+  "id": "g_italian_stage24",
+  "name": "الإيطالية: المرحلة 24 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 52
+ },
+ {
+  "id": "g_italian_stage25",
+  "name": "الإيطالية: المرحلة 25 (C1 — متقدّم)",
+  "course": "italian",
+  "count": 19
+ },
+ {
+  "id": "g_french_graded_stage01",
+  "name": "الفرنسية بالجمل: المرحلة 1 (A1 — مبتدئ)",
+  "course": "french_graded",
+  "count": 170
+ },
+ {
+  "id": "g_french_graded_stage02",
+  "name": "الفرنسية بالجمل: المرحلة 2 (A1 — مبتدئ)",
+  "course": "french_graded",
+  "count": 122
+ },
+ {
+  "id": "g_french_graded_stage03",
+  "name": "الفرنسية بالجمل: المرحلة 3 (A2 — أساسي)",
+  "course": "french_graded",
+  "count": 127
+ },
+ {
+  "id": "g_french_graded_stage04",
+  "name": "الفرنسية بالجمل: المرحلة 4 (A2 — أساسي)",
+  "course": "french_graded",
+  "count": 123
+ },
+ {
+  "id": "g_french_graded_stage05",
+  "name": "الفرنسية بالجمل: المرحلة 5 (A2 — أساسي)",
+  "course": "french_graded",
+  "count": 131
+ },
+ {
+  "id": "g_french_graded_stage06",
+  "name": "الفرنسية بالجمل: المرحلة 6 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 104
+ },
+ {
+  "id": "g_french_graded_stage07",
+  "name": "الفرنسية بالجمل: المرحلة 7 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 103
+ },
+ {
+  "id": "g_french_graded_stage08",
+  "name": "الفرنسية بالجمل: المرحلة 8 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 117
+ },
+ {
+  "id": "g_french_graded_stage09",
+  "name": "الفرنسية بالجمل: المرحلة 9 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 106
+ },
+ {
+  "id": "g_french_graded_stage10",
+  "name": "الفرنسية بالجمل: المرحلة 10 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 103
+ },
+ {
+  "id": "g_french_graded_stage11",
+  "name": "الفرنسية بالجمل: المرحلة 11 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 108
+ },
+ {
+  "id": "g_french_graded_stage12",
+  "name": "الفرنسية بالجمل: المرحلة 12 (B1 — متوسط)",
+  "course": "french_graded",
+  "count": 87
+ },
+ {
+  "id": "g_french_graded_stage13",
+  "name": "الفرنسية بالجمل: المرحلة 13 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 94
+ },
+ {
+  "id": "g_french_graded_stage14",
+  "name": "الفرنسية بالجمل: المرحلة 14 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 79
+ },
+ {
+  "id": "g_french_graded_stage15",
+  "name": "الفرنسية بالجمل: المرحلة 15 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 99
+ },
+ {
+  "id": "g_french_graded_stage16",
+  "name": "الفرنسية بالجمل: المرحلة 16 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 87
+ },
+ {
+  "id": "g_french_graded_stage17",
+  "name": "الفرنسية بالجمل: المرحلة 17 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 94
+ },
+ {
+  "id": "g_french_graded_stage18",
+  "name": "الفرنسية بالجمل: المرحلة 18 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 92
+ },
+ {
+  "id": "g_french_graded_stage19",
+  "name": "الفرنسية بالجمل: المرحلة 19 (B2 — فوق المتوسط)",
+  "course": "french_graded",
+  "count": 118
+ },
+ {
+  "id": "g_french_graded_stage20",
+  "name": "الفرنسية بالجمل: المرحلة 20 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 88
+ },
+ {
+  "id": "g_french_graded_stage21",
+  "name": "الفرنسية بالجمل: المرحلة 21 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 74
+ },
+ {
+  "id": "g_french_graded_stage22",
+  "name": "الفرنسية بالجمل: المرحلة 22 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 81
+ },
+ {
+  "id": "g_french_graded_stage23",
+  "name": "الفرنسية بالجمل: المرحلة 23 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 78
+ },
+ {
+  "id": "g_french_graded_stage24",
+  "name": "الفرنسية بالجمل: المرحلة 24 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 76
+ },
+ {
+  "id": "g_french_graded_stage25",
+  "name": "الفرنسية بالجمل: المرحلة 25 (C1 — متقدّم)",
+  "course": "french_graded",
+  "count": 49
+ }
 ]

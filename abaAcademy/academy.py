@@ -148,6 +148,28 @@ class Academy:
         self._course_data[course_id] = data
         return data
 
+    def _lesson_data_for(self, course_id: str, key: str):
+        """Per-lesson data in ``data/lessons/<key>.json``, read on demand (the
+        graded language courses keep one small file per lesson there so a
+        course of hundreds of lessons is never loaded all at once)."""
+        cache = self.__dict__.setdefault("_lesson_data_cache", {})
+        ck = (course_id, key)
+        if ck in cache:
+            return cache[ck]
+        payload = None
+        course = self.repo.course(course_id)
+        if course and course.path and key and "/" not in key and "\\" not in key and ".." not in key:
+            path = os.path.join(course.path, "data", "lessons", key + ".json")
+            try:
+                with open(path, encoding="utf-8") as f:
+                    payload = json.load(f)
+            except (OSError, ValueError):
+                payload = None
+        if len(cache) > 256:
+            cache.clear()
+        cache[ck] = payload
+        return payload
+
     # -- question materialization -----------------------------------------
 
     def _expand_block(self, block: Block, course_id: str,
@@ -165,6 +187,8 @@ class Academy:
             if data_key:
                 cdata = self._course_data_for(course_id)
                 payload = cdata.get(data_key)
+                if payload is None:
+                    payload = self._lesson_data_for(course_id, data_key)
                 if isinstance(payload, dict):
                     params.update(payload)
                 elif isinstance(payload, list):
@@ -482,6 +506,8 @@ class Academy:
             dkey = data.get("data")
             if dkey:
                 payload = self._course_data_for(course_id).get(dkey)
+                if payload is None:
+                    payload = self._lesson_data_for(course_id, dkey)
                 if isinstance(payload, dict) and "words" in payload:
                     params.setdefault("words", payload["words"])
                 elif isinstance(payload, list):
@@ -619,7 +645,15 @@ class Academy:
         """
         def refill(topic: str, n: int) -> List[Question]:
             pool: List[Question] = []
-            for lid in lesson_ids:
+            # Courses can hold hundreds of lessons (the graded language
+            # courses hold ~700): draw from a random sample and stop once there
+            # is enough, instead of regenerating every lesson of the course.
+            ids = list(lesson_ids)
+            if len(ids) > 30:
+                ids = random.sample(ids, 30)
+            for lid in ids:
+                if len(pool) >= max(n * 3, 12):
+                    break
                 lesson = self.repo.load_lesson(lid)
                 if not lesson:
                     continue

@@ -181,6 +181,16 @@ class PomodoroDialog(AccessibleDialog):
             self.academy.store.set_setting(sk, str(int(psub) + self._focus_seconds))
         except Exception:
             pass
+        # credit the study planner's soonest task of the same subject
+        mins = self._focus_seconds // 60
+        if mins and subject != "عام":
+            try:
+                from ..study_hub.planner import Planner
+                item = Planner(self.academy.store).log_subject(subject, mins)
+                if item is not None:
+                    self.announce(f"أُضيفت {mins} دقيقة إلى {item.title} في مخطّط المذاكرة.")
+            except Exception:
+                pass
         self._focus_seconds = 0
 
     def _say_today(self):
@@ -206,6 +216,6 @@ class PomodoroDialog(AccessibleDialog):
 
     def instructions(self):
         return ("مؤقّت الدراسة بطريقة بومودورو: اختر نظام التركيز والراحة (مثل ٢٥ دقيقة "
-                "تركيز و٥ راحة)، سمِّ المادّة، ثم «ابدأ». يعلن المؤقّت بداية كل فترة وينبّهك "
-                "في الدقائق الأخيرة. «إيقاف مؤقّت» يوقف ويتابع، و«أنهِ» يُنهي ويحفظ زمن "
-                "تركيزك. «كم درست اليوم؟» يخبرك بمجموع دقائق تركيزك. Escape للإغلاق.")
+                "تركيز و٥ راحة)، سمِّ المادّة، ثم ابدأ. يعلن المؤقّت بداية كل فترة وينبّهك "
+                "في الدقائق الأخيرة. إيقاف مؤقّت يوقف ويتابع، وأنهِ يُنهي ويحفظ زمن "
+                "تركيزك. كم درست اليوم؟ يخبرك بمجموع دقائق تركيزك. Escape للإغلاق.")

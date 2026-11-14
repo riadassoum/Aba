@@ -142,7 +142,7 @@ class BrailleLessonsDialog(AccessibleDialog):
         panel.SetSizer(s)
         self._init_chord()
         self.set_first_control(self.lessonChoice)
-        wx.CallAfter(self._load_lesson)
+        self.call_after(self._load_lesson)
 
     # -- lesson -----------------------------------------------------------
     def _on_kind(self):
@@ -153,7 +153,7 @@ class BrailleLessonsDialog(AccessibleDialog):
         if self._kind == "letters":
             self.info.SetValue(
                 "تدريب حروف برايل: ستُطلب منك كتابة حروف عربية حرفًا حرفًا "
-                "بالنقاط. اضغط «ابدأ الاختبار». يمكنك سماع الحرف مجددًا بـ Ctrl+R، "
+                "بالنقاط. اضغط ابدأ الاختبار. يمكنك سماع الحرف مجددًا بـ Ctrl+R، "
                 "أو تهجئته بالضغط مرتين.")
             self._say("تدريب الحروف: اكتب كل حرف بنقاطه.")
         elif self._kind == "plain":
@@ -180,9 +180,9 @@ class BrailleLessonsDialog(AccessibleDialog):
         for sign in signs:
             cells = GRADE2_WORDSIGNS.get(sign, [])
             desc = "، ".join(describe_dots(c) for c in cells)
-            lines.append(f"  «{sign}»: {desc}")
+            lines.append(f" {sign}: {desc}")
         lines.append("")
-        lines.append("اضغط «تعلّم الدرس» لتدريب الاختصارات، ثم «ابدأ الاختبار».")
+        lines.append("اضغط تعلّم الدرس لتدريب الاختصارات، ثم ابدأ الاختبار.")
         self.info.SetValue("\n".join(lines))
         self._say(f"الدرس: {title}. عدد اختصاراته {len(signs)}.")
 
@@ -190,7 +190,7 @@ class BrailleLessonsDialog(AccessibleDialog):
         lid, title, signs = self._cur_lesson()
         bl.mark_started(self.academy.store, lid)
         # step through each sign, describing its dots
-        parts = [f"اختصار «{s}» يُكتب: "
+        parts = [f"اختصار {s} يُكتب: "
                  + "، ".join(describe_dots(c) for c in GRADE2_WORDSIGNS[s])
                  for s in signs]
         self._say("تعلّم الاختصارات: " + ". ".join(parts)
@@ -222,7 +222,7 @@ class BrailleLessonsDialog(AccessibleDialog):
             self._target_count = amount
             self._say(f"بدأ الاختبار! اكتب {amount} كلمات بشكل صحيح.")
         self._next_word()
-        wx.CallAfter(self.pad.SetFocus)
+        self.call_after(self.pad.SetFocus)
 
     def _next_word(self):
         if self._kind == "letters":
@@ -318,7 +318,7 @@ class BrailleLessonsDialog(AccessibleDialog):
             return True
         if code in getattr(self, "_dot_keycodes", {}):
             if not self._active:
-                self._say("انتهى الاختبار. اضغط «ابدأ الاختبار» لجولة جديدة.")
+                self._say("انتهى الاختبار. اضغط ابدأ الاختبار لجولة جديدة.")
             return True                # always swallow the dot keys
         if code == wx.WXK_SPACE and self._active:
             self._check_word()
@@ -382,13 +382,13 @@ class BrailleLessonsDialog(AccessibleDialog):
         if ok:
             self._correct += 1
             label = "الحرف" if self._kind == "letters" else "الكلمة"
-            self._say(f"صحيح! «{self._word}». عدد الصحيح: {self._correct}.")
+            self._say(f"صحيح! {self._word}. عدد الصحيح: {self._correct}.")
             if self._mode == "count" and self._correct >= self._target_count:
                 self._end_quiz()
                 return
             self._next_word()
         else:
-            self._say(f"غير صحيح. حاول مجددًا أو «لمّح». المطلوب: {self._word}.")
+            self._say(f"غير صحيح. حاول مجددًا أو لمّح. المطلوب: {self._word}.")
             self._entered = []
 
     def _hint(self):
@@ -458,8 +458,8 @@ class BrailleLessonsDialog(AccessibleDialog):
         self.announce(text)
 
     def instructions(self):
-        return ("دروس برايل التفاعلية: اختر درسًا، «تعلّم الدرس» لسماع اختصاراته، ثم «ابدأ "
-                "الاختبار». اكتب كل خلية بالأصابع F D S J K L مضغوطةً معًا، واضغط مسافة عند "
+        return ("دروس برايل التفاعلية: اختر درسًا، تعلّم الدرس لسماع اختصاراته، ثم ابدأ "
+                "الاختبار. اكتب كل خلية بالأصابع F D S J K L مضغوطةً معًا، واضغط مسافة عند "
                 "إتمام الكلمة. تُقبل كتابة الاختصارات التي تعلّمتها أو تهجئة الحروف. الاختبار "
-                "إمّا بالوقت أو بعدد الكلمات، مع حفظ أفضل نتيجة. «لمّح» يوضّح طريقة الكتابة. "
+                "إمّا بالوقت أو بعدد الكلمات، مع حفظ أفضل نتيجة. لمّح يوضّح طريقة الكتابة. "
                 "Escape للإغلاق.")

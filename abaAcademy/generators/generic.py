@@ -100,10 +100,10 @@ def gen_frame(count: int, rng: random.Random, **params) -> List[Question]:
             wrongs = [d for d in dict.fromkeys(pool) if d and d != correct]
             claim_true = not wrongs or rng.random() < 0.5
             shown = correct if claim_true else rng.choice(wrongs)
-            note = explain if claim_true else f"الإجابة الصحيحة هي «{correct}»."
+            note = explain if claim_true else f"الإجابة الصحيحة هي {correct}."
             q = Question(
                 qtype=QuestionType.TRUE_FALSE,
-                prompt=f"{prompt} — هل الإجابة «{shown}»؟",
+                prompt=f"{prompt} — هل الإجابة {shown}؟",
                 correct=claim_true, explanation=note, topic=topic,
                 difficulty=difficulty)
             q.qid = qid
@@ -116,7 +116,7 @@ def gen_frame(count: int, rng: random.Random, **params) -> List[Question]:
                 qtype=QuestionType.TYPING,
                 prompt=f"{prompt} (اكتب الإجابة)",
                 correct=correct, accepted=accepted,
-                explanation=explain or f"الإجابة: «{correct}».",
+                explanation=explain or f"الإجابة: {correct}.",
                 topic=topic, difficulty=difficulty + 1)
             q.qid = qid
             return q
@@ -191,10 +191,10 @@ def gen_pairs(count: int, rng: random.Random, **params) -> List[Question]:
             continue
         topic = pair.get("topic", default_topic)
         difficulty = int(pair.get("difficulty", params.get("difficulty", 1)))
-        explain = pair.get("explain", "") or f"«{a}» ← → «{b}»."
+        explain = pair.get("explain", "") or f"{a} ← → {b}."
         qid = signature_qid("generic.pairs", a + "|" + b)
-        ask_a = f"ما {label_b} الموافق لـ «{a}»؟" if label_b else f"ما الموافق لـ «{a}»؟"
-        ask_b = f"ما {label_a} الموافق لـ «{b}»؟" if label_a else f"ما الموافق لـ «{b}»؟"
+        ask_a = f"ما {label_b} الموافق لـ {a}؟" if label_b else f"ما الموافق لـ {a}؟"
+        ask_b = f"ما {label_a} الموافق لـ {b}؟" if label_a else f"ما الموافق لـ {b}؟"
 
         def forward(a=a, b=b, topic=topic, explain=explain, difficulty=difficulty,
                     qid=qid, ask_a=ask_a):
@@ -232,10 +232,10 @@ def gen_pairs(count: int, rng: random.Random, **params) -> List[Question]:
             shown = b if claim_true else rng.choice(others)
             q = Question(
                 qtype=QuestionType.TRUE_FALSE,
-                prompt=f"هل «{a}» يوافق «{shown}»؟",
+                prompt=f"هل {a} يوافق {shown}؟",
                 correct=claim_true,
-                explanation=(f"نعم، «{a}» يوافق «{b}»." if claim_true
-                             else f"لا، «{a}» يوافق «{b}» وليس «{shown}»."),
+                explanation=(f"نعم، {a} يوافق {b}." if claim_true
+                             else f"لا، {a} يوافق {b} وليس {shown}."),
                 topic=topic, difficulty=difficulty)
             q.qid = qid
             return q
@@ -278,7 +278,7 @@ def gen_cloze(count: int, rng: random.Random, **params) -> List[Question]:
         else:
             blanked = text + " (املأ الفراغ)"
         topic = row.get("topic", default_topic)
-        explain = row.get("explain", "") or f"الكلمة الناقصة: «{answer}»."
+        explain = row.get("explain", "") or f"الكلمة الناقصة: {answer}."
         difficulty = int(row.get("difficulty", params.get("difficulty", 2)))
         pool = [str(d) for d in row.get("distractors", [])] + \
                [x for x in all_answers if x != answer]

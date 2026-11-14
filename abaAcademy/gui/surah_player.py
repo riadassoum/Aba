@@ -150,9 +150,9 @@ class SurahPlayer(AccessibleDialog):
         tag = self._tag(r)
         path = self._audio.fetch(tag, r["url"], surah)
         if path:
-            wx.CallAfter(self._player.play_file, path)
+            self.call_after(self._player.play_file, path)
         else:
-            wx.CallAfter(self.announce, "تعذّر تشغيل السورة. تأكّد من الاتصال أو جرّب قارئاً آخر.")
+            self.call_after(self.announce, "تعذّر تشغيل السورة. تأكّد من الاتصال أو جرّب قارئاً آخر.")
 
     def _tag(self, r):
         # a filesystem-safe cache tag from the reciter's URL
@@ -169,8 +169,8 @@ class SurahPlayer(AccessibleDialog):
         # advance to the next available surah
         i = self.surahChoice.GetSelection()
         if 0 <= i < len(self._avail) - 1:
-            wx.CallAfter(self.surahChoice.SetSelection, i + 1)
-            wx.CallAfter(self._play)
+            self.call_after(self.surahChoice.SetSelection, i + 1)
+            self.call_after(self._play)
 
     def _download(self):
         r = self._reciter(); surah = self._current_surah()
@@ -199,6 +199,6 @@ class SurahPlayer(AccessibleDialog):
             pass
 
     def instructions(self) -> str:
-        return ("مشغّل السور الكاملة: اختر القارئ ثم السورة ثم «تشغيل» لسماع السورة كاملة. "
-                "فعّل «تشغيل متواصل» للانتقال التلقائي للسورة التالية. «تنزيل السورة» للاستماع "
+        return ("مشغّل السور الكاملة: اختر القارئ ثم السورة ثم تشغيل لسماع السورة كاملة. "
+                "فعّل تشغيل متواصل للانتقال التلقائي للسورة التالية. تنزيل السورة للاستماع "
                 "دون إنترنت. هذا مختلف عن مشغّل الآيات في نافذة المصحف. Escape للإغلاق.")

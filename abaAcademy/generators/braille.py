@@ -171,9 +171,9 @@ def gen_cell(count: int, rng: random.Random, **params) -> List[Question]:
             if len(options) < 2:
                 return None
             q = Question(qtype=QuestionType.MCQ,
-                         prompt=f"ما نقاط برايل للرمز «{sign}»؟",
+                         prompt=f"ما نقاط برايل للرمز {sign}؟",
                          correct=index, options=options,
-                         explanation=f"«{sign}» = {label}.",
+                         explanation=f"{sign} = {label}.",
                          topic=topic, difficulty=1)
             q.qid = qid
             return q
@@ -186,7 +186,7 @@ def gen_cell(count: int, rng: random.Random, **params) -> List[Question]:
             q = Question(qtype=QuestionType.MCQ,
                          prompt=f"أي رمز تمثّله {label}؟",
                          correct=index, options=options,
-                         explanation=f"{label} = «{sign}».",
+                         explanation=f"{label} = {sign}.",
                          topic=topic, difficulty=2)
             q.qid = qid
             return q
@@ -196,10 +196,10 @@ def gen_cell(count: int, rng: random.Random, **params) -> List[Question]:
             claim_true = not others or rng.random() < 0.5
             shown = label if claim_true else rng.choice(others)
             q = Question(qtype=QuestionType.TRUE_FALSE,
-                         prompt=f"هل يُكتب الرمز «{sign}» بـ{shown}؟",
+                         prompt=f"هل يُكتب الرمز {sign} بـ{shown}؟",
                          correct=claim_true,
-                         explanation=(f"نعم، «{sign}» = {label}." if claim_true
-                                      else f"لا، «{sign}» = {label}."),
+                         explanation=(f"نعم، {sign} = {label}." if claim_true
+                                      else f"لا، {sign} = {label}."),
                          topic=topic, difficulty=1)
             q.qid = qid
             return q
@@ -207,10 +207,10 @@ def gen_cell(count: int, rng: random.Random, **params) -> List[Question]:
         def type_dots(sign=sign, label=label, plain=plain, qid=qid):
             spaced = "، ".join(plain)
             q = Question(qtype=QuestionType.TYPING,
-                         prompt=f"اكتب أرقام نقاط الرمز «{sign}» متتاليةً بلا فواصل:",
+                         prompt=f"اكتب أرقام نقاط الرمز {sign} متتاليةً بلا فواصل:",
                          correct=plain,
                          accepted=[spaced, " ".join(plain), "-".join(plain)],
-                         explanation=f"«{sign}» = {label}.",
+                         explanation=f"{sign} = {label}.",
                          topic=topic, difficulty=3)
             q.qid = qid
             return q
@@ -240,9 +240,9 @@ def gen_count(count: int, rng: random.Random, **params) -> List[Question]:
             options, index = shuffled_options(
                 rng, correct, [x for x in arabic_numbers if x != correct])
             q = Question(qtype=QuestionType.MCQ,
-                         prompt=f"كم نقطة في الرمز «{sign}»؟",
+                         prompt=f"كم نقطة في الرمز {sign}؟",
                          correct=index, options=options,
-                         explanation=f"«{sign}» = {dots_label(cell)}، أي {correct} نقاط.",
+                         explanation=f"{sign} = {dots_label(cell)}، أي {correct} نقاط.",
                          topic=topic, difficulty=1)
             q.qid = signature_qid("braille.count", sign)
             return q
@@ -287,9 +287,9 @@ def gen_word(count: int, rng: random.Random, **params) -> List[Question]:
             if len(options) < 2:
                 return None
             q = Question(qtype=QuestionType.MCQ,
-                         prompt=f"في كلمة «{word}»، ما نقاط الحرف رقم {pos + 1} («{target}»)؟",
+                         prompt=f"في كلمة {word}، ما نقاط الحرف رقم {pos + 1} ({target})؟",
                          correct=index, options=options,
-                         explanation=f"«{target}» = {label}.",
+                         explanation=f"{target} = {label}.",
                          topic=topic, difficulty=2)
             q.qid = qid
             return q
@@ -298,12 +298,12 @@ def gen_word(count: int, rng: random.Random, **params) -> List[Question]:
             answer = " ".join(dots_plain(table[c]) for c in letters)
             q = Question(
                 qtype=QuestionType.TYPING,
-                prompt=(f"اكتب كلمة «{word}» بالنقاط: أرقام نقاط كل حرف "
+                prompt=(f"اكتب كلمة {word} بالنقاط: أرقام نقاط كل حرف "
                         f"متتاليةً، وبين الحروف مسافة."),
                 correct=answer,
                 accepted=["-".join(dots_plain(table[c]) for c in letters)],
                 explanation="الحل: " + "، ".join(
-                    f"«{c}» {dots_label(table[c])}" for c in letters) + ".",
+                    f"{c} {dots_label(table[c])}" for c in letters) + ".",
                 topic=topic, difficulty=4)
             q.qid = qid
             return q
@@ -313,9 +313,9 @@ def gen_word(count: int, rng: random.Random, **params) -> List[Question]:
             wrong = [str(n) for n in range(1, len(letters) + 4) if str(n) != correct]
             options, index = shuffled_options(rng, correct, wrong)
             q = Question(qtype=QuestionType.MCQ,
-                         prompt=f"كم خلية برايل تحتاج لكتابة كلمة «{word}»؟",
+                         prompt=f"كم خلية برايل تحتاج لكتابة كلمة {word}؟",
                          correct=index, options=options,
-                         explanation=f"«{word}» فيها {len(letters)} حروف، فتحتاج {len(letters)} خلايا.",
+                         explanation=f"{word} فيها {len(letters)} حروف، فتحتاج {len(letters)} خلايا.",
                          topic=topic, difficulty=1)
             q.qid = qid
             return q

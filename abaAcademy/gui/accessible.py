@@ -140,6 +140,7 @@ SHORTCUTS_HELP = [
     ("Shift+Escape", "الخروج من الأكاديمية بالكامل"),
     ("Ctrl+Q", "الخروج من الأكاديمية بالكامل"),
     ("F1", "المساعدة"),
+    ("F2", "قراءة كل ما في الشاشة"),
 ]
 
 
@@ -224,6 +225,8 @@ if _WX:
                 self.on_main_menu()
             elif key == wx.WXK_F1:
                 self.on_help()
+            elif key == wx.WXK_F2:
+                self.read_screen()
             elif key == wx.WXK_BACK and not self._is_text_focus():
                 self.on_previous()
             elif key in (wx.WXK_RETURN, wx.WXK_NUMPAD_ENTER) and not self._is_text_focus():
@@ -337,8 +340,25 @@ if _WX:
                 if not getattr(self, "_geometry_restored", False):
                     self._geometry_restored = True
                     self._restore_geometry()
+                if not getattr(self, "_display_applied", False):
+                    self._display_applied = True
+                    self.apply_display()
                 wx.CallAfter(self._announce_screen)
             evt.Skip()
+
+        def apply_display(self) -> None:
+            """Text size, colours and focus highlight from the learner's
+            display settings (see display_prefs). Screens that build controls
+            later can call this again."""
+            academy = getattr(self, "academy", None)
+            store = getattr(academy, "store", None) if academy is not None else None
+            if store is None:
+                return
+            try:
+                from .display import install
+                install(self, store)
+            except Exception:
+                pass
 
         def _announce_screen(self) -> None:
             # This runs via wx.CallAfter, so the dialog may already have been
@@ -473,6 +493,22 @@ if _WX:
             except Exception:
                 pass
 
+        def call_after(self, fn, *args):
+            """A ``wx.CallAfter`` that does nothing if this screen has been
+            closed by the time it runs. Results from background work (an
+            online check, a computer move, a download) arrive this way, and
+            the learner may have left the screen meanwhile."""
+            import wx as _wx
+
+            def guarded():
+                try:
+                    if not self:
+                        return
+                    fn(*args)
+                except RuntimeError:
+                    pass
+            _wx.CallAfter(guarded)
+
         def call_later(self, ms, fn, *args):
             """A ``wx.CallLater`` that will not fire into a destroyed window.
 
@@ -541,6 +577,16 @@ if _WX:
             False to let wx process Enter normally. Screens override this to
             advance a step or confirm an answer without needing Tab."""
             return False
+
+        def read_screen(self) -> None:
+            """F2: the title, then every visible label and control with its
+            value, in order. For a low-vision learner who wants everything
+            heard at once, and for recapping a busy screen."""
+            from .display import screen_text
+            try:
+                self.announce(screen_text(self))
+            except Exception:
+                self.announce(self._title_text)
 
         def on_help(self) -> None:
             lines = []

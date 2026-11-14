@@ -20,9 +20,9 @@ grader must accept every spelling that is correct *for what the learner knows*:
   out letter by letter is accepted as correct.
 
 So for منال when the learner knows من but not ال:
-  - «من» sign + ا + ل            ✓ (used the learned contraction)
+  - من sign + ا + ل ✓ (used the learned contraction)
   - م + ن + ا + ل                ✓ (spelled everything out)
-  - «من» sign + «ال» sign        ✗ (used ال, which they weren't taught)
+  - من sign + ال sign ✗ (used ال, which they weren't taught)
 
 This module produces such words and validates a learner's cell sequence against
 all acceptable encodings, given their known-contraction set. Pure Python; the
@@ -151,8 +151,8 @@ class BrailleChallengeEngine:
                 walk(pos + 1, acc + [frozenset(ARABIC_LETTERS[ch])])
             # option 2: use any known contraction that matches here — but only if
             # it may legitimately appear at this position. A whole-word-only
-            # contraction (e.g. «أو») is allowed only when it spans the ENTIRE
-            # word; a substring-capable one (e.g. «من», «ال») may appear anywhere.
+            # contraction (e.g. أو) is allowed only when it spans the ENTIRE
+            # word; a substring-capable one (e.g. من, ال) may appear anywhere.
             for c in known:
                 if word.startswith(c, pos):
                     spans_whole = (pos == 0 and pos + len(c) == len(word))
@@ -184,7 +184,7 @@ class BrailleChallengeEngine:
                     used = c
                     break
             if used:
-                parts.append(f"اختصار «{used}»")
+                parts.append(f"اختصار {used}")
                 pos += len(used)
             else:
                 parts.append(word[pos])

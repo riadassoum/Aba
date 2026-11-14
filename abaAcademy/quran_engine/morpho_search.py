@@ -140,7 +140,7 @@ class MorphologySearch:
         many distinct derived forms it has."""
         occ = self.search_root(root)
         if not occ:
-            return f"لم يُعثر على الجذر «{root}» في القرآن."
+            return f"لم يُعثر على الجذر {root} في القرآن."
         forms = self.derived_forms(root)
-        return (f"الجذر «{root}» يرد {len(occ)} مرة في القرآن، "
+        return (f"الجذر {root} يرد {len(occ)} مرة في القرآن، "
                 f"بـ {len(forms)} صيغة مختلفة.")

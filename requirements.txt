@@ -20,3 +20,8 @@ pyttsx3>=2.90
 
 # Microphone capture for recitation self-review.
 sounddevice>=0.4
+
+# Time-zone rules for the prayer-times cities (daylight saving). Windows has no
+# system zone database; a trimmed copy ships in vendor/, and an installed tzdata
+# takes precedence.
+tzdata>=2024.1 ; platform_system == "Windows"

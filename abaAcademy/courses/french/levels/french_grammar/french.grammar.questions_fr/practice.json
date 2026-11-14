@@ -55,7 +55,7 @@
     "prompt": "أكمل: ___ est-ce que tu t'appelles? (ما اسمك) اكتب الأداة.",
     "correct": "Comment",
     "accepted": [],
-    "explanation": "بالفرنسية «ما اسمك» = Comment t'appelles-tu.",
+    "explanation": "بالفرنسية ما اسمك = Comment t'appelles-tu.",
     "topic": "gram.questions_fr"
    }
   },

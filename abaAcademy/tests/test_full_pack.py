@@ -32,10 +32,17 @@ def test_every_course_pack_is_valid():
             for lm in level.get("lessons", []):
                 base = os.path.join(cdir, "levels", level["level_id"],
                                     lm.get("dir") or lm["lesson_id"])
+                bundle_path = os.path.join(base, "bundle.json")
+                bundle = (json.load(open(bundle_path, encoding="utf-8"))
+                          if os.path.isfile(bundle_path) else None)
                 for fn in ("theory", "practice", "quiz", "review"):
                     fp = os.path.join(base, fn + ".json")
-                    assert os.path.isfile(fp), f"missing {fp}"
-                    bf = json.load(open(fp, encoding="utf-8"))
+                    if bundle is not None and not os.path.isfile(fp):
+                        assert isinstance(bundle.get(fn), dict), f"bundle without {fn}: {bundle_path}"
+                        bf = bundle[fn]
+                    else:
+                        assert os.path.isfile(fp), f"missing {fp}"
+                        bf = json.load(open(fp, encoding="utf-8"))
                     problems += validate_block_file(bf, f"{lm['lesson_id']}/{fn}")
     assert not problems, f"{len(problems)} problems, first: {problems[:3]}"
 
@@ -116,7 +123,7 @@ def test_no_duplicate_lessons_across_pack():
                 if not os.path.isdir(p):
                     continue
                 h = hashlib.md5()
-                for fn in ("theory", "practice", "quiz", "review"):
+                for fn in ("theory", "practice", "quiz", "review", "bundle"):
                     fp = os.path.join(p, fn + ".json")
                     if os.path.isfile(fp):
                         h.update(open(fp, "rb").read())

@@ -285,7 +285,9 @@ def restore_backup(zip_path, user_data_dir):
 def run_cli(argv):
     """A small CLI — impossible for an add-on, which has no executable.
 
-    Supports: ``--stats``, ``--report PATH``, ``--backup``, ``--import-nvda``.
+    Supports: ``--stats``, ``--report PATH``, ``--weekly PATH``, ``--backup``,
+    ``--import-nvda``, ``--profiles`` (list learners) and ``--profile NAME``
+    (run any of the others for that learner instead of the active one).
     Returns a process exit code.
     """
     import argparse
@@ -298,11 +300,28 @@ def run_cli(argv):
     ap.add_argument("--backup", action="store_true", help="أنشئ نسخة احتياطية")
     ap.add_argument("--import-nvda", action="store_true",
                     help="استورد بيانات إضافة NVDA")
+    ap.add_argument("--profiles", action="store_true", help="اعرض ملفّات المتعلّمين")
+    ap.add_argument("--profile", metavar="NAME", help="نفّذ الأمر لمتعلّم معيّن بالاسم")
+    ap.add_argument("--weekly", metavar="PATH", help="صدّر التقرير الأسبوعي HTML")
     args = ap.parse_args(argv)
 
     from . import logging_setup
-    data_dir = _udd()
-    logging_setup.setup(data_dir)
+    from . import profiles as _profiles
+    root_dir = _udd()
+    logging_setup.setup(root_dir)
+    reg = _profiles.load(root_dir)
+    if args.profiles:
+        for p in reg.profiles:
+            print(_profiles.describe(root_dir, p, reg.active))
+        return 0
+    if args.profile:
+        match = next((p for p in reg.profiles if p.name == args.profile or p.id == args.profile), None)
+        if match is None:
+            print(f"no such profile: {args.profile}")
+            return 2
+        data_dir = _profiles.profile_dir(root_dir, match.id)
+    else:
+        data_dir = _profiles.active_dir(root_dir)
     if args.import_nvda:
         copied, skipped = _migrate.import_from_addon(data_dir)
         print(f"imported: {len(copied)}, skipped: {len(skipped)}")
@@ -315,6 +334,13 @@ def run_cli(argv):
     academy = build_academy(data_dir)
     if args.report:
         print(export_progress_report(academy, args.report))
+        return 0
+    if args.weekly:
+        from abaAcademy.study_hub import weekly_report
+        name = academy.store.get_setting("user_name", "") or ""
+        with open(args.weekly, "w", encoding="utf-8") as f:
+            f.write(weekly_report.to_html(academy.store, name))
+        print(args.weekly)
         return 0
     if args.stats:
         s = academy.store

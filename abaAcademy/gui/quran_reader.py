@@ -435,7 +435,7 @@ class QuranReader(AccessibleDialog):
         sz.Add(wx.StaticText(panel, label="السورة:"), 0, wx.ALL, 4)
         surahChoice = wx.Choice(panel, choices=names)
         surahChoice.SetName("اختر السورة")
-        surahChoice.SetSelection(cur_surah - 1)
+        surahChoice.SetSelection(max(0, min(113, int(cur_surah or 1) - 1)))
         sz.Add(surahChoice, 0, wx.EXPAND | wx.ALL, 4)
         info = wx.StaticText(panel, label="")
         sz.Add(info, 0, wx.ALL, 4)
@@ -531,7 +531,7 @@ class QuranReader(AccessibleDialog):
                 self.announce("تم تغيير النص.")
             wx.CallAfter(_apply)
         else:
-            wx.CallAfter(self.announce, "تعذّر تنزيل هذا النص.")
+            self.call_after(self.announce, "تعذّر تنزيل هذا النص.")
 
     def _read_translation(self):
         if not self._default_translation:
@@ -584,9 +584,9 @@ class QuranReader(AccessibleDialog):
     def _fetch_edition_ayah(self, edition_id, num, label):
         arr = self._ed.fetch_edition(edition_id)
         if arr and 1 <= num <= len(arr) and arr[num - 1]:
-            wx.CallAfter(self._show_text_window, self._edition_title(label, num), arr[num - 1])
+            self.call_after(self._show_text_window, self._edition_title(label, num), arr[num - 1])
         else:
-            wx.CallAfter(self.announce, f"تعذّر تنزيل {label}.")
+            self.call_after(self.announce, f"تعذّر تنزيل {label}.")
 
     # -- audio -------------------------------------------------------------
 
@@ -625,9 +625,9 @@ class QuranReader(AccessibleDialog):
     def _fetch_then_play(self, tag, bitrate, num, url):
         path = self._audio.fetch(tag, bitrate, num, url=url)
         if path:
-            wx.CallAfter(self._start, path)
+            self.call_after(self._start, path)
         else:
-            wx.CallAfter(self.announce,
+            self.call_after(self.announce,
                          "هذه الآية غير منزّلة ولا يوجد اتصال بالإنترنت. "
                          "نزّل السورة أولاً للاستماع دون إنترنت.")
 
@@ -1047,10 +1047,10 @@ class QuranReader(AccessibleDialog):
 
     def instructions(self) -> str:
         return ("نص المصحف نافذة نصية، كل آية في سطر، فتنقّل بأوامر الأسطر في the screen reader أو اقرأ "
-                "الكل. اضغط Enter على الآية للاستماع إليها فوراً. غيّر «التنقل» (سورة/جزء/حزب/"
-                "ربع/صفحة) واكتب رقماً أو اسم سورة، أو استخدم «السابق/التالي». أزرار: ترجمة "
-                "الآية، تفسيرها، معلوماتها، نسخها، حفظ علامة والرجوع إليها، والبحث. «تشغيل "
-                "متواصل» يقرأ الآيات تباعاً حتى عبر الأقسام، و«تكرار الآية» يعيدها للحفظ. "
+                "الكل. اضغط Enter على الآية للاستماع إليها فوراً. غيّر التنقل (سورة/جزء/حزب/"
+                "ربع/صفحة) واكتب رقماً أو اسم سورة، أو استخدم السابق/التالي. أزرار: ترجمة "
+                "الآية، تفسيرها، معلوماتها، نسخها، حفظ علامة والرجوع إليها، والبحث. تشغيل "
+                "متواصل يقرأ الآيات تباعاً حتى عبر الأقسام، وتكرار الآية يعيدها للحفظ. "
                 "يُحفظ آخر موضع تلقائياً. Escape للإغلاق.")
 
 
@@ -1083,5 +1083,5 @@ class TextViewDialog(AccessibleDialog):
         self.set_first_control(self.text)
 
     def instructions(self) -> str:
-        return ("نص للقراءة فقط. تنقّل بالأسهم وCtrl+الأسهم، وزر «إغلاق» يُوصَل إليه "
+        return ("نص للقراءة فقط. تنقّل بالأسهم وCtrl+الأسهم، وزر إغلاق يُوصَل إليه "
                 "بمفتاح Tab، أو اضغط Escape للإغلاق.")

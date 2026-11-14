@@ -86,21 +86,21 @@ def analyse_ayah(text):
         # qalqalah: a qalqalah letter carrying sukoon
         if ch in _QALQALAH and _SUKOON in marks:
             hits.append(TajweedRule(i, "qalqalah", "قلقلة",
-                                    f"حرف «{ch}» ساكن: يُقلقَل بنبرة خفيفة."))
+                                    f"حرف {ch} ساكن: يُقلقَل بنبرة خفيفة."))
         # ghunnah: noon or meem carrying shadda
         if ch in "نم" and _SHADDA in marks:
             hits.append(TajweedRule(i, "ghunnah", "غنّة",
-                                    f"«{ch}» مشدّدة: تُغَنّ بمقدار حركتين."))
+                                    f"{ch} مشدّدة: تُغَنّ بمقدار حركتين."))
         # madd: a madd letter carrying the maddah sign
         if ch in _MADD_LETTERS and _MADD_SIGN in marks:
             hits.append(TajweedRule(i, "madd", "مدّ",
-                                    f"حرف مدّ «{ch}»: يُمدّ."))
+                                    f"حرف مدّ {ch}: يُمدّ."))
         # sun-letter assimilation: 'ال' followed by a sun letter (not lam itself,
         # to exclude the divine name). The article alef is often ALEF WASLA.
         if ch == "ل" and i >= 1 and text[i - 1] in ("ا", "\u0671", "\u0627"):
             if nxt in _SUN_LETTERS and nxt != "ل":
                 hits.append(TajweedRule(i, "sun", "لام شمسية",
-                                        f"اللام لا تُنطق وتُدغم في «{nxt}»."))
+                                        f"اللام لا تُنطق وتُدغم في {nxt}."))
     return hits
 
 

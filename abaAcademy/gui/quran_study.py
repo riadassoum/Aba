@@ -95,7 +95,7 @@ class QuranStudyDialog(AccessibleDialog):
             self._say(self.morph.summary_for_root(root))
             return
         self._say(self.morph.summary_for_root(root)
-                  + " استخدم «الصيغ المشتقّة» أو «المواضع» للتفصيل.")
+                  + " استخدم الصيغ المشتقّة أو المواضع للتفصيل.")
         # show forms in the list by default
         self._show_forms()
 
@@ -180,7 +180,7 @@ class QuranStudyDialog(AccessibleDialog):
 
     def instructions(self):
         return ("دراسة القرآن: اكتب جذراً ثلاثيّاً (مثل رحم) واضغط Enter لتعرف عدد مرّات "
-                "وروده وصيغه المشتقّة، ثم «الصيغ المشتقّة» أو «المواضع» للتفصيل، وتصفّح "
+                "وروده وصيغه المشتقّة، ثم الصيغ المشتقّة أو المواضع للتفصيل، وتصفّح "
                 "النتائج في القائمة بالأسهم. للتجويد، اكتب موضع آية مثل 2:255 لتسمع الأحكام "
                 "التي يمكن كشفها من النص مع نغمة لكل حكم. المورفولوجيا من مدوّنة القرآن "
                 "الصرفية، وكاشف التجويد أداة مساعِدة للدراسة لا نصّاً معتمداً. Escape للإغلاق.")

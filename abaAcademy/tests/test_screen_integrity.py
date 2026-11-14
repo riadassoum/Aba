@@ -71,6 +71,23 @@ def _wx_window_methods():
         }
 
 
+def _package_class_bases():
+    """Every class in the gui package -> the names of its base classes."""
+    out = {}
+    for fname in os.listdir(_GUI):
+        if not fname.endswith(".py"):
+            continue
+        try:
+            tree = ast.parse(open(os.path.join(_GUI, fname), encoding="utf-8").read())
+        except SyntaxError:
+            continue
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ClassDef):
+                names = [getattr(b, "id", None) or getattr(b, "attr", None) for b in node.bases]
+                out.setdefault(node.name, set()).update(n for n in names if n)
+    return out
+
+
 def _package_class_methods():
     """Every class in the gui package -> its methods, so a base class defined in
     another module of the package can still be resolved."""
@@ -95,6 +112,18 @@ class TestScreenIntegrity(unittest.TestCase):
         problems = []
         wx_methods = _wx_window_methods()
         pkg_classes = _package_class_methods()
+        pkg_bases = _package_class_bases()
+
+        def inherited(name, seen=None):
+            """Methods of a package class and, transitively, of its bases."""
+            seen = seen if seen is not None else set()
+            if name in seen or name not in pkg_classes:
+                return set()
+            seen.add(name)
+            out = set(pkg_classes[name])
+            for b in pkg_bases.get(name, ()):
+                out |= inherited(b, seen)
+            return out
         for fname in sorted(os.listdir(_GUI)):
             if not fname.endswith(".py"):
                 continue
@@ -121,9 +150,9 @@ class TestScreenIntegrity(unittest.TestCase):
                     if name in classes:
                         defined |= _class_methods(classes[name])
                         defined |= _assigned_attrs(classes[name])
-                    elif name in pkg_classes:
-                        # base lives in another module of the gui package
-                        defined |= pkg_classes[name]
+                    if name in pkg_classes:
+                        # bases anywhere in the gui package, all the way up
+                        defined |= inherited(name)
                 defined |= _BASE_HELPERS | module_funcs | wx_methods
                 for called in _self_calls(node):
                     if called.startswith("__"):

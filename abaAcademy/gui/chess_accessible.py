@@ -77,7 +77,7 @@ class ChessDialog(AccessibleDialog):
         panel.SetSizer(s)
         self.pad.Bind(wx.EVT_KEY_DOWN, self._on_key)
         self.set_first_control(self.pad)
-        wx.CallAfter(self._new_game)
+        self.call_after(self._new_game)
 
     # -- game -------------------------------------------------------------
     def _new_game(self):
@@ -88,7 +88,7 @@ class ChessDialog(AccessibleDialog):
         lvl = self.LEVELS[self.choice_index(self.levelChoice)][0]
         self._say(f"مباراة جديدة. أنت الأبيض وتبدأ. المستوى {lvl}. "
                   f"المؤشّر على {describe_square(self._board, self._cursor)}.")
-        wx.CallAfter(self.pad.SetFocus)
+        self.call_after(self.pad.SetFocus)
 
     def _on_key(self, evt):
         if self._thinking:
@@ -163,7 +163,7 @@ class ChessDialog(AccessibleDialog):
         self._say("يفكّر الحاسوب…")
         depth = self.LEVELS[self.choice_index(self.levelChoice)][1]
         # run search then apply; keep UI responsive via CallAfter
-        wx.CallAfter(self._do_ai_move, depth)
+        self.call_after(self._do_ai_move, depth)
 
     def _do_ai_move(self, depth):
         mv = self._board.best_move(depth=depth)

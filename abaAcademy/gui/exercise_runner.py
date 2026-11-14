@@ -128,7 +128,7 @@ class ExerciseRunner(AccessibleDialog):
             self.bodySizer.Add(self.mcq, 0, wx.EXPAND | wx.ALL, 4)
             self.checkBtn.SetDefault()
             self.set_first_control(self.mcq)
-            wx.CallAfter(self.mcq.SetFocus)
+            self.call_after(self.mcq.SetFocus)
         elif q.qtype is QuestionType.TRUE_FALSE:
             row = wx.BoxSizer(wx.HORIZONTAL)
             self.tfTrue = wx.ToggleButton(self.bodyPanel, label="صح")
@@ -141,7 +141,7 @@ class ExerciseRunner(AccessibleDialog):
             row.Add(self.tfFalse, 0, wx.ALL, 4)
             self.bodySizer.Add(row, 0, wx.ALL, 4)
             self.set_first_control(self.tfTrue)
-            wx.CallAfter(self.tfTrue.SetFocus)
+            self.call_after(self.tfTrue.SetFocus)
         elif q.qtype is QuestionType.ORDERING:
             # An accessible reordering list: the words start shuffled, and the
             # learner moves the selected word up or down (Alt+Up / Alt+Down, or
@@ -170,7 +170,7 @@ class ExerciseRunner(AccessibleDialog):
             mv.Add(down, 0, wx.ALL, 2)
             self.bodySizer.Add(mv, 0, wx.ALL, 2)
             self.set_first_control(self.orderList)
-            wx.CallAfter(self.orderList.SetFocus)
+            self.call_after(self.orderList.SetFocus)
         elif q.qtype is QuestionType.MATCHING:
             # one dropdown per left item; choices are all right-side answers.
             self._match_lefts = list(q.correct.keys())
@@ -199,7 +199,7 @@ class ExerciseRunner(AccessibleDialog):
             self.bodySizer.Add(self.typing, 0, wx.EXPAND | wx.ALL, 4)
             self.checkBtn.SetDefault()
             self.set_first_control(self.typing)
-            wx.CallAfter(self.typing.SetFocus)
+            self.call_after(self.typing.SetFocus)
 
         self.bodyPanel.Layout()
         self.panel.Layout()
@@ -278,7 +278,7 @@ class ExerciseRunner(AccessibleDialog):
                 feedback += "اضغط Ctrl+R لتهجئة الإجابة الصحيحة ومقارنتها بما كتبت. "
         # place feedback on Next's accessible name so focusing it announces it
         self.nextBtn.SetName(feedback + " اضغط للانتقال إلى السؤال التالي")
-        wx.CallAfter(self.nextBtn.SetFocus)
+        self.call_after(self.nextBtn.SetFocus)
         self.announce(feedback)
 
     def _correction_text(self, q, given) -> str:
@@ -411,7 +411,7 @@ class ExerciseRunner(AccessibleDialog):
         # level 3+: length / first two letters
         if answer:
             two = answer[:2]
-            return f"الإجابة تبدأ بـ «{two}» وعدد حروفها {len(answer.replace(' ', ''))}."
+            return f"الإجابة تبدأ بـ {two} وعدد حروفها {len(answer.replace(' ', ''))}."
         return "لا مزيد من التلميحات."
 
     def _finalize_once(self):

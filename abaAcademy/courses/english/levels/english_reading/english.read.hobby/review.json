@@ -9,10 +9,10 @@
      "Sports",
      "Reading books",
      "Cooking",
-     "Music"
+     "Travel"
     ],
     "correct": 1,
-    "explanation": "«Ahmed loves reading books».",
+    "explanation": "Ahmed loves reading books.",
     "topic": "reading.hobby"
    }
   },
@@ -28,7 +28,7 @@
      "On weekends only"
     ],
     "correct": 1,
-    "explanation": "«Every evening, after finishing his homework».",
+    "explanation": "Every evening, after finishing his homework.",
     "topic": "reading.hobby"
    }
   }

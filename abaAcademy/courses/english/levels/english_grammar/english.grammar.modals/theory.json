@@ -6,7 +6,7 @@
   },
   {
    "btype": "text",
-   "text": "shouldn't. لا نقول «He can swims» بل «He can swim»."
+   "text": "shouldn't. لا نقول He can swims بل He can swim."
   },
   {
    "btype": "example",
@@ -27,7 +27,7 @@
    "btype": "question",
    "question": {
     "qtype": "mcq",
-    "prompt": "اختر الصحيح: She can ___ the piano.",
+    "prompt": "اختر الصحيح: She can ___ football.",
     "options": [
      "plays",
      "played",

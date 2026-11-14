@@ -368,6 +368,8 @@ class Speaker:
                 pass
 
     def speak(self, text, interrupt=True):
+        from abaAcademy.speakable import speakable
+        text = speakable(text)
         if not text:
             return
         self.log.append(text)

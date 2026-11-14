@@ -9,10 +9,10 @@
      "Sports",
      "Reading books",
      "Cooking",
-     "Music"
+     "Travel"
     ],
     "correct": 1,
-    "explanation": "«Ahmed loves reading books».",
+    "explanation": "Ahmed loves reading books.",
     "topic": "reading.hobby"
    }
   },
@@ -28,7 +28,7 @@
      "On weekends only"
     ],
     "correct": 1,
-    "explanation": "«Every evening, after finishing his homework».",
+    "explanation": "Every evening, after finishing his homework.",
     "topic": "reading.hobby"
    }
   },
@@ -38,7 +38,7 @@
     "qtype": "true_false",
     "prompt": "Ahmed's favourite books are about science and history.",
     "correct": true,
-    "explanation": "«favourite books are about science and history».",
+    "explanation": "favourite books are about science and history.",
     "topic": "reading.hobby"
    }
   },
@@ -54,7 +54,7 @@
      "They read slowly"
     ],
     "correct": 1,
-    "explanation": "«never stops learning».",
+    "explanation": "never stops learning.",
     "topic": "reading.hobby"
    }
   },

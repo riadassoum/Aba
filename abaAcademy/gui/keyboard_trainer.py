@@ -135,7 +135,7 @@ class KeyboardTrainer(AccessibleDialog):
 
     def instructions(self) -> str:
         return ("سيُعرض نص، اكتبه بأسرع وأدق ما يمكن ثم اضغط إنتر. "
-                "أو اختر «اختبار سرعة مؤقّت» لتحديد مدة (دقيقة أو أكثر) والكتابة المتواصلة.")
+                "أو اختر اختبار سرعة مؤقّت لتحديد مدة (دقيقة أو أكثر) والكتابة المتواصلة.")
 
     def _new(self):
         self._target = random.choice(self._items)
@@ -143,7 +143,7 @@ class KeyboardTrainer(AccessibleDialog):
         self.inputCtrl.SetValue("")
         self.inputCtrl.SetName("اكتب: " + self._target)
         self._start = None
-        wx.CallAfter(self.inputCtrl.SetFocus)
+        self.call_after(self.inputCtrl.SetFocus)
         self.announce("اكتب: " + self._target)
 
     def on_repeat(self):

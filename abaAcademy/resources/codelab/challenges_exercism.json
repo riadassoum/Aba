@@ -1,0 +1,10187 @@
+{
+ "source": "Exercism problem-specifications (MIT License, (c) Exercism); Arabic statements and reference solutions written for ABA.",
+ "tracks": [
+  {
+   "id": "basics",
+   "title": "أساسيات: الشروط والحساب",
+   "challenges": [
+    {
+     "cid": "ex_two_fer",
+     "title": "واحد لك وواحد لي",
+     "prompt": "اكتب دالة two_fer(name) تُعيد النص One for NAME, one for me. حيث NAME هو الاسم المعطى. إذا لم يُعطَ اسم (القيمة الافتراضية) فاستعمل you: One for you, one for me..",
+     "hint": "def two_fer(name=\"you\"): ثم استعمل f-string.",
+     "starter": "def two_fer(name=\"you\"):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "two_fer",
+      "cases": [
+       [
+        [],
+        "One for you, one for me."
+       ],
+       [
+        [
+         "Alice"
+        ],
+        "One for Alice, one for me."
+       ],
+       [
+        [
+         "Bob"
+        ],
+        "One for Bob, one for me."
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:two-fer"
+    },
+    {
+     "cid": "ex_leap_year",
+     "title": "السنة الكبيسة",
+     "prompt": "اكتب دالة leap_year(year) تُعيد True إذا كانت السنة كبيسة في التقويم الميلادي: تقبل القسمة على ٤، إلا إذا قبلت القسمة على ١٠٠ ولم تقبلها على ٤٠٠.",
+     "hint": "year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)",
+     "starter": "def leap_year(year):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "leap_year",
+      "cases": [
+       [
+        [
+         2015
+        ],
+        false
+       ],
+       [
+        [
+         1970
+        ],
+        false
+       ],
+       [
+        [
+         1996
+        ],
+        true
+       ],
+       [
+        [
+         1960
+        ],
+        true
+       ],
+       [
+        [
+         2100
+        ],
+        false
+       ],
+       [
+        [
+         1900
+        ],
+        false
+       ],
+       [
+        [
+         2000
+        ],
+        true
+       ],
+       [
+        [
+         2400
+        ],
+        true
+       ],
+       [
+        [
+         1800
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:leap"
+    },
+    {
+     "cid": "ex_convert",
+     "title": "قطرات المطر",
+     "prompt": "اكتب دالة convert(number) تُعيد نصًّا: أضف Pling إذا قبل العدد القسمة على ٣، وPlang إذا قبلها على ٥، وPlong إذا قبلها على ٧. إذا لم يقبل أيًّا منها فأعد العدد نفسه نصًّا.",
+     "hint": "ابنِ النص بثلاثة شروط if منفصلة، ثم أعد str(number) إذا بقي فارغًا.",
+     "starter": "def convert(number):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "convert",
+      "cases": [
+       [
+        [
+         1
+        ],
+        "1"
+       ],
+       [
+        [
+         3
+        ],
+        "Pling"
+       ],
+       [
+        [
+         5
+        ],
+        "Plang"
+       ],
+       [
+        [
+         7
+        ],
+        "Plong"
+       ],
+       [
+        [
+         6
+        ],
+        "Pling"
+       ],
+       [
+        [
+         8
+        ],
+        "8"
+       ],
+       [
+        [
+         9
+        ],
+        "Pling"
+       ],
+       [
+        [
+         10
+        ],
+        "Plang"
+       ],
+       [
+        [
+         14
+        ],
+        "Plong"
+       ],
+       [
+        [
+         15
+        ],
+        "PlingPlang"
+       ],
+       [
+        [
+         21
+        ],
+        "PlingPlong"
+       ],
+       [
+        [
+         25
+        ],
+        "Plang"
+       ],
+       [
+        [
+         27
+        ],
+        "Pling"
+       ],
+       [
+        [
+         35
+        ],
+        "PlangPlong"
+       ],
+       [
+        [
+         49
+        ],
+        "Plong"
+       ],
+       [
+        [
+         52
+        ],
+        "52"
+       ],
+       [
+        [
+         105
+        ],
+        "PlingPlangPlong"
+       ],
+       [
+        [
+         3125
+        ],
+        "Plang"
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:raindrops"
+    },
+    {
+     "cid": "ex_score",
+     "title": "رمي السهام",
+     "prompt": "لوحة سهام دائرية مركزها (0، 0). اكتب دالة score(x, y) تُعيد نقاط الرمية: ١٠ إذا كانت المسافة عن المركز لا تزيد على ١، و٥ إذا لم تزد على ٥، و١ إذا لم تزد على ١٠، و٠ خارج اللوحة.",
+     "hint": "المسافة = (x**2 + y**2) ** 0.5",
+     "starter": "def score(x, y):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "score",
+      "cases": [
+       [
+        [
+         -9,
+         9
+        ],
+        0
+       ],
+       [
+        [
+         0,
+         10
+        ],
+        1
+       ],
+       [
+        [
+         -5,
+         0
+        ],
+        5
+       ],
+       [
+        [
+         0,
+         -1
+        ],
+        10
+       ],
+       [
+        [
+         0,
+         0
+        ],
+        10
+       ],
+       [
+        [
+         -0.1,
+         -0.1
+        ],
+        10
+       ],
+       [
+        [
+         0.7,
+         0.7
+        ],
+        10
+       ],
+       [
+        [
+         0.8,
+         -0.8
+        ],
+        5
+       ],
+       [
+        [
+         -3.5,
+         3.5
+        ],
+        5
+       ],
+       [
+        [
+         -3.6,
+         -3.6
+        ],
+        1
+       ],
+       [
+        [
+         -7.0,
+         7.0
+        ],
+        1
+       ],
+       [
+        [
+         7.1,
+         -7.1
+        ],
+        0
+       ],
+       [
+        [
+         0.5,
+         -4
+        ],
+        5
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:darts"
+    },
+    {
+     "cid": "ex_square",
+     "title": "حبوب القمح على رقعة الشطرنج",
+     "prompt": "على المربع الأول حبّة واحدة، وكل مربع بعده ضعف ما قبله. اكتب دالة square(n) تُعيد عدد الحبوب على المربع n (من ١ إلى ٦٤).",
+     "hint": "2 ** (n - 1)",
+     "starter": "def square(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "square",
+      "cases": [
+       [
+        [
+         1
+        ],
+        1
+       ],
+       [
+        [
+         2
+        ],
+        2
+       ],
+       [
+        [
+         3
+        ],
+        4
+       ],
+       [
+        [
+         4
+        ],
+        8
+       ],
+       [
+        [
+         16
+        ],
+        32768
+       ],
+       [
+        [
+         32
+        ],
+        2147483648
+       ],
+       [
+        [
+         64
+        ],
+        9223372036854775808
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:grains"
+    },
+    {
+     "cid": "ex_square_of_sum",
+     "title": "مربع المجموع",
+     "prompt": "اكتب دالة square_of_sum(n) تُعيد مربع مجموع الأعداد من ١ إلى n.",
+     "hint": "sum(range(1, n + 1)) ** 2",
+     "starter": "def square_of_sum(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "square_of_sum",
+      "cases": [
+       [
+        [
+         1
+        ],
+        1
+       ],
+       [
+        [
+         5
+        ],
+        225
+       ],
+       [
+        [
+         100
+        ],
+        25502500
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:difference-of-squares"
+    },
+    {
+     "cid": "ex_sum_of_squares",
+     "title": "مجموع المربعات",
+     "prompt": "اكتب دالة sum_of_squares(n) تُعيد مجموع مربعات الأعداد من ١ إلى n.",
+     "hint": "sum(k * k for k in range(1, n + 1))",
+     "starter": "def sum_of_squares(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "sum_of_squares",
+      "cases": [
+       [
+        [
+         1
+        ],
+        1
+       ],
+       [
+        [
+         5
+        ],
+        55
+       ],
+       [
+        [
+         100
+        ],
+        338350
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:difference-of-squares"
+    },
+    {
+     "cid": "ex_difference_of_squares",
+     "title": "الفرق بين مربع المجموع ومجموع المربعات",
+     "prompt": "اكتب دالة difference_of_squares(n) تُعيد (مربع مجموع الأعداد من ١ إلى n) ناقص (مجموع مربعاتها).",
+     "hint": "احسب القيمتين ثم اطرح.",
+     "starter": "def difference_of_squares(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "difference_of_squares",
+      "cases": [
+       [
+        [
+         1
+        ],
+        0
+       ],
+       [
+        [
+         5
+        ],
+        170
+       ],
+       [
+        [
+         100
+        ],
+        25164150
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:difference-of-squares"
+    },
+    {
+     "cid": "ex_square_root",
+     "title": "الجذر التربيعي دون مكتبات",
+     "prompt": "اكتب دالة square_root(n) تُعيد الجذر التربيعي الصحيح لعدد مربع كامل، دون استعمال math.sqrt ولا ** 0.5.",
+     "hint": "جرّب الأعداد r = 1، 2، 3… حتى يصير r * r == n، أو استعمل البحث الثنائي.",
+     "starter": "def square_root(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "square_root",
+      "cases": [
+       [
+        [
+         1
+        ],
+        1
+       ],
+       [
+        [
+         4
+        ],
+        2
+       ],
+       [
+        [
+         25
+        ],
+        5
+       ],
+       [
+        [
+         81
+        ],
+        9
+       ],
+       [
+        [
+         196
+        ],
+        14
+       ],
+       [
+        [
+         65025
+        ],
+        255
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:square-root"
+    },
+    {
+     "cid": "ex_steps",
+     "title": "حدسية كولاتز",
+     "prompt": "ابدأ بعدد موجب: إن كان زوجيًّا فاقسمه على ٢، وإن كان فرديًّا فاضربه في ٣ وأضف ١. اكتب دالة steps(n) تُعيد عدد الخطوات حتى تصل إلى ١.",
+     "hint": "حلقة while n != 1 مع عدّاد.",
+     "starter": "def steps(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "steps",
+      "cases": [
+       [
+        [
+         1
+        ],
+        0
+       ],
+       [
+        [
+         16
+        ],
+        4
+       ],
+       [
+        [
+         12
+        ],
+        9
+       ],
+       [
+        [
+         1000000
+        ],
+        152
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:collatz-conjecture"
+    },
+    {
+     "cid": "ex_egg_count",
+     "title": "عدّ البيض (البتّات)",
+     "prompt": "يمثّل العدد صفًّا من الأعشاش بالنظام الثنائي: كل ١ بيضة. اكتب دالة egg_count(n) تُعيد عدد الآحاد في التمثيل الثنائي للعدد، دون استعمال bin().count.",
+     "hint": "كرّر: أضف n % 2 ثم n //= 2.",
+     "starter": "def egg_count(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "egg_count",
+      "cases": [
+       [
+        [
+         0
+        ],
+        0
+       ],
+       [
+        [
+         16
+        ],
+        1
+       ],
+       [
+        [
+         89
+        ],
+        4
+       ],
+       [
+        [
+         2000000000
+        ],
+        13
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:eliuds-eggs"
+    },
+    {
+     "cid": "ex_is_armstrong_number",
+     "title": "أعداد آرمسترونغ",
+     "prompt": "العدد آرمسترونغ إذا ساوى مجموع أرقامه كلّ منها مرفوعًا لعدد الأرقام، مثل 153 = 1³ + 5³ + 3³. اكتب دالة is_armstrong_number(n).",
+     "hint": "digits = str(n)، ثم sum(int(d) ** len(digits) for d in digits).",
+     "starter": "def is_armstrong_number(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_armstrong_number",
+      "cases": [
+       [
+        [
+         0
+        ],
+        true
+       ],
+       [
+        [
+         5
+        ],
+        true
+       ],
+       [
+        [
+         10
+        ],
+        false
+       ],
+       [
+        [
+         153
+        ],
+        true
+       ],
+       [
+        [
+         100
+        ],
+        false
+       ],
+       [
+        [
+         9474
+        ],
+        true
+       ],
+       [
+        [
+         9475
+        ],
+        false
+       ],
+       [
+        [
+         9926315
+        ],
+        true
+       ],
+       [
+        [
+         9926314
+        ],
+        false
+       ],
+       [
+        [
+         186709961001538790100634132976990
+        ],
+        true
+       ],
+       [
+        [
+         115132219018763992565095597973971522401
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:armstrong-numbers"
+    },
+    {
+     "cid": "ex_classify",
+     "title": "العدد التامّ والزائد والناقص",
+     "prompt": "اكتب دالة classify(n) تُعيد perfect إذا ساوى مجموع قواسم العدد (دونه) العدد نفسه، وabundant إذا زاد عليه، وdeficient إذا نقص.",
+     "hint": "اجمع القواسم من ١ إلى n // 2، أو حتى الجذر لتسريع الحل.",
+     "starter": "def classify(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "classify",
+      "cases": [
+       [
+        [
+         6
+        ],
+        "perfect"
+       ],
+       [
+        [
+         28
+        ],
+        "perfect"
+       ],
+       [
+        [
+         33550336
+        ],
+        "perfect"
+       ],
+       [
+        [
+         12
+        ],
+        "abundant"
+       ],
+       [
+        [
+         30
+        ],
+        "abundant"
+       ],
+       [
+        [
+         33550335
+        ],
+        "abundant"
+       ],
+       [
+        [
+         196
+        ],
+        "abundant"
+       ],
+       [
+        [
+         2
+        ],
+        "deficient"
+       ],
+       [
+        [
+         4
+        ],
+        "deficient"
+       ],
+       [
+        [
+         32
+        ],
+        "deficient"
+       ],
+       [
+        [
+         33550337
+        ],
+        "deficient"
+       ],
+       [
+        [
+         1
+        ],
+        "deficient"
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:perfect-numbers"
+    },
+    {
+     "cid": "ex_equilateral",
+     "title": "المثلث متساوي الأضلاع",
+     "prompt": "اكتب دالة equilateral(sides) تأخذ قائمة أطوال ثلاثة وتُعيد True إذا كانت تكوّن مثلثًا صحيحًا (كل ضلع موجب، ومجموع أيّ ضلعين لا يقلّ عن الثالث) أضلاعه الثلاثة متساوية.",
+     "hint": "رتّب الأضلاع a <= b <= c ثم تحقّق من a > 0 و a + b >= c.",
+     "starter": "def equilateral(sides):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "equilateral",
+      "cases": [
+       [
+        [
+         [
+          2,
+          2,
+          2
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          2
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          5,
+          4,
+          6
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          0,
+          0,
+          0
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          0.5,
+          0.5,
+          0.5
+         ]
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:triangle"
+    },
+    {
+     "cid": "ex_isosceles",
+     "title": "المثلث متساوي الساقين",
+     "prompt": "اكتب دالة isosceles(sides) تُعيد True إذا كوّنت الأطوال مثلثًا صحيحًا فيه ضلعان متساويان على الأقل.",
+     "hint": "مثلث صحيح و len(set(sides)) <= 2.",
+     "starter": "def isosceles(sides):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "isosceles",
+      "cases": [
+       [
+        [
+         [
+          3,
+          4,
+          4
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          4,
+          3
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          3,
+          4
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          4,
+          4
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          4
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          3
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          1
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          3,
+          1,
+          1
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          0.5,
+          0.4,
+          0.5
+         ]
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:triangle"
+    },
+    {
+     "cid": "ex_scalene",
+     "title": "المثلث مختلف الأضلاع",
+     "prompt": "اكتب دالة scalene(sides) تُعيد True إذا كوّنت الأطوال مثلثًا صحيحًا أضلاعه الثلاثة مختلفة.",
+     "hint": "مثلث صحيح و len(set(sides)) == 3.",
+     "starter": "def scalene(sides):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "scalene",
+      "cases": [
+       [
+        [
+         [
+          5,
+          4,
+          6
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          4,
+          4
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          4,
+          4,
+          3
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          3,
+          4,
+          3
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          4,
+          3,
+          3
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          7,
+          3,
+          2
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          0.5,
+          0.4,
+          0.6
+         ]
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "basics",
+     "source": "exercism:triangle"
+    },
+    {
+     "cid": "ex_age",
+     "title": "عمرك على الكواكب",
+     "prompt": "السنة الأرضية 31557600 ثانية. نسب السنة الكوكبية إلى الأرضية: Mercury 0.2408467، Venus 0.61519726، Earth 1، Mars 1.8808158، Jupiter 11.862615، Saturn 29.447498، Uranus 84.016846، Neptune 164.79132. اكتب دالة age(planet, seconds) تُعيد العمر بسنوات ذلك الكوكب مقرّبًا إلى منزلتين.",
+     "hint": "round(seconds / 31557600 / ratio[planet], 2)",
+     "starter": "def age(planet, seconds):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "age",
+      "cases": [
+       [
+        [
+         "Earth",
+         1000000000
+        ],
+        31.69
+       ],
+       [
+        [
+         "Mercury",
+         2134835688
+        ],
+        280.88
+       ],
+       [
+        [
+         "Venus",
+         189839836
+        ],
+        9.78
+       ],
+       [
+        [
+         "Mars",
+         2129871239
+        ],
+        35.88
+       ],
+       [
+        [
+         "Jupiter",
+         901876382
+        ],
+        2.41
+       ],
+       [
+        [
+         "Saturn",
+         2000000000
+        ],
+        2.15
+       ],
+       [
+        [
+         "Uranus",
+         1210123456
+        ],
+        0.46
+       ],
+       [
+        [
+         "Neptune",
+         1821023456
+        ],
+        0.35
+       ]
+      ],
+      "round": 2
+     },
+     "topic": "basics",
+     "source": "exercism:space-age"
+    }
+   ]
+  },
+  {
+   "id": "strings",
+   "title": "معالجة النصوص",
+   "challenges": [
+    {
+     "cid": "ex_reverse",
+     "title": "اقلب النص",
+     "prompt": "اكتب دالة reverse(text) تُعيد النص مقلوبًا.",
+     "hint": "text[::-1]",
+     "starter": "def reverse(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "reverse",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        ""
+       ],
+       [
+        [
+         "robot"
+        ],
+        "tobor"
+       ],
+       [
+        [
+         "Ramen"
+        ],
+        "nemaR"
+       ],
+       [
+        [
+         "I'm hungry!"
+        ],
+        "!yrgnuh m'I"
+       ],
+       [
+        [
+         "racecar"
+        ],
+        "racecar"
+       ],
+       [
+        [
+         "drawer"
+        ],
+        "reward"
+       ],
+       [
+        [
+         "子猫"
+        ],
+        "猫子"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:reverse-string"
+    },
+    {
+     "cid": "ex_is_isogram",
+     "title": "الكلمة بلا تكرار",
+     "prompt": "اكتب دالة is_isogram(text) تُعيد True إذا لم يتكرّر فيها أيّ حرف (بلا تمييز بين الكبير والصغير، مع تجاهل المسافات والشرطات).",
+     "hint": "letters = [c.lower() for c in text if c.isalpha()] ثم قارن الطول بطول set.",
+     "starter": "def is_isogram(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_isogram",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        true
+       ],
+       [
+        [
+         "isogram"
+        ],
+        true
+       ],
+       [
+        [
+         "eleven"
+        ],
+        false
+       ],
+       [
+        [
+         "zzyzx"
+        ],
+        false
+       ],
+       [
+        [
+         "subdermatoglyphic"
+        ],
+        true
+       ],
+       [
+        [
+         "Alphabet"
+        ],
+        false
+       ],
+       [
+        [
+         "alphAbet"
+        ],
+        false
+       ],
+       [
+        [
+         "thumbscrew-japingly"
+        ],
+        true
+       ],
+       [
+        [
+         "thumbscrew-jappingly"
+        ],
+        false
+       ],
+       [
+        [
+         "six-year-old"
+        ],
+        true
+       ],
+       [
+        [
+         "Emily Jung Schwartzkopf"
+        ],
+        true
+       ],
+       [
+        [
+         "accentor"
+        ],
+        false
+       ],
+       [
+        [
+         "angola"
+        ],
+        false
+       ],
+       [
+        [
+         "up-to-date"
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:isogram"
+    },
+    {
+     "cid": "ex_is_pangram",
+     "title": "الجملة الجامعة",
+     "prompt": "اكتب دالة is_pangram(sentence) تُعيد True إذا احتوت الجملة على كل حروف الأبجدية الإنجليزية الستة والعشرين مرّة على الأقل.",
+     "hint": "set('abcdefghijklmnopqrstuvwxyz') <= set(sentence.lower())",
+     "starter": "def is_pangram(sentence):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_pangram",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        false
+       ],
+       [
+        [
+         "abcdefghijklmnopqrstuvwxyz"
+        ],
+        true
+       ],
+       [
+        [
+         "the quick brown fox jumps over the lazy dog"
+        ],
+        true
+       ],
+       [
+        [
+         "a quick movement of the enemy will jeopardize five gunboats"
+        ],
+        false
+       ],
+       [
+        [
+         "five boxing wizards jump quickly at it"
+        ],
+        false
+       ],
+       [
+        [
+         "the_quick_brown_fox_jumps_over_the_lazy_dog"
+        ],
+        true
+       ],
+       [
+        [
+         "the 1 quick brown fox jumps over the 2 lazy dogs"
+        ],
+        true
+       ],
+       [
+        [
+         "7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog"
+        ],
+        false
+       ],
+       [
+        [
+         "\"Five quacking Zephyrs jolt my wax bed.\""
+        ],
+        true
+       ],
+       [
+        [
+         "abcdefghijklm ABCDEFGHIJKLM"
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:pangram"
+    },
+    {
+     "cid": "ex_abbreviate",
+     "title": "الاختصار",
+     "prompt": "اكتب دالة abbreviate(phrase) تُعيد الاختصار المكوّن من الحرف الأول لكل كلمة بأحرف كبيرة. الشرطة تفصل الكلمات، وتُتجاهل علامات الترقيم الأخرى مثل _.",
+     "hint": "استبدل '-' و'_' بمسافة، ثم خذ الحرف الأول من كل كلمة.",
+     "starter": "def abbreviate(phrase):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "abbreviate",
+      "cases": [
+       [
+        [
+         "Portable Network Graphics"
+        ],
+        "PNG"
+       ],
+       [
+        [
+         "Ruby on Rails"
+        ],
+        "ROR"
+       ],
+       [
+        [
+         "First In, First Out"
+        ],
+        "FIFO"
+       ],
+       [
+        [
+         "GNU Image Manipulation Program"
+        ],
+        "GIMP"
+       ],
+       [
+        [
+         "Complementary metal-oxide semiconductor"
+        ],
+        "CMOS"
+       ],
+       [
+        [
+         "Rolling On The Floor Laughing So Hard That My Dogs Came Over And Licked Me"
+        ],
+        "ROTFLSHTMDCOALM"
+       ],
+       [
+        [
+         "Something - I made up from thin air"
+        ],
+        "SIMUFTA"
+       ],
+       [
+        [
+         "Halley's Comet"
+        ],
+        "HC"
+       ],
+       [
+        [
+         "The Road _Not_ Taken"
+        ],
+        "TRNT"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:acronym"
+    },
+    {
+     "cid": "ex_distance",
+     "title": "مسافة هامنغ",
+     "prompt": "اكتب دالة distance(a, b) تُعيد عدد المواضع التي يختلف فيها نصّان متساويان في الطول.",
+     "hint": "sum(x != y for x, y in zip(a, b))",
+     "starter": "def distance(a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "distance",
+      "cases": [
+       [
+        [
+         "",
+         ""
+        ],
+        0
+       ],
+       [
+        [
+         "A",
+         "A"
+        ],
+        0
+       ],
+       [
+        [
+         "G",
+         "T"
+        ],
+        1
+       ],
+       [
+        [
+         "GGACTGAAATCTG",
+         "GGACTGAAATCTG"
+        ],
+        0
+       ],
+       [
+        [
+         "GGACGGATTCTG",
+         "AGGACGGATTCT"
+        ],
+        9
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:hamming"
+    },
+    {
+     "cid": "ex_to_rna",
+     "title": "من DNA إلى RNA",
+     "prompt": "اكتب دالة to_rna(dna) تحوّل كل حرف: G إلى C، وC إلى G، وT إلى A، وA إلى U.",
+     "hint": "str.maketrans('GCTA', 'CGAU')",
+     "starter": "def to_rna(dna):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "to_rna",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        ""
+       ],
+       [
+        [
+         "C"
+        ],
+        "G"
+       ],
+       [
+        [
+         "G"
+        ],
+        "C"
+       ],
+       [
+        [
+         "T"
+        ],
+        "A"
+       ],
+       [
+        [
+         "A"
+        ],
+        "U"
+       ],
+       [
+        [
+         "ACGTGGTCTTAA"
+        ],
+        "UGCACCAGAAUU"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:rna-transcription"
+    },
+    {
+     "cid": "ex_count_words",
+     "title": "عدّ الكلمات",
+     "prompt": "اكتب دالة count_words(sentence) تُعيد قاموسًا بكل كلمة (بأحرف صغيرة) وعدد مرّاتها. الكلمة أحرف وأرقام وقد تحتوي على فاصلة عليا داخلية (don't)، وتُتجاهل الفاصلة العليا المحيطة بالكلمة وعلامات الترقيم.",
+     "hint": "re.findall(r\"[a-z0-9]+(?:'[a-z0-9]+)*\", sentence.lower())",
+     "starter": "def count_words(sentence):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "count_words",
+      "cases": [
+       [
+        [
+         "word"
+        ],
+        {
+         "word": 1
+        }
+       ],
+       [
+        [
+         "one of each"
+        ],
+        {
+         "one": 1,
+         "of": 1,
+         "each": 1
+        }
+       ],
+       [
+        [
+         "one fish two fish red fish blue fish"
+        ],
+        {
+         "one": 1,
+         "fish": 4,
+         "two": 1,
+         "red": 1,
+         "blue": 1
+        }
+       ],
+       [
+        [
+         "one,two,three"
+        ],
+        {
+         "one": 1,
+         "two": 1,
+         "three": 1
+        }
+       ],
+       [
+        [
+         "one,\ntwo,\nthree"
+        ],
+        {
+         "one": 1,
+         "two": 1,
+         "three": 1
+        }
+       ],
+       [
+        [
+         "car: carpet as java: javascript!!&@$%^&"
+        ],
+        {
+         "car": 1,
+         "carpet": 1,
+         "as": 1,
+         "java": 1,
+         "javascript": 1
+        }
+       ],
+       [
+        [
+         "testing, 1, 2 testing"
+        ],
+        {
+         "testing": 2,
+         "1": 1,
+         "2": 1
+        }
+       ],
+       [
+        [
+         "go Go GO Stop stop"
+        ],
+        {
+         "go": 3,
+         "stop": 2
+        }
+       ],
+       [
+        [
+         "'First: don't laugh. Then: don't cry. You're getting it.'"
+        ],
+        {
+         "first": 1,
+         "don't": 2,
+         "laugh": 1,
+         "then": 1,
+         "cry": 1,
+         "you're": 1,
+         "getting": 1,
+         "it": 1
+        }
+       ],
+       [
+        [
+         "Joe can't tell between 'large' and large."
+        ],
+        {
+         "joe": 1,
+         "can't": 1,
+         "tell": 1,
+         "between": 1,
+         "large": 2,
+         "and": 1
+        }
+       ],
+       [
+        [
+         "Joe can't tell between app, apple and a."
+        ],
+        {
+         "joe": 1,
+         "can't": 1,
+         "tell": 1,
+         "between": 1,
+         "app": 1,
+         "apple": 1,
+         "and": 1,
+         "a": 1
+        }
+       ],
+       [
+        [
+         " multiple   whitespaces"
+        ],
+        {
+         "multiple": 1,
+         "whitespaces": 1
+        }
+       ],
+       [
+        [
+         ",\n,one,\n ,two \n 'three'"
+        ],
+        {
+         "one": 1,
+         "two": 1,
+         "three": 1
+        }
+       ],
+       [
+        [
+         "can, can't, 'can't'"
+        ],
+        {
+         "can": 1,
+         "can't": 2
+        }
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:word-count"
+    },
+    {
+     "cid": "ex_scrabble_score",
+     "title": "نقاط سكرابل",
+     "prompt": "قيم الحروف: AEIOULNRST = 1، DG = 2، BCMP = 3، FHVWY = 4، K = 5، JX = 8، QZ = 10. اكتب دالة scrabble_score(word) تُعيد مجموع نقاط الكلمة بلا تمييز لحالة الحروف.",
+     "hint": "قاموس من الحرف إلى قيمته، ثم sum.",
+     "starter": "def scrabble_score(word):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "scrabble_score",
+      "cases": [
+       [
+        [
+         "a"
+        ],
+        1
+       ],
+       [
+        [
+         "A"
+        ],
+        1
+       ],
+       [
+        [
+         "f"
+        ],
+        4
+       ],
+       [
+        [
+         "at"
+        ],
+        2
+       ],
+       [
+        [
+         "zoo"
+        ],
+        12
+       ],
+       [
+        [
+         "street"
+        ],
+        6
+       ],
+       [
+        [
+         "quirky"
+        ],
+        22
+       ],
+       [
+        [
+         "OxyphenButazone"
+        ],
+        41
+       ],
+       [
+        [
+         "pinata"
+        ],
+        8
+       ],
+       [
+        [
+         ""
+        ],
+        0
+       ],
+       [
+        [
+         "abcdefghijklmnopqrstuvwxyz"
+        ],
+        87
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:scrabble-score"
+    },
+    {
+     "cid": "ex_rotate",
+     "title": "شيفرة قيصر",
+     "prompt": "اكتب دالة rotate(text, key) تُزيح كل حرف إنجليزي key موضعًا في الأبجدية مع الالتفاف من z إلى a، مع الحفاظ على حالة الحرف، وتترك غير الحروف كما هي.",
+     "hint": "chr((ord(c) - base + key) % 26 + base) حيث base = ord('a') أو ord('A').",
+     "starter": "def rotate(text, key):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rotate",
+      "cases": [
+       [
+        [
+         "a",
+         0
+        ],
+        "a"
+       ],
+       [
+        [
+         "a",
+         1
+        ],
+        "b"
+       ],
+       [
+        [
+         "a",
+         26
+        ],
+        "a"
+       ],
+       [
+        [
+         "m",
+         13
+        ],
+        "z"
+       ],
+       [
+        [
+         "n",
+         13
+        ],
+        "a"
+       ],
+       [
+        [
+         "OMG",
+         5
+        ],
+        "TRL"
+       ],
+       [
+        [
+         "O M G",
+         5
+        ],
+        "T R L"
+       ],
+       [
+        [
+         "Testing 1 2 3 testing",
+         4
+        ],
+        "Xiwxmrk 1 2 3 xiwxmrk"
+       ],
+       [
+        [
+         "Let's eat, Grandma!",
+         21
+        ],
+        "Gzo'n zvo, Bmviyhv!"
+       ],
+       [
+        [
+         "The quick brown fox jumps over the lazy dog.",
+         13
+        ],
+        "Gur dhvpx oebja sbk whzcf bire gur ynml qbt."
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:rotational-cipher"
+    },
+    {
+     "cid": "ex_atbash_encode",
+     "title": "شيفرة أتباش: التشفير",
+     "prompt": "في شيفرة أتباش يُستبدل a بـ z، وb بـ y، وهكذا، وتبقى الأرقام. اكتب دالة atbash_encode(text) تحذف ما ليس حرفًا أو رقمًا، وتحوّل إلى أحرف صغيرة، وتشفّر، ثم تقسّم الناتج إلى مجموعات من خمسة تفصلها مسافة.",
+     "hint": "بعد التشفير: ' '.join(s[i:i+5] for i in range(0, len(s), 5))",
+     "starter": "def atbash_encode(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "atbash_encode",
+      "cases": [
+       [
+        [
+         "yes"
+        ],
+        "bvh"
+       ],
+       [
+        [
+         "no"
+        ],
+        "ml"
+       ],
+       [
+        [
+         "OMG"
+        ],
+        "lnt"
+       ],
+       [
+        [
+         "O M G"
+        ],
+        "lnt"
+       ],
+       [
+        [
+         "mindblowingly"
+        ],
+        "nrmwy oldrm tob"
+       ],
+       [
+        [
+         "Testing,1 2 3, testing."
+        ],
+        "gvhgr mt123 gvhgr mt"
+       ],
+       [
+        [
+         "Truth is fiction."
+        ],
+        "gifgs rhurx grlm"
+       ],
+       [
+        [
+         "The quick brown fox jumps over the lazy dog."
+        ],
+        "gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:atbash-cipher"
+    },
+    {
+     "cid": "ex_atbash_decode",
+     "title": "شيفرة أتباش: فكّ التشفير",
+     "prompt": "اكتب دالة atbash_decode(text) تفكّ نصًّا مشفّرًا بأتباش: احذف المسافات واستبدل كل حرف بمقابله (z ← a)، والأرقام تبقى.",
+     "hint": "التحويل نفسه يفكّ التشفير لأنه متناظر.",
+     "starter": "def atbash_decode(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "atbash_decode",
+      "cases": [
+       [
+        [
+         "vcvix rhn"
+        ],
+        "exercism"
+       ],
+       [
+        [
+         "zmlyh gzxov rhlug vmzhg vkkrm thglm v"
+        ],
+        "anobstacleisoftenasteppingstone"
+       ],
+       [
+        [
+         "gvhgr mt123 gvhgr mt"
+        ],
+        "testing123testing"
+       ],
+       [
+        [
+         "gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt"
+        ],
+        "thequickbrownfoxjumpsoverthelazydog"
+       ],
+       [
+        [
+         "vc vix    r hn"
+        ],
+        "exercism"
+       ],
+       [
+        [
+         "zmlyhgzxovrhlugvmzhgvkkrmthglmv"
+        ],
+        "anobstacleisoftenasteppingstone"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:atbash-cipher"
+    },
+    {
+     "cid": "ex_rle_encode",
+     "title": "ضغط التكرار: الترميز",
+     "prompt": "اكتب دالة rle_encode(text) تستبدل كل سلسلة من حرف متكرّر بعددها ثم الحرف، مثل AABCCC ← 2AB3C. الحرف المنفرد يُكتب دون عدد.",
+     "hint": "itertools.groupby أو حلقة تعدّ الحروف المتتالية.",
+     "starter": "def rle_encode(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rle_encode",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        ""
+       ],
+       [
+        [
+         "XYZ"
+        ],
+        "XYZ"
+       ],
+       [
+        [
+         "AABBBCCCC"
+        ],
+        "2A3B4C"
+       ],
+       [
+        [
+         "WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"
+        ],
+        "12WB12W3B24WB"
+       ],
+       [
+        [
+         "  hsqq qww  "
+        ],
+        "2 hs2q q2w2 "
+       ],
+       [
+        [
+         "aabbbcccc"
+        ],
+        "2a3b4c"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:run-length-encoding"
+    },
+    {
+     "cid": "ex_rle_decode",
+     "title": "ضغط التكرار: فكّ الترميز",
+     "prompt": "اكتب دالة rle_decode(text) تعكس الترميز: 2AB3C ← AABCCC. العدد قد يكون من أكثر من رقم.",
+     "hint": "re.findall(r'(\\d*)(\\D)', text)",
+     "starter": "def rle_decode(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rle_decode",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        ""
+       ],
+       [
+        [
+         "XYZ"
+        ],
+        "XYZ"
+       ],
+       [
+        [
+         "2A3B4C"
+        ],
+        "AABBBCCCC"
+       ],
+       [
+        [
+         "12WB12W3B24WB"
+        ],
+        "WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"
+       ],
+       [
+        [
+         "2 hs2q q2w2 "
+        ],
+        "  hsqq qww  "
+       ],
+       [
+        [
+         "2a3b4c"
+        ],
+        "aabbbcccc"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:run-length-encoding"
+    },
+    {
+     "cid": "ex_pig_latin",
+     "title": "اللاتينية الخنزيرية (لعبة كلمات)",
+     "prompt": "لكل كلمة: إذا بدأت بحرف علّة أو xr أو yt أضف ay. وإلا انقل الحروف الساكنة الأولى إلى آخر الكلمة ثم أضف ay، مع معاملة qu بعد الساكن ككتلة واحدة (square ← aresquay)، وy بعد ساكن تُعامل كحرف علّة (rhythm ← ythmrhay). اكتب دالة pig_latin(phrase).",
+     "hint": "عالج كل كلمة بدالة مساعدة، وابحث عن موضع أول حرف علّة.",
+     "starter": "def pig_latin(phrase):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "pig_latin",
+      "cases": [
+       [
+        [
+         "apple"
+        ],
+        "appleay"
+       ],
+       [
+        [
+         "ear"
+        ],
+        "earay"
+       ],
+       [
+        [
+         "igloo"
+        ],
+        "iglooay"
+       ],
+       [
+        [
+         "object"
+        ],
+        "objectay"
+       ],
+       [
+        [
+         "under"
+        ],
+        "underay"
+       ],
+       [
+        [
+         "equal"
+        ],
+        "equalay"
+       ],
+       [
+        [
+         "pig"
+        ],
+        "igpay"
+       ],
+       [
+        [
+         "koala"
+        ],
+        "oalakay"
+       ],
+       [
+        [
+         "xenon"
+        ],
+        "enonxay"
+       ],
+       [
+        [
+         "qat"
+        ],
+        "atqay"
+       ],
+       [
+        [
+         "liquid"
+        ],
+        "iquidlay"
+       ],
+       [
+        [
+         "chair"
+        ],
+        "airchay"
+       ],
+       [
+        [
+         "queen"
+        ],
+        "eenquay"
+       ],
+       [
+        [
+         "square"
+        ],
+        "aresquay"
+       ],
+       [
+        [
+         "therapy"
+        ],
+        "erapythay"
+       ],
+       [
+        [
+         "thrush"
+        ],
+        "ushthray"
+       ],
+       [
+        [
+         "school"
+        ],
+        "oolschay"
+       ],
+       [
+        [
+         "yttria"
+        ],
+        "yttriaay"
+       ],
+       [
+        [
+         "xray"
+        ],
+        "xrayay"
+       ],
+       [
+        [
+         "yellow"
+        ],
+        "ellowyay"
+       ],
+       [
+        [
+         "rhythm"
+        ],
+        "ythmrhay"
+       ],
+       [
+        [
+         "my"
+        ],
+        "ymay"
+       ],
+       [
+        [
+         "quick fast run"
+        ],
+        "ickquay astfay unray"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:pig-latin"
+    },
+    {
+     "cid": "ex_response",
+     "title": "بوب المراهق",
+     "prompt": "اكتب دالة response(text): إذا كان النص سؤالًا (ينتهي بـ ? بعد حذف المسافات) أعد Sure.، وإذا كان صراخًا (فيه حروف وكلها كبيرة) أعد Whoa, chill out!، وإذا كان سؤالًا صارخًا أعد Calm down, I know what I'm doing!، وإذا كان فارغًا أو مسافات فقط أعد Fine. Be that way!، وفي غير ذلك Whatever..",
+     "hint": "t = text.strip(); shouting = t.isupper()",
+     "starter": "def response(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "response",
+      "cases": [
+       [
+        [
+         "Does this cryogenic chamber make me look fat?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "WATCH OUT!"
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "WHAT'S GOING ON?"
+        ],
+        "Calm down, I know what I'm doing!"
+       ],
+       [
+        [
+         ""
+        ],
+        "Fine. Be that way!"
+       ],
+       [
+        [
+         "Tom-ay-to, tom-aaaah-to."
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "You are, what, like 15?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "fffbbcbeab?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "4?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         ":) ?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "Wait! Hang on. Are you going to be OK?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "Okay if like my  spacebar  quite a bit?   "
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "\nDoes this cryogenic chamber make\n me look fat?"
+        ],
+        "Sure."
+       ],
+       [
+        [
+         "FCECDFCAAB"
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "DO LIONS EAT PEOPLE? AHHHHH."
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "1, 2, 3 GO!"
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!"
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "I HATE THE DENTIST"
+        ],
+        "Whoa, chill out!"
+       ],
+       [
+        [
+         "          "
+        ],
+        "Fine. Be that way!"
+       ],
+       [
+        [
+         "\t\t\t\t\t\t\t\t\t\t"
+        ],
+        "Fine. Be that way!"
+       ],
+       [
+        [
+         "\n\r \t"
+        ],
+        "Fine. Be that way!"
+       ],
+       [
+        [
+         "Hi there!"
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "It's OK if you don't want to go work for NASA."
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "1, 2, 3"
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "Ending with ? means a question."
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "         hmmmmmmm..."
+        ],
+        "Whatever."
+       ],
+       [
+        [
+         "This is a statement ending with whitespace      "
+        ],
+        "Whatever."
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:bob"
+    },
+    {
+     "cid": "ex_truncate",
+     "title": "المدوّنة القصيرة",
+     "prompt": "اكتب دالة truncate(text) تُعيد أوّل خمسة محارف من النص فقط (المحرف الواحد قد يكون حرفًا عربيًّا أو رمزًا تعبيريًّا).",
+     "hint": "text[:5] — النصوص في بايثون تُعدّ بالمحارف لا بالبايتات.",
+     "starter": "def truncate(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "truncate",
+      "cases": [
+       [
+        [
+         "Hi"
+        ],
+        "Hi"
+       ],
+       [
+        [
+         "Hello there"
+        ],
+        "Hello"
+       ],
+       [
+        [
+         "brühe"
+        ],
+        "brühe"
+       ],
+       [
+        [
+         "Bärteppich"
+        ],
+        "Bärte"
+       ],
+       [
+        [
+         "Добър"
+        ],
+        "Добър"
+       ],
+       [
+        [
+         "υγειά"
+        ],
+        "υγειά"
+       ],
+       [
+        [
+         "a=πr²"
+        ],
+        "a=πr²"
+       ],
+       [
+        [
+         "∅⊊ℕ⊊ℤ⊊ℚ⊊ℝ⊊ℂ"
+        ],
+        "∅⊊ℕ⊊ℤ"
+       ],
+       [
+        [
+         "Fly 🛫"
+        ],
+        "Fly 🛫"
+       ],
+       [
+        [
+         "💇"
+        ],
+        "💇"
+       ],
+       [
+        [
+         "❄🌡🤧🤒🏥🕰😀"
+        ],
+        "❄🌡🤧🤒🏥"
+       ],
+       [
+        [
+         "🃎🂸🃅🃋🃍🃁🃊"
+        ],
+        "🃎🂸🃅🃋🃍"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:micro-blog"
+    },
+    {
+     "cid": "ex_line_up",
+     "title": "الطابور: الترتيب بالإنجليزية",
+     "prompt": "اكتب دالة line_up(name, number) تُعيد NAME, you are the Nth customer we serve today. Thank you! حيث Nth هو الترتيب بلاحقته: 1st 2nd 3rd 4th، و11th 12th 13th، و21st 22nd 23rd وهكذا.",
+     "hint": "إذا كان number % 100 بين 11 و13 فاللاحقة th، وإلا انظر إلى number % 10.",
+     "starter": "def line_up(name, number):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "line_up",
+      "cases": [
+       [
+        [
+         "Gianna",
+         4
+        ],
+        "Gianna, you are the 4th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Maarten",
+         9
+        ],
+        "Maarten, you are the 9th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Petronila",
+         5
+        ],
+        "Petronila, you are the 5th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Attakullakulla",
+         6
+        ],
+        "Attakullakulla, you are the 6th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Kate",
+         7
+        ],
+        "Kate, you are the 7th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Maximiliano",
+         8
+        ],
+        "Maximiliano, you are the 8th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Mary",
+         1
+        ],
+        "Mary, you are the 1st customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Haruto",
+         2
+        ],
+        "Haruto, you are the 2nd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Henriette",
+         3
+        ],
+        "Henriette, you are the 3rd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Alvarez",
+         10
+        ],
+        "Alvarez, you are the 10th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Jacqueline",
+         11
+        ],
+        "Jacqueline, you are the 11th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Juan",
+         12
+        ],
+        "Juan, you are the 12th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Patricia",
+         13
+        ],
+        "Patricia, you are the 13th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Washi",
+         21
+        ],
+        "Washi, you are the 21st customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Ingrid",
+         22
+        ],
+        "Ingrid, you are the 22nd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Mario",
+         33
+        ],
+        "Mario, you are the 33rd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Quentin",
+         52
+        ],
+        "Quentin, you are the 52nd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Nayra",
+         62
+        ],
+        "Nayra, you are the 62nd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Ugo",
+         72
+        ],
+        "Ugo, you are the 72nd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Boris",
+         91
+        ],
+        "Boris, you are the 91st customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "John",
+         100
+        ],
+        "John, you are the 100th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Zeinab",
+         101
+        ],
+        "Zeinab, you are the 101st customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Knud",
+         112
+        ],
+        "Knud, you are the 112th customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Yma",
+         123
+        ],
+        "Yma, you are the 123rd customer we serve today. Thank you!"
+       ],
+       [
+        [
+         "Elias",
+         972
+        ],
+        "Elias, you are the 972nd customer we serve today. Thank you!"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:line-up"
+    },
+    {
+     "cid": "ex_is_valid_isbn",
+     "title": "التحقّق من رقم الكتاب ISBN-10",
+     "prompt": "رقم ISBN-10 عشرة رموز (قد تفصلها شرطات)، الأخير قد يكون X بقيمة ١٠. يكون صحيحًا إذا كان (d1×10 + d2×9 + … + d10×1) يقبل القسمة على ١١. اكتب دالة is_valid_isbn(isbn).",
+     "hint": "احذف الشرطات، وتحقّق أن الطول ١٠ وأن X إن وُجدت ففي الآخر فقط.",
+     "starter": "def is_valid_isbn(isbn):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_valid_isbn",
+      "cases": [
+       [
+        [
+         "3-598-21508-8"
+        ],
+        true
+       ],
+       [
+        [
+         "3-598-21508-9"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-21507-X"
+        ],
+        true
+       ],
+       [
+        [
+         "3-598-21507-A"
+        ],
+        false
+       ],
+       [
+        [
+         "4-598-21507-B"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-P1581-X"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-2X507-9"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-21508-96"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-2X507-5"
+        ],
+        false
+       ],
+       [
+        [
+         "3598215088"
+        ],
+        true
+       ],
+       [
+        [
+         "359821507X"
+        ],
+        true
+       ],
+       [
+        [
+         "359821507"
+        ],
+        false
+       ],
+       [
+        [
+         "3598215078X"
+        ],
+        false
+       ],
+       [
+        [
+         "00"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-21507"
+        ],
+        false
+       ],
+       [
+        [
+         "3-598-21515-X"
+        ],
+        false
+       ],
+       [
+        [
+         ""
+        ],
+        false
+       ],
+       [
+        [
+         "134456729"
+        ],
+        false
+       ],
+       [
+        [
+         "3132P34035"
+        ],
+        false
+       ],
+       [
+        [
+         "3598P215088"
+        ],
+        false
+       ],
+       [
+        [
+         "98245726788"
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:isbn-verifier"
+    },
+    {
+     "cid": "ex_luhn_valid",
+     "title": "خوارزمية لون",
+     "prompt": "لتتحقّق من رقم بخوارزمية لون: احذف المسافات (يجب أن يبقى رقمان على الأقل وأرقام فقط)، ثم من اليمين ضاعف كل رقم ثانٍ واطرح ٩ إذا تجاوز ٩، ثم اجمع الكل؛ يكون صحيحًا إذا قبل المجموع القسمة على ١٠. اكتب دالة luhn_valid(text).",
+     "hint": "for i, d in enumerate(reversed(digits)): if i % 2 == 1: ...",
+     "starter": "def luhn_valid(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "luhn_valid",
+      "cases": [
+       [
+        [
+         "1"
+        ],
+        false
+       ],
+       [
+        [
+         "0"
+        ],
+        false
+       ],
+       [
+        [
+         "059"
+        ],
+        true
+       ],
+       [
+        [
+         "59"
+        ],
+        true
+       ],
+       [
+        [
+         "055 444 285"
+        ],
+        true
+       ],
+       [
+        [
+         "055 444 286"
+        ],
+        false
+       ],
+       [
+        [
+         "8273 1232 7352 0569"
+        ],
+        false
+       ],
+       [
+        [
+         "1 2345 6789 1234 5678 9012"
+        ],
+        false
+       ],
+       [
+        [
+         "1 2345 6789 1234 5678 9013"
+        ],
+        false
+       ],
+       [
+        [
+         "095 245 88"
+        ],
+        true
+       ],
+       [
+        [
+         "234 567 891 234"
+        ],
+        true
+       ],
+       [
+        [
+         "059a"
+        ],
+        false
+       ],
+       [
+        [
+         "055-444-285"
+        ],
+        false
+       ],
+       [
+        [
+         "055# 444$ 285"
+        ],
+        false
+       ],
+       [
+        [
+         " 0"
+        ],
+        false
+       ],
+       [
+        [
+         "0000 0"
+        ],
+        true
+       ],
+       [
+        [
+         "091"
+        ],
+        true
+       ],
+       [
+        [
+         "9999999999 9999999999 9999999999 9999999999"
+        ],
+        true
+       ],
+       [
+        [
+         "109"
+        ],
+        true
+       ],
+       [
+        [
+         "055b 444 285"
+        ],
+        false
+       ],
+       [
+        [
+         ":9"
+        ],
+        false
+       ],
+       [
+        [
+         "59%59"
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:luhn"
+    },
+    {
+     "cid": "ex_is_paired",
+     "title": "الأقواس المتوازنة",
+     "prompt": "اكتب دالة is_paired(text) تُعيد True إذا كانت الأقواس () [] {} في النص مغلقة بترتيب صحيح، مع تجاهل كل المحارف الأخرى.",
+     "hint": "استعمل مكدّسًا: ادفع القوس المفتوح، وعند القوس المغلق تحقّق من القمّة.",
+     "starter": "def is_paired(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "is_paired",
+      "cases": [
+       [
+        [
+         "[]"
+        ],
+        true
+       ],
+       [
+        [
+         ""
+        ],
+        true
+       ],
+       [
+        [
+         "[["
+        ],
+        false
+       ],
+       [
+        [
+         "}{"
+        ],
+        false
+       ],
+       [
+        [
+         "{]"
+        ],
+        false
+       ],
+       [
+        [
+         "{ }"
+        ],
+        true
+       ],
+       [
+        [
+         "{[])"
+        ],
+        false
+       ],
+       [
+        [
+         "{[]}"
+        ],
+        true
+       ],
+       [
+        [
+         "{}[]"
+        ],
+        true
+       ],
+       [
+        [
+         "([{}({}[])])"
+        ],
+        true
+       ],
+       [
+        [
+         "{[)][]}"
+        ],
+        false
+       ],
+       [
+        [
+         "([{])"
+        ],
+        false
+       ],
+       [
+        [
+         "[({]})"
+        ],
+        false
+       ],
+       [
+        [
+         "[({}])"
+        ],
+        false
+       ],
+       [
+        [
+         "{}["
+        ],
+        false
+       ],
+       [
+        [
+         "[]]"
+        ],
+        false
+       ],
+       [
+        [
+         ")()"
+        ],
+        false
+       ],
+       [
+        [
+         "{)()"
+        ],
+        false
+       ],
+       [
+        [
+         "(((185 + 223.85) * 15) - 543)/2"
+        ],
+        true
+       ],
+       [
+        [
+         "\\left(\\begin{array}{cc} \\frac{1}{3} & x\\\\ \\mathrm{e}^{x} &... x^2 \\end{array}\\right)"
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:matching-brackets"
+    },
+    {
+     "cid": "ex_nucleotide_counts",
+     "title": "عدّ النيوكليوتيدات",
+     "prompt": "اكتب دالة nucleotide_counts(strand) تُعيد قاموسًا بعدد كل من A وC وG وT في السلسلة (حتى لو كان صفرًا).",
+     "hint": "{n: strand.count(n) for n in 'ACGT'}",
+     "starter": "def nucleotide_counts(strand):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "nucleotide_counts",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        {
+         "A": 0,
+         "C": 0,
+         "G": 0,
+         "T": 0
+        }
+       ],
+       [
+        [
+         "G"
+        ],
+        {
+         "A": 0,
+         "C": 0,
+         "G": 1,
+         "T": 0
+        }
+       ],
+       [
+        [
+         "GGGGGGG"
+        ],
+        {
+         "A": 0,
+         "C": 0,
+         "G": 7,
+         "T": 0
+        }
+       ],
+       [
+        [
+         "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+        ],
+        {
+         "A": 20,
+         "C": 12,
+         "G": 17,
+         "T": 21
+        }
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:nucleotide-count"
+    },
+    {
+     "cid": "ex_proteins",
+     "title": "ترجمة البروتين",
+     "prompt": "اقرأ السلسلة ثلاثة أحرف ثلاثة أحرف: AUG=Methionine؛ UUU وUUC=Phenylalanine؛ UUA وUUG=Leucine؛ UCU UCC UCA UCG=Serine؛ UAU UAC=Tyrosine؛ UGU UGC=Cysteine؛ UGG=Tryptophan؛ وUAA UAG UGA = توقّف. اكتب دالة proteins(strand) تُعيد قائمة البروتينات حتى أول رمز توقّف.",
+     "hint": "قاموس من الثلاثية إلى الاسم، و'STOP' للتوقّف.",
+     "starter": "def proteins(strand):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "proteins",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        []
+       ],
+       [
+        [
+         "AUG"
+        ],
+        [
+         "Methionine"
+        ]
+       ],
+       [
+        [
+         "UUU"
+        ],
+        [
+         "Phenylalanine"
+        ]
+       ],
+       [
+        [
+         "UUC"
+        ],
+        [
+         "Phenylalanine"
+        ]
+       ],
+       [
+        [
+         "UUA"
+        ],
+        [
+         "Leucine"
+        ]
+       ],
+       [
+        [
+         "UUG"
+        ],
+        [
+         "Leucine"
+        ]
+       ],
+       [
+        [
+         "UCU"
+        ],
+        [
+         "Serine"
+        ]
+       ],
+       [
+        [
+         "UCC"
+        ],
+        [
+         "Serine"
+        ]
+       ],
+       [
+        [
+         "UCA"
+        ],
+        [
+         "Serine"
+        ]
+       ],
+       [
+        [
+         "UCG"
+        ],
+        [
+         "Serine"
+        ]
+       ],
+       [
+        [
+         "UAU"
+        ],
+        [
+         "Tyrosine"
+        ]
+       ],
+       [
+        [
+         "UAC"
+        ],
+        [
+         "Tyrosine"
+        ]
+       ],
+       [
+        [
+         "UGU"
+        ],
+        [
+         "Cysteine"
+        ]
+       ],
+       [
+        [
+         "UGC"
+        ],
+        [
+         "Cysteine"
+        ]
+       ],
+       [
+        [
+         "UGG"
+        ],
+        [
+         "Tryptophan"
+        ]
+       ],
+       [
+        [
+         "UAA"
+        ],
+        []
+       ],
+       [
+        [
+         "UAG"
+        ],
+        []
+       ],
+       [
+        [
+         "UGA"
+        ],
+        []
+       ],
+       [
+        [
+         "UUUUUU"
+        ],
+        [
+         "Phenylalanine",
+         "Phenylalanine"
+        ]
+       ],
+       [
+        [
+         "UUAUUG"
+        ],
+        [
+         "Leucine",
+         "Leucine"
+        ]
+       ],
+       [
+        [
+         "AUGUUUUGG"
+        ],
+        [
+         "Methionine",
+         "Phenylalanine",
+         "Tryptophan"
+        ]
+       ],
+       [
+        [
+         "UAGUGG"
+        ],
+        []
+       ],
+       [
+        [
+         "UGGUAG"
+        ],
+        [
+         "Tryptophan"
+        ]
+       ],
+       [
+        [
+         "AUGUUUUAA"
+        ],
+        [
+         "Methionine",
+         "Phenylalanine"
+        ]
+       ],
+       [
+        [
+         "UGGUAGUGG"
+        ],
+        [
+         "Tryptophan"
+        ]
+       ],
+       [
+        [
+         "UGGUGUUAUUAAUGGUUU"
+        ],
+        [
+         "Tryptophan",
+         "Cysteine",
+         "Tyrosine"
+        ]
+       ],
+       [
+        [
+         "AUGAUG"
+        ],
+        [
+         "Methionine",
+         "Methionine"
+        ]
+       ],
+       [
+        [
+         "UUCUUCUAAUGGU"
+        ],
+        [
+         "Phenylalanine",
+         "Phenylalanine"
+        ]
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:protein-translation"
+    },
+    {
+     "cid": "ex_cipher_text",
+     "title": "الشيفرة المربّعة",
+     "prompt": "احذف من النص ما ليس حرفًا أو رقمًا وحوّله لأحرف صغيرة، طوله n. اختر c أصغر عدد أعمدة و r صفوفًا بحيث r × c ≥ n و c ≥ r و c − r ≤ 1. اكتب الصفوف (مع حشو مسافات في الآخر)، ثم اقرأ الأعمدة وافصل بينها بمسافة. اكتب دالة cipher_text(text).",
+     "hint": "c = ceil(sqrt(n))، ثم r = ceil(n / c).",
+     "starter": "def cipher_text(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "cipher_text",
+      "cases": [
+       [
+        [
+         ""
+        ],
+        ""
+       ],
+       [
+        [
+         "... --- ..."
+        ],
+        ""
+       ],
+       [
+        [
+         "A"
+        ],
+        "a"
+       ],
+       [
+        [
+         "  b "
+        ],
+        "b"
+       ],
+       [
+        [
+         "@1,%!"
+        ],
+        "1"
+       ],
+       [
+        [
+         "This is fun!"
+        ],
+        "tsf hiu isn"
+       ],
+       [
+        [
+         "Chill out."
+        ],
+        "clu hlt io "
+       ],
+       [
+        [
+         "If man was meant to stay on the ground, god would have given us roots."
+        ],
+        "imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn  sseoau "
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:crypto-square"
+    },
+    {
+     "cid": "ex_rail_encode",
+     "title": "شيفرة السياج: التشفير",
+     "prompt": "اكتب الرسالة متعرّجة على عدد من القضبان (صفوف) نزولًا ثم صعودًا، ثم اقرأ الصفوف واحدًا بعد الآخر. اكتب دالة rail_encode(msg, rails).",
+     "hint": "ولّد رقم الصفّ لكل موضع: 0،1،2،1،0،1،2…",
+     "starter": "def rail_encode(msg, rails):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rail_encode",
+      "cases": [
+       [
+        [
+         "XOXOXOXOXOXOXOXOXO",
+         2
+        ],
+        "XXXXXXXXXOOOOOOOOO"
+       ],
+       [
+        [
+         "WEAREDISCOVEREDFLEEATONCE",
+         3
+        ],
+        "WECRLTEERDSOEEFEAOCAIVDEN"
+       ],
+       [
+        [
+         "EXERCISES",
+         4
+        ],
+        "ESXIEECSR"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:rail-fence-cipher"
+    },
+    {
+     "cid": "ex_rail_decode",
+     "title": "شيفرة السياج: فكّ التشفير",
+     "prompt": "اكتب دالة rail_decode(msg, rails) تعكس شيفرة السياج.",
+     "hint": "رتّب المواضع بحسب صفّها كما في التشفير، ثم وزّع حروف الرسالة عليها.",
+     "starter": "def rail_decode(msg, rails):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rail_decode",
+      "cases": [
+       [
+        [
+         "TEITELHDVLSNHDTISEIIEA",
+         3
+        ],
+        "THEDEVILISINTHEDETAILS"
+       ],
+       [
+        [
+         "EIEXMSMESAORIWSCE",
+         5
+        ],
+        "EXERCISMISAWESOME"
+       ],
+       [
+        [
+         "133714114238148966225439541018335470986172518171757571896261",
+         6
+        ],
+        "112358132134558914423337761098715972584418167651094617711286"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:rail-fence-cipher"
+    },
+    {
+     "cid": "ex_affine_encode",
+     "title": "الشيفرة التآلفية: التشفير",
+     "prompt": "لكل حرف موضعه x (a=0): E(x) = (a·x + b) mod 26، والأرقام تبقى، وتُحذف المسافات والترقيم، ويُقسّم الناتج مجموعات من خمسة. اكتب دالة affine_encode(text, a, b). (الحالات تضمن أن a وm=26 أوّليان فيما بينهما.)",
+     "hint": "chr((a * (ord(c) - 97) + b) % 26 + 97)",
+     "starter": "def affine_encode(text, a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "affine_encode",
+      "cases": [
+       [
+        [
+         "yes",
+         5,
+         7
+        ],
+        "xbt"
+       ],
+       [
+        [
+         "no",
+         15,
+         18
+        ],
+        "fu"
+       ],
+       [
+        [
+         "OMG",
+         21,
+         3
+        ],
+        "lvz"
+       ],
+       [
+        [
+         "O M G",
+         25,
+         47
+        ],
+        "hjp"
+       ],
+       [
+        [
+         "mindblowingly",
+         11,
+         15
+        ],
+        "rzcwa gnxzc dgt"
+       ],
+       [
+        [
+         "Testing,1 2 3, testing.",
+         3,
+         4
+        ],
+        "jqgjc rw123 jqgjc rw"
+       ],
+       [
+        [
+         "Truth is fiction.",
+         5,
+         17
+        ],
+        "iynia fdqfb ifje"
+       ],
+       [
+        [
+         "The quick brown fox jumps over the lazy dog.",
+         17,
+         33
+        ],
+        "swxtj npvyk lruol iejdc blaxk swxmh qzglf"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:affine-cipher"
+    },
+    {
+     "cid": "ex_affine_decode",
+     "title": "الشيفرة التآلفية: فكّ التشفير",
+     "prompt": "D(y) = a⁻¹·(y − b) mod 26، حيث a⁻¹ المعكوس الضربي لـ a بالمقياس ٢٦. اكتب دالة affine_decode(text, a, b) تُعيد النص دون مسافات.",
+     "hint": "pow(a, -1, 26) يعطيك المعكوس الضربي.",
+     "starter": "def affine_decode(text, a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "affine_decode",
+      "cases": [
+       [
+        [
+         "tytgn fjr",
+         3,
+         7
+        ],
+        "exercism"
+       ],
+       [
+        [
+         "qdwju nqcro muwhn odqun oppmd aunwd o",
+         19,
+         16
+        ],
+        "anobstacleisoftenasteppingstone"
+       ],
+       [
+        [
+         "odpoz ub123 odpoz ub",
+         25,
+         7
+        ],
+        "testing123testing"
+       ],
+       [
+        [
+         "swxtj npvyk lruol iejdc blaxk swxmh qzglf",
+         17,
+         33
+        ],
+        "thequickbrownfoxjumpsoverthelazydog"
+       ],
+       [
+        [
+         "swxtjnpvyklruoliejdcblaxkswxmhqzglf",
+         17,
+         33
+        ],
+        "thequickbrownfoxjumpsoverthelazydog"
+       ],
+       [
+        [
+         "vszzm    cly   yd cg    qdp",
+         15,
+         16
+        ],
+        "jollygreengiant"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:affine-cipher"
+    },
+    {
+     "cid": "ex_clean_number",
+     "title": "تنظيف رقم الهاتف",
+     "prompt": "اكتب دالة clean_number(text) تستخرج أرقام هاتف أمريكي من نصّ (تحذف المسافات والأقواس والشرطات والنقاط و+1 أو 1 في أوّله) وتُعيد الأرقام العشرة. افترض أنّ المدخلات صحيحة في هذا التمرين.",
+     "hint": "digits = ''.join(c for c in text if c.isdigit())؛ ثم إذا كان طولها ١١ وتبدأ بـ 1 فاحذفه.",
+     "starter": "def clean_number(text):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "clean_number",
+      "cases": [
+       [
+        [
+         "(223) 456-7890"
+        ],
+        "2234567890"
+       ],
+       [
+        [
+         "223.456.7890"
+        ],
+        "2234567890"
+       ],
+       [
+        [
+         "223 456   7890   "
+        ],
+        "2234567890"
+       ],
+       [
+        [
+         "12234567890"
+        ],
+        "2234567890"
+       ],
+       [
+        [
+         "+1 (223) 456-7890"
+        ],
+        "2234567890"
+       ]
+      ]
+     },
+     "topic": "strings",
+     "source": "exercism:phone-number"
+    }
+   ]
+  },
+  {
+   "id": "collections",
+   "title": "القوائم والقواميس",
+   "challenges": [
+    {
+     "cid": "ex_transform",
+     "title": "تحويل البيانات (ETL)",
+     "prompt": "لديك قاموس من النقاط إلى قوائم حروف كبيرة، مثل {1: ['A', 'E']}. اكتب دالة transform(legacy) تُعيد قاموسًا من كل حرف صغير إلى نقاطه، مثل {'a': 1, 'e': 1}. (المفاتيح في المدخلات قد تكون نصوصًا مثل '1' فحوّلها إلى أعداد.)",
+     "hint": "{letter.lower(): int(score) for score, letters in legacy.items() for letter in letters}",
+     "starter": "def transform(legacy):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "transform",
+      "cases": [
+       [
+        [
+         {
+          "1": [
+           "A"
+          ]
+         }
+        ],
+        {
+         "a": 1
+        }
+       ],
+       [
+        [
+         {
+          "1": [
+           "A",
+           "E",
+           "I",
+           "O",
+           "U"
+          ]
+         }
+        ],
+        {
+         "a": 1,
+         "e": 1,
+         "i": 1,
+         "o": 1,
+         "u": 1
+        }
+       ],
+       [
+        [
+         {
+          "1": [
+           "A",
+           "E"
+          ],
+          "2": [
+           "D",
+           "G"
+          ]
+         }
+        ],
+        {
+         "a": 1,
+         "d": 2,
+         "e": 1,
+         "g": 2
+        }
+       ],
+       [
+        [
+         {
+          "1": [
+           "A",
+           "E",
+           "I",
+           "O",
+           "U",
+           "L",
+           "N",
+           "R",
+           "S",
+           "T"
+          ],
+          "2": [
+           "D",
+           "G"
+          ],
+          "3": [
+           "B",
+           "C",
+           "M",
+           "P"
+          ],
+          "4": [
+           "F",
+           "H",
+           "V",
+           "W",
+           "Y"
+          ],
+          "5": [
+           "K"
+          ],
+          "8": [
+           "J",
+           "X"
+          ],
+          "10": [
+           "Q",
+           "Z"
+          ]
+         }
+        ],
+        {
+         "a": 1,
+         "b": 3,
+         "c": 3,
+         "d": 2,
+         "e": 1,
+         "f": 4,
+         "g": 2,
+         "h": 4,
+         "i": 1,
+         "j": 8,
+         "k": 5,
+         "l": 1,
+         "m": 3,
+         "n": 1,
+         "o": 1,
+         "p": 3,
+         "q": 10,
+         "r": 1,
+         "s": 1,
+         "t": 1,
+         "u": 1,
+         "v": 4,
+         "w": 4,
+         "x": 8,
+         "y": 4,
+         "z": 10
+        }
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:etl"
+    },
+    {
+     "cid": "ex_flatten",
+     "title": "تسطيح القوائم المتداخلة",
+     "prompt": "اكتب دالة flatten(items) تُعيد قائمة واحدة بكل العناصر من قائمة متداخلة إلى أيّ عمق، مع حذف القيم None.",
+     "hint": "العودية: إذا كان العنصر قائمة فسطّحه، وإلا أضفه.",
+     "starter": "def flatten(items):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "flatten",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          0,
+          1,
+          2
+         ]
+        ],
+        [
+         0,
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         [
+          [
+           []
+          ]
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         [
+          1,
+          [
+           2,
+           3,
+           4,
+           5,
+           6,
+           7
+          ],
+          8
+         ]
+        ],
+        [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+        ]
+       ],
+       [
+        [
+         [
+          0,
+          2,
+          [
+           [
+            2,
+            3
+           ],
+           8,
+           100,
+           4,
+           [
+            [
+             [
+              50
+             ]
+            ]
+           ]
+          ],
+          -2
+         ]
+        ],
+        [
+         0,
+         2,
+         2,
+         3,
+         8,
+         100,
+         4,
+         50,
+         -2
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          [
+           2,
+           [
+            [
+             3
+            ]
+           ],
+           [
+            4,
+            [
+             [
+              5
+             ]
+            ]
+           ],
+           6,
+           7
+          ],
+          8
+         ]
+        ],
+        [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          null
+         ]
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         [
+          null,
+          null,
+          3
+         ]
+        ],
+        [
+         3
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          null,
+          null,
+          4
+         ]
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       [
+        [
+         [
+          0,
+          2,
+          [
+           [
+            2,
+            3
+           ],
+           8,
+           [
+            [
+             100
+            ]
+           ],
+           null,
+           [
+            [
+             null
+            ]
+           ]
+          ],
+          -2
+         ]
+        ],
+        [
+         0,
+         2,
+         2,
+         3,
+         8,
+         100,
+         -2
+        ]
+       ],
+       [
+        [
+         [
+          null,
+          [
+           [
+            [
+             null
+            ]
+           ]
+          ],
+          null,
+          null,
+          [
+           [
+            null,
+            null
+           ],
+           null
+          ],
+          null
+         ]
+        ],
+        []
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:flatten-array"
+    },
+    {
+     "cid": "ex_sublist",
+     "title": "القائمة الجزئية",
+     "prompt": "اكتب دالة sublist(a, b) تُعيد equal إذا تساوت القائمتان، وsublist إذا كانت a متتالية داخل b، وsuperlist إذا كانت b داخل a، وunequal في غير ذلك.",
+     "hint": "دالة مساعدة تتحقّق من وجود x متتالية في y بمقارنة كل شريحة بطول x.",
+     "starter": "def sublist(a, b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "sublist",
+      "cases": [
+       [
+        [
+         [],
+         []
+        ],
+        "equal"
+       ],
+       [
+        [
+         [],
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         []
+        ],
+        "superlist"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        "equal"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         [
+          2,
+          3,
+          4
+         ]
+        ],
+        "unequal"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          5
+         ],
+         [
+          0,
+          1,
+          2,
+          3,
+          1,
+          2,
+          5,
+          6
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2
+         ],
+         [
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          0,
+          1,
+          2
+         ],
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          4
+         ],
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          3,
+          4,
+          5
+         ],
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ]
+        ],
+        "sublist"
+       ],
+       [
+        [
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         [
+          0,
+          1,
+          2
+         ]
+        ],
+        "superlist"
+       ],
+       [
+        [
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        "superlist"
+       ],
+       [
+        [
+         [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         [
+          3,
+          4,
+          5
+         ]
+        ],
+        "superlist"
+       ],
+       [
+        [
+         [
+          1,
+          3
+         ],
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        "unequal"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         [
+          1,
+          3
+         ]
+        ],
+        "unequal"
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          1,
+          22
+         ]
+        ],
+        "unequal"
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         [
+          3,
+          2,
+          1
+         ]
+        ],
+        "unequal"
+       ],
+       [
+        [
+         [
+          1,
+          0,
+          1
+         ],
+         [
+          10,
+          1
+         ]
+        ],
+        "unequal"
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:sublist"
+    },
+    {
+     "cid": "ex_slices",
+     "title": "الشرائح المتتالية",
+     "prompt": "اكتب دالة slices(digits, n) تُعيد قائمة كل الشرائح المتتالية بطول n من نص الأرقام، بترتيب ظهورها.",
+     "hint": "[digits[i:i+n] for i in range(len(digits) - n + 1)]",
+     "starter": "def slices(digits, n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "slices",
+      "cases": [
+       [
+        [
+         "1",
+         1
+        ],
+        [
+         "1"
+        ]
+       ],
+       [
+        [
+         "12",
+         1
+        ],
+        [
+         "1",
+         "2"
+        ]
+       ],
+       [
+        [
+         "35",
+         2
+        ],
+        [
+         "35"
+        ]
+       ],
+       [
+        [
+         "9142",
+         2
+        ],
+        [
+         "91",
+         "14",
+         "42"
+        ]
+       ],
+       [
+        [
+         "777777",
+         3
+        ],
+        [
+         "777",
+         "777",
+         "777",
+         "777"
+        ]
+       ],
+       [
+        [
+         "918493904243",
+         5
+        ],
+        [
+         "91849",
+         "18493",
+         "84939",
+         "49390",
+         "93904",
+         "39042",
+         "90424",
+         "04243"
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:series"
+    },
+    {
+     "cid": "ex_largest_product",
+     "title": "أكبر حاصل ضرب لشريحة",
+     "prompt": "اكتب دالة largest_product(digits, span) تُعيد أكبر حاصل ضرب لأرقام متتالية عددها span في نص الأرقام.",
+     "hint": "لكل شريحة احسب حاصل ضرب أرقامها، وخذ الأكبر.",
+     "starter": "def largest_product(digits, span):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "largest_product",
+      "cases": [
+       [
+        [
+         "29",
+         2
+        ],
+        18
+       ],
+       [
+        [
+         "0123456789",
+         2
+        ],
+        72
+       ],
+       [
+        [
+         "576802143",
+         2
+        ],
+        48
+       ],
+       [
+        [
+         "0123456789",
+         3
+        ],
+        504
+       ],
+       [
+        [
+         "1027839564",
+         3
+        ],
+        270
+       ],
+       [
+        [
+         "0123456789",
+         5
+        ],
+        15120
+       ],
+       [
+        [
+         "73167176531330624919225119674426574742355349194934",
+         6
+        ],
+        23520
+       ],
+       [
+        [
+         "0000",
+         2
+        ],
+        0
+       ],
+       [
+        [
+         "99099",
+         3
+        ],
+        0
+       ],
+       [
+        [
+         "",
+         0
+        ],
+        1
+       ],
+       [
+        [
+         "123",
+         0
+        ],
+        1
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:largest-series-product"
+    },
+    {
+     "cid": "ex_top_three",
+     "title": "أعلى ثلاث نتائج",
+     "prompt": "اكتب دالة top_three(scores) تُعيد أعلى ثلاث نتائج من الأعلى إلى الأدنى (أو أقلّ إن كانت القائمة أقصر).",
+     "hint": "sorted(scores, reverse=True)[:3]",
+     "starter": "def top_three(scores):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "top_three",
+      "cases": [
+       [
+        [
+         [
+          10,
+          30,
+          90,
+          30,
+          100,
+          20,
+          10,
+          0,
+          30,
+          40,
+          40,
+          70,
+          70
+         ]
+        ],
+        [
+         100,
+         90,
+         70
+        ]
+       ],
+       [
+        [
+         [
+          20,
+          10,
+          30
+         ]
+        ],
+        [
+         30,
+         20,
+         10
+        ]
+       ],
+       [
+        [
+         [
+          40,
+          20,
+          40,
+          30
+         ]
+        ],
+        [
+         40,
+         40,
+         30
+        ]
+       ],
+       [
+        [
+         [
+          30,
+          70
+         ]
+        ],
+        [
+         70,
+         30
+        ]
+       ],
+       [
+        [
+         [
+          40
+         ]
+        ],
+        [
+         40
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:high-scores"
+    },
+    {
+     "cid": "ex_sum_of_multiples",
+     "title": "مجموع المضاعفات",
+     "prompt": "اكتب دالة sum_of_multiples(factors, limit) تُعيد مجموع كل الأعداد الأصغر من limit التي هي مضاعف لعامل واحد على الأقل من القائمة (العامل صفر يُتجاهل). لا تكرّر العدد الواحد.",
+     "hint": "استعمل set لجمع المضاعفات.",
+     "starter": "def sum_of_multiples(factors, limit):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "sum_of_multiples",
+      "cases": [
+       [
+        [
+         [
+          3,
+          5
+         ],
+         1
+        ],
+        0
+       ],
+       [
+        [
+         [
+          3,
+          5
+         ],
+         4
+        ],
+        3
+       ],
+       [
+        [
+         [
+          3
+         ],
+         7
+        ],
+        9
+       ],
+       [
+        [
+         [
+          3,
+          5
+         ],
+         10
+        ],
+        23
+       ],
+       [
+        [
+         [
+          3,
+          5
+         ],
+         100
+        ],
+        2318
+       ],
+       [
+        [
+         [
+          3,
+          5
+         ],
+         1000
+        ],
+        233168
+       ],
+       [
+        [
+         [
+          7,
+          13,
+          17
+         ],
+         20
+        ],
+        51
+       ],
+       [
+        [
+         [
+          4,
+          6
+         ],
+         15
+        ],
+        30
+       ],
+       [
+        [
+         [
+          5,
+          6,
+          8
+         ],
+         150
+        ],
+        4419
+       ],
+       [
+        [
+         [
+          5,
+          25
+         ],
+         51
+        ],
+        275
+       ],
+       [
+        [
+         [
+          43,
+          47
+         ],
+         10000
+        ],
+        2203160
+       ],
+       [
+        [
+         [
+          1
+         ],
+         100
+        ],
+        4950
+       ],
+       [
+        [
+         [],
+         10000
+        ],
+        0
+       ],
+       [
+        [
+         [
+          0
+         ],
+         1
+        ],
+        0
+       ],
+       [
+        [
+         [
+          3,
+          0
+         ],
+         4
+        ],
+        3
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          5,
+          7,
+          11
+         ],
+         10000
+        ],
+        39614537
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:sum-of-multiples"
+    },
+    {
+     "cid": "ex_find_anagrams",
+     "title": "الجناس التامّ",
+     "prompt": "اكتب دالة find_anagrams(word, candidates) تُعيد المرشّحين الذين يتكوّنون من حروف الكلمة نفسها بترتيب آخر (بلا تمييز لحالة الحروف)، مع استبعاد الكلمة نفسها. حافظ على ترتيب المرشّحين.",
+     "hint": "قارن sorted(w.lower()) واستبعد w.lower() == word.lower().",
+     "starter": "def find_anagrams(word, candidates):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "find_anagrams",
+      "cases": [
+       [
+        [
+         "diaper",
+         [
+          "hello",
+          "world",
+          "zombies",
+          "pants"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "solemn",
+         [
+          "lemons",
+          "cherry",
+          "melons"
+         ]
+        ],
+        [
+         "lemons",
+         "melons"
+        ]
+       ],
+       [
+        [
+         "good",
+         [
+          "dog",
+          "goody"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "listen",
+         [
+          "enlists",
+          "google",
+          "inlets",
+          "banana"
+         ]
+        ],
+        [
+         "inlets"
+        ]
+       ],
+       [
+        [
+         "allergy",
+         [
+          "gallery",
+          "ballerina",
+          "regally",
+          "clergy",
+          "largely",
+          "leading"
+         ]
+        ],
+        [
+         "gallery",
+         "regally",
+         "largely"
+        ]
+       ],
+       [
+        [
+         "nose",
+         [
+          "Eons",
+          "ONES"
+         ]
+        ],
+        [
+         "Eons",
+         "ONES"
+        ]
+       ],
+       [
+        [
+         "mass",
+         [
+          "last"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "Orchestra",
+         [
+          "cashregister",
+          "Carthorse",
+          "radishes"
+         ]
+        ],
+        [
+         "Carthorse"
+        ]
+       ],
+       [
+        [
+         "Orchestra",
+         [
+          "cashregister",
+          "carthorse",
+          "radishes"
+         ]
+        ],
+        [
+         "carthorse"
+        ]
+       ],
+       [
+        [
+         "orchestra",
+         [
+          "cashregister",
+          "Carthorse",
+          "radishes"
+         ]
+        ],
+        [
+         "Carthorse"
+        ]
+       ],
+       [
+        [
+         "go",
+         [
+          "goGoGO"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "tapper",
+         [
+          "patter"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "BANANA",
+         [
+          "BANANA"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "BANANA",
+         [
+          "Banana"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "BANANA",
+         [
+          "banana"
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         "LISTEN",
+         [
+          "LISTEN",
+          "Silent"
+         ]
+        ],
+        [
+         "Silent"
+        ]
+       ],
+       [
+        [
+         "ΑΒΓ",
+         [
+          "ΒΓΑ",
+          "ΒΓΔ",
+          "γβα",
+          "αβγ"
+         ]
+        ],
+        [
+         "ΒΓΑ",
+         "γβα"
+        ]
+       ],
+       [
+        [
+         "a⬂",
+         [
+          "€a"
+         ]
+        ],
+        []
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:anagram"
+    },
+    {
+     "cid": "ex_commands",
+     "title": "المصافحة السرّية",
+     "prompt": "حوّل العدد (١ إلى ٣١) إلى ثنائي واقرأ البتّات من اليمين: 1 = wink، 10 = double blink، 100 = close your eyes، 1000 = jump، و10000 تعكس ترتيب الأوامر. اكتب دالة commands(number) تُعيد قائمة الأوامر.",
+     "hint": "if number & 1: ... if number & 16: out.reverse()",
+     "starter": "def commands(number):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "commands",
+      "cases": [
+       [
+        [
+         1
+        ],
+        [
+         "wink"
+        ]
+       ],
+       [
+        [
+         2
+        ],
+        [
+         "double blink"
+        ]
+       ],
+       [
+        [
+         4
+        ],
+        [
+         "close your eyes"
+        ]
+       ],
+       [
+        [
+         8
+        ],
+        [
+         "jump"
+        ]
+       ],
+       [
+        [
+         3
+        ],
+        [
+         "wink",
+         "double blink"
+        ]
+       ],
+       [
+        [
+         19
+        ],
+        [
+         "double blink",
+         "wink"
+        ]
+       ],
+       [
+        [
+         24
+        ],
+        [
+         "jump"
+        ]
+       ],
+       [
+        [
+         16
+        ],
+        []
+       ],
+       [
+        [
+         15
+        ],
+        [
+         "wink",
+         "double blink",
+         "close your eyes",
+         "jump"
+        ]
+       ],
+       [
+        [
+         31
+        ],
+        [
+         "jump",
+         "close your eyes",
+         "double blink",
+         "wink"
+        ]
+       ],
+       [
+        [
+         0
+        ],
+        []
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:secret-handshake"
+    },
+    {
+     "cid": "ex_plants",
+     "title": "حديقة الروضة",
+     "prompt": "الحديقة صفّان من الأوعية يفصلهما سطر جديد، ولكل طالب (بالترتيب الأبجدي: Alice، Bob، Charlie، David، Eve، Fred، Ginny، Harriet، Ileana، Joseph، Kincaid، Larry) وعاءان متجاوران في كل صفّ. الرموز: G=Grass، C=Clover، R=Radishes، V=Violets. اكتب دالة plants(diagram, student) تُعيد قائمة نباتات الطالب الأربعة بأسمائها الإنجليزية الصغيرة.",
+     "hint": "i = 2 × ترتيب الطالب؛ خذ row[i] وrow[i+1] من كل صفّ.",
+     "starter": "def plants(diagram, student):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "plants",
+      "cases": [
+       [
+        [
+         "RC\nGG",
+         "Alice"
+        ],
+        [
+         "radishes",
+         "clover",
+         "grass",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VC\nRC",
+         "Alice"
+        ],
+        [
+         "violets",
+         "clover",
+         "radishes",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VVCG\nVVRC",
+         "Bob"
+        ],
+        [
+         "clover",
+         "grass",
+         "radishes",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VVCCGG\nVVCCGG",
+         "Bob"
+        ],
+        [
+         "clover",
+         "clover",
+         "clover",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VVCCGG\nVVCCGG",
+         "Charlie"
+        ],
+        [
+         "grass",
+         "grass",
+         "grass",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Alice"
+        ],
+        [
+         "violets",
+         "radishes",
+         "violets",
+         "radishes"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Bob"
+        ],
+        [
+         "clover",
+         "grass",
+         "clover",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Charlie"
+        ],
+        [
+         "violets",
+         "violets",
+         "clover",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "David"
+        ],
+        [
+         "radishes",
+         "violets",
+         "clover",
+         "radishes"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Eve"
+        ],
+        [
+         "clover",
+         "grass",
+         "radishes",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Fred"
+        ],
+        [
+         "grass",
+         "clover",
+         "violets",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Ginny"
+        ],
+        [
+         "clover",
+         "grass",
+         "grass",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Harriet"
+        ],
+        [
+         "violets",
+         "radishes",
+         "radishes",
+         "violets"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Ileana"
+        ],
+        [
+         "grass",
+         "clover",
+         "violets",
+         "clover"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Joseph"
+        ],
+        [
+         "violets",
+         "clover",
+         "violets",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Kincaid"
+        ],
+        [
+         "grass",
+         "clover",
+         "clover",
+         "grass"
+        ]
+       ],
+       [
+        [
+         "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV",
+         "Larry"
+        ],
+        [
+         "grass",
+         "violets",
+         "clover",
+         "violets"
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:kindergarten-garden"
+    },
+    {
+     "cid": "ex_yacht_score",
+     "title": "لعبة النرد Yacht",
+     "prompt": "خمسة أحجار نرد وفئة: ones…sixes (مجموع الوجوه المطابقة)، full house (ثلاثة وزوج: المجموع)، four of a kind (مجموع الأربعة المتماثلة)، little straight (1-5: ٣٠)، big straight (2-6: ٣٠)، choice (المجموع)، yacht (خمسة متماثلة: ٥٠)، وإلا ٠. اكتب دالة yacht_score(dice, category).",
+     "hint": "collections.Counter(dice) يسهّل معظم الفئات.",
+     "starter": "def yacht_score(dice, category):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "yacht_score",
+      "cases": [
+       [
+        [
+         [
+          5,
+          5,
+          5,
+          5,
+          5
+         ],
+         "yacht"
+        ],
+        50
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          3,
+          2,
+          5
+         ],
+         "yacht"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          1,
+          3,
+          5
+         ],
+         "ones"
+        ],
+        3
+       ],
+       [
+        [
+         [
+          3,
+          1,
+          1,
+          5,
+          1
+         ],
+         "ones"
+        ],
+        3
+       ],
+       [
+        [
+         [
+          4,
+          3,
+          6,
+          5,
+          5
+         ],
+         "ones"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          4,
+          5,
+          6
+         ],
+         "twos"
+        ],
+        2
+       ],
+       [
+        [
+         [
+          1,
+          4,
+          1,
+          4,
+          1
+         ],
+         "fours"
+        ],
+        8
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          3,
+          3,
+          3
+         ],
+         "threes"
+        ],
+        15
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          3,
+          3,
+          3
+         ],
+         "fives"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          5,
+          3,
+          5,
+          3
+         ],
+         "fives"
+        ],
+        10
+       ],
+       [
+        [
+         [
+          2,
+          3,
+          4,
+          5,
+          6
+         ],
+         "sixes"
+        ],
+        6
+       ],
+       [
+        [
+         [
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "full house"
+        ],
+        16
+       ],
+       [
+        [
+         [
+          5,
+          3,
+          3,
+          5,
+          3
+         ],
+         "full house"
+        ],
+        19
+       ],
+       [
+        [
+         [
+          2,
+          2,
+          4,
+          4,
+          5
+         ],
+         "full house"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          4,
+          4,
+          4,
+          4
+         ],
+         "full house"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          2,
+          2,
+          2,
+          2,
+          2
+         ],
+         "full house"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          6,
+          6,
+          4,
+          6,
+          6
+         ],
+         "four of a kind"
+        ],
+        24
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          3,
+          3,
+          3
+         ],
+         "four of a kind"
+        ],
+        12
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          3,
+          5,
+          5
+         ],
+         "four of a kind"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          3,
+          5,
+          4,
+          1,
+          2
+         ],
+         "little straight"
+        ],
+        30
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         "big straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          3,
+          4
+         ],
+         "little straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3,
+          4,
+          6
+         ],
+         "little straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          3,
+          4,
+          5
+         ],
+         "little straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          4,
+          6,
+          2,
+          5,
+          3
+         ],
+         "big straight"
+        ],
+        30
+       ],
+       [
+        [
+         [
+          6,
+          5,
+          4,
+          3,
+          2
+         ],
+         "little straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          6,
+          5,
+          4,
+          3,
+          1
+         ],
+         "big straight"
+        ],
+        0
+       ],
+       [
+        [
+         [
+          3,
+          3,
+          5,
+          6,
+          6
+         ],
+         "choice"
+        ],
+        23
+       ],
+       [
+        [
+         [
+          2,
+          2,
+          2,
+          2,
+          2
+         ],
+         "choice"
+        ],
+        10
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:yacht"
+    },
+    {
+     "cid": "ex_transpose",
+     "title": "منقول النصوص",
+     "prompt": "اكتب دالة transpose(lines) تُعيد منقول قائمة الأسطر: العمود الأول يصير السطر الأول وهكذا. إذا كان سطر أقصر مما بعده فاحشُه بمسافات من اليسار فقط بقدر الحاجة (لا تضف مسافات في آخر الأسطر الناتجة إلا إذا لزمت لما بعدها).",
+     "hint": "لكل عمود j ابنِ السطر من lines[i][j] أو مسافة، ثم احذف المسافات الزائدة في آخره التي لا يليها حرف من سطر أطول.",
+     "starter": "def transpose(lines):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "transpose",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          "A1"
+         ]
+        ],
+        [
+         "A",
+         "1"
+        ]
+       ],
+       [
+        [
+         [
+          "A",
+          "1"
+         ]
+        ],
+        [
+         "A1"
+        ]
+       ],
+       [
+        [
+         [
+          "ABC",
+          "123"
+         ]
+        ],
+        [
+         "A1",
+         "B2",
+         "C3"
+        ]
+       ],
+       [
+        [
+         [
+          "Single line."
+         ]
+        ],
+        [
+         "S",
+         "i",
+         "n",
+         "g",
+         "l",
+         "e",
+         " ",
+         "l",
+         "i",
+         "n",
+         "e",
+         "."
+        ]
+       ],
+       [
+        [
+         [
+          "The fourth line.",
+          "The fifth line."
+         ]
+        ],
+        [
+         "TT",
+         "hh",
+         "ee",
+         "  ",
+         "ff",
+         "oi",
+         "uf",
+         "rt",
+         "th",
+         "h ",
+         " l",
+         "li",
+         "in",
+         "ne",
+         "e.",
+         "."
+        ]
+       ],
+       [
+        [
+         [
+          "The first line.",
+          "The second line."
+         ]
+        ],
+        [
+         "TT",
+         "hh",
+         "ee",
+         "  ",
+         "fs",
+         "ie",
+         "rc",
+         "so",
+         "tn",
+         " d",
+         "l ",
+         "il",
+         "ni",
+         "en",
+         ".e",
+         " ."
+        ]
+       ],
+       [
+        [
+         [
+          "The longest line.",
+          "A long line.",
+          "A longer line.",
+          "A line."
+         ]
+        ],
+        [
+         "TAAA",
+         "h   ",
+         "elll",
+         " ooi",
+         "lnnn",
+         "ogge",
+         "n e.",
+         "glr",
+         "ei ",
+         "snl",
+         "tei",
+         " .n",
+         "l e",
+         "i .",
+         "n",
+         "e",
+         "."
+        ]
+       ],
+       [
+        [
+         [
+          "HEART",
+          "EMBER",
+          "ABUSE",
+          "RESIN",
+          "TREND"
+         ]
+        ],
+        [
+         "HEART",
+         "EMBER",
+         "ABUSE",
+         "RESIN",
+         "TREND"
+        ]
+       ],
+       [
+        [
+         [
+          "FRACTURE",
+          "OUTLINED",
+          "BLOOMING",
+          "SEPTETTE"
+         ]
+        ],
+        [
+         "FOBS",
+         "RULE",
+         "ATOP",
+         "CLOT",
+         "TIME",
+         "UNIT",
+         "RENT",
+         "EDGE"
+        ]
+       ],
+       [
+        [
+         [
+          "T",
+          "EE",
+          "AAA",
+          "SSSS",
+          "EEEEE",
+          "RRRRRR"
+         ]
+        ],
+        [
+         "TEASER",
+         " EASER",
+         "  ASER",
+         "   SER",
+         "    ER",
+         "     R"
+        ]
+       ],
+       [
+        [
+         [
+          "11",
+          "2",
+          "3333",
+          "444",
+          "555555",
+          "66666"
+         ]
+        ],
+        [
+         "123456",
+         "1 3456",
+         "  3456",
+         "  3 56",
+         "    56",
+         "    5"
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:transpose"
+    },
+    {
+     "cid": "ex_saddle_points",
+     "title": "نقاط السرج في المصفوفة",
+     "prompt": "نقطة السرج خانة هي الأكبر في صفّها والأصغر في عمودها. اكتب دالة saddle_points(matrix) تُعيد قائمة قواميس {'row': r, 'column': c} بالترقيم من ١.",
+     "hint": "احسب أكبر قيمة لكل صفّ وأصغر قيمة لكل عمود أوّلًا.",
+     "starter": "def saddle_points(matrix):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "saddle_points",
+      "cases": [
+       [
+        [
+         [
+          [
+           9,
+           8,
+           7
+          ],
+          [
+           5,
+           3,
+           2
+          ],
+          [
+           6,
+           6,
+           7
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 2,
+          "column": 1
+         }
+        ]
+       ],
+       [
+        [
+         [
+          []
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2,
+           3
+          ],
+          [
+           3,
+           1,
+           2
+          ],
+          [
+           2,
+           3,
+           1
+          ]
+         ]
+        ],
+        []
+       ],
+       [
+        [
+         [
+          [
+           4,
+           5,
+           4
+          ],
+          [
+           3,
+           5,
+           5
+          ],
+          [
+           1,
+           5,
+           4
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 1,
+          "column": 2
+         },
+         {
+          "row": 2,
+          "column": 2
+         },
+         {
+          "row": 3,
+          "column": 2
+         }
+        ]
+       ],
+       [
+        [
+         [
+          [
+           6,
+           7,
+           8
+          ],
+          [
+           5,
+           5,
+           5
+          ],
+          [
+           7,
+           5,
+           6
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 2,
+          "column": 1
+         },
+         {
+          "row": 2,
+          "column": 2
+         },
+         {
+          "row": 2,
+          "column": 3
+         }
+        ]
+       ],
+       [
+        [
+         [
+          [
+           8,
+           7,
+           9
+          ],
+          [
+           6,
+           7,
+           6
+          ],
+          [
+           3,
+           2,
+           5
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 3,
+          "column": 3
+         }
+        ]
+       ],
+       [
+        [
+         [
+          [
+           3,
+           1,
+           3
+          ],
+          [
+           3,
+           2,
+           4
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 1,
+          "column": 3
+         },
+         {
+          "row": 1,
+          "column": 1
+         }
+        ]
+       ],
+       [
+        [
+         [
+          [
+           2
+          ],
+          [
+           1
+          ],
+          [
+           4
+          ],
+          [
+           1
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 2,
+          "column": 1
+         },
+         {
+          "row": 4,
+          "column": 1
+         }
+        ]
+       ],
+       [
+        [
+         [
+          [
+           2,
+           5,
+           3,
+           5
+          ]
+         ]
+        ],
+        [
+         {
+          "row": 1,
+          "column": 2
+         },
+         {
+          "row": 1,
+          "column": 4
+         }
+        ]
+       ]
+      ],
+      "unordered": true
+     },
+     "topic": "collections",
+     "source": "exercism:saddle-points"
+    },
+    {
+     "cid": "ex_spiral_matrix",
+     "title": "المصفوفة الحلزونية",
+     "prompt": "اكتب دالة spiral_matrix(n) تُعيد مصفوفة n×n مملوءة بالأعداد من ١ إلى n² حلزونيًّا مع عقارب الساعة بدءًا من الزاوية العليا اليسرى.",
+     "hint": "تحرّك يمينًا ثم أسفل ثم يسارًا ثم أعلى، وغيّر الاتجاه عند الحافّة أو خانة مملوءة.",
+     "starter": "def spiral_matrix(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "spiral_matrix",
+      "cases": [
+       [
+        [
+         0
+        ],
+        []
+       ],
+       [
+        [
+         1
+        ],
+        [
+         [
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         2
+        ],
+        [
+         [
+          1,
+          2
+         ],
+         [
+          4,
+          3
+         ]
+        ]
+       ],
+       [
+        [
+         3
+        ],
+        [
+         [
+          1,
+          2,
+          3
+         ],
+         [
+          8,
+          9,
+          4
+         ],
+         [
+          7,
+          6,
+          5
+         ]
+        ]
+       ],
+       [
+        [
+         4
+        ],
+        [
+         [
+          1,
+          2,
+          3,
+          4
+         ],
+         [
+          12,
+          13,
+          14,
+          5
+         ],
+         [
+          11,
+          16,
+          15,
+          6
+         ],
+         [
+          10,
+          9,
+          8,
+          7
+         ]
+        ]
+       ],
+       [
+        [
+         5
+        ],
+        [
+         [
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         [
+          16,
+          17,
+          18,
+          19,
+          6
+         ],
+         [
+          15,
+          24,
+          25,
+          20,
+          7
+         ],
+         [
+          14,
+          23,
+          22,
+          21,
+          8
+         ],
+         [
+          13,
+          12,
+          11,
+          10,
+          9
+         ]
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:spiral-matrix"
+    },
+    {
+     "cid": "ex_pascal_rows",
+     "title": "مثلث باسكال",
+     "prompt": "اكتب دالة pascal_rows(n) تُعيد أوّل n صفوف من مثلث باسكال، كل صفّ قائمة.",
+     "hint": "كل صفّ جديد: [1] + [a + b لكل جارين في الصفّ السابق] + [1].",
+     "starter": "def pascal_rows(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "pascal_rows",
+      "cases": [
+       [
+        [
+         0
+        ],
+        []
+       ],
+       [
+        [
+         1
+        ],
+        [
+         [
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         2
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         3
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         4
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2,
+          1
+         ],
+         [
+          1,
+          3,
+          3,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         5
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2,
+          1
+         ],
+         [
+          1,
+          3,
+          3,
+          1
+         ],
+         [
+          1,
+          4,
+          6,
+          4,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         6
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2,
+          1
+         ],
+         [
+          1,
+          3,
+          3,
+          1
+         ],
+         [
+          1,
+          4,
+          6,
+          4,
+          1
+         ],
+         [
+          1,
+          5,
+          10,
+          10,
+          5,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         10
+        ],
+        [
+         [
+          1
+         ],
+         [
+          1,
+          1
+         ],
+         [
+          1,
+          2,
+          1
+         ],
+         [
+          1,
+          3,
+          3,
+          1
+         ],
+         [
+          1,
+          4,
+          6,
+          4,
+          1
+         ],
+         [
+          1,
+          5,
+          10,
+          10,
+          5,
+          1
+         ],
+         [
+          1,
+          6,
+          15,
+          20,
+          15,
+          6,
+          1
+         ],
+         [
+          1,
+          7,
+          21,
+          35,
+          35,
+          21,
+          7,
+          1
+         ],
+         [
+          1,
+          8,
+          28,
+          56,
+          70,
+          56,
+          28,
+          8,
+          1
+         ],
+         [
+          1,
+          9,
+          36,
+          84,
+          126,
+          126,
+          84,
+          36,
+          9,
+          1
+         ]
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:pascals-triangle"
+    },
+    {
+     "cid": "ex_annotate",
+     "title": "كاسحة الألغام: الأرقام",
+     "prompt": "اللوحة قائمة أسطر: * لغم، والمسافة خانة فارغة. اكتب دالة annotate(board) تستبدل كل خانة فارغة بعدد الألغام في الخانات الثماني المجاورة، أو تتركها مسافة إذا كان العدد صفرًا.",
+     "hint": "لكل خانة فارغة عدّ * في dr، dc من -1 إلى 1 داخل الحدود.",
+     "starter": "def annotate(board):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "annotate",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          ""
+         ]
+        ],
+        [
+         ""
+        ]
+       ],
+       [
+        [
+         [
+          "   ",
+          "   ",
+          "   "
+         ]
+        ],
+        [
+         "   ",
+         "   ",
+         "   "
+        ]
+       ],
+       [
+        [
+         [
+          "***",
+          "***",
+          "***"
+         ]
+        ],
+        [
+         "***",
+         "***",
+         "***"
+        ]
+       ],
+       [
+        [
+         [
+          "   ",
+          " * ",
+          "   "
+         ]
+        ],
+        [
+         "111",
+         "1*1",
+         "111"
+        ]
+       ],
+       [
+        [
+         [
+          "***",
+          "* *",
+          "***"
+         ]
+        ],
+        [
+         "***",
+         "*8*",
+         "***"
+        ]
+       ],
+       [
+        [
+         [
+          " * * "
+         ]
+        ],
+        [
+         "1*2*1"
+        ]
+       ],
+       [
+        [
+         [
+          "*   *"
+         ]
+        ],
+        [
+         "*1 1*"
+        ]
+       ],
+       [
+        [
+         [
+          " ",
+          "*",
+          " ",
+          "*",
+          " "
+         ]
+        ],
+        [
+         "1",
+         "*",
+         "2",
+         "*",
+         "1"
+        ]
+       ],
+       [
+        [
+         [
+          "*",
+          " ",
+          " ",
+          " ",
+          "*"
+         ]
+        ],
+        [
+         "*",
+         "1",
+         " ",
+         "1",
+         "*"
+        ]
+       ],
+       [
+        [
+         [
+          "  *  ",
+          "  *  ",
+          "*****",
+          "  *  ",
+          "  *  "
+         ]
+        ],
+        [
+         " 2*2 ",
+         "25*52",
+         "*****",
+         "25*52",
+         " 2*2 "
+        ]
+       ],
+       [
+        [
+         [
+          " *  * ",
+          "  *   ",
+          "    * ",
+          "   * *",
+          " *  * ",
+          "      "
+         ]
+        ],
+        [
+         "1*22*1",
+         "12*322",
+         " 123*2",
+         "112*4*",
+         "1*22*2",
+         "111111"
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:minesweeper"
+    },
+    {
+     "cid": "ex_diamond",
+     "title": "ماسة الحروف",
+     "prompt": "اكتب دالة diamond(letter) تُعيد قائمة أسطر ماسة تبدأ بـ A وتتّسع حتى الحرف المعطى ثم تضيق، وكل سطر عرضه 2n−1 (n ترتيب الحرف) والمسافات تملأ الباقي.",
+     "hint": "للحرف رقم i (A=0): سطر طوله 2n−1 فيه الحرف في الموضعين n−1−i وn−1+i.",
+     "starter": "def diamond(letter):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "diamond",
+      "cases": [
+       [
+        [
+         "A"
+        ],
+        [
+         "A"
+        ]
+       ],
+       [
+        [
+         "B"
+        ],
+        [
+         " A ",
+         "B B",
+         " A "
+        ]
+       ],
+       [
+        [
+         "C"
+        ],
+        [
+         "  A  ",
+         " B B ",
+         "C   C",
+         " B B ",
+         "  A  "
+        ]
+       ],
+       [
+        [
+         "D"
+        ],
+        [
+         "   A   ",
+         "  B B  ",
+         " C   C ",
+         "D     D",
+         " C   C ",
+         "  B B  ",
+         "   A   "
+        ]
+       ],
+       [
+        [
+         "Z"
+        ],
+        [
+         "                         A                         ",
+         "                        B B                        ",
+         "                       C   C                       ",
+         "                      D     D                      ",
+         "                     E       E                     ",
+         "                    F         F                    ",
+         "                   G           G                   ",
+         "                  H             H                  ",
+         "                 I               I                 ",
+         "                J                 J                ",
+         "               K                   K               ",
+         "              L                     L              ",
+         "             M                       M             ",
+         "            N                         N            ",
+         "           O                           O           ",
+         "          P                             P          ",
+         "         Q                               Q         ",
+         "        R                                 R        ",
+         "       S                                   S       ",
+         "      T                                     T      ",
+         "     U                                       U     ",
+         "    V                                         V    ",
+         "   W                                           W   ",
+         "  X                                             X  ",
+         " Y                                               Y ",
+         "Z                                                 Z",
+         " Y                                               Y ",
+         "  X                                             X  ",
+         "   W                                           W   ",
+         "    V                                         V    ",
+         "     U                                       U     ",
+         "      T                                     T      ",
+         "       S                                   S       ",
+         "        R                                 R        ",
+         "         Q                               Q         ",
+         "          P                             P          ",
+         "           O                           O           ",
+         "            N                         N            ",
+         "             M                       M             ",
+         "              L                     L              ",
+         "               K                   K               ",
+         "                J                 J                ",
+         "                 I               I                 ",
+         "                  H             H                  ",
+         "                   G           G                   ",
+         "                    F         F                    ",
+         "                     E       E                     ",
+         "                      D     D                      ",
+         "                       C   C                       ",
+         "                        B B                        ",
+         "                         A                         "
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:diamond"
+    },
+    {
+     "cid": "ex_recite",
+     "title": "المثل المتسلسل",
+     "prompt": "لقائمة كلمات مثل ['nail', 'shoe']: لكل جارين أضف سطر For want of a A the B was lost.، ثم السطر الأخير And all for the want of a FIRST.. القائمة الفارغة تُعيد قائمة فارغة. اكتب دالة recite(words).",
+     "hint": "zip(words, words[1:])",
+     "starter": "def recite(words):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "recite",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          "nail"
+         ]
+        ],
+        [
+         "And all for the want of a nail."
+        ]
+       ],
+       [
+        [
+         [
+          "nail",
+          "shoe"
+         ]
+        ],
+        [
+         "For want of a nail the shoe was lost.",
+         "And all for the want of a nail."
+        ]
+       ],
+       [
+        [
+         [
+          "nail",
+          "shoe",
+          "horse"
+         ]
+        ],
+        [
+         "For want of a nail the shoe was lost.",
+         "For want of a shoe the horse was lost.",
+         "And all for the want of a nail."
+        ]
+       ],
+       [
+        [
+         [
+          "nail",
+          "shoe",
+          "horse",
+          "rider",
+          "message",
+          "battle",
+          "kingdom"
+         ]
+        ],
+        [
+         "For want of a nail the shoe was lost.",
+         "For want of a shoe the horse was lost.",
+         "For want of a horse the rider was lost.",
+         "For want of a rider the message was lost.",
+         "For want of a message the battle was lost.",
+         "For want of a battle the kingdom was lost.",
+         "And all for the want of a nail."
+        ]
+       ],
+       [
+        [
+         [
+          "pin",
+          "gun",
+          "soldier",
+          "battle"
+         ]
+        ],
+        [
+         "For want of a pin the gun was lost.",
+         "For want of a gun the soldier was lost.",
+         "For want of a soldier the battle was lost.",
+         "And all for the want of a pin."
+        ]
+       ]
+      ]
+     },
+     "topic": "collections",
+     "source": "exercism:proverb"
+    }
+   ]
+  },
+  {
+   "id": "algorithms",
+   "title": "الأعداد والخوارزميات",
+   "challenges": [
+    {
+     "cid": "ex_prime_factors",
+     "title": "العوامل الأوّلية",
+     "prompt": "اكتب دالة prime_factors(n) تُعيد قائمة العوامل الأوّلية للعدد مرتّبة تصاعديًّا مع التكرار، مثل 12 ← [2, 2, 3].",
+     "hint": "اقسم على d = 2، 3، 4… ما دام يقبل القسمة.",
+     "starter": "def prime_factors(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "prime_factors",
+      "cases": [
+       [
+        [
+         1
+        ],
+        []
+       ],
+       [
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ],
+       [
+        [
+         3
+        ],
+        [
+         3
+        ]
+       ],
+       [
+        [
+         9
+        ],
+        [
+         3,
+         3
+        ]
+       ],
+       [
+        [
+         4
+        ],
+        [
+         2,
+         2
+        ]
+       ],
+       [
+        [
+         8
+        ],
+        [
+         2,
+         2,
+         2
+        ]
+       ],
+       [
+        [
+         27
+        ],
+        [
+         3,
+         3,
+         3
+        ]
+       ],
+       [
+        [
+         625
+        ],
+        [
+         5,
+         5,
+         5,
+         5
+        ]
+       ],
+       [
+        [
+         6
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       [
+        [
+         12
+        ],
+        [
+         2,
+         2,
+         3
+        ]
+       ],
+       [
+        [
+         901255
+        ],
+        [
+         5,
+         17,
+         23,
+         461
+        ]
+       ],
+       [
+        [
+         93819012551
+        ],
+        [
+         11,
+         9539,
+         894119
+        ]
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:prime-factors"
+    },
+    {
+     "cid": "ex_primes",
+     "title": "غربال إراتوستينس",
+     "prompt": "اكتب دالة primes(limit) تُعيد كل الأعداد الأوّلية حتى limit (شاملة) باستعمال الغربال، دون اختبار كل عدد بالقسمة.",
+     "hint": "قائمة منطقية بطول limit+1، وشطب مضاعفات كل أوّلي بدءًا من مربّعه.",
+     "starter": "def primes(limit):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "primes",
+      "cases": [
+       [
+        [
+         1
+        ],
+        []
+       ],
+       [
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ],
+       [
+        [
+         10
+        ],
+        [
+         2,
+         3,
+         5,
+         7
+        ]
+       ],
+       [
+        [
+         13
+        ],
+        [
+         2,
+         3,
+         5,
+         7,
+         11,
+         13
+        ]
+       ],
+       [
+        [
+         1000
+        ],
+        [
+         2,
+         3,
+         5,
+         7,
+         11,
+         13,
+         17,
+         19,
+         23,
+         29,
+         31,
+         37,
+         41,
+         43,
+         47,
+         53,
+         59,
+         61,
+         67,
+         71,
+         73,
+         79,
+         83,
+         89,
+         97,
+         101,
+         103,
+         107,
+         109,
+         113,
+         127,
+         131,
+         137,
+         139,
+         149,
+         151,
+         157,
+         163,
+         167,
+         173,
+         179,
+         181,
+         191,
+         193,
+         197,
+         199,
+         211,
+         223,
+         227,
+         229,
+         233,
+         239,
+         241,
+         251,
+         257,
+         263,
+         269,
+         271,
+         277,
+         281,
+         283,
+         293,
+         307,
+         311,
+         313,
+         317,
+         331,
+         337,
+         347,
+         349,
+         353,
+         359,
+         367,
+         373,
+         379,
+         383,
+         389,
+         397,
+         401,
+         409,
+         419,
+         421,
+         431,
+         433,
+         439,
+         443,
+         449,
+         457,
+         461,
+         463,
+         467,
+         479,
+         487,
+         491,
+         499,
+         503,
+         509,
+         521,
+         523,
+         541,
+         547,
+         557,
+         563,
+         569,
+         571,
+         577,
+         587,
+         593,
+         599,
+         601,
+         607,
+         613,
+         617,
+         619,
+         631,
+         641,
+         643,
+         647,
+         653,
+         659,
+         661,
+         673,
+         677,
+         683,
+         691,
+         701,
+         709,
+         719,
+         727,
+         733,
+         739,
+         743,
+         751,
+         757,
+         761,
+         769,
+         773,
+         787,
+         797,
+         809,
+         811,
+         821,
+         823,
+         827,
+         829,
+         839,
+         853,
+         857,
+         859,
+         863,
+         877,
+         881,
+         883,
+         887,
+         907,
+         911,
+         919,
+         929,
+         937,
+         941,
+         947,
+         953,
+         967,
+         971,
+         977,
+         983,
+         991,
+         997
+        ]
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:sieve"
+    },
+    {
+     "cid": "ex_nth_prime",
+     "title": "العدد الأوّلي رقم n",
+     "prompt": "اكتب دالة nth_prime(n) تُعيد العدد الأوّلي ذا الترتيب n (الأول هو 2).",
+     "hint": "عدّ الأعداد الأوّلية واحدًا واحدًا، مع اختبار القسمة حتى الجذر.",
+     "starter": "def nth_prime(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "nth_prime",
+      "cases": [
+       [
+        [
+         1
+        ],
+        2
+       ],
+       [
+        [
+         2
+        ],
+        3
+       ],
+       [
+        [
+         6
+        ],
+        13
+       ],
+       [
+        [
+         10001
+        ],
+        104743
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:nth-prime"
+    },
+    {
+     "cid": "ex_roman",
+     "title": "الأرقام الرومانية",
+     "prompt": "اكتب دالة roman(n) تحوّل عددًا من ١ إلى ٣٩٩٩ إلى الأرقام الرومانية، مثل 1994 ← MCMXCIV.",
+     "hint": "قائمة القيم من الأكبر: 1000 M، 900 CM، 500 D، 400 CD … واطرح بالتكرار.",
+     "starter": "def roman(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "roman",
+      "cases": [
+       [
+        [
+         1
+        ],
+        "I"
+       ],
+       [
+        [
+         2
+        ],
+        "II"
+       ],
+       [
+        [
+         3
+        ],
+        "III"
+       ],
+       [
+        [
+         4
+        ],
+        "IV"
+       ],
+       [
+        [
+         5
+        ],
+        "V"
+       ],
+       [
+        [
+         6
+        ],
+        "VI"
+       ],
+       [
+        [
+         9
+        ],
+        "IX"
+       ],
+       [
+        [
+         16
+        ],
+        "XVI"
+       ],
+       [
+        [
+         27
+        ],
+        "XXVII"
+       ],
+       [
+        [
+         48
+        ],
+        "XLVIII"
+       ],
+       [
+        [
+         49
+        ],
+        "XLIX"
+       ],
+       [
+        [
+         59
+        ],
+        "LIX"
+       ],
+       [
+        [
+         66
+        ],
+        "LXVI"
+       ],
+       [
+        [
+         93
+        ],
+        "XCIII"
+       ],
+       [
+        [
+         141
+        ],
+        "CXLI"
+       ],
+       [
+        [
+         163
+        ],
+        "CLXIII"
+       ],
+       [
+        [
+         166
+        ],
+        "CLXVI"
+       ],
+       [
+        [
+         402
+        ],
+        "CDII"
+       ],
+       [
+        [
+         575
+        ],
+        "DLXXV"
+       ],
+       [
+        [
+         666
+        ],
+        "DCLXVI"
+       ],
+       [
+        [
+         911
+        ],
+        "CMXI"
+       ],
+       [
+        [
+         1024
+        ],
+        "MXXIV"
+       ],
+       [
+        [
+         1666
+        ],
+        "MDCLXVI"
+       ],
+       [
+        [
+         3000
+        ],
+        "MMM"
+       ],
+       [
+        [
+         3001
+        ],
+        "MMMI"
+       ],
+       [
+        [
+         3888
+        ],
+        "MMMDCCCLXXXVIII"
+       ],
+       [
+        [
+         3999
+        ],
+        "MMMCMXCIX"
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:roman-numerals"
+    },
+    {
+     "cid": "ex_say",
+     "title": "العدد بالكلمات الإنجليزية",
+     "prompt": "اكتب دالة say(n) تكتب عددًا من 0 إلى 999999999999 بالكلمات الإنجليزية، مثل 1234 ← one thousand two hundred thirty-four. (الحالات هنا ضمن المدى.)",
+     "hint": "قسّم العدد إلى مجموعات من ثلاثة أرقام: billion، million، thousand.",
+     "starter": "def say(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "say",
+      "cases": [
+       [
+        [
+         0
+        ],
+        "zero"
+       ],
+       [
+        [
+         1
+        ],
+        "one"
+       ],
+       [
+        [
+         14
+        ],
+        "fourteen"
+       ],
+       [
+        [
+         20
+        ],
+        "twenty"
+       ],
+       [
+        [
+         22
+        ],
+        "twenty-two"
+       ],
+       [
+        [
+         30
+        ],
+        "thirty"
+       ],
+       [
+        [
+         99
+        ],
+        "ninety-nine"
+       ],
+       [
+        [
+         100
+        ],
+        "one hundred"
+       ],
+       [
+        [
+         123
+        ],
+        "one hundred twenty-three"
+       ],
+       [
+        [
+         200
+        ],
+        "two hundred"
+       ],
+       [
+        [
+         999
+        ],
+        "nine hundred ninety-nine"
+       ],
+       [
+        [
+         1000
+        ],
+        "one thousand"
+       ],
+       [
+        [
+         1234
+        ],
+        "one thousand two hundred thirty-four"
+       ],
+       [
+        [
+         1000000
+        ],
+        "one million"
+       ],
+       [
+        [
+         1002345
+        ],
+        "one million two thousand three hundred forty-five"
+       ],
+       [
+        [
+         1000000000
+        ],
+        "one billion"
+       ],
+       [
+        [
+         987654321123
+        ],
+        "nine hundred eighty-seven billion six hundred fifty-four million three hundred twenty-one thousand one hundred twenty-three"
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:say"
+    },
+    {
+     "cid": "ex_rebase",
+     "title": "التحويل بين الأنظمة العددية",
+     "prompt": "اكتب دالة rebase(from_base, digits, to_base) تأخذ قائمة أرقام في نظام from_base وتُعيدها قائمة أرقام في نظام to_base. الصفر (أو قائمة فارغة) يُعاد [0].",
+     "hint": "حوّل إلى عدد عشري أوّلًا، ثم اقسم بالتكرار على to_base.",
+     "starter": "def rebase(from_base, digits, to_base):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rebase",
+      "cases": [
+       [
+        [
+         2,
+         [
+          1
+         ],
+         10
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        [
+         2,
+         [
+          1,
+          0,
+          1
+         ],
+         10
+        ],
+        [
+         5
+        ]
+       ],
+       [
+        [
+         10,
+         [
+          5
+         ],
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ]
+       ],
+       [
+        [
+         2,
+         [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+         ],
+         10
+        ],
+        [
+         4,
+         2
+        ]
+       ],
+       [
+        [
+         10,
+         [
+          4,
+          2
+         ],
+         2
+        ],
+        [
+         1,
+         0,
+         1,
+         0,
+         1,
+         0
+        ]
+       ],
+       [
+        [
+         3,
+         [
+          1,
+          1,
+          2,
+          0
+         ],
+         16
+        ],
+        [
+         2,
+         10
+        ]
+       ],
+       [
+        [
+         16,
+         [
+          2,
+          10
+         ],
+         3
+        ],
+        [
+         1,
+         1,
+         2,
+         0
+        ]
+       ],
+       [
+        [
+         97,
+         [
+          3,
+          46,
+          60
+         ],
+         73
+        ],
+        [
+         6,
+         10,
+         45
+        ]
+       ],
+       [
+        [
+         2,
+         [],
+         10
+        ],
+        [
+         0
+        ]
+       ],
+       [
+        [
+         10,
+         [
+          0
+         ],
+         2
+        ],
+        [
+         0
+        ]
+       ],
+       [
+        [
+         10,
+         [
+          0,
+          0,
+          0
+         ],
+         2
+        ],
+        [
+         0
+        ]
+       ],
+       [
+        [
+         7,
+         [
+          0,
+          6,
+          0
+         ],
+         10
+        ],
+        [
+         4,
+         2
+        ]
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:all-your-base"
+    },
+    {
+     "cid": "ex_find",
+     "title": "البحث الثنائي",
+     "prompt": "اكتب دالة find(items, value) تُعيد موضع value في قائمة مرتّبة باستعمال البحث الثنائي (لا تستعمل index ولا in). الحالات هنا القيمة موجودة فيها.",
+     "hint": "lo, hi = 0, len(items) - 1 ثم قارن بالوسط.",
+     "starter": "def find(items, value):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "find",
+      "cases": [
+       [
+        [
+         [
+          6
+         ],
+         6
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11
+         ],
+         6
+        ],
+        3
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11
+         ],
+         1
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11
+         ],
+         11
+        ],
+        6
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          5,
+          8,
+          13,
+          21,
+          34,
+          55,
+          89,
+          144,
+          233,
+          377,
+          634
+         ],
+         144
+        ],
+        9
+       ],
+       [
+        [
+         [
+          1,
+          3,
+          5,
+          8,
+          13,
+          21,
+          34,
+          55,
+          89,
+          144,
+          233,
+          377
+         ],
+         21
+        ],
+        5
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:binary-search"
+    },
+    {
+     "cid": "ex_find_fewest_coins",
+     "title": "أقلّ عدد من القطع النقدية",
+     "prompt": "اكتب دالة find_fewest_coins(coins, target) تُعيد قائمة بأقلّ عدد من القطع (من الفئات المعطاة، كل فئة متاحة بلا حدّ) مجموعها target، مرتّبة تصاعديًّا. الطريقة الجشعة لا تكفي دائمًا!",
+     "hint": "البرمجة الديناميكية: best[v] = أقصر قائمة مجموعها v.",
+     "starter": "def find_fewest_coins(coins, target):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "find_fewest_coins",
+      "cases": [
+       [
+        [
+         [
+          1,
+          5,
+          10,
+          25
+         ],
+         1
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          5,
+          10,
+          25,
+          100
+         ],
+         25
+        ],
+        [
+         25
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          5,
+          10,
+          25,
+          100
+         ],
+         15
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          4,
+          15,
+          20,
+          50
+         ],
+         23
+        ],
+        [
+         4,
+         4,
+         15
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          5,
+          10,
+          21,
+          25
+         ],
+         63
+        ],
+        [
+         21,
+         21,
+         21
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          5,
+          10,
+          20,
+          50,
+          100
+         ],
+         999
+        ],
+        [
+         2,
+         2,
+         5,
+         20,
+         20,
+         50,
+         100,
+         100,
+         100,
+         100,
+         100,
+         100,
+         100,
+         100,
+         100
+        ]
+       ],
+       [
+        [
+         [
+          2,
+          5,
+          10,
+          20,
+          50
+         ],
+         21
+        ],
+        [
+         2,
+         2,
+         2,
+         5,
+         10
+        ]
+       ],
+       [
+        [
+         [
+          4,
+          5
+         ],
+         27
+        ],
+        [
+         4,
+         4,
+         4,
+         5,
+         5,
+         5
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          10,
+          11
+         ],
+         20
+        ],
+        [
+         10,
+         10
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          5,
+          10,
+          21,
+          25
+         ],
+         0
+        ],
+        []
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:change"
+    },
+    {
+     "cid": "ex_maximum_value",
+     "title": "مسألة حقيبة الظهر",
+     "prompt": "لديك أشياء لكل منها weight وvalue (قواميس)، وحقيبة تحمل maximum_weight. اكتب دالة maximum_value(maximum_weight, items) تُعيد أكبر قيمة ممكنة إذا أخذت كل شيء مرّة واحدة على الأكثر.",
+     "hint": "best[w] لكل وزن، وحدّث من الوزن الأكبر إلى الأصغر لكل شيء.",
+     "starter": "def maximum_value(maximum_weight, items):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "maximum_value",
+      "cases": [
+       [
+        [
+         100,
+         []
+        ],
+        0
+       ],
+       [
+        [
+         10,
+         [
+          {
+           "weight": 100,
+           "value": 1
+          }
+         ]
+        ],
+        0
+       ],
+       [
+        [
+         10,
+         [
+          {
+           "weight": 2,
+           "value": 5
+          },
+          {
+           "weight": 2,
+           "value": 5
+          },
+          {
+           "weight": 2,
+           "value": 5
+          },
+          {
+           "weight": 2,
+           "value": 5
+          },
+          {
+           "weight": 10,
+           "value": 21
+          }
+         ]
+        ],
+        21
+       ],
+       [
+        [
+         10,
+         [
+          {
+           "weight": 2,
+           "value": 20
+          },
+          {
+           "weight": 2,
+           "value": 20
+          },
+          {
+           "weight": 2,
+           "value": 20
+          },
+          {
+           "weight": 2,
+           "value": 20
+          },
+          {
+           "weight": 10,
+           "value": 50
+          }
+         ]
+        ],
+        80
+       ],
+       [
+        [
+         10,
+         [
+          {
+           "weight": 5,
+           "value": 10
+          },
+          {
+           "weight": 4,
+           "value": 40
+          },
+          {
+           "weight": 6,
+           "value": 30
+          },
+          {
+           "weight": 4,
+           "value": 50
+          }
+         ]
+        ],
+        90
+       ],
+       [
+        [
+         104,
+         [
+          {
+           "weight": 25,
+           "value": 350
+          },
+          {
+           "weight": 35,
+           "value": 400
+          },
+          {
+           "weight": 45,
+           "value": 450
+          },
+          {
+           "weight": 5,
+           "value": 20
+          },
+          {
+           "weight": 25,
+           "value": 70
+          },
+          {
+           "weight": 3,
+           "value": 8
+          },
+          {
+           "weight": 2,
+           "value": 5
+          },
+          {
+           "weight": 2,
+           "value": 5
+          }
+         ]
+        ],
+        900
+       ],
+       [
+        [
+         750,
+         [
+          {
+           "weight": 70,
+           "value": 135
+          },
+          {
+           "weight": 73,
+           "value": 139
+          },
+          {
+           "weight": 77,
+           "value": 149
+          },
+          {
+           "weight": 80,
+           "value": 150
+          },
+          {
+           "weight": 82,
+           "value": 156
+          },
+          {
+           "weight": 87,
+           "value": 163
+          },
+          {
+           "weight": 90,
+           "value": 173
+          },
+          {
+           "weight": 94,
+           "value": 184
+          },
+          {
+           "weight": 98,
+           "value": 192
+          },
+          {
+           "weight": 106,
+           "value": 201
+          },
+          {
+           "weight": 110,
+           "value": 210
+          },
+          {
+           "weight": 113,
+           "value": 214
+          },
+          {
+           "weight": 115,
+           "value": 221
+          },
+          {
+           "weight": 118,
+           "value": 229
+          },
+          {
+           "weight": 120,
+           "value": 240
+          }
+         ]
+        ],
+        1458
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:knapsack"
+    },
+    {
+     "cid": "ex_triplets_with_sum",
+     "title": "ثلاثيات فيثاغورس",
+     "prompt": "اكتب دالة triplets_with_sum(n) تُعيد كل الثلاثيات [a, b, c] حيث a < b < c و a² + b² = c² و a + b + c = n.",
+     "hint": "لكل a احسب b من المعادلتين: b = (n² − 2na) / (2(n − a)).",
+     "starter": "def triplets_with_sum(n):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "triplets_with_sum",
+      "cases": [
+       [
+        [
+         12
+        ],
+        [
+         [
+          3,
+          4,
+          5
+         ]
+        ]
+       ],
+       [
+        [
+         108
+        ],
+        [
+         [
+          27,
+          36,
+          45
+         ]
+        ]
+       ],
+       [
+        [
+         1000
+        ],
+        [
+         [
+          200,
+          375,
+          425
+         ]
+        ]
+       ],
+       [
+        [
+         1001
+        ],
+        []
+       ],
+       [
+        [
+         90
+        ],
+        [
+         [
+          9,
+          40,
+          41
+         ],
+         [
+          15,
+          36,
+          39
+         ]
+        ]
+       ],
+       [
+        [
+         840
+        ],
+        [
+         [
+          40,
+          399,
+          401
+         ],
+         [
+          56,
+          390,
+          394
+         ],
+         [
+          105,
+          360,
+          375
+         ],
+         [
+          120,
+          350,
+          370
+         ],
+         [
+          140,
+          336,
+          364
+         ],
+         [
+          168,
+          315,
+          357
+         ],
+         [
+          210,
+          280,
+          350
+         ],
+         [
+          240,
+          252,
+          348
+         ]
+        ]
+       ],
+       [
+        [
+         30000
+        ],
+        [
+         [
+          1200,
+          14375,
+          14425
+         ],
+         [
+          1875,
+          14000,
+          14125
+         ],
+         [
+          5000,
+          12000,
+          13000
+         ],
+         [
+          6000,
+          11250,
+          12750
+         ],
+         [
+          7500,
+          10000,
+          12500
+         ]
+        ]
+       ]
+      ],
+      "unordered": true
+     },
+     "topic": "algorithms",
+     "source": "exercism:pythagorean-triplet"
+    },
+    {
+     "cid": "ex_can_chain",
+     "title": "سلسلة الدومينو",
+     "prompt": "اكتب دالة can_chain(dominoes) تُعيد True إذا أمكن ترتيب كل قطع الدومينو (أزواج) في حلقة تتطابق فيها الأرقام المتجاورة ويتطابق أوّل رقم مع آخر رقم. القائمة الفارغة تُعدّ حلقة.",
+     "hint": "التراجع (backtracking): جرّب كل قطعة متبقية في الاتجاهين.",
+     "starter": "def can_chain(dominoes):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "can_chain",
+      "cases": [
+       [
+        [
+         []
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           1
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ]
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           2,
+           3
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           1,
+           3
+          ],
+          [
+           2,
+           3
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           4,
+           1
+          ],
+          [
+           2,
+           3
+          ]
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          [
+           1,
+           1
+          ],
+          [
+           2,
+           2
+          ]
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           1
+          ],
+          [
+           3,
+           4
+          ],
+          [
+           4,
+           3
+          ]
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           4,
+           4
+          ]
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           2,
+           4
+          ],
+          [
+           2,
+           4
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           1,
+           1
+          ],
+          [
+           2,
+           2
+          ],
+          [
+           3,
+           3
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           5,
+           3
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           4
+          ],
+          [
+           1,
+           6
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           3,
+           4
+          ],
+          [
+           5,
+           6
+          ]
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          [
+           1,
+           2
+          ],
+          [
+           2,
+           3
+          ],
+          [
+           3,
+           1
+          ],
+          [
+           4,
+           5
+          ],
+          [
+           5,
+           6
+          ],
+          [
+           6,
+           4
+          ]
+         ]
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:dominoes"
+    },
+    {
+     "cid": "ex_total",
+     "title": "خصومات المكتبة",
+     "prompt": "الكتاب بـ 800 (سنتًا). عند شراء كتب مختلفة من سلسلة خمسة كتب يُخصم: كتابان مختلفان ٥٪، ثلاثة ١٠٪، أربعة ٢٠٪، خمسة ٢٥٪. اكتب دالة total(basket) (قائمة أرقام الكتب) تُعيد أقلّ سعر ممكن بتقسيم السلة إلى مجموعات.",
+     "hint": "جرّب أحجام المجموعات بالتراجع، أو لاحظ أن مجموعتين من ٤ أرخص من ٥ و٣.",
+     "starter": "def total(basket):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "total",
+      "cases": [
+       [
+        [
+         [
+          1
+         ]
+        ],
+        800
+       ],
+       [
+        [
+         [
+          2,
+          2
+         ]
+        ],
+        1600
+       ],
+       [
+        [
+         []
+        ],
+        0
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ]
+        ],
+        1520
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3
+         ]
+        ],
+        2160
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3,
+          4
+         ]
+        ],
+        2560
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          3,
+          4,
+          5
+         ]
+        ],
+        3000
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          5
+         ]
+        ],
+        5120
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          5
+         ]
+        ],
+        5120
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          4
+         ]
+        ],
+        4080
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+         ]
+        ],
+        5560
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5
+         ]
+        ],
+        6000
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          1
+         ]
+        ],
+        6800
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          1,
+          2
+         ]
+        ],
+        7520
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          5,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          5
+         ]
+        ],
+        10240
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5
+         ]
+        ],
+        14560
+       ],
+       [
+        [
+         [
+          1,
+          1,
+          2,
+          3,
+          4
+         ]
+        ],
+        3360
+       ],
+       [
+        [
+         [
+          1,
+          2,
+          2,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5
+         ]
+        ],
+        10000
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:book-store"
+    },
+    {
+     "cid": "ex_vlq_encode",
+     "title": "ترميز الطول المتغيّر (VLQ)",
+     "prompt": "في ترميز VLQ يُقسَّم العدد إلى مجموعات من ٧ بتّات من الأعلى إلى الأدنى، ويُضبط البتّ الثامن (128) في كل بايت إلا الأخير. اكتب دالة vlq_encode(numbers) تُعيد قائمة البايتات لكل الأعداد بالتتابع.",
+     "hint": "لعدد n: الأدنى n & 0x7F، ثم n >>= 7 وأضف 0x80 لما قبله.",
+     "starter": "def vlq_encode(numbers):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "vlq_encode",
+      "cases": [
+       [
+        [
+         [
+          0
+         ]
+        ],
+        [
+         0
+        ]
+       ],
+       [
+        [
+         [
+          64
+         ]
+        ],
+        [
+         64
+        ]
+       ],
+       [
+        [
+         [
+          83
+         ]
+        ],
+        [
+         83
+        ]
+       ],
+       [
+        [
+         [
+          127
+         ]
+        ],
+        [
+         127
+        ]
+       ],
+       [
+        [
+         [
+          128
+         ]
+        ],
+        [
+         129,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          8192
+         ]
+        ],
+        [
+         192,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          173
+         ]
+        ],
+        [
+         129,
+         45
+        ]
+       ],
+       [
+        [
+         [
+          16383
+         ]
+        ],
+        [
+         255,
+         127
+        ]
+       ],
+       [
+        [
+         [
+          16384
+         ]
+        ],
+        [
+         129,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          1048576
+         ]
+        ],
+        [
+         192,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          120220
+         ]
+        ],
+        [
+         135,
+         171,
+         28
+        ]
+       ],
+       [
+        [
+         [
+          2097151
+         ]
+        ],
+        [
+         255,
+         255,
+         127
+        ]
+       ],
+       [
+        [
+         [
+          2097152
+         ]
+        ],
+        [
+         129,
+         128,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          134217728
+         ]
+        ],
+        [
+         192,
+         128,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          3503876
+         ]
+        ],
+        [
+         129,
+         213,
+         238,
+         4
+        ]
+       ],
+       [
+        [
+         [
+          268435455
+         ]
+        ],
+        [
+         255,
+         255,
+         255,
+         127
+        ]
+       ],
+       [
+        [
+         [
+          268435456
+         ]
+        ],
+        [
+         129,
+         128,
+         128,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          4278190080
+         ]
+        ],
+        [
+         143,
+         248,
+         128,
+         128,
+         0
+        ]
+       ],
+       [
+        [
+         [
+          2254790917
+         ]
+        ],
+        [
+         136,
+         179,
+         149,
+         194,
+         5
+        ]
+       ],
+       [
+        [
+         [
+          4294967295
+         ]
+        ],
+        [
+         143,
+         255,
+         255,
+         255,
+         127
+        ]
+       ],
+       [
+        [
+         [
+          64,
+          127
+         ]
+        ],
+        [
+         64,
+         127
+        ]
+       ],
+       [
+        [
+         [
+          16384,
+          1193046
+         ]
+        ],
+        [
+         129,
+         128,
+         0,
+         200,
+         232,
+         86
+        ]
+       ],
+       [
+        [
+         [
+          8192,
+          1193046,
+          268435455,
+          0,
+          16383,
+          16384
+         ]
+        ],
+        [
+         192,
+         0,
+         200,
+         232,
+         86,
+         255,
+         255,
+         255,
+         127,
+         0,
+         255,
+         127,
+         129,
+         128,
+         0
+        ]
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:variable-length-quantity"
+    },
+    {
+     "cid": "ex_allergic_to",
+     "title": "الحساسية (البتّات)",
+     "prompt": "قيم الحساسية: eggs 1، peanuts 2، shellfish 4، strawberries 8، tomatoes 16، chocolate 32، pollen 64، cats 128. درجة الشخص مجموع حساسياته. اكتب دالة allergic_to(item, score) تُعيد True إذا كان الشخص يتحسّس من item.",
+     "hint": "bool(score & VALUE[item])",
+     "starter": "def allergic_to(item, score):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "allergic_to",
+      "cases": [
+       [
+        [
+         "eggs",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "eggs",
+         1
+        ],
+        true
+       ],
+       [
+        [
+         "eggs",
+         3
+        ],
+        true
+       ],
+       [
+        [
+         "eggs",
+         2
+        ],
+        false
+       ],
+       [
+        [
+         "eggs",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "peanuts",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "peanuts",
+         2
+        ],
+        true
+       ],
+       [
+        [
+         "peanuts",
+         7
+        ],
+        true
+       ],
+       [
+        [
+         "peanuts",
+         5
+        ],
+        false
+       ],
+       [
+        [
+         "peanuts",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "shellfish",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "shellfish",
+         4
+        ],
+        true
+       ],
+       [
+        [
+         "shellfish",
+         14
+        ],
+        true
+       ],
+       [
+        [
+         "shellfish",
+         10
+        ],
+        false
+       ],
+       [
+        [
+         "shellfish",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "strawberries",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "strawberries",
+         8
+        ],
+        true
+       ],
+       [
+        [
+         "strawberries",
+         28
+        ],
+        true
+       ],
+       [
+        [
+         "strawberries",
+         20
+        ],
+        false
+       ],
+       [
+        [
+         "strawberries",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "tomatoes",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "tomatoes",
+         16
+        ],
+        true
+       ],
+       [
+        [
+         "tomatoes",
+         56
+        ],
+        true
+       ],
+       [
+        [
+         "tomatoes",
+         40
+        ],
+        false
+       ],
+       [
+        [
+         "tomatoes",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "chocolate",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "chocolate",
+         32
+        ],
+        true
+       ],
+       [
+        [
+         "chocolate",
+         112
+        ],
+        true
+       ],
+       [
+        [
+         "chocolate",
+         80
+        ],
+        false
+       ],
+       [
+        [
+         "chocolate",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "pollen",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "pollen",
+         64
+        ],
+        true
+       ],
+       [
+        [
+         "pollen",
+         224
+        ],
+        true
+       ],
+       [
+        [
+         "pollen",
+         160
+        ],
+        false
+       ],
+       [
+        [
+         "pollen",
+         255
+        ],
+        true
+       ],
+       [
+        [
+         "cats",
+         0
+        ],
+        false
+       ],
+       [
+        [
+         "cats",
+         128
+        ],
+        true
+       ],
+       [
+        [
+         "cats",
+         192
+        ],
+        true
+       ],
+       [
+        [
+         "cats",
+         64
+        ],
+        false
+       ],
+       [
+        [
+         "cats",
+         255
+        ],
+        true
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:allergies"
+    },
+    {
+     "cid": "ex_answer",
+     "title": "مسائل حسابية بالكلمات",
+     "prompt": "اكتب دالة answer(question) تحسب أسئلة مثل What is 5 plus 13 minus 2? من اليسار إلى اليمين (دون أولوية للعمليات): plus، minus، multiplied by، divided by (قسمة صحيحة). الحالات هنا كلها صحيحة الصياغة.",
+     "hint": "احذف What is و?، واستبدل multiplied by وdivided by بكلمة واحدة، ثم قسّم.",
+     "starter": "def answer(question):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "answer",
+      "cases": [
+       [
+        [
+         "What is 5?"
+        ],
+        5
+       ],
+       [
+        [
+         "What is 0?"
+        ],
+        0
+       ],
+       [
+        [
+         "What is -123?"
+        ],
+        -123
+       ],
+       [
+        [
+         "What is 1 plus 1?"
+        ],
+        2
+       ],
+       [
+        [
+         "What is 0 plus 2?"
+        ],
+        2
+       ],
+       [
+        [
+         "What is 3 plus 0?"
+        ],
+        3
+       ],
+       [
+        [
+         "What is 53 plus 2?"
+        ],
+        55
+       ],
+       [
+        [
+         "What is -1 plus -10?"
+        ],
+        -11
+       ],
+       [
+        [
+         "What is 123 plus 45678?"
+        ],
+        45801
+       ],
+       [
+        [
+         "What is 4 minus -12?"
+        ],
+        16
+       ],
+       [
+        [
+         "What is -3 multiplied by 25?"
+        ],
+        -75
+       ],
+       [
+        [
+         "What is 33 divided by -3?"
+        ],
+        -11
+       ],
+       [
+        [
+         "What is 1 plus 1 plus 1?"
+        ],
+        3
+       ],
+       [
+        [
+         "What is 1 plus 5 minus -2?"
+        ],
+        8
+       ],
+       [
+        [
+         "What is 20 minus 4 minus 13?"
+        ],
+        3
+       ],
+       [
+        [
+         "What is 17 minus 6 plus 3?"
+        ],
+        14
+       ],
+       [
+        [
+         "What is 2 multiplied by -2 multiplied by 3?"
+        ],
+        -12
+       ],
+       [
+        [
+         "What is -3 plus 7 multiplied by -2?"
+        ],
+        -8
+       ],
+       [
+        [
+         "What is -12 divided by 2 divided by -3?"
+        ],
+        2
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:wordy"
+    },
+    {
+     "cid": "ex_can_attack",
+     "title": "هجوم الملكة في الشطرنج",
+     "prompt": "اكتب دالة can_attack(white, black) تأخذ موقعي ملكتين (row, column) وتُعيد True إذا كانت إحداهما تستطيع مهاجمة الأخرى: في الصفّ نفسه أو العمود نفسه أو القطر نفسه.",
+     "hint": "القطر: abs(r1 - r2) == abs(c1 - c2)",
+     "starter": "def can_attack(white, black):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "can_attack",
+      "cases": [
+       [
+        [
+         [
+          2,
+          4
+         ],
+         [
+          6,
+          6
+         ]
+        ],
+        false
+       ],
+       [
+        [
+         [
+          2,
+          4
+         ],
+         [
+          2,
+          6
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          5
+         ],
+         [
+          2,
+          5
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          2,
+          2
+         ],
+         [
+          0,
+          4
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          2,
+          2
+         ],
+         [
+          3,
+          1
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          2,
+          2
+         ],
+         [
+          1,
+          1
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          1,
+          7
+         ],
+         [
+          0,
+          6
+         ]
+        ],
+        true
+       ],
+       [
+        [
+         [
+          4,
+          1
+         ],
+         [
+          2,
+          5
+         ]
+        ],
+        false
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:queen-attack"
+    },
+    {
+     "cid": "ex_rectangles",
+     "title": "عدّ المستطيلات في الرسم",
+     "prompt": "رسم نصّي فيه زوايا + وخطوط أفقية - وعمودية |. اكتب دالة rectangles(lines) تُعيد عدد المستطيلات المرسومة (الأضلاع يجب أن تكون متّصلة بـ - أو + أفقيًّا، و| أو + عموديًّا).",
+     "hint": "لكل زوج من الزوايا العليا في سطر واحد، ولكل سطر أسفل منهما فيه زاويتان في العمودين نفسيهما، تحقّق من الأضلاع الأربعة.",
+     "starter": "def rectangles(lines):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "rectangles",
+      "cases": [
+       [
+        [
+         []
+        ],
+        0
+       ],
+       [
+        [
+         [
+          ""
+         ]
+        ],
+        0
+       ],
+       [
+        [
+         [
+          " "
+         ]
+        ],
+        0
+       ],
+       [
+        [
+         [
+          "+-+",
+          "| |",
+          "+-+"
+         ]
+        ],
+        1
+       ],
+       [
+        [
+         [
+          "  +-+",
+          "  | |",
+          "+-+-+",
+          "| |  ",
+          "+-+  "
+         ]
+        ],
+        2
+       ],
+       [
+        [
+         [
+          "  +-+",
+          "  | |",
+          "+-+-+",
+          "| | |",
+          "+-+-+"
+         ]
+        ],
+        5
+       ],
+       [
+        [
+         [
+          "+--+",
+          "+--+"
+         ]
+        ],
+        1
+       ],
+       [
+        [
+         [
+          "++",
+          "||",
+          "++"
+         ]
+        ],
+        1
+       ],
+       [
+        [
+         [
+          "++",
+          "++"
+         ]
+        ],
+        1
+       ],
+       [
+        [
+         [
+          "  +-+",
+          "    |",
+          "+-+-+",
+          "| | -",
+          "+-+-+"
+         ]
+        ],
+        1
+       ],
+       [
+        [
+         [
+          "+------+----+",
+          "|      |    |",
+          "+---+--+    |",
+          "|   |       |",
+          "+---+-------+"
+         ]
+        ],
+        3
+       ],
+       [
+        [
+         [
+          "+------+----+",
+          "|      |    |",
+          "+------+    |",
+          "|   |       |",
+          "+---+-------+"
+         ]
+        ],
+        2
+       ],
+       [
+        [
+         [
+          "+---+--+----+",
+          "|   +--+----+",
+          "+---+--+    |",
+          "|   +--+----+",
+          "+---+--+--+-+",
+          "+---+--+--+-+",
+          "+------+  | |",
+          "          +-+"
+         ]
+        ],
+        60
+       ],
+       [
+        [
+         [
+          "+-+ +-+",
+          "| | | |",
+          "+-+-+-+",
+          "  | |  ",
+          "+-+-+-+",
+          "| | | |",
+          "+-+ +-+"
+         ]
+        ],
+        5
+       ]
+      ]
+     },
+     "topic": "algorithms",
+     "source": "exercism:rectangles"
+    }
+   ]
+  }
+ ]
+}

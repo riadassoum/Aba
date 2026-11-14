@@ -11,7 +11,7 @@ Design notes
 * Network access is optional and always wrapped: if there's no internet, the
   caller gets a clear "no connection" result rather than an error or a hang.
 * All network work is meant to run off the UI thread (the GUI calls
-  :func:`check_async`), so NVDA never freezes waiting on the network.
+  :func:`check_async`), so the interface never freezes waiting on the network.
 * Version comparison is a simple, deterministic tuple compare of dotted numeric
   versions, tolerant of a leading ``v`` and of pre-release suffixes.
 * This module only *reports* and *downloads*; installing is left to the user,

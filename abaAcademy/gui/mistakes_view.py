@@ -76,7 +76,7 @@ class MistakesView(AccessibleDialog):
                 "لتتدرّب عليها. تدرّب قليلاً ثم عُد.")), 0, wx.ALL, 10)
         else:
             s.Add(wx.StaticText(panel, label=(
-                "أكثر المواضيع التي تخطئ فيها. اختر موضوعاً ثم «تدرّب على هذا» "
+                "أكثر المواضيع التي تخطئ فيها. اختر موضوعاً ثم تدرّب على هذا "
                 "لجلسة تركّز عليه:")), 0, wx.ALL, 8)
             self.listbox = wx.ListBox(panel, style=wx.LB_SINGLE)
             items = []
@@ -106,9 +106,12 @@ class MistakesView(AccessibleDialog):
         "math": "الرياضيات", "en": "الإنجليزية", "fr": "الفرنسية",
         "quran": "القرآن", "ar": "العربية", "gen": "معلومات عامة",
         "comp": "الحاسوب", "braille": "برايل", "gram": "القواعد",
-        "lang": "اللغة",
+        "lang": "اللغة", "es": "الإسبانية", "tr": "التركية", "de": "الألمانية", "it": "الإيطالية",
     }
     _SUB_NAMES = {
+        # graded language courses (lang:kind)
+        "sentence": "فهم الجمل", "word_order": "ترتيب الكلمات", "cloze": "إكمال الفراغ",
+        "dictation": "الإملاء بالسمع", "writing": "الكتابة", "conjugation": "تصريف الأفعال",
         # geography
         "arab": "الدول العربية", "world": "دول العالم", "continents": "القارات",
         "capitals": "العواصم", "rivers": "الأنهار", "nations": "دول العالم",
@@ -231,4 +234,4 @@ class MistakesView(AccessibleDialog):
 
     def instructions(self):
         return ("دفتر أخطائك: المواضيع التي تخطئ فيها أكثر مع نسبة الخطأ. اختر موضوعاً "
-                "و«تدرّب على هذا» لجلسة تركّز عليه، أو تدرّب على كل نقاط ضعفك. Escape للإغلاق.")
+                "وتدرّب على هذا لجلسة تركّز عليه، أو تدرّب على كل نقاط ضعفك. Escape للإغلاق.")

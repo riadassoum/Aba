@@ -12,7 +12,7 @@
      "On Monday"
     ],
     "correct": 1,
-    "explanation": "«On Saturday».",
+    "explanation": "On Saturday.",
     "topic": "reading.market"
    }
   },
@@ -28,7 +28,7 @@
      "Nothing"
     ],
     "correct": 1,
-    "explanation": "«apples, tomatoes, and bread».",
+    "explanation": "apples, tomatoes, and bread.",
     "topic": "reading.market"
    }
   },
@@ -38,7 +38,7 @@
     "qtype": "true_false",
     "prompt": "The market was empty.",
     "correct": false,
-    "explanation": "«The market was very crowded».",
+    "explanation": "The market was very crowded.",
     "topic": "reading.market"
    }
   },
@@ -54,7 +54,7 @@
      "Sad"
     ],
     "correct": 2,
-    "explanation": "«came home happy».",
+    "explanation": "came home happy.",
     "topic": "reading.market"
    }
   }

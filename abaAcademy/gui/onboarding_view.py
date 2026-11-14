@@ -48,7 +48,7 @@ class OnboardingView(AccessibleDialog):
         s.Add(self.goalSpin, 0, wx.EXPAND | wx.ALL, 6)
 
         s.Add(wx.StaticText(panel, label=(
-            "نصيحة: ابدأ بـ«تدريب اليوم» لمراجعة سريعة متنوّعة، أو «كل الدورات» لاختيار "
+            "نصيحة: ابدأ بـتدريب اليوم لمراجعة سريعة متنوّعة، أو كل الدورات لاختيار "
             "درس. اضغط F1 في أي شاشة لسماع اختصاراتها.")), 0, wx.ALL, 8)
 
         row = wx.BoxSizer(wx.HORIZONTAL)
@@ -68,5 +68,5 @@ class OnboardingView(AccessibleDialog):
         self.close_screen()
 
     def instructions(self):
-        return ("شاشة الترحيب لأول مرة: اكتب اسمك واختر هدفك اليومي ثم «ابدأ». "
+        return ("شاشة الترحيب لأول مرة: اكتب اسمك واختر هدفك اليومي ثم ابدأ. "
                 "يمكنك تغيير ذلك لاحقاً من الإعدادات. Escape للتخطّي.")

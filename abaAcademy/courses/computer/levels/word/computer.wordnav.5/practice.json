@@ -40,27 +40,27 @@
    "params": {
     "statements": [
      {
-      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع B».",
+      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي Control مع B.",
       "is_true": true,
       "explain": "Control+B للنص الغامق.",
       "topic": "pc.wordnav"
      },
      {
-      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي «Control مع G».",
+      "text": "صحيح أم خطأ: أيّ اختصار يجعل النص غامقاً؟ الإجابة هي Control مع G.",
       "is_true": false,
-      "explain": "خطأ، الإجابة الصحيحة «Control مع B».",
+      "explain": "خطأ، الإجابة الصحيحة Control مع B.",
       "topic": "pc.wordnav"
      },
      {
-      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Control مع Home».",
+      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي Control مع Home.",
       "is_true": true,
       "explain": "Control+Home لبداية المستند.",
       "topic": "pc.wordnav"
      },
      {
-      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي «Home فقط».",
+      "text": "صحيح أم خطأ: كيف تذهب لبداية المستند؟ الإجابة هي Home فقط.",
       "is_true": false,
-      "explain": "خطأ، الإجابة الصحيحة «Control مع Home».",
+      "explain": "خطأ، الإجابة الصحيحة Control مع Home.",
       "topic": "pc.wordnav"
      }
     ],

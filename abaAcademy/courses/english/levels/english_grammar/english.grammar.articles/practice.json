@@ -81,7 +81,7 @@
     "prompt": "أكمل بالأداة المناسبة: I bought ___ university book. (اكتب الأداة فقط)",
     "correct": "a",
     "accepted": [],
-    "explanation": "university تُلفظ «يونيفرسيتي» بصوت ساكن، فنستخدم a.",
+    "explanation": "university تُلفظ يونيفرسيتي بصوت ساكن، فنستخدم a.",
     "topic": "gram.articles"
    }
   },

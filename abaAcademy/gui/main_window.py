@@ -27,9 +27,10 @@ from .statistics_view import StatisticsView
 
 
 class MainWindow(AccessibleDialog):
-    def __init__(self, parent, academy, speech):
+    def __init__(self, parent, academy, speech, course_id=None):
         super().__init__(parent, "أكاديمية الكفيف العربي — التعلّم", speech, size=(860, 620))
         self.academy = academy
+        self._start_course = course_id
         self._courses = academy.courses()
         self._levels = []
         self._lesson_metas = []
@@ -89,8 +90,11 @@ class MainWindow(AccessibleDialog):
         panel.SetSizer(outer)
         self.set_first_control(self.courseList)
         if self._courses:
-            self.select_index(self.courseList, 0)
+            start = next((i for i, c in enumerate(self._courses) if c.course_id == self._start_course), 0)
+            self.select_index(self.courseList, start)
             self._on_course(None)
+            if self._start_course:
+                self._resume_point()
         self._refresh_xp()
 
     def instructions(self) -> str:
@@ -99,12 +103,44 @@ class MainWindow(AccessibleDialog):
     # -- selection helpers -------------------------------------------------
 
     def _refresh_xp(self):
-        parts = []
-        for c in self._courses:
-            done = self.academy.completed_lessons(c.course_id)
-            parts.append(f"{c.title}: {done}/{c.lesson_count()}")
+        # One short line: the selected course, the total, and the streak (the
+        # old line listed all seventeen courses and was too long to read).
+        total_done = sum(self.academy.completed_lessons(c.course_id) for c in self._courses)
+        total = sum(c.lesson_count() for c in self._courses)
         streak = self.academy.store.current_streak()
-        self.xpLabel.SetLabel("التقدّم — " + " | ".join(parts) + f" | سلسلة: {streak} يوم")
+        parts = []
+        course = self._current_course()
+        if course:
+            parts.append(f"{course.title}: {self.academy.completed_lessons(course.course_id)} من {course.lesson_count()} درس")
+        parts.append(f"كل الدورات: {total_done} من {total}")
+        parts.append(f"السلسلة: {streak} يوم")
+        self.xpLabel.SetLabel("، ".join(parts))
+
+    def _resume_point(self):
+        """When opened on one course, select the first level and lesson the
+        learner has not finished, so Enter continues where they are. A learner
+        with no progress yet who took the placement test starts at the stage
+        it suggested."""
+        course = self._current_course()
+        if course is not None and self.academy.completed_lessons(course.course_id) == 0:
+            from ..engine.placement import saved_level
+            placed = saved_level(self.academy.store, course.course_id)
+            for li, lv in enumerate(self._levels):
+                if lv.level_id == placed:
+                    self.select_index(self.levelList, li)
+                    self._on_level(None)
+                    self.select_index(self.lessonList, 0)
+                    self.set_first_control(self.lessonList)
+                    return
+        for li, lv in enumerate(self._levels):
+            for mi, m in enumerate(lv.lesson_metas):
+                prog = self.academy.store.get_lesson_progress(m.lesson_id)
+                if not (prog and prog.get("completed")):
+                    self.select_index(self.levelList, li)
+                    self._on_level(None)
+                    self.select_index(self.lessonList, mi)
+                    self.set_first_control(self.lessonList)
+                    return
 
     def _current_course(self):
         i = self.courseList.GetSelection()
@@ -112,6 +148,11 @@ class MainWindow(AccessibleDialog):
 
     def _on_course(self, evt):
         course = self._current_course()
+        if evt is not None:
+            try:
+                self._refresh_xp()
+            except Exception:
+                pass
         self.levelList.Clear()
         self.lessonList.Clear()
         self._levels = course.levels if course else []

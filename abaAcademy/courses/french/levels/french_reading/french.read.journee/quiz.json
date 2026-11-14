@@ -12,7 +12,7 @@
      "à neuf heures"
     ],
     "correct": 1,
-    "explanation": "«je me lève à sept heures».",
+    "explanation": "je me lève à sept heures.",
     "topic": "reading.journee"
    }
   },
@@ -28,7 +28,7 @@
      "en train"
     ],
     "correct": 2,
-    "explanation": "«je vais à l'école à pied».",
+    "explanation": "je vais à l'école à pied.",
     "topic": "reading.journee"
    }
   },
@@ -38,7 +38,7 @@
     "qtype": "true_false",
     "prompt": "Elle regarde la télé seule.",
     "correct": false,
-    "explanation": "«avec ma famille».",
+    "explanation": "avec ma famille.",
     "topic": "reading.journee"
    }
   },
@@ -54,7 +54,7 @@
      "les sciences"
     ],
     "correct": 1,
-    "explanation": "«J'aime mes cours de français».",
+    "explanation": "J'aime mes cours de français.",
     "topic": "reading.journee"
    }
   }

@@ -15,7 +15,7 @@ text:
   the exact computed difference. Because both verses and their difference come
   straight from the mushaf text, nothing here is invented.
 
-Weak items (ones the learner marks «صعبة») are stored so they can be revisited.
+Weak items (ones the learner marks صعبة) are stored so they can be revisited.
 """
 
 from __future__ import annotations
@@ -53,7 +53,7 @@ class HifzTesterDialog(AccessibleDialog):
         s = wx.BoxSizer(wx.VERTICAL)
         s.Add(wx.StaticText(panel, label=(
             "اختبر حفظك: أكمل الآية، أو تذكّر الآية التالية، أو تدرّب على المتشابهات. "
-            "فكّر أولاً ثم «أظهر الجواب».")), 0, wx.ALL, 6)
+            "فكّر أولاً ثم أظهر الجواب.")), 0, wx.ALL, 6)
 
         mrow = wx.BoxSizer(wx.HORIZONTAL)
         mrow.Add(wx.StaticText(panel, label="النمط:"), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 4)
@@ -87,7 +87,7 @@ class HifzTesterDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(self.modeChoice)
-        wx.CallAfter(self._new_question)
+        self.call_after(self._new_question)
 
     # -- data -------------------------------------------------------------
     def _load_ayat(self):
@@ -127,7 +127,7 @@ class HifzTesterDialog(AccessibleDialog):
         self._current = {"kind": "complete", "full": a["text"], "ayah": a}
         loc = f"{a['surah_name']}، الآية {a['ayah']}"
         self.prompt.SetValue(f"[{loc}]\n\nأكمل: {shown} …")
-        self._say(f"أكمل الآية من {loc}: {shown} … فكّر ثم «أظهر الجواب».")
+        self._say(f"أكمل الآية من {loc}: {shown} … فكّر ثم أظهر الجواب.")
 
     def _q_next(self):
         if len(self._ayat) < 2:
@@ -140,7 +140,7 @@ class HifzTesterDialog(AccessibleDialog):
         self._current = {"kind": "next", "next": nxt}
         loc = f"{a['surah_name']}، الآية {a['ayah']}"
         self.prompt.SetValue(f"[{loc}]\n\n{a['text']}\n\nما الآية التالية؟")
-        self._say(f"ما الآية التي تلي هذه من {loc}؟ {a['text']}. فكّر ثم «أظهر الجواب».")
+        self._say(f"ما الآية التي تلي هذه من {loc}؟ {a['text']}. فكّر ثم أظهر الجواب.")
 
     def _q_mutashabihat(self):
         pair = self._finder.random_pair(self._rng)
@@ -155,7 +155,7 @@ class HifzTesterDialog(AccessibleDialog):
             f"هذه الآية:\n[{la}]\n{pair['a']['text']}\n\n"
             f"تشبهها آية في [{lb}].\nكيف تختلف الآية الأخرى؟")
         self._say(f"هذه آية من {la}: {pair['a']['text']}. "
-                  f"تشبهها آية في {lb}. تذكّر كيف تختلف، ثم «أظهر الجواب».")
+                  f"تشبهها آية في {lb}. تذكّر كيف تختلف، ثم أظهر الجواب.")
 
     # -- reveal -----------------------------------------------------------
     def _reveal(self):
@@ -206,7 +206,7 @@ class HifzTesterDialog(AccessibleDialog):
         self.announce(text)
 
     def instructions(self):
-        return ("اختبار الحفظ: اختر النمط. «أكمل الآية» يعرض بداية آية لتكملها؛ «الآية "
-                "التالية» يعرض آية لتتذكّر ما يليها؛ «متشابهات» يعرض آية ويطلب أن تتذكّر كيف "
-                "تختلف عنها آية مشابهة لها في موضع آخر. «أظهر الجواب» يكشف النص الصحيح، و«علّمها "
-                "صعبة» يحفظها للمراجعة. كل النصوص من مصحف الإضافة. Escape للإغلاق.")
+        return ("اختبار الحفظ: اختر النمط. أكمل الآية يعرض بداية آية لتكملها؛ الآية "
+                "التالية يعرض آية لتتذكّر ما يليها؛ متشابهات يعرض آية ويطلب أن تتذكّر كيف "
+                "تختلف عنها آية مشابهة لها في موضع آخر. أظهر الجواب يكشف النص الصحيح، وعلّمها "
+                "صعبة يحفظها للمراجعة. كل النصوص من مصحف الإضافة. Escape للإغلاق.")

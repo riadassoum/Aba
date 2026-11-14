@@ -70,7 +70,7 @@ class SearchView(AccessibleDialog):
                  for r in self._results]
         self.results.Set(items)
         self.select_index(self.results, 0)
-        self.announce(f"{_ar(len(self._results))} نتيجة. تنقّل بالأسهم واضغط «افتح الدرس».")
+        self.announce(f"{_ar(len(self._results))} نتيجة. تنقّل بالأسهم واضغط افتح الدرس.")
         self.results.SetFocus()
 
     def _open(self):
@@ -87,4 +87,4 @@ class SearchView(AccessibleDialog):
 
     def instructions(self):
         return ("ابحث في كل دروس الأكاديمية بكلمة واحدة (عنوان أو هدف أو قاعدة). اكتب الكلمة "
-                "واضغط Enter، ثم اختر نتيجة و«افتح الدرس». Escape للإغلاق.")
+                "واضغط Enter، ثم اختر نتيجة وافتح الدرس. Escape للإغلاق.")

@@ -85,7 +85,7 @@ def conjugate_past(root):
     (pronoun, form) or raises ValueError with an Arabic note if unsupported."""
     kind, name = classify(root)
     if kind != "sound":
-        raise ValueError(f"هذا الفعل «{name}»؛ تصريفه يحتاج معالجة خاصة غير مدعومة "
+        raise ValueError(f"هذا الفعل {name}؛ تصريفه يحتاج معالجة خاصة غير مدعومة "
                          f"بعد لضمان الصحّة.")
     f, a, l = list(root)
     # base: فَعَلَ  -> f+fatha, a+fatha, l (+ ending)
@@ -112,7 +112,7 @@ def conjugate_present(root):
     explicitly from the root letters and harakat, so nothing is truncated."""
     kind, name = classify(root)
     if kind != "sound":
-        raise ValueError(f"هذا الفعل «{name}»؛ تصريفه يحتاج معالجة خاصة غير مدعومة "
+        raise ValueError(f"هذا الفعل {name}؛ تصريفه يحتاج معالجة خاصة غير مدعومة "
                          f"بعد لضمان الصحّة.")
     f, a, l = list(root)
     # the shared stem body after the prefix: فْعُ + last letter
@@ -151,7 +151,7 @@ def conjugate_imperative(root):
     """Imperative (أمر) for the addressee pronouns of a sound verb."""
     kind, name = classify(root)
     if kind != "sound":
-        raise ValueError(f"هذا الفعل «{name}»؛ صيغة الأمر تحتاج معالجة خاصة غير "
+        raise ValueError(f"هذا الفعل {name}؛ صيغة الأمر تحتاج معالجة خاصة غير "
                          f"مدعومة بعد لضمان الصحّة.")
     f, a, l = list(root)
     # form: اُفْعُلْ (hamzat wasl + f sukun + a damma + l sukun)

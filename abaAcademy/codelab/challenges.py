@@ -177,8 +177,47 @@ CHALLENGES = [
 ]
 
 
+STARTER_TRACK = ("starter", "البداية: عشرون تحدّيًا أوّليًّا")
+
+
+def _load_tracks():
+    """Tracks shipped as JSON in resources/codelab: the original ABA set and
+    the Arabic adaptation of Exercism's problem specifications (MIT)."""
+    import json
+    import os
+    here = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "resources", "codelab")
+    tracks = [(STARTER_TRACK[0], STARTER_TRACK[1], list(CHALLENGES))]
+    for fn in ("challenges_original.json", "challenges_exercism.json"):
+        try:
+            with open(os.path.join(here, fn), encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, ValueError):
+            continue
+        for t in data.get("tracks", []):
+            items = [Challenge(c["cid"], c["title"], c["prompt"], c["check"], c.get("starter", ""),
+                               c.get("hint", ""), c.get("topic", t["id"])) for c in t.get("challenges", [])]
+            if items:
+                tracks.append((t["id"], t["title"], items))
+    return tracks
+
+
+_TRACKS = None
+
+
+def tracks():
+    """[(track_id, Arabic title, [Challenge…])] in teaching order."""
+    global _TRACKS
+    if _TRACKS is None:
+        _TRACKS = _load_tracks()
+    return _TRACKS
+
+
+def all_challenges():
+    return [c for _, _, items in tracks() for c in items]
+
+
 def get_challenge(cid):
-    for c in CHALLENGES:
+    for c in all_challenges():
         if c.cid == cid:
             return c
     return None
@@ -196,11 +235,45 @@ def check_solution(challenge, source):
         want = check["expect"].strip()
         if got == want:
             return True, "أحسنت! الناتج صحيح."
-        return False, (f"الناتج غير مطابق. توقّعت: «{want}» "
-                       f"وحصلت على: «{got}».")
+        return False, (f"الناتج غير مطابق. توقّعت: {want} "
+                       f"وحصلت على: {got}.")
     if check["kind"] == "func":
         return _check_func(challenge, source, check)
+    if check["kind"] == "script":
+        from .ast_diagnostics import explain_syntax
+        syn = explain_syntax(source)
+        if syn:
+            return False, syn
+        result = run_code(source + "\n\n" + check["test"], timeout=5.0)
+        if result.error:
+            return False, result.error
+        got = result.output.strip().replace("\r\n", "\n")
+        want = check["expect"].strip()
+        if got == want:
+            return True, "ممتاز! نجح الصنف في كل الاختبارات."
+        return False, (f"نتيجة الاختبار غير مطابقة. توقّعت:\n{want}\nوحصلت على:\n{got}")
     return False, "نوع تحقّق غير معروف."
+
+
+def _same(got, expected, check):
+    if check.get("round") and isinstance(got, (int, float)):
+        got = round(got, check["round"])
+    if check.get("unordered") and isinstance(got, (list, tuple)) and isinstance(expected, list):
+        import json
+        try:
+            return sorted(json.dumps(x, sort_keys=True, default=list) for x in got) == \
+                sorted(json.dumps(x, sort_keys=True) for x in expected)
+        except TypeError:
+            return False
+    if got == expected:
+        return True
+    # expected values come from JSON: tuples became lists and integer dict
+    # keys became strings, so compare through the same round trip
+    import json
+    try:
+        return json.loads(json.dumps(got)) == expected
+    except (TypeError, ValueError):
+        return False
 
 
 def _check_func(challenge, source, check):
@@ -218,15 +291,16 @@ def _check_func(challenge, source, check):
         return False, explain_traceback(type(exc), exc, exc.__traceback__)
     fn = ns.get(check["name"])
     if not callable(fn):
-        return False, (f"لم أجد دالة اسمها «{check['name']}». "
+        return False, (f"لم أجد دالة اسمها {check['name']}. "
                        f"تأكّد من كتابة def {check['name']}(...).")
+    import copy
     for args, expected in check["cases"]:
         try:
-            got = fn(*args)
+            got = fn(*copy.deepcopy(args))
         except BaseException as exc:
             return False, (f"حدث خطأ عند تجربة الدالة بالمدخلات {args}: "
                            + explain_traceback(type(exc), exc, exc.__traceback__))
-        if got != expected:
+        if not _same(got, expected, check):
             return False, (f"نتيجة خاطئة: للمدخلات {args} توقّعت {expected} "
                            f"لكن الدالة أعادت {got}.")
     return True, "ممتاز! نجحت الدالة في كل الحالات."

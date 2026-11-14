@@ -33,6 +33,23 @@ def _maze_cls():
     return SpatialMazeDialog
 
 
+def _puzzle_cls(name):
+    """Puzzle screens live in puzzles_view, which builds on this module's
+    grid dialog, so they're looked up when the arcade opens."""
+    from . import puzzles_view
+    return getattr(puzzles_view, name)
+
+
+def _escape_cls():
+    from .study_tools_view import EscapeRoomDialog
+    return EscapeRoomDialog
+
+
+def _wordsearch_cls():
+    from .science_lab_view import WordSearchDialog
+    return WordSearchDialog
+
+
 def _chess_cls():
     """Lazy import of accessible chess (keeps the chess engine out of games.py's
     import path until the game is actually opened)."""
@@ -112,6 +129,14 @@ class GamesHome(AccessibleDialog):
                 ("أول حرف آخر حرف", gm.WordChain),
                 ("كلمات بحرف", gm.RhymeOrStart),
             ]),
+            ("الألغاز", [
+                ("سودوكو (بتلميحات تشرح السبب)", _puzzle_cls("SudokuDialog")),
+                ("كاسحة الألغام", _puzzle_cls("MinesweeperDialog")),
+                ("٢٠٤٨ (ادمج الأرقام)", _puzzle_cls("Game2048Dialog")),
+                ("لغز الأرقام المنزلقة", _puzzle_cls("SlidingPuzzleDialog")),
+                ("الغرفة المغلقة (لغز صوتي بالأدلّة)", _escape_cls()),
+                ("البحث عن الكلمات", _wordsearch_cls()),
+            ]),
             ("الصوت والفضاء", [
                 ("المتاهة الصوتية (تنقّل بالسمع)", _maze_cls()),
             ]),
@@ -180,6 +205,13 @@ class HighScores(AccessibleDialog):
         "letter_words": "كلمات بحرف", "anagrams": "الكلمات المبعثرة",
         "connect_four": "أربعة على التوالي", "millionaire": "من سيربح المليون",
         "reversi": "عكس (أوثيلو)", "dots_boxes": "النقاط والصناديق",
+        "sudoku_9": "سودوكو ٩×٩ (أسرع حلّ بالثواني)", "sudoku_4": "سودوكو ٤×٤ (أسرع حلّ بالثواني)",
+        "mines_tiny": "كاسحة الألغام الصغيرة (ثوانٍ)", "mines_beginner": "كاسحة الألغام للمبتدئ (ثوانٍ)",
+        "mines_intermediate": "كاسحة الألغام المتوسّطة (ثوانٍ)", "mines_expert": "كاسحة الألغام للخبير (ثوانٍ)",
+        "g2048": "٢٠٤٨ (النقاط)", "sliding_3": "الأرقام المنزلقة ٣×٣ (أقلّ حركات)",
+        "sliding_4": "الأرقام المنزلقة ٤×٤ (أقلّ حركات)", "periodic_quiz": "اختبار الجدول الدوري",
+        "escape_library": "الغرفة المغلقة (أقلّ حركات)",
+        "word_search": "البحث عن الكلمات (كلمات وجدتها)",
     }
 
     def __init__(self, parent, academy, speech):
@@ -379,7 +411,7 @@ class _GameBase(AccessibleDialog):
         if wx is not None and self.TIME_LIMIT:
             self._timer = wx.Timer(self)
             self.Bind(wx.EVT_TIMER, self._on_tick, self._timer)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     def say(self, text):
         self.status.SetLabel(text)
@@ -424,7 +456,7 @@ class _GameBase(AccessibleDialog):
         that track a running score expose it via ``self._score``."""
         score = getattr(self, "_score", 0)
         self.record(score)
-        self.say(f"انتهى الوقت! نتيجتك النهائية {ar(score)}. اضغط «لعبة جديدة» لجولة أخرى.")
+        self.say(f"انتهى الوقت! نتيجتك النهائية {ar(score)}. اضغط لعبة جديدة لجولة أخرى.")
 
     def on_closing(self):
         # make sure the timer never fires after the screen is gone
@@ -433,7 +465,7 @@ class _GameBase(AccessibleDialog):
 
     def _submit(self):
         if self._timed_out:
-            self.announce("انتهى الوقت. اضغط «لعبة جديدة».")
+            self.announce("انتهى الوقت. اضغط لعبة جديدة.")
             return
         text = self.entry.GetValue().strip()
         self.entry.SetValue("")
@@ -495,7 +527,7 @@ class MemoryDigits(_GameBase):
         else:
             correct = "، ".join(ar(d) for d in self._seq)
             self.say(f"خطأ. كان التسلسل: {correct}. وصلت إلى {ar(self._len)} أرقام. "
-                     f"اضغط «لعبة جديدة» للمحاولة ثانية.")
+                     f"اضغط لعبة جديدة للمحاولة ثانية.")
 
     def instructions(self):
         return ("تُنطق لك أرقام؛ احفظها ثم اكتبها بالترتيب واضغط Enter. مع كل نجاح "
@@ -528,7 +560,7 @@ class SimonSequence(_GameBase):
             self.call_later(800, self._extend)
         else:
             self.say(f"خطأ. كان: {'، '.join(self._seq)}. طولك {ar(len(self._seq) - 1)}. "
-                     f"«لعبة جديدة» للإعادة.")
+                     f"لعبة جديدة للإعادة.")
 
     def on_repeat(self):
         self.say("التسلسل: " + "، ".join(self._seq))
@@ -567,7 +599,7 @@ class KimGame(_GameBase):
             missed = want - given
             self.say("لم تكمل. الأشياء كانت: " + "، ".join(self._items) +
                      (". نسيتَ: " + "، ".join(missed) if missed else "") +
-                     ". «لعبة جديدة» للإعادة.")
+                     ". لعبة جديدة للإعادة.")
 
     def on_repeat(self):
         self.say("الأشياء: " + "، ".join(self._items))
@@ -592,7 +624,7 @@ class QuickMath(_GameBase):
     def start(self):
         self._score = 0
         self._begin_timer()
-        self.say("لديك ٦٠ ثانية. أجب عن أكبر عددٍ من المسائل. اضغط «الوقت المتبقّي» لمعرفة الوقت.")
+        self.say("لديك ٦٠ ثانية. أجب عن أكبر عددٍ من المسائل. اضغط الوقت المتبقّي لمعرفة الوقت.")
         self._ask()
 
     def _ask(self):
@@ -723,7 +755,7 @@ class TicTacToe(AccessibleDialog):
         s.Add(brow, 0, wx.ALIGN_RIGHT)
         panel.SetSizer(s)
         self.set_first_control(self.grid)
-        wx.CallAfter(self.start)
+        self.call_after(self.start)
 
     # -- helpers ----------------------------------------------------------
     def say(self, text):
@@ -761,7 +793,7 @@ class TicTacToe(AccessibleDialog):
         lvl = self.LEVELS[self.choice_index(self.levelChoice)]
         self.say(f"لوح جديد. أنت (X) تبدأ. المستوى: {lvl}. تنقّل بأسهم الاتجاهات الأربعة "
                  f"بين الخانات A1 إلى C3، واضغط Enter أو مسافة للّعب في الخانة المختارة.")
-        wx.CallAfter(self.grid.SetFocus)
+        self.call_after(self.grid.SetFocus)
 
     def _restart(self):
         self.start()
@@ -819,7 +851,7 @@ class TicTacToe(AccessibleDialog):
 
     def _play_cursor(self):
         if self._over:
-            self.say("انتهت اللعبة. اضغط «لعبة جديدة».")
+            self.say("انتهت اللعبة. اضغط لعبة جديدة.")
             return
         i = self._cursor_index()
         if self._b[i] != " ":
@@ -842,12 +874,12 @@ class TicTacToe(AccessibleDialog):
         self._over = True
         w = self._winner()
         if w == self._human:
-            self.say("فزت! أحسنت اللعب. اضغط «لعبة جديدة» لجولة أخرى.")
+            self.say("فزت! أحسنت اللعب. اضغط لعبة جديدة لجولة أخرى.")
             self.record(1)
         elif w == self._ai:
-            self.say("فاز الحاسوب هذه المرة. اضغط «لعبة جديدة» للمحاولة ثانية.")
+            self.say("فاز الحاسوب هذه المرة. اضغط لعبة جديدة للمحاولة ثانية.")
         else:
-            self.say("تعادل! اضغط «لعبة جديدة» لجولة أخرى.")
+            self.say("تعادل! اضغط لعبة جديدة لجولة أخرى.")
 
     def record(self, n):
         if save_score(self.academy, self.GAME_KEY, n, True):
@@ -951,10 +983,6 @@ class TicTacToe(AccessibleDialog):
                 "Ctrl+R لقراءة اللوح. Escape للإغلاق.")
 
 
-    def instructions(self):
-        return ("إكس-أو ضد الحاسوب. الخانات مرقّمة ١ إلى ٩ من أعلى اليسار إلى أسفل اليمين. "
-                "اكتب رقم خانتك. Ctrl+R أو اكتب «لوح» لسماع الوضع. Escape للإغلاق.")
-
 
 # --------------------------------------------------------------------------
 # WORD GAMES
@@ -996,7 +1024,7 @@ class Hangman(_GameBase):
                 self._guessed = set(self._word)
                 return self._win()
             self._wrong += 1
-            return self._after_wrong(f"«{t}» ليست الكلمة.")
+            return self._after_wrong(f"{t} ليست الكلمة.")
         ch = t[0]
         if ch in self._guessed:
             self.say("جرّبت هذا الحرف. اكتب حرفاً آخر.")
@@ -1008,16 +1036,16 @@ class Hangman(_GameBase):
             self.say(f"صحيح! {self._mask()}")
         else:
             self._wrong += 1
-            self._after_wrong(f"الحرف «{ch}» ليس فيها.")
+            self._after_wrong(f"الحرف {ch} ليس فيها.")
 
     def _after_wrong(self, msg):
         if self._wrong >= self._max_wrong:
-            self.say(f"{msg} انتهت المحاولات. الكلمة كانت «{self._word}». «لعبة جديدة».")
+            self.say(f"{msg} انتهت المحاولات. الكلمة كانت {self._word}. لعبة جديدة.")
         else:
             self.say(f"{msg} {self._mask()}. متبقٍّ {ar(self._max_wrong - self._wrong)}.")
 
     def _win(self):
-        self.say(f"أحسنت! الكلمة «{self._word}». «لعبة جديدة» لكلمة أخرى.")
+        self.say(f"أحسنت! الكلمة {self._word}. لعبة جديدة لكلمة أخرى.")
         self.record(1)
 
     def on_repeat(self):

@@ -30,20 +30,8 @@ try:
 except Exception:
     _HAS_BEEP = False
 
-try:
-    _speech_ui = None               # speech comes from the application
-except Exception:
-    _speech_ui = None
-
-
 def announce(msg, speak=None):
-    """Speak a message via the screen reader if available, else via a fallback callback."""
-    if _nvda_ui is not None:
-        try:
-            _nvda_ui.message(msg)
-            return
-        except Exception:
-            pass
+    """Speak a message through the application's speech callback."""
     if speak:
         try:
             speak(msg)

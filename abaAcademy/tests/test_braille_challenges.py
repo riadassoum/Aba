@@ -36,7 +36,7 @@ class TestManalCase(unittest.TestCase):
         cls.eng = BrailleChallengeEngine(_RES)
 
     def test_contraction_form_accepted(self):
-        # «من» sign + ا + ل
+        # من sign + ا + ل
         seq = _cells(["من", "ا", "ل"])
         self.assertTrue(self.eng.check("منال", seq, {"من"}))
 
@@ -46,7 +46,7 @@ class TestManalCase(unittest.TestCase):
         self.assertTrue(self.eng.check("منال", seq, {"من"}))
 
     def test_unlearned_contraction_rejected(self):
-        # «من» sign + «ال» sign — but ال was NOT taught
+        # من sign + ال sign — but ال was NOT taught
         seq = _cells(["من", "ال"])
         self.assertFalse(self.eng.check("منال", seq, {"من"}))
 

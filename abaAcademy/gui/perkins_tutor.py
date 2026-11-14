@@ -118,7 +118,7 @@ class PerkinsTutorDialog(AccessibleDialog):
         self._cap = None
         self._init_chord()
         self.set_first_control(self.pad)
-        wx.CallAfter(self._start_mode)
+        self.call_after(self._start_mode)
 
     # -- chord capture (polling; see braille_engine/chord_input.py) --------
     # Correctness does not depend on key events arriving: a timer samples which
@@ -223,14 +223,14 @@ class PerkinsTutorDialog(AccessibleDialog):
             if self._contraction_pos >= len(cells):
                 self._score += 1
                 self._asked += 1
-                self._say(f"ممتاز! هذا اختصار كلمة «{self._contraction}». "
+                self._say(f"ممتاز! هذا اختصار كلمة {self._contraction}. "
                           f"نتيجتك {self._score} من {self._asked}. اختصار جديد قادم.")
                 self.call_later(1100, self._new_prompt)
             else:
                 self._say(f"صحيح، الخلية الأولى. أكمل بقية خلايا الاختصار.")
         else:
             self._say(f"ليس بعد. أدخلت {name}. "
-                      f"هذا اختصار «{self._contraction}». اضغط «لمّح للنقاط» لمعرفة خلاياه.")
+                      f"هذا اختصار {self._contraction}. اضغط لمّح للنقاط لمعرفة خلاياه.")
 
     def _check_letter(self, dots, name):
         target = ARABIC_LETTERS.get(self._target_letter)
@@ -243,7 +243,7 @@ class PerkinsTutorDialog(AccessibleDialog):
         else:
             self._say(f"ليس بعد. أدخلت {name}. "
                       f"المطلوب حرف {self._target_letter}. "
-                      f"جرّب مرة أخرى، أو اضغط «لمّح للنقاط».")
+                      f"جرّب مرة أخرى، أو اضغط لمّح للنقاط.")
 
     def _check_word_cell(self, dots, name):
         cells = self.ab.text_to_cells(self._word)
@@ -272,7 +272,7 @@ class PerkinsTutorDialog(AccessibleDialog):
         self._score = 0
         self._asked = 0
         self._new_prompt()
-        wx.CallAfter(self.pad.SetFocus)
+        self.call_after(self.pad.SetFocus)
 
     def _new_prompt(self):
         mode = self.choice_index(self.modeChoice)
@@ -291,8 +291,8 @@ class PerkinsTutorDialog(AccessibleDialog):
             self._contraction = random.choice(list(GRADE2_WORDSIGNS.keys()))
             self._contraction_pos = 0
             ncells = len(GRADE2_WORDSIGNS[self._contraction])
-            self._say(f"اكتب اختصار كلمة «{self._contraction}» بلغة برايل. "
-                      f"عدد خلاياه {ncells}. اضغط «لمّح للنقاط» إن احتجت.")
+            self._say(f"اكتب اختصار كلمة {self._contraction} بلغة برايل. "
+                      f"عدد خلاياه {ncells}. اضغط لمّح للنقاط إن احتجت.")
         else:
             self._say("استكشاف حر: اكتب أي خلية بالأصابع لتسمع أيّ حرف هي. "
                       "المسافة لخلية فارغة.")
@@ -313,7 +313,7 @@ class PerkinsTutorDialog(AccessibleDialog):
             if self._contraction_pos < len(cells):
                 dots = cells[self._contraction_pos]
                 pos_word = "الأولى" if self._contraction_pos == 0 else "التالية"
-                self._say(f"اختصار «{self._contraction}»، الخلية {pos_word}: "
+                self._say(f"اختصار {self._contraction}، الخلية {pos_word}: "
                           f"{describe_dots(dots)}.")
         else:
             self._say("في الاستكشاف الحر، جرّب أي تركيبة نقاط.")
@@ -325,7 +325,7 @@ class PerkinsTutorDialog(AccessibleDialog):
         elif mode == self.MODE_WORD and self._word:
             self._say(f"اكتب كلمة: {self._word}. الحرف الحالي رقم {self._word_pos + 1}.")
         elif mode == self.MODE_CONTRACTIONS and self._contraction:
-            self._say(f"اكتب اختصار كلمة «{self._contraction}».")
+            self._say(f"اكتب اختصار كلمة {self._contraction}.")
         else:
             self._say("استكشاف حر: اكتب أي خلية.")
 
@@ -349,5 +349,5 @@ class PerkinsTutorDialog(AccessibleDialog):
                 "نقاطها معاً بالأصابع ثم رفعها. الأصابع: F للنقطة 1، D للنقطة 2، S للنقطة 3، "
                 "J للنقطة 4، K للنقطة 5، L للنقطة 6، والمسافة لخلية فارغة. اختر النمط: تعلّم "
                 "الحروف، أو اكتب كلمة، أو استكشاف حر، أو الاختصارات العربية لتعلّم اختصارات "
-                "برايل للكلمات الشائعة. «لمّح للنقاط» يخبرك بنقاط الحرف أو الاختصار المطلوب. "
+                "برايل للكلمات الشائعة. لمّح للنقاط يخبرك بنقاط الحرف أو الاختصار المطلوب. "
                 "الحروف تتبع معيار برايل العربي الموحّد. Escape للإغلاق.")

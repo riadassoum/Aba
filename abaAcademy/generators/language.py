@@ -82,9 +82,9 @@ def gen_translate(count: int, rng: random.Random, **params) -> List[Question]:
             continue
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"ما معنى كلمة «{w['word']}»؟",
+            prompt=f"ما معنى كلمة {w['word']}؟",
             correct=idx, options=options,
-            explanation=f"«{w['word']}» تعني «{correct}».",
+            explanation=f"{w['word']} تعني {correct}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)))
         q.qid = signature_qid("lang.translate", w["word"])
@@ -106,9 +106,9 @@ def gen_word(count: int, rng: random.Random, **params) -> List[Question]:
         dd.add(w["word"])
         q = Question(
             qtype=QuestionType.TYPING,
-            prompt=f"اكتب بالكلمة الأجنبية ما معناه «{w['meaning']}»:",
+            prompt=f"اكتب بالكلمة الأجنبية ما معناه {w['meaning']}:",
             correct=w["word"], accepted=list(w.get("accepted", [])),
-            explanation=f"الإجابة: «{w['word']}».",
+            explanation=f"الإجابة: {w['word']}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)))
         q.qid = signature_qid("lang.word", w["word"])
@@ -138,9 +138,9 @@ def gen_listen(count: int, rng: random.Random, **params) -> List[Question]:
             continue
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"كيف تقول «{w['meaning']}» بالكلمة الأجنبية؟",
+            prompt=f"كيف تقول {w['meaning']} بالكلمة الأجنبية؟",
             correct=idx, options=options,
-            explanation=f"«{w['meaning']}» = «{correct}».",
+            explanation=f"{w['meaning']} = {correct}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)))
         q.qid = signature_qid("lang.listen", w["word"])
@@ -172,9 +172,9 @@ def gen_sentence(count: int, rng: random.Random, **params) -> List[Question]:
         rng.shuffle(options)
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"ما ترجمة الجملة: «{w['example']}»؟",
+            prompt=f"ما ترجمة الجملة: {w['example']}؟",
             correct=options.index(correct), options=options,
-            explanation=f"الترجمة: «{correct}».",
+            explanation=f"الترجمة: {correct}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)) + 1)
         q.qid = signature_qid("lang.sentence", w["example"])
@@ -207,10 +207,10 @@ def gen_truefalse(count: int, rng: random.Random, **params) -> List[Question]:
                 shown_meaning, is_true = rng.choice(others), False
         q = Question(
             qtype=QuestionType.TRUE_FALSE,
-            prompt=f"هل معنى «{w['word']}» هو «{shown_meaning}»؟",
+            prompt=f"هل معنى {w['word']} هو {shown_meaning}؟",
             correct=is_true,
-            explanation=(f"صحيح، «{w['word']}» تعني «{w['meaning']}»." if is_true
-                         else f"خطأ، «{w['word']}» تعني «{w['meaning']}» وليس «{shown_meaning}»."),
+            explanation=(f"صحيح، {w['word']} تعني {w['meaning']}." if is_true
+                         else f"خطأ، {w['word']} تعني {w['meaning']} وليس {shown_meaning}."),
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)))
         q.qid = signature_qid("lang.truefalse", w["word"] + shown_meaning)
@@ -244,9 +244,9 @@ def gen_fillblank(count: int, rng: random.Random, **params) -> List[Question]:
             continue
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"أكمل الفراغ: «{blanked}» ({w['translation']})",
+            prompt=f"أكمل الفراغ: {blanked} ({w['translation']})",
             correct=oidx, options=options,
-            explanation=f"الكلمة الناقصة: «{correct}».",
+            explanation=f"الكلمة الناقصة: {correct}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)) + 1)
         q.qid = signature_qid("lang.fillblank", w["example"])
@@ -286,9 +286,9 @@ def gen_confusable(count: int, rng: random.Random, **params) -> List[Question]:
         rng.shuffle(options)
         q = Question(
             qtype=QuestionType.MCQ,
-            prompt=f"أيّ الكلمتين تعني «{w['meaning']}»؟ انتبه فهما متشابهتان.",
+            prompt=f"أيّ الكلمتين تعني {w['meaning']}؟ انتبه فهما متشابهتان.",
             correct=options.index(correct), options=options,
-            explanation=f"«{correct}» تعني «{w['meaning']}»؛ لا تخلطها بـ «{partner}».",
+            explanation=f"{correct} تعني {w['meaning']}؛ لا تخلطها بـ {partner}.",
             hint=f"الكلمتان متشابهتان في الشكل؛ ركّز على الفرق بينهما.",
             topic=f"{params.get('lang','lang')}:confusable",
             difficulty=int(w.get("difficulty", 1)) + 1)
@@ -326,7 +326,7 @@ def gen_oddword(count: int, rng: random.Random, **params) -> List[Question]:
             qtype=QuestionType.MCQ,
             prompt="أي كلمة لا تنتمي إلى المجموعة (من حيث الموضوع)؟",
             correct=options.index(odd["word"]), options=options,
-            explanation=f"«{odd['word']}» تخص موضوع «{odd_topic}» بينما البقية من «{t}».",
+            explanation=f"{odd['word']} تخص موضوع {odd_topic} بينما البقية من {t}.",
             topic=f"{params.get('lang','lang')}:{t}",
             difficulty=2)
         q.qid = signature_qid("lang.oddword", sig)
@@ -361,7 +361,7 @@ def gen_build(count: int, rng: random.Random, **params) -> List[Question]:
             qtype=QuestionType.ORDERING,
             prompt=f"رتّب الكلمات لتكوين جملة صحيحة (المعنى: {w['translation']}):",
             correct=correct_order, options=shuffled,
-            explanation=f"الجملة الصحيحة: «{' '.join(correct_order)}».",
+            explanation=f"الجملة الصحيحة: {' '.join(correct_order)}.",
             topic=f"{params.get('lang','lang')}:{w.get('topic','')}",
             difficulty=int(w.get("difficulty", 1)) + 2)
         q.qid = signature_qid("lang.build", w["example"])
@@ -397,7 +397,7 @@ def gen_dictation(count: int, rng: random.Random, **params) -> List[Question]:
             prompt="استمع إلى الجملة (اضغط Ctrl+R لإعادة سماعها) ثم اكتبها كما سمعتها:",
             speak=s["text"],
             correct=s["text"],
-            explanation=(f"الجملة الصحيحة: «{s['text']}»." + (f" ({tr})" if tr else "")),
+            explanation=(f"الجملة الصحيحة: {s['text']}." + (f" ({tr})" if tr else "")),
             topic=f"{params.get('lang','lang')}:dictation",
             difficulty=int(s.get("difficulty", 2)))
         q.qid = signature_qid("lang.dictation", s["text"])
@@ -428,13 +428,13 @@ def gen_conjugate(count: int, rng: random.Random, **params) -> List[Question]:
         dd.add(sig)
         tense = v.get("tense", "")
         meaning = v.get("meaning", "")
-        stem = f"صرّف الفعل «{v.get('infinitive','')}»" + (f" ({meaning})" if meaning else "")
-        stem += (f" في {tense}" if tense else "") + f" مع الضمير «{pronoun}»:"
+        stem = f"صرّف الفعل {v.get('infinitive','')}" + (f" ({meaning})" if meaning else "")
+        stem += (f" في {tense}" if tense else "") + f" مع الضمير {pronoun}:"
         if rng.random() < 0.5:
             q = Question(
                 qtype=QuestionType.TYPING, prompt=stem, correct=correct,
                 accepted=list(v.get("accepted", {}).get(pronoun, [])),
-                explanation=f"«{pronoun}» → «{correct}».",
+                explanation=f"{pronoun} → {correct}.",
                 topic=f"{params.get('lang','lang')}:conjugation:{v.get('tense','')}",
                 difficulty=int(v.get("difficulty", 2)))
         else:
@@ -448,7 +448,7 @@ def gen_conjugate(count: int, rng: random.Random, **params) -> List[Question]:
             rng.shuffle(options)
             q = Question(
                 qtype=QuestionType.MCQ, prompt=stem, correct=options.index(correct),
-                options=options, explanation=f"«{pronoun}» → «{correct}».",
+                options=options, explanation=f"{pronoun} → {correct}.",
                 topic=f"{params.get('lang','lang')}:conjugation:{v.get('tense','')}",
                 difficulty=int(v.get("difficulty", 2)))
         q.qid = signature_qid("lang.conjugate", sig)
@@ -484,7 +484,7 @@ def gen_matching(count: int, rng: random.Random, **params) -> List[Question]:
             correct=correct,
             options=list(correct.values()),
             explanation="المطابقات الصحيحة: " + "، ".join(
-                f"«{k}» = «{v}»" for k, v in correct.items()) + ".",
+                f"{k} = {v}" for k, v in correct.items()) + ".",
             topic=f"{params.get('lang','lang')}:matching",
             difficulty=2)
         q.qid = signature_qid("lang.matching", sig)

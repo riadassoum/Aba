@@ -2,37 +2,37 @@
  "blocks": [
   {
    "btype": "text",
-   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن «الماضي الناقص (imparfait)». استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: parler، être."
+   "text": "في هذا الدرس نتدرّب على تصريف الأفعال في زمن الماضي الناقص (imparfait). استمع لكل تصريف ثم اكتبه أو اختره. الأفعال المشمولة: parler، être."
   },
   {
    "btype": "example",
    "text": "je parlais",
-   "note": "تصريف «parler» مع «je»"
+   "note": "تصريف parler مع je"
   },
   {
    "btype": "example",
    "text": "tu parlais",
-   "note": "تصريف «parler» مع «tu»"
+   "note": "تصريف parler مع tu"
   },
   {
    "btype": "example",
    "text": "il parlait",
-   "note": "تصريف «parler» مع «il»"
+   "note": "تصريف parler مع il"
   },
   {
    "btype": "example",
    "text": "nous parlions",
-   "note": "تصريف «parler» مع «nous»"
+   "note": "تصريف parler مع nous"
   },
   {
    "btype": "example",
    "text": "vous parliez",
-   "note": "تصريف «parler» مع «vous»"
+   "note": "تصريف parler مع vous"
   },
   {
    "btype": "example",
    "text": "ils parlaient",
-   "note": "تصريف «parler» مع «ils»"
+   "note": "تصريف parler مع ils"
   }
  ]
 }
