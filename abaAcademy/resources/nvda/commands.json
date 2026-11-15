@@ -1,0 +1,2165 @@
+{
+"source": "NVDA (NV Access), GPL-2.0-or-later; Arabic wording from NVDA's Arabic translation.",
+"commands": [
+{
+"script": "cycleAudioDuckingMode",
+"en": "Cycles through audio ducking modes which determine when NVDA lowers the volume of other sounds",
+"ar": "التبديل بين أنماط خفض الصوت المختلفة التي تقرر متى يقوم NVDA بخفض الأصوات الأخرى",
+"category_en": "Audio",
+"category": "الصوت",
+"keys": [
+"NVDA+Shift+D"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleInputHelp",
+"en": "Turns input help on or off. When on, any input such as pressing a key on the keyboard will tell you what script is associated with that input, if any.",
+"ar": "التبديل بين تفعيل وتعطيل نمط المساعدة التفاعلية. في وضع التشغيل ستخبرك بوظيفة أي مُدخَل، مثلا: عند الضغط على مفتاح على لوحة المفاتيح؛ سيخبرك بالأمر المرتبط به إن وُجِد.",
+"category_en": "Input",
+"category": "أوامر إدخال",
+"keys": [
+"NVDA+1"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleCurrentAppSleepMode",
+"en": "Toggles sleep mode on and off for the active application.",
+"ar": "الانتقال بين تشغيل وتعطيل وضع الصمت للتطبيق الحالي.",
+"category_en": "",
+"category": "",
+"keys": [],
+"desktop": [
+"NVDA+Shift+S"
+],
+"laptop": [
+"NVDA+Shift+Z"
+]
+},
+{
+"script": "reportCurrentLine",
+"en": "Reports the current line under the application cursor. Pressing this key twice will spell the current line. Pressing three times will spell the line using character descriptions.",
+"ar": "قراءة السطر الواقع تحت مؤشر التطبيق. بالضغط على هذا المفتاح مرتين يتهجّى السطر، وبالضغط عليه ثلاث مرات يعلن التهجئة الصوتية.",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [],
+"desktop": [
+"NVDA+السهم الأعلى"
+],
+"laptop": [
+"NVDA+L"
+]
+},
+{
+"script": "leftMouseClick",
+"en": "Clicks the left mouse button once at the current mouse position",
+"ar": "النقر الأيسر على موضع المؤشر مرة واحدة",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"قسمة لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+["
+]
+},
+{
+"script": "rightMouseClick",
+"en": "Clicks the right mouse button once at the current mouse position",
+"ar": "النقر الأيمن مرة واحدة على موضع المؤشر",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"ضرب لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+]"
+]
+},
+{
+"script": "toggleLeftMouseButton",
+"en": "Locks or unlocks the left mouse button",
+"ar": "تثبيت أو تحرير زر الفأرة الأيسر",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"Shift+قسمة لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+["
+]
+},
+{
+"script": "toggleRightMouseButton",
+"en": "Locks or unlocks the right mouse button",
+"ar": "تثبيت أو تحرير زر الفأرة الأيمن",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"Shift+ضرب لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+]"
+]
+},
+{
+"script": "reportCurrentSelection",
+"en": "Announces the current selection in edit controls and documents. Pressing twice spells this information. Pressing three times spells it using character descriptions. Pressing four times shows it in a browsable message. ",
+"ar": "يقرأ التحديد الحالي في حيّزات التحرير والمستندات. بالضغط عليه مرتين ستحصل على تهجئة المعلومات. وبالضغط ثلاث مرات سيقرأ التهجئة باستخدام أوصاف الأحرف الصوتية. وبضغطه أربع مرات سيعرض النص المحدد في رسالة قابلة للتصفح.",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [],
+"desktop": [
+"NVDA+Shift+السهم الأعلى"
+],
+"laptop": [
+"NVDA+Shift+S"
+]
+},
+{
+"script": "dateTime",
+"en": "If pressed once, reports the current time. If pressed twice, reports the current date",
+"ar": "بالضغط عليه مرة واحدة, يُعْلِمُك بالوقت. ومرتين, يُعْلِمُك بالتاريخ",
+"category_en": "System status",
+"category": "أوامر حالة النظام",
+"keys": [
+"NVDA+F12"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "increaseSynthSetting",
+"en": "Increases the currently active setting in the synth settings ring",
+"ar": "زيادة الإعداد الحالي لآلة النطق العاملة",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+السهم الأعلى"
+],
+"laptop": [
+"NVDA+Shift+Control+السهم الأعلى"
+]
+},
+{
+"script": "increaseLargeSynthSetting",
+"en": "Increases the currently active setting in the synth settings ring in a larger step",
+"ar": "زيادة إعداد النُطق النَشِط حاليا في دائرة إعدادات النُطق خطوات أكثر",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+Page Up"
+],
+"laptop": [
+"NVDA+Shift+Control+Page Up"
+]
+},
+{
+"script": "decreaseSynthSetting",
+"en": "Decreases the currently active setting in the synth settings ring",
+"ar": "تقليل إعداد آلة النطق العاملة",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+السهم الأسفل"
+],
+"laptop": [
+"NVDA+Control+Shift+السهم الأسفل"
+]
+},
+{
+"script": "decreaseLargeSynthSetting",
+"en": "Decreases the currently active setting in the synth settings ring in a larger step",
+"ar": "إنقاص إعداد النُطق النَشِط حاليا في دائرة إعدادات النُطق خطوات أكثر",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+Page Down"
+],
+"laptop": [
+"NVDA+Control+Shift+Page Down"
+]
+},
+{
+"script": "nextSynthSetting",
+"en": "Moves to the next available setting in the synth settings ring",
+"ar": "الانتقال للإعداد التالي لآلة النطق",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+السهم الأيمن"
+],
+"laptop": [
+"NVDA+Shift+Control+السهم الأيمن"
+]
+},
+{
+"script": "previousSynthSetting",
+"en": "Moves to the previous available setting in the synth settings ring",
+"ar": "الانتقال للإعداد السابق لآلة النطق",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [],
+"desktop": [
+"NVDA+Control+السهم الأيسر"
+],
+"laptop": [
+"NVDA+Shift+Control+السهم الأيسر"
+]
+},
+{
+"script": "toggleSpeakTypedCharacters",
+"en": "Cycles through options for when to speak typed characters.",
+"ar": "التبديل بين خيارات نُطق الأحرف المكتوبة.",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+2"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleSpeakTypedWords",
+"en": "Cycles through options for when to speak typed words.",
+"ar": "التبديل بين خيارات نُطق الكلمات المكتوبة.",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+3"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleSpeakCommandKeys",
+"en": "Toggles on and off the speaking of command keys",
+"ar": "التبديل بين تفعيل وتعطيل نُطق مفاتيح الأوامر",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+4"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleBrailleAutoScroll",
+"en": "Toggles braille automatic scroll",
+"ar": "التبديل بين تفعيل وتعطيل تمرير سطر برايل آليا",
+"category_en": "Braille",
+"category": "الخط البارز Braille",
+"keys": [
+"NVDA+Alt+K"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "increaseBrailleAutoScrollRate",
+"en": "Increases the rate for braille automatic scroll",
+"ar": "زيادة سرعة التمرير الآلي لسطر برايل",
+"category_en": "Braille",
+"category": "الخط البارز Braille",
+"keys": [
+"NVDA+Alt+L"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "decreaseBrailleAutoScrollRate",
+"en": "Decreases the rate for braille automatic scroll",
+"ar": "خفض سرعة التمرير الآلي لسطر برايل",
+"category_en": "Braille",
+"category": "الخط البارز Braille",
+"keys": [
+"NVDA+Alt+J"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "cycleSpeechSymbolLevel",
+"en": "Cycles through speech symbol levels which determine what symbols are spoken",
+"ar": "التنقل بين مستويات نطق الرموز لتحديد كمية الرموز أو علامات الترقيم التي سيتم نطقها",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+P"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "moveMouseToNavigatorObject",
+"en": "Moves the mouse pointer to the current navigator object",
+"ar": "تحريك مؤشر الفأرة إلى الكائن الحالي",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"NVDA+قسمة لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+M"
+]
+},
+{
+"script": "moveNavigatorObjectToMouse",
+"en": "Sets the navigator object to the current object under the mouse pointer and speaks it",
+"ar": "نقل مؤشر NVDA إلى الكائن الواقع تحت مؤشر الفأرة وقراءته",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"NVDA+ضرب لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+N"
+]
+},
+{
+"script": "reviewMode_next",
+"en": "Switches to the next review mode (e.g. object, document or screen) and positions the review position at the point of the navigator object",
+"ar": "ينتقل إلى نمط الاستعراض التالي (على سبيل المثال نمط استعراض الكائن أو المستند أو الشاشة) ويضع مؤشر الاستعراض عند مؤشر NVDA",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+7 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Page Up"
+]
+},
+{
+"script": "reviewMode_previous",
+"en": "Switches to the previous review mode (e.g. object, document or screen) and positions the review position at the point of the navigator object",
+"ar": "ينتقل إلى نمط الاستعراض السابق (على سبيل المثال نمط استعراض الكائن أو المستند أو الشاشة) ويضع مؤشر الاستعراض عند مؤشر NVDA",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+1 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Page Down"
+]
+},
+{
+"script": "navigatorObject_current",
+"en": "Reports the current navigator object. Pressing twice spells this information, and pressing three times Copies name and value of this object to the clipboard",
+"ar": "الإعلان عن الموضع الحالي لمؤشر NVDA. بالضغط عليه مرتين سيقوم بتهجئته وبالضغط عليه ثلاث مرات سيقوم بنسخ اسم وقيمة الكائن إلى الحافظة",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+5 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+O"
+]
+},
+{
+"script": "navigatorObject_currentDimensions",
+"en": "Reports information about the location of the text or object at the review cursor. Pressing twice may provide further detail.",
+"ar": "يعلن عن موقع النص أو الكائن الواقع تحت مؤشر الاستعراض. بالضغط عليه مرتين ربما يزودك بمزيد من المعلومات.",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+Shift+Delete في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+Delete"
+]
+},
+{
+"script": "caretPos_currentDimensions",
+"en": "Reports information about the location of the text or object at the position of system caret. Pressing twice may provide further detail.",
+"ar": "يعلن عن موقع النص أو الكائن الموجود في موضع مؤشّر التحرير.. عند ضغطه مرتين قد يزوّدك بمزيد من المعلومات.",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [
+"NVDA+Delete في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Delete"
+]
+},
+{
+"script": "navigatorObject_toFocus",
+"en": "Sets the navigator object to the current focus, and the review cursor to the position of the caret inside it, if possible.",
+"ar": "وضع مؤشّر استعراض الكائن (مؤشّر NVDA)  في موضع مؤشّر النظام الحالي،ووضع مؤشّر الاستعراض في موضع مؤشّر التحرير إن كان ذلك ممكنًا.",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+ناقص لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Backspace"
+]
+},
+{
+"script": "navigatorObject_moveFocus",
+"en": "Pressed once sets the keyboard focus to the navigator object, pressed twice sets the system caret to the position of the review cursor",
+"ar": "بالضغط عليه مرة واحدة يقوم بتحريك مؤشر النظام إلى مؤشر NVDA وبالضغط عليه مرتين يضع مؤشر التحرير في موقع مؤشر الاستعراض",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+Shift+ناقص لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+Backspace"
+]
+},
+{
+"script": "navigatorObject_parent",
+"en": "Moves the navigator object to the object containing it",
+"ar": "تحريك مؤشر NVDA إلى الكائن الأعلى في العرض الشجري",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+8 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+السهم الأعلى"
+]
+},
+{
+"script": "navigatorObject_next",
+"en": "Moves the navigator object to the next object",
+"ar": "تحريك مؤشر NVDA إلى الكائن التالي",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+6 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+السهم الأيمن"
+]
+},
+{
+"script": "navigatorObject_previous",
+"en": "Moves the navigator object to the previous object",
+"ar": "تحريك مؤشر NVDA إلى الكائن السابق",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+4 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+السهم الأيسر"
+]
+},
+{
+"script": "navigatorObject_firstChild",
+"en": "Moves the navigator object to the first object inside it",
+"ar": "تحريك مؤشر NVDA إلى أول كائن يتفرع منه",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+2 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+السهم الأسفل"
+]
+},
+{
+"script": "review_activate",
+"en": "Performs the default action on the current navigator object (example: presses it if it is a button).",
+"ar": "تنفيذ الإجراء الافتراضي عند مؤشر NVDA (على سبيل المثال: الضغط عليه إذا كان زرًّا).",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+Enter في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Enter"
+]
+},
+{
+"script": "review_top",
+"en": "Moves the review cursor to the top line of the current navigator object and speaks it",
+"ar": "استعراض السطر الأول من الكائن الحالي وقراءته",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"Shift+7 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+Home"
+]
+},
+{
+"script": "review_previousLine",
+"en": "Moves the review cursor to the previous line of the current navigator object and speaks it",
+"ar": "استعراض السطر السابق للكائن الحالي وقراءته",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"7 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+السهم الأعلى"
+]
+},
+{
+"script": "review_currentLine",
+"en": "Reports the line of the current navigator object where the review cursor is situated. If this key is pressed twice, the current line will be spelled. Pressing three times will spell the line using character descriptions.",
+"ar": "استعراض السطر الحالي في موضع مؤشّر NVDA حيث مؤشّر الاستعراض. بالضغط على هذا المفتاح مرتين متعاقبتين سيتهجّى السطر، وبالضغط عليه ثلاث مرات سيتههجّاه تهجئة صوتية.",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"8 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+."
+]
+},
+{
+"script": "review_nextLine",
+"en": "Moves the review cursor to the next line of the current navigator object and speaks it",
+"ar": "استعراض السطر التالي",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"9 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+السهم الأسفل"
+]
+},
+{
+"script": "review_previousPage",
+"en": "Moves the review cursor to the previous page of the current navigator object and speaks it",
+"ar": "ينقل مؤشّر الاستعراض للصفحة السابقة ضمن الكائن الذي يقع عليه مؤشّر NVDA ويقرؤه",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Page Up"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+Page Up"
+]
+},
+{
+"script": "review_nextPage",
+"en": "Moves the review cursor to the next page of the current navigator object and speaks it",
+"ar": "ينقل مؤشّر الاستعراض للصفحة التالية ضمن الكائن الذي يقع عليه مؤشّر NVDA ويقرؤه.",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Page Down"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+Page Down"
+]
+},
+{
+"script": "review_bottom",
+"en": "Moves the review cursor to the bottom line of the current navigator object and speaks it",
+"ar": "استعراض السطر الأخير",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"Shift+9 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+End"
+]
+},
+{
+"script": "review_previousWord",
+"en": "Moves the review cursor to the previous word of the current navigator object and speaks it",
+"ar": "استعراض الكلمة السابقة",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"4 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+السهم الأيسر"
+]
+},
+{
+"script": "review_currentWord",
+"en": "Speaks the word of the current navigator object where the review cursor is situated. Pressing twice spells the word. Pressing three times spells the word using character descriptions",
+"ar": "نطق الكلمة الحالية الواقعة تحت مؤشر الاستعراض. بالضغط على هذا المفتاح مرتين متعاقبتين يقوم بتهجأتها وبالضغط عليه ثلاث مرات يقوم بتهجئة الكلمة تهجئة صوتية",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"5 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+."
+]
+},
+{
+"script": "review_nextWord",
+"en": "Moves the review cursor to the next word of the current navigator object and speaks it",
+"ar": "استعراض الكلمة التالية",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"6 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+السهم الأيمن"
+]
+},
+{
+"script": "review_startOfLine",
+"en": "Moves the review cursor to the first character of the line where it is situated in the current navigator object and speaks it",
+"ar": "استعراض أول حرف من السطر الحالي",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"Shift+1 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Home"
+]
+},
+{
+"script": "review_previousCharacter",
+"en": "Moves the review cursor to the previous character of the current navigator object and speaks it",
+"ar": "استعراض الحرف السابق",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"1 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+السهم الأيسر"
+]
+},
+{
+"script": "review_currentCharacter",
+"en": "Reports the character of the current navigator object where the review cursor is situated. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal",
+"ar": "نطق الحرف الحالي الواقع تحت مؤشر الاستعراض. بالضغط على هذا المفتاح مرتين يعطي مثال صوتي للحرف. وبالضغط عليه ثلاث مرات  ينطق القيمة الرقمية له",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"2 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+."
+]
+},
+{
+"script": "review_nextCharacter",
+"en": "Moves the review cursor to the next character of the current navigator object and speaks it",
+"ar": "استعراض الحرف التالي",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"3 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+السهم الأيمن"
+]
+},
+{
+"script": "review_endOfLine",
+"en": "Moves the review cursor to the last character of the line where it is situated in the current navigator object and speaks it",
+"ar": "استعراض آخر حرف بالسطر",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"Shift+3 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+End"
+]
+},
+{
+"script": "review_startOfSelection",
+"en": "Moves the review cursor to the first character of the selection, and speaks it",
+"ar": "نقل مؤشّر الاستعراض إلى أول حرف ضمن نطاق التحديد مع نُطقه",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Alt+Home"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "review_endOfSelection",
+"en": "Moves the review cursor to the last character of the selection, and speaks it",
+"ar": "نقل مؤشّر الاستعراض إلى آخر حرف ضمن نطاق التحديد مع نُطقه",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Alt+End"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "speechMode",
+"en": "Cycles between speech modes.",
+"ar": "التبديل بين أنماط النُطق.",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+S"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "moveToParentTreeInterceptor",
+"en": "Moves the focus out of the current embedded object and into the document that contains it",
+"ar": "إخراج مؤشّر النظام من الكائن المُدرَج وإعادته للمستند الذي يندرج ضمنه",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [
+"NVDA+Control+المسافة"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleVirtualBufferPassThrough",
+"en": "Toggles between browse mode and focus mode. When in focus mode, keys will pass straight through to the application, allowing you to interact directly with a control. When in browse mode, you can navigate the document with the cursor, quick navigation keys, etc.",
+"ar": "الانتقال بين النمط التفاعلي ونمط التصفح .",
+"category_en": "",
+"category": "",
+"keys": [
+"NVDA+المسافة"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quit",
+"en": "Quits NVDA!",
+"ar": "الخروج من البرنامج!",
+"category_en": "",
+"category": "",
+"keys": [
+"NVDA+Q"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "showGui",
+"en": "Shows the NVDA menu",
+"ar": "إظهار قائمة NVDA",
+"category_en": "",
+"category": "",
+"keys": [
+"NVDA+N"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "review_sayAll",
+"en": "Reads from the review cursor up to the end of the current text, moving the review cursor as it goes",
+"ar": "بدء القراءة من عند مؤشر الاستعراض, حتى نهاية النص، مع تحريك مؤشِّر الاستعراض بالتزامن مع القراءة",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"زائد لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Shift+A"
+]
+},
+{
+"script": "sayAll",
+"en": "Reads from the system caret up to the end of the text, moving the caret as it goes",
+"ar": "بدء القراءة من عند مؤشر التحرير, حتى نهاية النص",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [],
+"desktop": [
+"NVDA+السهم الأسفل"
+],
+"laptop": [
+"NVDA+A"
+]
+},
+{
+"script": "reportFormatting",
+"en": "Reports formatting info for the current review cursor position. If pressed twice, presents the information in browse mode",
+"ar": "قراءةُ معلومات التنسيق للنص الواقع حاليا ضمن موضع مؤشّر الاستعراض. بالضغط عليه مرتين؛ سيعرض معلومات التنسيق في نمط التصفُّح",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Shift+F"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportOrShowFormattingAtCaret",
+"en": "Reports formatting info for the text under the caret. If pressed twice, presents the information in browse mode",
+"ar": "قراءةُ معلومات التنسيق للنص الواقع حاليا ضمن موضع مؤشّر التحرير. بالضغط عليه مرتين؛ سيعرض معلومات التنسيق في نمط التصفُّح",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [
+"NVDA+F"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportDetailsSummary",
+"en": "Report summary of any annotation details at the system caret.",
+"ar": "قراءة ملخَّص لأي تفاصيل توضيحية حول موضع مؤشّر التحرير.",
+"category_en": "System caret",
+"category": "أوامر مؤشر التحرير",
+"keys": [
+"NVDA+D"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportCurrentFocus",
+"en": "Reports the object with focus. If pressed twice, spells the information. Pressing three times spells it using character descriptions.",
+"ar": "قراءة الكائن حيث مؤشّر النظام. بالضغط عليه مرتين يتجهى الكائن. وبالضغط ثلاث مرات يتهجاه مستخدمًا أوصاف الأحرف الصوتية.",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [
+"NVDA+Tab"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportStatusLine",
+"en": "Reads the current application status bar. If pressed twice, spells the information. If pressed three times, copies the status bar to the clipboard",
+"ar": "قراءة شريط الحالة الخاص بالتطبيق الحالي.بالضغط عليه مرتين سيتهجى المعلومات. بضغطه ثلاث مرات ستُنسَخ للحافظة",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [],
+"desktop": [
+"NVDA+End"
+],
+"laptop": [
+"NVDA+Shift+End"
+]
+},
+{
+"script": "reportFocusObjectAccelerator",
+"en": "Reports the shortcut key of the currently focused object",
+"ar": "الإعلان عن مفتاح الاختصار المخصص للكائن المحدد",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [
+"Shift+2 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"NVDA+Control+Shift+."
+]
+},
+{
+"script": "toggleMouseTracking",
+"en": "Toggles the reporting of information as the mouse moves",
+"ar": "تفعيل وتعطيل الإعلام عن الكائنات أثناء حركة الفأرة",
+"category_en": "Mouse",
+"category": "الفأرة",
+"keys": [
+"NVDA+M"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "title",
+"en": "Reports the title of the current application or foreground window. If pressed twice, spells the title. If pressed three times, copies the title to the clipboard",
+"ar": "الإعلان عن عنوان التطبيق الحالي أو النافذة المرئية. بالضغط عليه مرتين, يقوم بتهجئته, وبالضغط عليه ثلاث مرات ينسخ العنوان إلى حافظة الوندوز",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [
+"NVDA+T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "speakForeground",
+"en": "Reads all controls in the active window",
+"ar": "يقرأ كافّة عناصر التحكُّم الموجودة في النافذة النَشِطة",
+"category_en": "System focus",
+"category": "أوامر مؤشر النظام",
+"keys": [
+"NVDA+B"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "navigatorObject_devInfo",
+"en": "Logs information about the current navigator object which is useful to developers and activates the log viewer so the information can be examined.",
+"ar": "يسجل المعلومات حول الكائن الحالي ويقوم بتنشيط عارض تقارير البرنامج كي يمكن فحص المعلومات الواردة بها وهو أمر مفيد للمطورين.Logs information about the current navigator object which is useful to developers and activates the log viewer so the information can be examined\t.",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+F1"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "log_markStartThenCopy",
+"en": "Mark the current end of the log as the start of the fragment to be copied to clipboard by pressing again.",
+"ar": "تعيين نهاية السجلّ الحالية كنقطة بداية للجزئية التي ستُنسَخ للحافظة عند ضغطه مرة أخرى.",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+Control+Shift+F1"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleProgressBarOutput",
+"en": "Toggles between beeps, speech, beeps and speech, and off, for reporting progress bar updates",
+"ar": "يَتَنَقَّل بين أنماط الإعلان عن التغييرات في شريط التقدم بين صوت الصفير فقط, أو نطق النسبة المئوية فقط, أو عن طريق الاثنين معا, أو عن طريق التعطيل",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+U"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleReportDynamicContentChanges",
+"en": "Toggles on and off the reporting of dynamic content changes, such as new text in dos console windows",
+"ar": "تشغيل وتعطيل الإعلام عن تغيير المحتوى التلقائي للسطر الإلكتروني",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+5"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleCaretMovesReviewCursor",
+"en": "Toggles on and off the movement of the review cursor due to the caret moving.",
+"ar": "تشغيل وتعطيل تحريك مؤشر الاستعراض وفقا لمؤشر التحرير.",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+6"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleFocusMovesNavigatorObject",
+"en": "Toggles on and off the movement of the navigator object due to focus changes",
+"ar": "تشغيل وتعطيل حركة الكائن تبعا لحركة التحديد الحالي",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+7"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "say_battery_status",
+"en": "Reports battery status and time remaining if AC is not plugged in",
+"ar": "الإعلان عن حالة البطارية والزمن المتبقي في حالة فصل مصدر الطاقة الكهرابائية",
+"category_en": "System status",
+"category": "أوامر حالة النظام",
+"keys": [
+"NVDA+Shift+B"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "passNextKeyThrough",
+"en": "The next key that is pressed will not be handled at all by NVDA, it will be passed directly through to Windows.",
+"ar": "المفتاحُ التالي لن يُنفَّذ كأمر من NVDA، بل سيُنفّذ وظيفته في Windows.",
+"category_en": "Input",
+"category": "أوامر إدخال",
+"keys": [
+"NVDA+F2"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportAppModuleInfo",
+"en": "Speaks the filename of the active application along with the name of the currently loaded appModule",
+"ar": "قراءة اسم الملف في التطبيق الحالي بالتزامن مع الوحدة البرمجية العاملة",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+Control+F1"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateGeneralSettingsDialog",
+"en": "Shows NVDA's general settings",
+"ar": "إظهار مربّع حوار  الإعدادات العامة الخاصة بالبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+G"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateSynthesizerDialog",
+"en": "Shows the NVDA synthesizer selection dialog",
+"ar": "إظهار مربّع حوار اختيار آلة النُطْق",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+S"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateVoiceDialog",
+"en": "Shows NVDA's speech settings",
+"ar": "إظهار إعدادات النطق الخاصة ب NVDA",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+V"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateBrailleDisplayDialog",
+"en": "Shows the NVDA braille display selection dialog",
+"ar": "إظهار مربّع حوار اختيار سطر برايل الإلكتروني",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+A"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateAudioSettingsDialog",
+"en": "Shows NVDA's audio settings",
+"ar": "عرض إعدادات صوت NVDA",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+U"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateKeyboardSettingsDialog",
+"en": "Shows NVDA's keyboard settings",
+"ar": "إظهار إعدادات لوحة المفاتيح الخاصة بNVDA",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+K"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateMouseSettingsDialog",
+"en": "Shows NVDA's mouse settings",
+"ar": "إظهار إعدادات الفأرة الخاصة بالبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+M"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateObjectPresentationDialog",
+"en": "Shows NVDA's object presentation settings",
+"ar": "إظهار إعدادات عرض الكائن الخاصة بالبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+O"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateBrowseModeDialog",
+"en": "Shows NVDA's browse mode settings",
+"ar": "إظهار إعدادات نمط التصفح بالبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+B"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateDocumentFormattingDialog",
+"en": "Shows NVDA's document formatting settings",
+"ar": "إظهار إعدادات تنسيق المستند الخاصة بالبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+D"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateMagnifierSettingsDialog",
+"en": "Shows NVDA's magnifier settings",
+"ar": "يعرض إعدادات التكبير الخاصة ب NVDA",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+W"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "saveConfiguration",
+"en": "Saves the current NVDA configuration",
+"ar": "حفظ الإعدادات الحالية للبرنامج",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+C"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "revertConfiguration",
+"en": "Pressing once reverts the current configuration to the most recently saved state. Pressing three times resets to factory defaults.",
+"ar": "بالضغط عليه مرة واحدة سيقوم باسترجاع الإعدادات امحفوظة مؤخرًا. بالضغط عليه ثلاث مرات سيعود بالبرنامج إلى الإعدادات الافتراضية.",
+"category_en": "Configuration",
+"category": "أوامر إعدادات البرنامج",
+"keys": [
+"NVDA+Control+R"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activatePythonConsole",
+"en": "Activates the NVDA Python Console, primarily useful for development",
+"ar": "تفعيل سطر أوامر لغة Python المُضمَّن في NVDA, يُفيد بشكل أساسي في تطويره",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+Control+Z"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "braille_toggleTether",
+"en": "Toggle tethering of braille between the focus and the review position",
+"ar": "التبديل بين إرفاق برايل لموضع التحديد الحالي أو موضع مؤشر الاستعراض",
+"category_en": "Braille",
+"category": "الخط البارز Braille",
+"keys": [
+"NVDA+Control+T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleBrailleMode",
+"en": "Toggles braille mode",
+"ar": "التبديل بين أنماط برايل",
+"category_en": "Braille",
+"category": "الخط البارز Braille",
+"keys": [
+"NVDA+Alt+T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportClipboardText",
+"en": "Reports the text on the Windows clipboard. Pressing twice spells this information. Pressing three times spells it using character descriptions.",
+"ar": "يقرأ النص الموجود في حافظة Windows. بالضغط عليه مرتين سيتهجى النص. وبضغطه ثلاثًا سيتهجّاه باستخدام أوصاف الأحرف الصوتية.",
+"category_en": "System status",
+"category": "أوامر حالة النظام",
+"keys": [
+"NVDA+C"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "review_markStartForCopy",
+"en": "Marks the current position of the review cursor as the start of text to be selected or copied",
+"ar": "بدء التحديد من نقطة وجود مؤشر الاستعراض للنسخ",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+F9"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "review_moveToStartMarkedForCopy",
+"en": "Move the review cursor to the position marked as the start of text to be selected or copied",
+"ar": "نقلُ مؤشّر الاستعراض للموضع المحدَّد سابقا كنقطة بداية للنص لتحديده أو نسخه",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+Shift+F9"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "review_copy",
+"en": "If pressed once, the text from the previously set start marker up to and including the current position of the review cursor is selected. If pressed twice, the text is copied to the clipboard",
+"ar": "بالضغط مرة واحدة, سيتم تحديد النص بداية من علامة التحديد إلى الموضع الحالي لمؤشر الاستعراض. بالضغط مرتين, سيتم نسخ النص إلى الحافظة",
+"category_en": "Text review",
+"category": "أوامر استعراض النص",
+"keys": [
+"NVDA+F10"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reloadPlugins",
+"en": "Reloads app modules and global plugins without restarting NVDA, which can be Useful for developers",
+"ar": "إعادة تحميل الوحدات البرمجية والملحقات الأساسية دون إعادة تشغيل NVDA مما يفيد المطورين",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+Control+F3"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "reportLinkDestination",
+"en": "Report the destination URL of the link at the position of caret or focus. If pressed twice, shows the URL in a window for easier review.",
+"ar": "الإعلان عن عنوان الوجهة التي يقود إليها الرابط الذي يوجد عنده مؤشّر الكتابة أو مؤشِّر النظام. عند الضغط عليه مرتين يعرض العنوان في نافذة لتيسير قراءته.",
+"category_en": "Tools",
+"category": "أدوات",
+"keys": [
+"NVDA+K"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "navigatorObject_nextInFlow",
+"en": "Moves to the next object in a flattened view of the object navigation hierarchy",
+"ar": "يتحرك للكائن التالي وفقا للترتيب الشجري للكائنات",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+3 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"Shift+NVDA+]"
+]
+},
+{
+"script": "navigatorObject_previousInFlow",
+"en": "Moves to the previous object in a flattened view of the object navigation hierarchy",
+"ar": "يتحرك للكائن السابق وفقا للترتيب الشجري للكائنات",
+"category_en": "Object navigation",
+"category": "أوامر مؤشر الحركة حول الكائن",
+"keys": [
+"NVDA+9 في لوحة الأرقام"
+],
+"desktop": [],
+"laptop": [
+"Shift+NVDA+["
+]
+},
+{
+"script": "toggleTouchSupport",
+"en": "Toggles the support of touch interaction",
+"ar": "تبديل خيارات دعم التفاعل باللمس",
+"category_en": "Touch screen",
+"category": "أوامر شاشة اللمس",
+"keys": [
+"NVDA+Control+Alt+T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "activateConfigProfilesDialog",
+"en": "Shows the NVDA Configuration Profiles dialog",
+"ar": "إظهار مربّع حوار إعدادات الأوضاع",
+"category_en": "Configuration profiles",
+"category": "الأوضاع",
+"keys": [
+"NVDA+Control+P"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "interactWithMath",
+"en": "Begins interaction with math content",
+"ar": "بدأ التفاعل مع المحتوى الرياضي",
+"category_en": "Math navigation",
+"category": "تصفُّح صيغ الرياضيات",
+"keys": [
+"NVDA+Alt+M"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "recognizeWithUwpOcr",
+"en": "Recognizes the content of the current navigator object with Windows OCR",
+"ar": "التعرف الضوئي على محتوى الكائن الحالي في نمط استعراض الكائنات بواسطة Windows OCR",
+"category_en": "",
+"category": "",
+"keys": [
+"NVDA+R"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleScreenCurtain",
+"en": "Toggles the state of the screen curtain, enable to make the screen black or disable to show the contents of the screen. Pressed once, screen curtain is enabled until you restart NVDA. Pressed twice, screen curtain is enabled until you disable it",
+"ar": "تبديل حالة سِتار الشاشة. تفعيلُه ليُحيلُ الشاشة سوداء، أو تعطيله لإظظهار محتواها. عند الضغط لتفعيل سِتار الشاشة مرةً واحدة، سيبقى مُفعّلاً حتى تُعيد تشغيل NVDA. عند ضغطه مرتين، سيبقى سِتار الشاشة مفعّلاً حتى تُعطّلَه",
+"category_en": "",
+"category": "",
+"keys": [
+"NVDA+Control+Escape"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleMagnifier",
+"en": "Toggle the magnifier on and off",
+"ar": "التبديل بين تفعيل وتعطيل المكبِّر",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+W"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "zoomIn",
+"en": "Increase the magnification level",
+"ar": "زيادة نسبة التكبير",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+="
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "zoomOut",
+"en": "Decrease the magnification level",
+"ar": "تقليل نسبة التكبير",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+-"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panLeft",
+"en": "Pan the magnified view left",
+"ar": "تحريك العرض المكبَّر يساراً",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Alt+السهم الأيسر"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panRight",
+"en": "Pan the magnified view right",
+"ar": "تحريك العرض المكبَّر يميناً",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Alt+السهم الأيمن"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panUp",
+"en": "Pan the magnified view up",
+"ar": "تحريك العرض المكبَّر لأعلى",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Alt+السهم الأعلى"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panDown",
+"en": "Pan the magnified view down",
+"ar": "تحريك العرض المكبَّر لأسفل",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Alt+السهم الأسفل"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panToLeftEdge",
+"en": "Pan the magnified view to left edge",
+"ar": "تحريك العرض المكبَّر للحافة اليسرى",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+Alt+السهم الأيسر"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panToRightEdge",
+"en": "Pan the magnified view to right edge",
+"ar": "تحريك العرض المكبَّر للحافة اليمنى",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+Alt+السهم الأيمن"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panToTopEdge",
+"en": "Pan the magnified view to top edge",
+"ar": "تحريك العرض المكبَّر للحافة العليا",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+Alt+السهم الأعلى"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "panToBottomEdge",
+"en": "Pan the magnified view to bottom edge",
+"ar": "تحريك العرض المكبَّر للحافة السفلى",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+Alt+السهم الأسفل"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "cycleFilters",
+"en": "Cycle through the color filters",
+"ar": "التبديل بين خيارات تصفية الألوان",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+I"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "showEntireScreenOverview",
+"en": "Temporarily show an overview of the entire screen",
+"ar": "عرض نظرة عامة مؤقتة لكامل الشاشة",
+"category_en": "Magnifier",
+"category": "التكبير",
+"keys": [
+"NVDA+Shift+L"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "cycleSoundSplit",
+"en": "Cycles through sound split modes",
+"ar": "التنقُّل بين أوضااع تقسيم الصوت",
+"category_en": "Audio",
+"category": "الصوت",
+"keys": [
+"NVDA+Alt+S"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "toggleRemoteConnection",
+"en": "Toggles whether Remote Access is connected",
+"ar": "تبديل حالة اتصال أداة التحكُّم عن بُعد",
+"category_en": "Remote Access",
+"category": "التحكُّم عن بُعد (Remote Access)",
+"keys": [
+"NVDA+Alt+R"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "sendKeys",
+"en": "Switches whether the keyboard controls the local or remote computer",
+"ar": "التبديل بين تحكُّم لوحة المفاتيح في الحاسوب المحلي والبعيد",
+"category_en": "Remote Access",
+"category": "التحكُّم عن بُعد (Remote Access)",
+"keys": [
+"NVDA+Alt+Tab"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "repeatLastSpokenInformation",
+"en": "Repeat the last spoken information. Pressing twice shows it in a browsable message.",
+"ar": "إعادة قراءة آخر رسالة منطوقة. إذا ضُغِط مرتين؛ ستُعرَضُ المعلومة كرسالة قابلة للتصفُّح.",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+X"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "copyLastSpokenInformation",
+"en": "Copies the last spoken information to the clipboard.",
+"ar": "نسخ آخر رسالة مقروءة للحافظة.",
+"category_en": "Speech",
+"category": "النُطق",
+"keys": [
+"NVDA+Control+X"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_heading_next",
+"en": "moves to the next heading",
+"ar": "الانتقال لرأس الموضوع التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"H"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_heading_prev",
+"en": "moves to the previous heading",
+"ar": "الانتقال لرأس الموضوع السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+H"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_table_next",
+"en": "moves to the next table",
+"ar": "الانتقال للجدول التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_table_prev",
+"en": "moves to the previous table",
+"ar": "الانتقال للجدول السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+T"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_link_next",
+"en": "moves to the next link",
+"ar": "الانتقال للرابط التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"K"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_link_prev",
+"en": "moves to the previous link",
+"ar": "الانتقال للرابط السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+K"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_visitedLink_next",
+"en": "moves to the next visited link",
+"ar": "الانتقال للرابط التالي الذي تمت زيارته",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"V"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_visitedLink_prev",
+"en": "moves to the previous visited link",
+"ar": "الانتقال للرابط السابق الذي تمت زيارته",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+V"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_unvisitedLink_next",
+"en": "moves to the next unvisited link",
+"ar": "الانتقال للرابط التالي الذي لم تتم زيارته",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"U"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_unvisitedLink_prev",
+"en": "moves to the previous unvisited link",
+"ar": "الانتقال للرابط السابق الذي لم تتم زيارته",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+U"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_formField_next",
+"en": "moves to the next form field",
+"ar": "الانتقال للحقل الاستماري التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"F"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_formField_prev",
+"en": "moves to the previous form field",
+"ar": "الانتقال للحقل الاستماري السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+F"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_list_next",
+"en": "moves to the next list",
+"ar": "الانتقال للقائمة التالية",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"L"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_list_prev",
+"en": "moves to the previous list",
+"ar": "الانتقال للقائمة السابقة",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+L"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_listItem_next",
+"en": "moves to the next list item",
+"ar": "الانتقال لعنصر القائمة التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"I"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_listItem_prev",
+"en": "moves to the previous list item",
+"ar": "الانتقال لعنصر القائمة السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+I"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_button_next",
+"en": "moves to the next button",
+"ar": "الانتقال للزر التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"B"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_button_prev",
+"en": "moves to the previous button",
+"ar": "الانتقال للزر السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+B"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_edit_next",
+"en": "moves to the next edit field",
+"ar": "الانتقال لمربع التحرير التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"E"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_edit_prev",
+"en": "moves to the previous edit field",
+"ar": "الانتقال لمربع التحرير السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+E"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_frame_next",
+"en": "moves to the next frame",
+"ar": "الانتقال للإطار التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"M"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_frame_prev",
+"en": "moves to the previous frame",
+"ar": "الانتقال للإطار السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+M"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_separator_next",
+"en": "moves to the next separator",
+"ar": "الانتقال للفاصل التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"S"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_separator_prev",
+"en": "moves to the previous separator",
+"ar": "الانتقال للفاصل السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+S"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_radioButton_next",
+"en": "moves to the next radio button",
+"ar": "الانتقال لزر الاختيار التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"R"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_radioButton_prev",
+"en": "moves to the previous radio button",
+"ar": "الانتقال لزر الاختيار السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+R"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_comboBox_next",
+"en": "moves to the next combo box",
+"ar": "الانتقال لصندوق الخيارات التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"C"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_comboBox_prev",
+"en": "moves to the previous combo box",
+"ar": "الانتقال لصندوق الخيارات التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+C"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_checkBox_next",
+"en": "moves to the next check box",
+"ar": "الانتقال لمربع التحديد التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"X"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_checkBox_prev",
+"en": "moves to the previous check box",
+"ar": "الانتقال لمربع التحديد السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+X"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_graphic_next",
+"en": "moves to the next graphic",
+"ar": "الانتقال للرسم التعبيري التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"G"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_graphic_prev",
+"en": "moves to the previous graphic",
+"ar": "الانتقال للرسم التعبيري السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+G"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_blockQuote_next",
+"en": "moves to the next block quote",
+"ar": "الانتقال للاقتباس التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Q"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_blockQuote_prev",
+"en": "moves to the previous block quote",
+"ar": "الانتقال للاقتباس السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+Q"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_notLinkBlock_next",
+"en": "skips forward past a block of links",
+"ar": "الوثب لنصوص غير رابطية تالية",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"N"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_notLinkBlock_prev",
+"en": "skips backward past a block of links",
+"ar": "الوثب لنصوص غير رابطية سابقة",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+N"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_landmark_next",
+"en": "moves to the next landmark",
+"ar": "الانتقال للعلامة الإرشادية التالية",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"D"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_landmark_prev",
+"en": "moves to the previous landmark",
+"ar": "الانتقال للعلامة الإرشادية السابقة",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+D"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_embeddedObject_next",
+"en": "moves to the next embedded object",
+"ar": "الانتقال للكائن المدرج التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"O"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_embeddedObject_prev",
+"en": "moves to the previous embedded object",
+"ar": "الانتقال للكائن المدرج السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+O"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_annotation_next",
+"en": "moves to the next annotation",
+"ar": "الانتقال للتعليق التوضيحي التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"A"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_annotation_prev",
+"en": "moves to the previous annotation",
+"ar": "الانتقال للتعليق التوضيحي السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+A"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_error_next",
+"en": "moves to the next error",
+"ar": "الانتقال للخطأ التالي",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"W"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_error_prev",
+"en": "moves to the previous error",
+"ar": "الانتقال للخطأ السابق",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+W"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_textParagraph_next",
+"en": "moves to the next text paragraph",
+"ar": "الانتقال للفقرة النصية التالية",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"P"
+],
+"desktop": [],
+"laptop": []
+},
+{
+"script": "quicknav_textParagraph_prev",
+"en": "moves to the previous text paragraph",
+"ar": "الانتقال للفقرة النصية السابقة",
+"category_en": "Browse mode",
+"category": "وضع التصفّح",
+"keys": [
+"Shift+P"
+],
+"desktop": [],
+"laptop": []
+}
+]
+}

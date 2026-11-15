@@ -1,0 +1,42 @@
+[
+ {
+  "id": "ar",
+  "title": "العربية",
+  "lessons": 13
+ },
+ {
+  "id": "en_us",
+  "title": "الإنجليزية (لوحة أمريكية)",
+  "lessons": 15
+ },
+ {
+  "id": "en_gb",
+  "title": "الإنجليزية (لوحة بريطانية)",
+  "lessons": 15
+ },
+ {
+  "id": "fr",
+  "title": "الفرنسية (لوحة AZERTY)",
+  "lessons": 28
+ },
+ {
+  "id": "es",
+  "title": "الإسبانية",
+  "lessons": 15
+ },
+ {
+  "id": "de",
+  "title": "الألمانية (لوحة QWERTZ)",
+  "lessons": 50
+ },
+ {
+  "id": "it",
+  "title": "الإيطالية",
+  "lessons": 60
+ },
+ {
+  "id": "tr",
+  "title": "التركية (لوحة Q)",
+  "lessons": 15
+ }
+]

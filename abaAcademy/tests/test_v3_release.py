@@ -194,7 +194,7 @@ def _build_module():
 
 def test_release_zip_checker():
     b = _build_module()
-    assert b.app_version() == "3.0"
+    assert b.app_version() == "4.0"
     d = tempfile.mkdtemp()
     good = os.path.join(d, "good.zip")
     with zipfile.ZipFile(good, "w") as z:

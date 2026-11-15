@@ -37,7 +37,7 @@ from .onboarding_view import OnboardingView
 from .dictionary import DictionaryDialog
 
 # Kept in sync with manifest.ini.
-__version__ = "3.0"
+__version__ = "4.0"
 
 
 class HubDialog(AccessibleDialog):
@@ -266,6 +266,30 @@ class HubDialog(AccessibleDialog):
             if self and L and L.GetSelection() == idx and L.HasFocus():
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
+
+    def _open_world_atlas(self, evt):
+        from .countries_view import CountriesDialog
+        self.show_child(CountriesDialog(self, self.academy, self.speech))
+
+    def _open_nvda_course(self, evt):
+        from .nvda_course_view import NvdaCourseDialog
+        self.show_child(NvdaCourseDialog(self, self.academy, self.speech))
+
+    def _open_spell(self, evt):
+        from .spell_view import SpellCheckDialog
+        self.show_child(SpellCheckDialog(self, self.academy, self.speech))
+
+    def _open_tajweed(self, evt):
+        from .tajweed_view import TajweedDialog
+        self.show_child(TajweedDialog(self, self.academy, self.speech))
+
+    def _open_braille_translator(self, evt):
+        from .braille_translator_view import BrailleTranslatorDialog
+        self.show_child(BrailleTranslatorDialog(self, self.academy, self.speech))
+
+    def _open_typing_course(self, evt):
+        from .typing_course_view import TypingCourseDialog
+        self.show_child(TypingCourseDialog(self, self.academy, self.speech))
 
     def _open_placement(self, evt):
         from .placement_view import PlacementDialog
