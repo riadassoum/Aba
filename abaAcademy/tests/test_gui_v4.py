@@ -227,6 +227,41 @@ class TestV4Screens(unittest.TestCase):
             d.Destroy()
             pump()
 
+    def test_library_screens(self):
+        from abaAcademy.gui.quran_morph_view import QuranMorphDialog
+        from abaAcademy.gui.sentence_bank_view import SentenceBankDialog
+        d, sp = self._open(QuranMorphDialog)
+        try:
+            d.surahChoice.SetSelection(1)
+            d._fill_ayat()
+            d.ayahChoice.SetSelection(2)
+            d._fill_words()
+            d.wordList.SetSelection(1)
+            d._show_word()
+            self.assertIn("فعل", d.out.GetValue())
+            d.rootEntry.SetValue("ر ح م")
+            d._root()
+            self.assertIn("ورد الجذر", d.out.GetValue())
+            d._quiz(True)
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+        d, sp = self._open(SentenceBankDialog)
+        try:
+            d.query.SetValue("book")
+            d._search()
+            self.assertGreater(d.results.GetCount(), 0)
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
 
 if __name__ == "__main__":
     unittest.main()

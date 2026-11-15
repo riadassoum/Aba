@@ -154,3 +154,18 @@ Mathematics in braille:
 
 Verb conjugator (arabic_lab/qutrub.py, thirdparty/libqutrub, thirdparty/pyarabic):
   Qutrub (libqutrub 1.2.4.1) and PyArabic 0.6.15 by Taha Zerrouki (https://github.com/linuxscout), GPL, bundled unchanged except for a few regular expressions rewritten as raw strings and unused modules left out (see thirdparty/README.txt). The bab of a triliteral verb is taken from Arramooz; the screen and the quiz were written for this application.
+
+Hadith collections (resources/hadith):
+  Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah and al-Muwatta from the hadith-api dataset by Fawaz Ahmed (https://github.com/fawazahmed0/hadith-api), released under the Unlicense, bundled by devtools/content/build_hadith.py. The Arabic names of the books (kutub) were written for this application.
+
+Tafsirs (resources/quran/ed_ar.saadi, ar.ibnkathir, ar.mukhtasar, ar.jalalayn, ar.baghawi, ar.waseet):
+  From the tafsir_api dataset by spa5k (https://github.com/spa5k/tafsir_api), MIT licence, as compiled from public Qur'an sources; bundled by devtools/content/build_tafsir.py. Al-Mukhtasar fi Tafsir al-Qur'an is published by the Tafsir Center for Quranic Studies for free distribution.
+
+Qur'an morphology (quran_morph.py, resources/quran/morphology.txt):
+  The Quranic Arabic Corpus morphology v0.4 by Kais Dukes, University of Leeds (https://corpus.quran.com), GNU GPL, in the revised Arabic-script edition by mustafa0x (https://github.com/mustafa0x/quran-morphology), with its table of Arabic terms.
+
+Offline dictionary (offline_dict.py, resources/dictionary):
+  Arabic and English entries and translations from Wiktionary via kaikki.org (https://kaikki.org), CC BY-SA 4.0; English definitions, examples and synonyms from Open English WordNet 2024 (https://en-word.net), CC BY 4.0.
+
+Sentence bank (resources/sentences):
+  Sentence pairs from Tatoeba (https://tatoeba.org), CC BY 2.0 FR, as prepared for the language courses.

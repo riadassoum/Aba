@@ -267,6 +267,14 @@ class HubDialog(AccessibleDialog):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_sentence_bank(self, evt):
+        from .sentence_bank_view import SentenceBankDialog
+        self.show_child(SentenceBankDialog(self, self.academy, self.speech))
+
+    def _open_quran_morph(self, evt):
+        from .quran_morph_view import QuranMorphDialog
+        self.show_child(QuranMorphDialog(self, self.academy, self.speech))
+
     def _open_sarf(self, evt):
         from .sarf_view import SarfDialog
         self.show_child(SarfDialog(self, self.academy, self.speech))

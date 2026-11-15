@@ -7,5 +7,5 @@ pyarabic 0.6.15 by Taha Zerrouki (GPL) - https://github.com/linuxscout/pyarabic
 libqutrub 1.2.4.1 by Taha Zerrouki (GPL) - https://github.com/linuxscout/libqutrub
   Qutrub, the Arabic verb conjugator. The command-line scripts were left out.
 
-They are imported through abaAcademy.arabic_lab.conjugator, which adds this
+They are imported through abaAcademy.arabic_lab.qutrub, which adds this
 folder to the import path.

@@ -3,49 +3,57 @@
 "id": "bukhari",
 "name": "صحيح البخاري",
 "books": 98,
-"hadiths": 7589,
-"bundled": false,
+"hadiths": 7580,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari.json"
 },
 {
 "id": "muslim",
 "name": "صحيح مسلم",
 "books": 57,
-"hadiths": 7563,
-"bundled": false,
+"hadiths": 7360,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim.json"
 },
 {
 "id": "abudawud",
 "name": "سنن أبي داود",
 "books": 43,
-"hadiths": 5274,
-"bundled": false,
+"hadiths": 5272,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud.json"
 },
 {
 "id": "tirmidhi",
 "name": "جامع الترمذي",
 "books": 49,
-"hadiths": 3998,
-"bundled": false,
+"hadiths": 3924,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi.json"
 },
 {
 "id": "nasai",
 "name": "سنن النسائي",
-"books": 52,
-"hadiths": 5765,
-"bundled": false,
+"books": 51,
+"hadiths": 5679,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-nasai.json"
 },
 {
 "id": "ibnmajah",
 "name": "سنن ابن ماجه",
 "books": 38,
-"hadiths": 4343,
-"bundled": false,
+"hadiths": 4338,
+"bundled": true,
 "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-ibnmajah.json"
+},
+{
+"id": "malik",
+"name": "موطأ الإمام مالك",
+"books": 61,
+"hadiths": 1829,
+"bundled": true,
+"url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-malik.json"
 },
 {
 "id": "nawawi",
