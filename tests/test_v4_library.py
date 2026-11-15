@@ -71,3 +71,20 @@ def test_sentence_bank():
     assert total > 100000
     assert search(load("en"), "school")
     assert search(load("fr"), "مدرسة")
+
+
+def test_chess_rules():
+    from abaAcademy.chess_game import ChessGame
+    g = ChessGame()
+    assert len(g.legal_moves()) == 20
+    for u in ["f2f3", "e7e5", "g2g4", "d8h4"]:
+        g.play(g.find(u))
+    status, over = g.status()
+    assert over and "كِش مات" in status
+    g = ChessGame()
+    for u in ["e2e4", "e7e5", "g1f3", "b8c6", "f1c4", "g8f6"]:
+        g.play(g.find(u))
+    assert any(m.text == "التبييت القصير" for m in g.legal_moves())
+    assert g.find("e1g1") is not None
+    mv = g.engine_move()
+    assert mv is not None

@@ -26,7 +26,6 @@ from .keyboard_trainer import KeyboardTrainer, TIERS
 from .quran_reader import QuranReader
 from .hadith_reader import HadithReader
 from .flashcards_view import FlashcardsHome
-from .islamic_tools import IslamicToolsHome
 from .games import GamesHome
 from .settings_view import SettingsView
 from .mistakes_view import MistakesView
@@ -56,13 +55,13 @@ class HubDialog(AccessibleDialog):
         sizer.Add(self.progressLabel, 0, wx.ALL, 10)
 
         intro = wx.StaticText(
-            panel, label="Ctrl+Tab ينقلك بين الأقسام، والأسهم بين الميزات داخل القسم، وEnter يفتح الميزة. "
-                        "أو اكتب اسم ميزة في الانتقال السريع.")
+            panel, label="اضغط Alt أو F10 لفتح قائمة الأكاديمية: كل الأقسام فيها قوائم فرعية بميزاتها، "
+                        "فتصل بالأسهم إلى أيّ ميزة مباشرة. أو اكتب اسم ميزة في الانتقال السريع، "
+                        "أو اختر من قائمة البداية أدناه.")
         intro.Wrap(640)
         sizer.Add(intro, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
 
-        # a quick-jump search box above the tabs lets a learner reach any
-        # feature by name without hunting through sections.
+        # a quick-jump search box lets a learner reach any feature by name
         jump_row = wx.BoxSizer(wx.HORIZONTAL)
         jump_row.Add(wx.StaticText(panel, label="انتقال سريع:"), 0,
                      wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 4)
@@ -73,64 +72,61 @@ class HubDialog(AccessibleDialog):
         jump_row.Add(self.jumpEntry, 1)
         sizer.Add(jump_row, 0, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.BOTTOM, 8)
 
-        self.notebook = wx.Notebook(panel)
-        sizer.Add(self.notebook, 1, wx.EXPAND | wx.ALL, 4)
-
-        # Each tab is a list of features (one Tab stop instead of a dozen
-        # buttons), a large description of the selected feature for sighted
-        # helpers and low-vision learners, and an Open button for the mouse.
+        # The whole academy lives in one classic menu (Alt or F10) with a
+        # submenu per section. The screen itself keeps only the start list:
+        # today's practice and the features used most recently.
         from .hub_catalog import CATALOG
         conditions = {
             "has_last": bool(self.academy.last_lesson()),
             "has_profiles": bool(getattr(self.academy, "profiles_root", "")),
         }
-        self._tab_lists = []
+        self._sections = []          # (title, [features]) for the menu
         self._features = []          # (label, handler, description) for quick-jump
         self._describe_timer = None
         for tab_info in CATALOG:
             items = [f for f in tab_info.features if not f.when or conditions.get(f.when, False)]
             items = [f for f in items if not f.handler.startswith("course:")
                      or self.academy.course(f.handler.split(":", 1)[1]) is not None]
-            page = wx.Panel(self.notebook)
-            ps = wx.BoxSizer(wx.VERTICAL)
-            summary = wx.StaticText(page, label=tab_info.summary)
-            ps.Add(summary, 0, wx.ALL, 6)
-            lst = wx.ListBox(page, choices=[f.label for f in items], style=wx.LB_SINGLE)
-            lst.SetName(f"{tab_info.title}: {tab_info.summary}")
-            if items:
-                lst.SetSelection(0)
-            ps.Add(lst, 1, wx.EXPAND | wx.LEFT | wx.RIGHT, 6)
-            desc = wx.StaticText(page, label=items[0].description if items else "")
-            dfont = desc.GetFont()
-            dfont.SetPointSize(dfont.GetPointSize() + 2)
-            desc.SetFont(dfont)
-            desc.Wrap(600)
-            ps.Add(desc, 0, wx.EXPAND | wx.ALL, 8)
-            open_btn = self.button(page, "افتح", lambda e, L=lst, I=items: self._open_selected(L, I))
-            ps.Add(open_btn, 0, wx.ALIGN_LEFT | wx.LEFT | wx.BOTTOM, 6)
-            page.SetSizer(ps)
-            lst.Bind(wx.EVT_LISTBOX, lambda e, L=lst, I=items, D=desc: self._on_feature_selected(L, I, D))
-            lst.Bind(wx.EVT_LISTBOX_DCLICK, lambda e, L=lst, I=items: self._open_selected(L, I))
-            lst.Bind(wx.EVT_KEY_DOWN, lambda e, L=lst, I=items: self._on_list_key(e, L, I))
-            self.notebook.AddPage(page, tab_info.title)
-            self._tab_lists.append((lst, items, desc))
+            self._sections.append((tab_info.title, items))
             for f in items:
                 self._features.append((f.label, self._resolve(f.handler), f.description))
-        self._home_base = list(self._tab_lists[0][1]) if self._tab_lists else []
+        home = self._sections[0][1] if self._sections else []
+        sizer.Add(wx.StaticText(panel, label="البداية:"), 0, wx.LEFT | wx.RIGHT, 8)
+        lst = wx.ListBox(panel, choices=[f.label for f in home], style=wx.LB_SINGLE)
+        lst.SetName("البداية: تدريب اليوم وآخر ما استعملته")
+        if home:
+            lst.SetSelection(0)
+        sizer.Add(lst, 1, wx.EXPAND | wx.LEFT | wx.RIGHT, 8)
+        desc = wx.StaticText(panel, label=home[0].description if home else "")
+        dfont = desc.GetFont()
+        dfont.SetPointSize(dfont.GetPointSize() + 2)
+        desc.SetFont(dfont)
+        desc.Wrap(600)
+        sizer.Add(desc, 0, wx.EXPAND | wx.ALL, 8)
+        items = list(home)
+        row = wx.BoxSizer(wx.HORIZONTAL)
+        row.Add(self.button(panel, "افتح", lambda e, L=lst, I=items: self._open_selected(L, I)), 0, wx.ALL, 4)
+        row.Add(self.button(panel, "قائمة الأكاديمية (Alt)", lambda e: self.open_menu()), 0, wx.ALL, 4)
+        sizer.Add(row, 0, wx.ALIGN_LEFT | wx.LEFT, 4)
+        lst.Bind(wx.EVT_LISTBOX, lambda e, L=lst, I=items, D=desc: self._on_feature_selected(L, I, D))
+        lst.Bind(wx.EVT_LISTBOX_DCLICK, lambda e, L=lst, I=items: self._open_selected(L, I))
+        lst.Bind(wx.EVT_KEY_DOWN, lambda e, L=lst, I=items: self._on_list_key(e, L, I))
+        # kept as a one-element list: the start list is the old "home" tab
+        self._tab_lists = [(lst, items, desc)]
+        self._home_base = list(home)
         self._refresh_recent()
-        self.dailyBtn = self._tab_lists[0][0] if self._tab_lists else None
-        self.learnBtn = self.dailyBtn
+        self.dailyBtn = lst
+        self.learnBtn = lst
+        self._alt_down = False
+        self._alt_spoiled = False
 
-        # a persistent close button below the tabs
+        # a persistent close button
         sizer.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()),
                   0, wx.ALIGN_RIGHT | wx.ALL, 6)
 
         panel.SetSizer(sizer)
-        # focus the quick-jump box so a learner can reach any feature instantly;
-        # Tab moves into the sections.
+        # focus the quick-jump box so a learner can reach any feature instantly
         self.set_first_control(self.jumpEntry)
-        # Ctrl+Tab / Ctrl+Shift+Tab move between sections and speak the new one
-        self.notebook.Bind(wx.EVT_NOTEBOOK_PAGE_CHANGED, self._on_tab_changed)
         # first run: greet the learner once, then never again
         try:
             if self.academy.settings._store.get_setting("onboarded", "") != "1":
@@ -170,19 +166,74 @@ class HubDialog(AccessibleDialog):
         self.announce(msg)
         handler(None)
 
-    def _on_tab_changed(self, evt):
-        # Announce the section name but DO NOT move focus into the page. If we
-        # grabbed focus here, arrowing left/right along the tab headers would
-        # jerk the user into the page content and they couldn't keep browsing
-        # tabs. Standard behaviour: stay on the tab bar; the user presses Tab to
-        # enter the section when ready.
+    # -- the academy menu ---------------------------------------------------
+
+    def build_menu(self) -> "wx.Menu":
+        """One submenu per section, one item per feature."""
+        menu = wx.Menu()
+        self._menu_actions = {}
+        for title, items in self._sections:
+            sub = wx.Menu()
+            for f in items:
+                item = sub.Append(wx.ID_ANY, f.label, f.description)
+                self._menu_actions[item.GetId()] = f
+            menu.AppendSubMenu(sub, title)
+        menu.AppendSeparator()
+        help_item = menu.Append(wx.ID_ANY, "المساعدة (F1)")
+        close_item = menu.Append(wx.ID_ANY, "إغلاق الأكاديمية")
+        self._menu_actions[help_item.GetId()] = "help"
+        self._menu_actions[close_item.GetId()] = "close"
+        return menu
+
+    def run_menu_item(self, item_id: int) -> None:
+        f = self._menu_actions.get(item_id)
+        if f == "help":
+            self.on_help()
+        elif f == "close":
+            self.close_screen()
+        elif f is not None:
+            self._remember(f)
+            self._resolve(f.handler)(None)
+
+    def open_menu(self) -> None:
+        menu = self.build_menu()
+        chosen = []
+        menu.Bind(wx.EVT_MENU, lambda e: chosen.append(e.GetId()))
+        self.announce("قائمة الأكاديمية")
+        self.PopupMenu(menu)
+        menu.Destroy()
+        if chosen:
+            # run after the menu has fully closed so the new screen gets focus
+            self.call_after(self.run_menu_item, chosen[0])
+
+    def on_raw_key_down(self, evt) -> bool:
+        key = evt.GetKeyCode()
+        if key == wx.WXK_F10 and not evt.ShiftDown() and not evt.ControlDown():
+            self.open_menu()
+            return True
+        if key == wx.WXK_ALT:
+            # Alt alone opens the menu when it is released; Alt with another
+            # key (Alt+F4, Alt+Tab) is left alone
+            if not self._alt_down:
+                self._alt_down, self._alt_spoiled = True, False
+                wx.CallLater(60, self._watch_alt)
+            return True
+        if self._alt_down:
+            self._alt_spoiled = True
+        return False
+
+    def _watch_alt(self):
         try:
-            idx = evt.GetSelection()
-            title = self.notebook.GetPageText(idx)
-            self.announce(f"قسم {title}")
+            still = wx.GetKeyState(wx.WXK_ALT)
         except Exception:
-            pass
-        evt.Skip()
+            still = False
+        if still:
+            wx.CallLater(60, self._watch_alt)
+            return
+        open_it = self._alt_down and not self._alt_spoiled
+        self._alt_down = False
+        if open_it and self.IsActive():
+            self.open_menu()
 
     # -- feature lists -------------------------------------------------------
 
@@ -267,6 +318,10 @@ class HubDialog(AccessibleDialog):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_chess(self, evt):
+        from .chess_view import ChessDialog
+        self.show_child(ChessDialog(self, self.academy, self.speech))
+
     def _open_sentence_bank(self, evt):
         from .sentence_bank_view import SentenceBankDialog
         self.show_child(SentenceBankDialog(self, self.academy, self.speech))
@@ -325,11 +380,6 @@ class HubDialog(AccessibleDialog):
 
     def _open_help(self, evt):
         self.on_help()
-
-    def on_tab_key(self):
-        """Ctrl+Tab handled by the notebook natively; this is a no-op hook kept
-        for clarity."""
-        return False
 
     # -- helpers ----------------------------------------------------------
 
@@ -483,9 +533,6 @@ class HubDialog(AccessibleDialog):
     def _open_flashcards(self, evt):
         self.show_child(FlashcardsHome(self, self.academy, self.speech))
 
-    def _open_islamic(self, evt):
-        self.show_child(IslamicToolsHome(self, self.academy, self.speech))
-
     def _open_games(self, evt):
         self.show_child(GamesHome(self, self.academy, self.speech))
 
@@ -537,9 +584,13 @@ class HubDialog(AccessibleDialog):
         from .pack_manager import PackManagerDialog
         self.show_child(PackManagerDialog(self, self.academy, self.speech))
 
-    def _open_quran_study(self, evt):
-        from .quran_study import QuranStudyDialog
-        self.show_child(QuranStudyDialog(self, self.academy, self.speech))
+    def _open_asma(self, evt):
+        from .islamic_tools import AsmaAlHusnaView
+        self.show_child(AsmaAlHusnaView(self, self.academy, self.speech))
+
+    def _open_athkar(self, evt):
+        from .islamic_tools import AthkarView
+        self.show_child(AthkarView(self, self.academy, self.speech))
 
     def _open_tafsir_compare(self, evt):
         from .tafsir_compare import TafsirCompareDialog
@@ -685,10 +736,6 @@ class HubDialog(AccessibleDialog):
         from .daily_tools_view import ArithmeticDialog
         self.show_child(ArithmeticDialog(self, self.academy, self.speech))
 
-    def _open_countries(self, evt):
-        from .daily_tools_view import CountriesDialog
-        self.show_child(CountriesDialog(self, self.academy, self.speech))
-
     def _open_times(self, evt):
         from .daily_tools_view import TimesTablesDialog
         self.show_child(TimesTablesDialog(self, self.academy, self.speech))
@@ -743,9 +790,9 @@ class HubDialog(AccessibleDialog):
         self.show_child(StatisticsView(self, self.academy, self.speech))
 
     def instructions(self) -> str:
-        base = ("الشاشة الرئيسية. اكتب اسم ميزة في الانتقال السريع، أو اضغط Tab للأقسام. "
-                "Ctrl+Tab بين الأقسام، والأسهم بين الميزات، وEnter للفتح، وF2 لقراءة الشاشة كلها، "
-                "وF1 للمساعدة، وEscape للإغلاق.")
+        base = ("الشاشة الرئيسية. Alt أو F10 يفتح قائمة الأكاديمية بأقسامها وميزاتها، تتنقّل فيها بالأسهم "
+                "وتفتح الميزة بـ Enter. أو اكتب اسم ميزة في الانتقال السريع، أو اختر من قائمة البداية. "
+                "F2 لقراءة الشاشة كلها، وF1 للمساعدة، وEscape للإغلاق.")
         reminder = self._study_reminder()
         return f"{reminder} {base}" if reminder else base
 

@@ -9,3 +9,6 @@ libqutrub 1.2.4.1 by Taha Zerrouki (GPL) - https://github.com/linuxscout/libqutr
 
 They are imported through abaAcademy.arabic_lab.qutrub, which adds this
 folder to the import path.
+
+sunfish by Thomas Ahle and contributors (GPL-3.0) - https://github.com/thomasahle/sunfish
+  The classic chess engine, sunfish.py, unchanged; its UCI loop is not used.

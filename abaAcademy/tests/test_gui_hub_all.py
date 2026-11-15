@@ -99,28 +99,32 @@ class TestEveryHubFeatureOpens(unittest.TestCase):
             hub = hub_mod.HubDialog(frame, academy, speech)
             hub.Show()
             pump(10)
-            self.assertEqual(hub.notebook.GetPageCount(), len(CATALOG))
+            self.assertEqual(len(hub._sections), len(CATALOG))
+            menu = hub.build_menu()
+            self.assertEqual(sum(1 for i in menu.GetMenuItems() if i.IsSubMenu()), len(CATALOG))
             total = 0
-            for page, (lst, items, desc) in enumerate(hub._tab_lists):
-                hub.notebook.SetSelection(page)
-                pump(2)
-                for i, feat in enumerate(items):
-                    lst.SetSelection(i)
-                    hub._on_feature_selected(lst, items, desc)
-                    self.assertEqual(" ".join(desc.GetLabel().split()), " ".join(feat.description.split()))
-                    before = len(opened) + len(failures)
-                    spoken = len(speech.lines)
-                    if os.environ.get("ABA_TRACE"):
-                        print("OPEN", feat.handler, flush=True)
-                    try:
-                        hub._open_selected(lst, items)
-                        pump(3)
-                    except Exception:
-                        failures.append(f"{feat.label} ({feat.handler}): {traceback.format_exc(limit=4)}")
-                    total += 1
-                    if feat.handler not in ("_open_help", "_open_typing", "_continue_last") \
-                            and len(opened) + len(failures) == before and len(speech.lines) == spoken:
-                        failures.append(f"{feat.label} ({feat.handler}): nothing opened")
+            lst, home_items, desc = hub._tab_lists[0]
+            for i, feat in enumerate(home_items):
+                lst.SetSelection(i)
+                hub._on_feature_selected(lst, home_items, desc)
+                self.assertEqual(" ".join(desc.GetLabel().split()), " ".join(feat.description.split()))
+            for item_id, feat in list(hub._menu_actions.items()):
+                if isinstance(feat, str):
+                    continue
+                before = len(opened) + len(failures)
+                spoken = len(speech.lines)
+                if os.environ.get("ABA_TRACE"):
+                    print("OPEN", feat.handler, flush=True)
+                try:
+                    hub.run_menu_item(item_id)
+                    pump(3)
+                except Exception:
+                    failures.append(f"{feat.label} ({feat.handler}): {traceback.format_exc(limit=4)}")
+                total += 1
+                if feat.handler not in ("_open_help", "_open_typing", "_continue_last") \
+                        and len(opened) + len(failures) == before and len(speech.lines) == spoken:
+                    failures.append(f"{feat.label} ({feat.handler}): nothing opened")
+            menu.Destroy()
             # quick jump by name and by description
             hub.jumpEntry.SetValue("القبلة")
             hub._quick_jump()
@@ -209,10 +213,10 @@ class TestNewScreens(unittest.TestCase):
         try:
             h = hub_mod.HubDialog(self.frame, self.academy, self.speech)
             h.Show(); pump()
-            page = next(i for i, (_, items, _) in enumerate(h._tab_lists) if any(f.handler == "_open_periodic" for f in items))
-            lst, items, desc = h._tab_lists[page]
-            lst.SetSelection(next(i for i, f in enumerate(items) if f.handler == "_open_periodic"))
-            h._open_selected(lst, items); pump()
+            menu = h.build_menu()
+            pid = next(k for k, f in h._menu_actions.items() if not isinstance(f, str) and f.handler == "_open_periodic")
+            h.run_menu_item(pid); pump()
+            menu.Destroy()
             home_list, home_items, _ = h._tab_lists[0]
             self.assertEqual(home_items[0].handler, "_open_periodic")
             self.assertEqual(home_list.GetString(0), "الجدول الدوري")

@@ -89,7 +89,10 @@ class Irab:
         self.ayat = {(a[0], a[1]): a[6] for a in q["ayat"]}
         keys = [(a[0], a[1]) for a in q["ayat"]]
         path = os.path.join(QURAN, "ed_ar.e3rab.json")
-        e3 = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
+        e3 = []
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                e3 = json.load(f)
         self.items = parse(e3, self.ayat, keys)
         self.roles = sorted({i.role for i in self.items})
 

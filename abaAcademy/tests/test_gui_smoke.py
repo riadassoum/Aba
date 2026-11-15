@@ -240,8 +240,6 @@ class TestScreensSmoke(unittest.TestCase):
             ("words", lambda d: (d._words(), d._hint())), ("new", lambda d: (d.levelChoice.SetSelection(2), d._new()))])
 
         from abaAcademy.gui import daily_tools_view as dtv
-        run("Countries", dtv.CountriesDialog, [("card", lambda d: d._card()), ("region", lambda d: (d.regionChoice.SetSelection(2), d._fill(), d._card())),
-            ("search", lambda d: (d.searchEntry.SetValue("موروني"), d._search())), ("quiz", lambda d: [(d.quiz.next(), d.quiz.answer()) for _ in range(5)])])
         run("Arith", dtv.ArithmeticDialog, [("frac", lambda d: [(d.opChoice.SetSelection(i), d._fraction()) for i in range(4)]),
             ("pct", lambda d: [(d.pctChoice.SetSelection(i), d._percent()) for i in range(6)]),
             ("roman", lambda d: (d._roman(), d.numEntry.SetValue("XIV"), d._roman(), d.numEntry.SetValue("1205"), d._english()))])

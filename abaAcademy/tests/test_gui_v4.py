@@ -262,6 +262,28 @@ class TestV4Screens(unittest.TestCase):
             d.Destroy()
             pump()
 
+    def test_chess(self):
+        from abaAcademy.gui.chess_view import ChessDialog
+        d, sp = self._open(ChessDialog)
+        try:
+            self.assertEqual(d.moveList.GetCount(), 20)
+            d.moveEntry.SetValue("e2e4")
+            d._play_typed()
+            for _ in range(200):
+                pump(1)
+                if not d.thinking:
+                    break
+            self.assertTrue(d.game.human_to_move)
+            self.assertEqual(len(d.game.log), 2)
+            d.squareEntry.SetValue("e4")
+            d._ask()
+            self.assertIn("بيدق أبيض", sp.lines[-1])
+            d._undo()
+            self.assertEqual(len(d.game.log), 0)
+        finally:
+            d.Destroy()
+            pump()
+
 
 if __name__ == "__main__":
     unittest.main()

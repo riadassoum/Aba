@@ -169,3 +169,6 @@ Offline dictionary (offline_dict.py, resources/dictionary):
 
 Sentence bank (resources/sentences):
   Sentence pairs from Tatoeba (https://tatoeba.org), CC BY 2.0 FR, as prepared for the language courses.
+
+Audio chess (chess_game.py, thirdparty/sunfish):
+  The sunfish chess engine by Thomas Dybdahl Ahle and contributors (https://github.com/thomasahle/sunfish), GPL-3.0, bundled unchanged. The Arabic move descriptions, board reading and the screen were written for this application.
