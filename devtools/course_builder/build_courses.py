@@ -110,17 +110,41 @@ def clean(t):
     return re.sub(r"\s+", " ", t.replace(" ", " ").replace("\xa0", " ")).strip()
 
 
+_QUOTES = str.maketrans({"\u00ab": "", "\u00bb": "", "\u2039": "", "\u203a": "", "\u201c": "", "\u201d": "", "\u201e": ""})
+
+
 def write_json(path, obj):
+    """Write compact JSON. Typographic quotation marks are dropped from every
+    text (some voices read them out by name)."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    text = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).translate(_QUOTES)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(text)
 
 
-def cefr(n):
-    for lim, lab in ((500, "A1 — مبتدئ"), (1200, "A2 — أساسي"), (2500, "B1 — متوسط"), (4000, "B2 — فوق المتوسط")):
-        if n <= lim:
-            return lab
-    return "C1 — متقدّم"
+CEFR_LABELS = ["A1 — مبتدئ", "A2 — أساسي", "B1 — متوسط", "B2 — فوق المتوسط", "C1 — متقدّم", "C2 — متقن"]
+
+
+def plan_stages(lessons, per_stage=20):
+    """Stages that never mix levels: lessons grouped by CEFR level, each group
+    split into near-equal stages of at most ``per_stage`` lessons."""
+    import math
+    prev = 0
+    for L in lessons:
+        L["level"] = max(L.get("level", 0), prev)
+        prev = L["level"]
+    groups, start = [], 0
+    for i in range(1, len(lessons) + 1):
+        if i == len(lessons) or lessons[i]["level"] != lessons[start]["level"]:
+            groups.append((start, i, lessons[start]["level"]))
+            start = i
+    plan = []
+    for a, b, lv in groups:
+        n = max(1, math.ceil((b - a) / per_stage))
+        size = math.ceil((b - a) / n)
+        for k in range(a, b, size):
+            plan.append((k, min(b, k + size), lv))
+    return plan
 
 
 def detect_names(pairs):
@@ -313,7 +337,10 @@ def build(c):
         p["t"], p["ar"] = clean(p["t"]), clean(p["ar"])
     en_pairs = json.load(open(f"{S}/tatoeba/pairs_en.json", encoding="utf-8"))
     G.NAMES |= detect_names(en_pairs) | (detect_names(pairs) if c != "de" else set())
-    lessons, reading, vocab = G.grade(c, pairs, freq, lex, per_lesson=10, max_vocab=5000, cap=30, min_sent=8)
+    from cefr_levels import Leveller
+    LV = Leveller(S, c, freq, lex)
+    lessons, reading, vocab = G.grade(c, pairs, freq, lex, per_lesson=10, max_vocab=7000, cap=30, min_sent=8,
+                                      level_of=LV.level)
     # split an overloaded first lesson so no lesson teaches more than 15 new words
     fixed = []
     for L in lessons:
@@ -352,7 +379,8 @@ def build(c):
             if p["t"] in used:
                 continue
             unknown = f - known
-            if len(unknown) <= 1 and all(rank.get(u, 10 ** 6) < 3000 for u in unknown):
+            if len(unknown) <= 1 and all(rank.get(u, 10 ** 6) < 3000 and LV.level(u) <= L.get("level", 0)
+                                         for u in unknown):
                 extra.append(p)
                 used.add(p["t"])
                 for u in unknown:
@@ -398,15 +426,26 @@ def build(c):
     per_stage = 20
     stage_no = 0
     exam_pool = []
+    plan = plan_stages(lessons, per_stage)
+    stage_end = {}
+    for k, (a, b, lvl) in enumerate(plan):
+        stage_end[b - 1] = k
     for i, L in enumerate(lessons):
-        if i % per_stage == 0:
+        starting = next((p for p in plan if p[0] == i), None)
+        if starting:
             stage_no += 1
-            a = sum(len(x["new"]) for x in lessons[:i]) + 1
-            b = sum(len(x["new"]) for x in lessons[:i + per_stage])
-            lv = C.level(f"stage{stage_no:02d}", f"المرحلة {stage_no} ({cefr(b)}): الكلمات {a}–{b}")
+            a_i, b_i, lvl = starting
+            a = sum(len(x["new"]) for x in lessons[:a_i]) + 1
+            b = sum(len(x["new"]) for x in lessons[:b_i])
+            stage_words = [w for x in lessons[a_i:b_i] for w in x["new"]]
+            share = sum(1 for w in stage_words if LV.sourced(w)) / max(1, len(stage_words))
+            # a CEFR code only when most words have a CEFR source; otherwise a
+            # plain description of the stage's place in the course
+            label = CEFR_LABELS[lvl] if share >= 0.5 else ("أساسي" if lvl <= 1 else "متوسط" if lvl <= 3 else "متقدّم")
+            lv = C.level(f"stage{stage_no:02d}", f"المرحلة {stage_no} ({label}): الكلمات {a}–{b}")
             exam_pool = []
         n = i + 1
-        stage = min(5, 1 + i // 80)
+        stage = min(5, 1 + L["level"])
         words = [word_rec(w, lex, n, L["sentences"], stage) for w in L["new"]]
         th = [{"btype": "text", "text": f"الدرس {n}. الكلمات الجديدة: " + "، ".join(L["new"]) + "."}]
         th += theory_for_words(words)
@@ -424,7 +463,7 @@ def build(c):
         C.lesson(lv, f"g{n:03d}", title, [f"تعلّم {len(L['new'])} كلمات جديدة", "فهم جمل الدرس وكتابتها"],
                  stage, th, data, "graded", len(meaning_words))
         exam_pool += L["sentences"]
-        if (i + 1) % per_stage == 0 or i == len(lessons) - 1:
+        if i in stage_end:
             rnd = random.Random(f"{c}{stage_no}")
             pool = rnd.sample(exam_pool, min(80, len(exam_pool)))
             C.lesson(lv, f"exam{stage_no:02d}", f"اختبار المرحلة {stage_no}",
@@ -481,6 +520,7 @@ def build(c):
             C.lesson(lv, f"r{n:03d}", f"قراءة {n}", ["فهم جمل متقدّمة"], 5, th,
                      dict(base, sentences=R["sentences"], focus=R["new"], difficulty=5), "reading")
     C.finish()
+    print(c, "levels from", LV.source, "stages", [(p[2], p[1] - p[0]) for p in plan_stages(lessons)][:40])
     print(c, conf["cid"], "lessons", C.count, "levels", len(C.levels), "graded", len(lessons),
           "notes used", len(used_notes), "/", len(NOTES.get(c, [])),
           "conj", {k: len(v) for k, v in tables.items()})

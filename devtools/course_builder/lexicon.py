@@ -90,12 +90,16 @@ def meaning_en(w):
     return {"ar": "، ".join(alts[:2])}
 
 
+LAST_GLOSS = [""]
+
+
 def gloss_word_ar(gloss: str):
     g = re.sub(r"\(.*?\)", "", gloss).strip().lower()
     g = re.sub(r"^(to|a|an|the) ", "", g)
     if re.fullmatch(r"[a-z]+", g):
         m = meaning_en(g)
         if m:
+            LAST_GLOSS[0] = g
             return m["ar"]
     return None
 
@@ -108,12 +112,12 @@ def build(c):
         for w in freq:
             m = meaning_en(w)
             if m:
-                lex[w] = {"ar": m["ar"]}
+                lex[w] = {"ar": m["ar"], "en": w}
                 continue
             for lemma, gl in sorted(formof.get(w, []), key=lambda x: ("person" not in x[1] and "past" not in x[1] and "participle" not in x[1])):
                 lm = meaning_en(lemma)
                 if lm:
-                    lex[w] = {"ar": lm["ar"], "lemma": lemma, "note": tags_ar(gl)}
+                    lex[w] = {"ar": lm["ar"], "lemma": lemma, "note": tags_ar(gl), "en": lemma}
                     break
         return lex
     dic = {}
@@ -125,7 +129,7 @@ def build(c):
         key = w.lower()
         m = meaning_foreign(c, key)
         if m:
-            lex[key] = {"ar": m["ar"]}
+            lex[key] = {"ar": m["ar"], "en": m["en"]}
             continue
         done = False
         for r in dic.get(key, []):
@@ -144,14 +148,15 @@ def build(c):
                         if ar:
                             break
                 if ar:
-                    lex[key] = {"ar": ar, "lemma": lemma, "note": tags_ar((r.get("gl") or [""])[0])}
+                    lex[key] = {"ar": ar, "lemma": lemma, "note": tags_ar((r.get("gl") or [""])[0]),
+                                "en": (lm or {}).get("en", "")}
                     done = True
                     break
             else:
                 for g in r.get("gl", []):
                     ar = gloss_word_ar(g)
                     if ar:
-                        lex[key] = {"ar": ar}
+                        lex[key] = {"ar": ar, "en": LAST_GLOSS[0]}
                         done = True
                         break
             if done:
@@ -224,11 +229,13 @@ for c in sys.argv[2:]:
             a_best, s_alt = score([a for a, _, _ in alts], ars)
             if a_best and s_alt > max(1, 2 * s_direct):
                 lemma, note = next((l, n) for a, l, n in alts if a == a_best)
-                lex[w] = {"ar": a_best, "lemma": lemma, "note": note}
+                lex[w] = {"ar": a_best, "lemma": lemma, "note": note,
+                          "en": (meaning_foreign(c, lemma) or {}).get("en", "")}
                 changed += 1
         print(c, "evidence switched", changed)
     for w, a in O.get(c, {}).items():
-        lex[w.lower()] = {"ar": a}
+        old = lex.get(w.lower(), {})
+        lex[w.lower()] = {"ar": a, "en": old.get("en", w.lower() if c == "en" else ""), "core": True}
     json.dump(lex, open(f"{W}/lex_{c}.json", "w", encoding="utf-8"), ensure_ascii=False)
     freq = json.load(open(f"{T}/freq_{c}.json", encoding="utf-8"))
     cov = sum(1 for w in freq[:3000] if w.lower() in lex)

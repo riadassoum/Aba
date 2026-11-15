@@ -1,7 +1,8 @@
 """Order a language's sentence pairs into graded lessons.
 
-Each lesson introduces the next most frequent word forms; a sentence is placed
-in the first lesson at which every word in it is known.
+Words are taught in order of CEFR level (CEFR-J for English and, through
+their English equivalents, for the other languages), then frequency; a
+sentence is placed in the first lesson at which every word in it is known.
 """
 import json, re, sys, collections
 
@@ -18,10 +19,25 @@ def local_rules():
         return None
 
 
+_DIGITS = re.compile(r"\d+")
+_AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
+
+
+def plausible(foreign, arabic):
+    """Reject pairs whose translation is unlikely to match: wildly different
+    lengths, or different numbers in the two sentences."""
+    a, f = len(arabic.strip()), len(foreign.strip())
+    if not a or not f or not (0.35 <= a / f <= 2.8):
+        return False
+    if sorted(_DIGITS.findall(foreign)) != sorted(_DIGITS.findall(arabic.translate(_AR_DIGITS))):
+        return False
+    return True
+
+
 def load(S, c):
     rules = local_rules()
     pairs = [p for p in json.load(open(f"{S}/tatoeba/pairs_{c}.json", encoding="utf-8"))
-             if rules is None or not rules.blocked(c, p["t"], p["ar"])]
+             if (rules is None or not rules.blocked(c, p["t"], p["ar"])) and plausible(p["t"], p["ar"])]
     freq = json.load(open(f"{S}/tatoeba/freq_{c}.json", encoding="utf-8"))
     lex = json.load(open(f"{S}/wikt/lex_{c}.json", encoding="utf-8"))
     return pairs, freq, lex
@@ -46,10 +62,14 @@ def is_name(w):
     return base in NAMES
 
 
-def grade(c, pairs, freq, lex, per_lesson=10, max_vocab=4500, cap=30, min_sent=10):
+def grade(c, pairs, freq, lex, per_lesson=10, max_vocab=4500, cap=30, min_sent=10, level_of=None):
+    """Graded lessons. Words are taught in order of CEFR level, then frequency
+    (``level_of(word)`` gives 0 for A1 … 5 for C2; without it, frequency only).
+    A sentence enters the first lesson by which all of its words are known."""
     rank = {}
     for i, w in enumerate(freq):
         rank.setdefault(w.lower(), i)
+    level_of = level_of or (lambda w: 0)
     seen = set()
     items = []
     for p in pairs:
@@ -61,46 +81,52 @@ def grade(c, pairs, freq, lex, per_lesson=10, max_vocab=4500, cap=30, min_sent=1
         if not toks:
             continue
         forms = {w.lower() for w in toks}
-        r = max(rank.get(f, 10 ** 6) for f in forms)
-        items.append((r, len(t), t, p["ar"], forms))
-    items.sort(key=lambda x: (x[0], x[1]))
-    # vocabulary: forms in rank order that actually occur in the sentences
-    occurring = collections.Counter(f for it in items for f in it[4])
-    vocab = [w for w in sorted(occurring, key=lambda f: rank.get(f, 10 ** 6))
-             if rank.get(w, 10 ** 6) < 10 ** 6 and not is_name(w)][:max_vocab]
-    lessons, pending, k, i = [], [], 0, 0
-    new_words = []
-    while k < len(vocab):
-        chunk = vocab[k:k + per_lesson]
-        k += per_lesson
-        new_words += chunk
-        bound = rank[vocab[k - 1]] if k <= len(vocab) else rank[vocab[-1]]
-        while i < len(items) and items[i][0] <= bound:
-            pending.append(items[i])
-            i += 1
-        if len(pending) >= min_sent or k >= len(vocab):
-            pending.sort(key=lambda x: x[1])
-            # prefer sentences that use the newest words
+        items.append({"t": t, "ar": p["ar"], "forms": forms, "len": len(t)})
+    occurring = collections.Counter(f for it in items for f in it["forms"])
+    known_words = [w for w in occurring if rank.get(w, 10 ** 6) < 10 ** 6 and not is_name(w)]
+    level = {w: level_of(w) for w in known_words}
+    vocab = sorted(known_words, key=lambda w: (level[w], rank[w]))[:max_vocab]
+    in_vocab = set(vocab)
+    # each sentence waits for its unknown words
+    waiting = {}
+    by_word = collections.defaultdict(list)
+    for idx, it in enumerate(items):
+        if not it["forms"] <= in_vocab:
+            continue
+        waiting[idx] = len(it["forms"])
+        for f in it["forms"]:
+            by_word[f].append(idx)
+    used = set()
+    lessons, pending, new_words, new_levels = [], [], [], []
+    for k, w in enumerate(vocab):
+        new_words.append(w)
+        new_levels.append(level[w])
+        for idx in by_word.get(w, ()):
+            waiting[idx] -= 1
+            if waiting[idx] == 0:
+                pending.append(idx)
+        last = k == len(vocab) - 1
+        if len(new_words) >= per_lesson and (len(pending) >= min_sent or len(new_words) >= 3 * per_lesson) or last:
             fresh = set(new_words)
-            pending.sort(key=lambda x: (-len(x[4] & fresh), x[1]))
+            pending.sort(key=lambda x: (-len(items[x]["forms"] & fresh), items[x]["len"]))
             take, rest = pending[:cap], pending[cap:]
-            lessons.append({"new": new_words,
-                            "sentences": [{"t": x[2], "ar": x[3]} for x in take],
-                            "vocab_end": k})
-            # leftover easy sentences stay available for later lessons (spread out)
+            used.update(take)
+            lv = collections.Counter(new_levels).most_common(1)[0][0]
+            lessons.append({"new": new_words, "level": lv, "vocab_end": k + 1,
+                            "sentences": [{"t": items[x]["t"], "ar": items[x]["ar"]} for x in take]})
             pending = rest[: cap * 3]
-            new_words = []
-    tail = items[i:] + pending
-    tail.sort(key=lambda x: (x[0], x[1]))
+            new_words, new_levels = [], []
+    tail = [idx for idx in range(len(items)) if idx not in used]
+    tail.sort(key=lambda x: (max(rank.get(f, 10 ** 6) for f in items[x]["forms"]), items[x]["len"]))
     reading = []
     for j in range(0, len(tail), cap):
-        chunk = tail[j:j + cap]
+        chunk = [items[x] for x in tail[j:j + cap]]
         unknown = []
-        for x in chunk:
-            for f in sorted(x[4], key=lambda f: -rank.get(f, 10 ** 6)):
-                if rank.get(f, 10 ** 6) >= (rank[vocab[-1]] if vocab else 0) and f not in unknown:
+        for it in chunk:
+            for f in sorted(it["forms"], key=lambda f: -rank.get(f, 10 ** 6)):
+                if f not in in_vocab and f not in unknown:
                     unknown.append(f)
-        reading.append({"new": unknown[:20], "sentences": [{"t": x[2], "ar": x[3]} for x in chunk]})
+        reading.append({"new": unknown[:20], "sentences": [{"t": it["t"], "ar": it["ar"]} for it in chunk]})
     return lessons, reading, vocab
 
 
