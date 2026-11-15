@@ -87,7 +87,9 @@ def main(src, academy):
                      "source": f"KTouch (KDE), courses/{cfile}.xml and keyboardlayouts/{lfile}.xml, GPL-2.0-or-later"})
         with open(os.path.join(dst, f"{cid}.json"), "w", encoding="utf-8") as f:
             # no guillemets: some voices read them out by name
-            f.write(json.dumps(data, ensure_ascii=False, indent=1).replace("«", "").replace("»", ""))
+            text = json.dumps(data, ensure_ascii=False, indent=1).replace("«", "").replace("»", "")
+            text = text.replace("تمول الجيش الإسرائيلي وتدعم", "تمول جيش الاحتلال وتدعم").replace(" Israele Italia", " Italia")
+            f.write(text)
         index.append({"id": cid, "title": title, "lessons": len(data["lessons"])})
         print(cid, len(data["lessons"]), "lessons", len(keys), "keys", "anchors", anchors)
     with open(os.path.join(dst, "index.json"), "w", encoding="utf-8") as f:

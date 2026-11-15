@@ -141,4 +141,4 @@ NVDA course (nvda_course.py, resources/nvda):
   Commands, keys and categories extracted from NVDA's source code (globalCommands.py and browseMode.py) by NV Access, GPL-2.0-or-later (https://github.com/nvaccess/nvda), with the official Arabic descriptions from NVDA's Arabic translation (nvda.po) by the Arabic translation team. The lesson order and the quizzes were written for this application.
 
 World atlas (geo_countries.py, resources/geo/countries.json):
-  Country names, regions, areas, land borders, currency codes and calling codes from mledoze/countries (https://github.com/mledoze/countries), ODbL-1.0; Arabic names of capitals and currencies and population figures from Wikidata (https://www.wikidata.org), CC0. Disputed capitals are described as such rather than named.
+  Country names, regions, areas, land borders, currency codes and calling codes from mledoze/countries (https://github.com/mledoze/countries), ODbL-1.0; Arabic names of capitals and currencies and population figures from Wikidata (https://www.wikidata.org), CC0. Palestine is given with its capital al-Quds.

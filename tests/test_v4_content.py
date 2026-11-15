@@ -2,6 +2,7 @@
 """Tests for the 4.0 content engines: tajweed, spell checking, the NVDA
 course and the world atlas."""
 
+import json
 import random
 
 import pytest
@@ -103,11 +104,12 @@ def test_nvda_commands():
 
 def test_countries():
     cs = geo.load()
-    assert len(cs) == 195
+    assert len(cs) == 194
     by = {c["iso"]: c for c in cs}
     assert by["MAR"]["capital"] == "الرباط" and "درهم" in by["MAR"]["currency"]
     assert by["IRQ"]["capital"] == "بغداد"
-    assert by["PSE"]["capital"] is None and by["PSE"]["capital_note"]
+    assert by["PSE"]["capital"] == "القدس" and "ISR" not in by
+    assert "إسرائيل" not in json.dumps(cs, ensure_ascii=False)
     assert len([c for c in cs if c["iso"] in geo.ARAB_LEAGUE]) == 22
     for c in cs:
         for b in c["borders"]:

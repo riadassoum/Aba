@@ -28,7 +28,7 @@ class CountriesDialog(ToolDialog):
         super().__init__(parent, academy, speech)
         self.all = geo.load()
         self.rng = random.Random()
-        self.add_text(f"{len(self.all)} دولة: الدول الأعضاء في الأمم المتحدة والدولتان المراقبتان. "
+        self.add_text(f"{len(self.all)} دولة. "
                       "البيانات من مشروع countries المفتوح ومن ويكي بيانات.")
         self.regionChoice = self.add_choice("المنطقة", REGIONS, 0, on_change=self._filter)
         self.search = self.add_entry("ابحث باسم الدولة أو العاصمة", on_enter=self._filter)

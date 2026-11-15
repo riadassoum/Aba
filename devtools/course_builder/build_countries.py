@@ -9,8 +9,8 @@ Sources:
   region, area, borders, currency codes, calling codes, landlocked.
 * Wikidata (CC0): Arabic labels of capitals and currencies, and population.
 
-Where a capital is disputed internationally the entry says so instead of
-naming one.
+Palestine is given with its capital al-Quds and the whole land of Palestine
+as its territory, so its neighbours border Palestine.
 
 Usage: python3 build_countries.py SRC_DIR OUT_JSON
 SRC_DIR holds countries.json (mledoze) and wd.json (the Wikidata query result).
@@ -35,10 +35,13 @@ SUBREGIONS = {
     "Melanesia": "ميلانيزيا", "Micronesia": "ميكرونيزيا", "Polynesia": "بولينيزيا",
 }
 OBSERVERS = {"PSE", "VAT"}
-DISPUTED_CAPITAL = {"ISR", "PSE"}
+DISPUTED_CAPITAL = set()
+EXCLUDED = {"ISR"}
 # Wikidata also lists Aden, the temporary seat of government since 2015; the
 # constitutional capital is Sanaa
-CAPITAL_OVERRIDE = {"YEM": "صنعاء"}
+CAPITAL_OVERRIDE = {"YEM": "صنعاء", "PSE": "القدس"}
+# the land of Palestine as one: its neighbours border Palestine
+BORDER_AS = {"ISR": "PSE"}
 
 
 def main(src, out):
@@ -58,7 +61,16 @@ def main(src, out):
                 e["pop"] = max(e["pop"], int(float(v["pop"])))
             except ValueError:
                 pass
-    keep = [c for c in mledoze if c.get("unMember") or c["cca3"] in OBSERVERS]
+    keep = [c for c in mledoze if (c.get("unMember") or c["cca3"] in OBSERVERS) and c["cca3"] not in EXCLUDED]
+    for c in keep:
+        bs = []
+        for b in c.get("borders", []):
+            b = BORDER_AS.get(b, b)
+            if b != c["cca3"] and b not in bs:
+                bs.append(b)
+        c["borders"] = bs
+    pse = next(c for c in keep if c["cca3"] == "PSE")
+    pse["borders"] = [b for b in ("EGY", "JOR", "LBN", "SYR")]
     names = {c["cca3"]: c["translations"].get("ara", {}).get("common") or by_iso.get(c["cca3"], {}).get("label")
              for c in keep}
     rows = []
@@ -70,7 +82,7 @@ def main(src, out):
             continue
         cur = []
         for code in c.get("currencies", {}):
-            if code in w["currencies"]:
+            if code in w["currencies"] and code != "ILS":
                 cur.append(w["currencies"][code])
         idd = c.get("idd", {})
         calling = idd.get("root", "") + (idd["suffixes"][0] if len(idd.get("suffixes", [])) == 1 else "")
