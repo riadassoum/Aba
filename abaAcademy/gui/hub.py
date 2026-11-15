@@ -546,6 +546,13 @@ class HubDialog(AccessibleDialog):
         self.show_child(SpellingDialog(self, self.academy, self.speech))
 
     def _open_conjugator(self, evt):
+        # Qutrub conjugates every verb; the academy's own engine (sound verbs
+        # only) remains the fallback if the bundled library cannot load
+        from ..arabic_lab import qutrub
+        if qutrub.available():
+            from .qutrub_view import QutrubDialog
+            self.show_child(QutrubDialog(self, self.academy, self.speech))
+            return
         from .conjugator_view import ConjugatorDialog
         self.show_child(ConjugatorDialog(self, self.academy, self.speech))
 

@@ -151,3 +151,6 @@ I'rab trainer (arabic_lab/irab.py):
 
 Mathematics in braille:
   The mathematical signs of the Arabic grade 1 liblouis table (ar-ar-math.uti, by Mada, Qatar Assistive Technology Center, LGPL-2.1-or-later). Their Arabic names were written for this application.
+
+Verb conjugator (arabic_lab/qutrub.py, thirdparty/libqutrub, thirdparty/pyarabic):
+  Qutrub (libqutrub 1.2.4.1) and PyArabic 0.6.15 by Taha Zerrouki (https://github.com/linuxscout), GPL, bundled unchanged except for a few regular expressions rewritten as raw strings and unused modules left out (see thirdparty/README.txt). The bab of a triliteral verb is taken from Arramooz; the screen and the quiz were written for this application.

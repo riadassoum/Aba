@@ -176,3 +176,19 @@ def test_new_challenges_pass_with_reference():
                 assert ok, (c.cid, msg)
                 seen += 1
     assert seen == len(SPECS_V4)
+
+
+def test_qutrub_conjugation():
+    from abaAcademy.arabic_lab import qutrub as cj
+    assert cj.available()
+    c = cj.candidates("كتب")[0]
+    t = cj.conjugate(c.verb, c.haraka)
+    assert t["الماضي المعلوم"]["هم"] == "كَتَبُوا"
+    assert t["المضارع المعلوم"]["هو"] == "يَكْتُبُ"
+    assert t["الأمر"]["أنتِ"] == "اُكْتُبِي"
+    d = cj.candidates("مدّ")[0]
+    import unicodedata
+    got = cj.conjugate(d.verb, d.haraka)["المضارع المعلوم"]["هو"]
+    assert unicodedata.normalize("NFC", got) == unicodedata.normalize("NFC", "يَمُدُّ")
+    q = cj.make_question(random.Random(4))
+    assert q.answer in q.options and len(set(q.options)) == 4

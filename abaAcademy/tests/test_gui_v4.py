@@ -208,6 +208,25 @@ class TestV4Screens(unittest.TestCase):
             d.Destroy()
             pump()
 
+    def test_conjugator(self):
+        from abaAcademy.gui.qutrub_view import QutrubDialog
+        d, sp = self._open(QutrubDialog)
+        try:
+            d.verb.SetValue("كتب")
+            d._find()
+            self.assertGreaterEqual(d.babList.GetCount(), 1)
+            self.assertIn("يَكْتُبُ", d.out.GetValue())
+            d.tenseChoice.SetSelection(4)
+            d._show()
+            self.assertIn("اُكْتُبْ", d.out.GetValue())
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
 
 if __name__ == "__main__":
     unittest.main()
