@@ -43,6 +43,8 @@ class BrailleTranslatorDialog(ToolDialog):
         self.result.SetFont(f)
         self.add_buttons([("انسخ النتيجة", self._copy), ("احفظ ملفّ طباعة برايل (BRF)", self._save_brf),
                           ("تمرين قراءة المختصرات", self._drill_next)], close=False)
+        self.add_buttons([("رموز برايل الرياضيات", self._math_list), ("تمرين رموز الرياضيات", self._math_drill)],
+                         close=False)
         self.drillOut = self.add_output("التمرين", height=60)
         self.drillEntry = self.add_entry("ما الكلمة؟ اكتبها ثم Enter", on_enter=self._drill_check)
         self.add_buttons([])
@@ -115,6 +117,7 @@ class BrailleTranslatorDialog(ToolDialog):
     # -- drill -------------------------------------------------------------
 
     def _drill_next(self):
+        self._drill_name = None
         self._drill_word = random.choice(DRILL_WORDS)
         cells = louis.translate(self._drill_word, 2)
         self.drillOut.SetValue(cells)
@@ -122,15 +125,38 @@ class BrailleTranslatorDialog(ToolDialog):
         self.drillEntry.SetFocus()
         self._say("ما الكلمة المكتوبة بالدرجة الثانية: " + louis.describe_cells(cells))
 
+    def _math_list(self):
+        rows = [f"{c}  {n}: {louis.describe_cells(b)}" for c, n, b in louis.math_signs()]
+        self.result.SetValue("\n".join(rows))
+        self._say(f"{len(rows)} رمزًا رياضيًّا في جدول برايل العربي. تنقّل في النتيجة سطرًا سطرًا.")
+        self.result.SetFocus()
+
+    def _math_drill(self):
+        c, n, b = random.choice(louis.math_signs())
+        self._drill_word = c
+        self._drill_name = n
+        self.drillOut.SetValue(b)
+        self.drillEntry.SetValue("")
+        self.drillEntry.SetFocus()
+        self._say("ما الرمز الرياضي: " + louis.describe_cells(b) + "؟ اكتب الرمز أو اسمه.")
+
     def _drill_check(self):
         if not self._drill_word:
             return
         ans = self.drillEntry.GetValue().strip()
+        name = getattr(self, "_drill_name", None)
+        if name and ans and (ans == name or (len(ans) >= 3 and ans in name)):
+            ans = self._drill_word
+        if ans != self._drill_word and name:
+            self._say(f"الرمز هو {self._drill_word}، {name}.")
+            self._drill_word = self._drill_name = None
+            return
         if ans == self._drill_word:
             self._say(f"صحيح: {self._drill_word}. اضغط تمرين لكلمة أخرى.")
         else:
             self._say(f"الكلمة هي {self._drill_word}.")
         self._drill_word = None
+        self._drill_name = None
 
     def on_enter_key(self) -> bool:
         if self.FindFocus() is self.drillEntry:

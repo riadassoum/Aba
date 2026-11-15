@@ -13,7 +13,7 @@ Two modes:
 * **تدريب حر** — free coding: write anything, run it, hear output or the Arabic
   error.
 * **التحدّيات** — pick a track and a challenge, read the task, submit, and get
-  checked. 150 challenges in ten tracks: the original beginner set, original
+  checked. 174 challenges in twelve tracks: the original beginner set, original
   tracks on loops, functions, Arabic text and classes, and four tracks adapted
   into Arabic from Exercism's problem specifications (MIT).
 """
@@ -230,6 +230,6 @@ class CodeLabDialog(AccessibleDialog):
 
     def instructions(self):
         return ("مختبر البرمجة: اكتب كود بايثون في المحرّر وشغّله بـ Ctrl+Enter لتسمع الناتج. "
-                "في نمط التحدّيات، اختر مسارًا ثم تحدّيًا (١٥٠ تحدّيًا في عشرة مسارات)، اقرأ المهمة، اكتب الحل، ثم تحقّق من الحل "
+                "في نمط التحدّيات، اختر مسارًا ثم تحدّيًا (١٧٤ تحدّيًا في اثني عشر مسارًا)، اقرأ المهمة، اكتب الحل، ثم تحقّق من الحل "
                 "لتُختبر إجابتك آلياً. الأخطاء تُشرح بالعربية مع رقم السطر. لمّح يعطيك "
                 "تلميحاً. التشغيل للتعلّم على جهازك وليس حاجزاً أمنياً. Escape للإغلاق.")

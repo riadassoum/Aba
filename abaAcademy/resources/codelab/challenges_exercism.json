@@ -10,7 +10,7 @@
      "title": "واحد لك وواحد لي",
      "prompt": "اكتب دالة two_fer(name) تُعيد النص One for NAME, one for me. حيث NAME هو الاسم المعطى. إذا لم يُعطَ اسم (القيمة الافتراضية) فاستعمل you: One for you, one for me..",
      "hint": "def two_fer(name=\"you\"): ثم استعمل f-string.",
-     "starter": "def two_fer(name=\"you\"):\n    pass\n",
+     "starter": "def two_fer(name):\n    pass\n",
      "check": {
       "kind": "func",
       "name": "two_fer",
@@ -2214,9 +2214,9 @@
        ],
        [
         [
-         "quick fast run"
+         "why do squids enjoy xrays"
         ],
-        "ickquay astfay unray"
+        "ywhay oday idssquay enjoyay xraysay"
        ]
       ]
      },
@@ -10180,6 +10180,5859 @@
      },
      "topic": "algorithms",
      "source": "exercism:rectangles"
+    }
+   ]
+  },
+  {
+   "id": "grids",
+   "title": "الشبكات والألعاب",
+   "challenges": [
+    {
+     "cid": "ex_annotate_garden",
+     "title": "حقل الأزهار",
+     "prompt": "الحديقة قائمة أسطر، في كل خانة إمّا زهرة * أو مسافة. اكتب دالة annotate_garden(garden) تُعيد الأسطر نفسها مع استبدال كل مسافة بعدد الأزهار في الخانات الثماني المجاورة لها، أو تركها مسافة إن كان العدد صفرًا.",
+     "hint": "لكل خانة فارغة عُدّ النجوم في dr وdc من -1 إلى 1 مع التحقّق من الحدود.",
+     "starter": "def annotate_garden(garden):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "annotate_garden",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          ""
+         ]
+        ],
+        [
+         ""
+        ]
+       ],
+       [
+        [
+         [
+          "   ",
+          "   ",
+          "   "
+         ]
+        ],
+        [
+         "   ",
+         "   ",
+         "   "
+        ]
+       ],
+       [
+        [
+         [
+          "***",
+          "***",
+          "***"
+         ]
+        ],
+        [
+         "***",
+         "***",
+         "***"
+        ]
+       ],
+       [
+        [
+         [
+          "   ",
+          " * ",
+          "   "
+         ]
+        ],
+        [
+         "111",
+         "1*1",
+         "111"
+        ]
+       ],
+       [
+        [
+         [
+          "***",
+          "* *",
+          "***"
+         ]
+        ],
+        [
+         "***",
+         "*8*",
+         "***"
+        ]
+       ],
+       [
+        [
+         [
+          " * * "
+         ]
+        ],
+        [
+         "1*2*1"
+        ]
+       ],
+       [
+        [
+         [
+          "*   *"
+         ]
+        ],
+        [
+         "*1 1*"
+        ]
+       ],
+       [
+        [
+         [
+          " ",
+          "*",
+          " ",
+          "*",
+          " "
+         ]
+        ],
+        [
+         "1",
+         "*",
+         "2",
+         "*",
+         "1"
+        ]
+       ],
+       [
+        [
+         [
+          "*",
+          " ",
+          " ",
+          " ",
+          "*"
+         ]
+        ],
+        [
+         "*",
+         "1",
+         " ",
+         "1",
+         "*"
+        ]
+       ],
+       [
+        [
+         [
+          "  *  ",
+          "  *  ",
+          "*****",
+          "  *  ",
+          "  *  "
+         ]
+        ],
+        [
+         " 2*2 ",
+         "25*52",
+         "*****",
+         "25*52",
+         " 2*2 "
+        ]
+       ],
+       [
+        [
+         [
+          " *  * ",
+          "  *   ",
+          "    * ",
+          "   * *",
+          " *  * ",
+          "      "
+         ]
+        ],
+        [
+         "1*22*1",
+         "12*322",
+         " 123*2",
+         "112*4*",
+         "1*22*2",
+         "111111"
+        ]
+       ],
+       [
+        [
+         [
+          " ** "
+         ]
+        ],
+        [
+         "1**1"
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:flower-field"
+    },
+    {
+     "cid": "ex_tick",
+     "title": "لعبة الحياة",
+     "prompt": "شبكة من 0 (خلية ميتة) و1 (حيّة). اكتب دالة tick(matrix) تُعيد الجيل التالي: الحيّة تبقى حيّة إذا كان لها جاران حيّان أو ثلاثة، والميتة تحيا إذا كان لها ثلاثة جيران أحياء بالضبط، وكل ما عدا ذلك يموت. الجيران الخانات الثماني المحيطة.",
+     "hint": "احسب الجيل الجديد في قائمة جديدة ولا تعدّل الأصلية أثناء العدّ.",
+     "starter": "def tick(matrix):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "tick",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          [
+           0,
+           0,
+           0
+          ],
+          [
+           0,
+           1,
+           0
+          ],
+          [
+           0,
+           0,
+           0
+          ]
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           0,
+           0,
+           0
+          ],
+          [
+           0,
+           1,
+           0
+          ],
+          [
+           0,
+           1,
+           0
+          ]
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           1,
+           0,
+           1
+          ],
+          [
+           1,
+           0,
+           1
+          ],
+          [
+           1,
+           0,
+           1
+          ]
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          1,
+          0,
+          1
+         ],
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           0,
+           1,
+           0
+          ],
+          [
+           1,
+           0,
+           0
+          ],
+          [
+           1,
+           1,
+           0
+          ]
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          1,
+          0,
+          0
+         ],
+         [
+          1,
+          1,
+          0
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           1,
+           1,
+           0
+          ],
+          [
+           0,
+           0,
+           0
+          ],
+          [
+           1,
+           0,
+           0
+          ]
+         ]
+        ],
+        [
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          1,
+          1,
+          0
+         ],
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           1,
+           1,
+           1
+          ],
+          [
+           1,
+           1,
+           1
+          ],
+          [
+           1,
+           1,
+           1
+          ]
+         ]
+        ],
+        [
+         [
+          1,
+          0,
+          1
+         ],
+         [
+          0,
+          0,
+          0
+         ],
+         [
+          1,
+          0,
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         [
+          [
+           1,
+           1,
+           0,
+           1,
+           1,
+           0,
+           0,
+           0
+          ],
+          [
+           1,
+           0,
+           1,
+           1,
+           0,
+           0,
+           0,
+           0
+          ],
+          [
+           1,
+           1,
+           1,
+           0,
+           0,
+           1,
+           1,
+           1
+          ],
+          [
+           0,
+           0,
+           0,
+           0,
+           0,
+           1,
+           1,
+           0
+          ],
+          [
+           1,
+           0,
+           0,
+           0,
+           1,
+           1,
+           0,
+           0
+          ],
+          [
+           1,
+           1,
+           0,
+           0,
+           0,
+           1,
+           1,
+           1
+          ],
+          [
+           0,
+           0,
+           1,
+           0,
+           1,
+           0,
+           0,
+           1
+          ],
+          [
+           1,
+           0,
+           0,
+           0,
+           0,
+           0,
+           1,
+           1
+          ]
+         ]
+        ],
+        [
+         [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+         ],
+         [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+         ],
+         [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+         ],
+         [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+         ],
+         [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+         ],
+         [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+         ]
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:game-of-life"
+    },
+    {
+     "cid": "ex_row",
+     "title": "صفّ من مصفوفة نصّية",
+     "prompt": "المصفوفة نصّ: الصفوف مفصولة بسطر جديد والأعداد بمسافات. اكتب دالة row(text, index) تُعيد الصفّ رقم index (يبدأ العدّ من ١) قائمة أعداد صحيحة.",
+     "hint": "text.split('\\n')[index - 1].split()",
+     "starter": "def row(text, index):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "row",
+      "cases": [
+       [
+        [
+         "1",
+         1
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        [
+         "1 2\n3 4",
+         2
+        ],
+        [
+         3,
+         4
+        ]
+       ],
+       [
+        [
+         "1 2\n10 20",
+         2
+        ],
+        [
+         10,
+         20
+        ]
+       ],
+       [
+        [
+         "1 2 3\n4 5 6\n7 8 9\n8 7 6",
+         4
+        ],
+        [
+         8,
+         7,
+         6
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:matrix"
+    },
+    {
+     "cid": "ex_column",
+     "title": "عمود من مصفوفة نصّية",
+     "prompt": "بالمصفوفة النصّية نفسها، اكتب دالة column(text, index) تُعيد العمود رقم index (يبدأ من ١) قائمة أعداد.",
+     "hint": "خذ العنصر index - 1 من كل صفّ.",
+     "starter": "def column(text, index):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "column",
+      "cases": [
+       [
+        [
+         "1",
+         1
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        [
+         "1 2 3\n4 5 6\n7 8 9",
+         3
+        ],
+        [
+         3,
+         6,
+         9
+        ]
+       ],
+       [
+        [
+         "1 2 3 4\n5 6 7 8\n9 8 7 6",
+         4
+        ],
+        [
+         4,
+         8,
+         6
+        ]
+       ],
+       [
+        [
+         "89 1903 3\n18 3 1\n9 4 800",
+         2
+        ],
+        [
+         1903,
+         3,
+         4
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:matrix"
+    },
+    {
+     "cid": "ex_read_digits",
+     "title": "قراءة الأرقام المرسومة",
+     "prompt": "كل رقم مرسوم في شبكة ٣ أعمدة × ٤ أسطر بالرموز _ و| والمسافة (السطر الرابع فارغ). قد تحوي المدخلات عدّة أرقام متجاورة وعدّة أسطر من الأرقام. اكتب دالة read_digits(rows) تُعيد النص المقروء: كل رقم غير معروف يصير ?، وأسطر الأرقام المختلفة يفصل بينها فاصلة.",
+     "hint": "ارسم الأرقام العشرة مرّة واحدة في قاموس من الرسم إلى الرقم، ثم اقطع كل ٣ أعمدة و٤ أسطر.",
+     "starter": "def read_digits(rows):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "read_digits",
+      "cases": [
+       [
+        [
+         [
+          " _ ",
+          "| |",
+          "|_|",
+          "   "
+         ]
+        ],
+        "0"
+       ],
+       [
+        [
+         [
+          "   ",
+          "  |",
+          "  |",
+          "   "
+         ]
+        ],
+        "1"
+       ],
+       [
+        [
+         [
+          "   ",
+          "  _",
+          "  |",
+          "   "
+         ]
+        ],
+        "?"
+       ],
+       [
+        [
+         [
+          "       _     _        _  _ ",
+          "  |  || |  || |  |  || || |",
+          "  |  ||_|  ||_|  |  ||_||_|",
+          "                           "
+         ]
+        ],
+        "110101100"
+       ],
+       [
+        [
+         [
+          "       _     _           _ ",
+          "  |  || |  || |     || || |",
+          "  |  | _|  ||_|  |  ||_||_|",
+          "                           "
+         ]
+        ],
+        "11?10?1?0"
+       ],
+       [
+        [
+         [
+          " _ ",
+          " _|",
+          "|_ ",
+          "   "
+         ]
+        ],
+        "2"
+       ],
+       [
+        [
+         [
+          " _ ",
+          " _|",
+          " _|",
+          "   "
+         ]
+        ],
+        "3"
+       ],
+       [
+        [
+         [
+          "   ",
+          "|_|",
+          "  |",
+          "   "
+         ]
+        ],
+        "4"
+       ],
+       [
+        [
+         [
+          " _ ",
+          "|_ ",
+          " _|",
+          "   "
+         ]
+        ],
+        "5"
+       ],
+       [
+        [
+         [
+          " _ ",
+          "|_ ",
+          "|_|",
+          "   "
+         ]
+        ],
+        "6"
+       ],
+       [
+        [
+         [
+          " _ ",
+          "  |",
+          "  |",
+          "   "
+         ]
+        ],
+        "7"
+       ],
+       [
+        [
+         [
+          " _ ",
+          "|_|",
+          "|_|",
+          "   "
+         ]
+        ],
+        "8"
+       ],
+       [
+        [
+         [
+          " _ ",
+          "|_|",
+          " _|",
+          "   "
+         ]
+        ],
+        "9"
+       ],
+       [
+        [
+         [
+          "    _  _     _  _  _  _  _  _ ",
+          "  | _| _||_||_ |_   ||_||_|| |",
+          "  ||_  _|  | _||_|  ||_| _||_|",
+          "                              "
+         ]
+        ],
+        "1234567890"
+       ],
+       [
+        [
+         [
+          "    _  _ ",
+          "  | _| _|",
+          "  ||_  _|",
+          "         ",
+          "    _  _ ",
+          "|_||_ |_ ",
+          "  | _||_|",
+          "         ",
+          " _  _  _ ",
+          "  ||_||_|",
+          "  ||_| _|",
+          "         "
+         ]
+        ],
+        "123,456,789"
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:ocr-numbers"
+    },
+    {
+     "cid": "ex_gamestate",
+     "title": "حالة لعبة إكس أو",
+     "prompt": "اللوحة ثلاثة أسطر من X وO والمسافة، وX يبدأ دائمًا. اكتب دالة gamestate(board) تُعيد win إذا اكتمل خطّ (صفّ أو عمود أو قطر) لأحد اللاعبين، أو draw إذا امتلأت اللوحة دون فائز، أو ongoing إذا لم تنتهِ. (اللوحات هنا كلها صحيحة.)",
+     "hint": "اجمع الخطوط الثمانية وتحقّق إن كان أحدها XXX أو OOO.",
+     "starter": "def gamestate(board):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "gamestate",
+      "cases": [
+       [
+        [
+         [
+          "XOO",
+          "X  ",
+          "X  "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "OXO",
+          " X ",
+          " X "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "OOX",
+          "  X",
+          "  X"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "OXX",
+          "OX ",
+          "O  "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XOX",
+          " OX",
+          " O "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XXO",
+          " XO",
+          "  O"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XXX",
+          "XOO",
+          "O  "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "O  ",
+          "XXX",
+          " O "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          " OO",
+          "O X",
+          "XXX"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "OOO",
+          "XXO",
+          "XX "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XX ",
+          "OOO",
+          "X  "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XOX",
+          " XX",
+          "OOO"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XOO",
+          " X ",
+          "  X"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "O X",
+          "OX ",
+          "X  "
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "OXX",
+          "OOX",
+          "X O"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "  O",
+          " OX",
+          "OXX"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XXX",
+          "XOO",
+          "XOO"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XOX",
+          "OXO",
+          "XOX"
+         ]
+        ],
+        "win"
+       ],
+       [
+        [
+         [
+          "XOX",
+          "XXO",
+          "OXO"
+         ]
+        ],
+        "draw"
+       ],
+       [
+        [
+         [
+          "XXO",
+          "OXX",
+          "XOO"
+         ]
+        ],
+        "draw"
+       ],
+       [
+        [
+         [
+          "   ",
+          "X  ",
+          "   "
+         ]
+        ],
+        "ongoing"
+       ],
+       [
+        [
+         [
+          "O  ",
+          " X ",
+          "   "
+         ]
+        ],
+        "ongoing"
+       ],
+       [
+        [
+         [
+          "X  ",
+          " XO",
+          "OX "
+         ]
+        ],
+        "ongoing"
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:state-of-tic-tac-toe"
+    },
+    {
+     "cid": "ex_search",
+     "title": "البحث عن الكلمات",
+     "prompt": "اكتب دالة search(grid, words) تبحث عن كل كلمة في شبكة الحروف في الاتجاهات الثمانية، وتُعيد قاموسًا: لكل كلمة قاموس فيه start وend، وكل منهما {'column': عمود، 'row': صفّ} بالعدّ من ١، أو None إذا لم توجد الكلمة.",
+     "hint": "لكل خانة ولكل اتجاه (dr, dc) تحقّق من حروف الكلمة واحدًا واحدًا.",
+     "starter": "def search(grid, words):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "search",
+      "cases": [
+       [
+        [
+         [
+          "jefblpepre"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": null
+        }
+       ],
+       [
+        [
+         [
+          "clojurermt"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 7,
+           "row": 1
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "mtclojurer"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 3,
+           "row": 1
+          },
+          "end": {
+           "column": 9,
+           "row": 1
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "coffeelplx"
+         ],
+         [
+          "coffee"
+         ]
+        ],
+        {
+         "coffee": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 6,
+           "row": 1
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "xcoffeezlp"
+         ],
+         [
+          "coffee"
+         ]
+        ],
+        {
+         "coffee": {
+          "start": {
+           "column": 2,
+           "row": 1
+          },
+          "end": {
+           "column": 7,
+           "row": 1
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "tclojurerm"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 2,
+           "row": 2
+          },
+          "end": {
+           "column": 8,
+           "row": 2
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "camdcimgtc",
+          "jefblpepre",
+          "clojurermt"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 3
+          },
+          "end": {
+           "column": 7,
+           "row": 3
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "clojurermt",
+          "jalaycalmp"
+         ],
+         [
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 9
+          },
+          "end": {
+           "column": 7,
+           "row": 9
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "fortranftw",
+          "alxhpburyi",
+          "clojurermt",
+          "jalaycalmp"
+         ],
+         [
+          "fortran"
+         ]
+        ],
+        {
+         "fortran": {
+          "start": {
+           "column": 1,
+           "row": 7
+          },
+          "end": {
+           "column": 7,
+           "row": 7
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "fortranftw",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "fortran",
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "fortran": {
+          "start": {
+           "column": 1,
+           "row": 7
+          },
+          "end": {
+           "column": 7,
+           "row": 7
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "rixilelhrs"
+         ],
+         [
+          "elixir"
+         ]
+        ],
+        {
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 1
+          },
+          "end": {
+           "column": 1,
+           "row": 1
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "elixir",
+          "clojure"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust",
+          "java"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         },
+         "java": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 4,
+           "row": 4
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust",
+          "java",
+          "lua"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         },
+         "java": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 4,
+           "row": 4
+          }
+         },
+         "lua": {
+          "start": {
+           "column": 8,
+           "row": 9
+          },
+          "end": {
+           "column": 6,
+           "row": 7
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust",
+          "java",
+          "lua",
+          "lisp"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         },
+         "java": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 4,
+           "row": 4
+          }
+         },
+         "lua": {
+          "start": {
+           "column": 8,
+           "row": 9
+          },
+          "end": {
+           "column": 6,
+           "row": 7
+          }
+         },
+         "lisp": {
+          "start": {
+           "column": 3,
+           "row": 6
+          },
+          "end": {
+           "column": 6,
+           "row": 3
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust",
+          "java",
+          "lua",
+          "lisp",
+          "ruby"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         },
+         "java": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 4,
+           "row": 4
+          }
+         },
+         "lua": {
+          "start": {
+           "column": 8,
+           "row": 9
+          },
+          "end": {
+           "column": 6,
+           "row": 7
+          }
+         },
+         "lisp": {
+          "start": {
+           "column": 3,
+           "row": 6
+          },
+          "end": {
+           "column": 6,
+           "row": 3
+          }
+         },
+         "ruby": {
+          "start": {
+           "column": 8,
+           "row": 6
+          },
+          "end": {
+           "column": 5,
+           "row": 9
+          }
+         }
+        }
+       ],
+       [
+        [
+         [
+          "jefblpepre",
+          "camdcimgtc",
+          "oivokprjsm",
+          "pbwasqroua",
+          "rixilelhrs",
+          "wolcqlirpc",
+          "screeaumgr",
+          "alxhpburyi",
+          "jalaycalmp",
+          "clojurermt"
+         ],
+         [
+          "clojure",
+          "elixir",
+          "ecmascript",
+          "rust",
+          "java",
+          "lua",
+          "lisp",
+          "ruby",
+          "haskell"
+         ]
+        ],
+        {
+         "clojure": {
+          "start": {
+           "column": 1,
+           "row": 10
+          },
+          "end": {
+           "column": 7,
+           "row": 10
+          }
+         },
+         "elixir": {
+          "start": {
+           "column": 6,
+           "row": 5
+          },
+          "end": {
+           "column": 1,
+           "row": 5
+          }
+         },
+         "ecmascript": {
+          "start": {
+           "column": 10,
+           "row": 1
+          },
+          "end": {
+           "column": 10,
+           "row": 10
+          }
+         },
+         "rust": {
+          "start": {
+           "column": 9,
+           "row": 5
+          },
+          "end": {
+           "column": 9,
+           "row": 2
+          }
+         },
+         "java": {
+          "start": {
+           "column": 1,
+           "row": 1
+          },
+          "end": {
+           "column": 4,
+           "row": 4
+          }
+         },
+         "lua": {
+          "start": {
+           "column": 8,
+           "row": 9
+          },
+          "end": {
+           "column": 6,
+           "row": 7
+          }
+         },
+         "lisp": {
+          "start": {
+           "column": 3,
+           "row": 6
+          },
+          "end": {
+           "column": 6,
+           "row": 3
+          }
+         },
+         "ruby": {
+          "start": {
+           "column": 8,
+           "row": 6
+          },
+          "end": {
+           "column": 5,
+           "row": 9
+          }
+         },
+         "haskell": null
+        }
+       ],
+       [
+        [
+         [
+          "abc",
+          "def"
+         ],
+         [
+          "aef",
+          "ced",
+          "abf",
+          "cbd"
+         ]
+        ],
+        {
+         "aef": null,
+         "ced": null,
+         "abf": null,
+         "cbd": null
+        }
+       ],
+       [
+        [
+         [
+          "abceli",
+          "xirdfg"
+         ],
+         [
+          "elixir"
+         ]
+        ],
+        {
+         "elixir": null
+        }
+       ],
+       [
+        [
+         [
+          "silabcdefp"
+         ],
+         [
+          "lisp"
+         ]
+        ],
+        {
+         "lisp": null
+        }
+       ],
+       [
+        [
+         [
+          "s",
+          "u",
+          "r",
+          "a",
+          "b",
+          "c",
+          "t"
+         ],
+         [
+          "rust"
+         ]
+        ],
+        {
+         "rust": null
+        }
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:word-search"
+    },
+    {
+     "cid": "ex_winner",
+     "title": "لعبة هيكس",
+     "prompt": "لوحة سداسية مكتوبة أسطرًا مزاحة بالمسافات، فيها X وO ونقطة للفارغ. O يحاول وصل الحافّة العليا بالسفلى، وX يحاول وصل اليسرى باليمنى. لكل خانة ستّة جيران: يمين ويسار، وفي الصفّ الأعلى الخانة نفسها والتي يمينها، وفي الأسفل الخانة نفسها والتي يسارها. اكتب دالة winner(board) تُعيد X أو O أو نصًّا فارغًا إذا لم يفز أحد.",
+     "hint": "احذف المسافات من كل سطر ثم ابحث بالعمق من خانات الحافّة.",
+     "starter": "def winner(board):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "winner",
+      "cases": [
+       [
+        [
+         [
+          ". . . . .",
+          " . . . . .",
+          "  . . . . .",
+          "   . . . . .",
+          "    . . . . ."
+         ]
+        ],
+        ""
+       ],
+       [
+        [
+         [
+          "X"
+         ]
+        ],
+        "X"
+       ],
+       [
+        [
+         [
+          "O"
+         ]
+        ],
+        "O"
+       ],
+       [
+        [
+         [
+          "O O O X",
+          " X . . X",
+          "  X . . X",
+          "   X O O O"
+         ]
+        ],
+        ""
+       ],
+       [
+        [
+         [
+          "X O . .",
+          " O X X X",
+          "  O X O .",
+          "   . O X .",
+          "    X X O O"
+         ]
+        ],
+        ""
+       ],
+       [
+        [
+         [
+          "X . . .",
+          " . X O .",
+          "  O . X O",
+          "   . O . X",
+          "    . . O ."
+         ]
+        ],
+        ""
+       ],
+       [
+        [
+         [
+          ". O . .",
+          " O X X X",
+          "  O X O .",
+          "   X X O X",
+          "    . O X ."
+         ]
+        ],
+        "X"
+       ],
+       [
+        [
+         [
+          ". . X .",
+          " X X . .",
+          "  . X X X",
+          "   O O O O"
+         ]
+        ],
+        "X"
+       ],
+       [
+        [
+         [
+          ". . X X",
+          " X X . .",
+          "  . X X .",
+          "   O O O O"
+         ]
+        ],
+        "X"
+       ],
+       [
+        [
+         [
+          ". O . .",
+          " O X X X",
+          "  O O O .",
+          "   X X O X",
+          "    . O X ."
+         ]
+        ],
+        "O"
+       ],
+       [
+        [
+         [
+          ". X X . .",
+          " X . X . X",
+          "  . X . X .",
+          "   . X X . .",
+          "    O O O O O"
+         ]
+        ],
+        "X"
+       ],
+       [
+        [
+         [
+          "O X X X X X X X X",
+          " O X O O O O O O O",
+          "  O X O X X X X X O",
+          "   O X O X O O O X O",
+          "    O X O X X X O X O",
+          "     O X O O O X O X O",
+          "      O X X X X X O X O",
+          "       O O O O O O O X O",
+          "        X X X X X X X X O"
+         ]
+        ],
+        "X"
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:connect"
+    },
+    {
+     "cid": "ex_combinations",
+     "title": "مساعد سودوكو القاتلة",
+     "prompt": "القفص قاموس فيه sum (المجموع) وsize (عدد الخانات) وexclude (أرقام لا يجوز استعمالها). اكتب دالة combinations(cage) تُعيد كل تركيبات الأرقام من ١ إلى ٩ دون تكرار التي عددها size ومجموعها sum ولا تحوي شيئًا من exclude، كل تركيبة قائمة مرتّبة تصاعديًّا، والتركيبات مرتّبة.",
+     "hint": "itertools.combinations(range(1, 10), size) تعطيها مرتّبة.",
+     "starter": "def combinations(cage):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "combinations",
+      "cases": [
+       [
+        [
+         {
+          "sum": 1,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          1
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 2,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          2
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 3,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          3
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 4,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          4
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 5,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          5
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 6,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          6
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 7,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          7
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 8,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          8
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 9,
+          "size": 1,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          9
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 45,
+          "size": 9,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 7,
+          "size": 3,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          1,
+          2,
+          4
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 10,
+          "size": 2,
+          "exclude": []
+         }
+        ],
+        [
+         [
+          1,
+          9
+         ],
+         [
+          2,
+          8
+         ],
+         [
+          3,
+          7
+         ],
+         [
+          4,
+          6
+         ]
+        ]
+       ],
+       [
+        [
+         {
+          "sum": 10,
+          "size": 2,
+          "exclude": [
+           1,
+           4
+          ]
+         }
+        ],
+        [
+         [
+          2,
+          8
+         ],
+         [
+          3,
+          7
+         ]
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:killer-sudoku-helper"
+    },
+    {
+     "cid": "ex_measure",
+     "title": "مسألة الدلوين",
+     "prompt": "دلوان سعتهما bucket_one وbucket_two لترًا. الأفعال: ملء دلو، أو تفريغه، أو صبّ أحدهما في الآخر حتى يفرغ الأوّل أو يمتلئ الثاني، وكل فعل خطوة. تبدأ بملء الدلو start_bucket (one أو two)، ولا يجوز أن تصل إلى حالة يكون فيها دلو البداية فارغًا والآخر ممتلئًا. اكتب دالة measure(bucket_one, bucket_two, goal, start_bucket) تُعيد قاموسًا: moves (أقلّ عدد خطوات حتى يحوي أحد الدلوين goal لترًا)، وgoalBucket (one أو two)، وotherBucket (ما في الدلو الآخر).",
+     "hint": "بحث بالعرض على الحالات (a, b) بدءًا من حالة ملء دلو البداية بخطوة واحدة.",
+     "starter": "def measure(bucket_one, bucket_two, goal, start_bucket):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "measure",
+      "cases": [
+       [
+        [
+         3,
+         5,
+         1,
+         "one"
+        ],
+        {
+         "moves": 4,
+         "goalBucket": "one",
+         "otherBucket": 5
+        }
+       ],
+       [
+        [
+         3,
+         5,
+         1,
+         "two"
+        ],
+        {
+         "moves": 8,
+         "goalBucket": "two",
+         "otherBucket": 3
+        }
+       ],
+       [
+        [
+         7,
+         11,
+         2,
+         "one"
+        ],
+        {
+         "moves": 14,
+         "goalBucket": "one",
+         "otherBucket": 11
+        }
+       ],
+       [
+        [
+         7,
+         11,
+         2,
+         "two"
+        ],
+        {
+         "moves": 18,
+         "goalBucket": "two",
+         "otherBucket": 7
+        }
+       ],
+       [
+        [
+         1,
+         3,
+         3,
+         "two"
+        ],
+        {
+         "moves": 1,
+         "goalBucket": "two",
+         "otherBucket": 0
+        }
+       ],
+       [
+        [
+         2,
+         3,
+         3,
+         "one"
+        ],
+        {
+         "moves": 2,
+         "goalBucket": "two",
+         "otherBucket": 2
+        }
+       ],
+       [
+        [
+         5,
+         1,
+         2,
+         "one"
+        ],
+        {
+         "moves": 6,
+         "goalBucket": "one",
+         "otherBucket": 1
+        }
+       ],
+       [
+        [
+         3,
+         15,
+         9,
+         "one"
+        ],
+        {
+         "moves": 6,
+         "goalBucket": "two",
+         "otherBucket": 0
+        }
+       ],
+       [
+        [
+         6,
+         15,
+         9,
+         "one"
+        ],
+        {
+         "moves": 10,
+         "goalBucket": "two",
+         "otherBucket": 0
+        }
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:two-bucket"
+    },
+    {
+     "cid": "ex_smallest",
+     "title": "أصغر ناتج متناظر",
+     "prompt": "العدد المتناظر يُقرأ من الجهتين بالطريقة نفسها مثل 121. اكتب دالة smallest(min_factor, max_factor) تُعيد قاموسًا فيه value (أصغر عدد متناظر يكون حاصل ضرب عددين بين الحدّين) وfactors (كل أزواج العوامل [a, b] حيث a ≤ b، مرتّبة). إن لم يوجد فالقيمة None والعوامل قائمة فارغة.",
+     "hint": "جرّب حواصل الضرب من الأصغر، وتحقّق بـ str(p) == str(p)[::-1].",
+     "starter": "def smallest(min_factor, max_factor):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "smallest",
+      "cases": [
+       [
+        [
+         1,
+         9
+        ],
+        {
+         "value": 1,
+         "factors": [
+          [
+           1,
+           1
+          ]
+         ]
+        }
+       ],
+       [
+        [
+         10,
+         99
+        ],
+        {
+         "value": 121,
+         "factors": [
+          [
+           11,
+           11
+          ]
+         ]
+        }
+       ],
+       [
+        [
+         100,
+         999
+        ],
+        {
+         "value": 10201,
+         "factors": [
+          [
+           101,
+           101
+          ]
+         ]
+        }
+       ],
+       [
+        [
+         1000,
+         9999
+        ],
+        {
+         "value": 1002001,
+         "factors": [
+          [
+           1001,
+           1001
+          ]
+         ]
+        }
+       ],
+       [
+        [
+         1002,
+         1003
+        ],
+        {
+         "value": null,
+         "factors": []
+        }
+       ],
+       [
+        [
+         3215,
+         4000
+        ],
+        {
+         "value": 10988901,
+         "factors": [
+          [
+           3297,
+           3333
+          ]
+         ]
+        }
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:palindrome-products"
+    },
+    {
+     "cid": "ex_best_hands",
+     "title": "أقوى يد في البوكر",
+     "prompt": "كل يد خمس أوراق مثل 4S 5H 6C 8D KH: الرقم أو الحرف (2–10، J، Q، K، A) ثم النوع. اكتب دالة best_hands(hands) تُعيد قائمة باليد أو الأيدي الأقوى حسب ترتيب البوكر المعروف: ورقة عالية، زوج، زوجان، ثلاثة متشابهة، سلسلة (ويجوز أن يكون الآس أصغر ورقة في A 2 3 4 5)، لون واحد، فل هاوس، أربعة متشابهة، سلسلة بلون واحد.",
+     "hint": "حوّل كل يد إلى مرتبة وقائمة قيم مرتّبة بعدد التكرار ثم القيمة، وقارن هذه الأزواج.",
+     "starter": "def best_hands(hands):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "best_hands",
+      "cases": [
+       [
+        [
+         [
+          "4S 5S 7H 8D JC"
+         ]
+        ],
+        [
+         "4S 5S 7H 8D JC"
+        ]
+       ],
+       [
+        [
+         [
+          "4D 5S 6S 8D 3C",
+          "2S 4C 7S 9H 10H",
+          "3S 4S 5D 6H JH"
+         ]
+        ],
+        [
+         "3S 4S 5D 6H JH"
+        ]
+       ],
+       [
+        [
+         [
+          "4D 5S 6S 8D 3C",
+          "2S 4C 7S 9H 10H",
+          "3S 4S 5D 6H JH",
+          "3H 4H 5C 6C JD"
+         ]
+        ],
+        [
+         "3S 4S 5D 6H JH",
+         "3H 4H 5C 6C JD"
+        ]
+       ],
+       [
+        [
+         [
+          "3S 5H 6S 8D 7H",
+          "2S 5D 6D 8C 7S"
+         ]
+        ],
+        [
+         "3S 5H 6S 8D 7H"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 5H 6S 8D 7H",
+          "3S 4D 6D 8C 7S"
+         ]
+        ],
+        [
+         "2S 5H 6S 8D 7H"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 6C 8D KH",
+          "2S 4H 6S 4D JH"
+         ]
+        ],
+        [
+         "2S 4H 6S 4D JH"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 2H 6S 2D JH",
+          "2S 4H 6C 4D JD"
+         ]
+        ],
+        [
+         "2S 4H 6C 4D JD"
+        ]
+       ],
+       [
+        [
+         [
+          "4H 4S AH JC 3D",
+          "4C 4D AS 5D 6C"
+         ]
+        ],
+        [
+         "4H 4S AH JC 3D"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 8H 6S 8D JH",
+          "4S 5H 4C 8C 5C"
+         ]
+        ],
+        [
+         "4S 5H 4C 8C 5C"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 8H 2D 8D 3H",
+          "4S 5H 4C 8S 5D"
+         ]
+        ],
+        [
+         "2S 8H 2D 8D 3H"
+        ]
+       ],
+       [
+        [
+         [
+          "2S QS 2C QD JH",
+          "JD QH JS 8D QC"
+         ]
+        ],
+        [
+         "JD QH JS 8D QC"
+        ]
+       ],
+       [
+        [
+         [
+          "JD QH JS 8D QC",
+          "JS QS JC 2D QD"
+         ]
+        ],
+        [
+         "JD QH JS 8D QC"
+        ]
+       ],
+       [
+        [
+         [
+          "6S 6H 3S 3H AS",
+          "7H 7S 2H 2S AC"
+         ]
+        ],
+        [
+         "7H 7S 2H 2S AC"
+        ]
+       ],
+       [
+        [
+         [
+          "5C 2S 5S 4H 4C",
+          "6S 2S 6H 7C 2C"
+         ]
+        ],
+        [
+         "6S 2S 6H 7C 2C"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 8H 2H 8D JH",
+          "4S 5H 4C 8S 4H"
+         ]
+        ],
+        [
+         "4S 5H 4C 8S 4H"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 2H 2C 8D JH",
+          "4S AH AS 8C AD"
+         ]
+        ],
+        [
+         "4S AH AS 8C AD"
+        ]
+       ],
+       [
+        [
+         [
+          "5S AH AS 7C AD",
+          "4S AH AS 8C AD"
+         ]
+        ],
+        [
+         "4S AH AS 8C AD"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 4C 8D 4H",
+          "3S 4D 2S 6D 5C"
+         ]
+        ],
+        [
+         "3S 4D 2S 6D 5C"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 4C 8D 4H",
+          "10D JH QS KD AC"
+         ]
+        ],
+        [
+         "10D JH QS KD AC"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 4C 8D 4H",
+          "4D AH 3S 2D 5C"
+         ]
+        ],
+        [
+         "4D AH 3S 2D 5C"
+        ]
+       ],
+       [
+        [
+         [
+          "2C 3D 7H 5H 2S",
+          "QS KH AC 2D 3S"
+         ]
+        ],
+        [
+         "2C 3D 7H 5H 2S"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 6C 7S 8D 5H",
+          "5S 7H 8S 9D 6H"
+         ]
+        ],
+        [
+         "5S 7H 8S 9D 6H"
+        ]
+       ],
+       [
+        [
+         [
+          "2H 3C 4D 5D 6H",
+          "4S AH 3S 2D 5H"
+         ]
+        ],
+        [
+         "2H 3C 4D 5D 6H"
+        ]
+       ],
+       [
+        [
+         [
+          "4C 6H 7D 8D 5H",
+          "2S 4S 5S 6S 7S"
+         ]
+        ],
+        [
+         "2S 4S 5S 6S 7S"
+        ]
+       ],
+       [
+        [
+         [
+          "2H 7H 8H 9H 6H",
+          "3S 5S 6S 7S 8S"
+         ]
+        ],
+        [
+         "2H 7H 8H 9H 6H"
+        ]
+       ],
+       [
+        [
+         [
+          "3H 6H 7H 8H 5H",
+          "4S 5H 4C 5D 4H"
+         ]
+        ],
+        [
+         "4S 5H 4C 5D 4H"
+        ]
+       ],
+       [
+        [
+         [
+          "4H 4S 4D 9S 9D",
+          "5H 5S 5D 8S 8D"
+         ]
+        ],
+        [
+         "5H 5S 5D 8S 8D"
+        ]
+       ],
+       [
+        [
+         [
+          "5H 5S 5D 9S 9D",
+          "5H 5S 5D 8S 8D"
+         ]
+        ],
+        [
+         "5H 5S 5D 9S 9D"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 4D 5D 4H",
+          "3S 3H 2S 3D 3C"
+         ]
+        ],
+        [
+         "3S 3H 2S 3D 3C"
+        ]
+       ],
+       [
+        [
+         [
+          "2S 2H 2C 8D 2D",
+          "4S 5H 5S 5D 5C"
+         ]
+        ],
+        [
+         "4S 5H 5S 5D 5C"
+        ]
+       ],
+       [
+        [
+         [
+          "3S 3H 2S 3D 3C",
+          "3S 3H 4S 3D 3C"
+         ]
+        ],
+        [
+         "3S 3H 4S 3D 3C"
+        ]
+       ],
+       [
+        [
+         [
+          "4S 5H 5S 5D 5C",
+          "7S 8S 9S 6S 10S"
+         ]
+        ],
+        [
+         "7S 8S 9S 6S 10S"
+        ]
+       ],
+       [
+        [
+         [
+          "KC AH AS AD AC",
+          "10C JC QC KC AC"
+         ]
+        ],
+        [
+         "10C JC QC KC AC"
+        ]
+       ],
+       [
+        [
+         [
+          "KS AH AS AD AC",
+          "4H AH 3H 2H 5H"
+         ]
+        ],
+        [
+         "4H AH 3H 2H 5H"
+        ]
+       ],
+       [
+        [
+         [
+          "2C AC QC 10C KC",
+          "QH KH AH 2H 3H"
+         ]
+        ],
+        [
+         "2C AC QC 10C KC"
+        ]
+       ],
+       [
+        [
+         [
+          "4H 6H 7H 8H 5H",
+          "5S 7S 8S 9S 6S"
+         ]
+        ],
+        [
+         "5S 7S 8S 9S 6S"
+        ]
+       ],
+       [
+        [
+         [
+          "2H 3H 4H 5H 6H",
+          "4D AD 3D 2D 5D"
+         ]
+        ],
+        [
+         "2H 3H 4H 5H 6H"
+        ]
+       ]
+      ]
+     },
+     "topic": "grids",
+     "source": "exercism:poker"
+    }
+   ]
+  },
+  {
+   "id": "data",
+   "title": "الأنظمة العددية والبيانات",
+   "challenges": [
+    {
+     "cid": "ex_decimal",
+     "title": "من الثنائي إلى العشري",
+     "prompt": "اكتب دالة decimal(binary) تأخذ نصًّا من الأصفار والآحاد مثل 101 وتُعيد قيمته العشرية (هنا ٥)، دون استعمال int(text, 2). إذا كان في النص حرف غير 0 و1 فأعد None.",
+     "hint": "ابدأ بـ value = 0، ولكل رقم: value = value * 2 + int(digit).",
+     "starter": "def decimal(binary):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "decimal",
+      "cases": [
+       [
+        [
+         "0"
+        ],
+        0
+       ],
+       [
+        [
+         "1"
+        ],
+        1
+       ],
+       [
+        [
+         "10"
+        ],
+        2
+       ],
+       [
+        [
+         "11"
+        ],
+        3
+       ],
+       [
+        [
+         "100"
+        ],
+        4
+       ],
+       [
+        [
+         "1001"
+        ],
+        9
+       ],
+       [
+        [
+         "11010"
+        ],
+        26
+       ],
+       [
+        [
+         "10001101000"
+        ],
+        1128
+       ],
+       [
+        [
+         "000011111"
+        ],
+        31
+       ],
+       [
+        [
+         "2"
+        ],
+        null
+       ],
+       [
+        [
+         "01201"
+        ],
+        null
+       ],
+       [
+        [
+         "10nope"
+        ],
+        null
+       ],
+       [
+        [
+         "nope10"
+        ],
+        null
+       ],
+       [
+        [
+         "10nope10"
+        ],
+        null
+       ],
+       [
+        [
+         "001 nope"
+        ],
+        null
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:binary"
+    },
+    {
+     "cid": "ex_color_code",
+     "title": "ألوان المقاومات",
+     "prompt": "لكل لون رقم على المقاومة: black 0، brown 1، red 2، orange 3، yellow 4، green 5، blue 6، violet 7، grey 8، white 9. اكتب دالة color_code(color) تُعيد رقم اللون.",
+     "hint": "ضع الألوان في قائمة بالترتيب واستعمل index.",
+     "starter": "def color_code(color):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "color_code",
+      "cases": [
+       [
+        [
+         "black"
+        ],
+        0
+       ],
+       [
+        [
+         "white"
+        ],
+        9
+       ],
+       [
+        [
+         "orange"
+        ],
+        3
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:resistor-color"
+    },
+    {
+     "cid": "ex_value",
+     "title": "قيمة المقاومة من لونين",
+     "prompt": "بالترقيم نفسه (black 0 … white 9)، يدلّ أوّل لونين على رقمين يكوّنان العدد: brown ثم green يعني 15. اكتب دالة value(colors) تأخذ قائمة ألوان وتُعيد العدد المكوّن من أوّل لونين فقط.",
+     "hint": "10 * رقم الأوّل + رقم الثاني.",
+     "starter": "def value(colors):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "value",
+      "cases": [
+       [
+        [
+         [
+          "brown",
+          "black"
+         ]
+        ],
+        10
+       ],
+       [
+        [
+         [
+          "blue",
+          "grey"
+         ]
+        ],
+        68
+       ],
+       [
+        [
+         [
+          "yellow",
+          "violet"
+         ]
+        ],
+        47
+       ],
+       [
+        [
+         [
+          "white",
+          "red"
+         ]
+        ],
+        92
+       ],
+       [
+        [
+         [
+          "orange",
+          "orange"
+         ]
+        ],
+        33
+       ],
+       [
+        [
+         [
+          "green",
+          "brown",
+          "orange"
+         ]
+        ],
+        51
+       ],
+       [
+        [
+         [
+          "black",
+          "brown"
+         ]
+        ],
+        1
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:resistor-color-duo"
+    },
+    {
+     "cid": "ex_label",
+     "title": "قراءة المقاومة بثلاثة ألوان",
+     "prompt": "أوّل لونين رقمان، والثالث عدد الأصفار بعدهما. اكتب دالة label(colors) تُعيد قاموسًا فيه value وunit: إن كانت القيمة مليارًا فأكثر فالوحدة gigaohms، أو مليونًا فأكثر فmegaohms، أو ألفًا فأكثر فkiloohms، وإلا ohms، وتُقسم القيمة على ذلك. مثال: orange orange red تعني 3300 أوم، فالنتيجة {'value': 3.3 أو 33 بحسب القسمة… } انتبه: أعد القيمة عددًا صحيحًا إذا لم يكن فيها كسر.",
+     "hint": "احسب القيمة بالأوم ثم جرّب الوحدات من الأكبر إلى الأصغر.",
+     "starter": "def label(colors):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "label",
+      "cases": [
+       [
+        [
+         [
+          "orange",
+          "orange",
+          "black"
+         ]
+        ],
+        {
+         "value": 33,
+         "unit": "ohms"
+        }
+       ],
+       [
+        [
+         [
+          "blue",
+          "grey",
+          "brown"
+         ]
+        ],
+        {
+         "value": 680,
+         "unit": "ohms"
+        }
+       ],
+       [
+        [
+         [
+          "red",
+          "black",
+          "red"
+         ]
+        ],
+        {
+         "value": 2,
+         "unit": "kiloohms"
+        }
+       ],
+       [
+        [
+         [
+          "green",
+          "brown",
+          "orange"
+         ]
+        ],
+        {
+         "value": 51,
+         "unit": "kiloohms"
+        }
+       ],
+       [
+        [
+         [
+          "yellow",
+          "violet",
+          "yellow"
+         ]
+        ],
+        {
+         "value": 470,
+         "unit": "kiloohms"
+        }
+       ],
+       [
+        [
+         [
+          "blue",
+          "violet",
+          "blue"
+         ]
+        ],
+        {
+         "value": 67,
+         "unit": "megaohms"
+        }
+       ],
+       [
+        [
+         [
+          "black",
+          "black",
+          "black"
+         ]
+        ],
+        {
+         "value": 0,
+         "unit": "ohms"
+        }
+       ],
+       [
+        [
+         [
+          "white",
+          "white",
+          "white"
+         ]
+        ],
+        {
+         "value": 99,
+         "unit": "gigaohms"
+        }
+       ],
+       [
+        [
+         [
+          "black",
+          "grey",
+          "black"
+         ]
+        ],
+        {
+         "value": 8,
+         "unit": "ohms"
+        }
+       ],
+       [
+        [
+         [
+          "blue",
+          "green",
+          "yellow",
+          "orange"
+         ]
+        ],
+        {
+         "value": 650,
+         "unit": "kiloohms"
+        }
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:resistor-color-trio"
+    },
+    {
+     "cid": "ex_modifier",
+     "title": "معدِّل القدرة",
+     "prompt": "في لعبة أدوار، معدِّل القدرة يساوي (الدرجة ناقص ١٠) مقسومًا على ٢ مقرّبًا إلى الأسفل. اكتب دالة modifier(score).",
+     "hint": "(score - 10) // 2",
+     "starter": "def modifier(score):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "modifier",
+      "cases": [
+       [
+        [
+         3
+        ],
+        -4
+       ],
+       [
+        [
+         4
+        ],
+        -3
+       ],
+       [
+        [
+         5
+        ],
+        -3
+       ],
+       [
+        [
+         6
+        ],
+        -2
+       ],
+       [
+        [
+         7
+        ],
+        -2
+       ],
+       [
+        [
+         8
+        ],
+        -1
+       ],
+       [
+        [
+         9
+        ],
+        -1
+       ],
+       [
+        [
+         10
+        ],
+        0
+       ],
+       [
+        [
+         11
+        ],
+        0
+       ],
+       [
+        [
+         12
+        ],
+        1
+       ],
+       [
+        [
+         13
+        ],
+        1
+       ],
+       [
+        [
+         14
+        ],
+        2
+       ],
+       [
+        [
+         15
+        ],
+        2
+       ],
+       [
+        [
+         16
+        ],
+        3
+       ],
+       [
+        [
+         17
+        ],
+        3
+       ],
+       [
+        [
+         18
+        ],
+        4
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:dnd-character"
+    },
+    {
+     "cid": "ex_add",
+     "title": "جمع الكسور",
+     "prompt": "الكسر قائمة [بسط، مقام]. اكتب دالة add(r1, r2) تُعيد مجموع الكسرين في أبسط صورة، والمقام موجب دائمًا. الصفر يُكتب [0, 1].",
+     "hint": "a/b + c/d = (ad + cb)/bd، ثم اقسم على القاسم المشترك الأكبر math.gcd.",
+     "starter": "def add(r1, r2):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "add",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        [
+         7,
+         6
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          -2,
+          3
+         ]
+        ],
+        [
+         -1,
+         6
+        ]
+       ],
+       [
+        [
+         [
+          -1,
+          2
+         ],
+         [
+          -2,
+          3
+         ]
+        ],
+        [
+         -7,
+         6
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          -1,
+          2
+         ]
+        ],
+        [
+         0,
+         1
+        ]
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:rational-numbers"
+    },
+    {
+     "cid": "ex_mul",
+     "title": "ضرب الكسور",
+     "prompt": "بالتمثيل نفسه [بسط، مقام]، اكتب دالة mul(r1, r2) تُعيد حاصل ضرب الكسرين في أبسط صورة بمقام موجب، والصفر [0, 1].",
+     "hint": "اضرب البسطين والمقامين ثم بسّط بـ math.gcd.",
+     "starter": "def mul(r1, r2):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "mul",
+      "cases": [
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          -1,
+          2
+         ],
+         [
+          2,
+          3
+         ]
+        ],
+        [
+         -1,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          -1,
+          2
+         ],
+         [
+          -2,
+          3
+         ]
+        ],
+        [
+         1,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          2,
+          1
+         ]
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          1,
+          1
+         ]
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         [
+          1,
+          2
+         ],
+         [
+          0,
+          1
+         ]
+        ],
+        [
+         0,
+         1
+        ]
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:rational-numbers"
+    },
+    {
+     "cid": "ex_reduce",
+     "title": "تبسيط الكسر",
+     "prompt": "اكتب دالة reduce(r) تُعيد الكسر [بسط، مقام] في أبسط صورة، بمقام موجب، والصفر [0, 1].",
+     "hint": "اقسم الاثنين على gcd ثم اقلب الإشارتين إن كان المقام سالبًا.",
+     "starter": "def reduce(r):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "reduce",
+      "cases": [
+       [
+        [
+         [
+          2,
+          4
+         ]
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       [
+        [
+         [
+          3,
+          -4
+         ]
+        ],
+        [
+         -3,
+         4
+        ]
+       ],
+       [
+        [
+         [
+          -4,
+          6
+         ]
+        ],
+        [
+         -2,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          3,
+          -9
+         ]
+        ],
+        [
+         -1,
+         3
+        ]
+       ],
+       [
+        [
+         [
+          0,
+          6
+         ]
+        ],
+        [
+         0,
+         1
+        ]
+       ],
+       [
+        [
+         [
+          -14,
+          7
+         ]
+        ],
+        [
+         -2,
+         1
+        ]
+       ],
+       [
+        [
+         [
+          13,
+          13
+         ]
+        ],
+        [
+         1,
+         1
+        ]
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:rational-numbers"
+    },
+    {
+     "cid": "ex_transmit_sequence",
+     "title": "بتّ التكافؤ في الإرسال",
+     "prompt": "الرسالة قائمة بايتات مكتوبة نصوصًا ستّ عشرية مثل 0x06. يُرسل كل ٧ بتّات من البيانات (من اليسار) ومعها بتّ تكافؤ في أقصى اليمين يجعل عدد الآحاد زوجيًّا، فيصير كل إرسال ٨ بتّات. إذا بقي أقلّ من ٧ بتّات في الآخر فأكملها بأصفار من اليمين. اكتب دالة transmit_sequence(message) تُعيد قائمة الإرسالات نصوصًا بصيغة 0x06 (حرفان صغيران).",
+     "hint": "حوّل الرسالة إلى سلسلة بتّات واحدة، وقطّعها كل ٧، وأضف بتّ التكافؤ، ثم format(n, '#04x').",
+     "starter": "def transmit_sequence(message):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "transmit_sequence",
+      "cases": [
+       [
+        [
+         []
+        ],
+        []
+       ],
+       [
+        [
+         [
+          "0x00"
+         ]
+        ],
+        [
+         "0x00",
+         "0x00"
+        ]
+       ],
+       [
+        [
+         [
+          "0x02"
+         ]
+        ],
+        [
+         "0x03",
+         "0x00"
+        ]
+       ],
+       [
+        [
+         [
+          "0x06"
+         ]
+        ],
+        [
+         "0x06",
+         "0x00"
+        ]
+       ],
+       [
+        [
+         [
+          "0x05"
+         ]
+        ],
+        [
+         "0x05",
+         "0x81"
+        ]
+       ],
+       [
+        [
+         [
+          "0x29"
+         ]
+        ],
+        [
+         "0x28",
+         "0x81"
+        ]
+       ],
+       [
+        [
+         [
+          "0xc0",
+          "0x01",
+          "0xc0",
+          "0xde"
+         ]
+        ],
+        [
+         "0xc0",
+         "0x00",
+         "0x71",
+         "0x1b",
+         "0xe1"
+        ]
+       ],
+       [
+        [
+         [
+          "0x47",
+          "0x72",
+          "0x65",
+          "0x61",
+          "0x74",
+          "0x21"
+         ]
+        ],
+        [
+         "0x47",
+         "0xb8",
+         "0x99",
+         "0xac",
+         "0x17",
+         "0xa0",
+         "0x84"
+        ]
+       ],
+       [
+        [
+         [
+          "0x47",
+          "0x72",
+          "0x65",
+          "0x61",
+          "0x74",
+          "0x31",
+          "0x21"
+         ]
+        ],
+        [
+         "0x47",
+         "0xb8",
+         "0x99",
+         "0xac",
+         "0x17",
+         "0xa0",
+         "0xc5",
+         "0x42"
+        ]
+       ],
+       [
+        [
+         [
+          "0xc0",
+          "0x01",
+          "0x13",
+          "0x37",
+          "0xc0",
+          "0xde",
+          "0x21",
+          "0x21"
+         ]
+        ],
+        [
+         "0xc0",
+         "0x00",
+         "0x44",
+         "0x66",
+         "0x7d",
+         "0x06",
+         "0x78",
+         "0x42",
+         "0x21",
+         "0x81"
+        ]
+       ],
+       [
+        [
+         [
+          "0x45",
+          "0x78",
+          "0x65",
+          "0x72",
+          "0x63",
+          "0x69",
+          "0x73",
+          "0x6d",
+          "0x20",
+          "0x69",
+          "0x73",
+          "0x20",
+          "0x61",
+          "0x77",
+          "0x65",
+          "0x73",
+          "0x6f",
+          "0x6d",
+          "0x65",
+          "0x21"
+         ]
+        ],
+        [
+         "0x44",
+         "0xbd",
+         "0x18",
+         "0xaf",
+         "0x27",
+         "0x1b",
+         "0xa5",
+         "0xe7",
+         "0x6c",
+         "0x90",
+         "0x1b",
+         "0x2e",
+         "0x33",
+         "0x03",
+         "0x84",
+         "0xee",
+         "0x65",
+         "0xb8",
+         "0xdb",
+         "0xed",
+         "0xd7",
+         "0x28",
+         "0x84"
+        ]
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:intergalactic-transmission"
+    },
+    {
+     "cid": "ex_meetup",
+     "title": "موعد اللقاء الشهري",
+     "prompt": "اكتب دالة meetup(year, month, week, dayofweek) تُعيد التاريخ بصيغة YYYY-MM-DD. week إحدى: first، second، third، fourth، last، أو teenth (اليوم الذي يقع بين ١٣ و١٩ من الشهر). dayofweek اسم اليوم بالإنجليزية مثل Monday.",
+     "hint": "استعمل datetime.date و weekday(): الاثنين 0. اجمع كل أيام الشهر التي توافق اليوم المطلوب ثم اختر.",
+     "starter": "def meetup(year, month, week, dayofweek):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "meetup",
+      "cases": [
+       [
+        [
+         2013,
+         5,
+         "teenth",
+         "Monday"
+        ],
+        "2013-05-13"
+       ],
+       [
+        [
+         2013,
+         8,
+         "teenth",
+         "Monday"
+        ],
+        "2013-08-19"
+       ],
+       [
+        [
+         2013,
+         9,
+         "teenth",
+         "Monday"
+        ],
+        "2013-09-16"
+       ],
+       [
+        [
+         2013,
+         3,
+         "teenth",
+         "Tuesday"
+        ],
+        "2013-03-19"
+       ],
+       [
+        [
+         2013,
+         4,
+         "teenth",
+         "Tuesday"
+        ],
+        "2013-04-16"
+       ],
+       [
+        [
+         2013,
+         8,
+         "teenth",
+         "Tuesday"
+        ],
+        "2013-08-13"
+       ],
+       [
+        [
+         2013,
+         1,
+         "teenth",
+         "Wednesday"
+        ],
+        "2013-01-16"
+       ],
+       [
+        [
+         2013,
+         2,
+         "teenth",
+         "Wednesday"
+        ],
+        "2013-02-13"
+       ],
+       [
+        [
+         2013,
+         6,
+         "teenth",
+         "Wednesday"
+        ],
+        "2013-06-19"
+       ],
+       [
+        [
+         2013,
+         5,
+         "teenth",
+         "Thursday"
+        ],
+        "2013-05-16"
+       ],
+       [
+        [
+         2013,
+         6,
+         "teenth",
+         "Thursday"
+        ],
+        "2013-06-13"
+       ],
+       [
+        [
+         2013,
+         9,
+         "teenth",
+         "Thursday"
+        ],
+        "2013-09-19"
+       ],
+       [
+        [
+         2013,
+         4,
+         "teenth",
+         "Friday"
+        ],
+        "2013-04-19"
+       ],
+       [
+        [
+         2013,
+         8,
+         "teenth",
+         "Friday"
+        ],
+        "2013-08-16"
+       ],
+       [
+        [
+         2013,
+         9,
+         "teenth",
+         "Friday"
+        ],
+        "2013-09-13"
+       ],
+       [
+        [
+         2013,
+         2,
+         "teenth",
+         "Saturday"
+        ],
+        "2013-02-16"
+       ],
+       [
+        [
+         2013,
+         4,
+         "teenth",
+         "Saturday"
+        ],
+        "2013-04-13"
+       ],
+       [
+        [
+         2013,
+         10,
+         "teenth",
+         "Saturday"
+        ],
+        "2013-10-19"
+       ],
+       [
+        [
+         2013,
+         5,
+         "teenth",
+         "Sunday"
+        ],
+        "2013-05-19"
+       ],
+       [
+        [
+         2013,
+         6,
+         "teenth",
+         "Sunday"
+        ],
+        "2013-06-16"
+       ],
+       [
+        [
+         2013,
+         10,
+         "teenth",
+         "Sunday"
+        ],
+        "2013-10-13"
+       ],
+       [
+        [
+         2013,
+         3,
+         "first",
+         "Monday"
+        ],
+        "2013-03-04"
+       ],
+       [
+        [
+         2013,
+         4,
+         "first",
+         "Monday"
+        ],
+        "2013-04-01"
+       ],
+       [
+        [
+         2013,
+         5,
+         "first",
+         "Tuesday"
+        ],
+        "2013-05-07"
+       ],
+       [
+        [
+         2013,
+         6,
+         "first",
+         "Tuesday"
+        ],
+        "2013-06-04"
+       ],
+       [
+        [
+         2013,
+         7,
+         "first",
+         "Wednesday"
+        ],
+        "2013-07-03"
+       ],
+       [
+        [
+         2013,
+         8,
+         "first",
+         "Wednesday"
+        ],
+        "2013-08-07"
+       ],
+       [
+        [
+         2013,
+         9,
+         "first",
+         "Thursday"
+        ],
+        "2013-09-05"
+       ],
+       [
+        [
+         2013,
+         10,
+         "first",
+         "Thursday"
+        ],
+        "2013-10-03"
+       ],
+       [
+        [
+         2013,
+         11,
+         "first",
+         "Friday"
+        ],
+        "2013-11-01"
+       ],
+       [
+        [
+         2013,
+         12,
+         "first",
+         "Friday"
+        ],
+        "2013-12-06"
+       ],
+       [
+        [
+         2013,
+         1,
+         "first",
+         "Saturday"
+        ],
+        "2013-01-05"
+       ],
+       [
+        [
+         2013,
+         2,
+         "first",
+         "Saturday"
+        ],
+        "2013-02-02"
+       ],
+       [
+        [
+         2013,
+         3,
+         "first",
+         "Sunday"
+        ],
+        "2013-03-03"
+       ],
+       [
+        [
+         2013,
+         4,
+         "first",
+         "Sunday"
+        ],
+        "2013-04-07"
+       ],
+       [
+        [
+         2013,
+         3,
+         "second",
+         "Monday"
+        ],
+        "2013-03-11"
+       ],
+       [
+        [
+         2013,
+         4,
+         "second",
+         "Monday"
+        ],
+        "2013-04-08"
+       ],
+       [
+        [
+         2013,
+         5,
+         "second",
+         "Tuesday"
+        ],
+        "2013-05-14"
+       ],
+       [
+        [
+         2013,
+         6,
+         "second",
+         "Tuesday"
+        ],
+        "2013-06-11"
+       ],
+       [
+        [
+         2013,
+         7,
+         "second",
+         "Wednesday"
+        ],
+        "2013-07-10"
+       ],
+       [
+        [
+         2013,
+         8,
+         "second",
+         "Wednesday"
+        ],
+        "2013-08-14"
+       ],
+       [
+        [
+         2013,
+         9,
+         "second",
+         "Thursday"
+        ],
+        "2013-09-12"
+       ],
+       [
+        [
+         2013,
+         10,
+         "second",
+         "Thursday"
+        ],
+        "2013-10-10"
+       ],
+       [
+        [
+         2013,
+         11,
+         "second",
+         "Friday"
+        ],
+        "2013-11-08"
+       ],
+       [
+        [
+         2013,
+         12,
+         "second",
+         "Friday"
+        ],
+        "2013-12-13"
+       ],
+       [
+        [
+         2013,
+         1,
+         "second",
+         "Saturday"
+        ],
+        "2013-01-12"
+       ],
+       [
+        [
+         2013,
+         2,
+         "second",
+         "Saturday"
+        ],
+        "2013-02-09"
+       ],
+       [
+        [
+         2013,
+         3,
+         "second",
+         "Sunday"
+        ],
+        "2013-03-10"
+       ],
+       [
+        [
+         2013,
+         4,
+         "second",
+         "Sunday"
+        ],
+        "2013-04-14"
+       ],
+       [
+        [
+         2013,
+         3,
+         "third",
+         "Monday"
+        ],
+        "2013-03-18"
+       ],
+       [
+        [
+         2013,
+         4,
+         "third",
+         "Monday"
+        ],
+        "2013-04-15"
+       ],
+       [
+        [
+         2013,
+         5,
+         "third",
+         "Tuesday"
+        ],
+        "2013-05-21"
+       ],
+       [
+        [
+         2013,
+         6,
+         "third",
+         "Tuesday"
+        ],
+        "2013-06-18"
+       ],
+       [
+        [
+         2013,
+         7,
+         "third",
+         "Wednesday"
+        ],
+        "2013-07-17"
+       ],
+       [
+        [
+         2013,
+         8,
+         "third",
+         "Wednesday"
+        ],
+        "2013-08-21"
+       ],
+       [
+        [
+         2013,
+         9,
+         "third",
+         "Thursday"
+        ],
+        "2013-09-19"
+       ],
+       [
+        [
+         2013,
+         10,
+         "third",
+         "Thursday"
+        ],
+        "2013-10-17"
+       ],
+       [
+        [
+         2013,
+         11,
+         "third",
+         "Friday"
+        ],
+        "2013-11-15"
+       ],
+       [
+        [
+         2013,
+         12,
+         "third",
+         "Friday"
+        ],
+        "2013-12-20"
+       ],
+       [
+        [
+         2013,
+         1,
+         "third",
+         "Saturday"
+        ],
+        "2013-01-19"
+       ],
+       [
+        [
+         2013,
+         2,
+         "third",
+         "Saturday"
+        ],
+        "2013-02-16"
+       ],
+       [
+        [
+         2013,
+         3,
+         "third",
+         "Sunday"
+        ],
+        "2013-03-17"
+       ],
+       [
+        [
+         2013,
+         4,
+         "third",
+         "Sunday"
+        ],
+        "2013-04-21"
+       ],
+       [
+        [
+         2013,
+         3,
+         "fourth",
+         "Monday"
+        ],
+        "2013-03-25"
+       ],
+       [
+        [
+         2013,
+         4,
+         "fourth",
+         "Monday"
+        ],
+        "2013-04-22"
+       ],
+       [
+        [
+         2013,
+         5,
+         "fourth",
+         "Tuesday"
+        ],
+        "2013-05-28"
+       ],
+       [
+        [
+         2013,
+         6,
+         "fourth",
+         "Tuesday"
+        ],
+        "2013-06-25"
+       ],
+       [
+        [
+         2013,
+         7,
+         "fourth",
+         "Wednesday"
+        ],
+        "2013-07-24"
+       ],
+       [
+        [
+         2013,
+         8,
+         "fourth",
+         "Wednesday"
+        ],
+        "2013-08-28"
+       ],
+       [
+        [
+         2013,
+         9,
+         "fourth",
+         "Thursday"
+        ],
+        "2013-09-26"
+       ],
+       [
+        [
+         2013,
+         10,
+         "fourth",
+         "Thursday"
+        ],
+        "2013-10-24"
+       ],
+       [
+        [
+         2013,
+         11,
+         "fourth",
+         "Friday"
+        ],
+        "2013-11-22"
+       ],
+       [
+        [
+         2013,
+         12,
+         "fourth",
+         "Friday"
+        ],
+        "2013-12-27"
+       ],
+       [
+        [
+         2013,
+         1,
+         "fourth",
+         "Saturday"
+        ],
+        "2013-01-26"
+       ],
+       [
+        [
+         2013,
+         2,
+         "fourth",
+         "Saturday"
+        ],
+        "2013-02-23"
+       ],
+       [
+        [
+         2013,
+         3,
+         "fourth",
+         "Sunday"
+        ],
+        "2013-03-24"
+       ],
+       [
+        [
+         2013,
+         4,
+         "fourth",
+         "Sunday"
+        ],
+        "2013-04-28"
+       ],
+       [
+        [
+         2013,
+         3,
+         "last",
+         "Monday"
+        ],
+        "2013-03-25"
+       ],
+       [
+        [
+         2013,
+         4,
+         "last",
+         "Monday"
+        ],
+        "2013-04-29"
+       ],
+       [
+        [
+         2013,
+         5,
+         "last",
+         "Tuesday"
+        ],
+        "2013-05-28"
+       ],
+       [
+        [
+         2013,
+         6,
+         "last",
+         "Tuesday"
+        ],
+        "2013-06-25"
+       ],
+       [
+        [
+         2013,
+         7,
+         "last",
+         "Wednesday"
+        ],
+        "2013-07-31"
+       ],
+       [
+        [
+         2013,
+         8,
+         "last",
+         "Wednesday"
+        ],
+        "2013-08-28"
+       ],
+       [
+        [
+         2013,
+         9,
+         "last",
+         "Thursday"
+        ],
+        "2013-09-26"
+       ],
+       [
+        [
+         2013,
+         10,
+         "last",
+         "Thursday"
+        ],
+        "2013-10-31"
+       ],
+       [
+        [
+         2013,
+         11,
+         "last",
+         "Friday"
+        ],
+        "2013-11-29"
+       ],
+       [
+        [
+         2013,
+         12,
+         "last",
+         "Friday"
+        ],
+        "2013-12-27"
+       ],
+       [
+        [
+         2013,
+         1,
+         "last",
+         "Saturday"
+        ],
+        "2013-01-26"
+       ],
+       [
+        [
+         2013,
+         2,
+         "last",
+         "Saturday"
+        ],
+        "2013-02-23"
+       ],
+       [
+        [
+         2013,
+         3,
+         "last",
+         "Sunday"
+        ],
+        "2013-03-31"
+       ],
+       [
+        [
+         2013,
+         4,
+         "last",
+         "Sunday"
+        ],
+        "2013-04-28"
+       ],
+       [
+        [
+         2012,
+         2,
+         "last",
+         "Wednesday"
+        ],
+        "2012-02-29"
+       ],
+       [
+        [
+         2014,
+         12,
+         "last",
+         "Wednesday"
+        ],
+        "2014-12-31"
+       ],
+       [
+        [
+         2015,
+         2,
+         "last",
+         "Sunday"
+        ],
+        "2015-02-22"
+       ],
+       [
+        [
+         2012,
+         12,
+         "first",
+         "Friday"
+        ],
+        "2012-12-07"
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:meetup"
+    },
+    {
+     "cid": "ex_tally",
+     "title": "جدول الدوري",
+     "prompt": "كل سطر من النتائج بصيغة الفريق الأول;الفريق الثاني;النتيجة، والنتيجة win أو loss أو draw من جهة الفريق الأول. الفوز ٣ نقاط والتعادل نقطة. اكتب دالة tally(rows) تُعيد أسطر الجدول: العنوان Team ثم MP W D L P، والفرق مرتّبة بالنقاط تنازليًّا ثم أبجديًّا. اسم الفريق بعرض ٣٠ حرفًا، وكل عمود رقمي بعرض حرفين، والفاصل ' | '.",
+     "hint": "السطر: f\"{name:<30} | {mp:>2} | {w:>2} | {d:>2} | {l:>2} | {p:>2}\"",
+     "starter": "def tally(rows):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "tally",
+      "cases": [
+       [
+        [
+         []
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  1 |  1 |  0 |  0 |  3",
+         "Blithering Badgers             |  1 |  0 |  0 |  1 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Blithering Badgers;Allegoric Alaskans;loss"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  1 |  1 |  0 |  0 |  3",
+         "Blithering Badgers             |  1 |  0 |  0 |  1 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Blithering Badgers;Allegoric Alaskans;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Blithering Badgers             |  1 |  1 |  0 |  0 |  3",
+         "Allegoric Alaskans             |  1 |  0 |  0 |  1 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;draw"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  1 |  0 |  1 |  0 |  1",
+         "Blithering Badgers             |  1 |  0 |  1 |  0 |  1"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;win",
+          "Allegoric Alaskans;Blithering Badgers;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  2 |  2 |  0 |  0 |  6",
+         "Blithering Badgers             |  2 |  0 |  0 |  2 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;loss",
+          "Allegoric Alaskans;Blithering Badgers;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  2 |  1 |  0 |  1 |  3",
+         "Blithering Badgers             |  2 |  1 |  0 |  1 |  3"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;win",
+          "Blithering Badgers;Courageous Californians;win",
+          "Courageous Californians;Allegoric Alaskans;loss"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  2 |  2 |  0 |  0 |  6",
+         "Blithering Badgers             |  2 |  1 |  0 |  1 |  3",
+         "Courageous Californians        |  2 |  0 |  0 |  2 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;win",
+          "Devastating Donkeys;Courageous Californians;draw",
+          "Devastating Donkeys;Allegoric Alaskans;win",
+          "Courageous Californians;Blithering Badgers;loss",
+          "Blithering Badgers;Devastating Donkeys;loss",
+          "Allegoric Alaskans;Courageous Californians;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Devastating Donkeys            |  3 |  2 |  1 |  0 |  7",
+         "Allegoric Alaskans             |  3 |  2 |  0 |  1 |  6",
+         "Blithering Badgers             |  3 |  1 |  0 |  2 |  3",
+         "Courageous Californians        |  3 |  0 |  1 |  2 |  1"
+        ]
+       ],
+       [
+        [
+         [
+          "Allegoric Alaskans;Blithering Badgers;loss",
+          "Devastating Donkeys;Allegoric Alaskans;loss",
+          "Courageous Californians;Blithering Badgers;draw",
+          "Allegoric Alaskans;Courageous Californians;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  3 |  2 |  0 |  1 |  6",
+         "Blithering Badgers             |  2 |  1 |  1 |  0 |  4",
+         "Courageous Californians        |  2 |  0 |  1 |  1 |  1",
+         "Devastating Donkeys            |  1 |  0 |  0 |  1 |  0"
+        ]
+       ],
+       [
+        [
+         [
+          "Courageous Californians;Devastating Donkeys;win",
+          "Allegoric Alaskans;Blithering Badgers;win",
+          "Devastating Donkeys;Allegoric Alaskans;loss",
+          "Courageous Californians;Blithering Badgers;win",
+          "Blithering Badgers;Devastating Donkeys;draw",
+          "Allegoric Alaskans;Courageous Californians;draw"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Allegoric Alaskans             |  3 |  2 |  1 |  0 |  7",
+         "Courageous Californians        |  3 |  2 |  1 |  0 |  7",
+         "Blithering Badgers             |  3 |  0 |  1 |  2 |  1",
+         "Devastating Donkeys            |  3 |  0 |  1 |  2 |  1"
+        ]
+       ],
+       [
+        [
+         [
+          "Devastating Donkeys;Blithering Badgers;win",
+          "Devastating Donkeys;Blithering Badgers;win",
+          "Devastating Donkeys;Blithering Badgers;win",
+          "Devastating Donkeys;Blithering Badgers;win",
+          "Blithering Badgers;Devastating Donkeys;win"
+         ]
+        ],
+        [
+         "Team                           | MP |  W |  D |  L |  P",
+         "Devastating Donkeys            |  5 |  4 |  0 |  1 | 12",
+         "Blithering Badgers             |  5 |  1 |  0 |  4 |  3"
+        ]
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:tournament"
+    },
+    {
+     "cid": "ex_degree_of_separation",
+     "title": "درجة القرابة",
+     "prompt": "شجرة العائلة قاموس: كل والد ومعه قائمة أبنائه. الوالد وابنه بينهما درجة واحدة، وكذلك الأخوان. اكتب دالة degree_of_separation(family_tree, person_a, person_b) تُعيد أقلّ عدد من الدرجات بين الشخصين، أو None إذا لم تكن بينهما صلة.",
+     "hint": "ابنِ رسمًا بيانيًّا: صل الوالد بكل ابن، وصل الإخوة ببعضهم، ثم ابحث بالعرض (BFS).",
+     "starter": "def degree_of_separation(family_tree, person_a, person_b):\n    pass\n",
+     "check": {
+      "kind": "func",
+      "name": "degree_of_separation",
+      "cases": [
+       [
+        [
+         {
+          "Vera": [
+           "Tomoko"
+          ],
+          "Tomoko": [
+           "Aditi"
+          ]
+         },
+         "Vera",
+         "Tomoko"
+        ],
+        1
+       ],
+       [
+        [
+         {
+          "Dalia": [
+           "Olga",
+           "Yassin"
+          ]
+         },
+         "Olga",
+         "Yassin"
+        ],
+        1
+       ],
+       [
+        [
+         {
+          "Khadija": [
+           "Mateo"
+          ],
+          "Mateo": [
+           "Rami"
+          ]
+         },
+         "Khadija",
+         "Rami"
+        ],
+        2
+       ],
+       [
+        [
+         {
+          "Priya": [
+           "Rami"
+          ],
+          "Kaito": [
+           "Elif"
+          ]
+         },
+         "Priya",
+         "Kaito"
+        ],
+        null
+       ],
+       [
+        [
+         {
+          "Aiko": [
+           "Bao",
+           "Carlos"
+          ],
+          "Bao": [
+           "Dalia",
+           "Elias"
+          ],
+          "Carlos": [
+           "Fatima",
+           "Gustavo"
+          ],
+          "Dalia": [
+           "Hassan",
+           "Isla"
+          ],
+          "Elias": [
+           "Javier"
+          ],
+          "Fatima": [
+           "Khadija",
+           "Liam"
+          ],
+          "Gustavo": [
+           "Mina"
+          ],
+          "Hassan": [
+           "Noah",
+           "Olga"
+          ],
+          "Isla": [
+           "Pedro"
+          ],
+          "Javier": [
+           "Quynh",
+           "Ravi"
+          ],
+          "Khadija": [
+           "Sofia"
+          ],
+          "Liam": [
+           "Tariq",
+           "Uma"
+          ],
+          "Mina": [
+           "Viktor",
+           "Wang"
+          ],
+          "Noah": [
+           "Xiomara"
+          ],
+          "Olga": [
+           "Yuki"
+          ],
+          "Pedro": [
+           "Zane",
+           "Aditi"
+          ],
+          "Quynh": [
+           "Boris"
+          ],
+          "Ravi": [
+           "Celine"
+          ],
+          "Sofia": [
+           "Diego",
+           "Elif"
+          ],
+          "Tariq": [
+           "Farah"
+          ],
+          "Uma": [
+           "Giorgio"
+          ],
+          "Viktor": [
+           "Hana",
+           "Ian"
+          ],
+          "Wang": [
+           "Jing"
+          ],
+          "Xiomara": [
+           "Kaito"
+          ],
+          "Yuki": [
+           "Leila"
+          ],
+          "Zane": [
+           "Mateo"
+          ],
+          "Aditi": [
+           "Nia"
+          ],
+          "Boris": [
+           "Oscar"
+          ],
+          "Celine": [
+           "Priya"
+          ],
+          "Diego": [
+           "Qi"
+          ],
+          "Elif": [
+           "Rami"
+          ],
+          "Farah": [
+           "Sven"
+          ],
+          "Giorgio": [
+           "Tomoko"
+          ],
+          "Hana": [
+           "Umar"
+          ],
+          "Ian": [
+           "Vera"
+          ],
+          "Jing": [
+           "Wyatt"
+          ],
+          "Kaito": [
+           "Xia"
+          ],
+          "Leila": [
+           "Yassin"
+          ],
+          "Mateo": [
+           "Zara"
+          ],
+          "Nia": [
+           "Antonio"
+          ],
+          "Oscar": [
+           "Bianca"
+          ],
+          "Priya": [
+           "Cai"
+          ],
+          "Qi": [
+           "Dimitri"
+          ],
+          "Rami": [
+           "Ewa"
+          ],
+          "Sven": [
+           "Fabio"
+          ],
+          "Tomoko": [
+           "Gabriela"
+          ],
+          "Umar": [
+           "Helena"
+          ],
+          "Vera": [
+           "Igor"
+          ],
+          "Wyatt": [
+           "Jun"
+          ],
+          "Xia": [
+           "Kim"
+          ],
+          "Yassin": [
+           "Lucia"
+          ],
+          "Zara": [
+           "Mohammed"
+          ]
+         },
+         "Dimitri",
+         "Fabio"
+        ],
+        9
+       ],
+       [
+        [
+         {
+          "Aiko": [
+           "Bao",
+           "Carlos"
+          ],
+          "Bao": [
+           "Dalia",
+           "Elias"
+          ],
+          "Carlos": [
+           "Fatima",
+           "Gustavo"
+          ],
+          "Dalia": [
+           "Hassan",
+           "Isla"
+          ],
+          "Elias": [
+           "Javier"
+          ],
+          "Fatima": [
+           "Khadija",
+           "Liam"
+          ],
+          "Gustavo": [
+           "Mina"
+          ],
+          "Hassan": [
+           "Noah",
+           "Olga"
+          ],
+          "Isla": [
+           "Pedro"
+          ],
+          "Javier": [
+           "Quynh",
+           "Ravi"
+          ],
+          "Khadija": [
+           "Sofia"
+          ],
+          "Liam": [
+           "Tariq",
+           "Uma"
+          ],
+          "Mina": [
+           "Viktor",
+           "Wang"
+          ],
+          "Noah": [
+           "Xiomara"
+          ],
+          "Olga": [
+           "Yuki"
+          ],
+          "Pedro": [
+           "Zane",
+           "Aditi"
+          ],
+          "Quynh": [
+           "Boris"
+          ],
+          "Ravi": [
+           "Celine"
+          ],
+          "Sofia": [
+           "Diego",
+           "Elif"
+          ],
+          "Tariq": [
+           "Farah"
+          ],
+          "Uma": [
+           "Giorgio"
+          ],
+          "Viktor": [
+           "Hana",
+           "Ian"
+          ],
+          "Wang": [
+           "Jing"
+          ],
+          "Xiomara": [
+           "Kaito"
+          ],
+          "Yuki": [
+           "Leila"
+          ],
+          "Zane": [
+           "Mateo"
+          ],
+          "Aditi": [
+           "Nia"
+          ],
+          "Boris": [
+           "Oscar"
+          ],
+          "Celine": [
+           "Priya"
+          ],
+          "Diego": [
+           "Qi"
+          ],
+          "Elif": [
+           "Rami"
+          ],
+          "Farah": [
+           "Sven"
+          ],
+          "Giorgio": [
+           "Tomoko"
+          ],
+          "Hana": [
+           "Umar"
+          ],
+          "Ian": [
+           "Vera"
+          ],
+          "Jing": [
+           "Wyatt"
+          ],
+          "Kaito": [
+           "Xia"
+          ],
+          "Leila": [
+           "Yassin"
+          ],
+          "Mateo": [
+           "Zara"
+          ],
+          "Nia": [
+           "Antonio"
+          ],
+          "Oscar": [
+           "Bianca"
+          ],
+          "Priya": [
+           "Cai"
+          ],
+          "Qi": [
+           "Dimitri"
+          ],
+          "Rami": [
+           "Ewa"
+          ],
+          "Sven": [
+           "Fabio"
+          ],
+          "Tomoko": [
+           "Gabriela"
+          ],
+          "Umar": [
+           "Helena"
+          ],
+          "Vera": [
+           "Igor"
+          ],
+          "Wyatt": [
+           "Jun"
+          ],
+          "Xia": [
+           "Kim"
+          ],
+          "Yassin": [
+           "Lucia"
+          ],
+          "Zara": [
+           "Mohammed"
+          ]
+         },
+         "Lucia",
+         "Jun"
+        ],
+        14
+       ],
+       [
+        [
+         {
+          "Aiko": [
+           "Bao",
+           "Carlos"
+          ],
+          "Bao": [
+           "Dalia"
+          ],
+          "Carlos": [
+           "Fatima",
+           "Gustavo"
+          ],
+          "Dalia": [
+           "Hassan",
+           "Isla"
+          ],
+          "Fatima": [
+           "Khadija",
+           "Liam"
+          ],
+          "Gustavo": [
+           "Mina"
+          ],
+          "Hassan": [
+           "Noah",
+           "Olga"
+          ],
+          "Isla": [
+           "Pedro"
+          ],
+          "Javier": [
+           "Quynh",
+           "Ravi"
+          ],
+          "Khadija": [
+           "Sofia"
+          ],
+          "Liam": [
+           "Tariq",
+           "Uma"
+          ],
+          "Mina": [
+           "Viktor",
+           "Wang"
+          ],
+          "Noah": [
+           "Xiomara"
+          ],
+          "Olga": [
+           "Yuki"
+          ],
+          "Pedro": [
+           "Zane",
+           "Aditi"
+          ],
+          "Quynh": [
+           "Boris"
+          ],
+          "Ravi": [
+           "Celine"
+          ],
+          "Sofia": [
+           "Diego",
+           "Elif"
+          ],
+          "Tariq": [
+           "Farah"
+          ],
+          "Uma": [
+           "Giorgio"
+          ],
+          "Viktor": [
+           "Hana",
+           "Ian"
+          ],
+          "Wang": [
+           "Jing"
+          ],
+          "Xiomara": [
+           "Kaito"
+          ],
+          "Yuki": [
+           "Leila"
+          ],
+          "Zane": [
+           "Mateo"
+          ],
+          "Aditi": [
+           "Nia"
+          ],
+          "Boris": [
+           "Oscar"
+          ],
+          "Celine": [
+           "Priya"
+          ],
+          "Diego": [
+           "Qi"
+          ],
+          "Elif": [
+           "Rami"
+          ],
+          "Farah": [
+           "Sven"
+          ],
+          "Giorgio": [
+           "Tomoko"
+          ],
+          "Hana": [
+           "Umar"
+          ],
+          "Ian": [
+           "Vera"
+          ],
+          "Jing": [
+           "Wyatt"
+          ],
+          "Kaito": [
+           "Xia"
+          ],
+          "Leila": [
+           "Yassin"
+          ],
+          "Mateo": [
+           "Zara"
+          ],
+          "Nia": [
+           "Antonio"
+          ],
+          "Oscar": [
+           "Bianca"
+          ],
+          "Priya": [
+           "Cai"
+          ],
+          "Qi": [
+           "Dimitri"
+          ],
+          "Rami": [
+           "Ewa"
+          ],
+          "Sven": [
+           "Fabio"
+          ],
+          "Tomoko": [
+           "Gabriela"
+          ],
+          "Umar": [
+           "Helena"
+          ],
+          "Vera": [
+           "Igor"
+          ],
+          "Wyatt": [
+           "Jun"
+          ],
+          "Xia": [
+           "Kim"
+          ],
+          "Yassin": [
+           "Lucia"
+          ],
+          "Zara": [
+           "Mohammed"
+          ]
+         },
+         "Wyatt",
+         "Xia"
+        ],
+        12
+       ]
+      ]
+     },
+     "topic": "data",
+     "source": "exercism:relative-distance"
     }
    ]
   }

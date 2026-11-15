@@ -161,6 +161,14 @@ class Table:
                 self._back_words.setdefault(r.cells, r.chars)
         self.arabic_letter_cells = {cells for ch, cells in self.chars.items()
                                     if self.char_kind.get(ch) == "letter" and "\u0600" <= ch <= "\u06ff"}
+        # signs written with two or more cells (most mathematics), longest first
+        self._multi_back: List[Tuple[str, str]] = []
+        seen_cells = set()
+        for ch, cells in self.chars.items():
+            if len(cells) > 1 and cells not in seen_cells and not ch.isspace():
+                seen_cells.add(cells)
+                self._multi_back.append((cells, ch))
+        self._multi_back.sort(key=lambda x: -len(x[0]))
         self._char_back: Dict[str, str] = {}
         for ch, cells in self.chars.items():
             kind = self.char_kind.get(ch)
@@ -333,6 +341,20 @@ def back_translate(braille: str, grade: int = 1) -> str:
             continue
         in_number = False
         matched = False
+        first = t._char_back.get(c, "")
+        arabic_first = bool(first) and "\u0600" <= first[0] <= "\u06ff"
+        alone_start = i == 0 or braille[i - 1] in "⠀ \n"
+        for cells, ch in ([] if grade == 2 else t._multi_back):
+            if braille.startswith(cells, i):
+                end = i + len(cells)
+                if arabic_first and not (alone_start and (end >= len(braille) or braille[end] in "⠀ \n")):
+                    continue
+                out.append(ch)
+                i += len(cells)
+                matched = True
+                break
+        if matched:
+            continue
         # punctuation attached to a word: an opening sign before letters, a
         # closing sign after them (and before any further closing signs)
         at_start = i == 0 or braille[i - 1] in "⠀ \n"
@@ -397,6 +419,31 @@ def back_translate(braille: str, grade: int = 1) -> str:
         i += 1
     # Arabic braille writes the shadda before its letter; text puts it after
     return re.sub("\u0651([\u0621-\u064a])", "\\1\u0651", "".join(out))
+
+
+MATH_NAMES = {
+    "+": "زائد", "−": "ناقص", "×": "ضرب", "÷": "قسمة", "=": "يساوي", "≠": "لا يساوي",
+    "≈": "يقارب", "<": "أصغر من", ">": "أكبر من", "≤": "أصغر من أو يساوي", "≥": "أكبر من أو يساوي",
+    "±": "زائد أو ناقص", "√": "الجذر التربيعي", "∛": "الجذر التكعيبي", "∞": "ما لا نهاية", "π": "باي",
+    "%": "بالمئة", "٪": "بالمئة", "½": "نصف", "⅓": "ثلث", "¼": "ربع", "¾": "ثلاثة أرباع", "⅔": "ثلثان",
+    "²": "تربيع (أس ٢)", "³": "تكعيب (أس ٣)", "∫": "التكامل", "∂": "التفاضل الجزئي", "∈": "ينتمي إلى",
+    "∉": "لا ينتمي إلى", "⊂": "مجموعة جزئية من", "∪": "اتحاد", "∩": "تقاطع", "∅": "المجموعة الخالية",
+    "∑": "مجموع", "°": "درجة", "∠": "زاوية", "⊥": "عمودي على", "∥": "يوازي", "△": "مثلّث",
+    "(": "قوس مفتوح", ")": "قوس مغلق", "[": "قوس معقوف مفتوح", "]": "قوس معقوف مغلق",
+    "{": "حاصرة مفتوحة", "}": "حاصرة مغلقة", "∴": "إذن", "∵": "لأنّ", "∝": "يتناسب مع", "≡": "يطابق",
+}
+
+
+def math_signs() -> List[Tuple[str, str, str]]:
+    """(sign, Arabic name, cells) for the mathematical signs the Arabic grade 1
+    table defines and that have an Arabic name here."""
+    t = table(1)
+    out = []
+    for ch, name in MATH_NAMES.items():
+        cells = t.chars.get(ch)
+        if cells and "⠿" not in cells:
+            out.append((ch, name, cells))
+    return out
 
 
 def describe_cells(braille: str, limit: int = 40) -> str:

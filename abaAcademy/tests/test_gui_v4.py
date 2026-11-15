@@ -179,6 +179,35 @@ class TestV4Screens(unittest.TestCase):
             d.Destroy()
             pump()
 
+    def test_sarf_and_irab(self):
+        from abaAcademy.gui.sarf_view import SarfDialog
+        from abaAcademy.gui.irab_view import IrabDialog
+        d, sp = self._open(SarfDialog)
+        try:
+            d.word.SetValue("قلم")
+            d._lookup()
+            self.assertIn("أَقْلاَم", d.out.GetValue())
+            d.root.SetValue("ع ل م")
+            d._family()
+            self.assertIn("أسرة الجذر", d.out.GetValue())
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+        d, sp = self._open(IrabDialog)
+        try:
+            d.surahChoice.SetSelection(2)
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
 
 if __name__ == "__main__":
     unittest.main()

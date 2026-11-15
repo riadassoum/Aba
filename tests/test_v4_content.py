@@ -119,3 +119,60 @@ def test_countries():
     for k in geo.KINDS:
         q = geo.make_question(cs, k, rng=rng)
         assert q and q.answer in q.options
+
+
+# -- morphology, i'rab, maths braille, programming challenges -----------------
+
+def test_sarf_lookup_and_quiz():
+    from abaAcademy.arabic_lab import sarf as sf
+    s = sf.Sarf.get()
+    assert len(s.words) > 25000 and len(s.verbs) > 7000
+    found = "\n".join(s.lookup("مدرسة"))
+    assert "مَدَارِس" in found
+    assert any("كتب" in x or "كَتَبَ" in x for x in s.root_family("ك ت ب"))
+    assert sf.present_tense({"v": "نَصَرَ", "bab": 1}) == "يَنْصُرُ"
+    assert sf.present_tense({"v": "ضَرَبَ", "bab": 2}) == "يَضْرِبُ"
+    assert sf.present_tense({"v": "قَالَ", "bab": 1}) == ""        # weak verbs are not guessed
+    t = sf.Trainer(s, random.Random(1))
+    for k, _ in sf.KINDS:
+        q = t.question(k)
+        assert q and q.answer in q.options and len(set(q.options)) == len(q.options), k
+
+
+def test_irab_items_are_the_books_words():
+    from abaAcademy.arabic_lab import irab
+    ir = irab.Irab.get()
+    assert len(ir.items) > 10000
+    for it in ir.items[:500]:
+        assert irab.role_of(it.text) == it.role
+    rng = random.Random(3)
+    for _ in range(30):
+        q = irab.make_question(ir, rng=rng)
+        assert q.answer in q.options and len(set(q.options)) == 4
+
+
+def test_math_braille_round_trip():
+    from abaAcademy.braille_engine import louis
+    for s in ["3 + 4 = 7", "5 × 6 = 30", "8 ÷ 2 ≠ 5", "∞ π"]:
+        assert louis.back_translate(louis.translate(s, 1), 1) == s
+    signs = louis.math_signs()
+    assert len(signs) > 30 and all(name and cells for _, name, cells in signs)
+
+
+def test_new_challenges_pass_with_reference():
+    import os
+    import sys
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "devtools", "course_builder"))
+    from exercism_spec_v4 import SPECS_V4
+    from abaAcademy.codelab.challenges import check_solution, tracks
+    ref = {f"ex_{s['fn']}": s["ref"] for s in SPECS_V4}
+    seen = 0
+    cids = [c.cid for _, _, chs in tracks() for c in chs]
+    assert len(cids) == len(set(cids))
+    for _, _, chs in tracks():
+        for c in chs:
+            if c.cid in ref:
+                ok, msg = check_solution(c, ref[c.cid])
+                assert ok, (c.cid, msg)
+                seen += 1
+    assert seen == len(SPECS_V4)

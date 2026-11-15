@@ -116,7 +116,7 @@ def test_starter_flashcard_decks_for_every_language():
 def test_challenge_tracks():
     from abaAcademy.codelab.challenges import tracks, all_challenges, check_solution, get_challenge
     ts = tracks()
-    assert len(ts) == 10 and len(all_challenges()) >= 150
+    assert len(ts) == 12 and len(all_challenges()) >= 170
     assert len({c.cid for c in all_challenges()}) == len(all_challenges())
     for _, _, items in ts:
         for c in items:

@@ -267,6 +267,14 @@ class HubDialog(AccessibleDialog):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_sarf(self, evt):
+        from .sarf_view import SarfDialog
+        self.show_child(SarfDialog(self, self.academy, self.speech))
+
+    def _open_irab(self, evt):
+        from .irab_view import IrabDialog
+        self.show_child(IrabDialog(self, self.academy, self.speech))
+
     def _open_world_atlas(self, evt):
         from .countries_view import CountriesDialog
         self.show_child(CountriesDialog(self, self.academy, self.speech))

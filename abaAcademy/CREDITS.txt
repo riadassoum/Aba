@@ -120,7 +120,7 @@ Grammar notes and pronunciation lessons for English, French, Spanish, Turkish, G
   Written for this application.
 
 Programming challenges (resources/codelab):
-  Four tracks (80 challenges, 897 test cases) adapted from the Exercism problem specifications (https://github.com/exercism/problem-specifications), MIT License, Copyright (c) 2014, 2019, 2021 Exercism — see resources/codelab/EXERCISM-LICENSE.txt. The test cases are Exercism's; the Arabic task statements and the reference solutions used to verify every case were written for this application. The other five tracks (50 challenges) were written for this application.
+  Six tracks (124 challenges, 1,258 test cases) adapted from the Exercism problem specifications (https://github.com/exercism/problem-specifications), MIT License, Copyright (c) 2014, 2019, 2021 Exercism — see resources/codelab/EXERCISM-LICENSE.txt. The test cases are Exercism's; the Arabic task statements and the reference solutions used to verify every case were written for this application. The other five tracks (50 challenges) were written for this application.
 
 Escape-room story, word-search themes, regex exercises, mental-arithmetic techniques, quiz samples:
   Written for this application.
@@ -142,3 +142,12 @@ NVDA course (nvda_course.py, resources/nvda):
 
 World atlas (geo_countries.py, resources/geo/countries.json):
   Country names, regions, areas, land borders, currency codes and calling codes from mledoze/countries (https://github.com/mledoze/countries), ODbL-1.0; Arabic names of capitals and currencies and population figures from Wikidata (https://www.wikidata.org), CC0. Palestine is given with its capital al-Quds.
+
+Morphology lab (arabic_lab/sarf.py, resources/arabic/sarf.json):
+  Nouns, verbs, roots, patterns, broken plurals, definitions and word frequencies from Arramooz, the open Arabic dictionary by Taha Zerrouki (https://github.com/linuxscout/arramooz), GPL-2.0. The conjugation-class rules for the present tense of sound verbs, the lookups and the quizzes were written for this application.
+
+I'rab trainer (arabic_lab/irab.py):
+  Uses the Qur'an i'rab edition already bundled from the alquran.cloud catalogue (resources/quran/ed_ar.e3rab.json). A question is made only where the book's parsing of a word begins with a recognised grammatical role; the answer and the explanation are the book's own words.
+
+Mathematics in braille:
+  The mathematical signs of the Arabic grade 1 liblouis table (ar-ar-math.uti, by Mada, Qatar Assistive Technology Center, LGPL-2.1-or-later). Their Arabic names were written for this application.
