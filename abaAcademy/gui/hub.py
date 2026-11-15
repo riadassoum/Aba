@@ -17,7 +17,7 @@ from __future__ import annotations
 
 import wx
 
-from .accessible import AccessibleDialog, clear_shutdown
+from .accessible import AccessibleDialog, AccessibleFrame, clear_shutdown
 from .achievements_view import AchievementsView
 from .exercise_runner import ExerciseRunner
 from .main_window import MainWindow
@@ -39,7 +39,7 @@ from .dictionary import DictionaryDialog
 __version__ = "4.0"
 
 
-class HubDialog(AccessibleDialog):
+class HubDialog(AccessibleFrame):
     def __init__(self, parent, academy, speech):
         super().__init__(
             parent, f"أكاديمية الكفيف العربي (ABA) — الإصدار {__version__}",
@@ -55,9 +55,9 @@ class HubDialog(AccessibleDialog):
         sizer.Add(self.progressLabel, 0, wx.ALL, 10)
 
         intro = wx.StaticText(
-            panel, label="اضغط Alt أو F10 لفتح قائمة الأكاديمية: كل الأقسام فيها قوائم فرعية بميزاتها، "
-                        "فتصل بالأسهم إلى أيّ ميزة مباشرة. أو اكتب اسم ميزة في الانتقال السريع، "
-                        "أو اختر من قائمة البداية أدناه.")
+            panel, label="اضغط Alt أو F10 للوصول إلى شريط القوائم: لكل قسم قائمة بميزاته، تتنقّل بين الأقسام "
+                        "بالسهمين الأيمن والأيسر وبين الميزات بالسهمين الأعلى والأسفل. أو اكتب اسم ميزة في "
+                        "الانتقال السريع، أو اختر من قائمة البداية أدناه.")
         intro.Wrap(640)
         sizer.Add(intro, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
 
@@ -106,7 +106,6 @@ class HubDialog(AccessibleDialog):
         items = list(home)
         row = wx.BoxSizer(wx.HORIZONTAL)
         row.Add(self.button(panel, "افتح", lambda e, L=lst, I=items: self._open_selected(L, I)), 0, wx.ALL, 4)
-        row.Add(self.button(panel, "قائمة الأكاديمية (Alt)", lambda e: self.open_menu()), 0, wx.ALL, 4)
         sizer.Add(row, 0, wx.ALIGN_LEFT | wx.LEFT, 4)
         lst.Bind(wx.EVT_LISTBOX, lambda e, L=lst, I=items, D=desc: self._on_feature_selected(L, I, D))
         lst.Bind(wx.EVT_LISTBOX_DCLICK, lambda e, L=lst, I=items: self._open_selected(L, I))
@@ -117,8 +116,8 @@ class HubDialog(AccessibleDialog):
         self._refresh_recent()
         self.dailyBtn = lst
         self.learnBtn = lst
-        self._alt_down = False
-        self._alt_spoiled = False
+        self.SetMenuBar(self.build_menu())
+        self.Bind(wx.EVT_MENU, lambda e: self.run_menu_item(e.GetId()))
 
         # a persistent close button
         sizer.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()),
@@ -168,22 +167,24 @@ class HubDialog(AccessibleDialog):
 
     # -- the academy menu ---------------------------------------------------
 
-    def build_menu(self) -> "wx.Menu":
-        """One submenu per section, one item per feature."""
-        menu = wx.Menu()
+    def build_menu(self) -> "wx.MenuBar":
+        """The native menu bar: one menu per section, one item per feature,
+        and a last menu for help and closing."""
+        bar = wx.MenuBar()
         self._menu_actions = {}
         for title, items in self._sections:
-            sub = wx.Menu()
+            menu = wx.Menu()
             for f in items:
-                item = sub.Append(wx.ID_ANY, f.label, f.description)
+                item = menu.Append(wx.ID_ANY, f.label, f.description)
                 self._menu_actions[item.GetId()] = f
-            menu.AppendSubMenu(sub, title)
-        menu.AppendSeparator()
-        help_item = menu.Append(wx.ID_ANY, "المساعدة (F1)")
-        close_item = menu.Append(wx.ID_ANY, "إغلاق الأكاديمية")
+            bar.Append(menu, title)
+        last = wx.Menu()
+        help_item = last.Append(wx.ID_ANY, "المساعدة\tF1")
+        close_item = last.Append(wx.ID_ANY, "إغلاق الأكاديمية")
         self._menu_actions[help_item.GetId()] = "help"
         self._menu_actions[close_item.GetId()] = "close"
-        return menu
+        bar.Append(last, "الأكاديمية")
+        return bar
 
     def run_menu_item(self, item_id: int) -> None:
         f = self._menu_actions.get(item_id)
@@ -193,47 +194,8 @@ class HubDialog(AccessibleDialog):
             self.close_screen()
         elif f is not None:
             self._remember(f)
-            self._resolve(f.handler)(None)
-
-    def open_menu(self) -> None:
-        menu = self.build_menu()
-        chosen = []
-        menu.Bind(wx.EVT_MENU, lambda e: chosen.append(e.GetId()))
-        self.announce("قائمة الأكاديمية")
-        self.PopupMenu(menu)
-        menu.Destroy()
-        if chosen:
-            # run after the menu has fully closed so the new screen gets focus
-            self.call_after(self.run_menu_item, chosen[0])
-
-    def on_raw_key_down(self, evt) -> bool:
-        key = evt.GetKeyCode()
-        if key == wx.WXK_F10 and not evt.ShiftDown() and not evt.ControlDown():
-            self.open_menu()
-            return True
-        if key == wx.WXK_ALT:
-            # Alt alone opens the menu when it is released; Alt with another
-            # key (Alt+F4, Alt+Tab) is left alone
-            if not self._alt_down:
-                self._alt_down, self._alt_spoiled = True, False
-                wx.CallLater(60, self._watch_alt)
-            return True
-        if self._alt_down:
-            self._alt_spoiled = True
-        return False
-
-    def _watch_alt(self):
-        try:
-            still = wx.GetKeyState(wx.WXK_ALT)
-        except Exception:
-            still = False
-        if still:
-            wx.CallLater(60, self._watch_alt)
-            return
-        open_it = self._alt_down and not self._alt_spoiled
-        self._alt_down = False
-        if open_it and self.IsActive():
-            self.open_menu()
+            # after the menu has fully closed, so the new screen gets focus
+            self.call_after(self._resolve(f.handler), None)
 
     # -- feature lists -------------------------------------------------------
 
@@ -790,8 +752,8 @@ class HubDialog(AccessibleDialog):
         self.show_child(StatisticsView(self, self.academy, self.speech))
 
     def instructions(self) -> str:
-        base = ("الشاشة الرئيسية. Alt أو F10 يفتح قائمة الأكاديمية بأقسامها وميزاتها، تتنقّل فيها بالأسهم "
-                "وتفتح الميزة بـ Enter. أو اكتب اسم ميزة في الانتقال السريع، أو اختر من قائمة البداية. "
+        base = ("الشاشة الرئيسية. Alt أو F10 ينقلك إلى شريط القوائم: الأسهم الأفقية بين الأقسام، والعمودية بين "
+                "ميزات القسم، وEnter لفتح الميزة، وEscape للخروج من القائمة. أو اكتب اسم ميزة في الانتقال السريع، أو اختر من قائمة البداية. "
                 "F2 لقراءة الشاشة كلها، وF1 للمساعدة، وEscape للإغلاق.")
         reminder = self._study_reminder()
         return f"{reminder} {base}" if reminder else base

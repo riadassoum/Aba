@@ -64,7 +64,7 @@ def _wx_window_methods():
             "SetTitle", "GetTitle", "ShowModal", "EndModal", "SetSizer",
             "Layout", "Fit", "Centre", "Center", "SetSize", "GetSize",
             "SetMinSize", "GetMinSize", "IsShown", "IsMaximized", "IsIconized",
-            "IsDescendant", "PopupMenu", "IsActive", "GetChildren", "SetFocus", "Refresh", "Update",
+            "IsDescendant", "PopupMenu", "IsActive", "SetMenuBar", "GetMenuBar", "GetChildren", "SetFocus", "Refresh", "Update",
             "SetAcceleratorTable", "GetParent", "SetLabel", "GetId",
             "TransferDataToWindow", "TransferDataFromWindow", "SetName",
             "IsModal", "SetEscapeId", "GetSizer", "SetAffirmativeId",
