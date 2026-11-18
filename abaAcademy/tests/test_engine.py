@@ -309,6 +309,17 @@ class TestRobustness(unittest.TestCase):
         self.assertIsNone(hd.get("nope"))
         self.assertFalse(hd.is_offline("nope"))
 
+    def test_hadith_clean_br(self):
+        import json, os
+        from abaAcademy.gui.hadith_data import clean_hadith_text
+        self.assertEqual(clean_hadith_text("قال .<br>[رواه مسلم]"), "قال .\n[رواه مسلم]")
+        self.assertEqual(clean_hadith_text("a <br/><BR> b"), "a\nb")
+        self.assertEqual(clean_hadith_text(None), "")
+        res = os.path.join(os.path.dirname(__file__), "..", "resources", "hadith")
+        for name in ("nawawi", "qudsi"):
+            with open(os.path.join(res, f"{name}.json"), encoding="utf-8") as f:
+                self.assertNotIn("<br", f.read().lower())
+
     def test_verse_url(self):
         from abaAcademy.gui.quran_audio import verse_url
         self.assertEqual(verse_url("http://x/", 1, 2), "http://x/001002.mp3")

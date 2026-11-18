@@ -13,9 +13,19 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from .net import fetch_text
 
 CDN = "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-{book}.json"
+
+# The source dataset was scraped from HTML and keeps literal <br> tags in the
+# text (e.g. before "[رواه البخاري]"). Turn each run of them into one newline.
+_BR_RE = re.compile(r"(?:[ \t]*<br\s*/?>[ \t]*)+", re.IGNORECASE)
+
+
+def clean_hadith_text(text):
+    """Return hadith text with HTML <br> tags replaced by a newline."""
+    return _BR_RE.sub("\n", text or "").strip()
 
 
 class HadithData:
@@ -64,7 +74,7 @@ class HadithData:
             meta = raw.get("metadata", {})
             name = next((b["name"] for b in self.index if b["id"] == book_id),
                         meta.get("name", book_id))
-            hs = [[h.get("hadithnumber"), (h.get("text") or "").strip(), None]
+            hs = [[h.get("hadithnumber"), clean_hadith_text(h.get("text")), None]
                   for h in raw.get("hadiths", [])]
             payload = {"id": book_id, "name": name,
                        "sections": meta.get("sections", {}) or {}, "hadiths": hs}

@@ -12,6 +12,7 @@ at once. Small collections are bundled; large ones download on first use.
 
 from __future__ import annotations
 
+import bisect
 import json
 import os
 import threading
@@ -19,6 +20,7 @@ import urllib.request
 
 from .accessible import AccessibleDialog
 from .download_helper import download_to, BeepLoop, announce
+from .hadith_data import clean_hadith_text
 from .command_bar import CommandBar, key
 
 try:
@@ -46,6 +48,8 @@ class HadithReader(AccessibleDialog):
         self._collection = None
         self._books = []
         self._line_hadith = []
+        self._blocks = []
+        self._block_starts = []
         self._text_str = ""
         self._build_ui()
         last = self._get("hadith_last_collection", self._avail[0]["id"] if self._avail else "")
@@ -191,7 +195,7 @@ class HadithReader(AccessibleDialog):
             for h in d.get("hadiths", []):
                 bno = h.get("reference", {}).get("book", 0)
                 books.setdefault(bno, []).append(
-                    {"n": h.get("hadithnumber"), "text": (h.get("text") or "").strip()})
+                    {"n": h.get("hadithnumber"), "text": clean_hadith_text(h.get("text"))})
             booklist = [{"no": b, "title": sections.get(str(b), "") or f"كتاب {b}",
                          "hadiths": books[b]} for b in sorted(books, key=lambda x: (x is None, x))]
             payload = {"id": entry["id"], "name": entry["name"], "books": booklist}
@@ -227,6 +231,10 @@ class HadithReader(AccessibleDialog):
                 import threading
                 threading.Thread(target=self._download_collection, args=(entry,), daemon=True).start()
             return
+        # Collections downloaded by older builds still contain <br> tags.
+        for b in data["books"]:
+            for h in b.get("hadiths", []):
+                h["text"] = clean_hadith_text(h.get("text"))
         self._collection = data
         self._books = self._collection["books"]
         self.bookChoice.Set([f"{b['title']} ({len(b['hadiths'])} حديث)" for b in self._books])
@@ -251,6 +259,13 @@ class HadithReader(AccessibleDialog):
         for h in book["hadiths"]:
             lines.append(f"[{h['n']}] {h['text']}")
             self._line_hadith.append(h["n"])
+        # A hadith may span several lines, so record where each block starts.
+        self._block_starts = []
+        pos = 0
+        for block in lines:
+            self._block_starts.append(pos)
+            pos += len(block) + 1
+        self._blocks = lines
         self._text_str = "\n".join(lines)
         self.text.SetValue(self._text_str)
         self.text.SetInsertionPoint(0)
@@ -258,9 +273,8 @@ class HadithReader(AccessibleDialog):
 
     def _current_text(self):
         ip = self.text.GetInsertionPoint()
-        line = self._text_str.count("\n", 0, ip)
-        parts = self._text_str.split("\n")
-        return parts[line] if 0 <= line < len(parts) else ""
+        idx = bisect.bisect_right(self._block_starts, ip) - 1
+        return self._blocks[idx] if 0 <= idx < len(self._blocks) else ""
 
     def _copy(self):
         txt = self._current_text()
@@ -282,9 +296,7 @@ class HadithReader(AccessibleDialog):
         book = self._books[self.choice_index(self.bookChoice)]
         for j, h in enumerate(book["hadiths"]):
             if q in strip_arabic_diacritics(h["text"]):
-                target = j + 1
-                pos = sum(len(x) + 1 for x in self._text_str.split("\n")[:target])
-                self.text.SetInsertionPoint(pos)
+                self.text.SetInsertionPoint(self._block_starts[j + 1])
                 self.text.SetFocus()
                 self.announce(f"حديث رقم {h['n']}.")
                 return
