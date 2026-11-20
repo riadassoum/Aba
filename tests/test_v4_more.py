@@ -80,3 +80,11 @@ def test_bundled_translations():
     for e in ("es.cortes", "de.bubenheim", "it.piccardo", "tr.diyanet", "en.sahih", "fr.hamidullah"):
         d = json.load(open(os.path.join(R, "quran", f"ed_{e}.json"), encoding="utf-8"))
         assert len(d) == 6236 and all(d[:7])
+
+
+def test_mishkal_diacritizer():
+    from abaAcademy.arabic_lab import diacritizer as d
+    assert d.available()
+    out = d.diacritize("ذهب الولد إلى المدرسة\nالعلم نور")
+    assert out.split("\n")[0] == "ذَهَبَ الْوَلَدُ إِلَى الْمَدْرَسَةِ"
+    assert out.split("\n")[1].startswith("الْعِلْمُ")

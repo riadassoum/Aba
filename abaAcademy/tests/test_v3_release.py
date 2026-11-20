@@ -41,7 +41,7 @@ def test_no_guillemets_in_shipped_text():
     found = []
     for base in (PKG, os.path.join(ROOT, "abaDesktop")):
         for root, dirs, files in os.walk(base):
-            dirs[:] = [d for d in dirs if d not in ("__pycache__", "vendor", "tests")]
+            dirs[:] = [d for d in dirs if d not in ("__pycache__", "vendor", "tests", "thirdparty")]
             for f in files:
                 if f == "speakable.py":          # the filter that removes them
                     continue

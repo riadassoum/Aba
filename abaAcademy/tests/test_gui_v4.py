@@ -318,6 +318,20 @@ class TestV4Screens(unittest.TestCase):
         finally:
             d.Destroy(); pump()
 
+    def test_diacritizer(self):
+        from abaAcademy.gui.diacritizer_view import DiacritizerDialog
+        d, sp = self._open(DiacritizerDialog)
+        try:
+            d.source.SetValue("كتب المعلم الدرس")
+            d._run()
+            for _ in range(600):
+                pump(1)
+                if not d.busy:
+                    break
+            self.assertIn("كَتَبَ", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+
 
 if __name__ == "__main__":
     unittest.main()

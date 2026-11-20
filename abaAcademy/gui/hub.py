@@ -280,6 +280,10 @@ class HubDialog(AccessibleFrame):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_diacritizer(self, evt):
+        from .diacritizer_view import DiacritizerDialog
+        self.show_child(DiacritizerDialog(self, self.academy, self.speech))
+
     def _open_math_lab(self, evt):
         from .math_lab_view import MathLabDialog
         self.show_child(MathLabDialog(self, self.academy, self.speech))

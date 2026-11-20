@@ -357,7 +357,7 @@ def check_release_zip(zip_path, require=()):
 
 
 EMBED_URL = "https://www.python.org/ftp/python/{v}/python-{v}-embed-amd64.zip"
-RUNTIME_PACKAGES = ["wxPython>=4.2", "miniaudio>=1.59", "sympy>=1.13"]
+RUNTIME_PACKAGES = ["wxPython>=4.2", "miniaudio>=1.59", "sympy>=1.13", "orjson>=3.9"]
 
 
 def _download(url, dest):
