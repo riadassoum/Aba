@@ -1,5 +1,5 @@
 {
-"source": "mledoze/countries (ODbL-1.0) and Wikidata (CC0)",
+"source": "mledoze/countries (ODbL-1.0) and Wikidata (CC0); languages: mledoze/countries and Unicode CLDR",
 "countries": [
 {
 "iso": "ISL",
@@ -15,7 +15,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+354",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأيسلندية"
+]
 },
 {
 "iso": "AZE",
@@ -37,7 +40,11 @@
 ],
 "landlocked": true,
 "calling": "+994",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأذربيجانية",
+"الروسية"
+]
 },
 {
 "iso": "ARM",
@@ -58,7 +65,10 @@
 ],
 "landlocked": true,
 "calling": "+374",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأرمنية"
+]
 },
 {
 "iso": "AUS",
@@ -74,7 +84,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+61",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "AFG",
@@ -97,7 +110,12 @@
 ],
 "landlocked": true,
 "calling": "+93",
-"un_member": true
+"un_member": true,
+"languages": [
+"الدارية",
+"البشتو",
+"التركمانية"
+]
 },
 {
 "iso": "ALB",
@@ -117,7 +135,10 @@
 ],
 "landlocked": false,
 "calling": "+355",
-"un_member": true
+"un_member": true,
+"languages": [
+"الألبانية"
+]
 },
 {
 "iso": "DEU",
@@ -143,7 +164,10 @@
 ],
 "landlocked": false,
 "calling": "+49",
-"un_member": true
+"un_member": true,
+"languages": [
+"الألمانية"
+]
 },
 {
 "iso": "ATG",
@@ -159,7 +183,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1268",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "AND",
@@ -178,7 +205,10 @@
 ],
 "landlocked": true,
 "calling": "+376",
-"un_member": true
+"un_member": true,
+"languages": [
+"الكتالانية"
+]
 },
 {
 "iso": "UZB",
@@ -200,7 +230,11 @@
 ],
 "landlocked": true,
 "calling": "+998",
-"un_member": true
+"un_member": true,
+"languages": [
+"الروسية",
+"الأوزبكية"
+]
 },
 {
 "iso": "UGA",
@@ -222,7 +256,11 @@
 ],
 "landlocked": true,
 "calling": "+256",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"السواحلية"
+]
 },
 {
 "iso": "UKR",
@@ -246,7 +284,10 @@
 ],
 "landlocked": false,
 "calling": "+380",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأوكرانية"
+]
 },
 {
 "iso": "IRL",
@@ -264,7 +305,11 @@
 ],
 "landlocked": false,
 "calling": "+353",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الأيرلندية"
+]
 },
 {
 "iso": "ETH",
@@ -287,7 +332,10 @@
 ],
 "landlocked": true,
 "calling": "+251",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأمهرية"
+]
 },
 {
 "iso": "ERI",
@@ -307,7 +355,12 @@
 ],
 "landlocked": false,
 "calling": "+291",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الإنجليزية",
+"التغرينية"
+]
 },
 {
 "iso": "ESP",
@@ -328,7 +381,10 @@
 ],
 "landlocked": false,
 "calling": "+34",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "EST",
@@ -347,7 +403,10 @@
 ],
 "landlocked": false,
 "calling": "+372",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإستونية"
+]
 },
 {
 "iso": "SWZ",
@@ -366,7 +425,11 @@
 ],
 "landlocked": true,
 "calling": "+268",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"السواتي"
+]
 },
 {
 "iso": "IDN",
@@ -386,7 +449,10 @@
 ],
 "landlocked": false,
 "calling": "+62",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإندونيسية"
+]
 },
 {
 "iso": "IRN",
@@ -410,7 +476,10 @@
 ],
 "landlocked": false,
 "calling": "+98",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفارسية"
+]
 },
 {
 "iso": "ITA",
@@ -433,7 +502,10 @@
 ],
 "landlocked": false,
 "calling": "+39",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإيطالية"
+]
 },
 {
 "iso": "ARG",
@@ -455,7 +527,11 @@
 ],
 "landlocked": false,
 "calling": "+54",
-"un_member": true
+"un_member": true,
+"languages": [
+"الغوارانية",
+"الإسبانية"
+]
 },
 {
 "iso": "JOR",
@@ -476,7 +552,10 @@
 ],
 "landlocked": false,
 "calling": "+962",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "URY",
@@ -495,7 +574,10 @@
 ],
 "landlocked": false,
 "calling": "+598",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "ECU",
@@ -514,7 +596,10 @@
 ],
 "landlocked": false,
 "calling": "+593",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "ARE",
@@ -533,7 +618,10 @@
 ],
 "landlocked": false,
 "calling": "+971",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "BHR",
@@ -549,7 +637,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+973",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "BRA",
@@ -575,7 +666,10 @@
 ],
 "landlocked": false,
 "calling": "+55",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "PRT",
@@ -593,7 +687,10 @@
 ],
 "landlocked": false,
 "calling": "+351",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "BHS",
@@ -609,7 +706,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1242",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "BIH",
@@ -629,7 +729,12 @@
 ],
 "landlocked": false,
 "calling": "+387",
-"un_member": true
+"un_member": true,
+"languages": [
+"البوسنية",
+"الكرواتية",
+"الصربية"
+]
 },
 {
 "iso": "CZE",
@@ -650,7 +755,11 @@
 ],
 "landlocked": true,
 "calling": "+420",
-"un_member": true
+"un_member": true,
+"languages": [
+"التشيكية",
+"السلوفاكية"
+]
 },
 {
 "iso": "MNE",
@@ -671,7 +780,8 @@
 ],
 "landlocked": false,
 "calling": "+382",
-"un_member": true
+"un_member": true,
+"languages": []
 },
 {
 "iso": "DZA",
@@ -694,7 +804,10 @@
 ],
 "landlocked": false,
 "calling": "+213",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "DNK",
@@ -712,7 +825,10 @@
 ],
 "landlocked": false,
 "calling": "+45",
-"un_member": true
+"un_member": true,
+"languages": [
+"الدانمركية"
+]
 },
 {
 "iso": "SAU",
@@ -736,7 +852,10 @@
 ],
 "landlocked": false,
 "calling": "+966",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "SLV",
@@ -755,7 +874,10 @@
 ],
 "landlocked": false,
 "calling": "+503",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "SEN",
@@ -777,7 +899,10 @@
 ],
 "landlocked": false,
 "calling": "+221",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "SDN",
@@ -801,7 +926,11 @@
 ],
 "landlocked": false,
 "calling": "+249",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الإنجليزية"
+]
 },
 {
 "iso": "SWE",
@@ -820,7 +949,10 @@
 ],
 "landlocked": false,
 "calling": "+46",
-"un_member": true
+"un_member": true,
+"languages": [
+"السويدية"
+]
 },
 {
 "iso": "SOM",
@@ -840,7 +972,11 @@
 ],
 "landlocked": false,
 "calling": "+252",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الصومالية"
+]
 },
 {
 "iso": "CHN",
@@ -871,7 +1007,10 @@
 ],
 "landlocked": false,
 "calling": "+86",
-"un_member": true
+"un_member": true,
+"languages": [
+"الصينية"
+]
 },
 {
 "iso": "IRQ",
@@ -894,7 +1033,12 @@
 ],
 "landlocked": false,
 "calling": "+964",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الآرامية",
+"السورانية الكردية"
+]
 },
 {
 "iso": "GAB",
@@ -914,7 +1058,10 @@
 ],
 "landlocked": false,
 "calling": "+241",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "PHL",
@@ -930,7 +1077,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+63",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفلبينية"
+]
 },
 {
 "iso": "CMR",
@@ -953,7 +1104,11 @@
 ],
 "landlocked": false,
 "calling": "+237",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفرنسية"
+]
 },
 {
 "iso": "COD",
@@ -979,7 +1134,14 @@
 ],
 "landlocked": false,
 "calling": "+243",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الكونغو",
+"اللينجالا",
+"اللبا-لؤلؤ",
+"السواحلية"
+]
 },
 {
 "iso": "KWT",
@@ -998,7 +1160,10 @@
 ],
 "landlocked": false,
 "calling": "+965",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "MDV",
@@ -1014,7 +1179,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+960",
-"un_member": true
+"un_member": true,
+"languages": [
+"المالديفية"
+]
 },
 {
 "iso": "HUN",
@@ -1038,7 +1206,10 @@
 ],
 "landlocked": true,
 "calling": "+36",
-"un_member": true
+"un_member": true,
+"languages": [
+"الهنغارية"
+]
 },
 {
 "iso": "MEX",
@@ -1058,7 +1229,10 @@
 ],
 "landlocked": false,
 "calling": "+52",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "MAR",
@@ -1077,7 +1251,11 @@
 ],
 "landlocked": false,
 "calling": "+212",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الأمازيغية"
+]
 },
 {
 "iso": "GBR",
@@ -1095,7 +1273,10 @@
 ],
 "landlocked": false,
 "calling": "+44",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "NOR",
@@ -1115,7 +1296,11 @@
 ],
 "landlocked": false,
 "calling": "+47",
-"un_member": true
+"un_member": true,
+"languages": [
+"النرويجية نينورسك",
+"النرويجية بوكمال"
+]
 },
 {
 "iso": "AUT",
@@ -1140,7 +1325,8 @@
 ],
 "landlocked": true,
 "calling": "+43",
-"un_member": true
+"un_member": true,
+"languages": []
 },
 {
 "iso": "NER",
@@ -1164,7 +1350,10 @@
 ],
 "landlocked": true,
 "calling": "+227",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "IND",
@@ -1187,7 +1376,12 @@
 ],
 "landlocked": false,
 "calling": "+91",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الهندية",
+"التاميلية"
+]
 },
 {
 "iso": "USA",
@@ -1206,7 +1400,10 @@
 ],
 "landlocked": false,
 "calling": "+1",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "JPN",
@@ -1222,7 +1419,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+81",
-"un_member": true
+"un_member": true,
+"languages": [
+"اليابانية"
+]
 },
 {
 "iso": "YEM",
@@ -1241,7 +1441,10 @@
 ],
 "landlocked": false,
 "calling": "+967",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "GRC",
@@ -1262,7 +1465,10 @@
 ],
 "landlocked": false,
 "calling": "+30",
-"un_member": true
+"un_member": true,
+"languages": [
+"اليونانية"
+]
 },
 {
 "iso": "PNG",
@@ -1280,7 +1486,12 @@
 ],
 "landlocked": false,
 "calling": "+675",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الهيري موتو",
+"التوك بيسين"
+]
 },
 {
 "iso": "PRY",
@@ -1300,7 +1511,11 @@
 ],
 "landlocked": true,
 "calling": "+595",
-"un_member": true
+"un_member": true,
+"languages": [
+"الغوارانية",
+"الإسبانية"
+]
 },
 {
 "iso": "BRB",
@@ -1316,7 +1531,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1246",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "PAK",
@@ -1337,7 +1555,11 @@
 ],
 "landlocked": false,
 "calling": "+92",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الأوردية"
+]
 },
 {
 "iso": "PLW",
@@ -1353,7 +1575,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+680",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"البالوان"
+]
 },
 {
 "iso": "BRN",
@@ -1371,7 +1597,10 @@
 ],
 "landlocked": false,
 "calling": "+673",
-"un_member": true
+"un_member": true,
+"languages": [
+"الماليزية"
+]
 },
 {
 "iso": "BEL",
@@ -1392,7 +1621,12 @@
 ],
 "landlocked": false,
 "calling": "+32",
-"un_member": true
+"un_member": true,
+"languages": [
+"الألمانية",
+"الفرنسية",
+"الهولندية"
+]
 },
 {
 "iso": "BGR",
@@ -1414,7 +1648,10 @@
 ],
 "landlocked": false,
 "calling": "+359",
-"un_member": true
+"un_member": true,
+"languages": [
+"البلغارية"
+]
 },
 {
 "iso": "BLZ",
@@ -1433,7 +1670,11 @@
 ],
 "landlocked": false,
 "calling": "+501",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الإسبانية"
+]
 },
 {
 "iso": "BGD",
@@ -1452,7 +1693,10 @@
 ],
 "landlocked": false,
 "calling": "+880",
-"un_member": true
+"un_member": true,
+"languages": [
+"البنغالية"
+]
 },
 {
 "iso": "PAN",
@@ -1471,7 +1715,10 @@
 ],
 "landlocked": false,
 "calling": "+507",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "BEN",
@@ -1492,7 +1739,10 @@
 ],
 "landlocked": false,
 "calling": "+229",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "BTN",
@@ -1511,7 +1761,10 @@
 ],
 "landlocked": true,
 "calling": "+975",
-"un_member": true
+"un_member": true,
+"languages": [
+"دزونكا"
+]
 },
 {
 "iso": "BWA",
@@ -1532,7 +1785,11 @@
 ],
 "landlocked": true,
 "calling": "+267",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"التسوانية"
+]
 },
 {
 "iso": "BFA",
@@ -1555,7 +1812,10 @@
 ],
 "landlocked": true,
 "calling": "+226",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "BDI",
@@ -1575,7 +1835,11 @@
 ],
 "landlocked": true,
 "calling": "+257",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الرندي"
+]
 },
 {
 "iso": "POL",
@@ -1599,7 +1863,10 @@
 ],
 "landlocked": false,
 "calling": "+48",
-"un_member": true
+"un_member": true,
+"languages": [
+"البولندية"
+]
 },
 {
 "iso": "BOL",
@@ -1621,7 +1888,13 @@
 ],
 "landlocked": true,
 "calling": "+591",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأيمارا",
+"الغوارانية",
+"كيشوا",
+"الإسبانية"
+]
 },
 {
 "iso": "PER",
@@ -1643,7 +1916,12 @@
 ],
 "landlocked": false,
 "calling": "+51",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأيمارا",
+"كيشوا",
+"الإسبانية"
+]
 },
 {
 "iso": "BLR",
@@ -1665,7 +1943,11 @@
 ],
 "landlocked": true,
 "calling": "+375",
-"un_member": true
+"un_member": true,
+"languages": [
+"البيلاروسية",
+"الروسية"
+]
 },
 {
 "iso": "THA",
@@ -1686,7 +1968,10 @@
 ],
 "landlocked": false,
 "calling": "+66",
-"un_member": true
+"un_member": true,
+"languages": [
+"التايلاندية"
+]
 },
 {
 "iso": "TKM",
@@ -1707,7 +1992,11 @@
 ],
 "landlocked": true,
 "calling": "+993",
-"un_member": true
+"un_member": true,
+"languages": [
+"الروسية",
+"التركمانية"
+]
 },
 {
 "iso": "TUR",
@@ -1732,7 +2021,10 @@
 ],
 "landlocked": false,
 "calling": "+90",
-"un_member": true
+"un_member": true,
+"languages": [
+"التركية"
+]
 },
 {
 "iso": "TTO",
@@ -1748,7 +2040,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1868",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "TCD",
@@ -1771,7 +2066,11 @@
 ],
 "landlocked": true,
 "calling": "+235",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الفرنسية"
+]
 },
 {
 "iso": "CHL",
@@ -1791,7 +2090,10 @@
 ],
 "landlocked": false,
 "calling": "+56",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "TZA",
@@ -1816,7 +2118,11 @@
 ],
 "landlocked": false,
 "calling": "+255",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"السواحلية"
+]
 },
 {
 "iso": "TGO",
@@ -1836,7 +2142,10 @@
 ],
 "landlocked": false,
 "calling": "+228",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "TUV",
@@ -1852,7 +2161,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+688",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"التوفالو"
+]
 },
 {
 "iso": "TUN",
@@ -1871,7 +2184,10 @@
 ],
 "landlocked": false,
 "calling": "+216",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "TON",
@@ -1887,7 +2203,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+676",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"التونغية"
+]
 },
 {
 "iso": "TLS",
@@ -1905,7 +2225,11 @@
 ],
 "landlocked": false,
 "calling": "+670",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية",
+"التيتم"
+]
 },
 {
 "iso": "JAM",
@@ -1921,7 +2245,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1876",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "COM",
@@ -1937,7 +2264,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+269",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الفرنسية"
+]
 },
 {
 "iso": "SLB",
@@ -1953,7 +2284,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+677",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "MHL",
@@ -1969,7 +2303,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+692",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"المارشالية"
+]
 },
 {
 "iso": "CAF",
@@ -1992,7 +2330,11 @@
 ],
 "landlocked": true,
 "calling": "+236",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"السانجو"
+]
 },
 {
 "iso": "AGO",
@@ -2013,7 +2355,10 @@
 ],
 "landlocked": false,
 "calling": "+244",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "DOM",
@@ -2031,7 +2376,10 @@
 ],
 "landlocked": false,
 "calling": "+1",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "COG",
@@ -2053,7 +2401,12 @@
 ],
 "landlocked": false,
 "calling": "+242",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الكونغو",
+"اللينجالا"
+]
 },
 {
 "iso": "ZAF",
@@ -2076,7 +2429,20 @@
 ],
 "landlocked": false,
 "calling": "+27",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأفريقانية",
+"الإنجليزية",
+"النديبيل الجنوبي",
+"السوتو الشمالية",
+"السوتو الجنوبية",
+"السواتي",
+"التسوانية",
+"السونجا",
+"الفيندا",
+"الخوسا",
+"الزولو"
+]
 },
 {
 "iso": "SSD",
@@ -2099,7 +2465,10 @@
 ],
 "landlocked": true,
 "calling": "+211",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "GEO",
@@ -2120,7 +2489,10 @@
 ],
 "landlocked": false,
 "calling": "+995",
-"un_member": true
+"un_member": true,
+"languages": [
+"الجورجية"
+]
 },
 {
 "iso": "DJI",
@@ -2140,7 +2512,11 @@
 ],
 "landlocked": false,
 "calling": "+253",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الفرنسية"
+]
 },
 {
 "iso": "DMA",
@@ -2156,7 +2532,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1767",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "RWA",
@@ -2177,7 +2556,12 @@
 ],
 "landlocked": true,
 "calling": "+250",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفرنسية",
+"الكينيارواندا"
+]
 },
 {
 "iso": "RUS",
@@ -2208,7 +2592,10 @@
 ],
 "landlocked": false,
 "calling": "+7",
-"un_member": true
+"un_member": true,
+"languages": [
+"الروسية"
+]
 },
 {
 "iso": "ROU",
@@ -2230,7 +2617,10 @@
 ],
 "landlocked": false,
 "calling": "+40",
-"un_member": true
+"un_member": true,
+"languages": [
+"الرومانية"
+]
 },
 {
 "iso": "ZMB",
@@ -2255,7 +2645,10 @@
 ],
 "landlocked": true,
 "calling": "+260",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "ZWE",
@@ -2276,7 +2669,18 @@
 ],
 "landlocked": true,
 "calling": "+263",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"النديبيل الشمالية",
+"النيانجا",
+"الشونا",
+"السوتو الجنوبية",
+"التسوانية",
+"السونجا",
+"الفيندا",
+"الخوسا"
+]
 },
 {
 "iso": "CIV",
@@ -2298,7 +2702,10 @@
 ],
 "landlocked": false,
 "calling": "+225",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "WSM",
@@ -2314,7 +2721,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+685",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الساموائية"
+]
 },
 {
 "iso": "SMR",
@@ -2332,7 +2743,10 @@
 ],
 "landlocked": true,
 "calling": "+378",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإيطالية"
+]
 },
 {
 "iso": "VCT",
@@ -2348,7 +2762,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1784",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "KNA",
@@ -2364,7 +2781,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1869",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "LCA",
@@ -2380,7 +2800,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1758",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "STP",
@@ -2396,7 +2819,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+239",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "LKA",
@@ -2412,7 +2838,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+94",
-"un_member": true
+"un_member": true,
+"languages": [
+"السنهالية",
+"التاميلية"
+]
 },
 {
 "iso": "SVK",
@@ -2434,7 +2864,10 @@
 ],
 "landlocked": true,
 "calling": "+421",
-"un_member": true
+"un_member": true,
+"languages": [
+"السلوفاكية"
+]
 },
 {
 "iso": "SVN",
@@ -2455,7 +2888,10 @@
 ],
 "landlocked": false,
 "calling": "+386",
-"un_member": true
+"un_member": true,
+"languages": [
+"السلوفانية"
+]
 },
 {
 "iso": "SGP",
@@ -2471,7 +2907,13 @@
 "borders": [],
 "landlocked": false,
 "calling": "+65",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الماليزية",
+"التاميلية",
+"الصينية"
+]
 },
 {
 "iso": "SYR",
@@ -2493,7 +2935,10 @@
 ],
 "landlocked": false,
 "calling": "+963",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "SUR",
@@ -2512,7 +2957,10 @@
 ],
 "landlocked": false,
 "calling": "+597",
-"un_member": true
+"un_member": true,
+"languages": [
+"الهولندية"
+]
 },
 {
 "iso": "CHE",
@@ -2534,7 +2982,13 @@
 ],
 "landlocked": true,
 "calling": "+41",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الألمانية السويسرية",
+"الإيطالية",
+"الرومانشية"
+]
 },
 {
 "iso": "SLE",
@@ -2553,7 +3007,10 @@
 ],
 "landlocked": false,
 "calling": "+232",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "SYC",
@@ -2569,7 +3026,12 @@
 "borders": [],
 "landlocked": false,
 "calling": "+248",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية الكريولية السيشيلية",
+"الإنجليزية",
+"الفرنسية"
+]
 },
 {
 "iso": "MKD",
@@ -2590,7 +3052,10 @@
 ],
 "landlocked": true,
 "calling": "+389",
-"un_member": true
+"un_member": true,
+"languages": [
+"المقدونية"
+]
 },
 {
 "iso": "SRB",
@@ -2614,7 +3079,10 @@
 ],
 "landlocked": true,
 "calling": "+381",
-"un_member": true
+"un_member": true,
+"languages": [
+"الصربية"
+]
 },
 {
 "iso": "TJK",
@@ -2635,7 +3103,11 @@
 ],
 "landlocked": true,
 "calling": "+992",
-"un_member": true
+"un_member": true,
+"languages": [
+"الروسية",
+"الطاجيكية"
+]
 },
 {
 "iso": "OMN",
@@ -2655,7 +3127,10 @@
 ],
 "landlocked": false,
 "calling": "+968",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "GMB",
@@ -2673,7 +3148,10 @@
 ],
 "landlocked": false,
 "calling": "+220",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "GHA",
@@ -2693,7 +3171,10 @@
 ],
 "landlocked": false,
 "calling": "+233",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "GRD",
@@ -2709,7 +3190,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+1473",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "GTM",
@@ -2730,7 +3214,10 @@
 ],
 "landlocked": false,
 "calling": "+502",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "GUY",
@@ -2750,7 +3237,10 @@
 ],
 "landlocked": false,
 "calling": "+592",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "GIN",
@@ -2773,7 +3263,10 @@
 ],
 "landlocked": false,
 "calling": "+224",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "GNQ",
@@ -2792,7 +3285,12 @@
 ],
 "landlocked": false,
 "calling": "+240",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"البرتغالية",
+"الإسبانية"
+]
 },
 {
 "iso": "GNB",
@@ -2811,7 +3309,10 @@
 ],
 "landlocked": false,
 "calling": "+245",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "VUT",
@@ -2827,7 +3328,12 @@
 "borders": [],
 "landlocked": false,
 "calling": "+678",
-"un_member": true
+"un_member": true,
+"languages": [
+"البيسلامية",
+"الإنجليزية",
+"الفرنسية"
+]
 },
 {
 "iso": "FRA",
@@ -2852,7 +3358,10 @@
 ],
 "landlocked": false,
 "calling": "+33",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "PSE",
@@ -2873,7 +3382,10 @@
 ],
 "landlocked": false,
 "calling": "+970",
-"un_member": false
+"un_member": false,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "VEN",
@@ -2893,7 +3405,10 @@
 ],
 "landlocked": false,
 "calling": "+58",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "FIN",
@@ -2913,7 +3428,11 @@
 ],
 "landlocked": false,
 "calling": "+358",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفنلندية",
+"السويدية"
+]
 },
 {
 "iso": "VNM",
@@ -2933,7 +3452,10 @@
 ],
 "landlocked": false,
 "calling": "+84",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفيتنامية"
+]
 },
 {
 "iso": "FJI",
@@ -2949,7 +3471,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+679",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفيجية"
+]
 },
 {
 "iso": "CYP",
@@ -2965,7 +3491,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+357",
-"un_member": true
+"un_member": true,
+"languages": [
+"اليونانية",
+"التركية"
+]
 },
 {
 "iso": "QAT",
@@ -2983,7 +3513,10 @@
 ],
 "landlocked": false,
 "calling": "+974",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "KGZ",
@@ -3004,7 +3537,11 @@
 ],
 "landlocked": true,
 "calling": "+996",
-"un_member": true
+"un_member": true,
+"languages": [
+"القيرغيزية",
+"الروسية"
+]
 },
 {
 "iso": "CPV",
@@ -3020,7 +3557,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+238",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "KAZ",
@@ -3042,7 +3582,11 @@
 ],
 "landlocked": true,
 "calling": "+7",
-"un_member": true
+"un_member": true,
+"languages": [
+"الكازاخستانية",
+"الروسية"
+]
 },
 {
 "iso": "HRV",
@@ -3064,7 +3608,10 @@
 ],
 "landlocked": false,
 "calling": "+385",
-"un_member": true
+"un_member": true,
+"languages": [
+"الكرواتية"
+]
 },
 {
 "iso": "KHM",
@@ -3084,7 +3631,10 @@
 ],
 "landlocked": false,
 "calling": "+855",
-"un_member": true
+"un_member": true,
+"languages": [
+"الخميرية"
+]
 },
 {
 "iso": "CAN",
@@ -3102,7 +3652,11 @@
 ],
 "landlocked": false,
 "calling": "+1",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفرنسية"
+]
 },
 {
 "iso": "CUB",
@@ -3118,7 +3672,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+53",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "KOR",
@@ -3136,7 +3693,10 @@
 ],
 "landlocked": false,
 "calling": "+82",
-"un_member": true
+"un_member": true,
+"languages": [
+"الكورية"
+]
 },
 {
 "iso": "PRK",
@@ -3156,7 +3716,10 @@
 ],
 "landlocked": false,
 "calling": "+850",
-"un_member": true
+"un_member": true,
+"languages": [
+"الكورية"
+]
 },
 {
 "iso": "CRI",
@@ -3175,7 +3738,10 @@
 ],
 "landlocked": false,
 "calling": "+506",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "COL",
@@ -3197,7 +3763,10 @@
 ],
 "landlocked": false,
 "calling": "+57",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "KIR",
@@ -3213,7 +3782,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+686",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"لغة أهل جبل طارق"
+]
 },
 {
 "iso": "KEN",
@@ -3235,7 +3808,11 @@
 ],
 "landlocked": false,
 "calling": "+254",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"السواحلية"
+]
 },
 {
 "iso": "LVA",
@@ -3256,7 +3833,10 @@
 ],
 "landlocked": false,
 "calling": "+371",
-"un_member": true
+"un_member": true,
+"languages": [
+"اللاتفية"
+]
 },
 {
 "iso": "LAO",
@@ -3278,7 +3858,10 @@
 ],
 "landlocked": true,
 "calling": "+856",
-"un_member": true
+"un_member": true,
+"languages": [
+"اللاوية"
+]
 },
 {
 "iso": "LBN",
@@ -3297,7 +3880,11 @@
 ],
 "landlocked": false,
 "calling": "+961",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية",
+"الفرنسية"
+]
 },
 {
 "iso": "LUX",
@@ -3317,7 +3904,12 @@
 ],
 "landlocked": true,
 "calling": "+352",
-"un_member": true
+"un_member": true,
+"languages": [
+"الألمانية",
+"الفرنسية",
+"اللكسمبورغية"
+]
 },
 {
 "iso": "LBY",
@@ -3340,7 +3932,10 @@
 ],
 "landlocked": false,
 "calling": "+218",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "LBR",
@@ -3360,7 +3955,10 @@
 ],
 "landlocked": false,
 "calling": "+231",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "LTU",
@@ -3381,7 +3979,10 @@
 ],
 "landlocked": false,
 "calling": "+370",
-"un_member": true
+"un_member": true,
+"languages": [
+"الليتوانية"
+]
 },
 {
 "iso": "LIE",
@@ -3400,7 +4001,10 @@
 ],
 "landlocked": true,
 "calling": "+423",
-"un_member": true
+"un_member": true,
+"languages": [
+"الألمانية"
+]
 },
 {
 "iso": "LSO",
@@ -3418,7 +4022,11 @@
 ],
 "landlocked": true,
 "calling": "+266",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"السوتو الجنوبية"
+]
 },
 {
 "iso": "MWI",
@@ -3438,7 +4046,11 @@
 ],
 "landlocked": true,
 "calling": "+265",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"النيانجا"
+]
 },
 {
 "iso": "MLT",
@@ -3454,7 +4066,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+356",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"المالطية"
+]
 },
 {
 "iso": "MLI",
@@ -3478,7 +4094,10 @@
 ],
 "landlocked": true,
 "calling": "+223",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "MYS",
@@ -3498,7 +4117,11 @@
 ],
 "landlocked": false,
 "calling": "+60",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الماليزية"
+]
 },
 {
 "iso": "MDG",
@@ -3514,7 +4137,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+261",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الملغاشي"
+]
 },
 {
 "iso": "VAT",
@@ -3532,7 +4159,11 @@
 ],
 "landlocked": true,
 "calling": "+3",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإيطالية",
+"اللاتينية"
+]
 },
 {
 "iso": "EGY",
@@ -3552,7 +4183,10 @@
 ],
 "landlocked": false,
 "calling": "+20",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "MNG",
@@ -3571,7 +4205,10 @@
 ],
 "landlocked": true,
 "calling": "+976",
-"un_member": true
+"un_member": true,
+"languages": [
+"المنغولية"
+]
 },
 {
 "iso": "MRT",
@@ -3591,7 +4228,10 @@
 ],
 "landlocked": false,
 "calling": "+222",
-"un_member": true
+"un_member": true,
+"languages": [
+"العربية"
+]
 },
 {
 "iso": "MUS",
@@ -3607,7 +4247,12 @@
 "borders": [],
 "landlocked": false,
 "calling": "+230",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الفرنسية",
+"المورسيانية"
+]
 },
 {
 "iso": "MOZ",
@@ -3630,7 +4275,10 @@
 ],
 "landlocked": false,
 "calling": "+258",
-"un_member": true
+"un_member": true,
+"languages": [
+"البرتغالية"
+]
 },
 {
 "iso": "MDA",
@@ -3649,7 +4297,10 @@
 ],
 "landlocked": true,
 "calling": "+373",
-"un_member": true
+"un_member": true,
+"languages": [
+"الرومانية"
+]
 },
 {
 "iso": "MCO",
@@ -3667,7 +4318,10 @@
 ],
 "landlocked": false,
 "calling": "+377",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية"
+]
 },
 {
 "iso": "MMR",
@@ -3689,7 +4343,10 @@
 ],
 "landlocked": false,
 "calling": "+95",
-"un_member": true
+"un_member": true,
+"languages": [
+"البورمية"
+]
 },
 {
 "iso": "FSM",
@@ -3705,7 +4362,10 @@
 "borders": [],
 "landlocked": false,
 "calling": "+691",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "NAM",
@@ -3726,7 +4386,16 @@
 ],
 "landlocked": false,
 "calling": "+264",
-"un_member": true
+"un_member": true,
+"languages": [
+"الأفريقانية",
+"الألمانية",
+"الإنجليزية",
+"الهيريرو",
+"اللوزي",
+"الندونجا",
+"التسوانية"
+]
 },
 {
 "iso": "NRU",
@@ -3742,7 +4411,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+674",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"النورو"
+]
 },
 {
 "iso": "NPL",
@@ -3761,7 +4434,10 @@
 ],
 "landlocked": true,
 "calling": "+977",
-"un_member": true
+"un_member": true,
+"languages": [
+"النيبالية"
+]
 },
 {
 "iso": "NGA",
@@ -3782,7 +4458,10 @@
 ],
 "landlocked": false,
 "calling": "+234",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية"
+]
 },
 {
 "iso": "NIC",
@@ -3801,7 +4480,10 @@
 ],
 "landlocked": false,
 "calling": "+505",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "NZL",
@@ -3817,7 +4499,11 @@
 "borders": [],
 "landlocked": false,
 "calling": "+64",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإنجليزية",
+"الماورية"
+]
 },
 {
 "iso": "HTI",
@@ -3835,7 +4521,11 @@
 ],
 "landlocked": false,
 "calling": "+509",
-"un_member": true
+"un_member": true,
+"languages": [
+"الفرنسية",
+"الكريولية الهايتية"
+]
 },
 {
 "iso": "HND",
@@ -3855,7 +4545,10 @@
 ],
 "landlocked": false,
 "calling": "+504",
-"un_member": true
+"un_member": true,
+"languages": [
+"الإسبانية"
+]
 },
 {
 "iso": "NLD",
@@ -3874,7 +4567,10 @@
 ],
 "landlocked": false,
 "calling": "+31",
-"un_member": true
+"un_member": true,
+"languages": [
+"الهولندية"
+]
 }
 ]
 }

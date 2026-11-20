@@ -172,3 +172,21 @@ Sentence bank (resources/sentences):
 
 Audio chess (chess_game.py, thirdparty/sunfish):
   The sunfish chess engine by Thomas Dybdahl Ahle and contributors (https://github.com/thomasahle/sunfish), GPL-3.0, bundled unchanged. The Arabic move descriptions, board reading and the screen were written for this application.
+
+Symbolic maths lab (math_lab.py):
+  SymPy (https://www.sympy.org), BSD licence, with mpmath (BSD), installed as a package in the portable build. The Arabic reading of expressions and the screen were written for this application.
+
+French, Spanish and Italian conjugation (verb_tables.py, resources/verbs):
+  Verb lists and conjugation templates from verbecc by Brett Tolbert (https://github.com/bretttolbert/verbecc), LGPL-3.0, based on Verbiste by Pierre Sarrazin (http://sarrazip.com), GPL-2.0-or-later; converted to JSON by devtools/content/build_verbs.py.
+
+English irregular verbs and plurals (english_irregulars.py, resources/english):
+  From the inflection table of LemmInflect by Brad Jascob (https://github.com/bjascob/LemmInflect), MIT, derived from the AGID inflection database by Kevin Atkinson.
+
+Solar system (science/solar_system.py, resources/science/solar_system.json):
+  Figures from Wikidata (https://www.wikidata.org), CC0.
+
+Official languages in the atlas:
+  Language codes from mledoze/countries (ODbL-1.0) with the Arabic language names of the Unicode CLDR (https://cldr.unicode.org), Unicode licence.
+
+Qur'an translations (resources/quran/ed_es.cortes, de.bubenheim, it.piccardo, tr.diyanet):
+  As published by the alquran.cloud catalogue (Tanzil translations), for personal, non-commercial use as Tanzil asks.

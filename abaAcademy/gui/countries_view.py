@@ -17,7 +17,8 @@ from .tool_base import ChoiceQuiz, ToolDialog
 
 REGIONS = ["كل الدول", "الدول العربية", "أفريقيا", "آسيا", "أوروبا", "الأمريكتان", "أوقيانوسيا"]
 QUIZZES = [("منوّع", None), ("العواصم", "capital"), ("عاصمة أيّ دولة", "country_of_capital"),
-           ("العملات", "currency"), ("الموقع", "region"), ("الجيران", "neighbour"), ("عدد السكان", "bigger")]
+           ("العملات", "currency"), ("الموقع", "region"), ("الجيران", "neighbour"), ("عدد السكان", "bigger"),
+           ("اللغات الرسمية", "language")]
 
 
 class CountriesDialog(ToolDialog):

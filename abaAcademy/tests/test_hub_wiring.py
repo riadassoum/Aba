@@ -59,7 +59,7 @@ class TestHubWiring(unittest.TestCase):
         for cid in course_ids():
             self.assertTrue(os.path.isfile(os.path.join(courses, cid, "course.json")), cid)
         for tab in CATALOG:
-            self.assertLessEqual(len(tab.features), 12, tab.title)
+            self.assertLessEqual(len(tab.features), 16, tab.title)
             for f in tab.features:
                 self.assertTrue(f.description.endswith("."), f.label)
                 self.assertLessEqual(len(f.label), 30, f.label)

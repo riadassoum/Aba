@@ -1,0 +1,1196 @@
+{
+"source": "LemmInflect (MIT) / AGID",
+"verbs": [
+{
+"base": "have",
+"past": "had",
+"part": "had",
+"f": 3003
+},
+{
+"base": "do",
+"past": "did",
+"part": "done",
+"f": 2799
+},
+{
+"base": "go",
+"past": "went",
+"part": "gone",
+"f": 1246
+},
+{
+"base": "come",
+"past": "came",
+"part": "come",
+"f": 1236
+},
+{
+"base": "get",
+"past": "got",
+"part": "got أو gotten",
+"f": 1176
+},
+{
+"base": "know",
+"past": "knew",
+"part": "known",
+"f": 993
+},
+{
+"base": "tell",
+"past": "told",
+"part": "told",
+"f": 835
+},
+{
+"base": "leave",
+"past": "left",
+"part": "left",
+"f": 755
+},
+{
+"base": "see",
+"past": "saw",
+"part": "seen",
+"f": 728
+},
+{
+"base": "make",
+"past": "made",
+"part": "made",
+"f": 713
+},
+{
+"base": "say",
+"past": "said",
+"part": "said",
+"f": 695
+},
+{
+"base": "take",
+"past": "took",
+"part": "taken",
+"f": 645
+},
+{
+"base": "read",
+"past": "read",
+"part": "read",
+"f": 603
+},
+{
+"base": "find",
+"past": "found",
+"part": "found",
+"f": 568
+},
+{
+"base": "think",
+"past": "thought",
+"part": "thought",
+"f": 558
+},
+{
+"base": "let",
+"past": "let",
+"part": "let",
+"f": 552
+},
+{
+"base": "hear",
+"past": "heard",
+"part": "heard",
+"f": 526
+},
+{
+"base": "lose",
+"past": "lost",
+"part": "lost",
+"f": 421
+},
+{
+"base": "buy",
+"past": "bought",
+"part": "bought",
+"f": 395
+},
+{
+"base": "give",
+"past": "gave",
+"part": "given",
+"f": 393
+},
+{
+"base": "put",
+"past": "put",
+"part": "put",
+"f": 387
+},
+{
+"base": "meet",
+"past": "met",
+"part": "met",
+"f": 357
+},
+{
+"base": "eat",
+"past": "ate",
+"part": "eaten",
+"f": 348
+},
+{
+"base": "keep",
+"past": "kept",
+"part": "kept",
+"f": 329
+},
+{
+"base": "speak",
+"past": "spoke",
+"part": "spoken",
+"f": 329
+},
+{
+"base": "become",
+"past": "became",
+"part": "become",
+"f": 302
+},
+{
+"base": "feel",
+"past": "felt",
+"part": "felt",
+"f": 293
+},
+{
+"base": "forget",
+"past": "forgot",
+"part": "forgotten",
+"f": 282
+},
+{
+"base": "hurt",
+"past": "hurt",
+"part": "hurt",
+"f": 234
+},
+{
+"base": "run",
+"past": "ran",
+"part": "ran",
+"f": 231
+},
+{
+"base": "learn",
+"past": "learned أو learnt",
+"part": "learnt",
+"f": 225
+},
+{
+"base": "sleep",
+"past": "slept",
+"part": "slept",
+"f": 222
+},
+{
+"base": "bring",
+"past": "brought",
+"part": "brought",
+"f": 203
+},
+{
+"base": "hit",
+"past": "hit",
+"part": "hit",
+"f": 201
+},
+{
+"base": "write",
+"past": "wrote",
+"part": "written",
+"f": 200
+},
+{
+"base": "stay",
+"past": "stayed أو staid",
+"part": "staid",
+"f": 194
+},
+{
+"base": "understand",
+"past": "understood",
+"part": "understood",
+"f": 175
+},
+{
+"base": "spend",
+"past": "spent",
+"part": "spent",
+"f": 174
+},
+{
+"base": "pay",
+"past": "paid أو payed",
+"part": "paid",
+"f": 168
+},
+{
+"base": "sit",
+"past": "sat",
+"part": "sat",
+"f": 167
+},
+{
+"base": "shoot",
+"past": "shot",
+"part": "shot",
+"f": 166
+},
+{
+"base": "send",
+"past": "sent",
+"part": "sent",
+"f": 162
+},
+{
+"base": "catch",
+"past": "caught",
+"part": "caught",
+"f": 156
+},
+{
+"base": "win",
+"past": "won",
+"part": "won",
+"f": 150
+},
+{
+"base": "cut",
+"past": "cut",
+"part": "cut",
+"f": 147
+},
+{
+"base": "set",
+"past": "set",
+"part": "set",
+"f": 147
+},
+{
+"base": "drive",
+"past": "drove",
+"part": "driven",
+"f": 138
+},
+{
+"base": "break",
+"past": "broke",
+"part": "broken",
+"f": 121
+},
+{
+"base": "shut",
+"past": "shut",
+"part": "shut",
+"f": 120
+},
+{
+"base": "drink",
+"past": "drank",
+"part": "drunk",
+"f": 112
+},
+{
+"base": "show",
+"past": "showed",
+"part": "shown",
+"f": 108
+},
+{
+"base": "teach",
+"past": "taught",
+"part": "taught",
+"f": 104
+},
+{
+"base": "fall",
+"past": "fell",
+"part": "fallen",
+"f": 103
+},
+{
+"base": "fight",
+"past": "fought",
+"part": "fought",
+"f": 97
+},
+{
+"base": "stand",
+"past": "stood",
+"part": "stood",
+"f": 97
+},
+{
+"base": "begin",
+"past": "began",
+"part": "begun",
+"f": 96
+},
+{
+"base": "sell",
+"past": "sold",
+"part": "sold",
+"f": 96
+},
+{
+"base": "steal",
+"past": "stole",
+"part": "stolen",
+"f": 96
+},
+{
+"base": "bear",
+"past": "bore",
+"part": "born أو borne",
+"f": 94
+},
+{
+"base": "mean",
+"past": "meant",
+"part": "meant",
+"f": 93
+},
+{
+"base": "build",
+"past": "built",
+"part": "built",
+"f": 82
+},
+{
+"base": "swim",
+"past": "swam",
+"part": "swum",
+"f": 79
+},
+{
+"base": "mistake",
+"past": "mistook",
+"part": "mistaken",
+"f": 78
+},
+{
+"base": "throw",
+"past": "threw",
+"part": "thrown",
+"f": 75
+},
+{
+"base": "light",
+"past": "lit أو lighted",
+"part": "lit",
+"f": 72
+},
+{
+"base": "grow",
+"past": "grew",
+"part": "grown",
+"f": 66
+},
+{
+"base": "cost",
+"past": "cost أو costed",
+"part": "cost",
+"f": 63
+},
+{
+"base": "forgive",
+"past": "forgave",
+"part": "forgiven",
+"f": 58
+},
+{
+"base": "wear",
+"past": "wore",
+"part": "worn",
+"f": 58
+},
+{
+"base": "hold",
+"past": "held",
+"part": "held",
+"f": 51
+},
+{
+"base": "lie",
+"past": "lay أو lied",
+"part": "lain",
+"f": 50
+},
+{
+"base": "lead",
+"past": "led",
+"part": "led",
+"f": 47
+},
+{
+"base": "bite",
+"past": "bit",
+"part": "bitten",
+"f": 46
+},
+{
+"base": "ride",
+"past": "rode",
+"part": "ridden",
+"f": 46
+},
+{
+"base": "wake",
+"past": "woke أو waked",
+"part": "waked أو woken",
+"f": 46
+},
+{
+"base": "dream",
+"past": "dreamed أو dreamt",
+"part": "dreamt",
+"f": 43
+},
+{
+"base": "flee",
+"past": "fled",
+"part": "fled",
+"f": 42
+},
+{
+"base": "choose",
+"past": "chose",
+"part": "chosen",
+"f": 40
+},
+{
+"base": "ring",
+"past": "rang",
+"part": "rung",
+"f": 40
+},
+{
+"base": "hide",
+"past": "hid",
+"part": "hidden",
+"f": 39
+},
+{
+"base": "lend",
+"past": "lent",
+"part": "lent",
+"f": 38
+},
+{
+"base": "smell",
+"past": "smelled أو smelt",
+"part": "smelt",
+"f": 35
+},
+{
+"base": "fly",
+"past": "flew أو flied",
+"part": "flown",
+"f": 33
+},
+{
+"base": "hang",
+"past": "hung أو hanged",
+"part": "hung",
+"f": 31
+},
+{
+"base": "burn",
+"past": "burned أو burnt",
+"part": "burnt",
+"f": 30
+},
+{
+"base": "grind",
+"past": "ground أو grinded",
+"part": "ground",
+"f": 28
+},
+{
+"base": "spring",
+"past": "sprang أو sprung",
+"part": "sprung",
+"f": 25
+},
+{
+"base": "stick",
+"past": "stuck",
+"part": "stuck",
+"f": 25
+},
+{
+"base": "traffic",
+"past": "trafficked",
+"part": "trafficked",
+"f": 25
+},
+{
+"base": "deal",
+"past": "dealt",
+"part": "dealt",
+"f": 24
+},
+{
+"base": "wind",
+"past": "wound أو winded",
+"part": "wound",
+"f": 23
+},
+{
+"base": "rend",
+"past": "rent",
+"part": "rent",
+"f": 22
+},
+{
+"base": "strike",
+"past": "struck",
+"part": "struck أو stricken",
+"f": 20
+},
+{
+"base": "draw",
+"past": "drew",
+"part": "drawn",
+"f": 19
+},
+{
+"base": "shake",
+"past": "shook",
+"part": "shaken",
+"f": 18
+},
+{
+"base": "panic",
+"past": "panicked",
+"part": "panicked",
+"f": 17
+},
+{
+"base": "dig",
+"past": "dug",
+"part": "dug",
+"f": 16
+},
+{
+"base": "swear",
+"past": "swore",
+"part": "sworn",
+"f": 16
+},
+{
+"base": "fee",
+"past": "fee'd أو feed",
+"part": "feed أو fee'd",
+"f": 14
+},
+{
+"base": "freeze",
+"past": "froze",
+"part": "frozen",
+"f": 14
+},
+{
+"base": "mislead",
+"past": "misled",
+"part": "misled",
+"f": 14
+},
+{
+"base": "speed",
+"past": "sped أو speeded",
+"part": "sped",
+"f": 14
+},
+{
+"base": "prove",
+"past": "proved",
+"part": "proven",
+"f": 13
+},
+{
+"base": "bless",
+"past": "blessed أو blest",
+"part": "blest",
+"f": 12
+},
+{
+"base": "weep",
+"past": "wept",
+"part": "wept",
+"f": 11
+},
+{
+"base": "overhear",
+"past": "overheard",
+"part": "overheard",
+"f": 10
+},
+{
+"base": "rise",
+"past": "rose",
+"part": "risen",
+"f": 10
+},
+{
+"base": "sting",
+"past": "stung",
+"part": "stung",
+"f": 10
+},
+{
+"base": "tear",
+"past": "tore أو teared",
+"part": "torn",
+"f": 10
+},
+{
+"base": "awake",
+"past": "awoke",
+"part": "awoken",
+"f": 9
+},
+{
+"base": "seek",
+"past": "sought",
+"part": "sought",
+"f": 9
+},
+{
+"base": "ski",
+"past": "skied أو ski'd",
+"part": "ski'd",
+"f": 9
+},
+{
+"base": "sweep",
+"past": "swept",
+"part": "swept",
+"f": 9
+},
+{
+"base": "rewrite",
+"past": "rewrote أو re-wrote",
+"part": "rewritten أو re-written",
+"f": 8
+},
+{
+"base": "rebuild",
+"past": "rebuilt أو re-built",
+"part": "rebuilt أو re-built",
+"f": 7
+},
+{
+"base": "slide",
+"past": "slid",
+"part": "slid",
+"f": 7
+},
+{
+"base": "spill",
+"past": "spilled أو spilt",
+"part": "spilt",
+"f": 7
+},
+{
+"base": "lean",
+"past": "leaned أو leant",
+"part": "leant",
+"f": 6
+},
+{
+"base": "okay",
+"past": "okayed أو O.K.'d أو OK'd",
+"part": "O.K.'d أو OK'd",
+"f": 6
+},
+{
+"base": "shave",
+"past": "shaved",
+"part": "shaven",
+"f": 6
+},
+{
+"base": "withdraw",
+"past": "withdrew",
+"part": "withdrawn",
+"f": 6
+},
+{
+"base": "withhold",
+"past": "withheld",
+"part": "withheld",
+"f": 6
+},
+{
+"base": "blow",
+"past": "blew",
+"part": "blown",
+"f": 5
+},
+{
+"base": "forbid",
+"past": "forbade أو forbad",
+"part": "forbidden أو forbid",
+"f": 5
+},
+{
+"base": "picnic",
+"past": "picnicked",
+"part": "picnicked",
+"f": 5
+},
+{
+"base": "shoe",
+"past": "shoed أو shod",
+"part": "shod",
+"f": 5
+},
+{
+"base": "sink",
+"past": "sank",
+"part": "sunk",
+"f": 5
+},
+{
+"base": "stink",
+"past": "stank",
+"part": "stunk",
+"f": 5
+},
+{
+"base": "bleed",
+"past": "bled",
+"part": "bled",
+"f": 4
+},
+{
+"base": "breed",
+"past": "bred",
+"part": "bred",
+"f": 4
+},
+{
+"base": "cling",
+"past": "clung",
+"part": "clung",
+"f": 4
+},
+{
+"base": "creep",
+"past": "crept",
+"part": "crept",
+"f": 4
+},
+{
+"base": "leap",
+"past": "leaped أو leapt",
+"part": "leapt",
+"f": 4
+},
+{
+"base": "misunderstand",
+"past": "misunderstood",
+"part": "misunderstood",
+"f": 4
+},
+{
+"base": "outrun",
+"past": "outran",
+"part": "outrun",
+"f": 4
+},
+{
+"base": "spell",
+"past": "spelled أو spelt",
+"part": "spelt",
+"f": 4
+},
+{
+"base": "spoil",
+"past": "spoiled أو spoilt",
+"part": "spoilt",
+"f": 4
+},
+{
+"base": "bend",
+"past": "bent أو bended",
+"part": "bent",
+"f": 3
+},
+{
+"base": "overcome",
+"past": "overcame أو over-came",
+"part": "overcome أو over-came",
+"f": 3
+},
+{
+"base": "sew",
+"past": "sewed",
+"part": "sewn",
+"f": 3
+},
+{
+"base": "sow",
+"past": "sowed",
+"part": "sown",
+"f": 3
+},
+{
+"base": "undergo",
+"past": "underwent أو under went أو under-went",
+"part": "undergone أو under gone أو under-gone",
+"f": 3
+},
+{
+"base": "weave",
+"past": "weaved أو wove",
+"part": "woven",
+"f": 3
+},
+{
+"base": "fling",
+"past": "flung",
+"part": "flung",
+"f": 2
+},
+{
+"base": "mow",
+"past": "mowed أو mown",
+"part": "mown",
+"f": 2
+},
+{
+"base": "outbreak",
+"past": "outbroke",
+"part": "outbroken",
+"f": 2
+},
+{
+"base": "oversleep",
+"past": "overslept",
+"part": "overslept",
+"f": 2
+},
+{
+"base": "prepay",
+"past": "prepaid أو pre-paid",
+"part": "prepaid أو pre-paid",
+"f": 2
+},
+{
+"base": "babysit",
+"past": "baby-sat أو babysat",
+"part": "baby-sat أو babysat",
+"f": 1
+},
+{
+"base": "bind",
+"past": "bound",
+"part": "bound",
+"f": 1
+},
+{
+"base": "blend",
+"past": "blended أو blent",
+"part": "blent",
+"f": 1
+},
+{
+"base": "dwell",
+"past": "dwelt أو dwelled",
+"part": "dwelt",
+"f": 1
+},
+{
+"base": "foresee",
+"past": "foresaw",
+"part": "foreseen",
+"f": 1
+},
+{
+"base": "heave",
+"past": "heaved أو hove",
+"part": "hove",
+"f": 1
+},
+{
+"base": "kneel",
+"past": "knelt أو kneeled",
+"part": "knelt",
+"f": 1
+},
+{
+"base": "misspell",
+"past": "misspelled أو misspelt",
+"part": "misspelt",
+"f": 1
+},
+{
+"base": "overthrow",
+"past": "overthrew",
+"part": "overthrown",
+"f": 1
+},
+{
+"base": "repay",
+"past": "repaid",
+"part": "repaid",
+"f": 1
+},
+{
+"base": "smite",
+"past": "smote",
+"part": "smitten",
+"f": 1
+}
+],
+"nouns": [
+{
+"sing": "life",
+"pl": "lives",
+"f": 768
+},
+{
+"sing": "man",
+"pl": "men",
+"f": 252
+},
+{
+"sing": "child",
+"pl": "children",
+"f": 220
+},
+{
+"sing": "woman",
+"pl": "women",
+"f": 197
+},
+{
+"sing": "wife",
+"pl": "wives",
+"f": 113
+},
+{
+"sing": "tooth",
+"pl": "teeth",
+"f": 41
+},
+{
+"sing": "foot",
+"pl": "feet",
+"f": 32
+},
+{
+"sing": "knife",
+"pl": "knives",
+"f": 30
+},
+{
+"sing": "leaf",
+"pl": "leaves",
+"f": 29
+},
+{
+"sing": "half",
+"pl": "halves",
+"f": 28
+},
+{
+"sing": "policeman",
+"pl": "policemen",
+"f": 25
+},
+{
+"sing": "wolf",
+"pl": "wolves",
+"f": 15
+},
+{
+"sing": "mouse",
+"pl": "mice",
+"f": 8
+},
+{
+"sing": "self",
+"pl": "selves",
+"f": 8
+},
+{
+"sing": "gentleman",
+"pl": "gentlemen",
+"f": 5
+},
+{
+"sing": "medium",
+"pl": "media",
+"f": 4
+},
+{
+"sing": "phenomenon",
+"pl": "phenomena",
+"f": 4
+},
+{
+"sing": "shelf",
+"pl": "shelves",
+"f": 4
+},
+{
+"sing": "thief",
+"pl": "thieves",
+"f": 4
+},
+{
+"sing": "beef",
+"pl": "beeves",
+"f": 3
+},
+{
+"sing": "businessman",
+"pl": "businessmen",
+"f": 3
+},
+{
+"sing": "scarf",
+"pl": "scarves",
+"f": 3
+},
+{
+"sing": "via",
+"pl": "viae",
+"f": 3
+},
+{
+"sing": "chairman",
+"pl": "chairmen",
+"f": 2
+},
+{
+"sing": "datum",
+"pl": "data",
+"f": 2
+},
+{
+"sing": "freshman",
+"pl": "freshmen",
+"f": 2
+},
+{
+"sing": "goose",
+"pl": "geese",
+"f": 2
+},
+{
+"sing": "housewife",
+"pl": "housewives",
+"f": 2
+},
+{
+"sing": "larva",
+"pl": "larvae",
+"f": 2
+},
+{
+"sing": "policewoman",
+"pl": "policewomen",
+"f": 2
+},
+{
+"sing": "quiz",
+"pl": "quizzes",
+"f": 2
+},
+{
+"sing": "snowman",
+"pl": "snowmen",
+"f": 2
+},
+{
+"sing": "bacterium",
+"pl": "bacteria",
+"f": 1
+},
+{
+"sing": "cattleman",
+"pl": "cattlemen",
+"f": 1
+},
+{
+"sing": "craftsman",
+"pl": "craftsmen",
+"f": 1
+},
+{
+"sing": "doorman",
+"pl": "doormen",
+"f": 1
+},
+{
+"sing": "fisherman",
+"pl": "fishermen",
+"f": 1
+},
+{
+"sing": "graffito",
+"pl": "graffiti",
+"f": 1
+},
+{
+"sing": "grandchild",
+"pl": "grandchildren",
+"f": 1
+},
+{
+"sing": "handyman",
+"pl": "handymen",
+"f": 1
+},
+{
+"sing": "passerby",
+"pl": "passersby",
+"f": 1
+},
+{
+"sing": "pneumonia",
+"pl": "pneumoniae",
+"f": 1
+},
+{
+"sing": "pocketknife",
+"pl": "pocketknives",
+"f": 1
+},
+{
+"sing": "postman",
+"pl": "postmen",
+"f": 1
+},
+{
+"sing": "salesman",
+"pl": "salesmen",
+"f": 1
+},
+{
+"sing": "superman",
+"pl": "supermen",
+"f": 1
+},
+{
+"sing": "werewolf",
+"pl": "werewolves",
+"f": 1
+}
+]
+}

@@ -119,7 +119,7 @@ def test_catalog_is_organised():
     titles = [t.title for t in CATALOG]
     assert len(titles) == len(set(titles)) and len(titles) >= 12
     for tab in CATALOG:
-        assert 2 <= len(tab.features) <= 12, tab.title
+        assert 2 <= len(tab.features) <= 16, tab.title  # one menu each in the menu bar
     labels = [f.label for f in all_features()]
     assert len(labels) == len(set(labels))
     assert {"spanish", "turkish", "german", "italian", "english_graded", "french_graded"} <= set(course_ids())

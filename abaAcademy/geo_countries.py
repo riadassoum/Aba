@@ -55,6 +55,8 @@ def describe(c: dict) -> str:
         lines.append("المنطقة: " + c["region"] + (f"، {c['subregion']}" if c.get("subregion") else ""))
     if c.get("currency"):
         lines.append("العملة: " + c["currency"])
+    if c.get("languages"):
+        lines.append(("اللغات الرسمية: " if len(c["languages"]) > 1 else "اللغة الرسمية: ") + "، ".join(c["languages"]))
     if c.get("population"):
         lines.append("عدد السكان: نحو " + _num(c["population"]) + " نسمة")
     if c.get("area"):
@@ -87,7 +89,7 @@ class Question:
     explanation: str
 
 
-KINDS = ["capital", "country_of_capital", "currency", "region", "neighbour", "bigger"]
+KINDS = ["capital", "country_of_capital", "currency", "region", "neighbour", "bigger", "language"]
 
 
 def make_question(countries: List[dict], kind: Optional[str] = None, region: Optional[str] = None,
@@ -146,6 +148,21 @@ def make_question(countries: List[dict], kind: Optional[str] = None, region: Opt
             rng.shuffle(opts)
             return Question(f"أيّ هذه الدول تحدّ {c['name']}؟", opts, right,
                             f"جيران {c['name']}: " + "، ".join(c["borders"]) + ".")
+        if kind == "language" and c.get("languages"):
+            right = c["languages"][0]
+            wrong = []
+            for x in others:
+                for lg in x.get("languages", []):
+                    if lg not in c["languages"] and lg not in wrong:
+                        wrong.append(lg)
+                if len(wrong) >= 3:
+                    break
+            if len(wrong) < 3:
+                continue
+            opts = wrong[:3] + [right]
+            rng.shuffle(opts)
+            return Question(f"أيّ هذه اللغات رسمية في {c['name']}؟", opts, right,
+                            f"اللغات الرسمية في {c['name']}: " + "، ".join(c["languages"]) + ".")
         if kind == "bigger" and c.get("population"):
             rivals = [x for x in others if x.get("population") and abs(x["population"] - c["population"]) > 0.2 * c["population"]][:1]
             if not rivals:

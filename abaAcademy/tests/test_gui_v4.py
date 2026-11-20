@@ -284,6 +284,40 @@ class TestV4Screens(unittest.TestCase):
             d.Destroy()
             pump()
 
+    def test_more_screens(self):
+        from abaAcademy.gui.verb_tables_view import VerbTablesDialog
+        from abaAcademy.gui.solar_system_view import SolarSystemDialog
+        from abaAcademy.gui.english_irregulars_view import EnglishIrregularsDialog
+        from abaAcademy.gui.math_lab_view import MathLabDialog
+        d, sp = self._open(VerbTablesDialog)
+        try:
+            d.verb.SetValue("parler")
+            d._show()
+            self.assertIn("je parle", d.out.GetValue())
+            d.langChoice.SetSelection(1)
+            d._lang_changed()
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        for cls in (SolarSystemDialog, EnglishIrregularsDialog):
+            d, sp = self._open(cls)
+            try:
+                d.list.SetSelection(2)
+                d._show()
+                self.assertTrue(d.out.GetValue())
+                d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+                self.assertEqual(d.quiz.total, 1)
+            finally:
+                d.Destroy(); pump()
+        d, sp = self._open(MathLabDialog)
+        try:
+            d.expr.SetValue("س^2 = 9")
+            d._auto()
+            self.assertIn("س = -3", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+
 
 if __name__ == "__main__":
     unittest.main()

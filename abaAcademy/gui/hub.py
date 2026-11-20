@@ -280,6 +280,22 @@ class HubDialog(AccessibleFrame):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_math_lab(self, evt):
+        from .math_lab_view import MathLabDialog
+        self.show_child(MathLabDialog(self, self.academy, self.speech))
+
+    def _open_irregulars(self, evt):
+        from .english_irregulars_view import EnglishIrregularsDialog
+        self.show_child(EnglishIrregularsDialog(self, self.academy, self.speech))
+
+    def _open_solar_system(self, evt):
+        from .solar_system_view import SolarSystemDialog
+        self.show_child(SolarSystemDialog(self, self.academy, self.speech))
+
+    def _open_verb_tables(self, evt):
+        from .verb_tables_view import VerbTablesDialog
+        self.show_child(VerbTablesDialog(self, self.academy, self.speech))
+
     def _open_chess(self, evt):
         from .chess_view import ChessDialog
         self.show_child(ChessDialog(self, self.academy, self.speech))
