@@ -193,3 +193,5 @@ Qur'an translations (resources/quran/ed_es.cortes, de.bubenheim, it.piccardo, tr
 
 Automatic diacritizer (arabic_lab/diacritizer.py, thirdparty/):
   Mishkal by Taha Zerrouki (https://github.com/linuxscout/mishkal), GPL, with Qalsadi, Asmai, Arramooz, Maskouk, Sylajone, Naftawayh, Tashaphyne, Alyahmor, Mysam and Arabic-Stopwords by the same author (GPL), pickledb (BSD), aiofiles and codernitydb3 (Apache-2.0) and six (MIT), bundled unchanged (see thirdparty/README.txt); orjson (Apache-2.0/MIT) is installed in the portable build.
+  The word analyser uses Qalsadi and the collocations dictionary uses the Maskouk data, both by Taha Zerrouki (GPL), bundled with Mishkal above.
+  The English pronunciation guide uses data from the CMU Pronouncing Dictionary, Copyright (C) 1993-2015 Carnegie Mellon University (BSD-style licence, https://github.com/cmusphinx/cmudict); the licence is in resources/english/CMUDICT-LICENSE.txt.

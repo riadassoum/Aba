@@ -106,6 +106,8 @@ def speak(e) -> str:
         return "هـ"
     if e is sp.oo:
         return "ما لا نهاية"
+    if e is sp.S.NegativeInfinity:
+        return "سالب ما لا نهاية"
     if e is sp.zoo or e is sp.nan:
         return "غير معرّف"
     if isinstance(e, sp.Eq):
@@ -168,7 +170,7 @@ def written(e) -> str:
     for en, ar in SPOKEN_VARS.items():
         s = re.sub(rf"\b{en}\b", ar, s)
     for en, ar in (("asin", "جا⁻¹"), ("acos", "جتا⁻¹"), ("atan", "ظا⁻¹"), ("sin", "جا"), ("cos", "جتا"),
-                   ("tan", "ظا"), ("log", "لو"), ("exp", "هـ^"), ("pi", "π")):
+                   ("tan", "ظا"), ("log", "لو"), ("exp", "هـ^"), ("pi", "π"), ("E", "هـ"), ("oo", "∞")):
         s = re.sub(rf"\b{en}\b", ar, s)
     return s.replace("Eq(", "معادلة(")
 
@@ -264,5 +266,152 @@ def limit(text: str, point: str) -> Tuple[str, str]:
     return written(r), f"النهاية عندما يقترب {speak(v[0])} من {speak(p)}: {speak(r)}"
 
 
+def _real_points(sols) -> List:
+    out = []
+    for r in sols:
+        try:
+            if r.is_real:
+                out.append(r)
+        except Exception:
+            pass
+    return sorted(out, key=lambda v: float(v))
+
+
+def study(text: str) -> Tuple[str, str]:
+    """دراسة الدالة: domain hints, intercepts, critical points with their
+    kind, intervals of increase and decrease, inflection points and
+    asymptotes, for a function of one variable."""
+    e = parse(text)
+    if isinstance(e, sp.Eq):
+        e = e.rhs if e.lhs.is_Symbol else e.lhs - e.rhs
+    v = _vars(e)
+    if len(v) != 1:
+        raise MathError("ادرس دالة في متغيّر واحد، مثل س^3 - 3س.")
+    x = v[0]
+    lines: List[str] = []
+    dom = sp.calculus.util.continuous_domain(e, x, sp.S.Reals)
+    if dom != sp.S.Reals:
+        excluded = sp.S.Reals - dom
+        if excluded.is_FiniteSet:
+            lines.append("المجال: كل الأعداد الحقيقية ما عدا " + "، ".join(speak(p) for p in excluded) + ".")
+        else:
+            lines.append(f"المجال: {written(dom)}.")
+    else:
+        lines.append("المجال: كل الأعداد الحقيقية.")
+    try:
+        y0 = e.subs(x, 0)
+        if y0.is_finite and y0.is_real:
+            lines.append(f"تقطع محور الصادات عند {speak(sp.nsimplify(y0))}.")
+    except Exception:
+        pass
+    try:
+        zeros = _real_points(sp.solve(sp.Eq(e, 0), x))
+        if zeros:
+            lines.append("أصفار الدالة (تقطع محور السينات عند): " + "، ".join(speak(z) for z in zeros) + ".")
+        else:
+            lines.append("لا تقطع محور السينات.")
+    except Exception:
+        pass
+    d1 = sp.simplify(sp.diff(e, x))
+    d2 = sp.simplify(sp.diff(d1, x))
+    lines.append(f"المشتقّة الأولى: {speak(d1)}.")
+    try:
+        crit = _real_points(sp.solve(sp.Eq(d1, 0), x))
+    except Exception:
+        crit = []
+    for c in crit:
+        val = sp.simplify(e.subs(x, c))
+        k = d2.subs(x, c)
+        if k.is_positive:
+            kind = "نهاية صغرى محلّية"
+        elif k.is_negative:
+            kind = "نهاية عظمى محلّية"
+        else:
+            kind = "نقطة حرجة (اختبار المشتقّة الثانية لا يحسم)"
+        lines.append(f"{kind} عند {speak(x)} يساوي {speak(c)}، وقيمتها {speak(val)}.")
+    # monotonicity between critical points and excluded points
+    try:
+        cuts = sorted(set([float(c) for c in crit] + [float(p) for p in (sp.S.Reals - dom)
+                                                              if (sp.S.Reals - dom).is_FiniteSet]))
+        edges = [-sp.oo] + [sp.nsimplify(c) for c in cuts] + [sp.oo]
+        parts = []
+        for a, b in zip(edges, edges[1:]):
+            if a == -sp.oo and b == sp.oo:
+                t = 0
+            elif a == -sp.oo:
+                t = b - 1
+            elif b == sp.oo:
+                t = a + 1
+            else:
+                t = (a + b) / 2
+            sl = d1.subs(x, t)
+            if sl.is_real and sl != 0:
+                word = "متزايدة" if sl > 0 else "متناقصة"
+                parts.append(f"{word} من {speak(a)} إلى {speak(b)}")
+        if parts:
+            lines.append("الاطّراد: " + "، و".join(parts) + ".")
+    except Exception:
+        pass
+    try:
+        infl = []
+        for c in _real_points(sp.solve(sp.Eq(d2, 0), x)):
+            left, right = d2.subs(x, c - sp.Rational(1, 1000)), d2.subs(x, c + sp.Rational(1, 1000))
+            if left.is_real and right.is_real and (left > 0) != (right > 0):
+                infl.append(c)
+        if infl:
+            lines.append("نقاط الانعطاف عند " + "، ".join(speak(c) for c in infl) + ".")
+    except Exception:
+        pass
+    try:
+        excl = sp.S.Reals - dom
+        if excl.is_FiniteSet:
+            for p in excl:
+                lim = sp.limit(e, x, p, "+")
+                if lim in (sp.oo, -sp.oo):
+                    lines.append(f"خطّ تقارب رأسي عند {speak(x)} يساوي {speak(p)}.")
+        for side, name in ((sp.oo, "ما لا نهاية"), (-sp.oo, "سالب ما لا نهاية")):
+            lim = sp.limit(e, x, side)
+            if lim.is_finite:
+                lines.append(f"خطّ تقارب أفقي ص يساوي {speak(lim)} عندما يتّجه {speak(x)} إلى {name}.")
+            elif lim in (sp.oo, -sp.oo):
+                m = sp.limit(e / x, x, side)
+                if m.is_finite and m != 0:
+                    c = sp.limit(e - m * x, x, side)
+                    if c.is_finite:
+                        lines.append(f"خطّ تقارب مائل ص يساوي {speak(m * x + c)} عند {name}.")
+                else:
+                    lines.append(f"عندما يتّجه {speak(x)} إلى {name} تتّجه الدالة إلى {speak(lim)}.")
+    except Exception:
+        pass
+    return "\n".join(lines), " ".join(lines)
+
+
+def taylor(text: str, point: str = "0", order: int = 5) -> Tuple[str, str]:
+    e = parse(text)
+    v = _vars(e)
+    if len(v) != 1:
+        raise MathError("متسلسلة تايلور لدالة في متغيّر واحد.")
+    x = v[0]
+    a = parse(point) if point.strip() else sp.Integer(0)
+    r = sp.series(e, x, a, order + 1).removeO()
+    where = "ماكلورين" if a == 0 else f"تايلور حول {speak(a)}"
+    return written(r) + " + ...", f"متسلسلة {where} حتى الرتبة {order}: {speak(r)}، زائد حدود أعلى."
+
+
+def summation(text: str, start: str = "1", end: str = "n") -> Tuple[str, str]:
+    """المجموع من البداية إلى النهاية على المتغيّر ن (أو أوّل متغيّر)."""
+    e = parse(text)
+    v = _vars(e)
+    k = sp.Symbol("k") if sp.Symbol("k") in v else (v[0] if v else sp.Symbol("k"))
+    lo = parse(start) if start.strip() else sp.Integer(1)
+    hi = sp.oo if end.strip() in ("∞", "oo", "مالانهاية") else parse(end or "n")
+    if hi == k:
+        hi = sp.Symbol("n") if k != sp.Symbol("n") else sp.Symbol("m")
+    r = sp.simplify(sp.summation(e, (k, lo, hi)))
+    if r.has(sp.Sum):
+        return "—", "لا أستطيع إيجاد هذا المجموع بصيغة مغلقة."
+    return written(r), f"مجموع {speak(e)} من {speak(k)} يساوي {speak(lo)} إلى {speak(hi)}: {speak(r)}"
+
+
 OPERATIONS = [("احسب", evaluate), ("بسّط", simplify), ("فُكّ الأقواس", expand), ("حلّل إلى عوامل", factor),
-              ("حلّ المعادلة", solve), ("اشتقّ", differentiate), ("كامِل", integrate)]
+              ("حلّ المعادلة", solve), ("اشتقّ", differentiate), ("كامِل", integrate), ("ادرس الدالة", study)]

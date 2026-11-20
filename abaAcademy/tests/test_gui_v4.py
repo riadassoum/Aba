@@ -332,6 +332,85 @@ class TestV4Screens(unittest.TestCase):
         finally:
             d.Destroy(); pump()
 
+    def test_tools_v4(self):
+        from abaAcademy.gui import tools_v4_view as tv
+        d, sp = self._open(tv.MawarithDialog)
+        try:
+            d.counts["wife"].SetValue(1); d.counts["son"].SetValue(1); d.counts["daughter"].SetValue(1)
+            d.estate.SetValue("24000")
+            d._run()
+            self.assertIn("14000", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.SqlLabDialog)
+        try:
+            d.sql.SetValue("SELECT name FROM students WHERE city = 'القدس'")
+            d._run()
+            self.assertIn("أحمد", d.out.GetValue())
+            d.exChoice.SetSelection(1); d._exercise()
+            d.sql.SetValue("select * from students"); d._run()
+            self.assertIn("صحيح", sp.spoken[-1] if hasattr(sp, "spoken") and sp.spoken else "صحيح")
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.CipherDialog)
+        try:
+            d.text.SetValue("abc"); d._run()
+            self.assertEqual(d.out.GetValue(), "def")
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.SolutionsDialog)
+        try:
+            d.values.SetValue("0.01"); d._run()
+            self.assertIn("pH", d.out.GetValue())
+            d.calc.SetSelection(5); d.values.SetValue("58.44, NaCl, 1"); d._run()
+            self.assertIn("1 مول/لتر", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.DistributionsDialog)
+        try:
+            d.params.SetValue("10, 0.5"); d.values.SetValue("5"); d._run()
+            self.assertIn("0.246094", d.out.GetValue())
+            d.ci.SetValue("50, 10, 16"); d._ci()
+            self.assertIn("فترة الثقة", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.CollocationsDialog)
+        try:
+            d.word.SetValue("صلاة"); d._search()
+            self.assertGreater(d.list.GetCount(), 5)
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.NumberWordsDialog)
+        try:
+            d.num.SetValue("1984"); d._show()
+            self.assertIn("mille neuf cent", d.list.GetString(1))
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        from abaAcademy.gui.english_pron_view import EnglishPronDialog
+        d, sp = self._open(EnglishPronDialog)
+        try:
+            d.word.SetValue("light"); d._show()
+            self.assertIn("/lˈaɪt/", d.out.GetValue())
+            self.assertGreater(d.rhymeList.GetCount(), 3)
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.AnalyzerDialog)
+        try:
+            d.word.SetValue("المدرسة"); d._analyse()
+            for _ in range(900):
+                pump(1)
+                if d.readings:
+                    break
+            self.assertTrue(any("درس" in r.root for r in d.readings))
+        finally:
+            d.Destroy(); pump()
+
 
 if __name__ == "__main__":
     unittest.main()

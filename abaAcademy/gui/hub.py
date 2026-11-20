@@ -300,6 +300,42 @@ class HubDialog(AccessibleFrame):
         from .verb_tables_view import VerbTablesDialog
         self.show_child(VerbTablesDialog(self, self.academy, self.speech))
 
+    def _open_analyzer(self, evt):
+        from .tools_v4_view import AnalyzerDialog
+        self.show_child(AnalyzerDialog(self, self.academy, self.speech))
+
+    def _open_collocations(self, evt):
+        from .tools_v4_view import CollocationsDialog
+        self.show_child(CollocationsDialog(self, self.academy, self.speech))
+
+    def _open_ciphers(self, evt):
+        from .tools_v4_view import CipherDialog
+        self.show_child(CipherDialog(self, self.academy, self.speech))
+
+    def _open_sql_lab(self, evt):
+        from .tools_v4_view import SqlLabDialog
+        self.show_child(SqlLabDialog(self, self.academy, self.speech))
+
+    def _open_mawarith(self, evt):
+        from .tools_v4_view import MawarithDialog
+        self.show_child(MawarithDialog(self, self.academy, self.speech))
+
+    def _open_solutions(self, evt):
+        from .tools_v4_view import SolutionsDialog
+        self.show_child(SolutionsDialog(self, self.academy, self.speech))
+
+    def _open_distributions(self, evt):
+        from .tools_v4_view import DistributionsDialog
+        self.show_child(DistributionsDialog(self, self.academy, self.speech))
+
+    def _open_english_pron(self, evt):
+        from .english_pron_view import EnglishPronDialog
+        self.show_child(EnglishPronDialog(self, self.academy, self.speech))
+
+    def _open_number_words(self, evt):
+        from .tools_v4_view import NumberWordsDialog
+        self.show_child(NumberWordsDialog(self, self.academy, self.speech))
+
     def _open_chess(self, evt):
         from .chess_view import ChessDialog
         self.show_child(ChessDialog(self, self.academy, self.speech))

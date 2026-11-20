@@ -44,6 +44,31 @@ def _orjson_fallback() -> None:
         m.loads = lambda data, *a, **k: json.loads(data.decode("utf-8") if isinstance(data, bytes) else data)
         m.OPT_INDENT_2 = 0
         sys.modules["orjson"] = m
+    _quiet_close()
+
+
+def _quiet_close() -> None:
+    """Several of Mishkal's libraries close their SQLite connection in
+    __del__, which at exit may run on another thread and print a harmless
+    traceback; silence it."""
+    import importlib
+    for mod, cls in (("arramooz.arabicdictionary", "ArabicDictionary"), ("asmai.semdictionary", "SemanticDictionary"),
+                     ("maskouk.collocationdictionary", "collocationDictionary")):
+        try:
+            c = getattr(importlib.import_module(mod), cls)
+            if getattr(c, "_aba_quiet", False) or not hasattr(c, "__del__"):
+                continue
+            orig = c.__del__
+
+            def _del(self, _orig=orig):
+                try:
+                    _orig(self)
+                except Exception:
+                    pass
+            c.__del__ = _del
+            c._aba_quiet = True
+        except Exception:
+            pass
 
 
 _engine = None
