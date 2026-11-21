@@ -263,7 +263,7 @@ QUICK_START = """أكاديمية الكفيف العربي {version}
 البرنامج محمول: يحفظ تقدّمك وإعداداتك في مجلّد userdata بجانبه. لنقله إلى جهاز آخر انسخ المجلّد كاملًا.
 
 الاستعمال
-كل شيء يعمل بلوحة المفاتيح ويُقرأ بقارئ الشاشة أو بالصوت المدمج. Tab وShift+Tab للتنقّل، وCtrl+Tab للتنقّل بين أقسام الشاشة الرئيسية، وEnter للفتح، وEscape للرجوع، وF1 للمساعدة في أيّ شاشة.
+كل شيء يعمل بلوحة المفاتيح ويُقرأ بقارئ الشاشة أو بالصوت المدمج. Tab وShift+Tab للتنقّل، وAlt أو F10 للوصول إلى شريط القوائم بأقسام الأكاديمية وميزاتها، وEnter للفتح، وEscape للرجوع، وF1 للمساعدة في أيّ شاشة.
 لضعاف البصر ومن يرافق المتعلّم: من الإعدادات اختر حجم الخطّ والتباين العالي، وفعّل إبراز العنصر المحدّد.
 
 التغييرات: CHANGELOG.txt
@@ -357,7 +357,7 @@ def check_release_zip(zip_path, require=()):
 
 
 EMBED_URL = "https://www.python.org/ftp/python/{v}/python-{v}-embed-amd64.zip"
-RUNTIME_PACKAGES = ["wxPython>=4.2", "miniaudio>=1.59"]
+RUNTIME_PACKAGES = ["wxPython>=4.2", "miniaudio>=1.59", "sympy>=1.13", "orjson>=3.9"]
 
 
 def _download(url, dest):

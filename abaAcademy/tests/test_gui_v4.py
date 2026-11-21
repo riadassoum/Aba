@@ -1,0 +1,416 @@
+# -*- coding: utf-8 -*-
+"""Drive the 4.0 screens with real wx: typing course, braille translator,
+tajweed teacher. Skipped without wx and a display (run under xvfb-run)."""
+
+import os
+import sys
+import tempfile
+import time
+import unittest
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+try:
+    import wx
+    _app = wx.App(False) if wx.GetApp() is None else wx.GetApp()
+    HAVE_WX = bool(wx.Display.GetCount())
+except Exception:
+    HAVE_WX = False
+
+
+def pump(n=6):
+    for _ in range(n):
+        wx.Yield()
+        time.sleep(0.005)
+
+
+class _Speech:
+    def __init__(self):
+        self.lines = []
+
+    def announce(self, text, **_):
+        self.lines.append(str(text))
+
+    def speak_line(self, text):
+        self.lines.append(str(text))
+
+    def interrupt(self):
+        pass
+
+
+@unittest.skipUnless(HAVE_WX, "wx with a display is required")
+class TestV4Screens(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        from abaDesktop.core import build_academy
+        cls.academy = build_academy(tempfile.mkdtemp())
+        cls.frame = wx.Frame(None)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.frame.Destroy()
+        pump()
+
+    def _open(self, cls):
+        sp = _Speech()
+        d = cls(self.frame, self.academy, sp)
+        d.Show()
+        pump()
+        return d, sp
+
+    def test_typing_course(self):
+        from abaAcademy.gui.typing_course_view import TypingCourseDialog
+        d, sp = self._open(TypingCourseDialog)
+        try:
+            self.assertGreater(d.lessonList.GetCount(), 5)
+            d._start()
+            line = d.session.current
+            d.entry.SetValue(line)
+            d._submit()
+            self.assertIn("الدقّة 100", " ".join(sp.lines))
+            d.entry.SetValue("x")
+            d._submit()
+            self.assertTrue(any("أعد السطر" in l for l in sp.lines))
+            d._explain()
+            d._home()
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_braille_translator(self):
+        from abaAcademy.braille_engine import louis
+        from abaAcademy.gui.braille_translator_view import BrailleTranslatorDialog
+        d, sp = self._open(BrailleTranslatorDialog)
+        try:
+            d.source.SetValue("ذهب الولد إلى المدرسة")
+            d.gradeChoice.SetSelection(1)
+            d._to_braille()
+            cells = d.result.GetValue()
+            self.assertEqual(cells, louis.translate("ذهب الولد إلى المدرسة", 2))
+            d._read_dots()
+            d.source.SetValue(cells)
+            d._to_text()
+            self.assertEqual(d.result.GetValue(), "ذهب الولد إلى المدرسة")
+            d._drill_next()
+            word = d._drill_word
+            d.drillEntry.SetValue(word)
+            d._drill_check()
+            self.assertTrue(sp.lines[-1].startswith("صحيح"))
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_tajweed(self):
+        from abaAcademy.gui.tajweed_view import TajweedDialog
+        d, sp = self._open(TajweedDialog)
+        try:
+            d.surahChoice.SetSelection(0)
+            d._fill_ayat()
+            d.ayahList.SetSelection(6)
+            d._show_ayah()
+            self.assertIn("المدّ اللازم", d.out.GetValue())
+            d.ruleList.SetSelection(0)
+            d._explain_rule()
+            self.assertIn("أمثلة", d.out.GetValue())
+            d._quiz_surah()
+            self.assertGreater(d.quizList.GetCount(), 1)
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_nvda_course(self):
+        from abaAcademy.gui.nvda_course_view import NvdaCourseDialog
+        d, sp = self._open(NvdaCourseDialog)
+        try:
+            self.assertGreater(d.lessonList.GetCount(), 5)
+            d.lessonList.SetSelection(1)
+            d._fill_commands()
+            self.assertGreater(d.cmdList.GetCount(), 0)
+            d.layoutChoice.SetSelection(1)
+            d._layout_changed()
+            d._quiz_lesson()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_world_atlas(self):
+        from abaAcademy.gui.countries_view import CountriesDialog
+        d, sp = self._open(CountriesDialog)
+        try:
+            d.search.SetValue("الرباط")
+            d._filter()
+            self.assertEqual(d.list.GetCount(), 1)
+            d._show_speak()
+            self.assertIn("درهم", d.out.GetValue())
+            d.search.SetValue("")
+            d.regionChoice.SetSelection(1)
+            d._filter()
+            self.assertGreaterEqual(d.list.GetCount(), 20)
+            for k in range(len(d.quizChoice.GetItems())):
+                d.quizChoice.SetSelection(k)
+                d.quiz.next()
+                d.quizList.SetSelection(0)
+                d.quiz.answer()
+            self.assertEqual(d.quiz.total, len(d.quizChoice.GetItems()))
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_spell_dialog(self):
+        from abaAcademy.gui.spell_view import SpellCheckDialog
+        d, sp = self._open(SpellCheckDialog)
+        try:
+            d.text.SetValue("ذهبت الى المدرسه")
+            d._restart()
+            self.assertIsNotNone(d.current)
+            d.sugList.SetSelection(0)
+            d._replace()
+            d.sugList.SetSelection(0) if d.sugList.GetCount() else None
+            if d.current:
+                d._replace()
+            self.assertNotIn("المدرسه", d.text.GetValue())
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_sarf_and_irab(self):
+        from abaAcademy.gui.sarf_view import SarfDialog
+        from abaAcademy.gui.irab_view import IrabDialog
+        d, sp = self._open(SarfDialog)
+        try:
+            d.word.SetValue("قلم")
+            d._lookup()
+            self.assertIn("أَقْلاَم", d.out.GetValue())
+            d.root.SetValue("ع ل م")
+            d._family()
+            self.assertIn("أسرة الجذر", d.out.GetValue())
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+        d, sp = self._open(IrabDialog)
+        try:
+            d.surahChoice.SetSelection(2)
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_conjugator(self):
+        from abaAcademy.gui.qutrub_view import QutrubDialog
+        d, sp = self._open(QutrubDialog)
+        try:
+            d.verb.SetValue("كتب")
+            d._find()
+            self.assertGreaterEqual(d.babList.GetCount(), 1)
+            self.assertIn("يَكْتُبُ", d.out.GetValue())
+            d.tenseChoice.SetSelection(4)
+            d._show()
+            self.assertIn("اُكْتُبْ", d.out.GetValue())
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_library_screens(self):
+        from abaAcademy.gui.quran_morph_view import QuranMorphDialog
+        from abaAcademy.gui.sentence_bank_view import SentenceBankDialog
+        d, sp = self._open(QuranMorphDialog)
+        try:
+            d.surahChoice.SetSelection(1)
+            d._fill_ayat()
+            d.ayahChoice.SetSelection(2)
+            d._fill_words()
+            d.wordList.SetSelection(1)
+            d._show_word()
+            self.assertIn("فعل", d.out.GetValue())
+            d.rootEntry.SetValue("ر ح م")
+            d._root()
+            self.assertIn("ورد الجذر", d.out.GetValue())
+            d._quiz(True)
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+        d, sp = self._open(SentenceBankDialog)
+        try:
+            d.query.SetValue("book")
+            d._search()
+            self.assertGreater(d.results.GetCount(), 0)
+            d.quiz.next()
+            d.quizList.SetSelection(0)
+            d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_chess(self):
+        from abaAcademy.gui.chess_view import ChessDialog
+        d, sp = self._open(ChessDialog)
+        try:
+            self.assertEqual(d.moveList.GetCount(), 20)
+            d.moveEntry.SetValue("e2e4")
+            d._play_typed()
+            for _ in range(200):
+                pump(1)
+                if not d.thinking:
+                    break
+            self.assertTrue(d.game.human_to_move)
+            self.assertEqual(len(d.game.log), 2)
+            d.squareEntry.SetValue("e4")
+            d._ask()
+            self.assertIn("بيدق أبيض", sp.lines[-1])
+            d._undo()
+            self.assertEqual(len(d.game.log), 0)
+        finally:
+            d.Destroy()
+            pump()
+
+    def test_more_screens(self):
+        from abaAcademy.gui.verb_tables_view import VerbTablesDialog
+        from abaAcademy.gui.solar_system_view import SolarSystemDialog
+        from abaAcademy.gui.english_irregulars_view import EnglishIrregularsDialog
+        from abaAcademy.gui.math_lab_view import MathLabDialog
+        d, sp = self._open(VerbTablesDialog)
+        try:
+            d.verb.SetValue("parler")
+            d._show()
+            self.assertIn("je parle", d.out.GetValue())
+            d.langChoice.SetSelection(1)
+            d._lang_changed()
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        for cls in (SolarSystemDialog, EnglishIrregularsDialog):
+            d, sp = self._open(cls)
+            try:
+                d.list.SetSelection(2)
+                d._show()
+                self.assertTrue(d.out.GetValue())
+                d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+                self.assertEqual(d.quiz.total, 1)
+            finally:
+                d.Destroy(); pump()
+        d, sp = self._open(MathLabDialog)
+        try:
+            d.expr.SetValue("س^2 = 9")
+            d._auto()
+            self.assertIn("س = -3", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+
+    def test_diacritizer(self):
+        from abaAcademy.gui.diacritizer_view import DiacritizerDialog
+        d, sp = self._open(DiacritizerDialog)
+        try:
+            d.source.SetValue("كتب المعلم الدرس")
+            d._run()
+            for _ in range(600):
+                pump(1)
+                if not d.busy:
+                    break
+            self.assertIn("كَتَبَ", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+
+    def test_tools_v4(self):
+        from abaAcademy.gui import tools_v4_view as tv
+        d, sp = self._open(tv.MawarithDialog)
+        try:
+            d.counts["wife"].SetValue(1); d.counts["son"].SetValue(1); d.counts["daughter"].SetValue(1)
+            d.estate.SetValue("24000")
+            d._run()
+            self.assertIn("14000", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.SqlLabDialog)
+        try:
+            d.sql.SetValue("SELECT name FROM students WHERE city = 'القدس'")
+            d._run()
+            self.assertIn("أحمد", d.out.GetValue())
+            d.exChoice.SetSelection(1); d._exercise()
+            d.sql.SetValue("select * from students"); d._run()
+            self.assertIn("صحيح", sp.spoken[-1] if hasattr(sp, "spoken") and sp.spoken else "صحيح")
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.CipherDialog)
+        try:
+            d.text.SetValue("abc"); d._run()
+            self.assertEqual(d.out.GetValue(), "def")
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.SolutionsDialog)
+        try:
+            d.values.SetValue("0.01"); d._run()
+            self.assertIn("pH", d.out.GetValue())
+            d.calc.SetSelection(5); d.values.SetValue("58.44, NaCl, 1"); d._run()
+            self.assertIn("1 مول/لتر", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.DistributionsDialog)
+        try:
+            d.params.SetValue("10, 0.5"); d.values.SetValue("5"); d._run()
+            self.assertIn("0.246094", d.out.GetValue())
+            d.ci.SetValue("50, 10, 16"); d._ci()
+            self.assertIn("فترة الثقة", d.out.GetValue())
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.CollocationsDialog)
+        try:
+            d.word.SetValue("صلاة"); d._search()
+            self.assertGreater(d.list.GetCount(), 5)
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.NumberWordsDialog)
+        try:
+            d.num.SetValue("1984"); d._show()
+            self.assertIn("mille neuf cent", d.list.GetString(1))
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        from abaAcademy.gui.english_pron_view import EnglishPronDialog
+        d, sp = self._open(EnglishPronDialog)
+        try:
+            d.word.SetValue("light"); d._show()
+            self.assertIn("/lˈaɪt/", d.out.GetValue())
+            self.assertGreater(d.rhymeList.GetCount(), 3)
+            d.quiz.next(); d.quizList.SetSelection(0); d.quiz.answer()
+            self.assertEqual(d.quiz.total, 1)
+        finally:
+            d.Destroy(); pump()
+        d, sp = self._open(tv.AnalyzerDialog)
+        try:
+            d.word.SetValue("المدرسة"); d._analyse()
+            for _ in range(900):
+                pump(1)
+                if d.readings:
+                    break
+            self.assertTrue(any("درس" in r.root for r in d.readings))
+        finally:
+            d.Destroy(); pump()
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -41,7 +41,7 @@ def test_no_guillemets_in_shipped_text():
     found = []
     for base in (PKG, os.path.join(ROOT, "abaDesktop")):
         for root, dirs, files in os.walk(base):
-            dirs[:] = [d for d in dirs if d not in ("__pycache__", "vendor", "tests")]
+            dirs[:] = [d for d in dirs if d not in ("__pycache__", "vendor", "tests", "thirdparty")]
             for f in files:
                 if f == "speakable.py":          # the filter that removes them
                     continue
@@ -119,7 +119,7 @@ def test_catalog_is_organised():
     titles = [t.title for t in CATALOG]
     assert len(titles) == len(set(titles)) and len(titles) >= 12
     for tab in CATALOG:
-        assert 2 <= len(tab.features) <= 12, tab.title
+        assert 2 <= len(tab.features) <= 16, tab.title  # one menu each in the menu bar
     labels = [f.label for f in all_features()]
     assert len(labels) == len(set(labels))
     assert {"spanish", "turkish", "german", "italian", "english_graded", "french_graded"} <= set(course_ids())
@@ -194,7 +194,7 @@ def _build_module():
 
 def test_release_zip_checker():
     b = _build_module()
-    assert b.app_version() == "3.0"
+    assert b.app_version() == "4.0"
     d = tempfile.mkdtemp()
     good = os.path.join(d, "good.zip")
     with zipfile.ZipFile(good, "w") as z:

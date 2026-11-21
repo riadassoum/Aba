@@ -70,7 +70,7 @@ def lookup_english(word):
 
 class DictionaryDialog(AccessibleDialog):
     def __init__(self, parent, academy, speech, initial=""):
-        super().__init__(parent, "القاموس (إنجليزي)", speech, size=(640, 520))
+        super().__init__(parent, "القاموس العربي الإنجليزي", speech, size=(640, 520))
         self.academy = academy
         self._cache = {}
         self._audio_url = ""
@@ -84,7 +84,7 @@ class DictionaryDialog(AccessibleDialog):
         r = wx.BoxSizer(wx.HORIZONTAL)
         r.Add(wx.StaticText(panel, label="الكلمة:"), 0, wx.ALIGN_CENTER_VERTICAL | wx.ALL, 4)
         self.word = wx.TextCtrl(panel, value=initial, style=wx.TE_PROCESS_ENTER)
-        self.word.SetName("الكلمة الإنجليزية"); self.word.Bind(wx.EVT_TEXT_ENTER, self._on_lookup)
+        self.word.SetName("الكلمة العربية أو الإنجليزية"); self.word.Bind(wx.EVT_TEXT_ENTER, self._on_lookup)
         r.Add(self.word, 1, wx.ALL, 4)
         r.Add(self.button(panel, "بحث", self._on_lookup), 0, wx.ALL, 4)
         sizer.Add(r, 0, wx.EXPAND)
@@ -108,6 +108,38 @@ class DictionaryDialog(AccessibleDialog):
         w = self.word.GetValue().strip()
         if not w:
             return
+        from ..offline_dict import OfflineDictionary
+        od = OfflineDictionary.get()
+        found = od.lookup(w)
+        is_arabic = any("\u0621" <= c <= "\u064a" for c in w)
+        if not is_arabic:
+            defs = od.english_text(w)
+            if defs:
+                found = (["بالعربية: " + "، ".join(x.split(":")[0] for x in found[:6])] if found else []) + \
+                    ["المعنى بالإنجليزية:"] + defs
+                self._word = w
+                lines = [w] + found
+                self._first_def = defs[0]
+                self._offline_lines = lines
+                self.result.SetValue("\n".join(lines))
+                self.result.SetInsertionPoint(0)
+                self.result.SetFocus()
+                self.announce("\n".join(lines[:3]))
+                return
+        if found or is_arabic:
+            lines = ([f"{w}: من القاموس العربي الإنجليزي دون اتصال"] + found) if found else \
+                [f"لم أجد {w} في القاموس دون اتصال."]
+            self._word = w if not is_arabic else ""
+            self._first_def = found[0] if found else ""
+            self.result.SetValue("\n".join(lines))
+            self.result.SetInsertionPoint(0)
+            self.result.SetFocus()
+            self.announce("\n".join(lines[:4]))
+            if is_arabic:
+                return
+            self._offline_lines = lines
+        else:
+            self._offline_lines = []
         if w.lower() in self._cache:
             self._show(self._cache[w.lower()])
             return
@@ -119,11 +151,15 @@ class DictionaryDialog(AccessibleDialog):
         self.call_after(self._done, w, res)
 
     def _done(self, w, res):
+        offline = getattr(self, "_offline_lines", [])
         if not res:
-            self.result.SetValue("لم يُعثر على الكلمة. تأكّد من التهجئة أو الاتصال بالإنترنت.")
-            self.announce("لم يُعثر على الكلمة.")
+            if not offline:
+                self.result.SetValue("لم يُعثر على الكلمة. تأكّد من التهجئة أو الاتصال بالإنترنت.")
+                self.announce("لم يُعثر على الكلمة.")
             return
         self._cache[w.lower()] = res
+        if offline:
+            res = dict(res, lines=offline + ["", "التعريف الإنجليزي من الإنترنت:"] + res["lines"])
         self._show(res)
 
     def _show(self, res):
@@ -186,5 +222,6 @@ class DictionaryDialog(AccessibleDialog):
             pass
 
     def instructions(self) -> str:
-        return ("اكتب كلمة إنجليزية واضغط Enter لعرض النطق والتعريفات والأمثلة والمرادفات. "
-                "التعريفات تُجلب من قاموس مجاني عبر الإنترنت. Escape للإغلاق.")
+        return ("اكتب كلمة إنجليزية أو عربية واضغط Enter. تظهر أوّلًا معانيها من القاموس العربي الإنجليزي "
+                "المضمّن (من ويكاموس) دون اتصال، ثم للكلمة الإنجليزية تعريفها ونطقها وأمثلتها من الإنترنت إن توفّر. "
+                "Escape للإغلاق.")

@@ -8,7 +8,7 @@
 2. `python pairs.py WORK/tatoeba` ثم `python freq.py WORK/tatoeba`.
 3. من kaikki.org: مرّر ملفّ ويكاموس الإنجليزي إلى `wikt.py WORK/wikt/senses.jsonl`، وملفّ كل لغة إلى `langdict.py CODE WORK/tatoeba/freq_CODE.json WORK/wikt/dict_CODE.jsonl`، واستخرج صيغ الإنجليزية إلى `WORK/wikt/en_formof.json`.
 4. `python lexicon.py WORK en es tr de it fr`
-5. `python build_courses.py WORK path/to/abaAcademy/courses en es tr de it fr`
+5. `python build_courses.py WORK path/to/abaAcademy/courses en es tr de it fr` ثم `python build_decks.py path/to/abaAcademy`. قائمتا CEFR-J وOctanove (من github.com/openlanguageprofiles/olp-en-cefrj) توضعان في `WORK/cefrj`.
 
 `overrides.py` معاني الكلمات الأكثر شيوعًا مراجعة يدويًّا. `grammar_notes.py` شروح القواعد.
 

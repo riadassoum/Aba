@@ -2,6 +2,10 @@ import json, os, sys, copy
 SC = sys.argv[2] if len(sys.argv) > 2 else "work"
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from exercism_spec import SPECS, TRACKS
+from exercism_spec_v4 import SPECS_V4, TRACKS_V4
+
+SPECS = SPECS + SPECS_V4
+TRACKS = TRACKS + TRACKS_V4
 
 EX = SC + "/exercism"
 

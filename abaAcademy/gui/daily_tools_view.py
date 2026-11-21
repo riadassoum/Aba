@@ -19,76 +19,9 @@ except Exception:
     wx = None
 
 from .tool_base import ToolDialog, ChoiceQuiz, parse_float, parse_int
-from ..science import arab_countries as ac
 from ..math_engine import arithmetic as ar
 from ..tools import tasbih
 from ..tools.ar_count import count
-
-
-class CountriesDialog(ToolDialog):
-    TITLE = "الدول العربية (العواصم والعملات)"
-    SIZE = (780, 660)
-
-    def __init__(self, parent, academy, speech):
-        super().__init__(parent, academy, speech)
-        self._regions = ["كلّ الدول"] + ac.regions()
-        self.regionChoice = self.add_choice("الإقليم", self._regions, on_change=self._fill)
-        self.list = self.add_list("الدول (Enter للبطاقة)", height=170, on_activate=self._card)
-        self.searchEntry = self.add_entry("ابحث بالدولة أو العاصمة", on_enter=self._search)
-        self._kinds = list(ac.QUIZ_KINDS)
-        self.kindChoice = self.add_choice("نوع السؤال", [ac.QUIZ_KINDS[k] for k in self._kinds] + ["متنوّع"],
-                                          len(self._kinds))
-        self.prompt = self.add_text("اضغط سؤال جديد.")
-        self.options = self.add_list("الخيارات", height=100)
-        self._rng = random.Random()
-        self.quiz = ChoiceQuiz(self, self.options, self._make, prompt_ctrl=self.prompt)
-        self.add_buttons([("سؤال جديد", self.quiz.next), ("نتيجتي", lambda: self._say(self.quiz.score_text()))])
-        self.add_output("البطاقة", height=80)
-        self.finish(self.list)
-        self._fill()
-
-    def _pool(self):
-        i = self.choice_index(self.regionChoice)
-        return list(ac.COUNTRIES) if i == 0 else ac.in_region(self._regions[i])
-
-    def _fill(self) -> None:
-        self._shown = self._pool()
-        self.list.Set([f"{c.name}: {c.capital}" for c in self._shown])
-        self.select_index(self.list, 0)
-
-    def _card(self) -> None:
-        i = self.list.GetSelection()
-        if 0 <= i < len(self._shown):
-            self.show_output(ac.describe(self._shown[i]))
-
-    def _search(self) -> None:
-        c = ac.find(self.searchEntry.GetValue())
-        if c is None:
-            raise ValueError("لم أجد دولة عربية بهذا الاسم أو العاصمة.")
-        self.regionChoice.SetSelection(0)
-        self._fill()
-        self.select_index(self.list, self._shown.index(c))
-        self.list.SetFocus()
-        self.show_output(ac.describe(c))
-
-    def _make(self):
-        k = self.choice_index(self.kindChoice)
-        kind = self._kinds[k] if k < len(self._kinds) else self._rng.choice(self._kinds)
-        return ac.make_question(kind, self._rng, self._pool())
-
-    def on_enter_key(self) -> bool:
-        f = self.FindFocus()
-        if f is self.list:
-            self._card()
-            return True
-        if f is self.options:
-            self.quiz.answer()
-            return True
-        return False
-
-    def instructions(self) -> str:
-        return ("الدول العربية الاثنتان والعشرون: تنقّل في القائمة واضغط Enter لبطاقة الدولة بعاصمتها "
-                "وإقليمها وعملتها ورمز اتصالها. واختبر نفسك بالأسئلة، مع إمكان حصرها في إقليم.")
 
 
 class ArithmeticDialog(ToolDialog):

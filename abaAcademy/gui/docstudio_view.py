@@ -65,6 +65,8 @@ class DocStudioDialog(AccessibleDialog):
         s.Add(self.status, 0, wx.ALL, 6)
 
         row = wx.BoxSizer(wx.HORIZONTAL)
+        row.Add(self.button(panel, "دقّق الإملاء (F7)", lambda e: self._spell()), 0, wx.ALL, 3)
+        row.Add(self.button(panel, "شكِّل النصّ (F8)", lambda e: self._diacritize()), 0, wx.ALL, 3)
         row.Add(self.button(panel, "صدّر إلى وورد", lambda e: self._export("docx")), 0, wx.ALL, 3)
         row.Add(self.button(panel, "صدّر إلى HTML", lambda e: self._export("html")), 0, wx.ALL, 3)
         row.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()), 0, wx.ALL, 3)
@@ -72,8 +74,16 @@ class DocStudioDialog(AccessibleDialog):
 
         panel.SetSizer(s)
         self.set_first_control(self.titleEntry)
+        from .. import spell
+        spell.preload(("ar",))
 
     def _on_key(self, evt):
+        if evt.GetKeyCode() == wx.WXK_F7:
+            self._spell()
+            return
+        if evt.GetKeyCode() == wx.WXK_F8:
+            self._diacritize()
+            return
         if evt.ControlDown():
             code = evt.GetKeyCode()
             prefix = {ord("1"): "# ", ord("2"): "## ", ord("3"): "### ",
@@ -100,6 +110,26 @@ class DocStudioDialog(AccessibleDialog):
         self.editor.SetValue(new_text)
         self.editor.SetInsertionPoint(line_start + len(prefix))
         self._say("طُبّق التنسيق على السطر.")
+
+    def _diacritize(self):
+        from .diacritizer_view import DiacritizerDialog
+        if not self.editor.GetValue().strip():
+            self._say("اكتب بعض النص أولاً.")
+            return
+        dlg = DiacritizerDialog(self, self.academy, self.speech, target=self.editor)
+        dlg.ShowModal()
+        dlg.Destroy()
+        self.editor.SetFocus()
+
+    def _spell(self):
+        from .spell_view import SpellCheckDialog
+        if not self.editor.GetValue().strip():
+            self._say("اكتب بعض النص أولاً.")
+            return
+        dlg = SpellCheckDialog(self, self.academy, self.speech, target=self.editor)
+        dlg.ShowModal() if hasattr(dlg, "ShowModal") else dlg.Show()
+        dlg.Destroy()
+        self.editor.SetFocus()
 
     def _export(self, kind):
         md = self.editor.GetValue()
@@ -133,5 +163,5 @@ class DocStudioDialog(AccessibleDialog):
     def instructions(self):
         return ("محرّر الواجبات: اكتب نصك بماركداون البسيط (# عنوان، ## فرعي، - نقطة، "
                 "> اقتباس، **عريض**، *مائل*). اختصارات: Ctrl+1/2/3 عناوين، Ctrl+L نقطة، "
-                "Ctrl+Q اقتباس. اكتب العنوان واسمك، ثم صدّر إلى وورد أو صدّر إلى HTML "
+                "Ctrl+Q اقتباس، وF7 للتدقيق الإملائي، وF8 لتشكيل النصّ المحدّد أو كله. اكتب العنوان واسمك، ثم صدّر إلى وورد أو صدّر إلى HTML "
                 "لملف بترتيب صحيح من اليمين لليسار. Escape للإغلاق.")

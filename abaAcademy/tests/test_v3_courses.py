@@ -116,7 +116,7 @@ def test_starter_flashcard_decks_for_every_language():
 def test_challenge_tracks():
     from abaAcademy.codelab.challenges import tracks, all_challenges, check_solution, get_challenge
     ts = tracks()
-    assert len(ts) == 10 and len(all_challenges()) >= 150
+    assert len(ts) == 12 and len(all_challenges()) >= 170
     assert len({c.cid for c in all_challenges()}) == len(all_challenges())
     for _, _, items in ts:
         for c in items:
@@ -135,3 +135,28 @@ def test_challenge_tracks():
         assert ok, (cid, msg)
     ok, msg = check_solution(get_challenge("ex_leap_year"), "def leap_year(y):\n    return y % 4 == 0\n")
     assert not ok and "False" in msg
+
+
+def test_beginner_words_are_in_a1_stages_and_levels_never_go_back():
+    probe = {"english_graded": ["fruit", "apple", "milk"], "spanish": ["fruta", "manzana", "leche"],
+             "turkish": ["meyve", "elma", "süt"], "german": ["obst", "apfel", "milch"],
+             "italian": ["frutta", "mela", "latte"], "french_graded": ["fruit", "pomme", "lait"]}
+    order = ["A1", "A2", "B1", "B2", "C1", "C2"]
+    for cid, words in probe.items():
+        c = json.load(open(os.path.join(COURSES, cid, "course.json"), encoding="utf-8"))
+        found, seen_levels = {}, []
+        for lv in c["levels"]:
+            if not lv["level_id"].startswith("stage"):
+                continue
+            code = lv["title"].split("(")[1].split(" ")[0]
+            if code in order:
+                seen_levels.append(order.index(code))
+            for l in lv["lessons"]:
+                b = json.load(open(os.path.join(COURSES, cid, "levels", lv["level_id"], l["dir"], "bundle.json"),
+                                   encoding="utf-8"))
+                for w in b["data"].get("focus", []):
+                    if w.lower() in words:
+                        found[w.lower()] = code
+        assert found and all(v == "A1" for v in found.values()), (cid, found)
+        assert seen_levels == sorted(seen_levels), (cid, seen_levels)
+        assert seen_levels[0] == 0

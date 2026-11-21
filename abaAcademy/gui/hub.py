@@ -17,7 +17,7 @@ from __future__ import annotations
 
 import wx
 
-from .accessible import AccessibleDialog, clear_shutdown
+from .accessible import AccessibleDialog, AccessibleFrame, clear_shutdown
 from .achievements_view import AchievementsView
 from .exercise_runner import ExerciseRunner
 from .main_window import MainWindow
@@ -26,7 +26,6 @@ from .keyboard_trainer import KeyboardTrainer, TIERS
 from .quran_reader import QuranReader
 from .hadith_reader import HadithReader
 from .flashcards_view import FlashcardsHome
-from .islamic_tools import IslamicToolsHome
 from .games import GamesHome
 from .settings_view import SettingsView
 from .mistakes_view import MistakesView
@@ -37,10 +36,10 @@ from .onboarding_view import OnboardingView
 from .dictionary import DictionaryDialog
 
 # Kept in sync with manifest.ini.
-__version__ = "3.0"
+__version__ = "4.0"
 
 
-class HubDialog(AccessibleDialog):
+class HubDialog(AccessibleFrame):
     def __init__(self, parent, academy, speech):
         super().__init__(
             parent, f"أكاديمية الكفيف العربي (ABA) — الإصدار {__version__}",
@@ -56,13 +55,13 @@ class HubDialog(AccessibleDialog):
         sizer.Add(self.progressLabel, 0, wx.ALL, 10)
 
         intro = wx.StaticText(
-            panel, label="Ctrl+Tab ينقلك بين الأقسام، والأسهم بين الميزات داخل القسم، وEnter يفتح الميزة. "
-                        "أو اكتب اسم ميزة في الانتقال السريع.")
+            panel, label="اضغط Alt أو F10 للوصول إلى شريط القوائم: لكل قسم قائمة بميزاته، تتنقّل بين الأقسام "
+                        "بالسهمين الأيمن والأيسر وبين الميزات بالسهمين الأعلى والأسفل. أو اكتب اسم ميزة في "
+                        "الانتقال السريع، أو اختر من قائمة البداية أدناه.")
         intro.Wrap(640)
         sizer.Add(intro, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
 
-        # a quick-jump search box above the tabs lets a learner reach any
-        # feature by name without hunting through sections.
+        # a quick-jump search box lets a learner reach any feature by name
         jump_row = wx.BoxSizer(wx.HORIZONTAL)
         jump_row.Add(wx.StaticText(panel, label="انتقال سريع:"), 0,
                      wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 4)
@@ -73,64 +72,60 @@ class HubDialog(AccessibleDialog):
         jump_row.Add(self.jumpEntry, 1)
         sizer.Add(jump_row, 0, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.BOTTOM, 8)
 
-        self.notebook = wx.Notebook(panel)
-        sizer.Add(self.notebook, 1, wx.EXPAND | wx.ALL, 4)
-
-        # Each tab is a list of features (one Tab stop instead of a dozen
-        # buttons), a large description of the selected feature for sighted
-        # helpers and low-vision learners, and an Open button for the mouse.
+        # The whole academy lives in one classic menu (Alt or F10) with a
+        # submenu per section. The screen itself keeps only the start list:
+        # today's practice and the features used most recently.
         from .hub_catalog import CATALOG
         conditions = {
             "has_last": bool(self.academy.last_lesson()),
             "has_profiles": bool(getattr(self.academy, "profiles_root", "")),
         }
-        self._tab_lists = []
+        self._sections = []          # (title, [features]) for the menu
         self._features = []          # (label, handler, description) for quick-jump
         self._describe_timer = None
         for tab_info in CATALOG:
             items = [f for f in tab_info.features if not f.when or conditions.get(f.when, False)]
             items = [f for f in items if not f.handler.startswith("course:")
                      or self.academy.course(f.handler.split(":", 1)[1]) is not None]
-            page = wx.Panel(self.notebook)
-            ps = wx.BoxSizer(wx.VERTICAL)
-            summary = wx.StaticText(page, label=tab_info.summary)
-            ps.Add(summary, 0, wx.ALL, 6)
-            lst = wx.ListBox(page, choices=[f.label for f in items], style=wx.LB_SINGLE)
-            lst.SetName(f"{tab_info.title}: {tab_info.summary}")
-            if items:
-                lst.SetSelection(0)
-            ps.Add(lst, 1, wx.EXPAND | wx.LEFT | wx.RIGHT, 6)
-            desc = wx.StaticText(page, label=items[0].description if items else "")
-            dfont = desc.GetFont()
-            dfont.SetPointSize(dfont.GetPointSize() + 2)
-            desc.SetFont(dfont)
-            desc.Wrap(600)
-            ps.Add(desc, 0, wx.EXPAND | wx.ALL, 8)
-            open_btn = self.button(page, "افتح", lambda e, L=lst, I=items: self._open_selected(L, I))
-            ps.Add(open_btn, 0, wx.ALIGN_LEFT | wx.LEFT | wx.BOTTOM, 6)
-            page.SetSizer(ps)
-            lst.Bind(wx.EVT_LISTBOX, lambda e, L=lst, I=items, D=desc: self._on_feature_selected(L, I, D))
-            lst.Bind(wx.EVT_LISTBOX_DCLICK, lambda e, L=lst, I=items: self._open_selected(L, I))
-            lst.Bind(wx.EVT_KEY_DOWN, lambda e, L=lst, I=items: self._on_list_key(e, L, I))
-            self.notebook.AddPage(page, tab_info.title)
-            self._tab_lists.append((lst, items, desc))
+            self._sections.append((tab_info.title, items))
             for f in items:
                 self._features.append((f.label, self._resolve(f.handler), f.description))
-        self._home_base = list(self._tab_lists[0][1]) if self._tab_lists else []
+        home = self._sections[0][1] if self._sections else []
+        sizer.Add(wx.StaticText(panel, label="البداية:"), 0, wx.LEFT | wx.RIGHT, 8)
+        lst = wx.ListBox(panel, choices=[f.label for f in home], style=wx.LB_SINGLE)
+        lst.SetName("البداية: تدريب اليوم وآخر ما استعملته")
+        if home:
+            lst.SetSelection(0)
+        sizer.Add(lst, 1, wx.EXPAND | wx.LEFT | wx.RIGHT, 8)
+        desc = wx.StaticText(panel, label=home[0].description if home else "")
+        dfont = desc.GetFont()
+        dfont.SetPointSize(dfont.GetPointSize() + 2)
+        desc.SetFont(dfont)
+        desc.Wrap(600)
+        sizer.Add(desc, 0, wx.EXPAND | wx.ALL, 8)
+        items = list(home)
+        row = wx.BoxSizer(wx.HORIZONTAL)
+        row.Add(self.button(panel, "افتح", lambda e, L=lst, I=items: self._open_selected(L, I)), 0, wx.ALL, 4)
+        sizer.Add(row, 0, wx.ALIGN_LEFT | wx.LEFT, 4)
+        lst.Bind(wx.EVT_LISTBOX, lambda e, L=lst, I=items, D=desc: self._on_feature_selected(L, I, D))
+        lst.Bind(wx.EVT_LISTBOX_DCLICK, lambda e, L=lst, I=items: self._open_selected(L, I))
+        lst.Bind(wx.EVT_KEY_DOWN, lambda e, L=lst, I=items: self._on_list_key(e, L, I))
+        # kept as a one-element list: the start list is the old "home" tab
+        self._tab_lists = [(lst, items, desc)]
+        self._home_base = list(home)
         self._refresh_recent()
-        self.dailyBtn = self._tab_lists[0][0] if self._tab_lists else None
-        self.learnBtn = self.dailyBtn
+        self.dailyBtn = lst
+        self.learnBtn = lst
+        self.SetMenuBar(self.build_menu())
+        self.Bind(wx.EVT_MENU, lambda e: self.run_menu_item(e.GetId()))
 
-        # a persistent close button below the tabs
+        # a persistent close button
         sizer.Add(self.button(panel, "إغلاق", lambda e: self.close_screen()),
                   0, wx.ALIGN_RIGHT | wx.ALL, 6)
 
         panel.SetSizer(sizer)
-        # focus the quick-jump box so a learner can reach any feature instantly;
-        # Tab moves into the sections.
+        # focus the quick-jump box so a learner can reach any feature instantly
         self.set_first_control(self.jumpEntry)
-        # Ctrl+Tab / Ctrl+Shift+Tab move between sections and speak the new one
-        self.notebook.Bind(wx.EVT_NOTEBOOK_PAGE_CHANGED, self._on_tab_changed)
         # first run: greet the learner once, then never again
         try:
             if self.academy.settings._store.get_setting("onboarded", "") != "1":
@@ -170,19 +165,37 @@ class HubDialog(AccessibleDialog):
         self.announce(msg)
         handler(None)
 
-    def _on_tab_changed(self, evt):
-        # Announce the section name but DO NOT move focus into the page. If we
-        # grabbed focus here, arrowing left/right along the tab headers would
-        # jerk the user into the page content and they couldn't keep browsing
-        # tabs. Standard behaviour: stay on the tab bar; the user presses Tab to
-        # enter the section when ready.
-        try:
-            idx = evt.GetSelection()
-            title = self.notebook.GetPageText(idx)
-            self.announce(f"قسم {title}")
-        except Exception:
-            pass
-        evt.Skip()
+    # -- the academy menu ---------------------------------------------------
+
+    def build_menu(self) -> "wx.MenuBar":
+        """The native menu bar: one menu per section, one item per feature,
+        and a last menu for help and closing."""
+        bar = wx.MenuBar()
+        self._menu_actions = {}
+        for title, items in self._sections:
+            menu = wx.Menu()
+            for f in items:
+                item = menu.Append(wx.ID_ANY, f.label, f.description)
+                self._menu_actions[item.GetId()] = f
+            bar.Append(menu, title)
+        last = wx.Menu()
+        help_item = last.Append(wx.ID_ANY, "المساعدة\tF1")
+        close_item = last.Append(wx.ID_ANY, "إغلاق الأكاديمية")
+        self._menu_actions[help_item.GetId()] = "help"
+        self._menu_actions[close_item.GetId()] = "close"
+        bar.Append(last, "الأكاديمية")
+        return bar
+
+    def run_menu_item(self, item_id: int) -> None:
+        f = self._menu_actions.get(item_id)
+        if f == "help":
+            self.on_help()
+        elif f == "close":
+            self.close_screen()
+        elif f is not None:
+            self._remember(f)
+            # after the menu has fully closed, so the new screen gets focus
+            self.call_after(self._resolve(f.handler), None)
 
     # -- feature lists -------------------------------------------------------
 
@@ -267,6 +280,106 @@ class HubDialog(AccessibleDialog):
                 self.speech.speak_line(t) if hasattr(self.speech, "speak_line") else self.speech.announce(t)
         self._describe_timer = wx.CallLater(900, speak)
 
+    def _open_diacritizer(self, evt):
+        from .diacritizer_view import DiacritizerDialog
+        self.show_child(DiacritizerDialog(self, self.academy, self.speech))
+
+    def _open_math_lab(self, evt):
+        from .math_lab_view import MathLabDialog
+        self.show_child(MathLabDialog(self, self.academy, self.speech))
+
+    def _open_irregulars(self, evt):
+        from .english_irregulars_view import EnglishIrregularsDialog
+        self.show_child(EnglishIrregularsDialog(self, self.academy, self.speech))
+
+    def _open_solar_system(self, evt):
+        from .solar_system_view import SolarSystemDialog
+        self.show_child(SolarSystemDialog(self, self.academy, self.speech))
+
+    def _open_verb_tables(self, evt):
+        from .verb_tables_view import VerbTablesDialog
+        self.show_child(VerbTablesDialog(self, self.academy, self.speech))
+
+    def _open_analyzer(self, evt):
+        from .tools_v4_view import AnalyzerDialog
+        self.show_child(AnalyzerDialog(self, self.academy, self.speech))
+
+    def _open_collocations(self, evt):
+        from .tools_v4_view import CollocationsDialog
+        self.show_child(CollocationsDialog(self, self.academy, self.speech))
+
+    def _open_ciphers(self, evt):
+        from .tools_v4_view import CipherDialog
+        self.show_child(CipherDialog(self, self.academy, self.speech))
+
+    def _open_sql_lab(self, evt):
+        from .tools_v4_view import SqlLabDialog
+        self.show_child(SqlLabDialog(self, self.academy, self.speech))
+
+    def _open_mawarith(self, evt):
+        from .tools_v4_view import MawarithDialog
+        self.show_child(MawarithDialog(self, self.academy, self.speech))
+
+    def _open_solutions(self, evt):
+        from .tools_v4_view import SolutionsDialog
+        self.show_child(SolutionsDialog(self, self.academy, self.speech))
+
+    def _open_distributions(self, evt):
+        from .tools_v4_view import DistributionsDialog
+        self.show_child(DistributionsDialog(self, self.academy, self.speech))
+
+    def _open_english_pron(self, evt):
+        from .english_pron_view import EnglishPronDialog
+        self.show_child(EnglishPronDialog(self, self.academy, self.speech))
+
+    def _open_number_words(self, evt):
+        from .tools_v4_view import NumberWordsDialog
+        self.show_child(NumberWordsDialog(self, self.academy, self.speech))
+
+    def _open_chess(self, evt):
+        from .chess_view import ChessDialog
+        self.show_child(ChessDialog(self, self.academy, self.speech))
+
+    def _open_sentence_bank(self, evt):
+        from .sentence_bank_view import SentenceBankDialog
+        self.show_child(SentenceBankDialog(self, self.academy, self.speech))
+
+    def _open_quran_morph(self, evt):
+        from .quran_morph_view import QuranMorphDialog
+        self.show_child(QuranMorphDialog(self, self.academy, self.speech))
+
+    def _open_sarf(self, evt):
+        from .sarf_view import SarfDialog
+        self.show_child(SarfDialog(self, self.academy, self.speech))
+
+    def _open_irab(self, evt):
+        from .irab_view import IrabDialog
+        self.show_child(IrabDialog(self, self.academy, self.speech))
+
+    def _open_world_atlas(self, evt):
+        from .countries_view import CountriesDialog
+        self.show_child(CountriesDialog(self, self.academy, self.speech))
+
+    def _open_nvda_course(self, evt):
+        from .nvda_course_view import NvdaCourseDialog
+        self.show_child(NvdaCourseDialog(self, self.academy, self.speech))
+
+    def _open_spell(self, evt):
+        from .spell_view import SpellCheckDialog
+        self.show_child(SpellCheckDialog(self, self.academy, self.speech))
+
+    def _open_tajweed(self, evt):
+        from .tajweed_view import TajweedDialog
+        self.show_child(TajweedDialog(self, self.academy, self.speech))
+
+    def _open_braille_translator(self, evt):
+        from .braille_translator_view import BrailleTranslatorDialog
+        self.show_child(BrailleTranslatorDialog(self, self.academy, self.speech))
+
+    def _open_typing_course(self, evt):
+        from .typing_course_view import TypingCourseDialog
+        self.show_child(TypingCourseDialog(self, self.academy, self.speech))
+
     def _open_placement(self, evt):
         from .placement_view import PlacementDialog
         self.show_child(PlacementDialog(self, self.academy, self.speech))
@@ -285,11 +398,6 @@ class HubDialog(AccessibleDialog):
 
     def _open_help(self, evt):
         self.on_help()
-
-    def on_tab_key(self):
-        """Ctrl+Tab handled by the notebook natively; this is a no-op hook kept
-        for clarity."""
-        return False
 
     # -- helpers ----------------------------------------------------------
 
@@ -443,9 +551,6 @@ class HubDialog(AccessibleDialog):
     def _open_flashcards(self, evt):
         self.show_child(FlashcardsHome(self, self.academy, self.speech))
 
-    def _open_islamic(self, evt):
-        self.show_child(IslamicToolsHome(self, self.academy, self.speech))
-
     def _open_games(self, evt):
         self.show_child(GamesHome(self, self.academy, self.speech))
 
@@ -497,9 +602,13 @@ class HubDialog(AccessibleDialog):
         from .pack_manager import PackManagerDialog
         self.show_child(PackManagerDialog(self, self.academy, self.speech))
 
-    def _open_quran_study(self, evt):
-        from .quran_study import QuranStudyDialog
-        self.show_child(QuranStudyDialog(self, self.academy, self.speech))
+    def _open_asma(self, evt):
+        from .islamic_tools import AsmaAlHusnaView
+        self.show_child(AsmaAlHusnaView(self, self.academy, self.speech))
+
+    def _open_athkar(self, evt):
+        from .islamic_tools import AthkarView
+        self.show_child(AthkarView(self, self.academy, self.speech))
 
     def _open_tafsir_compare(self, evt):
         from .tafsir_compare import TafsirCompareDialog
@@ -514,6 +623,13 @@ class HubDialog(AccessibleDialog):
         self.show_child(SpellingDialog(self, self.academy, self.speech))
 
     def _open_conjugator(self, evt):
+        # Qutrub conjugates every verb; the academy's own engine (sound verbs
+        # only) remains the fallback if the bundled library cannot load
+        from ..arabic_lab import qutrub
+        if qutrub.available():
+            from .qutrub_view import QutrubDialog
+            self.show_child(QutrubDialog(self, self.academy, self.speech))
+            return
         from .conjugator_view import ConjugatorDialog
         self.show_child(ConjugatorDialog(self, self.academy, self.speech))
 
@@ -638,10 +754,6 @@ class HubDialog(AccessibleDialog):
         from .daily_tools_view import ArithmeticDialog
         self.show_child(ArithmeticDialog(self, self.academy, self.speech))
 
-    def _open_countries(self, evt):
-        from .daily_tools_view import CountriesDialog
-        self.show_child(CountriesDialog(self, self.academy, self.speech))
-
     def _open_times(self, evt):
         from .daily_tools_view import TimesTablesDialog
         self.show_child(TimesTablesDialog(self, self.academy, self.speech))
@@ -696,9 +808,9 @@ class HubDialog(AccessibleDialog):
         self.show_child(StatisticsView(self, self.academy, self.speech))
 
     def instructions(self) -> str:
-        base = ("الشاشة الرئيسية. اكتب اسم ميزة في الانتقال السريع، أو اضغط Tab للأقسام. "
-                "Ctrl+Tab بين الأقسام، والأسهم بين الميزات، وEnter للفتح، وF2 لقراءة الشاشة كلها، "
-                "وF1 للمساعدة، وEscape للإغلاق.")
+        base = ("الشاشة الرئيسية. Alt أو F10 ينقلك إلى شريط القوائم: الأسهم الأفقية بين الأقسام، والعمودية بين "
+                "ميزات القسم، وEnter لفتح الميزة، وEscape للخروج من القائمة. أو اكتب اسم ميزة في الانتقال السريع، أو اختر من قائمة البداية. "
+                "F2 لقراءة الشاشة كلها، وF1 للمساعدة، وEscape للإغلاق.")
         reminder = self._study_reminder()
         return f"{reminder} {base}" if reminder else base
 

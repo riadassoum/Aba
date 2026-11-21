@@ -146,14 +146,17 @@ SHORTCUTS_HELP = [
 
 if _WX:
 
-    class AccessibleDialog(wx.Dialog):
-        """Base dialog that enforces the announce-on-show accessibility policy."""
+    class _AccessibleScreen:
+        """The behaviour every academy screen shares (announce-on-show,
+        shortcuts, one teardown path). Mixed into a wx.Dialog for ordinary
+        screens and into a wx.Frame for the main window, which needs a real
+        menu bar."""
+
+        _STYLE = wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER
 
         def __init__(self, parent, title: str, speech: SpeechManager,
                      size=(720, 540)):
-            super().__init__(parent, title=title,
-                             style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER,
-                             size=size)
+            super().__init__(parent, title=title, style=self._STYLE, size=size)
             self.speech = speech
             self._title_text = title
             # A native window should not be able to shrink until its controls
@@ -185,7 +188,8 @@ if _WX:
             # screens, and why a learner could end up stuck inside a modal.
             # wxID_NONE disables the (non-functioning) built-in path so there is
             # exactly one code path for closing.
-            self.SetEscapeId(wx.ID_NONE)
+            if hasattr(self, "SetEscapeId"):
+                self.SetEscapeId(wx.ID_NONE)
 
         def _on_char_hook(self, evt: "wx.KeyEvent") -> None:
             key = evt.GetKeyCode()
@@ -600,6 +604,44 @@ if _WX:
             lines += [f"{k}: {d}" for k, d in SHORTCUTS_HELP]
             self.announce(". ".join(lines))
 
+
+    class AccessibleDialog(_AccessibleScreen, wx.Dialog):
+        """Base dialog that enforces the announce-on-show accessibility policy."""
+
+    class AccessibleFrame(_AccessibleScreen, wx.Frame):
+        """A top-level window with the same behaviour, so it can carry a
+        native menu bar (Alt or F10 opens it, as in any Windows program).
+        It can still be shown modally, which keeps the screen stack and the
+        launchers that call ShowModal() unchanged."""
+
+        _STYLE = wx.DEFAULT_FRAME_STYLE
+
+        def __init__(self, *a, **k):
+            self._modal_loop = None
+            self._modal_result = wx.ID_CANCEL
+            super().__init__(*a, **k)
+
+        def ShowModal(self) -> int:
+            self._modal_result = wx.ID_CANCEL
+            self.Show()
+            self.Raise()
+            self._modal_loop = wx.GUIEventLoop()
+            try:
+                self._modal_loop.Run()
+            finally:
+                self._modal_loop = None
+            return self._modal_result
+
+        def IsModal(self) -> bool:
+            return self._modal_loop is not None
+
+        def EndModal(self, result: int) -> None:
+            self._modal_result = result
+            loop = self._modal_loop
+            self.Show(False)
+            if loop is not None:
+                loop.Exit()
+
 else:
     # Headless stub for tests / sandbox: mirrors the announce policy so that
     # the *sequence and content* of announcements can be asserted without wx.
@@ -644,3 +686,4 @@ else:
 
         def announce(self, text: str) -> None:
             self.speech.announce(text)
+    AccessibleFrame = AccessibleDialog  # type: ignore[misc]
